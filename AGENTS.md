@@ -69,7 +69,8 @@ src/types.ts               MdB, Wahlkreis, Campaign, Sender
 - **Bot-Challenge**: bundestag.de schützt Seiten mit einer Challenge (Enodia). Ein normaler
   HTTP-Request wird auf `/.enodia/challenge` umgeleitet. `fetch-bundestag.mjs` nutzt daher
   Headless-Chrome über `puppeteer-core` (Chrome nötig, Pfad via `CHROME_PATH`).
-- Nur **Direktmandate** (mit Wahlkreis) werden übernommen; Listenmandate fehlen noch.
+- Alle **630 Abgeordneten** werden erfasst: Direktmandate (mit Wahlkreis) und Listenmandate
+  (mit Bundesland). Nur Direktmandate sind über die PLZ auffindbar.
 - Die **PLZ→Wahlkreis-Zuordnung ist noch Demo** – derzeit einziger Daten-Risikopunkt.
 
 ## Git

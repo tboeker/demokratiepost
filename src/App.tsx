@@ -73,7 +73,9 @@ export default function App() {
             anrede: salutation(selectedMdB),
             name: selectedMdB.name,
             partei: selectedMdB.party,
-            wahlkreis: `Wahlkreis ${selectedMdB.wahlkreis.number} – ${selectedMdB.wahlkreis.name}`,
+            wahlkreis: selectedMdB.wahlkreis
+              ? `Wahlkreis ${selectedMdB.wahlkreis.number} – ${selectedMdB.wahlkreis.name}`
+              : (selectedMdB.state ?? ''),
             strasse: selectedMdB.address?.strasse ?? '',
             plz: selectedMdB.address?.plz ?? '',
             ort: selectedMdB.address?.ort ?? '',

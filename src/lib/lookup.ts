@@ -52,7 +52,9 @@ export async function findRecipientsByPlz(plz: string): Promise<MdB[]> {
   if (wahlkreisNumbers.length === 0) return [];
 
   const all = await loadAllMdB();
-  return all.filter((mdB) => wahlkreisNumbers.includes(mdB.wahlkreis.number));
+  return all.filter(
+    (mdB) => mdB.wahlkreis && wahlkreisNumbers.includes(mdB.wahlkreis.number),
+  );
 }
 
 /** Baut eine passende Anrede aus Geschlecht und Namen. */

@@ -2,16 +2,13 @@
  * Liest die Abgeordneten-Profile von bundestag.de aus und schreibt
  * `public/data/mdb.json`.
  *
+ * Erfasst **alle** Abgeordneten des laufenden Bundestages:
+ *   - Direktmandate (mit Wahlkreis) und Listenmandate (mit Bundesland)
+ *   - Anschriften (Bundestagsbüro + Wahlkreisbüro), Kontaktformular-Link, Homepage
+ *
  * Warum ein Browser? bundestag.de schützt seine Seiten mit einer Bot-Challenge.
  * Ein normaler HTTP-Request bekommt eine Weiterleitung auf /.enodia/challenge.
  * Ein echter (Headless-)Chrome löst die Challenge und liefert die Inhalte.
- *
- * Aus jedem Profil werden gelesen:
- *   - JSON-LD: Name, Geschlecht, Fraktion, Wahlkreis (Nummer + Name), Homepage
- *   - Anschriftenblock: Bundestagsbüro und Wahlkreisbüro(s)
- *   - Kontaktformular-Link (der Bundestag veröffentlicht keine E-Mail-Adressen)
- *
- * Es werden nur Direktmandate (mit Wahlkreis) berücksichtigt.
  *
  * Voraussetzung: installiertes Chrome/Chromium.
  * Aufruf:
@@ -35,6 +32,31 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outFile = resolve(root, 'public/data/mdb.json');
 
 const SOCIAL = /(facebook|instagram|twitter|x\.com|tiktok|youtube|linkedin|mastodon)/i;
+const STATES = new Set([
+  'Baden-Württemberg',
+  'Bayern',
+  'Berlin',
+  'Brandenburg',
+  'Bremen',
+  'Hamburg',
+  'Hessen',
+  'Mecklenburg-Vorpommern',
+  'Niedersachsen',
+  'Nordrhein-Westfalen',
+  'Rheinland-Pfalz',
+  'Saarland',
+  'Sachsen',
+  'Sachsen-Anhalt',
+  'Schleswig-Holstein',
+  'Thüringen',
+]);
+const BERLIN_OFFICE = {
+  strasse: 'Platz der Republik 1',
+  plz: '11011',
+  ort: 'Berlin',
+  label: 'Deutscher Bundestag',
+};
+
 const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
 
 function unescapeHtml(value) {
@@ -93,6 +115,17 @@ function sexFromGender(gender) {
   return undefined;
 }
 
+/** Ermittelt die Partei aus den JSON-LD-Keywords als Fallback. */
+function partyFromKeywords(keywords) {
+  if (!Array.isArray(keywords)) return undefined;
+  const index = keywords.findIndex((k) => /^\s*\d+\.\s*Deutscher Bundestag\s*$/.test(k ?? ''));
+  if (index > 0) {
+    const candidate = (keywords[index - 1] ?? '').trim();
+    if (candidate && !/^(MdB|Mitglied des Bundestages)$/i.test(candidate)) return candidate;
+  }
+  return undefined;
+}
+
 async function load(page, url) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
 }
@@ -103,7 +136,9 @@ async function collectProfileUrls(page) {
     await load(page, `${LIST_URL}?offset=${offset}&limit=100`);
     await sleep(300);
     const found = await page.$$eval('a[href*="/abgeordnete/biografien/"]', (anchors) =>
-      anchors.map((anchor) => anchor.href),
+      anchors
+        .map((anchor) => anchor.href.replace('/de/abgeordnete/biografien/', '/abgeordnete/biografien/'))
+        .filter((href) => !/biografien\/(ausgeschiedene|verstorbene_abgeordnete)/.test(href)),
     );
     if (found.length === 0) break;
     for (const url of found) urls.add(url);
@@ -115,15 +150,17 @@ async function collectProfileUrls(page) {
 async function readProfile(page, url) {
   for (let attempt = 0; attempt < 3; attempt += 1) {
     await load(page, url);
-    await sleep(400);
+    await sleep(500);
     const raw = await page.evaluate(() => {
       const ldEl = document.querySelector('script[type="application/ld+json"]');
       const section = (title) => {
         const heading = [...document.querySelectorAll('h2.m-marginal__itemTitle')].find(
           (el) => el.textContent.trim() === title,
         );
-        return heading?.closest('.m-marginal__item')?.querySelector('.m-marginal__itemContent')
-          ?.innerHTML ?? null;
+        return (
+          heading?.closest('.m-marginal__item')?.querySelector('.m-marginal__itemContent')
+            ?.innerHTML ?? null
+        );
       };
       return {
         ld: ldEl ? ldEl.textContent : null,
@@ -172,50 +209,73 @@ async function main() {
         continue;
       }
 
-      const wahlkreisEntry = (ld.hasPart ?? []).find((part) =>
-        /^Wahlkreis\s+\d+/i.test(part.name ?? ''),
-      );
+      const parts = ld.hasPart ?? [];
+      const wahlkreisEntry = parts.find((part) => /^Wahlkreis\s+\d+/i.test(part.name ?? ''));
       const wahlkreisMatch = wahlkreisEntry?.name?.match(/^Wahlkreis\s+(\d+):\s*(.+)$/i);
-      if (!ld.mainEntity?.name || !wahlkreisMatch) {
+      const stateEntry = parts.find((part) => STATES.has((part.name ?? '').trim()));
+
+      // Weder Wahlkreis noch Bundesland erkennbar → kein verwertbares Mandat.
+      if (!wahlkreisMatch && !stateEntry) {
         skipped += 1;
         continue;
       }
 
-      const party = (ld.mainEntity.memberOf ?? []).find(
-        (entry) => entry['@type'] === 'PoliticalParty',
-      )?.name;
-      const homepage = (ld.mainEntity.sameAs ?? []).find((link) => !SOCIAL.test(link));
+      const party =
+        (ld.mainEntity?.memberOf ?? []).find((entry) => entry['@type'] === 'PoliticalParty')?.name ??
+        partyFromKeywords(ld.keywords);
+
+      const homepage = (ld.mainEntity?.sameAs ?? []).find((link) => !SOCIAL.test(link));
+      const id = url.match(/-(\d+)$/)?.[1];
 
       const offices = [
         ...parseOffices(raw.abgeordnetenbueros),
         ...parseOffices(raw.wahlkreisbueros),
       ];
-      const primary = offices.find((office) => /wahlkreis/i.test(office.label ?? '')) ?? offices[0];
+      const primary =
+        offices.find((office) => /wahlkreis/i.test(office.label ?? '')) ?? offices[0];
+      // Fallback: die Bundestagsadresse funktioniert für alle Abgeordneten.
+      const address = primary ?? { ...BERLIN_OFFICE };
+      const officeList = offices.length > 0 ? offices : [{ ...BERLIN_OFFICE }];
 
-      const id = url.match(/-(\d+)$/)?.[1] ?? String(index);
+      const contactFormUrl = raw.contact
+        ? `${BASE}${raw.contact}`
+        : id
+          ? `${BASE}/services/formular/contactform?mdbId=${id}`
+          : undefined;
+
       mdBs.push({
-        id: `bt-${id}`,
-        name: ld.mainEntity.name,
+        id: `bt-${id ?? index}`,
+        name: ld.mainEntity?.name ?? '',
         party: party ?? '',
-        sex: sexFromGender(ld.mainEntity.gender),
-        wahlkreis: { number: Number(wahlkreisMatch[1]), name: wahlkreisMatch[2].trim() },
-        address: primary,
-        offices,
-        contactFormUrl: raw.contact ? `${BASE}${raw.contact}` : undefined,
+        sex: sexFromGender(ld.mainEntity?.gender),
+        mandate: wahlkreisMatch ? 'direct' : 'list',
+        ...(wahlkreisMatch
+          ? { wahlkreis: { number: Number(wahlkreisMatch[1]), name: wahlkreisMatch[2].trim() } }
+          : { state: stateEntry.name.trim() }),
+        address,
+        offices: officeList,
+        contactFormUrl,
         homepage,
+        profileUrl: url,
       });
 
       if ((index + 1) % 25 === 0) console.log(`  ${index + 1}/${urls.length} verarbeitet …`);
     }
 
     mdBs.sort(
-      (a, b) => a.wahlkreis.number - b.wahlkreis.number || a.name.localeCompare(b.name, 'de'),
+      (a, b) =>
+        (a.wahlkreis?.number ?? 9999) - (b.wahlkreis?.number ?? 9999) ||
+        a.name.localeCompare(b.name, 'de'),
     );
+
+    const direct = mdBs.filter((m) => m.mandate === 'direct').length;
+    const list = mdBs.filter((m) => m.mandate === 'list').length;
 
     mkdirSync(dirname(outFile), { recursive: true });
     writeFileSync(outFile, `${JSON.stringify(mdBs, null, 2)}\n`);
     console.log(
-      `${mdBs.length} Direktmandate geschrieben (${skipped} ohne Wahlkreis, ${failed.length} fehlgeschlagen).`,
+      `${mdBs.length} Abgeordnete geschrieben (${direct} Direkt-, ${list} Listenmandate; ` +
+        `${skipped} ohne Mandat übersprungen, ${failed.length} fehlgeschlagen).`,
     );
     if (failed.length > 0) console.log(`Fehlgeschlagen: ${failed.join(', ')}`);
   } finally {

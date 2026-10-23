@@ -57,7 +57,12 @@ export interface MdB {
   sex?: 'm' | 'f';
   /** Fertige Anrede, überschreibt die automatische Bildung. */
   anrede?: string;
-  wahlkreis: Wahlkreis;
+  /** Art des Mandats: Direktmandat (Wahlkreis) oder Listenmandat (Landesliste). */
+  mandate: 'direct' | 'list';
+  /** Wahlkreis – nur bei Direktmandat gesetzt. */
+  wahlkreis?: Wahlkreis;
+  /** Bundesland – nur bei Listenmandat gesetzt. */
+  state?: string;
   /** Primäre Briefanschrift (Wahlkreisbüro, sonst Bundestagsbüro). */
   address?: Address;
   /** Alle bekannten Büros (Bundestag + Wahlkreisbüros). */
@@ -66,6 +71,8 @@ export interface MdB {
   contactFormUrl?: string;
   /** Persönliche Homepage, falls bekannt. */
   homepage?: string;
+  /** Profil auf bundestag.de. */
+  profileUrl?: string;
   /** E-Mail-Adresse, falls für einen Empfängertyp vorhanden. */
   email?: string;
 }

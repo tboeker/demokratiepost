@@ -22,7 +22,10 @@ export function RecipientList({ recipients, selectedId, onSelect }: RecipientLis
           >
             <span className="recipient-name">{mdB.name}</span>
             <span className="recipient-meta">
-              {mdB.party} · Wahlkreis {mdB.wahlkreis.number} – {mdB.wahlkreis.name}
+              {mdB.party} ·{' '}
+              {mdB.wahlkreis
+                ? `Wahlkreis ${mdB.wahlkreis.number} – ${mdB.wahlkreis.name}`
+                : (mdB.state ?? '')}
             </span>
           </button>
         </li>

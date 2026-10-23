@@ -4,23 +4,31 @@ Die Anwendung lädt zur Laufzeit zwei Arten von Daten aus `public/data/`:
 
 | Datei | Inhalt |
 |---|---|
-| `public/data/mdb.json` | Bundestagsabgeordnete (Direktmandate) inkl. Anschrift und Kontaktformular-Link |
+| `public/data/mdb.json` | Alle Bundestagsabgeordneten (Direkt- + Listenmandate) inkl. Anschrift und Kontaktformular-Link |
 | `public/data/plz/<prefix>.json` | Zuordnung `PLZ -> [Wahlkreis-Nummern]`, aufgeteilt nach den ersten zwei PLZ-Ziffern |
 
 ## 1. Abgeordnete holen (`fetch-bundestag.mjs`)
 
 Liest die Abgeordneten-Profile von bundestag.de aus. Pro Profil werden gelesen:
 
-- **JSON-LD**: Name, Geschlecht, Fraktion, **Wahlkreis (Nummer + Name)**, Homepage
+- **JSON-LD**: Name, Geschlecht, Fraktion, **Wahlkreis (Nummer + Name)** oder **Bundesland**, Homepage
 - **Anschriftenblock**: Bundestagsbüro und **Wahlkreisbüro(s)**
 - **Kontaktformular-Link** (`/services/formular/contactform?mdbId=…`)
 
-Es werden nur **Direktmandate** (mit Wahlkreis) übernommen, damit die Zuordnung über die PLZ
-auf Wahlkreise aufsetzt. Listenmandate (ohne Wahlkreis) sind noch nicht enthalten.
+Es werden **alle** Abgeordneten erfasst. Jeder Eintrag hat ein Feld `mandate`:
+
+- `direct` – Direktmandat, mit `wahlkreis` (Nummer + Name). Nur diese finden bei der
+  PLZ-Suche Verwendung.
+- `list` – Listenmandat, mit `state` (Bundesland). Kein Wahlkreis, daher nicht über die PLZ
+  auffindbar.
+
+Fehlt einem Profil die Anschrift (manche Abgeordnete geben keine Kontaktdaten an), wird die
+Standard-**Bundestagsadresse** (`Platz der Republik 1, 11011 Berlin`) als Fallback gesetzt.
+Der **Kontaktformular-Link** wird notfalls aus der `mdbId` (letzte Zahl der Profil-URL) gebildet.
 
 > Hinweis: Wegen der Wahlrechtsreform (Zweitstimmendeckung) sind im 21. Bundestag nicht alle
-> 299 Wahlkreise besetzt – 23 Wahlkreissieger zogen nicht ein. Für diese Wahlkreise findet die
-> App keinen direkten Abgeordneten. Der Scrape liefert daher rund 278 Direktmandate.
+> 299 Wahlkreise besetzt – 23 Wahlkreissieger zogen nicht ein. Es gibt daher weniger als 299
+> Direktmandate (aktuell ~278), der Rest sind Listenmandate.
 
 ```bash
 node scripts/fetch-bundestag.mjs

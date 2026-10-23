@@ -52,7 +52,9 @@ Zwei getrennte Baustellen mit je einem Build-Skript:
 
 **1. Empfänger (MdB) — aus den Profilen auf bundestag.de**
 - Scraping der Abgeordneten-Profile (`/abgeordnete/biografien/…`).
-- Liefert: Name, Fraktion, Geschlecht, Wahlkreis (Nummer + Name), Homepage,
+- Erfasst **alle 630 Abgeordneten**: Direktmandate (mit Wahlkreis) und Listenmandate
+  (mit Bundesland); nur Direktmandate sind über die PLZ auffindbar.
+- Liefert: Name, Fraktion, Geschlecht, Wahlkreis/Bundesland, Homepage,
   **Wahlkreisbüro-Anschrift** und **Kontaktformular-Link**.
 - **Keine E-Mail-Adressen**: Der Bundestag veröffentlicht nur Kontaktformulare (auch die
   Open-Data-Stammdaten enthalten keine Kontakte). Die App nutzt daher den
