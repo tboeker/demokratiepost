@@ -80,6 +80,30 @@ Platzhalter: `{{ absender.* }}`, `{{ empfaenger.anrede|name|partei|wahlkreis }}`
 `{{ datum }}`, `{{ betreff }}` + optionaler **persönlicher Absatz** des Nutzers
 (erhöht die Wirkung gegenüber 1:1-Kopien deutlich).
 
+## Absenderdaten (Eingabe + localStorage)
+
+Der Nutzer gibt seine Absenderdaten **einmal** ein. Sie werden lokal im Browser gespeichert
+und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
+
+**Felder**
+
+- Pflicht: Name, Straße/Hausnummer, PLZ, Ort
+- Optional: E-Mail, Telefon
+
+**Speicherung**
+
+- Key: `meine-beschwerde.sender.v1` (versioniert, damit spätere Schemaänderungen sauber
+  migrierbar sind)
+- Format: JSON
+- Laden beim Start, Speichern bei Eingabe/Submit; Schaltflächen „Speichern" und „Löschen"
+- Umsetzung: `src/lib/storage.ts` (lesen/schreiben/validieren) + `SenderForm`-Komponente
+- Der `TemplateContext` (`absender.*`) wird direkt aus diesen Werten gespeist.
+
+**Datenschutz**
+
+- Die Daten verlassen das Gerät nie: kein Backend, keine Übertragung, kein Tracking.
+- Die UI weist darauf hin, dass die Eingaben nur lokal im Browser gespeichert werden.
+
 ## Geplante Repo-Struktur
 
 ```
@@ -98,7 +122,7 @@ meine-beschwerde/
 ├── src/
 │   ├── App.tsx
 │   ├── components/  (PlzInput, SenderForm, RecipientList, LetterPreview)
-│   ├── lib/         (campaigns, template, lookup, export)
+│   ├── lib/         (campaigns, template, storage, lookup, export)
 │   └── types.ts
 ├── vite.config.ts                    # base: '/meine-beschwerde/'
 └── README.md
@@ -114,12 +138,13 @@ meine-beschwerde/
 
 ## Meilensteine
 
-1. **M1 — Gerüst**: Vite+React+TS, GitHub-Actions-Deploy, Kampagnen-Loader
+1. **M1 — Gerüst** _(erledigt)_: Vite+React+TS, GitHub-Actions-Deploy, Kampagnen-Loader
    (`import.meta.glob`), Platzhalter-Engine.
 2. **M2 — Bundestag end-to-end**: PLZ-Eingabe → Lookup → MdB-Liste (Mehrfachtreffer
-   bei mehrdeutiger PLZ) → Briefvorschau → PDF/Print + mailto/Copy.
-3. **M3 — Content & UX**: Kails Schreiben als erste Kampagne, Absenderdaten in
-   `localStorage`, optionaler persönlicher Absatz.
+   bei mehrdeutiger PLZ) → **Absenderformular mit localStorage** → Briefvorschau →
+   PDF/Print + mailto/Copy.
+3. **M3 — Content & UX**: Kails Schreiben als erste Kampagne, optionaler persönlicher
+   Absatz, Feinschliff.
 4. **M4 — Erweiterung**: Landtag, danach Gemeinde-Ebene (Bürgermeister/Landrat).
 5. **M5 — später**: Netzbetreiber/Stadtwerke (Grundversorger via BNetzA).
 
@@ -135,6 +160,6 @@ M1–M3 sind der Proof-of-Value. Erst danach lohnt sich die Datenbreite.
 
 ## Nächster Schritt
 
-Umsetzung M1: Projektgerüst, Vite-Config für GitHub Pages, Actions-Workflow,
-Kampagnen-Loader und Platzhalter-Engine — plus ein Beispiel-Template als Platzhalter
-für Kails Schreiben.
+M1 (Gerüst) ist umgesetzt. Als Nächstes **M2**: PLZ-Eingabe, echte Daten-Shards,
+MdB-Liste über die abgeordnetenwatch-API, **Absenderformular mit localStorage-Speicherung**
+und Briefvorschau mit PDF/Print + mailto/Copy.

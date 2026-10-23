@@ -69,6 +69,34 @@ Die Anwendung läuft **komplett im Browser**. Es gibt kein Backend und kein Trac
 Postleitzahl und Absenderdaten verlassen das Gerät nicht – gespeicherte Eingaben liegen nur
 lokal im Browser.
 
+## Entwicklung
+
+Voraussetzung: Node.js 20 oder neuer.
+
+```bash
+npm install     # Abhängigkeiten installieren
+npm run dev     # lokaler Entwicklungsserver
+npm run build   # Produktions-Build nach dist/
+npm run preview # Build lokal testen
+```
+
+Die Seite wird über GitHub Actions automatisch nach GitHub Pages deployt
+(`.github/workflows/deploy.yml`). Wichtig: In `vite.config.ts` muss `base` dem
+Repo-Namen entsprechen (`/meine-beschwerde/`).
+
+### Kampagnen anlegen
+
+Kampagnen liegen als Dateien im Repo und werden zur Build-Zeit eingelesen:
+
+```
+campaigns/<kampagne>/
+├── campaign.yaml        # id, title, theme, description, recipients
+└── templates/<typ>.md   # Markdown-Template je Empfängertyp (z. B. mdb.md)
+```
+
+Im Template werden Platzhalter in Punktnotation verwendet, z. B. `{{ absender.name }}`
+oder `{{ empfaenger.wahlkreis }}`. Sie werden automatisch mit den passenden Werten gefüllt.
+
 ## Projektstatus
 
 Der Prototyp beginnt bewusst klein:
