@@ -31,6 +31,13 @@ node scripts/fetch-bundestag.mjs                              # bundestag.de-Pro
 node --experimental-strip-types scripts/build-plz-index.ts    # PLZ→Wahlkreis → public/data/plz/*.json
 ```
 
+## Dev-Container
+
+Unter `.devcontainer/` liegt eine VS-Code-Containerumgebung (Node 22 + OpenCode +
+Chromium). Sie kapselt OpenCode im Container (Sandbox): OpenCode kann nur den
+Workspace und den Container verändern, nicht das Host-System. Details und
+Sandboxing-Optionen: `.devcontainer/README.md`.
+
 ## Struktur
 
 ```

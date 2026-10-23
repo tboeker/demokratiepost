@@ -86,6 +86,13 @@ Die Seite wird über GitHub Actions automatisch nach GitHub Pages deployt
 (`.github/workflows/deploy.yml`). Wichtig: In `vite.config.ts` muss `base` dem
 Repo-Namen entsprechen (`/meine-beschwerde/`).
 
+### Dev-Container (VS Code)
+
+Für eine gekapselte Umgebung (Node + OpenCode + Chromium) gibt es einen Dev-Container
+unter `.devcontainer/`. In VS Code: **Dev Containers: Reopen in Container**. OpenCode
+läuft dann im Container und ist vom Host-System isoliert. Details:
+[`.devcontainer/README.md`](./.devcontainer/README.md).
+
 ### Kampagnen anlegen
 
 Kampagnen liegen als Dateien im Repo und werden zur Build-Zeit eingelesen:

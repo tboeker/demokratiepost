@@ -1,0 +1,55 @@
+{
+  // Dev-Container: Node-Umgebung + OpenCode, gekapselt im Container (Sandbox).
+  // Öffnen in VS Code über die Erweiterung „Dev Containers" (siehe README.md).
+  "name": "Meine Beschwerde – Node + OpenCode (Sandbox)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "NODE_VERSION": "22" }
+  },
+
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "remoteUser": "node",
+
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  // Sandbox: Der Container ist die Grenze. OpenCode läuft als nicht-privilegierter
+  // Nutzer `node` und kann nur den gemounteten Workspace und den Container verändern,
+  // nicht das Host-System. `no-new-privileges` verhindert Rechteausweitung über setuid.
+  "runArgs": ["--init", "--security-opt=no-new-privileges"],
+
+  // OpenCode-Zustand (Login, Sessions, Konfiguration) über Container-Neubauten behalten.
+  "mounts": [
+    "source=opencode-config,target=/home/node/.config/opencode,type=volume",
+    "source=opencode-data,target=/home/node/.local/share/opencode,type=volume"
+  ],
+
+  "containerEnv": {
+    "CHROME_PATH": "/usr/bin/chromium",
+    "PUPPETEER_SKIP_DOWNLOAD": "1"
+  },
+
+  // Das Install-Skript legt die CLI in ~/.opencode/bin ab – in den PATH aufnehmen.
+  "remoteEnv": {
+    "PATH": "/home/node/.opencode/bin:${containerEnv:PATH}"
+  },
+
+  "forwardPorts": [5173, 4173],
+  "portsAttributes": {
+    "5173": { "label": "Vite Dev-Server" },
+    "4173": { "label": "Vite Preview" }
+  },
+
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["sst-dev.opencode"],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
