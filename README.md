@@ -97,6 +97,13 @@ campaigns/<kampagne>/
 Im Template werden Platzhalter in Punktnotation verwendet, z. B. `{{ absender.name }}`
 oder `{{ empfaenger.wahlkreis }}`. Sie werden automatisch mit den passenden Werten gefüllt.
 
+### Empfängerdaten
+
+Die Empfänger (Bundestagsabgeordnete) und die Zuordnung `PLZ → Wahlkreis` liegen als
+JSON unter `public/data/`. Aktuell sind **Demo-Daten** (fiktive Namen) enthalten, damit
+der Ablauf testbar ist. Wie echte Daten erzeugt werden, steht in
+[`scripts/README.md`](./scripts/README.md).
+
 ## Projektstatus
 
 Der Prototyp beginnt bewusst klein:

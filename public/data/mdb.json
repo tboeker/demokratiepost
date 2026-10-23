@@ -1,0 +1,52 @@
+[
+  {
+    "id": "wk-1-1",
+    "name": "Petra Nordmann",
+    "party": "SPD",
+    "sex": "f",
+    "wahlkreis": { "number": 1, "name": "Flensburg – Schleswig" },
+    "email": "petra.nordmann@example.org",
+    "website": "https://example.org/petra-nordmann",
+    "address": { "strasse": "Platz der Republik 1", "plz": "11011", "ort": "Berlin" }
+  },
+  {
+    "id": "wk-74-1",
+    "name": "Jonas Mittelmann",
+    "party": "Bündnis 90/Die Grünen",
+    "sex": "m",
+    "wahlkreis": { "number": 74, "name": "Berlin-Mitte" },
+    "email": "jonas.mittelmann@example.org",
+    "website": "https://example.org/jonas-mittelmann",
+    "address": { "strasse": "Platz der Republik 1", "plz": "11011", "ort": "Berlin" }
+  },
+  {
+    "id": "wk-74-2",
+    "name": "Clara Zentrum",
+    "party": "Die Linke",
+    "sex": "f",
+    "wahlkreis": { "number": 74, "name": "Berlin-Mitte" },
+    "email": "clara.zentrum@example.org",
+    "website": "https://example.org/clara-zentrum",
+    "address": { "strasse": "Platz der Republik 1", "plz": "11011", "ort": "Berlin" }
+  },
+  {
+    "id": "wk-75-1",
+    "name": "Markus Pankow",
+    "party": "CDU",
+    "sex": "m",
+    "wahlkreis": { "number": 75, "name": "Berlin-Pankow" },
+    "email": "markus.pankow@example.org",
+    "website": "https://example.org/markus-pankow",
+    "address": { "strasse": "Platz der Republik 1", "plz": "11011", "ort": "Berlin" }
+  },
+  {
+    "id": "wk-77-1",
+    "name": "Sabine Spandau",
+    "party": "SPD",
+    "sex": "f",
+    "wahlkreis": { "number": 77, "name": "Berlin-Spandau – Charlottenburg Nord" },
+    "email": "sabine.spandau@example.org",
+    "website": "https://example.org/sabine-spandau",
+    "address": { "strasse": "Platz der Republik 1", "plz": "11011", "ort": "Berlin" }
+  }
+]

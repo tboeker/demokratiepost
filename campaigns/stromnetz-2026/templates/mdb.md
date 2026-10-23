@@ -10,7 +10,7 @@
 
 Betreff: {{ betreff }}
 
-{{ empfaenger.anrede }} {{ empfaenger.name }},
+{{ empfaenger.anrede }},
 
 [Platzhalter für das Musterschreiben aus der Kampagne. Hier steht später der
 Text von Gutachter Kail, der an {{ empfaenger.wahlkreis }} geht.]

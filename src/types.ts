@@ -22,3 +22,41 @@ export interface Campaign extends CampaignMeta {
 
 /** Daten, mit denen Platzhalter in einem Template gefüllt werden. */
 export type TemplateContext = Record<string, unknown>;
+
+/** Absenderdaten des Nutzers (lokal im Browser gespeichert). */
+export interface Sender {
+  name: string;
+  strasse: string;
+  plz: string;
+  ort: string;
+  email?: string;
+  telefon?: string;
+}
+
+/** Ein Bundestagswahlkreis. */
+export interface Wahlkreis {
+  number: number;
+  name: string;
+}
+
+/** Ein Bundestagsabgeordneter (Empfänger). */
+export interface MdB {
+  id: string;
+  name: string;
+  party: string;
+  /** Geschlecht für die Anrede, falls bekannt. */
+  sex?: 'm' | 'f';
+  /** Fertige Anrede, überschreibt die automatische Bildung. */
+  anrede?: string;
+  wahlkreis: Wahlkreis;
+  email?: string;
+  website?: string;
+  address?: {
+    strasse?: string;
+    plz?: string;
+    ort?: string;
+  };
+}
+
+/** Zuordnung Postleitzahl -> Liste von Wahlkreis-Nummern. */
+export type PlzIndex = Record<string, number[]>;
