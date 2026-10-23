@@ -131,8 +131,8 @@ export default function App() {
 
           {status === 'empty' && (
             <p className="hint">
-              Für die PLZ {plz} wurden keine Empfänger gefunden. Probiere in den Demo-Daten
-              z. B. <strong>10115</strong> oder <strong>24937</strong>.
+              Für die PLZ {plz} wurden keine Empfänger gefunden. Die PLZ-Zuordnung ist noch
+              Demo – probiere z. B. <strong>10115</strong> oder <strong>10551</strong>.
             </p>
           )}
           {status === 'error' && <p className="error">{error}</p>}

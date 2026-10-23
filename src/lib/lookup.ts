@@ -5,20 +5,34 @@ export function isValidPlz(plz: string): boolean {
   return /^\d{5}$/.test(plz);
 }
 
-async function fetchJson<T>(relativePath: string): Promise<T> {
+/**
+ * Lädt eine JSON-Datei. Gibt `null` zurück, wenn sie fehlt oder der Server
+ * (z. B. per SPA-Fallback) HTML statt JSON liefert – statt eine Ausnahme zu werfen.
+ */
+async function fetchJson<T>(relativePath: string): Promise<T | null> {
   const base = import.meta.env.BASE_URL;
   const response = await fetch(`${base}data/${relativePath}`);
-  if (!response.ok) {
-    throw new Error(`Daten konnten nicht geladen werden (${relativePath}).`);
+  if (!response.ok) return null;
+
+  const contentType = response.headers.get('content-type') ?? '';
+  if (!contentType.includes('json')) return null;
+
+  try {
+    return (await response.json()) as T;
+  } catch {
+    return null;
   }
-  return (await response.json()) as T;
 }
 
 let mdbCache: MdB[] | null = null;
 
 async function loadAllMdB(): Promise<MdB[]> {
   if (!mdbCache) {
-    mdbCache = await fetchJson<MdB[]>('mdb.json');
+    const data = await fetchJson<MdB[]>('mdb.json');
+    if (!data) {
+      throw new Error('Die Empfängerdaten konnten nicht geladen werden.');
+    }
+    mdbCache = data;
   }
   return mdbCache;
 }
@@ -32,6 +46,8 @@ export async function findRecipientsByPlz(plz: string): Promise<MdB[]> {
 
   const prefix = plz.slice(0, 2);
   const index = await fetchJson<PlzIndex>(`plz/${prefix}.json`);
+  if (!index) return [];
+
   const wahlkreisNumbers = index[plz] ?? [];
   if (wahlkreisNumbers.length === 0) return [];
 
