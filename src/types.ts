@@ -39,6 +39,15 @@ export interface Wahlkreis {
   name: string;
 }
 
+/** Eine Postanschrift. */
+export interface Address {
+  strasse?: string;
+  plz?: string;
+  ort?: string;
+  /** Bezeichnung, z. B. "Wahlkreisbüro Köln-Innenstadt". */
+  label?: string;
+}
+
 /** Ein Bundestagsabgeordneter (Empfänger). */
 export interface MdB {
   id: string;
@@ -49,13 +58,16 @@ export interface MdB {
   /** Fertige Anrede, überschreibt die automatische Bildung. */
   anrede?: string;
   wahlkreis: Wahlkreis;
+  /** Primäre Briefanschrift (Wahlkreisbüro, sonst Bundestagsbüro). */
+  address?: Address;
+  /** Alle bekannten Büros (Bundestag + Wahlkreisbüros). */
+  offices?: Address[];
+  /** Link zum Kontaktformular des Bundestags (ersetzt die E-Mail). */
+  contactFormUrl?: string;
+  /** Persönliche Homepage, falls bekannt. */
+  homepage?: string;
+  /** E-Mail-Adresse, falls für einen Empfängertyp vorhanden. */
   email?: string;
-  website?: string;
-  address?: {
-    strasse?: string;
-    plz?: string;
-    ort?: string;
-  };
 }
 
 /** Zuordnung Postleitzahl -> Liste von Wahlkreis-Nummern. */

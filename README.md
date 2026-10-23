@@ -3,8 +3,8 @@
 **Eine Webseite, die politische Musterschreiben in wenigen Sekunden versandfertig macht.**
 
 Man gibt seine Postleitzahl ein, wählt eine Kampagne – und bekommt fertige Schreiben mit
-korrektem Empfänger und den eigenen Absenderdaten, bereit zum Ausdrucken oder per E-Mail
-verschicken.
+korrektem Empfänger und den eigenen Absenderdaten, bereit zum Ausdrucken, Kopieren oder
+direkt Versenden.
 
 ---
 
@@ -21,7 +21,7 @@ Das Problem dabei: Diese Schreiben sind **Rohvorlagen**. Vor dem Versand muss ma
 1. den **richtigen Empfänger** für seinen Wohnort herausfinden (mühsame Suche auf
    Behörden- und Abgeordneten-Webseiten),
 2. die **Absender- und Empfängerdaten** in die Vorlage eintragen,
-3. das Ganze **druckfertig oder als E-Mail** aufbereiten.
+3. das Ganze **druckfertig oder als Nachricht** aufbereiten.
 
 Jeder einzelne Schritt kostet Zeit – und genau daran scheitern viele. Die Folge: Die
 Schreiben erreichen weniger Menschen, als sie könnten.
@@ -46,8 +46,9 @@ kein manuelles Einsetzen mehr.
    (Eine PLZ kann mehrere Zuständige betreffen – dann werden alle angezeigt.)
 4. **Schreiben prüfen** – die Vorlage wird automatisch mit Absender- und Empfängerdaten gefüllt.
 5. **Versenden** – wahlweise:
-   - als **PDF-Brief** zum Ausdrucken und per Post verschicken, oder
-   - als **E-Mail** (fertiger Entwurf zum Kopieren).
+   - als **PDF-Brief** zum Ausdrucken und per Post verschicken (an das Wahlkreisbüro),
+   - über das **Kontaktformular** des Abgeordneten, oder
+   - als **Text zum Kopieren**.
 
 ## Empfänger und Kampagnen
 
@@ -67,7 +68,8 @@ Musterschreiben für die jeweiligen Empfänger mit.
 
 Die Anwendung läuft **komplett im Browser**. Es gibt kein Backend und kein Tracking.
 Postleitzahl und Absenderdaten verlassen das Gerät nicht – gespeicherte Eingaben liegen nur
-lokal im Browser.
+lokal im Browser. Einen Überblick gibt der Abschnitt **„Datenspeicherung"** auf der Seite
+selbst, inklusive Schaltfläche zum Löschen der gespeicherten Daten.
 
 ## Entwicklung
 
@@ -100,15 +102,17 @@ oder `{{ empfaenger.wahlkreis }}`. Sie werden automatisch mit den passenden Wert
 ### Empfängerdaten
 
 Die Empfänger (Bundestagsabgeordnete) und die Zuordnung `PLZ → Wahlkreis` liegen als
-JSON unter `public/data/`. Aktuell sind **Demo-Daten** (fiktive Namen) enthalten, damit
-der Ablauf testbar ist. Wie echte Daten erzeugt werden, steht in
-[`scripts/README.md`](./scripts/README.md).
+JSON unter `public/data/`. Die **Abgeordneten-Daten sind echt** und werden aus den Profilen
+auf bundestag.de gelesen (Name, Fraktion, Wahlkreis, Wahlkreisbüro-Anschrift,
+Kontaktformular-Link). E-Mail-Adressen veröffentlicht der Bundestag nicht – die App bietet
+deshalb den Kontaktformular-Link an. Die **PLZ-Zuordnung ist noch Demo**. Wie die Daten
+erzeugt werden, steht in [`scripts/README.md`](./scripts/README.md).
 
 ## Projektstatus
 
 Der Prototyp beginnt bewusst klein:
 
-- **MVP:** Postleitzahl → Bundestagsabgeordnete → fertiger Brief (PDF oder E-Mail).
+- **MVP:** Postleitzahl → Bundestagsabgeordnete → fertiger Brief (PDF oder Kontaktformular).
 - Danach: Landtagsabgeordnete, kommunale Ebene (Bürgermeister/Landrat) und später
   Netzbetreiber/Stadtwerke.
 

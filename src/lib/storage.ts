@@ -1,7 +1,7 @@
 import type { Sender } from '../types';
 
 // Versionierter Schlüssel: erlaubt später saubere Migrationen bei Schemaänderungen.
-const STORAGE_KEY = 'meine-beschwerde.sender.v1';
+export const SENDER_STORAGE_KEY = 'meine-beschwerde.sender.v1';
 
 export const emptySender: Sender = {
   name: '',
@@ -11,6 +11,13 @@ export const emptySender: Sender = {
   email: '',
   telefon: '',
 };
+
+/** Prüft, ob überhaupt Absenderdaten eingegeben wurden (für den Speicher-Hinweis). */
+export function hasSenderData(sender: Sender): boolean {
+  return [sender.name, sender.strasse, sender.plz, sender.ort, sender.email, sender.telefon].some(
+    (value) => (value ?? '').trim() !== '',
+  );
+}
 
 /** Prüft, ob alle Pflichtfelder des Absenders gefüllt sind. */
 export function isSenderComplete(sender: Sender): boolean {
@@ -25,7 +32,7 @@ export function isSenderComplete(sender: Sender): boolean {
 /** Liest die gespeicherten Absenderdaten aus dem localStorage. */
 export function loadSender(): Sender | null {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(SENDER_STORAGE_KEY);
     if (!raw) return null;
     const parsed = JSON.parse(raw) as Partial<Sender>;
     return { ...emptySender, ...parsed };
@@ -38,7 +45,7 @@ export function loadSender(): Sender | null {
 /** Speichert die Absenderdaten im localStorage. */
 export function saveSender(sender: Sender): void {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(sender));
+    localStorage.setItem(SENDER_STORAGE_KEY, JSON.stringify(sender));
   } catch {
     // z. B. wenn localStorage voll oder deaktiviert ist – still ignorieren.
   }
@@ -47,7 +54,7 @@ export function saveSender(sender: Sender): void {
 /** Löscht die gespeicherten Absenderdaten. */
 export function clearSender(): void {
   try {
-    localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(SENDER_STORAGE_KEY);
   } catch {
     // ignorieren
   }

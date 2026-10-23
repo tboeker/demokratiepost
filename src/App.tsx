@@ -3,9 +3,17 @@ import { LetterPreview } from './components/LetterPreview';
 import { PlzInput } from './components/PlzInput';
 import { RecipientList } from './components/RecipientList';
 import { SenderForm } from './components/SenderForm';
+import { StorageInfo } from './components/StorageInfo';
 import { loadCampaigns } from './lib/campaigns';
 import { findRecipientsByPlz, isValidPlz, salutation } from './lib/lookup';
-import { clearSender, emptySender, isSenderComplete, loadSender, saveSender } from './lib/storage';
+import {
+  clearSender,
+  emptySender,
+  hasSenderData,
+  isSenderComplete,
+  loadSender,
+  saveSender,
+} from './lib/storage';
 import { renderTemplate } from './lib/template';
 import type { MdB, Sender, TemplateContext } from './types';
 
@@ -25,9 +33,13 @@ export default function App() {
   const recipientType = campaign?.recipients[0];
   const template = campaign && recipientType ? campaign.templates[recipientType] : undefined;
 
-  // Absenderdaten bei jeder Änderung lokal speichern.
+  // Absenderdaten bei jeder Änderung lokal speichern (leere Daten entfernen den Eintrag).
   useEffect(() => {
-    saveSender(sender);
+    if (hasSenderData(sender)) {
+      saveSender(sender);
+    } else {
+      clearSender();
+    }
   }, [sender]);
 
   async function handleSearch() {
@@ -150,10 +162,18 @@ export default function App() {
               subject={campaign?.title ?? ''}
               body={letterBody}
               recipientEmail={selectedMdB.email}
+              contactFormUrl={selectedMdB.contactFormUrl}
+              homepage={selectedMdB.homepage}
             />
           </section>
         )}
+
+        <StorageInfo hasSenderData={hasSenderData(sender)} onClear={handleClearSender} />
       </main>
+
+      <footer className="footer">
+        <a href="#datenspeicherung">Datenspeicherung</a>
+      </footer>
     </div>
   );
 }

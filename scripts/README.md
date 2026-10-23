@@ -4,28 +4,49 @@ Die Anwendung lädt zur Laufzeit zwei Arten von Daten aus `public/data/`:
 
 | Datei | Inhalt |
 |---|---|
-| `public/data/mdb.json` | Liste der Bundestagsabgeordneten (Empfänger) |
+| `public/data/mdb.json` | Bundestagsabgeordnete (Direktmandate) inkl. Anschrift und Kontaktformular-Link |
 | `public/data/plz/<prefix>.json` | Zuordnung `PLZ -> [Wahlkreis-Nummern]`, aufgeteilt nach den ersten zwei PLZ-Ziffern |
 
-Aktuell liegen **Demo-Daten** im Repo (fiktive Namen), damit der Ablauf testbar ist.
-Die folgenden Skripte erzeugen echte Daten.
+## 1. Abgeordnete holen (`fetch-bundestag.mjs`)
 
-## 1. Abgeordnete holen (`fetch-mdb.ts`)
+Liest die Abgeordneten-Profile von bundestag.de aus. Pro Profil werden gelesen:
 
-Quelle ist die öffentliche API von [abgeordnetenwatch.de](https://www.abgeordnetenwatch.de/api).
+- **JSON-LD**: Name, Geschlecht, Fraktion, **Wahlkreis (Nummer + Name)**, Homepage
+- **Anschriftenblock**: Bundestagsbüro und **Wahlkreisbüro(s)**
+- **Kontaktformular-Link** (`/services/formular/contactform?mdbId=…`)
+
+Es werden nur **Direktmandate** (mit Wahlkreis) übernommen, damit die Zuordnung über die PLZ
+auf Wahlkreise aufsetzt. Listenmandate (ohne Wahlkreis) sind noch nicht enthalten.
+
+> Hinweis: Wegen der Wahlrechtsreform (Zweitstimmendeckung) sind im 21. Bundestag nicht alle
+> 299 Wahlkreise besetzt – 23 Wahlkreissieger zogen nicht ein. Für diese Wahlkreise findet die
+> App keinen direkten Abgeordneten. Der Scrape liefert daher rund 278 Direktmandate.
 
 ```bash
-ABGEORDNETENWATCH_API_KEY=dein_key node --experimental-strip-types scripts/fetch-mdb.ts
+node scripts/fetch-bundestag.mjs
+# nur zum Testen:
+CHROME_PATH=/pfad/zu/chrome MAX_PROFILES=5 node scripts/fetch-bundestag.mjs
 ```
 
 Ergebnis: `public/data/mdb.json`.
 
-> Die API-Feldnamen können sich ändern. Bei Fehlern die Antwort einmal mit einer
-> kleinen `range` prüfen und das Mapping im Skript anpassen.
+### Warum ein Browser?
+
+bundestag.de schützt seine Seiten mit einer Bot-Challenge (Enodia). Ein einfacher
+HTTP-Request wird auf `/.enodia/challenge` umgeleitet. Das Skript nutzt daher einen echten
+(Headless-)Chrome über `puppeteer-core`. Voraussetzung ist ein installiertes
+Chrome/Chromium (Standard-Pfad `/usr/bin/google-chrome`, sonst `CHROME_PATH` setzen).
+
+### Keine E-Mail-Adressen
+
+Der Bundestag **veröffentlicht keine E-Mail-Adressen** der Abgeordneten (nur
+Kontaktformulare). Die offiziellen Stammdaten (Open Data, XML) enthalten ebenfalls keine
+Kontakte. Deshalb speichert die App den **Kontaktformular-Link** statt einer E-Mail und
+nutzt für Briefe die **Wahlkreisbüro-Anschrift** (Fallback: Bundestagsbüro).
 
 ## 2. PLZ → Wahlkreis (`build-plz-index.ts`)
 
-Das Skript wandelt eine CSV-Quelle in die Laufzeit-Shards um:
+Wandelt eine CSV-Quelle in die Laufzeit-Shards um:
 
 ```bash
 node --experimental-strip-types scripts/build-plz-index.ts
@@ -45,22 +66,16 @@ Ergebnis: `public/data/plz/<prefix>.json`.
 
 ### Woher kommt die CSV?
 
-PLZ und Bundestagswahlkreis sind **nicht** 1:1 – eine PLZ kann mehrere Wahlkreise
-umfassen. Die CSV wird deshalb aus zwei Quellen zusammengeführt:
+PLZ und Bundestagswahlkreis sind **nicht** 1:1 – eine PLZ kann mehrere Wahlkreise umfassen.
+Die CSV wird aus zwei Quellen zusammengeführt:
 
 1. **PLZ → Gemeinde** (Amtlicher Gemeindeschlüssel): z. B. über OpenStreetMap-Grenzen
    oder das Gemeindeverzeichnis (Destatis).
 2. **Gemeinde → Wahlkreis**: Wahlkreiseinteilung der Bundeswahlleiterin.
 
-Daraus ergibt sich je PLZ die Menge der möglichen Wahlkreise. Diese Vorarbeit ist der
-eigentliche Aufwand der Pipeline; das Skript hier übernimmt nur den letzten Schritt
-(CSV → Shards).
+Diese Vorarbeit ist der eigentliche Aufwand; das Skript übernimmt nur den letzten Schritt
+(CSV → Shards). Aktuell liegt `scripts/source/plz-wahlkreis.csv` mit **Demo-Zuordnungen** bei.
 
-## Demo-Daten regenerieren
-
-`scripts/source/plz-wahlkreis.csv` enthält die Demo-Zuordnungen. Damit lassen sich die
-Shards jederzeit neu erzeugen:
-
-```bash
-node --experimental-strip-types scripts/build-plz-index.ts
-```
+> Hinweis: Der Bundestag bietet eine Wahlkreissuche mit PLZ/Ort-Autocomplete
+> (`/ajax/filterlist/de/533302-533302/plz-ort-autocomplete`). Das könnte künftig eine
+> direkte PLZ→Wahlkreis-Quelle liefern.

@@ -249,6 +249,43 @@ body {
   line-height: 1.6;
 }
 
+.storage-list {
+  margin: 0.75rem 0 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.storage-list dt {
+  font-weight: 600;
+}
+
+.storage-list dd {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.storage-list code {
+  background: #eef1f5;
+  border-radius: 4px;
+  padding: 0.05rem 0.3rem;
+  font-size: 0.85em;
+}
+
+#datenspeicherung {
+  scroll-margin-top: 1rem;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: var(--accent);
+}
+
 @media (max-width: 560px) {
   .field-grid {
     grid-template-columns: 1fr;

@@ -19,7 +19,7 @@ Stadtwerke, Netzbetreiber.
 
 | Thema | Entscheidung |
 |---|---|
-| Versandkanal | PDF-Brief (Druck) **und** E-Mail/mailto |
+| Versandkanal | PDF-Brief (Druck) **und** Kontaktformular/mailto (E-Mail nur, wo vorhanden) |
 | MVP-Empfänger | Bundestagsabgeordnete |
 | Architektur | Statische Seite, 100 % clientseitig, kein Backend/Tracking |
 | Stack | Vite + React + TypeScript |
@@ -35,33 +35,40 @@ Browser (statische Seite)
 ├── Kampagnen: campaigns/*/campaign.yaml + templates/*.md
 ├── Rendering: Markdown-Template + Platzhalter → HTML
 ├── Ausgabe A: DIN-5008-Briefansicht → window.print() → "Als PDF speichern"
-└── Ausgabe B: mailto:-Link + "Text kopieren"
+└── Ausgabe B: Kontaktformular-Link (bzw. mailto) + "Text kopieren"
 ```
 
 - Kein Backend, kein Tracking. PLZ und Absenderdaten bleiben im Browser
   (`localStorage` für Komfort). Gleichzeitig das Datenschutz-Argument.
 - PDF über eine per CSS gestylte Briefansicht + `window.print()` (beste Typografie,
   DIN 5008, keine PDF-Library nötig). Optional später `pdf-lib` für direkten `.pdf`-Download.
-- E-Mail als `mailto:` mit vorbelegtem Betreff/Text, plus „In Zwischenablage kopieren"
-  als Fallback (viele Abgeordnete nutzen Kontaktformulare → Copy/Paste).
+- Versand: Der Bundestag veröffentlicht **keine E-Mail-Adressen**. Die App führt daher direkt
+  zum **Kontaktformular** des Abgeordneten; zusätzlich „Text kopieren". Wo eine E-Mail-Adresse
+  vorliegt (spätere Empfängertypen), wird ein `mailto:`-Link angeboten.
 
 ## Datenpipeline (kritischer Teil)
 
-Zwei getrennte Baustellen, die ein Build-Skript zusammenführt:
+Zwei getrennte Baustellen mit je einem Build-Skript:
 
-**1. Empfänger (MdB) — via abgeordnetenwatch.de API v2**
-- Kostenloser API-Key, Abruf **zur Build-Zeit** (Key bleibt aus dem Client).
-- Endpunkte `candidacies-mandates` (Bundestag, aktuelle Wahlperiode) + `politicians`
-  + `constituencies` + `parties`.
-- Liefert: Name, Partei, Wahlkreis, E-Mail, Website, ggf. Anschrift.
+**1. Empfänger (MdB) — aus den Profilen auf bundestag.de**
+- Scraping der Abgeordneten-Profile (`/abgeordnete/biografien/…`).
+- Liefert: Name, Fraktion, Geschlecht, Wahlkreis (Nummer + Name), Homepage,
+  **Wahlkreisbüro-Anschrift** und **Kontaktformular-Link**.
+- **Keine E-Mail-Adressen**: Der Bundestag veröffentlicht nur Kontaktformulare (auch die
+  Open-Data-Stammdaten enthalten keine Kontakte). Die App nutzt daher den
+  Kontaktformular-Link statt einer E-Mail und für Briefe die Wahlkreisbüro-Anschrift.
+- Die Seite schützt sich mit einer Bot-Challenge → Abruf über einen Headless-Browser
+  (`puppeteer-core`).
 
 **2. PLZ → Wahlkreis — eigentlicher Daten-Risikopunkt**
-- abgeordnetenwatch hat Wahlkreise, aber **kein PLZ-Mapping**. Zweite Quelle nötig.
+- Für die Zuordnung PLZ → Wahlkreis gibt es keine fertige offene Quelle.
 - Kette: `PLZ → Gemeinde (AGS) → Wahlkreis`.
   Quellen: OSM-Grenzen bzw. Destatis-Gemeindeverzeichnis für PLZ↔Gemeinde,
   Bundeswahlleiterin-Liste für Gemeinde↔Wahlkreis.
 - PLZ und Wahlkreis sind **nicht** 1:1. Eine PLZ kann mehrere Wahlkreise umfassen.
   Bei Mehrdeutigkeit werden **alle** passenden MdB angezeigt (Feature, kein Bug).
+- Wegen der Zweitstimmendeckung (Wahlrechtsreform) sind nicht alle 299 Wahlkreise besetzt;
+  für unbesetzte Wahlkreise gibt es keinen direkten Abgeordneten.
 
 Ergebnis wird als **Shards** (`public/data/plz/10.json`, `11.json`, …) ausgeliefert,
 damit pro Anfrage nur wenige KB geladen werden.
@@ -114,7 +121,7 @@ meine-beschwerde/
 │       ├── campaign.yaml
 │       └── templates/mdb.md
 ├── scripts/                          # Datenpipeline (Build-Zeit, nicht im Client)
-│   ├── fetch-mdb.ts                  # abgeordnetenwatch API → data/mdb.json
+│   ├── fetch-bundestag.mjs           # bundestag.de-Profile → data/mdb.json
 │   └── build-plz-index.ts            # PLZ→Wahlkreis → data/plz/<prefix>.json
 ├── public/data/                      # Laufzeit-Daten, lazy geladen
 │   ├── mdb.json
@@ -140,9 +147,9 @@ meine-beschwerde/
 
 1. **M1 — Gerüst** _(erledigt)_: Vite+React+TS, GitHub-Actions-Deploy, Kampagnen-Loader
    (`import.meta.glob`), Platzhalter-Engine.
-2. **M2 — Bundestag end-to-end**: PLZ-Eingabe → Lookup → MdB-Liste (Mehrfachtreffer
-   bei mehrdeutiger PLZ) → **Absenderformular mit localStorage** → Briefvorschau →
-   PDF/Print + mailto/Copy.
+2. **M2 — Bundestag end-to-end** _(erledigt)_: PLZ-Eingabe → Lookup → MdB-Liste
+   (Mehrfachtreffer bei mehrdeutiger PLZ) → **Absenderformular mit localStorage** →
+   Briefvorschau → PDF/Print + Kontaktformular/Copy.
 3. **M3 — Content & UX**: Kails Schreiben als erste Kampagne, optionaler persönlicher
    Absatz, Feinschliff.
 4. **M4 — Erweiterung**: Landtag, danach Gemeinde-Ebene (Bürgermeister/Landrat).
@@ -155,11 +162,12 @@ M1–M3 sind der Proof-of-Value. Erst danach lohnt sich die Datenbreite.
 - **Kampagnen-Autor**: Wer schreibt die Templates — Nutzer oder strukturiert von Kail?
 - **Bündel-Download**: Ein Brief pro MdB (Standard) oder „an alle im Wahlkreis" als Sammel-PDF?
 - **Domain**: `*.github.io/meine-beschwerde` oder später eigene Domain?
-- **PLZ→Wahlkreis-Quelle**: muss in M2 verifiziert werden (OSM/Destatis +
-  Bundeswahlleiterin) — einziges echtes Datenrisiko.
+- **PLZ→Wahlkreis-Quelle**: noch umzusetzen (OSM/Destatis + Bundeswahlleiterin) —
+  aktuell Demo-Daten, einziges echtes Datenrisiko.
 
 ## Nächster Schritt
 
-M1 (Gerüst) ist umgesetzt. Als Nächstes **M2**: PLZ-Eingabe, echte Daten-Shards,
-MdB-Liste über die abgeordnetenwatch-API, **Absenderformular mit localStorage-Speicherung**
-und Briefvorschau mit PDF/Print + mailto/Copy.
+M1 und M2 sind umgesetzt. Die echten MdB-Daten (inkl. Anschriften und Kontaktformular-Links)
+kommen aus den bundestag.de-Profilen. Als Nächstes **M3**: Kails Schreiben als erste Kampagne,
+optionaler persönlicher Absatz, Feinschliff. Offen bleibt die echte **PLZ→Wahlkreis-Zuordnung**
+(aktuell Demo-Daten).

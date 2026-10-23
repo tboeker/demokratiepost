@@ -101,6 +101,7 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
         </button>
         <p className="hint">
           Deine Angaben werden nur lokal in deinem Browser gespeichert und nicht übertragen.
+          Mehr dazu unter <a href="#datenspeicherung">Datenspeicherung</a>.
         </p>
       </div>
     </div>
