@@ -1,0 +1,2410 @@
+[
+  {
+    "id": "lt-hessen-60479",
+    "name": "Hans Christian Göttlicher",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hans-christian-goettlicher",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Kassel-Land I"
+    }
+  },
+  {
+    "id": "lt-hessen-60480",
+    "name": "Anna-Maria Schölch",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anna-maria-schoelch",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Kassel-Land II"
+    }
+  },
+  {
+    "id": "lt-hessen-60481",
+    "name": "Vanessa Gronemann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/vanessa-gronemann",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Kassel-Stadt I"
+    }
+  },
+  {
+    "id": "lt-hessen-60532",
+    "name": "Maximilian Bathon",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maximilian-bathon",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Kassel-Stadt II"
+    }
+  },
+  {
+    "id": "lt-hessen-60483",
+    "name": "Claudia Ravensburg",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claudia-ravensburg",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Waldeck-Frankenberg II"
+    }
+  },
+  {
+    "id": "lt-hessen-60484",
+    "name": "Dominik Leyh",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dominik-leyh",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Schwalm-Eder I"
+    }
+  },
+  {
+    "id": "lt-hessen-60485",
+    "name": "Christin Ziegler",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christin-ziegler",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Schwalm-Eder II"
+    }
+  },
+  {
+    "id": "lt-hessen-60486",
+    "name": "Stefan Schneider",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-schneider",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Eschwege-Witzenhausen"
+    }
+  },
+  {
+    "id": "lt-hessen-60488",
+    "name": "Stefanie Klee",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefanie-klee",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Hersfeld"
+    }
+  },
+  {
+    "id": "lt-hessen-60489",
+    "name": "Marie-Sophie Künkel",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marie-sophie-kuenkel",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Marburg-Biedenkopf I"
+    }
+  },
+  {
+    "id": "lt-hessen-60490",
+    "name": "Dirk Bamberger",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dirk-bamberger",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Marburg-Biedenkopf II"
+    }
+  },
+  {
+    "id": "lt-hessen-60491",
+    "name": "Thomas Hering",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-hering",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Fulda I"
+    }
+  },
+  {
+    "id": "lt-hessen-60492",
+    "name": "Sebastian Müller",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-mueller",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Fulda II"
+    }
+  },
+  {
+    "id": "lt-hessen-60493",
+    "name": "Jörg Michael Müller",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-michael-mueller",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Lahn-Dill I"
+    }
+  },
+  {
+    "id": "lt-hessen-60494",
+    "name": "Frank Steinraths",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-steinraths",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Lahn-Dill II"
+    }
+  },
+  {
+    "id": "lt-hessen-60496",
+    "name": "Lucas Schmitz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lucas-schmitz",
+    "wahlkreis": {
+      "number": 19,
+      "name": "Gießen II"
+    }
+  },
+  {
+    "id": "lt-hessen-60498",
+    "name": "Christian Wendel",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-wendel",
+    "wahlkreis": {
+      "number": 21,
+      "name": "Limburg-Weilburg I"
+    }
+  },
+  {
+    "id": "lt-hessen-60499",
+    "name": "Andreas Hofmeister",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-hofmeister",
+    "wahlkreis": {
+      "number": 22,
+      "name": "Limburg-Weilburg II"
+    }
+  },
+  {
+    "id": "lt-hessen-60500",
+    "name": "Holger Bellino",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/holger-bellino",
+    "wahlkreis": {
+      "number": 23,
+      "name": "Hochtaunus I"
+    }
+  },
+  {
+    "id": "lt-hessen-60501",
+    "name": "Sebastian Sommer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-sommer-0",
+    "wahlkreis": {
+      "number": 24,
+      "name": "Hochtaunus II"
+    }
+  },
+  {
+    "id": "lt-hessen-60502",
+    "name": "Tobias Utter",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tobias-utter",
+    "wahlkreis": {
+      "number": 25,
+      "name": "Wetterau I"
+    }
+  },
+  {
+    "id": "lt-hessen-60503",
+    "name": "Patrick Appel",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/patrick-appel",
+    "wahlkreis": {
+      "number": 26,
+      "name": "Wetterau II"
+    }
+  },
+  {
+    "id": "lt-hessen-60504",
+    "name": "Annette Wetekam",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/annette-wetekam",
+    "wahlkreis": {
+      "number": 27,
+      "name": "Wetterau III"
+    }
+  },
+  {
+    "id": "lt-hessen-60505",
+    "name": "Ingo Schon",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ingo-schon",
+    "wahlkreis": {
+      "number": 28,
+      "name": "Rheingau-Taunus I"
+    }
+  },
+  {
+    "id": "lt-hessen-60506",
+    "name": "André Stolz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andre-stolz",
+    "wahlkreis": {
+      "number": 29,
+      "name": "Rheingau-Taunus II"
+    }
+  },
+  {
+    "id": "lt-hessen-60507",
+    "name": "Astrid Wallmann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/astrid-wallmann",
+    "wahlkreis": {
+      "number": 30,
+      "name": "Wiesbaden I"
+    }
+  },
+  {
+    "id": "lt-hessen-60533",
+    "name": "R. Alexander Lorz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/r-alexander-lorz",
+    "wahlkreis": {
+      "number": 31,
+      "name": "Wiesbaden II"
+    }
+  },
+  {
+    "id": "lt-hessen-60508",
+    "name": "Christian Heinz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-heinz",
+    "wahlkreis": {
+      "number": 32,
+      "name": "Main-Taunus I"
+    }
+  },
+  {
+    "id": "lt-hessen-60509",
+    "name": "Axel Wintermeyer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/axel-wintermeyer",
+    "wahlkreis": {
+      "number": 33,
+      "name": "Main-Taunus II"
+    }
+  },
+  {
+    "id": "lt-hessen-60510",
+    "name": "Uwe Serke",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uwe-serke",
+    "wahlkreis": {
+      "number": 34,
+      "name": "Frankfurt am Main I"
+    }
+  },
+  {
+    "id": "lt-hessen-60511",
+    "name": "Tanja Jost",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tanja-jost",
+    "wahlkreis": {
+      "number": 35,
+      "name": "Frankfurt am Main II"
+    }
+  },
+  {
+    "id": "lt-hessen-60512",
+    "name": "Ralf-Norbert Bartelt",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralf-norbert-bartelt",
+    "wahlkreis": {
+      "number": 36,
+      "name": "Frankfurt am Main III"
+    }
+  },
+  {
+    "id": "lt-hessen-60514",
+    "name": "Marcus Bocklet",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcus-bocklet",
+    "wahlkreis": {
+      "number": 38,
+      "name": "Frankfurt am Main V"
+    }
+  },
+  {
+    "id": "lt-hessen-60515",
+    "name": "Boris Rhein",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/boris-rhein",
+    "wahlkreis": {
+      "number": 39,
+      "name": "Frankfurt am Main VI"
+    }
+  },
+  {
+    "id": "lt-hessen-60516",
+    "name": "Max Schad",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/max-schad",
+    "wahlkreis": {
+      "number": 40,
+      "name": "Main-Kinzig I"
+    }
+  },
+  {
+    "id": "lt-hessen-60517",
+    "name": "Heiko Kasseckert",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heiko-kasseckert",
+    "wahlkreis": {
+      "number": 41,
+      "name": "Main-Kinzig II"
+    }
+  },
+  {
+    "id": "lt-hessen-60518",
+    "name": "Michael Reul",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-reul",
+    "wahlkreis": {
+      "number": 42,
+      "name": "Main-Kinzig III"
+    }
+  },
+  {
+    "id": "lt-hessen-60519",
+    "name": "Kim-Sarah Speer",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kim-sarah-speer",
+    "wahlkreis": {
+      "number": 43,
+      "name": "Offenbach-Stadt"
+    }
+  },
+  {
+    "id": "lt-hessen-60520",
+    "name": "Hartmut Honka",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hartmut-honka",
+    "wahlkreis": {
+      "number": 44,
+      "name": "Offenbach Land I"
+    }
+  },
+  {
+    "id": "lt-hessen-60521",
+    "name": "Christoph Mikuschek",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-mikuschek",
+    "wahlkreis": {
+      "number": 45,
+      "name": "Offenbach Land II"
+    }
+  },
+  {
+    "id": "lt-hessen-60522",
+    "name": "Frank Lortz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-lortz",
+    "wahlkreis": {
+      "number": 46,
+      "name": "Offenbach Land III"
+    }
+  },
+  {
+    "id": "lt-hessen-60523",
+    "name": "Sabine Bächle-Scholz",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sabine-baechle-scholz",
+    "wahlkreis": {
+      "number": 47,
+      "name": "Groß-Gerau I"
+    }
+  },
+  {
+    "id": "lt-hessen-60524",
+    "name": "Ines Claus",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ines-claus",
+    "wahlkreis": {
+      "number": 48,
+      "name": "Groß-Gerau II"
+    }
+  },
+  {
+    "id": "lt-hessen-60525",
+    "name": "Hildegard Förster-Heldmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hildegard-foerster-heldmann",
+    "wahlkreis": {
+      "number": 49,
+      "name": "Darmstadt-Stadt I"
+    }
+  },
+  {
+    "id": "lt-hessen-60526",
+    "name": "Peter Franz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-franz",
+    "wahlkreis": {
+      "number": 50,
+      "name": "Darmstadt-Stadt II"
+    }
+  },
+  {
+    "id": "lt-hessen-60528",
+    "name": "Manfred Pentz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/manfred-pentz",
+    "wahlkreis": {
+      "number": 52,
+      "name": "Darmstadt-Dieburg II"
+    }
+  },
+  {
+    "id": "lt-hessen-60529",
+    "name": "Sandra Funken",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandra-funken",
+    "wahlkreis": {
+      "number": 53,
+      "name": "Odenwald"
+    }
+  },
+  {
+    "id": "lt-hessen-60530",
+    "name": "Alexander Bauer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-bauer-0",
+    "wahlkreis": {
+      "number": 54,
+      "name": "Bergstraße I"
+    }
+  },
+  {
+    "id": "lt-hessen-60531",
+    "name": "Birgit Heitland",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/birgit-heitland",
+    "wahlkreis": {
+      "number": 55,
+      "name": "Bergstraße II"
+    }
+  },
+  {
+    "id": "lt-hessen-71843",
+    "name": "Alexander Grotov",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-grotov",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60574",
+    "name": "Alexander Hofmann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-hofmann",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-69015",
+    "name": "Andreas Ewald",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-ewald",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60570",
+    "name": "Andreas Lichert",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-lichert",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60587",
+    "name": "Andreas Lobenstein",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-lobenstein",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60583",
+    "name": "Anna Nguyen",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anna-nguyen",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60558",
+    "name": "Arno Enners",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/arno-enners",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60611",
+    "name": "Bernd-Erich Vohl",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernd-erich-vohl",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60598",
+    "name": "Bijan Kaffenberger",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bijan-kaffenberger",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60567",
+    "name": "Christian Rohde",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-rohde",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60543",
+    "name": "Christoph Sippel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-sippel",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60629",
+    "name": "Cirsten Kunz-Strueder",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/cirsten-kunz-strueder",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60539",
+    "name": "Daniel May",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-may",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60541",
+    "name": "Daniela Sommer",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniela-sommer",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60610",
+    "name": "Dimitri Schulz",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dimitri-schulz",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60606",
+    "name": "Dirk Gaw",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dirk-gaw",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60563",
+    "name": "Elke Barth",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/elke-barth",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60538",
+    "name": "Esther Kalveram",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/esther-kalveram",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60545",
+    "name": "Felix Martin",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/felix-martin",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60571",
+    "name": "Frank Grobe",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-grobe",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60559",
+    "name": "Gerhard Bärsch",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gerhard-baersch",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60548",
+    "name": "Gerhard Schenk",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gerhard-schenk",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60542",
+    "name": "Günter Rudolph",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/guenter-rudolph",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60608",
+    "name": "Hans-Jürgen Müller",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hans-juergen-mueller-0",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-69016",
+    "name": "Hartwig Jourdan",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hartwig-jourdan",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60579",
+    "name": "Heiko Scholz",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heiko-scholz",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-69066",
+    "name": "Ina Dürr",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ina-duerr",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60628",
+    "name": "Jennifer Gießler",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jennifer-giessler",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60595",
+    "name": "Jochen Roos",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jochen-roos",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60569",
+    "name": "Johannes Marxen",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/johannes-marxen",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60605",
+    "name": "Josefine Koebe",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josefine-koebe",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60537",
+    "name": "Julia Herz",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-herz",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60540",
+    "name": "Jürgen Frömmrich",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juergen-froemmrich",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60546",
+    "name": "Karina Fissmann-Renner",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karina-fissmann-renner",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60604",
+    "name": "Karsten Bletzer",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karsten-bletzer",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60565",
+    "name": "Kathrin Anders",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kathrin-anders",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60556",
+    "name": "Katrin Schleenbecker",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katrin-schleenbecker",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60593",
+    "name": "Katy Walther",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katy-walther",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60547",
+    "name": "Kaya Kinkel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kaya-kinkel",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60596",
+    "name": "Kerstin Geis",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kerstin-geis",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60572",
+    "name": "Klaus Gagel",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/klaus-gagel",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60576",
+    "name": "Lara Klaes",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lara-klaes",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60568",
+    "name": "Lisa Gnadl",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lisa-gnadl",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60553",
+    "name": "Lothar Mulch",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lothar-mulch",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60609",
+    "name": "Marcus Resch",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcus-resch",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60561",
+    "name": "Marion Schardt-Sauer",
+    "party": "FDP",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marion-schardt-sauer",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60573",
+    "name": "Marius Weiß",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marius-weiss",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60581",
+    "name": "Markus Fuchs",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-fuchs",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-71777",
+    "name": "Martin Schörner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-schoerner",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60580",
+    "name": "Martina Feldmayer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-feldmayer",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60575",
+    "name": "Mathias Wagner",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mathias-wagner",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60554",
+    "name": "Matthias Büger",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-bueger",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60566",
+    "name": "Matthias Körner",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-koerner",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60592",
+    "name": "Maximilian Müger",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maximilian-mueger",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60560",
+    "name": "Maximilian Ziegler",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maximilian-ziegler-0",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-69017",
+    "name": "Michelle Kraft",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michelle-kraft",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60582",
+    "name": "Miriam Dahlke",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/miriam-dahlke",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-69046",
+    "name": "Mirjam Glanz",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mirjam-glanz",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60603",
+    "name": "Moritz Promny",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/moritz-promny",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60590",
+    "name": "Nadine Gersberg",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nadine-gersberg",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60597",
+    "name": "Nina Eisenhardt",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nina-eisenhardt",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60555",
+    "name": "Nina Heidt-Sommer",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nina-heidt-sommer",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60602",
+    "name": "Olaf Schwaier",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/olaf-schwaier",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60591",
+    "name": "Oliver Stirböck",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-stirboeck",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60535",
+    "name": "Oliver Ulloth",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-ulloth",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60551",
+    "name": "Pascal Schleich",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/pascal-schleich",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60584",
+    "name": "Patrick Schenk",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/patrick-schenk",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60594",
+    "name": "René Rock",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rene-rock",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60577",
+    "name": "Robert Lambrou",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/robert-lambrou",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60599",
+    "name": "Roman Bausch",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/roman-bausch",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-61976",
+    "name": "Rüdiger Holschuh",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ruediger-holschuh",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60557",
+    "name": "Sandra Weegels",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandra-weegels",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60607",
+    "name": "Sascha Herr",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-herr",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60534",
+    "name": "Sascha Meier",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-meier",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60637",
+    "name": "Sebastian Sack",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-sack",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60564",
+    "name": "Stefan Naas",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-naas",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60552",
+    "name": "Stephan Grüger",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-grueger",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60549",
+    "name": "Tanja Hartdegen",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tanja-hartdegen",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60562",
+    "name": "Tobias Eckert",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tobias-eckert",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60601",
+    "name": "Torsten Leveringhaus",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/torsten-leveringhaus",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60585",
+    "name": "Turgut Yüksel",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/turgut-yueksel",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60536",
+    "name": "Volker Richter",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volker-richter",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60544",
+    "name": "Wiebke Knell",
+    "party": "FDP",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wiebke-knell",
+    "state": "Hessen"
+  },
+  {
+    "id": "lt-hessen-60586",
+    "name": "Yanki Pürsün",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hessen",
+    "address": {
+      "strasse": "Schlossplatz 1",
+      "plz": "65183",
+      "ort": "Wiesbaden",
+      "label": "Hessischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/yanki-puersuen",
+    "state": "Hessen"
+  }
+]

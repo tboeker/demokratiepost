@@ -115,6 +115,14 @@ export function LetterPreview({
         </p>
       )}
 
+      {recipientType === 'landtag' && !recipientEmail && !contactFormUrl && (
+        <p className="hint">
+          Für diesen Empfänger ist keine E-Mail-Adresse hinterlegt. Nutze den Brief
+          (Drucken / als PDF speichern) oder kopiere die Nachricht für das Kontaktformular des
+          Landtags.
+        </p>
+      )}
+
       <div className="letter-preview">
         <div className="letter-preview-header">
           <span className="letter-preview-title">Vorschau</span>

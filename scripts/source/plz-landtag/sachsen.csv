@@ -1,0 +1,988 @@
+# PLZ -> Landtagswahlkreis Sachsen (Landtag)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 157 (Sachsen 2024)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+01067,40,Dresden 1
+01067,41,Dresden 2
+01067,42,Dresden 3
+01067,43,Dresden 4
+01067,44,Dresden 5
+01067,45,Dresden 6
+01067,46,Dresden 7
+01067,47,Dresden 8
+01069,40,Dresden 1
+01069,41,Dresden 2
+01069,42,Dresden 3
+01069,43,Dresden 4
+01069,44,Dresden 5
+01069,45,Dresden 6
+01069,46,Dresden 7
+01069,47,Dresden 8
+01097,40,Dresden 1
+01097,41,Dresden 2
+01097,42,Dresden 3
+01097,43,Dresden 4
+01097,44,Dresden 5
+01097,45,Dresden 6
+01097,46,Dresden 7
+01097,47,Dresden 8
+01099,40,Dresden 1
+01099,41,Dresden 2
+01099,42,Dresden 3
+01099,43,Dresden 4
+01099,44,Dresden 5
+01099,45,Dresden 6
+01099,46,Dresden 7
+01099,47,Dresden 8
+01108,40,Dresden 1
+01108,41,Dresden 2
+01108,42,Dresden 3
+01108,43,Dresden 4
+01108,44,Dresden 5
+01108,45,Dresden 6
+01108,46,Dresden 7
+01108,47,Dresden 8
+01109,40,Dresden 1
+01109,41,Dresden 2
+01109,42,Dresden 3
+01109,43,Dresden 4
+01109,44,Dresden 5
+01109,45,Dresden 6
+01109,46,Dresden 7
+01109,47,Dresden 8
+01127,40,Dresden 1
+01127,41,Dresden 2
+01127,42,Dresden 3
+01127,43,Dresden 4
+01127,44,Dresden 5
+01127,45,Dresden 6
+01127,46,Dresden 7
+01127,47,Dresden 8
+01129,40,Dresden 1
+01129,41,Dresden 2
+01129,42,Dresden 3
+01129,43,Dresden 4
+01129,44,Dresden 5
+01129,45,Dresden 6
+01129,46,Dresden 7
+01129,47,Dresden 8
+01139,40,Dresden 1
+01139,41,Dresden 2
+01139,42,Dresden 3
+01139,43,Dresden 4
+01139,44,Dresden 5
+01139,45,Dresden 6
+01139,46,Dresden 7
+01139,47,Dresden 8
+01156,40,Dresden 1
+01156,41,Dresden 2
+01156,42,Dresden 3
+01156,43,Dresden 4
+01156,44,Dresden 5
+01156,45,Dresden 6
+01156,46,Dresden 7
+01156,47,Dresden 8
+01157,40,Dresden 1
+01157,41,Dresden 2
+01157,42,Dresden 3
+01157,43,Dresden 4
+01157,44,Dresden 5
+01157,45,Dresden 6
+01157,46,Dresden 7
+01157,47,Dresden 8
+01159,40,Dresden 1
+01159,41,Dresden 2
+01159,42,Dresden 3
+01159,43,Dresden 4
+01159,44,Dresden 5
+01159,45,Dresden 6
+01159,46,Dresden 7
+01159,47,Dresden 8
+01169,40,Dresden 1
+01169,41,Dresden 2
+01169,42,Dresden 3
+01169,43,Dresden 4
+01169,44,Dresden 5
+01169,45,Dresden 6
+01169,46,Dresden 7
+01169,47,Dresden 8
+01187,40,Dresden 1
+01187,41,Dresden 2
+01187,42,Dresden 3
+01187,43,Dresden 4
+01187,44,Dresden 5
+01187,45,Dresden 6
+01187,46,Dresden 7
+01187,47,Dresden 8
+01189,40,Dresden 1
+01189,41,Dresden 2
+01189,42,Dresden 3
+01189,43,Dresden 4
+01189,44,Dresden 5
+01189,45,Dresden 6
+01189,46,Dresden 7
+01189,47,Dresden 8
+01217,40,Dresden 1
+01217,41,Dresden 2
+01217,42,Dresden 3
+01217,43,Dresden 4
+01217,44,Dresden 5
+01217,45,Dresden 6
+01217,46,Dresden 7
+01217,47,Dresden 8
+01219,40,Dresden 1
+01219,41,Dresden 2
+01219,42,Dresden 3
+01219,43,Dresden 4
+01219,44,Dresden 5
+01219,45,Dresden 6
+01219,46,Dresden 7
+01219,47,Dresden 8
+01237,40,Dresden 1
+01237,41,Dresden 2
+01237,42,Dresden 3
+01237,43,Dresden 4
+01237,44,Dresden 5
+01237,45,Dresden 6
+01237,46,Dresden 7
+01237,47,Dresden 8
+01239,40,Dresden 1
+01239,41,Dresden 2
+01239,42,Dresden 3
+01239,43,Dresden 4
+01239,44,Dresden 5
+01239,45,Dresden 6
+01239,46,Dresden 7
+01239,47,Dresden 8
+01257,40,Dresden 1
+01257,41,Dresden 2
+01257,42,Dresden 3
+01257,43,Dresden 4
+01257,44,Dresden 5
+01257,45,Dresden 6
+01257,46,Dresden 7
+01257,47,Dresden 8
+01259,40,Dresden 1
+01259,41,Dresden 2
+01259,42,Dresden 3
+01259,43,Dresden 4
+01259,44,Dresden 5
+01259,45,Dresden 6
+01259,46,Dresden 7
+01259,47,Dresden 8
+01277,40,Dresden 1
+01277,41,Dresden 2
+01277,42,Dresden 3
+01277,43,Dresden 4
+01277,44,Dresden 5
+01277,45,Dresden 6
+01277,46,Dresden 7
+01277,47,Dresden 8
+01279,40,Dresden 1
+01279,41,Dresden 2
+01279,42,Dresden 3
+01279,43,Dresden 4
+01279,44,Dresden 5
+01279,45,Dresden 6
+01279,46,Dresden 7
+01279,47,Dresden 8
+01307,40,Dresden 1
+01307,41,Dresden 2
+01307,42,Dresden 3
+01307,43,Dresden 4
+01307,44,Dresden 5
+01307,45,Dresden 6
+01307,46,Dresden 7
+01307,47,Dresden 8
+01309,40,Dresden 1
+01309,41,Dresden 2
+01309,42,Dresden 3
+01309,43,Dresden 4
+01309,44,Dresden 5
+01309,45,Dresden 6
+01309,46,Dresden 7
+01309,47,Dresden 8
+01324,40,Dresden 1
+01324,41,Dresden 2
+01324,42,Dresden 3
+01324,43,Dresden 4
+01324,44,Dresden 5
+01324,45,Dresden 6
+01324,46,Dresden 7
+01324,47,Dresden 8
+01326,40,Dresden 1
+01326,41,Dresden 2
+01326,42,Dresden 3
+01326,43,Dresden 4
+01326,44,Dresden 5
+01326,45,Dresden 6
+01326,46,Dresden 7
+01326,47,Dresden 8
+01328,40,Dresden 1
+01328,41,Dresden 2
+01328,42,Dresden 3
+01328,43,Dresden 4
+01328,44,Dresden 5
+01328,45,Dresden 6
+01328,46,Dresden 7
+01328,47,Dresden 8
+01445,39,Meißen 4
+01454,54,Bautzen 3/Budyšin 3
+01458,54,Bautzen 3/Budyšin 3
+01465,40,Dresden 1
+01465,41,Dresden 2
+01465,42,Dresden 3
+01465,43,Dresden 4
+01465,44,Dresden 5
+01465,45,Dresden 6
+01465,46,Dresden 7
+01465,47,Dresden 8
+01468,39,Meißen 4
+01471,37,Meißen 2
+01477,53,Bautzen 2/Budyšin 2
+01558,37,Meißen 2
+01561,37,Meißen 2
+01587,36,Meißen 1
+01589,36,Meißen 1
+01591,36,Meißen 1
+01594,36,Meißen 1
+01609,37,Meißen 2
+01612,37,Meißen 2
+01616,36,Meißen 1
+01619,36,Meißen 1
+01619,37,Meißen 2
+01623,36,Meißen 1
+01640,39,Meißen 4
+01662,38,Meißen 3
+01665,36,Meißen 1
+01665,38,Meißen 3
+01683,38,Meißen 3
+01689,38,Meißen 3
+01705,48,Sächsische Schweiz-Osterzgebirge 1
+01723,48,Sächsische Schweiz-Osterzgebirge 1
+01728,49,Sächsische Schweiz-Osterzgebirge 2
+01731,49,Sächsische Schweiz-Osterzgebirge 2
+01731,50,Sächsische Schweiz-Osterzgebirge 3
+01734,49,Sächsische Schweiz-Osterzgebirge 2
+01737,48,Sächsische Schweiz-Osterzgebirge 1
+01738,48,Sächsische Schweiz-Osterzgebirge 1
+01738,49,Sächsische Schweiz-Osterzgebirge 2
+01744,49,Sächsische Schweiz-Osterzgebirge 2
+01762,49,Sächsische Schweiz-Osterzgebirge 2
+01768,49,Sächsische Schweiz-Osterzgebirge 2
+01773,49,Sächsische Schweiz-Osterzgebirge 2
+01774,49,Sächsische Schweiz-Osterzgebirge 2
+01776,49,Sächsische Schweiz-Osterzgebirge 2
+01778,49,Sächsische Schweiz-Osterzgebirge 2
+01796,50,Sächsische Schweiz-Osterzgebirge 3
+01796,51,Sächsische Schweiz-Osterzgebirge 4
+01809,50,Sächsische Schweiz-Osterzgebirge 3
+01814,51,Sächsische Schweiz-Osterzgebirge 4
+01816,50,Sächsische Schweiz-Osterzgebirge 3
+01819,50,Sächsische Schweiz-Osterzgebirge 3
+01824,51,Sächsische Schweiz-Osterzgebirge 4
+01825,50,Sächsische Schweiz-Osterzgebirge 3
+01829,51,Sächsische Schweiz-Osterzgebirge 4
+01833,51,Sächsische Schweiz-Osterzgebirge 4
+01844,51,Sächsische Schweiz-Osterzgebirge 4
+01847,51,Sächsische Schweiz-Osterzgebirge 4
+01848,51,Sächsische Schweiz-Osterzgebirge 4
+01855,51,Sächsische Schweiz-Osterzgebirge 4
+01877,52,Bautzen 1/Budyšin 1
+01877,56,Bautzen 5/Budyšin 5
+01896,53,Bautzen 2/Budyšin 2
+01900,53,Bautzen 2/Budyšin 2
+01904,52,Bautzen 1/Budyšin 1
+01906,52,Bautzen 1/Budyšin 1
+01909,52,Bautzen 1/Budyšin 1
+01917,53,Bautzen 2/Budyšin 2
+01920,53,Bautzen 2/Budyšin 2
+01920,54,Bautzen 3/Budyšin 3
+01936,53,Bautzen 2/Budyšin 2
+01936,54,Bautzen 3/Budyšin 3
+01945,37,Meißen 2
+01945,54,Bautzen 3/Budyšin 3
+01968,55,Bautzen 4/Budyšin 4
+01990,37,Meißen 2
+01996,55,Bautzen 4/Budyšin 4
+02625,56,Bautzen 5/Budyšin 5
+02627,55,Bautzen 4/Budyšin 4
+02627,56,Bautzen 5/Budyšin 5
+02633,52,Bautzen 1/Budyšin 1
+02633,56,Bautzen 5/Budyšin 5
+02681,52,Bautzen 1/Budyšin 1
+02689,52,Bautzen 1/Budyšin 1
+02692,52,Bautzen 1/Budyšin 1
+02692,56,Bautzen 5/Budyšin 5
+02694,56,Bautzen 5/Budyšin 5
+02699,55,Bautzen 4/Budyšin 4
+02708,59,Görlitz 3
+02727,59,Görlitz 3
+02730,59,Görlitz 3
+02733,52,Bautzen 1/Budyšin 1
+02736,59,Görlitz 3
+02739,59,Görlitz 3
+02742,59,Görlitz 3
+02747,59,Görlitz 3
+02748,59,Görlitz 3
+02763,60,Görlitz 4
+02779,60,Görlitz 4
+02782,60,Görlitz 4
+02785,60,Görlitz 4
+02788,60,Görlitz 4
+02791,60,Görlitz 4
+02794,60,Görlitz 4
+02796,60,Görlitz 4
+02797,60,Görlitz 4
+02799,60,Görlitz 4
+02826,58,Görlitz 2
+02827,58,Görlitz 2
+02828,57,Görlitz 1/Zhorjelc 1
+02828,58,Görlitz 2
+02829,57,Görlitz 1/Zhorjelc 1
+02829,58,Görlitz 2
+02894,58,Görlitz 2
+02899,58,Görlitz 2
+02899,59,Görlitz 3
+02906,57,Görlitz 1/Zhorjelc 1
+02923,57,Görlitz 1/Zhorjelc 1
+02929,57,Görlitz 1/Zhorjelc 1
+02943,57,Görlitz 1/Zhorjelc 1
+02953,57,Görlitz 1/Zhorjelc 1
+02956,57,Görlitz 1/Zhorjelc 1
+02957,57,Görlitz 1/Zhorjelc 1
+02959,57,Görlitz 1/Zhorjelc 1
+02977,55,Bautzen 4/Budyšin 4
+02979,55,Bautzen 4/Budyšin 4
+02991,55,Bautzen 4/Budyšin 4
+02994,54,Bautzen 3/Budyšin 3
+02997,54,Bautzen 3/Budyšin 3
+02999,55,Bautzen 4/Budyšin 4
+03103,55,Bautzen 4/Budyšin 4
+03119,55,Bautzen 4/Budyšin 4
+03130,55,Bautzen 4/Budyšin 4
+03130,57,Görlitz 1/Zhorjelc 1
+03159,57,Görlitz 1/Zhorjelc 1
+04103,25,Leipzig 1
+04103,26,Leipzig 2
+04103,27,Leipzig 3
+04103,28,Leipzig 4
+04103,29,Leipzig 5
+04103,30,Leipzig 6
+04103,31,Leipzig 7
+04103,32,Leipzig 8
+04105,25,Leipzig 1
+04105,26,Leipzig 2
+04105,27,Leipzig 3
+04105,28,Leipzig 4
+04105,29,Leipzig 5
+04105,30,Leipzig 6
+04105,31,Leipzig 7
+04105,32,Leipzig 8
+04107,25,Leipzig 1
+04107,26,Leipzig 2
+04107,27,Leipzig 3
+04107,28,Leipzig 4
+04107,29,Leipzig 5
+04107,30,Leipzig 6
+04107,31,Leipzig 7
+04107,32,Leipzig 8
+04109,25,Leipzig 1
+04109,26,Leipzig 2
+04109,27,Leipzig 3
+04109,28,Leipzig 4
+04109,29,Leipzig 5
+04109,30,Leipzig 6
+04109,31,Leipzig 7
+04109,32,Leipzig 8
+04129,25,Leipzig 1
+04129,26,Leipzig 2
+04129,27,Leipzig 3
+04129,28,Leipzig 4
+04129,29,Leipzig 5
+04129,30,Leipzig 6
+04129,31,Leipzig 7
+04129,32,Leipzig 8
+04155,25,Leipzig 1
+04155,26,Leipzig 2
+04155,27,Leipzig 3
+04155,28,Leipzig 4
+04155,29,Leipzig 5
+04155,30,Leipzig 6
+04155,31,Leipzig 7
+04155,32,Leipzig 8
+04157,25,Leipzig 1
+04157,26,Leipzig 2
+04157,27,Leipzig 3
+04157,28,Leipzig 4
+04157,29,Leipzig 5
+04157,30,Leipzig 6
+04157,31,Leipzig 7
+04157,32,Leipzig 8
+04158,25,Leipzig 1
+04158,26,Leipzig 2
+04158,27,Leipzig 3
+04158,28,Leipzig 4
+04158,29,Leipzig 5
+04158,30,Leipzig 6
+04158,31,Leipzig 7
+04158,32,Leipzig 8
+04159,25,Leipzig 1
+04159,26,Leipzig 2
+04159,27,Leipzig 3
+04159,28,Leipzig 4
+04159,29,Leipzig 5
+04159,30,Leipzig 6
+04159,31,Leipzig 7
+04159,32,Leipzig 8
+04177,25,Leipzig 1
+04177,26,Leipzig 2
+04177,27,Leipzig 3
+04177,28,Leipzig 4
+04177,29,Leipzig 5
+04177,30,Leipzig 6
+04177,31,Leipzig 7
+04177,32,Leipzig 8
+04178,25,Leipzig 1
+04178,26,Leipzig 2
+04178,27,Leipzig 3
+04178,28,Leipzig 4
+04178,29,Leipzig 5
+04178,30,Leipzig 6
+04178,31,Leipzig 7
+04178,32,Leipzig 8
+04179,25,Leipzig 1
+04179,26,Leipzig 2
+04179,27,Leipzig 3
+04179,28,Leipzig 4
+04179,29,Leipzig 5
+04179,30,Leipzig 6
+04179,31,Leipzig 7
+04179,32,Leipzig 8
+04205,25,Leipzig 1
+04205,26,Leipzig 2
+04205,27,Leipzig 3
+04205,28,Leipzig 4
+04205,29,Leipzig 5
+04205,30,Leipzig 6
+04205,31,Leipzig 7
+04205,32,Leipzig 8
+04207,25,Leipzig 1
+04207,26,Leipzig 2
+04207,27,Leipzig 3
+04207,28,Leipzig 4
+04207,29,Leipzig 5
+04207,30,Leipzig 6
+04207,31,Leipzig 7
+04207,32,Leipzig 8
+04209,25,Leipzig 1
+04209,26,Leipzig 2
+04209,27,Leipzig 3
+04209,28,Leipzig 4
+04209,29,Leipzig 5
+04209,30,Leipzig 6
+04209,31,Leipzig 7
+04209,32,Leipzig 8
+04229,25,Leipzig 1
+04229,26,Leipzig 2
+04229,27,Leipzig 3
+04229,28,Leipzig 4
+04229,29,Leipzig 5
+04229,30,Leipzig 6
+04229,31,Leipzig 7
+04229,32,Leipzig 8
+04249,25,Leipzig 1
+04249,26,Leipzig 2
+04249,27,Leipzig 3
+04249,28,Leipzig 4
+04249,29,Leipzig 5
+04249,30,Leipzig 6
+04249,31,Leipzig 7
+04249,32,Leipzig 8
+04275,25,Leipzig 1
+04275,26,Leipzig 2
+04275,27,Leipzig 3
+04275,28,Leipzig 4
+04275,29,Leipzig 5
+04275,30,Leipzig 6
+04275,31,Leipzig 7
+04275,32,Leipzig 8
+04277,25,Leipzig 1
+04277,26,Leipzig 2
+04277,27,Leipzig 3
+04277,28,Leipzig 4
+04277,29,Leipzig 5
+04277,30,Leipzig 6
+04277,31,Leipzig 7
+04277,32,Leipzig 8
+04279,25,Leipzig 1
+04279,26,Leipzig 2
+04279,27,Leipzig 3
+04279,28,Leipzig 4
+04279,29,Leipzig 5
+04279,30,Leipzig 6
+04279,31,Leipzig 7
+04279,32,Leipzig 8
+04288,25,Leipzig 1
+04288,26,Leipzig 2
+04288,27,Leipzig 3
+04288,28,Leipzig 4
+04288,29,Leipzig 5
+04288,30,Leipzig 6
+04288,31,Leipzig 7
+04288,32,Leipzig 8
+04289,25,Leipzig 1
+04289,26,Leipzig 2
+04289,27,Leipzig 3
+04289,28,Leipzig 4
+04289,29,Leipzig 5
+04289,30,Leipzig 6
+04289,31,Leipzig 7
+04289,32,Leipzig 8
+04299,25,Leipzig 1
+04299,26,Leipzig 2
+04299,27,Leipzig 3
+04299,28,Leipzig 4
+04299,29,Leipzig 5
+04299,30,Leipzig 6
+04299,31,Leipzig 7
+04299,32,Leipzig 8
+04315,25,Leipzig 1
+04315,26,Leipzig 2
+04315,27,Leipzig 3
+04315,28,Leipzig 4
+04315,29,Leipzig 5
+04315,30,Leipzig 6
+04315,31,Leipzig 7
+04315,32,Leipzig 8
+04316,25,Leipzig 1
+04316,26,Leipzig 2
+04316,27,Leipzig 3
+04316,28,Leipzig 4
+04316,29,Leipzig 5
+04316,30,Leipzig 6
+04316,31,Leipzig 7
+04316,32,Leipzig 8
+04317,25,Leipzig 1
+04317,26,Leipzig 2
+04317,27,Leipzig 3
+04317,28,Leipzig 4
+04317,29,Leipzig 5
+04317,30,Leipzig 6
+04317,31,Leipzig 7
+04317,32,Leipzig 8
+04318,25,Leipzig 1
+04318,26,Leipzig 2
+04318,27,Leipzig 3
+04318,28,Leipzig 4
+04318,29,Leipzig 5
+04318,30,Leipzig 6
+04318,31,Leipzig 7
+04318,32,Leipzig 8
+04319,25,Leipzig 1
+04319,26,Leipzig 2
+04319,27,Leipzig 3
+04319,28,Leipzig 4
+04319,29,Leipzig 5
+04319,30,Leipzig 6
+04319,31,Leipzig 7
+04319,32,Leipzig 8
+04328,25,Leipzig 1
+04328,26,Leipzig 2
+04328,27,Leipzig 3
+04328,28,Leipzig 4
+04328,29,Leipzig 5
+04328,30,Leipzig 6
+04328,31,Leipzig 7
+04328,32,Leipzig 8
+04329,25,Leipzig 1
+04329,26,Leipzig 2
+04329,27,Leipzig 3
+04329,28,Leipzig 4
+04329,29,Leipzig 5
+04329,30,Leipzig 6
+04329,31,Leipzig 7
+04329,32,Leipzig 8
+04347,25,Leipzig 1
+04347,26,Leipzig 2
+04347,27,Leipzig 3
+04347,28,Leipzig 4
+04347,29,Leipzig 5
+04347,30,Leipzig 6
+04347,31,Leipzig 7
+04347,32,Leipzig 8
+04349,25,Leipzig 1
+04349,26,Leipzig 2
+04349,27,Leipzig 3
+04349,28,Leipzig 4
+04349,29,Leipzig 5
+04349,30,Leipzig 6
+04349,31,Leipzig 7
+04349,32,Leipzig 8
+04356,25,Leipzig 1
+04356,26,Leipzig 2
+04356,27,Leipzig 3
+04356,28,Leipzig 4
+04356,29,Leipzig 5
+04356,30,Leipzig 6
+04356,31,Leipzig 7
+04356,32,Leipzig 8
+04357,25,Leipzig 1
+04357,26,Leipzig 2
+04357,27,Leipzig 3
+04357,28,Leipzig 4
+04357,29,Leipzig 5
+04357,30,Leipzig 6
+04357,31,Leipzig 7
+04357,32,Leipzig 8
+04416,22,Leipzig Land 2
+04420,22,Leipzig Land 2
+04425,34,Nordsachsen 2
+04435,25,Leipzig 1
+04435,26,Leipzig 2
+04435,27,Leipzig 3
+04435,28,Leipzig 4
+04435,29,Leipzig 5
+04435,30,Leipzig 6
+04435,31,Leipzig 7
+04435,32,Leipzig 8
+04435,33,Nordsachsen 1
+04442,22,Leipzig Land 2
+04451,24,Leipzig Land 4
+04463,23,Leipzig Land 3
+04509,33,Nordsachsen 1
+04519,33,Nordsachsen 1
+04523,22,Leipzig Land 2
+04539,22,Leipzig Land 2
+04552,21,Leipzig Land 1
+04564,21,Leipzig Land 1
+04564,22,Leipzig Land 2
+04565,21,Leipzig Land 1
+04567,21,Leipzig Land 1
+04571,21,Leipzig Land 1
+04575,21,Leipzig Land 1
+04603,7,Zwickau 4
+04603,8,Zwickau 5
+04603,19,Mittelsachsen 3
+04603,21,Leipzig Land 1
+04610,21,Leipzig Land 1
+04613,21,Leipzig Land 1
+04613,22,Leipzig Land 2
+04617,21,Leipzig Land 1
+04618,7,Zwickau 4
+04618,19,Mittelsachsen 3
+04618,21,Leipzig Land 1
+04626,5,Zwickau 2
+04639,5,Zwickau 2
+04639,7,Zwickau 4
+04643,21,Leipzig Land 1
+04651,23,Leipzig Land 3
+04654,21,Leipzig Land 1
+04668,23,Leipzig Land 3
+04680,23,Leipzig Land 3
+04683,23,Leipzig Land 3
+04683,24,Leipzig Land 4
+04687,24,Leipzig Land 4
+04703,20,Mittelsachsen 4
+04720,20,Mittelsachsen 4
+04736,20,Mittelsachsen 4
+04741,20,Mittelsachsen 4
+04746,20,Mittelsachsen 4
+04749,20,Mittelsachsen 4
+04758,35,Nordsachsen 3
+04769,35,Nordsachsen 3
+04774,35,Nordsachsen 3
+04779,35,Nordsachsen 3
+04808,24,Leipzig Land 4
+04821,24,Leipzig Land 4
+04824,24,Leipzig Land 4
+04827,24,Leipzig Land 4
+04828,24,Leipzig Land 4
+04838,34,Nordsachsen 2
+04849,34,Nordsachsen 2
+04860,34,Nordsachsen 2
+04860,35,Nordsachsen 3
+04861,35,Nordsachsen 3
+04862,34,Nordsachsen 2
+04874,35,Nordsachsen 3
+04880,34,Nordsachsen 2
+04886,35,Nordsachsen 3
+04889,35,Nordsachsen 3
+04895,35,Nordsachsen 3
+04916,35,Nordsachsen 3
+04924,36,Meißen 1
+04924,37,Meißen 2
+04931,35,Nordsachsen 3
+04931,36,Meißen 1
+04932,37,Meißen 2
+06184,33,Nordsachsen 1
+06188,33,Nordsachsen 1
+06231,22,Leipzig Land 2
+06237,22,Leipzig Land 2
+06237,33,Nordsachsen 1
+06258,33,Nordsachsen 1
+06679,22,Leipzig Land 2
+06686,22,Leipzig Land 2
+06729,22,Leipzig Land 2
+06772,34,Nordsachsen 2
+06774,33,Nordsachsen 1
+06774,34,Nordsachsen 2
+06796,33,Nordsachsen 1
+06808,33,Nordsachsen 1
+06809,33,Nordsachsen 1
+06905,34,Nordsachsen 2
+06925,34,Nordsachsen 2
+06925,35,Nordsachsen 3
+07580,5,Zwickau 2
+07907,1,Vogtland 1
+07919,1,Vogtland 1
+07922,1,Vogtland 1
+07926,1,Vogtland 1
+07937,1,Vogtland 1
+07952,1,Vogtland 1
+07973,1,Vogtland 1
+07973,3,Vogtland 3
+07985,3,Vogtland 3
+07987,3,Vogtland 3
+07987,5,Zwickau 2
+08056,5,Zwickau 2
+08056,6,Zwickau 3
+08058,5,Zwickau 2
+08058,6,Zwickau 3
+08060,5,Zwickau 2
+08060,6,Zwickau 3
+08062,5,Zwickau 2
+08062,6,Zwickau 3
+08064,4,Zwickau 1
+08064,5,Zwickau 2
+08064,6,Zwickau 3
+08066,5,Zwickau 2
+08066,6,Zwickau 3
+08107,4,Zwickau 1
+08112,4,Zwickau 1
+08115,4,Zwickau 1
+08118,4,Zwickau 1
+08132,4,Zwickau 1
+08132,5,Zwickau 2
+08132,6,Zwickau 3
+08134,4,Zwickau 1
+08141,4,Zwickau 1
+08144,4,Zwickau 1
+08147,4,Zwickau 1
+08209,2,Vogtland 2
+08223,2,Vogtland 2
+08223,3,Vogtland 3
+08228,2,Vogtland 2
+08233,3,Vogtland 3
+08236,2,Vogtland 2
+08237,2,Vogtland 2
+08239,2,Vogtland 2
+08239,3,Vogtland 3
+08248,2,Vogtland 2
+08258,2,Vogtland 2
+08261,2,Vogtland 2
+08262,2,Vogtland 2
+08267,2,Vogtland 2
+08280,13,Erzgebirge 2
+08289,13,Erzgebirge 2
+08294,14,Erzgebirge 3
+08297,14,Erzgebirge 3
+08304,13,Erzgebirge 2
+08309,13,Erzgebirge 2
+08315,14,Erzgebirge 3
+08321,13,Erzgebirge 2
+08324,13,Erzgebirge 2
+08324,14,Erzgebirge 3
+08328,13,Erzgebirge 2
+08340,14,Erzgebirge 3
+08344,14,Erzgebirge 3
+08349,14,Erzgebirge 3
+08352,14,Erzgebirge 3
+08352,15,Erzgebirge 4
+08359,14,Erzgebirge 3
+08371,7,Zwickau 4
+08373,7,Zwickau 4
+08393,5,Zwickau 2
+08393,7,Zwickau 4
+08396,7,Zwickau 4
+08412,5,Zwickau 2
+08427,3,Vogtland 3
+08427,5,Zwickau 2
+08428,5,Zwickau 2
+08451,5,Zwickau 2
+08459,5,Zwickau 2
+08468,3,Vogtland 3
+08485,3,Vogtland 3
+08491,3,Vogtland 3
+08496,3,Vogtland 3
+08499,3,Vogtland 3
+08523,1,Vogtland 1
+08525,1,Vogtland 1
+08527,1,Vogtland 1
+08529,1,Vogtland 1
+08529,3,Vogtland 3
+08538,1,Vogtland 1
+08539,1,Vogtland 1
+08541,1,Vogtland 1
+08541,3,Vogtland 3
+08543,3,Vogtland 3
+08547,1,Vogtland 1
+08548,1,Vogtland 1
+08606,2,Vogtland 2
+08606,3,Vogtland 3
+08626,2,Vogtland 2
+08626,3,Vogtland 3
+08645,2,Vogtland 2
+08648,2,Vogtland 2
+09111,9,Chemnitz 1
+09111,10,Chemnitz 2
+09111,11,Chemnitz 3
+09112,9,Chemnitz 1
+09112,10,Chemnitz 2
+09112,11,Chemnitz 3
+09113,9,Chemnitz 1
+09113,10,Chemnitz 2
+09113,11,Chemnitz 3
+09114,9,Chemnitz 1
+09114,10,Chemnitz 2
+09114,11,Chemnitz 3
+09116,9,Chemnitz 1
+09116,10,Chemnitz 2
+09116,11,Chemnitz 3
+09117,9,Chemnitz 1
+09117,10,Chemnitz 2
+09117,11,Chemnitz 3
+09119,9,Chemnitz 1
+09119,10,Chemnitz 2
+09119,11,Chemnitz 3
+09120,9,Chemnitz 1
+09120,10,Chemnitz 2
+09120,11,Chemnitz 3
+09122,9,Chemnitz 1
+09122,10,Chemnitz 2
+09122,11,Chemnitz 3
+09123,9,Chemnitz 1
+09123,10,Chemnitz 2
+09123,11,Chemnitz 3
+09125,9,Chemnitz 1
+09125,10,Chemnitz 2
+09125,11,Chemnitz 3
+09126,9,Chemnitz 1
+09126,10,Chemnitz 2
+09126,11,Chemnitz 3
+09127,9,Chemnitz 1
+09127,10,Chemnitz 2
+09127,11,Chemnitz 3
+09128,9,Chemnitz 1
+09128,10,Chemnitz 2
+09128,11,Chemnitz 3
+09130,9,Chemnitz 1
+09130,10,Chemnitz 2
+09130,11,Chemnitz 3
+09131,9,Chemnitz 1
+09131,10,Chemnitz 2
+09131,11,Chemnitz 3
+09212,8,Zwickau 5
+09217,19,Mittelsachsen 3
+09221,12,Erzgebirge 1
+09224,9,Chemnitz 1
+09224,10,Chemnitz 2
+09224,11,Chemnitz 3
+09228,9,Chemnitz 1
+09228,10,Chemnitz 2
+09228,11,Chemnitz 3
+09232,19,Mittelsachsen 3
+09235,12,Erzgebirge 1
+09236,19,Mittelsachsen 3
+09241,19,Mittelsachsen 3
+09243,8,Zwickau 5
+09243,19,Mittelsachsen 3
+09244,19,Mittelsachsen 3
+09247,9,Chemnitz 1
+09247,10,Chemnitz 2
+09247,11,Chemnitz 3
+09249,19,Mittelsachsen 3
+09306,19,Mittelsachsen 3
+09322,19,Mittelsachsen 3
+09326,20,Mittelsachsen 4
+09328,19,Mittelsachsen 3
+09337,7,Zwickau 4
+09337,8,Zwickau 5
+09350,7,Zwickau 4
+09353,8,Zwickau 5
+09355,8,Zwickau 5
+09356,7,Zwickau 4
+09356,8,Zwickau 5
+09366,12,Erzgebirge 1
+09376,12,Erzgebirge 1
+09380,12,Erzgebirge 1
+09385,8,Zwickau 5
+09385,12,Erzgebirge 1
+09387,12,Erzgebirge 1
+09390,12,Erzgebirge 1
+09392,12,Erzgebirge 1
+09394,7,Zwickau 4
+09394,12,Erzgebirge 1
+09399,12,Erzgebirge 1
+09405,16,Erzgebirge 5
+09419,15,Erzgebirge 4
+09423,15,Erzgebirge 4
+09427,15,Erzgebirge 4
+09429,16,Erzgebirge 5
+09430,16,Erzgebirge 5
+09432,16,Erzgebirge 5
+09434,16,Erzgebirge 5
+09437,16,Erzgebirge 5
+09439,12,Erzgebirge 1
+09439,16,Erzgebirge 5
+09456,15,Erzgebirge 4
+09465,15,Erzgebirge 4
+09468,15,Erzgebirge 4
+09471,15,Erzgebirge 4
+09474,15,Erzgebirge 4
+09477,15,Erzgebirge 4
+09481,14,Erzgebirge 3
+09481,15,Erzgebirge 4
+09484,15,Erzgebirge 4
+09487,15,Erzgebirge 4
+09488,15,Erzgebirge 4
+09496,16,Erzgebirge 5
+09509,16,Erzgebirge 5
+09514,16,Erzgebirge 5
+09518,16,Erzgebirge 5
+09526,16,Erzgebirge 5
+09544,17,Mittelsachsen 1
+09548,16,Erzgebirge 5
+09557,18,Mittelsachsen 2
+09569,18,Mittelsachsen 2
+09573,16,Erzgebirge 5
+09573,18,Mittelsachsen 2
+09575,18,Mittelsachsen 2
+09577,18,Mittelsachsen 2
+09579,16,Erzgebirge 5
+09599,17,Mittelsachsen 1
+09600,17,Mittelsachsen 1
+09600,18,Mittelsachsen 2
+09603,17,Mittelsachsen 1
+09603,38,Meißen 3
+09618,18,Mittelsachsen 2
+09619,17,Mittelsachsen 1
+09623,17,Mittelsachsen 1
+09627,17,Mittelsachsen 1
+09629,17,Mittelsachsen 1
+09633,17,Mittelsachsen 1
+09634,17,Mittelsachsen 1
+09634,38,Meißen 3
+09638,17,Mittelsachsen 1
+09648,19,Mittelsachsen 3
+09648,20,Mittelsachsen 4
+09661,18,Mittelsachsen 2
+09661,20,Mittelsachsen 4
+09669,18,Mittelsachsen 2
+95183,1,Vogtland 1
+95183,3,Vogtland 3
+95185,3,Vogtland 3
+95194,3,Vogtland 3

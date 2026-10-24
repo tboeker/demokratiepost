@@ -1,0 +1,117 @@
+{
+  "commit": "6dbe352dccf4dbda3bb05e94f764fc9ff9ae4923",
+  "configs": {
+    "berlin": {
+      "state_name": "Berlin",
+      "parliament": "Abgeordnetenhaus",
+      "period_id": 133,
+      "election": "Berlin 2026",
+      "expected_wk_count": 78
+    },
+    "hamburg": {
+      "state_name": "Hamburg",
+      "parliament": "Bürgerschaft",
+      "period_id": 162,
+      "election": "Hamburg 2025",
+      "expected_wk_count": 17
+    },
+    "nrw": {
+      "state_name": "Nordrhein-Westfalen",
+      "parliament": "Landtag",
+      "period_id": 139,
+      "election": "NRW 2022",
+      "expected_wk_count": 128
+    },
+    "baden-wuerttemberg": {
+      "state_name": "Baden-Württemberg",
+      "parliament": "Landtag",
+      "period_id": 163,
+      "election": "Baden-Württemberg 2026",
+      "expected_wk_count": 70
+    },
+    "rheinland-pfalz": {
+      "state_name": "Rheinland-Pfalz",
+      "parliament": "Landtag",
+      "period_id": 164,
+      "election": "Rheinland-Pfalz 2021",
+      "expected_wk_count": 52
+    },
+    "sachsen-anhalt": {
+      "state_name": "Sachsen-Anhalt",
+      "parliament": "Landtag",
+      "period_id": 131,
+      "election": "Sachsen-Anhalt 2021",
+      "expected_wk_count": 41
+    },
+    "mecklenburg-vorpommern": {
+      "state_name": "Mecklenburg-Vorpommern",
+      "parliament": "Landtag",
+      "period_id": 134,
+      "election": "Mecklenburg-Vorpommern 2021",
+      "expected_wk_count": 36
+    },
+    "bremen": {
+      "state_name": "Bremen",
+      "parliament": "Bürgerschaft",
+      "period_id": 146,
+      "election": "Bremen 2023",
+      "expected_wk_count": 2
+    },
+    "hessen": {
+      "state_name": "Hessen",
+      "parliament": "Landtag",
+      "period_id": 150,
+      "election": "Hessen 2023",
+      "expected_wk_count": 55
+    },
+    "niedersachsen": {
+      "state_name": "Niedersachsen",
+      "parliament": "Landtag",
+      "period_id": 143,
+      "election": "Niedersachsen 2022",
+      "expected_wk_count": 87
+    },
+    "bayern": {
+      "state_name": "Bayern",
+      "parliament": "Landtag",
+      "period_id": 149,
+      "election": "Bayern 2023",
+      "expected_wk_count": 91
+    },
+    "saarland": {
+      "state_name": "Saarland",
+      "parliament": "Landtag",
+      "period_id": 137,
+      "election": "Saarland 2022",
+      "expected_wk_count": 3
+    },
+    "thueringen": {
+      "state_name": "Thüringen",
+      "parliament": "Landtag",
+      "period_id": 156,
+      "election": "Thüringen 2024",
+      "expected_wk_count": 44
+    },
+    "brandenburg": {
+      "state_name": "Brandenburg",
+      "parliament": "Landtag",
+      "period_id": 158,
+      "election": "Brandenburg 2024",
+      "expected_wk_count": 44
+    },
+    "sachsen": {
+      "state_name": "Sachsen",
+      "parliament": "Landtag",
+      "period_id": 157,
+      "election": "Sachsen 2024",
+      "expected_wk_count": 60
+    },
+    "schleswig-holstein": {
+      "state_name": "Schleswig-Holstein",
+      "parliament": "Landtag",
+      "period_id": 138,
+      "election": "Schleswig-Holstein 2022",
+      "expected_wk_count": 35
+    }
+  }
+}

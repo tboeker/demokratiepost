@@ -1,0 +1,3718 @@
+[
+  {
+    "id": "lt-bayern-60275",
+    "name": "Georg Eisenreich",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/georg-eisenreich",
+    "wahlkreis": {
+      "number": 101,
+      "name": "München-Hadern"
+    }
+  },
+  {
+    "id": "lt-bayern-60276",
+    "name": "Robert Brannekämper",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/robert-brannekaemper",
+    "wahlkreis": {
+      "number": 102,
+      "name": "München-Bogenhausen"
+    }
+  },
+  {
+    "id": "lt-bayern-60277",
+    "name": "Gülseren Demirel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/guelseren-demirel",
+    "wahlkreis": {
+      "number": 103,
+      "name": "München-Giesing"
+    }
+  },
+  {
+    "id": "lt-bayern-60278",
+    "name": "Katharina Schulze",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katharina-schulze",
+    "wahlkreis": {
+      "number": 104,
+      "name": "München-Milbertshofen"
+    }
+  },
+  {
+    "id": "lt-bayern-60280",
+    "name": "Josef Schmid",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josef-schmid",
+    "wahlkreis": {
+      "number": 106,
+      "name": "München-Pasing"
+    }
+  },
+  {
+    "id": "lt-bayern-60281",
+    "name": "Markus Blume",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-blume",
+    "wahlkreis": {
+      "number": 107,
+      "name": "München-Ramersdorf"
+    }
+  },
+  {
+    "id": "lt-bayern-60282",
+    "name": "Christian Hierneis",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-hierneis",
+    "wahlkreis": {
+      "number": 108,
+      "name": "München-Schwabing"
+    }
+  },
+  {
+    "id": "lt-bayern-60283",
+    "name": "Ludwig Hartmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ludwig-hartmann",
+    "wahlkreis": {
+      "number": 109,
+      "name": "München-Mitte"
+    }
+  },
+  {
+    "id": "lt-bayern-60284",
+    "name": "Martin Huber",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-huber-0",
+    "wahlkreis": {
+      "number": 110,
+      "name": "Altötting"
+    }
+  },
+  {
+    "id": "lt-bayern-60285",
+    "name": "Thomas Holz",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-holz",
+    "wahlkreis": {
+      "number": 111,
+      "name": "Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+    }
+  },
+  {
+    "id": "lt-bayern-60286",
+    "name": "Michaela Kaniber",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michaela-kaniber",
+    "wahlkreis": {
+      "number": 112,
+      "name": "Berchtesgadener Land"
+    }
+  },
+  {
+    "id": "lt-bayern-60287",
+    "name": "Bernhard Seidenath",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernhard-seidenath",
+    "wahlkreis": {
+      "number": 113,
+      "name": "Dachau"
+    }
+  },
+  {
+    "id": "lt-bayern-60288",
+    "name": "Thomas Huber",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-huber",
+    "wahlkreis": {
+      "number": 114,
+      "name": "Ebersberg"
+    }
+  },
+  {
+    "id": "lt-bayern-60289",
+    "name": "Tanja Schorer-Dremel",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tanja-schorer-dremel",
+    "wahlkreis": {
+      "number": 115,
+      "name": "Eichstätt"
+    }
+  },
+  {
+    "id": "lt-bayern-60290",
+    "name": "Ulrike Scharf",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulrike-scharf",
+    "wahlkreis": {
+      "number": 116,
+      "name": "Erding"
+    }
+  },
+  {
+    "id": "lt-bayern-60291",
+    "name": "Florian Herrmann",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/florian-herrmann",
+    "wahlkreis": {
+      "number": 117,
+      "name": "Freising"
+    }
+  },
+  {
+    "id": "lt-bayern-60292",
+    "name": "Benjamin Miskowitsch",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benjamin-miskowitsch",
+    "wahlkreis": {
+      "number": 118,
+      "name": "Fürstenfeldbruck-Ost"
+    }
+  },
+  {
+    "id": "lt-bayern-60293",
+    "name": "Alfred Grob",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alfred-grob",
+    "wahlkreis": {
+      "number": 119,
+      "name": "Ingolstadt"
+    }
+  },
+  {
+    "id": "lt-bayern-60294",
+    "name": "Alex Dorow",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alex-dorow",
+    "wahlkreis": {
+      "number": 120,
+      "name": "Landsberg am Lech, Fürstenfeldbruck-West"
+    }
+  },
+  {
+    "id": "lt-bayern-60295",
+    "name": "Ilse Aigner",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ilse-aigner",
+    "wahlkreis": {
+      "number": 121,
+      "name": "Miesbach"
+    }
+  },
+  {
+    "id": "lt-bayern-60296",
+    "name": "Sascha Schnürer",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-schnuerer",
+    "wahlkreis": {
+      "number": 122,
+      "name": "Mühldorf a.Inn"
+    }
+  },
+  {
+    "id": "lt-bayern-60297",
+    "name": "Maximilian Böltl",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maximilian-boeltl",
+    "wahlkreis": {
+      "number": 123,
+      "name": "München-Land-Nord"
+    }
+  },
+  {
+    "id": "lt-bayern-60298",
+    "name": "Kerstin Schreyer",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kerstin-schreyer",
+    "wahlkreis": {
+      "number": 124,
+      "name": "München-Land-Süd"
+    }
+  },
+  {
+    "id": "lt-bayern-60299",
+    "name": "Roland Weigert",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/roland-weigert",
+    "wahlkreis": {
+      "number": 125,
+      "name": "Neuburg-Schrobenhausen"
+    }
+  },
+  {
+    "id": "lt-bayern-60300",
+    "name": "Karl Straub",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karl-straub",
+    "wahlkreis": {
+      "number": 126,
+      "name": "Pfaffenhofen a.d.Ilm"
+    }
+  },
+  {
+    "id": "lt-bayern-60301",
+    "name": "Daniel Artmann",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-artmann",
+    "wahlkreis": {
+      "number": 127,
+      "name": "Rosenheim-Ost"
+    }
+  },
+  {
+    "id": "lt-bayern-60302",
+    "name": "Sebastian Friesinger",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-friesinger",
+    "wahlkreis": {
+      "number": 128,
+      "name": "Rosenheim-West"
+    }
+  },
+  {
+    "id": "lt-bayern-60304",
+    "name": "Konrad Baur",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/konrad-baur",
+    "wahlkreis": {
+      "number": 130,
+      "name": "Traunstein"
+    }
+  },
+  {
+    "id": "lt-bayern-60305",
+    "name": "Harald Kühn",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/harald-kuehn",
+    "wahlkreis": {
+      "number": 131,
+      "name": "Weilheim-Schongau"
+    }
+  },
+  {
+    "id": "lt-bayern-60306",
+    "name": "Christian Bernreiter",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-bernreiter",
+    "wahlkreis": {
+      "number": 201,
+      "name": "Deggendorf"
+    }
+  },
+  {
+    "id": "lt-bayern-60307",
+    "name": "Petra Loibl",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/petra-loibl",
+    "wahlkreis": {
+      "number": 202,
+      "name": "Dingolfing"
+    }
+  },
+  {
+    "id": "lt-bayern-60308",
+    "name": "Petra Högl",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/petra-hoegl",
+    "wahlkreis": {
+      "number": 203,
+      "name": "Kelheim"
+    }
+  },
+  {
+    "id": "lt-bayern-60309",
+    "name": "Hubert Aiwanger",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hubert-aiwanger",
+    "wahlkreis": {
+      "number": 204,
+      "name": "Landshut"
+    }
+  },
+  {
+    "id": "lt-bayern-60310",
+    "name": "Josef Heisl",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josef-heisl",
+    "wahlkreis": {
+      "number": 205,
+      "name": "Passau-Ost"
+    }
+  },
+  {
+    "id": "lt-bayern-60311",
+    "name": "Stefan Meyer",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-meyer",
+    "wahlkreis": {
+      "number": 206,
+      "name": "Passau-West"
+    }
+  },
+  {
+    "id": "lt-bayern-60312",
+    "name": "Stefan Ebner",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-ebner",
+    "wahlkreis": {
+      "number": 207,
+      "name": "Regen, Freyung-Grafenau"
+    }
+  },
+  {
+    "id": "lt-bayern-60313",
+    "name": "Martin Wagle",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-wagle",
+    "wahlkreis": {
+      "number": 208,
+      "name": "Rottal-Inn"
+    }
+  },
+  {
+    "id": "lt-bayern-60314",
+    "name": "Josef Zellmeier",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josef-zellmeier",
+    "wahlkreis": {
+      "number": 209,
+      "name": "Straubing"
+    }
+  },
+  {
+    "id": "lt-bayern-60315",
+    "name": "Harald Schwartz",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/harald-schwartz",
+    "wahlkreis": {
+      "number": 301,
+      "name": "Amberg-Sulzbach"
+    }
+  },
+  {
+    "id": "lt-bayern-60316",
+    "name": "Gerhard Hopp",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gerhard-hopp",
+    "wahlkreis": {
+      "number": 302,
+      "name": "Cham"
+    }
+  },
+  {
+    "id": "lt-bayern-60317",
+    "name": "Albert Füracker",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/albert-fueracker",
+    "wahlkreis": {
+      "number": 303,
+      "name": "Neumarkt i.d.OPf."
+    }
+  },
+  {
+    "id": "lt-bayern-60318",
+    "name": "Patrick Grossmann",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/patrick-grossmann",
+    "wahlkreis": {
+      "number": 304,
+      "name": "Regensburg-Land"
+    }
+  },
+  {
+    "id": "lt-bayern-60319",
+    "name": "Jürgen Eberwein",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juergen-eberwein",
+    "wahlkreis": {
+      "number": 305,
+      "name": "Regensburg-Stadt"
+    }
+  },
+  {
+    "id": "lt-bayern-60320",
+    "name": "Alexander Flierl",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-flierl",
+    "wahlkreis": {
+      "number": 306,
+      "name": "Schwandorf"
+    }
+  },
+  {
+    "id": "lt-bayern-60321",
+    "name": "Tobias Reiß",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tobias-reiss",
+    "wahlkreis": {
+      "number": 307,
+      "name": "Tirschenreuth"
+    }
+  },
+  {
+    "id": "lt-bayern-60322",
+    "name": "Stephan Oetzinger",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-oetzinger",
+    "wahlkreis": {
+      "number": 308,
+      "name": "Weiden i.d.OPf."
+    }
+  },
+  {
+    "id": "lt-bayern-60323",
+    "name": "Holger Dremel",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/holger-dremel",
+    "wahlkreis": {
+      "number": 401,
+      "name": "Bamberg-Land"
+    }
+  },
+  {
+    "id": "lt-bayern-60324",
+    "name": "Melanie Huml",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/melanie-huml",
+    "wahlkreis": {
+      "number": 402,
+      "name": "Bamberg-Stadt"
+    }
+  },
+  {
+    "id": "lt-bayern-60325",
+    "name": "Franc Dierl",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/franc-dierl",
+    "wahlkreis": {
+      "number": 403,
+      "name": "Bayreuth"
+    }
+  },
+  {
+    "id": "lt-bayern-60326",
+    "name": "Martin Mittag",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-mittag",
+    "wahlkreis": {
+      "number": 404,
+      "name": "Coburg"
+    }
+  },
+  {
+    "id": "lt-bayern-60327",
+    "name": "Michael Hofmann",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-hofmann",
+    "wahlkreis": {
+      "number": 405,
+      "name": "Forchheim"
+    }
+  },
+  {
+    "id": "lt-bayern-60328",
+    "name": "Kristan von Waldenfels",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kristan-von-waldenfels",
+    "wahlkreis": {
+      "number": 406,
+      "name": "Hof"
+    }
+  },
+  {
+    "id": "lt-bayern-60329",
+    "name": "Jürgen Baumgärtner",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juergen-baumgaertner",
+    "wahlkreis": {
+      "number": 407,
+      "name": "Kronach, Lichtenfels"
+    }
+  },
+  {
+    "id": "lt-bayern-60330",
+    "name": "Martin Schöffel",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-schoeffel",
+    "wahlkreis": {
+      "number": 408,
+      "name": "Wunsiedel, Kulmbach"
+    }
+  },
+  {
+    "id": "lt-bayern-60331",
+    "name": "Thomas Pirner",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-pirner",
+    "wahlkreis": {
+      "number": 501,
+      "name": "Nürnberg-Nord"
+    }
+  },
+  {
+    "id": "lt-bayern-60332",
+    "name": "Markus Söder",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-soeder",
+    "wahlkreis": {
+      "number": 502,
+      "name": "Nürnberg-Ost"
+    }
+  },
+  {
+    "id": "lt-bayern-60333",
+    "name": "Karl Freller",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karl-freller",
+    "wahlkreis": {
+      "number": 503,
+      "name": "Nürnberg-Süd"
+    }
+  },
+  {
+    "id": "lt-bayern-60334",
+    "name": "Jochen Kohler",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jochen-kohler",
+    "wahlkreis": {
+      "number": 504,
+      "name": "Nürnberg-West"
+    }
+  },
+  {
+    "id": "lt-bayern-60335",
+    "name": "Andreas Schalk",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-schalk",
+    "wahlkreis": {
+      "number": 505,
+      "name": "Ansbach-Nord"
+    }
+  },
+  {
+    "id": "lt-bayern-60336",
+    "name": "Helmut Schnotz",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/helmut-schnotz",
+    "wahlkreis": {
+      "number": 506,
+      "name": "Ansbach-Süd, Weißenburg-Gunzenhausen"
+    }
+  },
+  {
+    "id": "lt-bayern-60337",
+    "name": "Walter Nussel",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/walter-nussel",
+    "wahlkreis": {
+      "number": 507,
+      "name": "Erlangen-Höchstadt"
+    }
+  },
+  {
+    "id": "lt-bayern-60338",
+    "name": "Joachim Herrmann",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joachim-herrmann",
+    "wahlkreis": {
+      "number": 508,
+      "name": "Erlangen-Stadt"
+    }
+  },
+  {
+    "id": "lt-bayern-60339",
+    "name": "Petra Guttenberger",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/petra-guttenberger",
+    "wahlkreis": {
+      "number": 509,
+      "name": "Fürth"
+    }
+  },
+  {
+    "id": "lt-bayern-60340",
+    "name": "Werner Stieglitz",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/werner-stieglitz",
+    "wahlkreis": {
+      "number": 510,
+      "name": "Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+    }
+  },
+  {
+    "id": "lt-bayern-60341",
+    "name": "Norbert Dünkel",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/norbert-duenkel",
+    "wahlkreis": {
+      "number": 511,
+      "name": "Nürnberger Land"
+    }
+  },
+  {
+    "id": "lt-bayern-60342",
+    "name": "Volker Bauer",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volker-bauer",
+    "wahlkreis": {
+      "number": 512,
+      "name": "Roth"
+    }
+  },
+  {
+    "id": "lt-bayern-60343",
+    "name": "Judith Gerlach",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/judith-gerlach",
+    "wahlkreis": {
+      "number": 601,
+      "name": "Aschaffenburg-Ost"
+    }
+  },
+  {
+    "id": "lt-bayern-60344",
+    "name": "Winfried Bausback",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/winfried-bausback",
+    "wahlkreis": {
+      "number": 602,
+      "name": "Aschaffenburg-West"
+    }
+  },
+  {
+    "id": "lt-bayern-60345",
+    "name": "Sandro Kirchner",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandro-kirchner",
+    "wahlkreis": {
+      "number": 603,
+      "name": "Bad Kissingen"
+    }
+  },
+  {
+    "id": "lt-bayern-60346",
+    "name": "Steffen Vogel",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/steffen-vogel",
+    "wahlkreis": {
+      "number": 604,
+      "name": "Haßberge, Rhön-Grabfeld"
+    }
+  },
+  {
+    "id": "lt-bayern-60347",
+    "name": "Barbara Becker",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/barbara-becker",
+    "wahlkreis": {
+      "number": 605,
+      "name": "Kitzingen"
+    }
+  },
+  {
+    "id": "lt-bayern-60348",
+    "name": "Thorsten Schwab",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thorsten-schwab",
+    "wahlkreis": {
+      "number": 606,
+      "name": "Main-Spessart"
+    }
+  },
+  {
+    "id": "lt-bayern-60349",
+    "name": "Martin Stock",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-stock",
+    "wahlkreis": {
+      "number": 607,
+      "name": "Miltenberg"
+    }
+  },
+  {
+    "id": "lt-bayern-60350",
+    "name": "Martina Gießübel",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-giessuebel",
+    "wahlkreis": {
+      "number": 608,
+      "name": "Schweinfurt"
+    }
+  },
+  {
+    "id": "lt-bayern-60351",
+    "name": "Björn Jungbauer",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bjoern-jungbauer",
+    "wahlkreis": {
+      "number": 609,
+      "name": "Würzburg-Land"
+    }
+  },
+  {
+    "id": "lt-bayern-60352",
+    "name": "Andrea Behr",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andrea-behr",
+    "wahlkreis": {
+      "number": 610,
+      "name": "Würzburg-Stadt"
+    }
+  },
+  {
+    "id": "lt-bayern-60353",
+    "name": "Andreas Jäckel",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-jaeckel",
+    "wahlkreis": {
+      "number": 701,
+      "name": "Augsburg-Stadt-Ost"
+    }
+  },
+  {
+    "id": "lt-bayern-60354",
+    "name": "Leo Dietz",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/leo-dietz",
+    "wahlkreis": {
+      "number": 702,
+      "name": "Augsburg-Stadt-West"
+    }
+  },
+  {
+    "id": "lt-bayern-60355",
+    "name": "Peter Tomaschko",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-tomaschko",
+    "wahlkreis": {
+      "number": 703,
+      "name": "Aichach-Friedberg"
+    }
+  },
+  {
+    "id": "lt-bayern-60356",
+    "name": "Manuel Knoll",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/manuel-knoll",
+    "wahlkreis": {
+      "number": 704,
+      "name": "Augsburg-Land, Dillingen"
+    }
+  },
+  {
+    "id": "lt-bayern-60357",
+    "name": "Carolina Trautner",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carolina-trautner",
+    "wahlkreis": {
+      "number": 705,
+      "name": "Augsburg-Land-Süd"
+    }
+  },
+  {
+    "id": "lt-bayern-60358",
+    "name": "Wolfgang Fackler",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wolfgang-fackler",
+    "wahlkreis": {
+      "number": 706,
+      "name": "Donau-Ries"
+    }
+  },
+  {
+    "id": "lt-bayern-60359",
+    "name": "Jenny Schack",
+    "party": "CSU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jenny-schack",
+    "wahlkreis": {
+      "number": 707,
+      "name": "Günzburg"
+    }
+  },
+  {
+    "id": "lt-bayern-60360",
+    "name": "Peter Wachler",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-wachler",
+    "wahlkreis": {
+      "number": 708,
+      "name": "Kaufbeuren"
+    }
+  },
+  {
+    "id": "lt-bayern-60361",
+    "name": "Joachim Konrad",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joachim-konrad",
+    "wahlkreis": {
+      "number": 709,
+      "name": "Kempten, Oberallgäu"
+    }
+  },
+  {
+    "id": "lt-bayern-60362",
+    "name": "Eric Beißwenger",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eric-beisswenger",
+    "wahlkreis": {
+      "number": 710,
+      "name": "Lindau, Sonthofen"
+    }
+  },
+  {
+    "id": "lt-bayern-60363",
+    "name": "Andreas Kaufmann",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-kaufmann",
+    "wahlkreis": {
+      "number": 711,
+      "name": "Marktoberdorf"
+    }
+  },
+  {
+    "id": "lt-bayern-60364",
+    "name": "Klaus Holetschek",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/klaus-holetschek",
+    "wahlkreis": {
+      "number": 712,
+      "name": "Memmingen"
+    }
+  },
+  {
+    "id": "lt-bayern-60365",
+    "name": "Thorsten Freudenberger",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thorsten-freudenberger",
+    "wahlkreis": {
+      "number": 713,
+      "name": "Neu-Ulm"
+    }
+  },
+  {
+    "id": "lt-bayern-60471",
+    "name": "Alexander Hold",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-hold",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60386",
+    "name": "Andreas Birzele",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-birzele",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60398",
+    "name": "Andreas Hanna-Krahl",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-hanna-krahl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60457",
+    "name": "Andreas Jurca",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-jurca",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-70560",
+    "name": "Andreas Lorenz",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-lorenz",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60392",
+    "name": "Andreas Winhart",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-winhart",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60459",
+    "name": "Anna Rasehorn",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anna-rasehorn",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60449",
+    "name": "Anna Stolz",
+    "party": "FREIE WÄHLER",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anna-stolz",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60465",
+    "name": "Anton Rittel",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anton-rittel",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60407",
+    "name": "Anton Schuberl",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anton-schuberl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60476",
+    "name": "Arif Taşdelen",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/arif-tasdelen",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60440",
+    "name": "Barbara Fuchs",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/barbara-fuchs",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60370",
+    "name": "Benjamin Adjei",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benjamin-adjei",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60397",
+    "name": "Benjamin Dominik Nolte",
+    "party": "AfD",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benjamin-dominik-nolte",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60385",
+    "name": "Benno Zierer",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benno-zierer",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60412",
+    "name": "Bernhard Heinisch",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernhard-heinisch",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60470",
+    "name": "Bernhard Pohl",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernhard-pohl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60460",
+    "name": "Cemal Bozoğlu",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/cemal-bozoglu",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60405",
+    "name": "Christian Lindinger",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-lindinger",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60439",
+    "name": "Christian Zwanziger",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-zwanziger",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60395",
+    "name": "Christiane Feichtmeier",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christiane-feichtmeier",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-69020",
+    "name": "Christin Gmelch",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christin-gmelch",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60473",
+    "name": "Christoph Maier",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-maier",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60389",
+    "name": "Claudia Köhler",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claudia-koehler",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60448",
+    "name": "Daniel Halemba",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-halemba",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60414",
+    "name": "Dieter Arnold",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dieter-arnold",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60381",
+    "name": "Doris Rauscher",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/doris-rauscher",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60435",
+    "name": "Elena Roon",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/elena-roon",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60467",
+    "name": "Eva Lettenbauer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eva-lettenbauer",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60463",
+    "name": "Fabian Mehring",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/fabian-mehring",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60454",
+    "name": "Felix Freiherr von Zobel",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/felix-freiherr-von-zobel",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60444",
+    "name": "Felix Locke",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/felix-locke",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60445",
+    "name": "Ferdinand Mang",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ferdinand-mang",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60422",
+    "name": "Florian Köhler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/florian-koehler",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60366",
+    "name": "Florian Siekmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/florian-siekmann",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60378",
+    "name": "Florian Streibl",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/florian-streibl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60368",
+    "name": "Florian von Brunn",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/florian-von-brunn",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60393",
+    "name": "Franz Bergmüller",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/franz-bergmueller",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60474",
+    "name": "Franz Schmid",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/franz-schmid-0",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60442",
+    "name": "Gabi Schmidt",
+    "party": "FREIE WÄHLER",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gabi-schmidt",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60387",
+    "name": "Gabriele Triebel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gabriele-triebel",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60468",
+    "name": "Gerd Mannes",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gerd-mannes",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60428",
+    "name": "Harald Meußgeier",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/harald-meussgeier",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60443",
+    "name": "Harry Scheuenstuhl",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/harry-scheuenstuhl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60431",
+    "name": "Holger Grießhammer",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/holger-griesshammer",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60441",
+    "name": "Horst Arnold",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/horst-arnold",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60380",
+    "name": "Johann Groß",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/johann-gross",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60410",
+    "name": "Johann Müller",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/johann-mueller",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-70550",
+    "name": "Johanna Schramm",
+    "party": "FREIE WÄHLER",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/johanna-schramm",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60384",
+    "name": "Johannes Becher",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/johannes-becher",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60436",
+    "name": "Johannes Meier",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/johannes-meier",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60446",
+    "name": "Jörg Baumann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-baumann",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60394",
+    "name": "Josef Simon Lausch",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josef-simon-lausch",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60372",
+    "name": "Julia Post",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-post",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60413",
+    "name": "Julian Preidl",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julian-preidl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60416",
+    "name": "Jürgen Mistol",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juergen-mistol",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60401",
+    "name": "Jutta Widmann",
+    "party": "FREIE WÄHLER",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jutta-widmann",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60373",
+    "name": "Katja Weitzel",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katja-weitzel",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60400",
+    "name": "Katrin Ebner-Steiner",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katrin-ebner-steiner",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60453",
+    "name": "Kerstin Celina",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kerstin-celina",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60420",
+    "name": "Laura Weber",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/laura-weber",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-71930",
+    "name": "Ludwig Spaenle",
+    "party": "CSU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ludwig-spaenle",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60469",
+    "name": "Marina Jakob",
+    "party": "FREIE WÄHLER",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marina-jakob",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60391",
+    "name": "Markus Büchler",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-buechler",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60376",
+    "name": "Markus Rinderspacher",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-rinderspacher",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60388",
+    "name": "Markus Saller",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-saller",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60466",
+    "name": "Markus Striedl",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-striedl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60371",
+    "name": "Markus Walbrunn",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-walbrunn",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60475",
+    "name": "Martin Behringer",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-behringer",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60426",
+    "name": "Martin Böhm",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-boehm",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60396",
+    "name": "Martin Brunnhuber",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-brunnhuber",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60383",
+    "name": "Martin Huber",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-huber",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-70551",
+    "name": "Martin Rosenberger",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-rosenberger",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60417",
+    "name": "Martin Scharf",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-scharf",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60437",
+    "name": "Martin Stümpfig",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-stuempfig",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60447",
+    "name": "Martina Fehlner",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-fehlner",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60433",
+    "name": "Matthias Vogler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-vogler",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60464",
+    "name": "Maximilian Deisenhofer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maximilian-deisenhofer",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60408",
+    "name": "Mia Goller",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mia-goller",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60367",
+    "name": "Michael Piazolo",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-piazolo",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60421",
+    "name": "Nicole Bäumler",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nicole-baeumler",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60390",
+    "name": "Nikolaus Kraus",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nikolaus-kraus",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60406",
+    "name": "Oskar Atzinger",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oskar-atzinger",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60382",
+    "name": "Oskar Lipp",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oskar-lipp",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60456",
+    "name": "Patrick Friedl",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/patrick-friedl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60452",
+    "name": "Paul Knoblach",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/paul-knoblach",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60430",
+    "name": "Rainer Ludwig",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rainer-ludwig",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60403",
+    "name": "Ralf Stadler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralf-stadler",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60450",
+    "name": "Ramona Storm",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ramona-storm",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60374",
+    "name": "Rene Dierkes",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rene-dierkes",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60451",
+    "name": "Richard Graupner",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/richard-graupner",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60419",
+    "name": "Roland Magerl",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/roland-magerl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60404",
+    "name": "Roswitha Toso",
+    "party": "FREIE WÄHLER",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/roswitha-toso",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60402",
+    "name": "Ruth Müller",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ruth-mueller",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60369",
+    "name": "Ruth Waldmann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ruth-waldmann",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60429",
+    "name": "Sabine Gross",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sabine-gross",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60434",
+    "name": "Sabine Weigand",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sabine-weigand",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60375",
+    "name": "Sanne Kurz",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sanne-kurz",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60461",
+    "name": "Simone Strohmayr",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/simone-strohmayr",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60425",
+    "name": "Stefan Frühbeißer",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-fruehbeisser",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60418",
+    "name": "Stefan Löw",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-loew",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60458",
+    "name": "Stephanie Schuhknecht",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephanie-schuhknecht",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60399",
+    "name": "Susann Enders",
+    "party": "FREIE WÄHLER",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/susann-enders",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60477",
+    "name": "Thomas Zöller",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-zoeller",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60427",
+    "name": "Thorsten Glauber",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thorsten-glauber",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60424",
+    "name": "Tim Pargent",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tim-pargent",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60415",
+    "name": "Tobias Gotthardt",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tobias-gotthardt",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60462",
+    "name": "Ulrich Singer",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulrich-singer",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60472",
+    "name": "Ulrike Müller",
+    "party": "FREIE WÄHLER",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulrike-mueller-0",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60423",
+    "name": "Ursula Sowa",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ursula-sowa",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60432",
+    "name": "Verena Osgyan",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/verena-osgyan",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60455",
+    "name": "Volkmar Halbleib",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volkmar-halbleib",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60409",
+    "name": "Werner Schießl",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/werner-schiessl",
+    "state": "Bayern"
+  },
+  {
+    "id": "lt-bayern-60438",
+    "name": "Wolfgang Hauber",
+    "party": "FREIE WÄHLER",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bayern",
+    "address": {
+      "strasse": "Max-Planck-Straße 1",
+      "plz": "81675",
+      "ort": "München",
+      "label": "Bayerischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wolfgang-hauber",
+    "state": "Bayern"
+  }
+]

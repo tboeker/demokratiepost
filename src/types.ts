@@ -35,7 +35,7 @@ export interface Sender {
   telefon?: string;
 }
 
-/** Ein Bundestagswahlkreis. */
+/** Ein Bundestags- oder Landtagswahlkreis. */
 export interface Wahlkreis {
   number: number;
   name: string;
@@ -50,22 +50,30 @@ export interface Address {
   label?: string;
 }
 
-/** Ein Bundestagsabgeordneter (Ergebnis der Empfängersuche, Typ "mdb"). */
-export interface MdB {
+/**
+ * Ein Mandatsträger – Ergebnis der Empfängersuche. Deckt Bundestags- und
+ * Landtagsabgeordnete ab (`parlament`). Nur Direktmandate (`mandate: 'direct'`)
+ * sind über die PLZ auffindbar; Listenmandate werden mitgeführt.
+ */
+export interface Mandatstraeger {
   id: string;
   name: string;
   party: string;
   /** Geschlecht für die Anrede, falls bekannt. */
-  sex?: 'm' | 'f';
+  sex?: 'm' | 'f' | 'd';
   /** Fertige Anrede, überschreibt die automatische Bildung. */
   anrede?: string;
-  /** Art des Mandats: Direktmandat (Wahlkreis) oder Listenmandat (Landesliste). */
+  /** Art des Mandats: Direktmandat (Wahlkreis) oder Listenmandat. */
   mandate: 'direct' | 'list';
   /** Wahlkreis – nur bei Direktmandat gesetzt. */
   wahlkreis?: Wahlkreis;
-  /** Bundesland – nur bei Listenmandat gesetzt. */
+  /** Bundesland – bei Listenmandat (Bundestag: Landesliste). */
   state?: string;
-  /** Primäre Briefanschrift (Wahlkreisbüro, sonst Bundestagsbüro). */
+  /** Bundesland – bei Landtagsmandaten immer gesetzt. */
+  bundesland?: string;
+  /** Parlament, zu dem das Mandat gehört. */
+  parlament: 'bundestag' | 'landtag';
+  /** Primäre Briefanschrift (Wahlkreisbüro, sonst Parlaments-/Sitzanschrift). */
   address?: Address;
   /** Alle bekannten Büros (Bundestag + Wahlkreisbüros). */
   offices?: Address[];
@@ -73,11 +81,14 @@ export interface MdB {
   contactFormUrl?: string;
   /** Persönliche Homepage, falls bekannt. */
   homepage?: string;
-  /** Profil auf bundestag.de. */
+  /** Profil beim jeweiligen Parlament bzw. auf abgeordnetenwatch.de. */
   profileUrl?: string;
-  /** E-Mail-Adresse, falls für einen Empfängertyp vorhanden. */
+  /** E-Mail-Adresse, falls für einen Empfängertyp vorhanden (z. B. NRW-Landtag). */
   email?: string;
 }
+
+/** Abwärtskompatibler Alias für {@link Mandatstraeger}. */
+export type MdB = Mandatstraeger;
 
 /**
  * Manuell erfasster Empfänger – für Typen ohne PLZ-Suche (z. B. Landrat,

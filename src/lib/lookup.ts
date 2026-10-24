@@ -1,4 +1,4 @@
-import type { MdB, PlzIndex } from '../types';
+import type { Mandatstraeger, PlzIndex } from '../types';
 
 /** Prüft, ob eine Eingabe eine gültige fünfstellige PLZ ist. */
 export function isValidPlz(plz: string): boolean {
@@ -24,15 +24,15 @@ async function fetchJson<T>(relativePath: string): Promise<T | null> {
   }
 }
 
-let mdbCache: MdB[] | null = null;
+let mdbCache: Mandatstraeger[] | null = null;
 
-async function loadAllMdB(): Promise<MdB[]> {
+async function loadAllMdB(): Promise<Mandatstraeger[]> {
   if (!mdbCache) {
-    const data = await fetchJson<MdB[]>('mdb.json');
+    const data = await fetchJson<Mandatstraeger[]>('mdb.json');
     if (!data) {
       throw new Error('Die Empfängerdaten konnten nicht geladen werden.');
     }
-    mdbCache = data;
+    mdbCache = data.map((entry) => ({ ...entry, parlament: entry.parlament ?? 'bundestag' }));
   }
   return mdbCache;
 }
@@ -41,7 +41,7 @@ async function loadAllMdB(): Promise<MdB[]> {
  * Ermittelt die zuständigen Bundestagsabgeordneten für eine PLZ.
  * Eine PLZ kann mehrere Wahlkreise umfassen – dann werden alle zurückgegeben.
  */
-export async function findRecipientsByPlz(plz: string): Promise<MdB[]> {
+export async function findRecipientsByPlz(plz: string): Promise<Mandatstraeger[]> {
   if (!isValidPlz(plz)) return [];
 
   const prefix = plz.slice(0, 2);
@@ -57,15 +57,63 @@ export async function findRecipientsByPlz(plz: string): Promise<MdB[]> {
   );
 }
 
+/** Ein Eintrag im Landtags-PLZ-Shard: Bundesland + Wahlkreisnummern. */
+interface LandtagPlzEntry {
+  staat: string;
+  wahlkreise: number[];
+}
+
+const landtagCache = new Map<string, Mandatstraeger[]>();
+
+/** Lädt (und cacht) das Roster eines Bundeslands. */
+async function loadLandtagRoster(staat: string): Promise<Mandatstraeger[]> {
+  if (!landtagCache.has(staat)) {
+    const data = await fetchJson<Mandatstraeger[]>(`landtag/${staat}.json`);
+    landtagCache.set(staat, data ?? []);
+  }
+  return landtagCache.get(staat)!;
+}
+
+/**
+ * Ermittelt die zuständigen Landtagsabgeordneten für eine PLZ.
+ * Die PLZ-Shards (`plz-landtag/<prefix>.json`) nennen Bundesland und
+ * Wahlkreisnummern; das Roster des Bundeslands liefert die Direktmandate.
+ * Für Bundesländer ohne Landtagsdaten (Wahlperiode/Zuschnitt) kommt nichts
+ * zurück – dann greift in der App der manuelle Fallback.
+ */
+export async function findLandtagRecipientsByPlz(plz: string): Promise<Mandatstraeger[]> {
+  if (!isValidPlz(plz)) return [];
+
+  const prefix = plz.slice(0, 2);
+  const index = await fetchJson<Record<string, LandtagPlzEntry[]>>(`plz-landtag/${prefix}.json`);
+  if (!index) return [];
+
+  const entries = index[plz] ?? [];
+  const result: Mandatstraeger[] = [];
+  for (const entry of entries) {
+    const roster = await loadLandtagRoster(entry.staat);
+    for (const mandate of roster) {
+      if (
+        mandate.mandate === 'direct' &&
+        mandate.wahlkreis &&
+        entry.wahlkreise.includes(mandate.wahlkreis.number)
+      ) {
+        result.push(mandate);
+      }
+    }
+  }
+  return result;
+}
+
 /** Baut eine passende Anrede aus Geschlecht und Namen. */
-export function salutation(mdB: MdB): string {
-  if (mdB.anrede) return mdB.anrede;
+export function salutation(mandat: Mandatstraeger): string {
+  if (mandat.anrede) return mandat.anrede;
 
-  const parts = mdB.name.trim().split(/\s+/);
-  const lastName = parts.length > 0 ? parts[parts.length - 1] : mdB.name;
+  const parts = mandat.name.trim().split(/\s+/);
+  const lastName = parts.length > 0 ? parts[parts.length - 1] : mandat.name;
 
-  if (mdB.sex === 'm') return `Sehr geehrter Herr ${lastName}`;
-  if (mdB.sex === 'f') return `Sehr geehrte Frau ${lastName}`;
+  if (mandat.sex === 'm') return `Sehr geehrter Herr ${lastName}`;
+  if (mandat.sex === 'f') return `Sehr geehrte Frau ${lastName}`;
   return 'Sehr geehrte Damen und Herren';
 }
 

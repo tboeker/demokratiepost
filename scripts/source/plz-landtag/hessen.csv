@@ -1,0 +1,1046 @@
+# PLZ -> Landtagswahlkreis Hessen (Landtag)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 150 (Hessen 2023)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+34117,3,Kassel-Stadt I
+34117,4,Kassel-Stadt II
+34119,3,Kassel-Stadt I
+34119,4,Kassel-Stadt II
+34121,3,Kassel-Stadt I
+34121,4,Kassel-Stadt II
+34123,2,Kassel-Land II
+34123,3,Kassel-Stadt I
+34123,4,Kassel-Stadt II
+34125,3,Kassel-Stadt I
+34125,4,Kassel-Stadt II
+34127,1,Kassel-Land I
+34127,3,Kassel-Stadt I
+34127,4,Kassel-Stadt II
+34128,3,Kassel-Stadt I
+34128,4,Kassel-Stadt II
+34130,3,Kassel-Stadt I
+34130,4,Kassel-Stadt II
+34131,3,Kassel-Stadt I
+34131,4,Kassel-Stadt II
+34132,2,Kassel-Land II
+34132,3,Kassel-Stadt I
+34132,4,Kassel-Stadt II
+34134,2,Kassel-Land II
+34134,3,Kassel-Stadt I
+34134,4,Kassel-Stadt II
+34212,7,Schwalm-Eder I
+34225,2,Kassel-Land II
+34225,7,Schwalm-Eder I
+34233,1,Kassel-Land I
+34246,2,Kassel-Land II
+34253,2,Kassel-Land II
+34253,3,Kassel-Stadt I
+34253,4,Kassel-Stadt II
+34260,2,Kassel-Land II
+34266,2,Kassel-Land II
+34270,7,Schwalm-Eder I
+34277,2,Kassel-Land II
+34281,7,Schwalm-Eder I
+34286,7,Schwalm-Eder I
+34289,1,Kassel-Land I
+34292,2,Kassel-Land II
+34295,7,Schwalm-Eder I
+34298,9,Wahlkreis 9
+34302,7,Schwalm-Eder I
+34305,7,Schwalm-Eder I
+34308,7,Schwalm-Eder I
+34311,5,Waldeck-Frankenberg I
+34314,1,Kassel-Land I
+34317,1,Kassel-Land I
+34317,7,Schwalm-Eder I
+34320,2,Kassel-Land II
+34323,7,Schwalm-Eder I
+34326,7,Schwalm-Eder I
+34327,7,Schwalm-Eder I
+34329,9,Wahlkreis 9
+34346,1,Kassel-Land I
+34346,9,Wahlkreis 9
+34355,1,Kassel-Land I
+34355,2,Kassel-Land II
+34355,3,Kassel-Stadt I
+34355,4,Kassel-Stadt II
+34355,9,Wahlkreis 9
+34359,1,Kassel-Land I
+34369,1,Kassel-Land I
+34376,1,Kassel-Land I
+34379,1,Kassel-Land I
+34385,1,Kassel-Land I
+34388,1,Kassel-Land I
+34393,1,Kassel-Land I
+34396,1,Kassel-Land I
+34399,1,Kassel-Land I
+34414,1,Kassel-Land I
+34414,5,Waldeck-Frankenberg I
+34431,5,Waldeck-Frankenberg I
+34434,1,Kassel-Land I
+34454,5,Waldeck-Frankenberg I
+34466,1,Kassel-Land I
+34471,5,Waldeck-Frankenberg I
+34474,5,Waldeck-Frankenberg I
+34477,5,Waldeck-Frankenberg I
+34479,1,Kassel-Land I
+34497,5,Waldeck-Frankenberg I
+34508,5,Waldeck-Frankenberg I
+34513,5,Waldeck-Frankenberg I
+34516,5,Waldeck-Frankenberg I
+34516,6,Waldeck-Frankenberg II
+34519,5,Waldeck-Frankenberg I
+34537,6,Waldeck-Frankenberg II
+34549,5,Waldeck-Frankenberg I
+34560,6,Waldeck-Frankenberg II
+34576,8,Schwalm-Eder II
+34582,8,Schwalm-Eder II
+34587,7,Schwalm-Eder I
+34590,7,Schwalm-Eder I
+34593,8,Schwalm-Eder II
+34596,8,Schwalm-Eder II
+34599,8,Schwalm-Eder II
+34613,8,Schwalm-Eder II
+34621,8,Schwalm-Eder II
+34626,8,Schwalm-Eder II
+34628,8,Schwalm-Eder II
+34630,8,Schwalm-Eder II
+34632,8,Schwalm-Eder II
+34633,8,Schwalm-Eder II
+34637,8,Schwalm-Eder II
+34639,8,Schwalm-Eder II
+35037,13,Marburg-Biedenkopf II
+35039,13,Marburg-Biedenkopf II
+35041,13,Marburg-Biedenkopf II
+35043,13,Marburg-Biedenkopf II
+35066,6,Waldeck-Frankenberg II
+35075,12,Marburg-Biedenkopf I
+35080,12,Marburg-Biedenkopf I
+35083,12,Marburg-Biedenkopf I
+35085,12,Marburg-Biedenkopf I
+35088,6,Waldeck-Frankenberg II
+35091,12,Marburg-Biedenkopf I
+35091,13,Marburg-Biedenkopf II
+35094,12,Marburg-Biedenkopf I
+35096,12,Marburg-Biedenkopf I
+35099,6,Waldeck-Frankenberg II
+35102,12,Marburg-Biedenkopf I
+35104,5,Waldeck-Frankenberg I
+35108,6,Waldeck-Frankenberg II
+35110,6,Waldeck-Frankenberg II
+35112,12,Marburg-Biedenkopf I
+35114,6,Waldeck-Frankenberg II
+35116,6,Waldeck-Frankenberg II
+35117,12,Marburg-Biedenkopf I
+35119,6,Waldeck-Frankenberg II
+35216,12,Marburg-Biedenkopf I
+35232,12,Marburg-Biedenkopf I
+35236,12,Marburg-Biedenkopf I
+35239,12,Marburg-Biedenkopf I
+35260,13,Marburg-Biedenkopf II
+35274,13,Marburg-Biedenkopf II
+35279,13,Marburg-Biedenkopf II
+35282,12,Marburg-Biedenkopf I
+35285,6,Waldeck-Frankenberg II
+35287,13,Marburg-Biedenkopf II
+35288,12,Marburg-Biedenkopf I
+35305,19,Gießen II
+35315,20,Vogelsberg
+35321,20,Vogelsberg
+35325,20,Vogelsberg
+35327,20,Vogelsberg
+35329,20,Vogelsberg
+35390,18,Gießen I
+35392,18,Gießen I
+35394,18,Gießen I
+35396,18,Gießen I
+35398,18,Gießen I
+35410,19,Gießen II
+35415,19,Gießen II
+35418,19,Gießen II
+35423,19,Gießen II
+35428,19,Gießen II
+35435,18,Gießen I
+35440,19,Gießen II
+35444,18,Gießen I
+35447,19,Gießen II
+35452,18,Gießen I
+35457,18,Gießen I
+35457,19,Gießen II
+35460,18,Gießen I
+35460,19,Gießen II
+35463,19,Gießen II
+35466,20,Vogelsberg
+35469,19,Gießen II
+35510,27,Wetterau III
+35516,27,Wetterau III
+35519,27,Wetterau III
+35576,17,Lahn-Dill II
+35578,17,Lahn-Dill II
+35579,17,Lahn-Dill II
+35580,17,Lahn-Dill II
+35581,17,Lahn-Dill II
+35582,17,Lahn-Dill II
+35583,17,Lahn-Dill II
+35584,17,Lahn-Dill II
+35585,17,Lahn-Dill II
+35586,17,Lahn-Dill II
+35606,17,Lahn-Dill II
+35614,17,Lahn-Dill II
+35619,17,Lahn-Dill II
+35625,17,Lahn-Dill II
+35625,19,Gießen II
+35630,16,Lahn-Dill I
+35633,17,Lahn-Dill II
+35638,17,Lahn-Dill II
+35641,17,Lahn-Dill II
+35644,17,Lahn-Dill II
+35647,22,Limburg-Weilburg II
+35649,16,Lahn-Dill I
+35683,16,Lahn-Dill I
+35684,16,Lahn-Dill I
+35685,16,Lahn-Dill I
+35686,16,Lahn-Dill I
+35687,16,Lahn-Dill I
+35688,16,Lahn-Dill I
+35689,16,Lahn-Dill I
+35690,16,Lahn-Dill I
+35708,16,Lahn-Dill I
+35713,16,Lahn-Dill I
+35716,16,Lahn-Dill I
+35719,12,Marburg-Biedenkopf I
+35745,16,Lahn-Dill I
+35753,16,Lahn-Dill I
+35756,16,Lahn-Dill I
+35759,16,Lahn-Dill I
+35764,16,Lahn-Dill I
+35767,16,Lahn-Dill I
+35768,16,Lahn-Dill I
+35781,22,Limburg-Weilburg II
+35789,22,Limburg-Weilburg II
+35792,22,Limburg-Weilburg II
+35794,22,Limburg-Weilburg II
+35796,22,Limburg-Weilburg II
+35799,22,Limburg-Weilburg II
+36037,14,Fulda I
+36039,14,Fulda I
+36039,15,Fulda II
+36041,14,Fulda I
+36043,14,Fulda I
+36043,15,Fulda II
+36088,14,Fulda I
+36093,15,Fulda II
+36100,15,Fulda II
+36103,15,Fulda II
+36110,20,Vogelsberg
+36115,15,Fulda II
+36119,15,Fulda II
+36124,15,Fulda II
+36129,15,Fulda II
+36132,11,Hersfeld
+36137,14,Fulda I
+36142,15,Fulda II
+36145,15,Fulda II
+36148,15,Fulda II
+36151,11,Hersfeld
+36154,15,Fulda II
+36157,15,Fulda II
+36160,15,Fulda II
+36163,15,Fulda II
+36166,11,Hersfeld
+36167,14,Fulda I
+36169,11,Hersfeld
+36179,10,Rotenburg
+36199,10,Rotenburg
+36205,10,Rotenburg
+36208,10,Rotenburg
+36211,10,Rotenburg
+36214,10,Rotenburg
+36217,10,Rotenburg
+36219,10,Rotenburg
+36251,10,Rotenburg
+36251,11,Hersfeld
+36266,11,Hersfeld
+36269,11,Hersfeld
+36272,11,Hersfeld
+36275,11,Hersfeld
+36277,11,Hersfeld
+36280,8,Schwalm-Eder II
+36282,11,Hersfeld
+36284,11,Hersfeld
+36286,10,Rotenburg
+36287,11,Hersfeld
+36289,11,Hersfeld
+36304,20,Vogelsberg
+36318,20,Vogelsberg
+36320,20,Vogelsberg
+36323,20,Vogelsberg
+36325,20,Vogelsberg
+36326,20,Vogelsberg
+36329,20,Vogelsberg
+36341,20,Vogelsberg
+36355,20,Vogelsberg
+36358,20,Vogelsberg
+36364,14,Fulda I
+36367,20,Vogelsberg
+36369,20,Vogelsberg
+36381,42,Main-Kinzig III
+36391,42,Main-Kinzig III
+36396,42,Main-Kinzig III
+36399,20,Vogelsberg
+36404,11,Hersfeld
+36414,11,Hersfeld
+36419,11,Hersfeld
+36419,14,Fulda I
+36419,15,Fulda II
+36452,15,Fulda II
+37124,9,Wahlkreis 9
+37133,9,Wahlkreis 9
+37139,1,Kassel-Land I
+37170,1,Kassel-Land I
+37194,1,Kassel-Land I
+37213,9,Wahlkreis 9
+37214,9,Wahlkreis 9
+37215,9,Wahlkreis 9
+37216,9,Wahlkreis 9
+37217,9,Wahlkreis 9
+37218,9,Wahlkreis 9
+37235,9,Wahlkreis 9
+37242,9,Wahlkreis 9
+37247,9,Wahlkreis 9
+37249,9,Wahlkreis 9
+37269,9,Wahlkreis 9
+37276,9,Wahlkreis 9
+37281,9,Wahlkreis 9
+37284,10,Rotenburg
+37287,10,Rotenburg
+37290,10,Rotenburg
+37293,10,Rotenburg
+37296,10,Rotenburg
+37297,9,Wahlkreis 9
+37297,10,Rotenburg
+37299,10,Rotenburg
+37308,9,Wahlkreis 9
+37318,9,Wahlkreis 9
+37688,1,Kassel-Land I
+55116,30,Wiesbaden I
+55116,31,Wiesbaden II
+55118,30,Wiesbaden I
+55118,31,Wiesbaden II
+55120,30,Wiesbaden I
+55120,31,Wiesbaden II
+55130,47,Groß-Gerau I
+55131,30,Wiesbaden I
+55131,31,Wiesbaden II
+55131,47,Groß-Gerau I
+55218,28,Rheingau-Taunus I
+55246,30,Wiesbaden I
+55246,31,Wiesbaden II
+55252,30,Wiesbaden I
+55252,31,Wiesbaden II
+55257,28,Rheingau-Taunus I
+55257,30,Wiesbaden I
+55257,31,Wiesbaden II
+55262,28,Rheingau-Taunus I
+55276,48,Groß-Gerau II
+55283,48,Groß-Gerau II
+55294,47,Groß-Gerau I
+55294,48,Groß-Gerau II
+55299,48,Groß-Gerau II
+55411,28,Rheingau-Taunus I
+55413,28,Rheingau-Taunus I
+55422,28,Rheingau-Taunus I
+56348,28,Rheingau-Taunus I
+56349,28,Rheingau-Taunus I
+56355,28,Rheingau-Taunus I
+56357,28,Rheingau-Taunus I
+56368,29,Rheingau-Taunus II
+56370,28,Rheingau-Taunus I
+56370,29,Rheingau-Taunus II
+56412,21,Limburg-Weilburg I
+56414,21,Limburg-Weilburg I
+56459,21,Limburg-Weilburg I
+56477,16,Lahn-Dill I
+56479,16,Lahn-Dill I
+56479,21,Limburg-Weilburg I
+56479,22,Limburg-Weilburg II
+57234,16,Lahn-Dill I
+57250,16,Lahn-Dill I
+57299,16,Lahn-Dill I
+57319,6,Waldeck-Frankenberg II
+57334,12,Marburg-Biedenkopf I
+57334,16,Lahn-Dill I
+59929,5,Waldeck-Frankenberg I
+59939,5,Waldeck-Frankenberg I
+59955,5,Waldeck-Frankenberg I
+59964,5,Waldeck-Frankenberg I
+59969,5,Waldeck-Frankenberg I
+59969,6,Waldeck-Frankenberg II
+60255,34,Frankfurt am Main I
+60255,35,Frankfurt am Main II
+60255,36,Frankfurt am Main III
+60255,37,Frankfurt am Main IV
+60255,38,Frankfurt am Main V
+60255,39,Frankfurt am Main VI
+60306,34,Frankfurt am Main I
+60306,35,Frankfurt am Main II
+60306,36,Frankfurt am Main III
+60306,37,Frankfurt am Main IV
+60306,38,Frankfurt am Main V
+60306,39,Frankfurt am Main VI
+60308,34,Frankfurt am Main I
+60308,35,Frankfurt am Main II
+60308,36,Frankfurt am Main III
+60308,37,Frankfurt am Main IV
+60308,38,Frankfurt am Main V
+60308,39,Frankfurt am Main VI
+60310,34,Frankfurt am Main I
+60310,35,Frankfurt am Main II
+60310,36,Frankfurt am Main III
+60310,37,Frankfurt am Main IV
+60310,38,Frankfurt am Main V
+60310,39,Frankfurt am Main VI
+60311,34,Frankfurt am Main I
+60311,35,Frankfurt am Main II
+60311,36,Frankfurt am Main III
+60311,37,Frankfurt am Main IV
+60311,38,Frankfurt am Main V
+60311,39,Frankfurt am Main VI
+60312,34,Frankfurt am Main I
+60312,35,Frankfurt am Main II
+60312,36,Frankfurt am Main III
+60312,37,Frankfurt am Main IV
+60312,38,Frankfurt am Main V
+60312,39,Frankfurt am Main VI
+60313,34,Frankfurt am Main I
+60313,35,Frankfurt am Main II
+60313,36,Frankfurt am Main III
+60313,37,Frankfurt am Main IV
+60313,38,Frankfurt am Main V
+60313,39,Frankfurt am Main VI
+60314,34,Frankfurt am Main I
+60314,35,Frankfurt am Main II
+60314,36,Frankfurt am Main III
+60314,37,Frankfurt am Main IV
+60314,38,Frankfurt am Main V
+60314,39,Frankfurt am Main VI
+60315,34,Frankfurt am Main I
+60315,35,Frankfurt am Main II
+60315,36,Frankfurt am Main III
+60315,37,Frankfurt am Main IV
+60315,38,Frankfurt am Main V
+60315,39,Frankfurt am Main VI
+60316,34,Frankfurt am Main I
+60316,35,Frankfurt am Main II
+60316,36,Frankfurt am Main III
+60316,37,Frankfurt am Main IV
+60316,38,Frankfurt am Main V
+60316,39,Frankfurt am Main VI
+60318,34,Frankfurt am Main I
+60318,35,Frankfurt am Main II
+60318,36,Frankfurt am Main III
+60318,37,Frankfurt am Main IV
+60318,38,Frankfurt am Main V
+60318,39,Frankfurt am Main VI
+60320,34,Frankfurt am Main I
+60320,35,Frankfurt am Main II
+60320,36,Frankfurt am Main III
+60320,37,Frankfurt am Main IV
+60320,38,Frankfurt am Main V
+60320,39,Frankfurt am Main VI
+60322,34,Frankfurt am Main I
+60322,35,Frankfurt am Main II
+60322,36,Frankfurt am Main III
+60322,37,Frankfurt am Main IV
+60322,38,Frankfurt am Main V
+60322,39,Frankfurt am Main VI
+60323,34,Frankfurt am Main I
+60323,35,Frankfurt am Main II
+60323,36,Frankfurt am Main III
+60323,37,Frankfurt am Main IV
+60323,38,Frankfurt am Main V
+60323,39,Frankfurt am Main VI
+60325,34,Frankfurt am Main I
+60325,35,Frankfurt am Main II
+60325,36,Frankfurt am Main III
+60325,37,Frankfurt am Main IV
+60325,38,Frankfurt am Main V
+60325,39,Frankfurt am Main VI
+60326,34,Frankfurt am Main I
+60326,35,Frankfurt am Main II
+60326,36,Frankfurt am Main III
+60326,37,Frankfurt am Main IV
+60326,38,Frankfurt am Main V
+60326,39,Frankfurt am Main VI
+60327,34,Frankfurt am Main I
+60327,35,Frankfurt am Main II
+60327,36,Frankfurt am Main III
+60327,37,Frankfurt am Main IV
+60327,38,Frankfurt am Main V
+60327,39,Frankfurt am Main VI
+60329,34,Frankfurt am Main I
+60329,35,Frankfurt am Main II
+60329,36,Frankfurt am Main III
+60329,37,Frankfurt am Main IV
+60329,38,Frankfurt am Main V
+60329,39,Frankfurt am Main VI
+60385,34,Frankfurt am Main I
+60385,35,Frankfurt am Main II
+60385,36,Frankfurt am Main III
+60385,37,Frankfurt am Main IV
+60385,38,Frankfurt am Main V
+60385,39,Frankfurt am Main VI
+60386,34,Frankfurt am Main I
+60386,35,Frankfurt am Main II
+60386,36,Frankfurt am Main III
+60386,37,Frankfurt am Main IV
+60386,38,Frankfurt am Main V
+60386,39,Frankfurt am Main VI
+60388,34,Frankfurt am Main I
+60388,35,Frankfurt am Main II
+60388,36,Frankfurt am Main III
+60388,37,Frankfurt am Main IV
+60388,38,Frankfurt am Main V
+60388,39,Frankfurt am Main VI
+60389,34,Frankfurt am Main I
+60389,35,Frankfurt am Main II
+60389,36,Frankfurt am Main III
+60389,37,Frankfurt am Main IV
+60389,38,Frankfurt am Main V
+60389,39,Frankfurt am Main VI
+60431,34,Frankfurt am Main I
+60431,35,Frankfurt am Main II
+60431,36,Frankfurt am Main III
+60431,37,Frankfurt am Main IV
+60431,38,Frankfurt am Main V
+60431,39,Frankfurt am Main VI
+60433,34,Frankfurt am Main I
+60433,35,Frankfurt am Main II
+60433,36,Frankfurt am Main III
+60433,37,Frankfurt am Main IV
+60433,38,Frankfurt am Main V
+60433,39,Frankfurt am Main VI
+60435,34,Frankfurt am Main I
+60435,35,Frankfurt am Main II
+60435,36,Frankfurt am Main III
+60435,37,Frankfurt am Main IV
+60435,38,Frankfurt am Main V
+60435,39,Frankfurt am Main VI
+60437,34,Frankfurt am Main I
+60437,35,Frankfurt am Main II
+60437,36,Frankfurt am Main III
+60437,37,Frankfurt am Main IV
+60437,38,Frankfurt am Main V
+60437,39,Frankfurt am Main VI
+60438,34,Frankfurt am Main I
+60438,35,Frankfurt am Main II
+60438,36,Frankfurt am Main III
+60438,37,Frankfurt am Main IV
+60438,38,Frankfurt am Main V
+60438,39,Frankfurt am Main VI
+60439,34,Frankfurt am Main I
+60439,35,Frankfurt am Main II
+60439,36,Frankfurt am Main III
+60439,37,Frankfurt am Main IV
+60439,38,Frankfurt am Main V
+60439,39,Frankfurt am Main VI
+60486,34,Frankfurt am Main I
+60486,35,Frankfurt am Main II
+60486,36,Frankfurt am Main III
+60486,37,Frankfurt am Main IV
+60486,38,Frankfurt am Main V
+60486,39,Frankfurt am Main VI
+60487,34,Frankfurt am Main I
+60487,35,Frankfurt am Main II
+60487,36,Frankfurt am Main III
+60487,37,Frankfurt am Main IV
+60487,38,Frankfurt am Main V
+60487,39,Frankfurt am Main VI
+60488,34,Frankfurt am Main I
+60488,35,Frankfurt am Main II
+60488,36,Frankfurt am Main III
+60488,37,Frankfurt am Main IV
+60488,38,Frankfurt am Main V
+60488,39,Frankfurt am Main VI
+60489,34,Frankfurt am Main I
+60489,35,Frankfurt am Main II
+60489,36,Frankfurt am Main III
+60489,37,Frankfurt am Main IV
+60489,38,Frankfurt am Main V
+60489,39,Frankfurt am Main VI
+60528,34,Frankfurt am Main I
+60528,35,Frankfurt am Main II
+60528,36,Frankfurt am Main III
+60528,37,Frankfurt am Main IV
+60528,38,Frankfurt am Main V
+60528,39,Frankfurt am Main VI
+60529,34,Frankfurt am Main I
+60529,35,Frankfurt am Main II
+60529,36,Frankfurt am Main III
+60529,37,Frankfurt am Main IV
+60529,38,Frankfurt am Main V
+60529,39,Frankfurt am Main VI
+60549,34,Frankfurt am Main I
+60549,35,Frankfurt am Main II
+60549,36,Frankfurt am Main III
+60549,37,Frankfurt am Main IV
+60549,38,Frankfurt am Main V
+60549,39,Frankfurt am Main VI
+60594,34,Frankfurt am Main I
+60594,35,Frankfurt am Main II
+60594,36,Frankfurt am Main III
+60594,37,Frankfurt am Main IV
+60594,38,Frankfurt am Main V
+60594,39,Frankfurt am Main VI
+60596,34,Frankfurt am Main I
+60596,35,Frankfurt am Main II
+60596,36,Frankfurt am Main III
+60596,37,Frankfurt am Main IV
+60596,38,Frankfurt am Main V
+60596,39,Frankfurt am Main VI
+60598,34,Frankfurt am Main I
+60598,35,Frankfurt am Main II
+60598,36,Frankfurt am Main III
+60598,37,Frankfurt am Main IV
+60598,38,Frankfurt am Main V
+60598,39,Frankfurt am Main VI
+60599,34,Frankfurt am Main I
+60599,35,Frankfurt am Main II
+60599,36,Frankfurt am Main III
+60599,37,Frankfurt am Main IV
+60599,38,Frankfurt am Main V
+60599,39,Frankfurt am Main VI
+61118,25,Wetterau I
+61130,25,Wetterau I
+61130,40,Main-Kinzig I
+61137,40,Main-Kinzig I
+61138,25,Wetterau I
+61138,41,Main-Kinzig II
+61169,25,Wetterau I
+61184,25,Wetterau I
+61191,25,Wetterau I
+61194,25,Wetterau I
+61197,27,Wetterau III
+61200,27,Wetterau III
+61203,26,Wetterau II
+61203,27,Wetterau III
+61206,25,Wetterau I
+61209,27,Wetterau III
+61231,27,Wetterau III
+61239,27,Wetterau III
+61250,23,Hochtaunus I
+61267,23,Hochtaunus I
+61273,23,Hochtaunus I
+61276,24,Hochtaunus II
+61279,23,Hochtaunus I
+61348,23,Hochtaunus I
+61348,24,Hochtaunus II
+61350,23,Hochtaunus I
+61352,23,Hochtaunus I
+61381,23,Hochtaunus I
+61389,24,Hochtaunus II
+61440,23,Hochtaunus I
+61440,24,Hochtaunus II
+61449,24,Hochtaunus II
+61462,24,Hochtaunus II
+61476,24,Hochtaunus II
+61479,24,Hochtaunus II
+61479,29,Rheingau-Taunus II
+63065,43,Wahlkreis 43
+63067,34,Frankfurt am Main I
+63067,35,Frankfurt am Main II
+63067,36,Frankfurt am Main III
+63067,37,Frankfurt am Main IV
+63067,38,Frankfurt am Main V
+63067,39,Frankfurt am Main VI
+63067,43,Wahlkreis 43
+63069,43,Wahlkreis 43
+63069,44,Offenbach Land I
+63071,43,Wahlkreis 43
+63071,45,Offenbach Land II
+63073,43,Wahlkreis 43
+63073,45,Offenbach Land II
+63075,34,Frankfurt am Main I
+63075,35,Frankfurt am Main II
+63075,36,Frankfurt am Main III
+63075,37,Frankfurt am Main IV
+63075,38,Frankfurt am Main V
+63075,39,Frankfurt am Main VI
+63075,43,Wahlkreis 43
+63110,46,Offenbach Land III
+63128,45,Offenbach Land II
+63150,44,Offenbach Land I
+63150,45,Offenbach Land II
+63165,43,Wahlkreis 43
+63165,45,Offenbach Land II
+63179,45,Offenbach Land II
+63225,44,Offenbach Land I
+63263,34,Frankfurt am Main I
+63263,35,Frankfurt am Main II
+63263,36,Frankfurt am Main III
+63263,37,Frankfurt am Main IV
+63263,38,Frankfurt am Main V
+63263,39,Frankfurt am Main VI
+63263,44,Offenbach Land I
+63303,44,Offenbach Land I
+63322,46,Offenbach Land III
+63329,44,Offenbach Land I
+63450,41,Main-Kinzig II
+63452,41,Main-Kinzig II
+63454,41,Main-Kinzig II
+63456,41,Main-Kinzig II
+63457,41,Main-Kinzig II
+63477,41,Main-Kinzig II
+63486,40,Main-Kinzig I
+63486,41,Main-Kinzig II
+63500,46,Offenbach Land III
+63505,40,Main-Kinzig I
+63512,46,Offenbach Land III
+63517,40,Main-Kinzig I
+63526,40,Main-Kinzig I
+63526,41,Main-Kinzig II
+63533,46,Offenbach Land III
+63538,41,Main-Kinzig II
+63538,46,Offenbach Land III
+63543,40,Main-Kinzig I
+63546,26,Wetterau II
+63546,40,Main-Kinzig I
+63549,26,Wetterau II
+63571,42,Main-Kinzig III
+63579,40,Main-Kinzig I
+63584,26,Wetterau II
+63589,42,Main-Kinzig III
+63594,40,Main-Kinzig I
+63599,42,Main-Kinzig III
+63607,26,Wetterau II
+63607,42,Main-Kinzig III
+63619,42,Main-Kinzig III
+63628,42,Main-Kinzig III
+63633,42,Main-Kinzig III
+63636,42,Main-Kinzig III
+63637,42,Main-Kinzig III
+63639,42,Main-Kinzig III
+63654,26,Wetterau II
+63667,26,Wetterau II
+63674,26,Wetterau II
+63679,20,Vogelsberg
+63683,26,Wetterau II
+63688,26,Wetterau II
+63691,26,Wetterau II
+63694,26,Wetterau II
+63695,26,Wetterau II
+63697,26,Wetterau II
+63699,26,Wetterau II
+63699,42,Main-Kinzig III
+63755,40,Main-Kinzig I
+63762,52,Darmstadt-Dieburg II
+63776,40,Main-Kinzig I
+63785,53,Odenwald
+63791,46,Offenbach Land III
+63796,41,Main-Kinzig II
+63801,46,Offenbach Land III
+63811,46,Offenbach Land III
+63811,52,Darmstadt-Dieburg II
+63825,42,Main-Kinzig III
+63826,40,Main-Kinzig I
+63828,42,Main-Kinzig III
+63831,42,Main-Kinzig III
+63853,52,Darmstadt-Dieburg II
+63853,53,Odenwald
+63897,53,Odenwald
+63911,53,Odenwald
+63916,53,Odenwald
+63924,53,Odenwald
+63925,53,Odenwald
+63931,53,Odenwald
+63937,53,Odenwald
+63939,53,Odenwald
+64283,49,Darmstadt-Stadt I
+64283,50,Darmstadt-Stadt II
+64285,49,Darmstadt-Stadt I
+64285,50,Darmstadt-Stadt II
+64287,49,Darmstadt-Stadt I
+64287,50,Darmstadt-Stadt II
+64289,49,Darmstadt-Stadt I
+64289,50,Darmstadt-Stadt II
+64291,49,Darmstadt-Stadt I
+64291,50,Darmstadt-Stadt II
+64293,49,Darmstadt-Stadt I
+64293,50,Darmstadt-Stadt II
+64295,49,Darmstadt-Stadt I
+64295,50,Darmstadt-Stadt II
+64295,51,Darmstadt-Dieburg I
+64297,49,Darmstadt-Stadt I
+64297,50,Darmstadt-Stadt II
+64319,51,Darmstadt-Dieburg I
+64331,51,Darmstadt-Dieburg I
+64342,51,Darmstadt-Dieburg I
+64347,49,Darmstadt-Stadt I
+64347,50,Darmstadt-Stadt II
+64347,51,Darmstadt-Dieburg I
+64354,50,Darmstadt-Stadt II
+64367,50,Darmstadt-Stadt II
+64372,50,Darmstadt-Stadt II
+64380,50,Darmstadt-Stadt II
+64385,53,Odenwald
+64390,49,Darmstadt-Stadt I
+64390,50,Darmstadt-Stadt II
+64390,51,Darmstadt-Dieburg I
+64395,53,Odenwald
+64397,50,Darmstadt-Stadt II
+64401,50,Darmstadt-Stadt II
+64404,51,Darmstadt-Dieburg I
+64405,50,Darmstadt-Stadt II
+64407,53,Odenwald
+64409,52,Darmstadt-Dieburg II
+64521,48,Groß-Gerau II
+64546,48,Groß-Gerau II
+64560,48,Groß-Gerau II
+64569,47,Groß-Gerau I
+64572,48,Groß-Gerau II
+64579,48,Groß-Gerau II
+64584,48,Groß-Gerau II
+64589,48,Groß-Gerau II
+64625,55,Bergstraße II
+64646,54,Bergstraße I
+64653,54,Bergstraße I
+64658,55,Bergstraße II
+64665,51,Darmstadt-Dieburg I
+64668,55,Bergstraße II
+64673,55,Bergstraße II
+64678,55,Bergstraße II
+64683,55,Bergstraße II
+64686,55,Bergstraße II
+64689,55,Bergstraße II
+64711,53,Odenwald
+64720,53,Odenwald
+64732,53,Odenwald
+64739,53,Odenwald
+64743,53,Odenwald
+64747,53,Odenwald
+64750,53,Odenwald
+64753,53,Odenwald
+64754,53,Odenwald
+64756,53,Odenwald
+64757,53,Odenwald
+64760,53,Odenwald
+64807,52,Darmstadt-Dieburg II
+64823,52,Darmstadt-Dieburg II
+64832,52,Darmstadt-Dieburg II
+64839,52,Darmstadt-Dieburg II
+64846,50,Darmstadt-Stadt II
+64846,52,Darmstadt-Dieburg II
+64850,52,Darmstadt-Dieburg II
+64853,52,Darmstadt-Dieburg II
+64859,46,Offenbach Land III
+64859,52,Darmstadt-Dieburg II
+65183,30,Wiesbaden I
+65183,31,Wiesbaden II
+65185,30,Wiesbaden I
+65185,31,Wiesbaden II
+65187,30,Wiesbaden I
+65187,31,Wiesbaden II
+65189,30,Wiesbaden I
+65189,31,Wiesbaden II
+65191,30,Wiesbaden I
+65191,31,Wiesbaden II
+65193,30,Wiesbaden I
+65193,31,Wiesbaden II
+65195,30,Wiesbaden I
+65195,31,Wiesbaden II
+65197,30,Wiesbaden I
+65197,31,Wiesbaden II
+65199,30,Wiesbaden I
+65199,31,Wiesbaden II
+65201,30,Wiesbaden I
+65201,31,Wiesbaden II
+65203,30,Wiesbaden I
+65203,31,Wiesbaden II
+65205,30,Wiesbaden I
+65205,31,Wiesbaden II
+65207,30,Wiesbaden I
+65207,31,Wiesbaden II
+65232,29,Rheingau-Taunus II
+65239,33,Main-Taunus II
+65307,28,Rheingau-Taunus I
+65321,28,Rheingau-Taunus I
+65326,29,Rheingau-Taunus II
+65329,29,Rheingau-Taunus II
+65343,28,Rheingau-Taunus I
+65344,28,Rheingau-Taunus I
+65345,28,Rheingau-Taunus I
+65346,28,Rheingau-Taunus I
+65347,28,Rheingau-Taunus I
+65366,28,Rheingau-Taunus I
+65375,28,Rheingau-Taunus I
+65385,28,Rheingau-Taunus I
+65388,28,Rheingau-Taunus I
+65391,28,Rheingau-Taunus I
+65396,28,Rheingau-Taunus I
+65399,28,Rheingau-Taunus I
+65428,47,Groß-Gerau I
+65439,33,Main-Taunus II
+65451,34,Frankfurt am Main I
+65451,35,Frankfurt am Main II
+65451,36,Frankfurt am Main III
+65451,37,Frankfurt am Main IV
+65451,38,Frankfurt am Main V
+65451,39,Frankfurt am Main VI
+65451,47,Groß-Gerau I
+65462,47,Groß-Gerau I
+65468,48,Groß-Gerau II
+65474,47,Groß-Gerau I
+65479,47,Groß-Gerau I
+65510,29,Rheingau-Taunus II
+65520,22,Limburg-Weilburg II
+65527,29,Rheingau-Taunus II
+65529,29,Rheingau-Taunus II
+65549,21,Limburg-Weilburg I
+65550,21,Limburg-Weilburg I
+65551,21,Limburg-Weilburg I
+65552,21,Limburg-Weilburg I
+65553,21,Limburg-Weilburg I
+65554,21,Limburg-Weilburg I
+65555,21,Limburg-Weilburg I
+65556,21,Limburg-Weilburg I
+65558,21,Limburg-Weilburg I
+65558,29,Rheingau-Taunus II
+65582,21,Limburg-Weilburg I
+65589,21,Limburg-Weilburg I
+65594,22,Limburg-Weilburg II
+65597,21,Limburg-Weilburg I
+65599,21,Limburg-Weilburg I
+65604,21,Limburg-Weilburg I
+65606,22,Limburg-Weilburg II
+65611,21,Limburg-Weilburg I
+65614,22,Limburg-Weilburg II
+65618,22,Limburg-Weilburg II
+65620,21,Limburg-Weilburg I
+65623,21,Limburg-Weilburg I
+65623,29,Rheingau-Taunus II
+65627,21,Limburg-Weilburg I
+65629,21,Limburg-Weilburg I
+65719,33,Main-Taunus II
+65760,32,Main-Taunus I
+65760,34,Frankfurt am Main I
+65760,35,Frankfurt am Main II
+65760,36,Frankfurt am Main III
+65760,37,Frankfurt am Main IV
+65760,38,Frankfurt am Main V
+65760,39,Frankfurt am Main VI
+65779,32,Main-Taunus I
+65795,33,Main-Taunus II
+65812,32,Main-Taunus I
+65817,32,Main-Taunus I
+65824,32,Main-Taunus I
+65824,34,Frankfurt am Main I
+65824,35,Frankfurt am Main II
+65824,36,Frankfurt am Main III
+65824,37,Frankfurt am Main IV
+65824,38,Frankfurt am Main V
+65824,39,Frankfurt am Main VI
+65830,33,Main-Taunus II
+65835,32,Main-Taunus I
+65843,32,Main-Taunus I
+65843,34,Frankfurt am Main I
+65843,35,Frankfurt am Main II
+65843,36,Frankfurt am Main III
+65843,37,Frankfurt am Main IV
+65843,38,Frankfurt am Main V
+65843,39,Frankfurt am Main VI
+65929,34,Frankfurt am Main I
+65929,35,Frankfurt am Main II
+65929,36,Frankfurt am Main III
+65929,37,Frankfurt am Main IV
+65929,38,Frankfurt am Main V
+65929,39,Frankfurt am Main VI
+65931,34,Frankfurt am Main I
+65931,35,Frankfurt am Main II
+65931,36,Frankfurt am Main III
+65931,37,Frankfurt am Main IV
+65931,38,Frankfurt am Main V
+65931,39,Frankfurt am Main VI
+65933,34,Frankfurt am Main I
+65933,35,Frankfurt am Main II
+65933,36,Frankfurt am Main III
+65933,37,Frankfurt am Main IV
+65933,38,Frankfurt am Main V
+65933,39,Frankfurt am Main VI
+65934,34,Frankfurt am Main I
+65934,35,Frankfurt am Main II
+65934,36,Frankfurt am Main III
+65934,37,Frankfurt am Main IV
+65934,38,Frankfurt am Main V
+65934,39,Frankfurt am Main VI
+65936,34,Frankfurt am Main I
+65936,35,Frankfurt am Main II
+65936,36,Frankfurt am Main III
+65936,37,Frankfurt am Main IV
+65936,38,Frankfurt am Main V
+65936,39,Frankfurt am Main VI
+67240,54,Bergstraße I
+67547,54,Bergstraße I
+67550,54,Bergstraße I
+67550,55,Bergstraße II
+67578,48,Groß-Gerau II
+67580,48,Groß-Gerau II
+67583,48,Groß-Gerau II
+68259,54,Bergstraße I
+68305,54,Bergstraße I
+68307,54,Bergstraße I
+68309,54,Bergstraße I
+68519,54,Bergstraße I
+68542,54,Bergstraße I
+68623,54,Bergstraße I
+68642,54,Bergstraße I
+68647,54,Bergstraße I
+68649,55,Bergstraße II
+69151,53,Odenwald
+69239,53,Odenwald
+69250,53,Odenwald
+69253,53,Odenwald
+69253,55,Bergstraße II
+69412,53,Odenwald
+69427,53,Odenwald
+69434,53,Odenwald
+69436,53,Odenwald
+69469,54,Bergstraße I
+69469,55,Bergstraße II
+69483,53,Odenwald
+69488,55,Bergstraße II
+69502,54,Bergstraße I
+69502,55,Bergstraße II
+69509,55,Bergstraße II
+69514,54,Bergstraße I
+69514,55,Bergstraße II
+69517,55,Bergstraße II
+69518,55,Bergstraße II
+97647,15,Fulda II
+97650,15,Fulda II
+97653,15,Fulda II
+97656,15,Fulda II
+97769,42,Main-Kinzig III
+97772,15,Fulda II
+97772,42,Main-Kinzig III
+97773,42,Main-Kinzig III
+97778,42,Main-Kinzig III
+97786,15,Fulda II
+97786,42,Main-Kinzig III
+97791,42,Main-Kinzig III
+97799,42,Main-Kinzig III
+97816,42,Main-Kinzig III
+97833,42,Main-Kinzig III
+98634,15,Fulda II
+99817,10,Rotenburg
+99819,10,Rotenburg
+99830,9,Wahlkreis 9
+99830,10,Rotenburg
+99831,10,Rotenburg
+99834,10,Rotenburg
+99837,10,Rotenburg
+99837,11,Hersfeld
+99976,9,Wahlkreis 9
+99988,9,Wahlkreis 9

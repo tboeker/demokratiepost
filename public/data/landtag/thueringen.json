@@ -1,0 +1,1618 @@
+[
+  {
+    "id": "lt-thueringen-63473",
+    "name": "Thadäus König",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thadaeus-koenig",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Eichsfeld I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63474",
+    "name": "Christina Tasch",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christina-tasch",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Eichsfeld II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63475",
+    "name": "Jörg Prophet",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-prophet",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Nordhausen I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63476",
+    "name": "Kerstin Düben-Schaumann",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kerstin-dueben-schaumann",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Nordhausen II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63477",
+    "name": "Uwe Krell",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uwe-krell",
+    "wahlkreis": {
+      "number": 5,
+      "name": "Wartburgkreis I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63478",
+    "name": "Ulrike Jary",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulrike-jary",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Wartburgkreis II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63480",
+    "name": "Jonas Urbach",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jonas-urbach",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Unstrut-Hainich-Kreis I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63482",
+    "name": "Stefan Schard",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-schard",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Kyffhäuserkreis I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63483",
+    "name": "Jens Cotta",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-cotta",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Kyffhäuserkreis II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63484",
+    "name": "Vivien Rottstedt",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/vivien-rottstedt",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Schmalkalden-Meiningen I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63485",
+    "name": "Jan Abicht",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-abicht",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Schmalkalden-Meiningen II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63486",
+    "name": "Marcel Kramer",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcel-kramer",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Gotha I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63487",
+    "name": "Stephan Steinbrück",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-steinbrueck",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Gotha II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63488",
+    "name": "Daniel Haseloff",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-haseloff",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Sömmerda I / Gotha III"
+    }
+  },
+  {
+    "id": "lt-thueringen-63489",
+    "name": "Torsten Czuppon",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/torsten-czuppon",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Sömmerda II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63490",
+    "name": "Nadine Hoffmann",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nadine-hoffmann",
+    "wahlkreis": {
+      "number": 18,
+      "name": "Hildburghausen I / Schmalkalden-Meiningen III"
+    }
+  },
+  {
+    "id": "lt-thueringen-63491",
+    "name": "Jürgen Treutler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juergen-treutler",
+    "wahlkreis": {
+      "number": 19,
+      "name": "Sonneberg I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63492",
+    "name": "Melanie Berger",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/melanie-berger",
+    "wahlkreis": {
+      "number": 20,
+      "name": "Hildburghausen II / Sonneberg II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63493",
+    "name": "Thomas Luhn",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-luhn",
+    "wahlkreis": {
+      "number": 21,
+      "name": "Suhl / Schmalkalden-Meiningen IV"
+    }
+  },
+  {
+    "id": "lt-thueringen-63494",
+    "name": "Andreas Bühl",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-buehl",
+    "wahlkreis": {
+      "number": 22,
+      "name": "Ilm-Kreis I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63495",
+    "name": "Olaf Kießling",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/olaf-kiessling",
+    "wahlkreis": {
+      "number": 23,
+      "name": "Ilm-Kreis II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63496",
+    "name": "Sascha Schlösser",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-schloesser",
+    "wahlkreis": {
+      "number": 24,
+      "name": "Erfurt I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63497",
+    "name": "Niklas Waßmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/niklas-wassmann",
+    "wahlkreis": {
+      "number": 25,
+      "name": "Erfurt II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63499",
+    "name": "Marek Erfurth",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marek-erfurth",
+    "wahlkreis": {
+      "number": 27,
+      "name": "Erfurt IV"
+    }
+  },
+  {
+    "id": "lt-thueringen-63500",
+    "name": "Thomas Benninghaus",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-benninghaus",
+    "wahlkreis": {
+      "number": 28,
+      "name": "Saalfeld-Rudolstadt I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63501",
+    "name": "Denis Häußer",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/denis-haeusser",
+    "wahlkreis": {
+      "number": 29,
+      "name": "Saalfeld-Rudolstadt II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63502",
+    "name": "Brunhilde Nauer",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/brunhilde-nauer",
+    "wahlkreis": {
+      "number": 30,
+      "name": "Weimarer Land I / Saalfeld-Rudolstadt III"
+    }
+  },
+  {
+    "id": "lt-thueringen-63503",
+    "name": "Peter Gerhardt",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-gerhardt",
+    "wahlkreis": {
+      "number": 31,
+      "name": "Weimar I / Weimarer Land II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63504",
+    "name": "Ulrike Grosse-Röthig",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulrike-grosse-roethig",
+    "wahlkreis": {
+      "number": 32,
+      "name": "Weimar II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63505",
+    "name": "Uwe Thrum",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uwe-thrum",
+    "wahlkreis": {
+      "number": 33,
+      "name": "Saale-Orla-Kreis I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63506",
+    "name": "Ringo Mühlmann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ringo-muehlmann",
+    "wahlkreis": {
+      "number": 34,
+      "name": "Saale-Orla-Kreis II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63507",
+    "name": "Stephan Tiesler",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-tiesler",
+    "wahlkreis": {
+      "number": 35,
+      "name": "Saale-Holzland-Kreis I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63508",
+    "name": "Wiebke Muhsal",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wiebke-muhsal",
+    "wahlkreis": {
+      "number": 36,
+      "name": "Saale-Holzland-Kreis II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63509",
+    "name": "Jens Thomas",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-thomas",
+    "wahlkreis": {
+      "number": 37,
+      "name": "Jena I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63510",
+    "name": "Lena Saniye Güngör",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lena-saniye-guengoer",
+    "wahlkreis": {
+      "number": 38,
+      "name": "Jena II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63511",
+    "name": "Martina Schweinsburg",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-schweinsburg",
+    "wahlkreis": {
+      "number": 39,
+      "name": "Greiz I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63512",
+    "name": "Christian Tischner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-tischner",
+    "wahlkreis": {
+      "number": 40,
+      "name": "Greiz II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63513",
+    "name": "Dieter Michael Laudenbach",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dieter-michael-laudenbach",
+    "wahlkreis": {
+      "number": 41,
+      "name": "Gera I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63514",
+    "name": "Wolfgang Lauerwald",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wolfgang-lauerwald",
+    "wahlkreis": {
+      "number": 42,
+      "name": "Gera II"
+    }
+  },
+  {
+    "id": "lt-thueringen-63515",
+    "name": "Thomas Hoffmann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-hoffmann",
+    "wahlkreis": {
+      "number": 43,
+      "name": "Altenburger Land I"
+    }
+  },
+  {
+    "id": "lt-thueringen-63549",
+    "name": "Alexander Kästner",
+    "party": "Thüringen.Gerecht",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-kaestner",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63539",
+    "name": "Andreas Schubert",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-schubert",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63519",
+    "name": "Anja Müller",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anja-mueller",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63552",
+    "name": "Anke Wirsing",
+    "party": "",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anke-wirsing",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63527",
+    "name": "Beate Meißner",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/beate-meissner",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63538",
+    "name": "Björn Höcke",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bjoern-hoecke",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63517",
+    "name": "Carolin Gerbothe",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carolin-gerbothe",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63528",
+    "name": "Christian Schaft",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-schaft",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63540",
+    "name": "Christoph Zippel",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-zippel",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63556",
+    "name": "Claudia Heber",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claudia-heber",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63535",
+    "name": "Denny Jankowski",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/denny-jankowski",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63546",
+    "name": "Dirk Hoffmeister",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dirk-hoffmeister",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-67620",
+    "name": "Dorothea Marx",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dorothea-marx",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-69008",
+    "name": "Elisabeth Mengel-Stähle",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/elisabeth-mengel-staehle",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63545",
+    "name": "Frank Augsten",
+    "party": "Thüringen.Gerecht",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-augsten",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63559",
+    "name": "Henry Worm",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/henry-worm",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63522",
+    "name": "Jane Croll",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jane-croll",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63523",
+    "name": "Janine Merz",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/janine-merz",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63529",
+    "name": "Jens Dietrich",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-dietrich",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63532",
+    "name": "Katharina König-Preuss",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katharina-koenig-preuss",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63657",
+    "name": "Katja Maurer",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katja-maurer",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63518",
+    "name": "Katja Mitteldorf",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katja-mitteldorf",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63521",
+    "name": "Katja Wolf",
+    "party": "Thüringen.Gerecht",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katja-wolf",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63534",
+    "name": "Lennart Geibert",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lennart-geibert",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63558",
+    "name": "Linda Stark",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/linda-stark",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63537",
+    "name": "Lutz Liebscher",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lutz-liebscher",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63533",
+    "name": "Maik Kowalleck",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maik-kowalleck",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63536",
+    "name": "Mario Voigt",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mario-voigt",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63525",
+    "name": "Marion Rosin",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marion-rosin",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63520",
+    "name": "Martin Henkel",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-henkel",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63550",
+    "name": "Matthias Herzog",
+    "party": "Thüringen.Gerecht",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-herzog",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63526",
+    "name": "Matthias Hey",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-hey",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-71845",
+    "name": "Maximilian Schröter",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maximilian-schroeter",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-67621",
+    "name": "Moritz Kalthoff",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/moritz-kalthoff",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63551",
+    "name": "Nina Behrendt",
+    "party": "Thüringen.Gerecht",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nina-behrendt",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-69007",
+    "name": "Pascal Wloch",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/pascal-wloch",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63553",
+    "name": "Ralph Hutschenreuther",
+    "party": "Thüringen.Gerecht",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralph-hutschenreuther",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63554",
+    "name": "Roberto Kobelt",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/roberto-kobelt",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63541",
+    "name": "Ronald Hande",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ronald-hande",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-69009",
+    "name": "Sascha Bilay",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-bilay",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63544",
+    "name": "Sigrid Hupach",
+    "party": "Thüringen.Gerecht",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sigrid-hupach",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63555",
+    "name": "Stefan Wogawa",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-wogawa",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63543",
+    "name": "Steffen Quasebarth",
+    "party": "Thüringen.Gerecht",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/steffen-quasebarth",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63542",
+    "name": "Steffen Schütz",
+    "party": "Thüringen.Gerecht",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/steffen-schuetz",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63547",
+    "name": "Sven Küntzel",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sven-kuentzel",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63663",
+    "name": "Thomas Gottweiss",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-gottweiss",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63548",
+    "name": "Tilo Kummer",
+    "party": "Thüringen.Gerecht",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tilo-kummer",
+    "state": "Thüringen"
+  },
+  {
+    "id": "lt-thueringen-63530",
+    "name": "Wolfgang Weißkopf",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Thüringen",
+    "address": {
+      "strasse": "Jürgen-Fuchs-Straße 1",
+      "plz": "99096",
+      "ort": "Erfurt",
+      "label": "Thüringer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wolfgang-weisskopf",
+    "state": "Thüringen"
+  }
+]

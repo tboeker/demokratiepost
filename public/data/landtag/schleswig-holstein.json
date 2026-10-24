@@ -1,0 +1,1265 @@
+[
+  {
+    "id": "lt-schleswig-holstein-56158",
+    "name": "Manfred Uekermann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/manfred-uekermann",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Nordfriesland-Nord"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56159",
+    "name": "Michel Deckmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michel-deckmann",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Nordfriesland-Süd"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56160",
+    "name": "Uta Wentzel",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uta-wentzel",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Flensburg"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56161",
+    "name": "Thomas Jepsen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-jepsen",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Flensburg-Land"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56163",
+    "name": "Andreas Hein",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-hein",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Dithmarschen-Schleswig"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56164",
+    "name": "Volker Nielsen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volker-nielsen",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Dithmarschen-Süd"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56165",
+    "name": "Daniel Günther",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-guenther",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Eckernförde"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56191",
+    "name": "Hauke Göttsch",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hauke-goettsch",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Rendsburg-Ost"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56166",
+    "name": "Rixa Kleinschmit",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rixa-kleinschmit",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Rendsburg"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56167",
+    "name": "Hauke Hansen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hauke-hansen",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Neumünster"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56192",
+    "name": "Lasse Petersdotter",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lasse-petersdotter",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Kiel-Nord"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56169",
+    "name": "Seyran Papo",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/seyran-papo",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Kiel-Ost"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56170",
+    "name": "Werner Kalinka",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/werner-kalinka",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Plön-Nord"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56172",
+    "name": "Peer Knöfler",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peer-knoefler",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Ostholstein-Nord"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56173",
+    "name": "Wiebke Zweig",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wiebke-zweig",
+    "wahlkreis": {
+      "number": 18,
+      "name": "Ostholstein-Süd"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56175",
+    "name": "Heiner Rickers",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heiner-rickers",
+    "wahlkreis": {
+      "number": 20,
+      "name": "Steinburg-Ost"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56176",
+    "name": "Birte Glißmann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/birte-glissmann",
+    "wahlkreis": {
+      "number": 21,
+      "name": "Elmshorn"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56177",
+    "name": "Peter Lehnert",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-lehnert",
+    "wahlkreis": {
+      "number": 22,
+      "name": "Pinneberg-Nord"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56178",
+    "name": "Martin Balasus",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-balasus",
+    "wahlkreis": {
+      "number": 23,
+      "name": "Pinneberg-Elbmarschen"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56180",
+    "name": "Ole-Christopher Plambeck",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ole-christopher-plambeck",
+    "wahlkreis": {
+      "number": 25,
+      "name": "Segeberg-West"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56181",
+    "name": "Sönke Siebke",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/soenke-siebke",
+    "wahlkreis": {
+      "number": 26,
+      "name": "Segeberg-Ost"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56182",
+    "name": "Patrick Pender",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/patrick-pender",
+    "wahlkreis": {
+      "number": 27,
+      "name": "Norderstedt"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56183",
+    "name": "Claus Christian Claussen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claus-christian-claussen",
+    "wahlkreis": {
+      "number": 28,
+      "name": "Stormarn-Nord"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56184",
+    "name": "Tobias Koch",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tobias-koch",
+    "wahlkreis": {
+      "number": 29,
+      "name": "Stormarn-Mitte"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56185",
+    "name": "Lukas Kilian",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lukas-kilian",
+    "wahlkreis": {
+      "number": 30,
+      "name": "Stormarn-Süd"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56186",
+    "name": "Hermann Junghans",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hermann-junghans",
+    "wahlkreis": {
+      "number": 31,
+      "name": "Lübeck-Ost"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56187",
+    "name": "Dagmar Hildebrand",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dagmar-hildebrand",
+    "wahlkreis": {
+      "number": 32,
+      "name": "Lübeck-West"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56188",
+    "name": "Jasper Balke",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jasper-balke",
+    "wahlkreis": {
+      "number": 33,
+      "name": "Lübeck-Süd"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56189",
+    "name": "Rasmus Vöge",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rasmus-voege",
+    "wahlkreis": {
+      "number": 34,
+      "name": "Lauenburg-Nord"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56190",
+    "name": "Andrea Tschacher",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andrea-tschacher",
+    "wahlkreis": {
+      "number": 35,
+      "name": "Lauenburg-Süd"
+    }
+  },
+  {
+    "id": "lt-schleswig-holstein-56404",
+    "name": "Anette Röttger",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anette-roettger",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56145",
+    "name": "Annabell Krämer",
+    "party": "FDP",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/annabell-kraemer",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-63659",
+    "name": "Anne Riecke",
+    "party": "FDP",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anne-riecke",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-69040",
+    "name": "Beate Nielsen",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/beate-nielsen",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56157",
+    "name": "Beate Raudies",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/beate-raudies",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56126",
+    "name": "Bernd Buchholz",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernd-buchholz",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56406",
+    "name": "Bina Braun",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bina-braun",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56138",
+    "name": "Birgit Herdejürgen",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/birgit-herdejuergen",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56156",
+    "name": "Birte Pauls",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/birte-pauls",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56134",
+    "name": "Catharina Nies",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/catharina-nies",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56127",
+    "name": "Christian Dirschauer",
+    "party": "SSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-dirschauer",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56152",
+    "name": "Christopher Vogt",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christopher-vogt",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56407",
+    "name": "Cornelia Schmachtenberg",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/cornelia-schmachtenberg",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56144",
+    "name": "Dirk Kock-Rohwer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dirk-kock-rohwer",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56142",
+    "name": "Eka von Kalben",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eka-von-kalben",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56130",
+    "name": "Heinrich Garg",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heinrich-garg",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56193",
+    "name": "Jan Kürschner",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-kuerschner",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56154",
+    "name": "Jette Waldinger-Thiering",
+    "party": "SSW",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jette-waldinger-thiering",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56128",
+    "name": "Kai Dolgner",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kai-dolgner",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56403",
+    "name": "Katja Rathje-Hoffmann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katja-rathje-hoffmann",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-60645",
+    "name": "Kianusch Stender",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kianusch-stender",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56137",
+    "name": "Kristina Herbst",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kristina-herbst",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56146",
+    "name": "Malte Krüger",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/malte-krueger",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56149",
+    "name": "Marc Timmer",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marc-timmer",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-58602",
+    "name": "Marion Schiefer",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marion-schiefer",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56131",
+    "name": "Martin Habersaat",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-habersaat",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-63662",
+    "name": "Michael Schunck",
+    "party": "SSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-schunck",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56153",
+    "name": "Nelly Waldeck",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nelly-waldeck",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56129",
+    "name": "Niclas Dürbrook",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/niclas-duerbrook",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56411",
+    "name": "Oliver Brandt",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-brandt",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56140",
+    "name": "Sandra Redmann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandra-redmann",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-70127",
+    "name": "Sebastian Bonau",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-bonau",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56141",
+    "name": "Serpil Midyatli",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/serpil-midyatli",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56125",
+    "name": "Silke Backsen",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/silke-backsen",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56148",
+    "name": "Sophia Schiebe",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sophia-schiebe",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56155",
+    "name": "Sybilla Nitsch",
+    "party": "SSW",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sybilla-nitsch",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56139",
+    "name": "Thomas Hölck",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-hoelck",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56405",
+    "name": "Ulrike Täck",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulrike-taeck",
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "id": "lt-schleswig-holstein-56147",
+    "name": "Uta Röpcke",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Schleswig-Holstein",
+    "address": {
+      "strasse": "Düsternbrooker Weg 70",
+      "plz": "24105",
+      "ort": "Kiel",
+      "label": "Schleswig-Holsteinischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uta-roepcke",
+    "state": "Schleswig-Holstein"
+  }
+]

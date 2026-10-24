@@ -1,0 +1,448 @@
+# PLZ -> Landtagswahlkreis Thüringen (Landtag)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 156 (Thüringen 2024)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+04539,43,Altenburger Land I
+04552,44,Altenburger Land II
+04565,43,Altenburger Land I
+04565,44,Altenburger Land II
+04600,44,Altenburger Land II
+04603,43,Altenburger Land I
+04603,44,Altenburger Land II
+04610,43,Altenburger Land I
+04613,43,Altenburger Land I
+04617,43,Altenburger Land I
+04617,44,Altenburger Land II
+04618,44,Altenburger Land II
+04626,43,Altenburger Land I
+04639,43,Altenburger Land I
+04654,44,Altenburger Land II
+06268,11,Kyffhäuserkreis II
+06493,3,Nordhausen I
+06528,11,Kyffhäuserkreis II
+06536,3,Nordhausen I
+06536,4,Nordhausen II
+06537,11,Kyffhäuserkreis II
+06542,11,Kyffhäuserkreis II
+06556,11,Kyffhäuserkreis II
+06567,11,Kyffhäuserkreis II
+06571,11,Kyffhäuserkreis II
+06577,11,Kyffhäuserkreis II
+06618,36,Saale-Holzland-Kreis II
+06628,31,Weimar I/Weimarer Land II
+06628,36,Saale-Holzland-Kreis II
+06642,11,Kyffhäuserkreis II
+06647,11,Kyffhäuserkreis II
+06647,17,Sömmerda II
+06648,17,Sömmerda II
+06648,31,Weimar I/Weimarer Land II
+06712,40,Greiz II
+06712,41,Gera I
+06712,42,Gera II
+06712,43,Altenburger Land I
+06721,36,Saale-Holzland-Kreis II
+06722,36,Saale-Holzland-Kreis II
+06722,41,Gera I
+06722,42,Gera II
+06729,43,Altenburger Land I
+07318,29,Saalfeld-Rudolstadt II
+07330,29,Saalfeld-Rudolstadt II
+07333,29,Saalfeld-Rudolstadt II
+07338,29,Saalfeld-Rudolstadt II
+07343,33,Saale-Orla-Kreis I
+07349,29,Saalfeld-Rudolstadt II
+07356,33,Saale-Orla-Kreis I
+07366,33,Saale-Orla-Kreis I
+07368,33,Saale-Orla-Kreis I
+07381,34,Saale-Orla-Kreis II
+07387,34,Saale-Orla-Kreis II
+07389,34,Saale-Orla-Kreis II
+07407,28,Saalfeld-Rudolstadt I
+07407,30,Weimarer Land I/Saalfeld-Rudolstadt III
+07422,28,Saalfeld-Rudolstadt I
+07422,29,Saalfeld-Rudolstadt II
+07426,28,Saalfeld-Rudolstadt I
+07427,28,Saalfeld-Rudolstadt I
+07427,29,Saalfeld-Rudolstadt II
+07429,28,Saalfeld-Rudolstadt I
+07545,41,Gera I
+07545,42,Gera II
+07546,41,Gera I
+07546,42,Gera II
+07548,41,Gera I
+07548,42,Gera II
+07549,41,Gera I
+07549,42,Gera II
+07551,41,Gera I
+07551,42,Gera II
+07552,41,Gera I
+07552,42,Gera II
+07554,40,Greiz II
+07554,41,Gera I
+07554,42,Gera II
+07557,39,Greiz I
+07557,41,Gera I
+07557,42,Gera II
+07570,39,Greiz I
+07570,40,Greiz II
+07580,40,Greiz II
+07586,39,Greiz I
+07589,39,Greiz I
+07607,36,Saale-Holzland-Kreis II
+07613,36,Saale-Holzland-Kreis II
+07616,36,Saale-Holzland-Kreis II
+07619,36,Saale-Holzland-Kreis II
+07629,35,Saale-Holzland-Kreis I
+07629,36,Saale-Holzland-Kreis II
+07639,36,Saale-Holzland-Kreis II
+07646,35,Saale-Holzland-Kreis I
+07646,36,Saale-Holzland-Kreis II
+07743,37,Jena I
+07743,38,Jena II
+07745,37,Jena I
+07745,38,Jena II
+07747,37,Jena I
+07747,38,Jena II
+07749,37,Jena I
+07749,38,Jena II
+07751,35,Saale-Holzland-Kreis I
+07751,36,Saale-Holzland-Kreis II
+07751,37,Jena I
+07751,38,Jena II
+07768,35,Saale-Holzland-Kreis I
+07774,36,Saale-Holzland-Kreis II
+07778,36,Saale-Holzland-Kreis II
+07806,34,Saale-Orla-Kreis II
+07819,34,Saale-Orla-Kreis II
+07907,33,Saale-Orla-Kreis I
+07919,33,Saale-Orla-Kreis I
+07919,39,Greiz I
+07922,33,Saale-Orla-Kreis I
+07924,33,Saale-Orla-Kreis I
+07924,34,Saale-Orla-Kreis II
+07926,33,Saale-Orla-Kreis I
+07927,33,Saale-Orla-Kreis I
+07929,33,Saale-Orla-Kreis I
+07937,39,Greiz I
+07950,39,Greiz I
+07952,33,Saale-Orla-Kreis I
+07952,39,Greiz I
+07955,39,Greiz I
+07957,39,Greiz I
+07958,39,Greiz I
+07973,40,Greiz II
+07980,40,Greiz II
+07985,40,Greiz II
+07987,40,Greiz II
+08393,43,Altenburger Land I
+08393,44,Altenburger Land II
+08396,44,Altenburger Land II
+08412,40,Greiz II
+08427,40,Greiz II
+08428,40,Greiz II
+08451,40,Greiz II
+08451,43,Altenburger Land I
+08468,40,Greiz II
+08491,40,Greiz II
+08496,40,Greiz II
+08499,40,Greiz II
+08538,33,Saale-Orla-Kreis I
+08539,33,Saale-Orla-Kreis I
+08539,39,Greiz I
+08543,40,Greiz II
+08547,40,Greiz II
+08548,39,Greiz I
+08548,40,Greiz II
+09212,44,Altenburger Land II
+09322,44,Altenburger Land II
+36115,12,Schmalkalden-Meiningen I
+36132,5,Wartburgkreis I
+36142,5,Wartburgkreis I
+36142,12,Schmalkalden-Meiningen I
+36145,5,Wartburgkreis I
+36167,5,Wartburgkreis I
+36169,5,Wartburgkreis I
+36205,6,Wartburgkreis II
+36208,6,Wartburgkreis II
+36266,5,Wartburgkreis I
+36266,6,Wartburgkreis II
+36269,5,Wartburgkreis I
+36284,5,Wartburgkreis I
+36404,5,Wartburgkreis I
+36414,5,Wartburgkreis I
+36419,5,Wartburgkreis I
+36433,5,Wartburgkreis I
+36448,7,Wartburgkreis III
+36452,5,Wartburgkreis I
+36452,12,Schmalkalden-Meiningen I
+36456,7,Wartburgkreis III
+36457,5,Wartburgkreis I
+36460,5,Wartburgkreis I
+36466,5,Wartburgkreis I
+36469,5,Wartburgkreis I
+36469,6,Wartburgkreis II
+37115,1,Eichsfeld I
+37115,2,Eichsfeld II
+37130,1,Eichsfeld I
+37133,1,Eichsfeld I
+37214,1,Eichsfeld I
+37242,1,Eichsfeld I
+37249,1,Eichsfeld I
+37269,7,Wartburgkreis III
+37276,1,Eichsfeld I
+37281,1,Eichsfeld I
+37281,7,Wartburgkreis III
+37281,8,Unstrut-Hainich-Kreis I
+37293,6,Wartburgkreis II
+37293,7,Wartburgkreis III
+37296,7,Wartburgkreis III
+37299,7,Wartburgkreis III
+37308,1,Eichsfeld I
+37318,1,Eichsfeld I
+37327,1,Eichsfeld I
+37327,2,Eichsfeld II
+37339,1,Eichsfeld I
+37339,2,Eichsfeld II
+37345,2,Eichsfeld II
+37351,2,Eichsfeld II
+37351,8,Unstrut-Hainich-Kreis I
+37355,2,Eichsfeld II
+37359,2,Eichsfeld II
+37412,2,Eichsfeld II
+37431,2,Eichsfeld II
+37431,3,Nordhausen I
+37441,3,Nordhausen I
+37445,3,Nordhausen I
+38700,3,Nordhausen I
+38877,3,Nordhausen I
+38899,3,Nordhausen I
+95138,33,Saale-Orla-Kreis I
+95180,33,Saale-Orla-Kreis I
+95183,33,Saale-Orla-Kreis I
+95188,33,Saale-Orla-Kreis I
+95189,33,Saale-Orla-Kreis I
+95192,33,Saale-Orla-Kreis I
+96126,18,Hildburghausen I/Schmalkalden-Meiningen III
+96145,18,Hildburghausen I/Schmalkalden-Meiningen III
+96242,19,Sonneberg I
+96268,19,Sonneberg I
+96332,19,Sonneberg I
+96337,29,Saalfeld-Rudolstadt II
+96342,19,Sonneberg I
+96355,19,Sonneberg I
+96355,29,Saalfeld-Rudolstadt II
+96358,29,Saalfeld-Rudolstadt II
+96365,33,Saale-Orla-Kreis I
+96367,29,Saalfeld-Rudolstadt II
+96367,33,Saale-Orla-Kreis I
+96465,19,Sonneberg I
+96472,19,Sonneberg I
+96476,18,Hildburghausen I/Schmalkalden-Meiningen III
+96476,20,Hildburghausen II/Sonneberg II
+96479,18,Hildburghausen I/Schmalkalden-Meiningen III
+96484,20,Hildburghausen II/Sonneberg II
+96486,19,Sonneberg I
+96486,20,Hildburghausen II/Sonneberg II
+96515,19,Sonneberg I
+96523,19,Sonneberg I
+96523,20,Hildburghausen II/Sonneberg II
+96524,19,Sonneberg I
+96528,19,Sonneberg I
+97528,18,Hildburghausen I/Schmalkalden-Meiningen III
+97633,18,Hildburghausen I/Schmalkalden-Meiningen III
+97638,12,Schmalkalden-Meiningen I
+97638,18,Hildburghausen I/Schmalkalden-Meiningen III
+97640,18,Hildburghausen I/Schmalkalden-Meiningen III
+97647,12,Schmalkalden-Meiningen I
+97650,12,Schmalkalden-Meiningen I
+98527,20,Hildburghausen II/Sonneberg II
+98527,21,Suhl/Schmalkalden-Meiningen IV
+98528,21,Suhl/Schmalkalden-Meiningen IV
+98529,21,Suhl/Schmalkalden-Meiningen IV
+98530,12,Schmalkalden-Meiningen I
+98530,18,Hildburghausen I/Schmalkalden-Meiningen III
+98544,21,Suhl/Schmalkalden-Meiningen IV
+98547,12,Schmalkalden-Meiningen I
+98553,18,Hildburghausen I/Schmalkalden-Meiningen III
+98553,20,Hildburghausen II/Sonneberg II
+98559,21,Suhl/Schmalkalden-Meiningen IV
+98574,13,Schmalkalden-Meiningen II
+98587,13,Schmalkalden-Meiningen II
+98590,12,Schmalkalden-Meiningen I
+98590,13,Schmalkalden-Meiningen II
+98593,13,Schmalkalden-Meiningen II
+98596,13,Schmalkalden-Meiningen II
+98596,14,Gotha I
+98597,13,Schmalkalden-Meiningen II
+98617,12,Schmalkalden-Meiningen I
+98630,18,Hildburghausen I/Schmalkalden-Meiningen III
+98631,18,Hildburghausen I/Schmalkalden-Meiningen III
+98634,12,Schmalkalden-Meiningen I
+98639,12,Schmalkalden-Meiningen I
+98646,18,Hildburghausen I/Schmalkalden-Meiningen III
+98660,18,Hildburghausen I/Schmalkalden-Meiningen III
+98663,18,Hildburghausen I/Schmalkalden-Meiningen III
+98666,20,Hildburghausen II/Sonneberg II
+98667,20,Hildburghausen II/Sonneberg II
+98667,22,Ilm-Kreis I
+98669,18,Hildburghausen I/Schmalkalden-Meiningen III
+98673,20,Hildburghausen II/Sonneberg II
+98693,22,Ilm-Kreis I
+98694,22,Ilm-Kreis I
+98701,22,Ilm-Kreis I
+98716,22,Ilm-Kreis I
+98716,23,Ilm-Kreis II
+98724,20,Hildburghausen II/Sonneberg II
+98743,29,Saalfeld-Rudolstadt II
+98744,28,Saalfeld-Rudolstadt I
+98746,20,Hildburghausen II/Sonneberg II
+98746,28,Saalfeld-Rudolstadt I
+99084,24,Erfurt I
+99084,25,Erfurt II
+99084,26,Erfurt III
+99084,27,Erfurt IV
+99085,24,Erfurt I
+99085,25,Erfurt II
+99085,26,Erfurt III
+99085,27,Erfurt IV
+99086,24,Erfurt I
+99086,25,Erfurt II
+99086,26,Erfurt III
+99086,27,Erfurt IV
+99087,24,Erfurt I
+99087,25,Erfurt II
+99087,26,Erfurt III
+99087,27,Erfurt IV
+99089,24,Erfurt I
+99089,25,Erfurt II
+99089,26,Erfurt III
+99089,27,Erfurt IV
+99090,24,Erfurt I
+99090,25,Erfurt II
+99090,26,Erfurt III
+99090,27,Erfurt IV
+99091,24,Erfurt I
+99091,25,Erfurt II
+99091,26,Erfurt III
+99091,27,Erfurt IV
+99092,24,Erfurt I
+99092,25,Erfurt II
+99092,26,Erfurt III
+99092,27,Erfurt IV
+99094,24,Erfurt I
+99094,25,Erfurt II
+99094,26,Erfurt III
+99094,27,Erfurt IV
+99095,24,Erfurt I
+99095,25,Erfurt II
+99095,26,Erfurt III
+99095,27,Erfurt IV
+99096,24,Erfurt I
+99096,25,Erfurt II
+99096,26,Erfurt III
+99096,27,Erfurt IV
+99097,24,Erfurt I
+99097,25,Erfurt II
+99097,26,Erfurt III
+99097,27,Erfurt IV
+99098,24,Erfurt I
+99098,25,Erfurt II
+99098,26,Erfurt III
+99098,27,Erfurt IV
+99099,24,Erfurt I
+99099,25,Erfurt II
+99099,26,Erfurt III
+99099,27,Erfurt IV
+99100,16,Sömmerda I/Gotha III
+99102,30,Weimarer Land I/Saalfeld-Rudolstadt III
+99189,16,Sömmerda I/Gotha III
+99192,16,Sömmerda I/Gotha III
+99195,16,Sömmerda I/Gotha III
+99195,17,Sömmerda II
+99198,17,Sömmerda II
+99310,23,Ilm-Kreis II
+99326,23,Ilm-Kreis II
+99330,23,Ilm-Kreis II
+99331,23,Ilm-Kreis II
+99334,23,Ilm-Kreis II
+99338,22,Ilm-Kreis I
+99338,23,Ilm-Kreis II
+99423,31,Weimar I/Weimarer Land II
+99423,32,Weimar II
+99425,31,Weimar I/Weimarer Land II
+99425,32,Weimar II
+99427,31,Weimar I/Weimarer Land II
+99427,32,Weimar II
+99428,30,Weimarer Land I/Saalfeld-Rudolstadt III
+99428,31,Weimar I/Weimarer Land II
+99428,32,Weimar II
+99438,30,Weimarer Land I/Saalfeld-Rudolstadt III
+99439,30,Weimarer Land I/Saalfeld-Rudolstadt III
+99441,30,Weimarer Land I/Saalfeld-Rudolstadt III
+99444,30,Weimarer Land I/Saalfeld-Rudolstadt III
+99448,30,Weimarer Land I/Saalfeld-Rudolstadt III
+99510,30,Weimarer Land I/Saalfeld-Rudolstadt III
+99510,31,Weimar I/Weimarer Land II
+99518,31,Weimar I/Weimarer Land II
+99610,16,Sömmerda I/Gotha III
+99610,17,Sömmerda II
+99625,17,Sömmerda II
+99628,17,Sömmerda II
+99631,17,Sömmerda II
+99634,16,Sömmerda I/Gotha III
+99636,17,Sömmerda II
+99638,17,Sömmerda II
+99706,10,Kyffhäuserkreis I
+99707,11,Kyffhäuserkreis II
+99713,10,Kyffhäuserkreis I
+99718,10,Kyffhäuserkreis I
+99734,3,Nordhausen I
+99734,4,Nordhausen II
+99735,3,Nordhausen I
+99752,3,Nordhausen I
+99755,3,Nordhausen I
+99759,3,Nordhausen I
+99765,3,Nordhausen I
+99768,3,Nordhausen I
+99817,6,Wartburgkreis II
+99819,6,Wartburgkreis II
+99819,7,Wartburgkreis III
+99820,7,Wartburgkreis III
+99826,7,Wartburgkreis III
+99826,8,Unstrut-Hainich-Kreis I
+99830,7,Wartburgkreis III
+99831,7,Wartburgkreis III
+99834,5,Wartburgkreis I
+99834,6,Wartburgkreis II
+99837,6,Wartburgkreis II
+99842,7,Wartburgkreis III
+99846,7,Wartburgkreis III
+99848,7,Wartburgkreis III
+99867,15,Gotha II
+99869,14,Gotha I
+99869,15,Gotha II
+99869,16,Sömmerda I/Gotha III
+99880,14,Gotha I
+99880,15,Gotha II
+99885,14,Gotha I
+99887,14,Gotha I
+99891,14,Gotha I
+99894,14,Gotha I
+99897,14,Gotha I
+99947,9,Unstrut-Hainich-Kreis II
+99955,9,Unstrut-Hainich-Kreis II
+99958,9,Unstrut-Hainich-Kreis II
+99958,16,Sömmerda I/Gotha III
+99974,8,Unstrut-Hainich-Kreis I
+99976,8,Unstrut-Hainich-Kreis I
+99986,8,Unstrut-Hainich-Kreis I
+99986,9,Unstrut-Hainich-Kreis II
+99988,8,Unstrut-Hainich-Kreis I
+99991,9,Unstrut-Hainich-Kreis II
+99994,9,Unstrut-Hainich-Kreis II
+99996,8,Unstrut-Hainich-Kreis I
+99998,8,Unstrut-Hainich-Kreis I
+99998,9,Unstrut-Hainich-Kreis II

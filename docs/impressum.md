@@ -18,9 +18,11 @@ E-Mail: [E-Mail-Adresse]
 
 ## Datenquellen
 
-- **Abgeordnete und Anschriften:** Deutscher Bundestag, [bundestag.de](https://www.bundestag.de); laufende Mandate: [abgeordnetenwatch.de](https://www.abgeordnetenwatch.de) (CC0 1.0).
-- **Wahlkreiseinteilung:** Die Bundeswahlleiterin, Bundestagswahl 2025 (amtliches Werk).
+- **Abgeordnete und Anschriften (Bundestag):** Deutscher Bundestag, [bundestag.de](https://www.bundestag.de); laufende Mandate: [abgeordnetenwatch.de](https://www.abgeordnetenwatch.de) (CC0 1.0).
+- **Landtagsabgeordnete:** laufende Mandate aller 16 Landtage: [abgeordnetenwatch.de](https://www.abgeordnetenwatch.de) (CC0 1.0); Kontakte für Nordrhein-Westfalen: [landtag.nrw.de](https://www.landtag.nrw.de).
+- **Wahlkreiseinteilung:** Die Bundeswahlleiterin, Bundestagswahl 2025 (amtliches Werk); Landtagswahlkreise: die jeweiligen Landeswahlleiter:innen (amtliche Werke).
 - **PLZ-Gebiete:** © GeoBasis-DE / BKG (Datenlizenz Deutschland – Namensnennung 2.0).
+- **PLZ-Polygone (Landtag):** [yetzt/postleitzahlen](https://github.com/yetzt/postleitzahlen) (Open Database License, ODbL).
 - **Aufbereitung PLZ → Wahlkreis:** [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT-Lizenz).
 
 Die PLZ-Zuordnung ist eine Näherung: Eine PLZ kann mehrere Wahlkreise überlappen. Bei

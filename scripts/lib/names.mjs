@@ -22,6 +22,17 @@ export function nameParts(name) {
     .replace(/ö/g, 'oe')
     .replace(/ü/g, 'ue')
     .replace(/ı/g, 'i')
+    // Weitere diakritische Zeichen (u. a. türkisch/polnisch), damit Namens-
+    // schreibweisen zwischen Quellen zusammenfinden (z. B. Eğlence/Eglence).
+    .replace(/ğ/g, 'g')
+    .replace(/ş/g, 's')
+    .replace(/ç/g, 'c')
+    .replace(/ł/g, 'l')
+    .replace(/ń/g, 'n')
+    .replace(/ą/g, 'a')
+    .replace(/ę/g, 'e')
+    .replace(/ő/g, 'oe')
+    .replace(/ű/g, 'ue')
     .replace(/[’']/g, '')
     .replace(/[^a-z\s-]/g, ' ')
     .split(/[\s-]+/)

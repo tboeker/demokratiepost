@@ -132,3 +132,77 @@ amtlichen Geodaten abgeleitet:
 Die Attribution `© GeoBasis-DE / BKG` steht im Impressum der App und muss dort erhalten
 bleiben. Zum Aktualisieren auf eine neue Wahlperiode: Commit in
 `scripts/fetch-plz-wahlkreis.mjs` anpassen und `npm run data:plz` ausführen.
+
+## 3. Landtag (M4)
+
+Für die Landtage gibt es kein bundestag.de-Äquivalent. Wer aktuell Mitglied ist, Mandatsart,
+Wahlkreis und Fraktion kommen aus derselben abgeordnetenwatch.de-API (CC0). Die
+PLZ→Landtagswahlkreis-Zuordnung stammt aus OpenWahlkreisMap (gepinnt auf denselben Commit
+wie beim Bund).
+
+```bash
+npm run data:lt:plz     # 1. 16 CSVs + Configs -> scripts/source/plz-landtag/
+npm run data:lt:aw      # 2. Roster + sex-Cache   -> public/data/mandates-landtag.json
+npm run data:lt:build   # 3. Konsistenz + Shards  -> public/data/landtag/ + public/data/plz-landtag/
+npm run data:lt:nrw     # 4. (optional) NRW-Anreicherung -> scripts/source/landtag-contact… (nrw.json)
+```
+
+Die Schritte laufen **einzeln und in dieser Reihenfolge** (kein Sammelbefehl). Nach `data:lt:nrw`
+erneut `data:lt:build` ausführen, damit die Kontakte im Roster landen.
+
+### Schritt 1: `fetch-plz-landtag.mjs`
+
+Lädt je Land `configs/landtag/<staat>.yaml` und `data/landtag/<staat>/plz-wahlkreis.csv` vom
+gepinnten OpenWahlkreisMap-Commit. Überlappungen **≥ 1 %** werden übernommen (Mikro-Überlappungen
+verworfen) und als normalisierte CSV `scripts/source/plz-landtag/<staat>.csv`
+(`plz,wk,wahlkreis_name`) abgelegt; die Config-Teilmenge (`period_id`, `election`,
+`expected_wk_count`) wandert nach `configs.json`.
+
+### Schritt 2: `fetch-landtag.mjs`
+
+Holt je Parlament die **laufende Wahlperiode** und alle Mandate. Als Direktmandat gilt nur
+`mandate_won = constituency`; Listenmandate und Nachrücker werden mitgeführt, aber nicht gesucht.
+Die Anrede (`sex`) steht nur an der Politiker:in. Statt ~1.900 Einzelabfragen filtert die API
+Mandate nach `politician[entity.sex]` (drei Abrufe je Wahlperiode); das Ergebnis wird im
+inkrementellen Cache `scripts/source/cache/politicians/<id>.json` gehalten
+(`--force` ignoriert den Cache). Die API drosselt mit HTTP 429 → Backoff.
+
+### Schritt 3: `build-landtag.mjs`
+
+**Konsistenzregel:** Ein Land wird nur durchsuchbar, wenn laufende API-Wahlperiode und
+OpenWahlkreisMap-Config in `period_id` **und** Label (Bundesland + Wahljahr) übereinstimmen
+(Details `periodMatchesConfig` in `scripts/lib/landtag.mjs`). Die Id allein genügt nicht, weil
+OWM dieselbe Id für das *Wahl*-Projekt meinen kann, die API für die *auslaufende* Legislatur
+(z. B. Berlin 2026). Ausgabe:
+
+- `public/data/landtag/<staat>.json` – Roster (Direkt- + Listenmandate) je stimmigem Land,
+  mit Sitzanschrift aus `scripts/source/landtage.csv` als Brief-Fallback.
+- `public/data/plz-landtag/<prefix>.json` – `{ "<plz>": [{ staat, wahlkreise }] }`.
+
+Validierung (Warnungen statt Abbruch): `expected_wk_count` gegen die CSV, und jedes Direktmandat
+muss über die PLZ-CSV auffindbar sein. Stand Oktober 2026 sind 11 Länder stimmig; MV, ST, RP, BW
+und BE bleiben manuell erfassbar (Grund im Build-Log).
+
+Sonderfälle:
+
+- **Wahlkreis-Nummerierung:** SH nummeriert in der amtlichen Quelle 101–135, die API 1–35 →
+  `LANDTAG_WK_OFFSET` in `scripts/lib/landtag.mjs`.
+- **Saarland** hat seit 2022 keine ausgewiesenen Direktmandate (Wahlkreislisten, `mandate_won`
+  ist `null`). Dort dient die Wahlkreis-Zuordnung als Suchschlüssel.
+
+### Schritt 4: `fetch-landtag-nrw.mjs` (Pilot)
+
+Die NRW-Detailseiten (`landtag.nrw.de/.../abgeordnetendetail.html?k=…`) sind per einfachem HTTP
+abrufbar und liefern die dienstliche E-Mail sowie – sofern angegeben – ein Wahlkreisbüro. Join
+zum Roster über den normalisierten Namen (`scripts/lib/names.mjs`), als Fallback über den
+Wahlkreis. Ausgabe `scripts/source/landtag-contacts/nrw.json`; `build-landtag.mjs` mischt
+E-Mail und Wahlkreisbüro ins NRW-Roster (sonst Sitzanschrift). Ist-Stand: 195 E-Mail-Adressen,
+28 Wahlkreisbüros. Weitere Länder folgen nach demselben Muster (je Land ein eigener Scraper).
+
+### Lizenz
+
+- **abgeordnetenwatch.de** – CC0 1.0 (laufende Mandate, Fraktion, Wahlkreis).
+- **Landtagswahlkreise** – amtliche Werke der jeweiligen Landeswahlleiter:innen.
+- **PLZ-Polygone** – [yetzt/postleitzahlen](https://github.com/yetzt/postleitzahlen) (ODbL);
+  Aufbereitung [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT).
+- **Kontakte NRW** – landtag.nrw.de.

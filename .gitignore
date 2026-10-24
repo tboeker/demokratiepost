@@ -7,3 +7,5 @@ dist-ssr
 # Zwischenergebnisse der Datenpipeline (siehe scripts/README.md)
 public/data/mdb-profiles.json
 public/data/mandates.json
+public/data/mandates-landtag.json
+scripts/source/cache/

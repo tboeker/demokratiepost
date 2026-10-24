@@ -1,0 +1,47 @@
+# PLZ -> Landtagswahlkreis Bremen (Bürgerschaft)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 146 (Bremen 2023)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+27568,2,Bremerhaven
+27570,2,Bremerhaven
+27572,2,Bremerhaven
+27574,2,Bremerhaven
+27576,2,Bremerhaven
+27578,2,Bremerhaven
+27580,2,Bremerhaven
+28195,1,Bremen
+28197,1,Bremen
+28199,1,Bremen
+28201,1,Bremen
+28203,1,Bremen
+28205,1,Bremen
+28207,1,Bremen
+28209,1,Bremen
+28211,1,Bremen
+28213,1,Bremen
+28215,1,Bremen
+28217,1,Bremen
+28219,1,Bremen
+28237,1,Bremen
+28239,1,Bremen
+28259,1,Bremen
+28277,1,Bremen
+28279,1,Bremen
+28307,1,Bremen
+28309,1,Bremen
+28325,1,Bremen
+28327,1,Bremen
+28329,1,Bremen
+28355,1,Bremen
+28357,1,Bremen
+28359,1,Bremen
+28717,1,Bremen
+28719,1,Bremen
+28755,1,Bremen
+28757,1,Bremen
+28759,1,Bremen
+28777,1,Bremen
+28779,1,Bremen

@@ -1,0 +1,172 @@
+# PLZ -> Landtagswahlkreis Hamburg (Bürgerschaft)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 162 (Hamburg 2025)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+20095,1,Hamburg-Mitte
+20097,1,Hamburg-Mitte
+20099,1,Hamburg-Mitte
+20144,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20146,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20148,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20149,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20249,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20249,8,Eppendorf – Winterhude – Hoheluft-Ost
+20251,8,Eppendorf – Winterhude – Hoheluft-Ost
+20253,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20253,7,Lokstedt – Niendorf – Schnelsen
+20253,8,Eppendorf – Winterhude – Hoheluft-Ost
+20255,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20255,6,Eidelstedt – Stellingen – Eimsbüttel-West
+20255,7,Lokstedt – Niendorf – Schnelsen
+20257,3,Altona
+20257,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20257,6,Eidelstedt – Stellingen – Eimsbüttel-West
+20259,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20354,1,Hamburg-Mitte
+20354,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20355,1,Hamburg-Mitte
+20357,1,Hamburg-Mitte
+20357,3,Altona
+20357,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+20359,1,Hamburg-Mitte
+20359,3,Altona
+20457,1,Hamburg-Mitte
+20457,2,Billstedt – Wilhelmsburg – Finkenwerder
+20459,1,Hamburg-Mitte
+20535,1,Hamburg-Mitte
+20537,1,Hamburg-Mitte
+20539,1,Hamburg-Mitte
+20539,2,Billstedt – Wilhelmsburg – Finkenwerder
+21029,15,Bergedorf
+21031,15,Bergedorf
+21033,15,Bergedorf
+21035,15,Bergedorf
+21037,15,Bergedorf
+21039,15,Bergedorf
+21073,16,Harburg
+21075,16,Harburg
+21075,17,Süderelbe
+21077,16,Harburg
+21077,17,Süderelbe
+21079,16,Harburg
+21079,17,Süderelbe
+21107,2,Billstedt – Wilhelmsburg – Finkenwerder
+21109,2,Billstedt – Wilhelmsburg – Finkenwerder
+21129,2,Billstedt – Wilhelmsburg – Finkenwerder
+21129,17,Süderelbe
+21147,17,Süderelbe
+21149,17,Süderelbe
+21217,15,Bergedorf
+21218,16,Harburg
+21224,17,Süderelbe
+21423,15,Bergedorf
+21435,15,Bergedorf
+21465,15,Bergedorf
+21629,17,Süderelbe
+21635,17,Süderelbe
+22041,11,Wandsbek
+22043,11,Wandsbek
+22045,11,Wandsbek
+22047,11,Wandsbek
+22047,12,Bramfeld – Farmsen-Berne – Steilshoop
+22049,9,Barmbek – Uhlenhorst – Dulsberg
+22049,11,Wandsbek
+22081,9,Barmbek – Uhlenhorst – Dulsberg
+22083,9,Barmbek – Uhlenhorst – Dulsberg
+22085,9,Barmbek – Uhlenhorst – Dulsberg
+22087,1,Hamburg-Mitte
+22087,9,Barmbek – Uhlenhorst – Dulsberg
+22089,11,Wandsbek
+22111,1,Hamburg-Mitte
+22111,2,Billstedt – Wilhelmsburg – Finkenwerder
+22113,2,Billstedt – Wilhelmsburg – Finkenwerder
+22113,15,Bergedorf
+22115,2,Billstedt – Wilhelmsburg – Finkenwerder
+22115,15,Bergedorf
+22117,2,Billstedt – Wilhelmsburg – Finkenwerder
+22119,1,Hamburg-Mitte
+22119,2,Billstedt – Wilhelmsburg – Finkenwerder
+22143,14,Rahlstedt
+22145,14,Rahlstedt
+22147,14,Rahlstedt
+22149,14,Rahlstedt
+22159,12,Bramfeld – Farmsen-Berne – Steilshoop
+22159,13,Alstertal – Walddörfer
+22175,12,Bramfeld – Farmsen-Berne – Steilshoop
+22177,12,Bramfeld – Farmsen-Berne – Steilshoop
+22179,12,Bramfeld – Farmsen-Berne – Steilshoop
+22297,8,Eppendorf – Winterhude – Hoheluft-Ost
+22297,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22299,8,Eppendorf – Winterhude – Hoheluft-Ost
+22301,8,Eppendorf – Winterhude – Hoheluft-Ost
+22303,8,Eppendorf – Winterhude – Hoheluft-Ost
+22303,9,Barmbek – Uhlenhorst – Dulsberg
+22305,9,Barmbek – Uhlenhorst – Dulsberg
+22307,9,Barmbek – Uhlenhorst – Dulsberg
+22309,9,Barmbek – Uhlenhorst – Dulsberg
+22309,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22309,12,Bramfeld – Farmsen-Berne – Steilshoop
+22335,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22337,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22339,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22339,13,Alstertal – Walddörfer
+22359,13,Alstertal – Walddörfer
+22391,13,Alstertal – Walddörfer
+22393,13,Alstertal – Walddörfer
+22395,13,Alstertal – Walddörfer
+22397,13,Alstertal – Walddörfer
+22399,13,Alstertal – Walddörfer
+22415,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22417,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22417,13,Alstertal – Walddörfer
+22419,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22453,7,Lokstedt – Niendorf – Schnelsen
+22453,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22455,7,Lokstedt – Niendorf – Schnelsen
+22457,7,Lokstedt – Niendorf – Schnelsen
+22459,7,Lokstedt – Niendorf – Schnelsen
+22523,6,Eidelstedt – Stellingen – Eimsbüttel-West
+22525,3,Altona
+22525,6,Eidelstedt – Stellingen – Eimsbüttel-West
+22527,6,Eidelstedt – Stellingen – Eimsbüttel-West
+22527,7,Lokstedt – Niendorf – Schnelsen
+22529,7,Lokstedt – Niendorf – Schnelsen
+22529,8,Eppendorf – Winterhude – Hoheluft-Ost
+22529,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22547,4,Altona-West
+22547,6,Eidelstedt – Stellingen – Eimsbüttel-West
+22549,3,Altona
+22549,4,Altona-West
+22559,4,Altona-West
+22587,4,Altona-West
+22589,4,Altona-West
+22605,3,Altona
+22607,3,Altona
+22607,4,Altona-West
+22609,4,Altona-West
+22761,3,Altona
+22763,3,Altona
+22765,3,Altona
+22767,1,Hamburg-Mitte
+22767,3,Altona
+22769,3,Altona
+22769,5,Rotherbaum – Harvestehude – Eimsbüttel-Ost
+22769,6,Eidelstedt – Stellingen – Eimsbüttel-West
+22848,7,Lokstedt – Niendorf – Schnelsen
+22850,10,Fuhlsbüttel – Alsterdorf – Langenhorn
+22851,13,Alstertal – Walddörfer
+22869,4,Altona-West
+22880,4,Altona-West
+22885,14,Rahlstedt
+22889,13,Alstertal – Walddörfer
+22926,13,Alstertal – Walddörfer
+22941,13,Alstertal – Walddörfer
+22949,13,Alstertal – Walddörfer
+25421,4,Altona-West
+25462,7,Lokstedt – Niendorf – Schnelsen
+25469,6,Eidelstedt – Stellingen – Eimsbüttel-West
+25474,7,Lokstedt – Niendorf – Schnelsen
+25482,4,Altona-West

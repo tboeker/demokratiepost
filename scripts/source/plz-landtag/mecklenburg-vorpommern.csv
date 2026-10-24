@@ -1,0 +1,274 @@
+# PLZ -> Landtagswahlkreis Mecklenburg-Vorpommern (Landtag)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 134 (Mecklenburg-Vorpommern 2021)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+16306,36,Vorpommern-Greifswald V
+16307,36,Vorpommern-Greifswald V
+16798,21,Mecklenburgische Seenplatte IV
+16831,21,Mecklenburgische Seenplatte IV
+16837,20,Mecklenburgische Seenplatte III
+16909,20,Mecklenburgische Seenplatte III
+16945,31,Ludwigslust-Parchim IV
+16949,31,Ludwigslust-Parchim IV
+17033,2,Neubrandenburg I
+17033,3,Neubrandenburg II
+17033,22,Mecklenburgische Seenplatte V
+17034,3,Neubrandenburg II
+17036,2,Neubrandenburg I
+17039,22,Mecklenburgische Seenplatte V
+17087,14,Mecklenburgische Seenplatte II
+17089,14,Mecklenburgische Seenplatte II
+17091,14,Mecklenburgische Seenplatte II
+17094,22,Mecklenburgische Seenplatte V
+17098,22,Mecklenburgische Seenplatte V
+17099,22,Mecklenburgische Seenplatte V
+17109,13,Mecklenburgische Seenplatte I – Vorpommern-Greifswald I
+17111,13,Mecklenburgische Seenplatte I – Vorpommern-Greifswald I
+17121,13,Mecklenburgische Seenplatte I – Vorpommern-Greifswald I
+17126,13,Mecklenburgische Seenplatte I – Vorpommern-Greifswald I
+17129,13,Mecklenburgische Seenplatte I – Vorpommern-Greifswald I
+17139,14,Mecklenburgische Seenplatte II
+17153,14,Mecklenburgische Seenplatte II
+17154,14,Mecklenburgische Seenplatte II
+17159,13,Mecklenburgische Seenplatte I – Vorpommern-Greifswald I
+17166,15,Landkreis Rostock III
+17168,15,Landkreis Rostock III
+17179,15,Landkreis Rostock III
+17192,20,Mecklenburgische Seenplatte III
+17194,20,Mecklenburgische Seenplatte III
+17207,20,Mecklenburgische Seenplatte III
+17209,20,Mecklenburgische Seenplatte III
+17213,20,Mecklenburgische Seenplatte III
+17214,20,Mecklenburgische Seenplatte III
+17217,22,Mecklenburgische Seenplatte V
+17219,22,Mecklenburgische Seenplatte V
+17235,21,Mecklenburgische Seenplatte IV
+17237,21,Mecklenburgische Seenplatte IV
+17248,20,Mecklenburgische Seenplatte III
+17252,20,Mecklenburgische Seenplatte III
+17252,21,Mecklenburgische Seenplatte IV
+17255,21,Mecklenburgische Seenplatte IV
+17258,21,Mecklenburgische Seenplatte IV
+17268,21,Mecklenburgische Seenplatte IV
+17279,21,Mecklenburgische Seenplatte IV
+17291,22,Mecklenburgische Seenplatte V
+17309,36,Vorpommern-Greifswald V
+17321,36,Vorpommern-Greifswald V
+17322,36,Vorpommern-Greifswald V
+17326,36,Vorpommern-Greifswald V
+17328,36,Vorpommern-Greifswald V
+17329,36,Vorpommern-Greifswald V
+17335,36,Vorpommern-Greifswald V
+17337,22,Mecklenburgische Seenplatte V
+17337,36,Vorpommern-Greifswald V
+17348,22,Mecklenburgische Seenplatte V
+17349,22,Mecklenburgische Seenplatte V
+17358,35,Vorpommern-Greifswald IV
+17367,35,Vorpommern-Greifswald IV
+17373,35,Vorpommern-Greifswald IV
+17375,35,Vorpommern-Greifswald IV
+17379,35,Vorpommern-Greifswald IV
+17389,29,Vorpommern-Greifswald II
+17390,29,Vorpommern-Greifswald II
+17391,29,Vorpommern-Greifswald II
+17392,29,Vorpommern-Greifswald II
+17398,29,Vorpommern-Greifswald II
+17406,30,Vorpommern-Greifswald III
+17419,30,Vorpommern-Greifswald III
+17424,30,Vorpommern-Greifswald III
+17429,30,Vorpommern-Greifswald III
+17438,30,Vorpommern-Greifswald III
+17440,30,Vorpommern-Greifswald III
+17449,30,Vorpommern-Greifswald III
+17454,30,Vorpommern-Greifswald III
+17459,30,Vorpommern-Greifswald III
+17489,1,Greifswald
+17489,29,Vorpommern-Greifswald II
+17491,1,Greifswald
+17491,29,Vorpommern-Greifswald II
+17493,1,Greifswald
+17493,29,Vorpommern-Greifswald II
+17495,29,Vorpommern-Greifswald II
+17498,29,Vorpommern-Greifswald II
+17506,29,Vorpommern-Greifswald II
+17509,30,Vorpommern-Greifswald III
+18055,6,Hansestadt Rostock III
+18055,7,Hansestadt Rostock IV
+18057,6,Hansestadt Rostock III
+18057,7,Hansestadt Rostock IV
+18059,6,Hansestadt Rostock III
+18059,12,Landkreis Rostock II
+18069,4,Hansestadt Rostock I
+18069,5,Hansestadt Rostock II
+18069,6,Hansestadt Rostock III
+18069,12,Landkreis Rostock II
+18106,4,Hansestadt Rostock I
+18106,5,Hansestadt Rostock II
+18107,4,Hansestadt Rostock I
+18107,5,Hansestadt Rostock II
+18107,12,Landkreis Rostock II
+18109,4,Hansestadt Rostock I
+18109,5,Hansestadt Rostock II
+18119,4,Hansestadt Rostock I
+18146,4,Hansestadt Rostock I
+18146,7,Hansestadt Rostock IV
+18147,4,Hansestadt Rostock I
+18147,7,Hansestadt Rostock IV
+18181,7,Hansestadt Rostock IV
+18181,12,Landkreis Rostock II
+18182,7,Hansestadt Rostock IV
+18182,12,Landkreis Rostock II
+18184,12,Landkreis Rostock II
+18190,12,Landkreis Rostock II
+18195,12,Landkreis Rostock II
+18196,12,Landkreis Rostock II
+18198,12,Landkreis Rostock II
+18209,11,Landkreis Rostock I
+18211,11,Landkreis Rostock I
+18225,11,Landkreis Rostock I
+18230,11,Landkreis Rostock I
+18233,11,Landkreis Rostock I
+18236,11,Landkreis Rostock I
+18239,11,Landkreis Rostock I
+18246,16,Landkreis Rostock IV
+18249,16,Landkreis Rostock IV
+18258,15,Landkreis Rostock III
+18273,16,Landkreis Rostock IV
+18276,16,Landkreis Rostock IV
+18279,15,Landkreis Rostock III
+18292,15,Landkreis Rostock III
+18299,15,Landkreis Rostock III
+18311,23,Vorpommern-Rügen I
+18314,25,Vorpommern-Rügen III – Stralsund I
+18317,25,Vorpommern-Rügen III – Stralsund I
+18320,23,Vorpommern-Rügen I
+18320,25,Vorpommern-Rügen III – Stralsund I
+18334,23,Vorpommern-Rügen I
+18337,23,Vorpommern-Rügen I
+18347,23,Vorpommern-Rügen I
+18356,25,Vorpommern-Rügen III – Stralsund I
+18374,23,Vorpommern-Rügen I
+18375,23,Vorpommern-Rügen I
+18435,25,Vorpommern-Rügen III – Stralsund I
+18435,26,Stralsund II
+18437,25,Vorpommern-Rügen III – Stralsund I
+18437,26,Stralsund II
+18439,24,Vorpommern-Rügen II – Stralsund III
+18439,26,Stralsund II
+18442,25,Vorpommern-Rügen III – Stralsund I
+18445,25,Vorpommern-Rügen III – Stralsund I
+18461,24,Vorpommern-Rügen II – Stralsund III
+18465,23,Vorpommern-Rügen I
+18469,24,Vorpommern-Rügen II – Stralsund III
+18469,25,Vorpommern-Rügen III – Stralsund I
+18507,24,Vorpommern-Rügen II – Stralsund III
+18510,24,Vorpommern-Rügen II – Stralsund III
+18510,25,Vorpommern-Rügen III – Stralsund I
+18513,23,Vorpommern-Rügen I
+18513,24,Vorpommern-Rügen II – Stralsund III
+18516,24,Vorpommern-Rügen II – Stralsund III
+18519,24,Vorpommern-Rügen II – Stralsund III
+18528,34,Vorpommern-Rügen V
+18546,33,Vorpommern-Rügen IV
+18546,34,Vorpommern-Rügen V
+18551,33,Vorpommern-Rügen IV
+18556,33,Vorpommern-Rügen IV
+18565,33,Vorpommern-Rügen IV
+18569,33,Vorpommern-Rügen IV
+18573,33,Vorpommern-Rügen IV
+18574,33,Vorpommern-Rügen IV
+18581,34,Vorpommern-Rügen V
+18586,34,Vorpommern-Rügen V
+18609,34,Vorpommern-Rügen V
+19053,8,Schwerin I
+19053,9,Schwerin II
+19055,8,Schwerin I
+19055,32,Ludwigslust-Parchim V
+19057,8,Schwerin I
+19057,9,Schwerin II
+19059,8,Schwerin I
+19061,8,Schwerin I
+19061,9,Schwerin II
+19063,8,Schwerin I
+19063,9,Schwerin II
+19065,32,Ludwigslust-Parchim V
+19067,32,Ludwigslust-Parchim V
+19069,28,Nordwestmecklenburg II
+19071,28,Nordwestmecklenburg II
+19073,18,Ludwigslust-Parchim II
+19073,28,Nordwestmecklenburg II
+19075,18,Ludwigslust-Parchim II
+19077,19,Ludwigslust-Parchim III
+19079,32,Ludwigslust-Parchim V
+19086,32,Ludwigslust-Parchim V
+19089,32,Ludwigslust-Parchim V
+19205,27,Nordwestmecklenburg I
+19205,28,Nordwestmecklenburg II
+19209,28,Nordwestmecklenburg II
+19217,27,Nordwestmecklenburg I
+19230,18,Ludwigslust-Parchim II
+19243,18,Ludwigslust-Parchim II
+19246,17,Ludwigslust-Parchim I
+19249,17,Ludwigslust-Parchim I
+19258,17,Ludwigslust-Parchim I
+19260,17,Ludwigslust-Parchim I
+19273,17,Ludwigslust-Parchim I
+19288,19,Ludwigslust-Parchim III
+19294,17,Ludwigslust-Parchim I
+19294,19,Ludwigslust-Parchim III
+19300,19,Ludwigslust-Parchim III
+19303,17,Ludwigslust-Parchim I
+19306,19,Ludwigslust-Parchim III
+19309,17,Ludwigslust-Parchim I
+19348,19,Ludwigslust-Parchim III
+19357,19,Ludwigslust-Parchim III
+19370,31,Ludwigslust-Parchim IV
+19372,19,Ludwigslust-Parchim III
+19372,31,Ludwigslust-Parchim IV
+19374,31,Ludwigslust-Parchim IV
+19374,32,Ludwigslust-Parchim V
+19376,31,Ludwigslust-Parchim IV
+19386,31,Ludwigslust-Parchim IV
+19395,31,Ludwigslust-Parchim IV
+19399,32,Ludwigslust-Parchim V
+19406,32,Ludwigslust-Parchim V
+19412,32,Ludwigslust-Parchim V
+19417,28,Nordwestmecklenburg II
+21354,17,Ludwigslust-Parchim I
+21483,17,Ludwigslust-Parchim I
+21514,17,Ludwigslust-Parchim I
+21522,17,Ludwigslust-Parchim I
+23562,27,Nordwestmecklenburg I
+23564,27,Nordwestmecklenburg I
+23566,27,Nordwestmecklenburg I
+23568,27,Nordwestmecklenburg I
+23569,27,Nordwestmecklenburg I
+23570,27,Nordwestmecklenburg I
+23627,27,Nordwestmecklenburg I
+23883,17,Ludwigslust-Parchim I
+23899,17,Ludwigslust-Parchim I
+23909,27,Nordwestmecklenburg I
+23911,27,Nordwestmecklenburg I
+23923,27,Nordwestmecklenburg I
+23936,27,Nordwestmecklenburg I
+23942,27,Nordwestmecklenburg I
+23946,27,Nordwestmecklenburg I
+23948,27,Nordwestmecklenburg I
+23966,10,Wismar
+23966,28,Nordwestmecklenburg II
+23968,10,Wismar
+23968,27,Nordwestmecklenburg I
+23968,28,Nordwestmecklenburg II
+23970,10,Wismar
+23970,28,Nordwestmecklenburg II
+23972,28,Nordwestmecklenburg II
+23974,28,Nordwestmecklenburg II
+23992,28,Nordwestmecklenburg II
+23996,28,Nordwestmecklenburg II
+23999,28,Nordwestmecklenburg II
+29472,17,Ludwigslust-Parchim I
+29476,17,Ludwigslust-Parchim I
+29484,17,Ludwigslust-Parchim I

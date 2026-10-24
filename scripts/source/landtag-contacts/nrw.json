@@ -1,0 +1,1523 @@
+{
+  "staat": "nrw",
+  "source": "landtag.nrw.de – Abgeordnetendetailseiten",
+  "generatedAt": "2026-10-24T22:10:31.418Z",
+  "contacts": [
+    {
+      "key": "01800",
+      "name": "Tim Achtermeyer",
+      "matchKey": "tim achtermeyer",
+      "wahlkreis": "LL Nr. 024",
+      "email": "tim.achtermeyer@landtag.nrw.de"
+    },
+    {
+      "key": "01798",
+      "name": "Nina Andrieshen",
+      "matchKey": "nina andrieshen",
+      "wahlkreis": "LL Nr. 010",
+      "email": "nina.andrieshen@landtag.nrw.de"
+    },
+    {
+      "key": "01706",
+      "name": "Berivan Aymaz",
+      "matchKey": "berivan aymaz",
+      "wahlkreis": "Köln VI",
+      "email": "berivan.aymaz@landtag.nrw.de"
+    },
+    {
+      "key": "01801",
+      "name": "Alexander Baer",
+      "matchKey": "alexander baer",
+      "wahlkreis": "Lippe II - Herford III",
+      "email": "alexander.baer@landtag.nrw.de"
+    },
+    {
+      "key": "01802",
+      "name": "Rodion Bakum",
+      "matchKey": "rodion bakum",
+      "wahlkreis": "Mülheim I",
+      "email": "rodion.bakum@landtag.nrw.de"
+    },
+    {
+      "key": "01707",
+      "name": "Volkan Baran",
+      "matchKey": "volkan baran",
+      "wahlkreis": "Dortmund II",
+      "email": "volkan.baran@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro Volkan Baran",
+        "strasse": "Brüderweg 10-12",
+        "plz": "44135",
+        "ort": "Dortmund"
+      }
+    },
+    {
+      "key": "01803",
+      "name": "Christian Berger",
+      "matchKey": "christian berger",
+      "wahlkreis": "Oberbergischer Kreis I",
+      "email": "christian.berger@landtag.nrw.de"
+    },
+    {
+      "key": "01614",
+      "name": "Günther J. Bergmann",
+      "matchKey": "guenther bergmann",
+      "wahlkreis": "Kleve II",
+      "email": "guenther.bergmann@landtag.nrw.de"
+    },
+    {
+      "key": "01804",
+      "name": "Ina Besche-Krastl",
+      "matchKey": "ina krastl",
+      "wahlkreis": "LL Nr. 031",
+      "email": "ina.besche-krastl@landtag.nrw.de"
+    },
+    {
+      "key": "01805",
+      "name": "Hartmut Beucker",
+      "matchKey": "hartmut beucker",
+      "wahlkreis": "LL Nr. 009",
+      "email": "hartmut.beucker@landtag.nrw.de"
+    },
+    {
+      "key": "01543",
+      "name": "Andreas Bialas",
+      "matchKey": "andreas bialas",
+      "wahlkreis": "Wuppertal I",
+      "email": "andreas.bialas@landtag.nrw.de"
+    },
+    {
+      "key": "01616",
+      "name": "Inge Blask",
+      "matchKey": "inge blask",
+      "wahlkreis": "LL Nr. 004",
+      "email": "inge.blask@landtag.nrw.de"
+    },
+    {
+      "key": "01709",
+      "name": "Christian Blex",
+      "matchKey": "christian blex",
+      "wahlkreis": "LL Nr. 005",
+      "email": "christian.blex@landtag.nrw.de"
+    },
+    {
+      "key": "01711",
+      "name": "Jörg Blöming",
+      "matchKey": "joerg bloeming",
+      "wahlkreis": "Soest II",
+      "email": "joerg.bloeming@landtag.nrw.de"
+    },
+    {
+      "key": "01710",
+      "name": "Marc Blondin",
+      "matchKey": "marc blondin",
+      "wahlkreis": "Krefeld II",
+      "email": "marc.blondin@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro Krefeld",
+        "strasse": "Carl-Wilhelm-Str. 30-32",
+        "plz": "47798",
+        "ort": "Krefeld"
+      }
+    },
+    {
+      "key": "01806",
+      "name": "Peter Blumenrath",
+      "matchKey": "peter blumenrath",
+      "wahlkreis": "Düsseldorf IV",
+      "email": "peter.blumenrath@landtag.nrw.de"
+    },
+    {
+      "key": "01807",
+      "name": "Ina Blumenthal",
+      "matchKey": "ina blumenthal",
+      "wahlkreis": "Hagen II - Ennepe-Ruhr-Kreis III",
+      "email": "ina.blumenthal@landtag.nrw.de"
+    },
+    {
+      "key": "01622",
+      "name": "Frank Börner",
+      "matchKey": "frank boerner",
+      "wahlkreis": "Duisburg III",
+      "email": "frank.boerner@landtag.nrw.de"
+    },
+    {
+      "key": "01712",
+      "name": "Sonja Bongers",
+      "matchKey": "sonja bongers",
+      "wahlkreis": "Oberhausen I",
+      "email": "sonja.bongers@landtag.nrw.de"
+    },
+    {
+      "key": "01808",
+      "name": "Ilayda Bostancieri",
+      "matchKey": "ilayda bostancieri",
+      "wahlkreis": "LL Nr. 027",
+      "email": "ilayda.bostancieri@landtag.nrw.de"
+    },
+    {
+      "key": "01873",
+      "name": "Ina Brandes",
+      "matchKey": "ina brandes",
+      "email": "ina.brandes@landtag.nrw.de"
+    },
+    {
+      "key": "01714",
+      "name": "Florian Braun",
+      "matchKey": "florian braun",
+      "wahlkreis": "Köln V",
+      "email": "florian.braun@landtag.nrw.de"
+    },
+    {
+      "key": "01546",
+      "name": "Wibke Brems",
+      "matchKey": "wibke brems",
+      "wahlkreis": "LL Nr. 007",
+      "email": "wibke.brems@landtag.nrw.de"
+    },
+    {
+      "key": "01362",
+      "name": "Dietmar Brockes",
+      "matchKey": "dietmar brockes",
+      "wahlkreis": "LL Nr. 010",
+      "email": "dietmar.brockes@landtag.nrw.de"
+    },
+    {
+      "key": "01809",
+      "name": "Tom Brüntrup",
+      "matchKey": "tom bruentrup",
+      "wahlkreis": "Bielefeld II",
+      "email": "tom.bruentrup@landtag.nrw.de"
+    },
+    {
+      "key": "01620",
+      "name": "Anette Bunse",
+      "matchKey": "anette bunse",
+      "email": "anette.bunse@landtag.nrw.de"
+    },
+    {
+      "key": "01810",
+      "name": "Andrea Busche",
+      "matchKey": "andrea busche",
+      "wahlkreis": "Bochum I",
+      "email": "andrea.busche@landtag.nrw.de"
+    },
+    {
+      "key": "01715",
+      "name": "Anja Butschkau",
+      "matchKey": "anja butschkau",
+      "wahlkreis": "Dortmund IV",
+      "email": "anja.butschkau@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Brüderweg 10-12",
+        "plz": "44135",
+        "ort": "Dortmund"
+      }
+    },
+    {
+      "key": "01811",
+      "name": "Carlo Clemens",
+      "matchKey": "carlo clemens",
+      "wahlkreis": "LL Nr. 008",
+      "email": "carlo.clemens@landtag.nrw.de"
+    },
+    {
+      "key": "01794",
+      "name": "Frederick Cordes",
+      "matchKey": "frederick cordes",
+      "wahlkreis": "LL Nr. 013",
+      "email": "frederick.cordes@landtag.nrw.de"
+    },
+    {
+      "key": "01812",
+      "name": "Norika Creuzmann",
+      "matchKey": "norika creuzmann",
+      "wahlkreis": "LL Nr. 014",
+      "email": "norika.creuzmann@landtag.nrw.de"
+    },
+    {
+      "key": "01550",
+      "name": "Christian Dahm",
+      "matchKey": "christian dahm",
+      "wahlkreis": "Herford I",
+      "email": "christian.dahm@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Mindener Str. 5",
+        "plz": "32049",
+        "ort": "Herford"
+      }
+    },
+    {
+      "key": "01813",
+      "name": "Dorothea Deppermann",
+      "matchKey": "dorothea deppermann",
+      "wahlkreis": "Münster III - Coesfeld III",
+      "email": "dorothea.deppermann@landtag.nrw.de"
+    },
+    {
+      "key": "01552",
+      "name": "Gordan Dudas",
+      "matchKey": "gordan dudas",
+      "wahlkreis": "LL Nr. 009",
+      "email": "gordan.dudas@landtag.nrw.de"
+    },
+    {
+      "key": "01814",
+      "name": "Tülay Durdu",
+      "matchKey": "tuelay durdu",
+      "wahlkreis": "LL Nr. 008",
+      "email": "tuelay.durdu@landtag.nrw.de"
+    },
+    {
+      "key": "01815",
+      "name": "Matthias Eggers",
+      "matchKey": "matthias eggers",
+      "wahlkreis": "Märkischer Kreis II",
+      "email": "matthias.eggers@landtag.nrw.de"
+    },
+    {
+      "key": "01816",
+      "name": "Gönül Eglence",
+      "matchKey": "goenuel eglence",
+      "wahlkreis": "LL Nr. 019",
+      "email": "goenuel.eglence@landtag.nrw.de"
+    },
+    {
+      "key": "01817",
+      "name": "Julia Eisentraut",
+      "matchKey": "julia eisentraut",
+      "wahlkreis": "LL Nr. 035",
+      "email": "julia.eisentraut@landtag.nrw.de"
+    },
+    {
+      "key": "01818",
+      "name": "Dilek Engin",
+      "matchKey": "dilek engin",
+      "wahlkreis": "Wuppertal II",
+      "email": "dilek.engin@landtag.nrw.de"
+    },
+    {
+      "key": "01553",
+      "name": "Stefan Engstfeld",
+      "matchKey": "stefan engstfeld",
+      "wahlkreis": "LL Nr. 010",
+      "email": "stefan.engstfeld@landtag.nrw.de"
+    },
+    {
+      "key": "01720",
+      "name": "Angela Erwin",
+      "matchKey": "angela erwin",
+      "wahlkreis": "Düsseldorf III",
+      "email": "angela.erwin@landtag.nrw.de"
+    },
+    {
+      "key": "01819",
+      "name": "Klaus Esser",
+      "matchKey": "klaus esser",
+      "wahlkreis": "LL Nr. 010",
+      "email": "klaus.esser@landtag.nrw.de"
+    },
+    {
+      "key": "01820",
+      "name": "Benedikt Falszewski",
+      "matchKey": "benedikt falszewski",
+      "wahlkreis": "Duisburg II",
+      "email": "benedikt.falszewski@landtag.nrw.de"
+    },
+    {
+      "key": "01821",
+      "name": "Annika Fohn",
+      "matchKey": "annika fohn",
+      "wahlkreis": "Aachen II",
+      "email": "annika.fohn@landtag.nrw.de"
+    },
+    {
+      "key": "01721",
+      "name": "Björn Franken",
+      "matchKey": "bjoern franken",
+      "wahlkreis": "Rhein-Sieg-Kreis I",
+      "email": "bjoern.franken@landtag.nrw.de"
+    },
+    {
+      "key": "01374",
+      "name": "Angela Freimuth",
+      "matchKey": "angela freimuth",
+      "wahlkreis": "LL Nr. 005",
+      "email": "angela.freimuth@landtag.nrw.de"
+    },
+    {
+      "key": "01724",
+      "name": "Anke Fuchs-Dreisbach",
+      "matchKey": "anke dreisbach",
+      "wahlkreis": "Siegen-Wittgenstein II",
+      "email": "anke.fuchs-dreisbach@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Bismarckstr. 2",
+        "plz": "57319",
+        "ort": "Bad Berleburg"
+      }
+    },
+    {
+      "key": "01627",
+      "name": "Hartmut Ganzke",
+      "matchKey": "hartmut ganzke",
+      "wahlkreis": "Unna I",
+      "email": "hartmut.ganzke@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Friedrich-Ebert-Str. 61",
+        "plz": "59425",
+        "ort": "Unna"
+      }
+    },
+    {
+      "key": "01725",
+      "name": "Katharina Gebauer",
+      "matchKey": "katharina gebauer",
+      "wahlkreis": "Rhein-Sieg-Kreis IV",
+      "email": "katharina.gebauer@landtag.nrw.de"
+    },
+    {
+      "key": "01628",
+      "name": "Yvonne Gebauer",
+      "matchKey": "yvonne gebauer",
+      "wahlkreis": "LL Nr. 002",
+      "email": "yvonne.gebauer@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Breite Str. 159",
+        "plz": "50667",
+        "ort": "Köln"
+      }
+    },
+    {
+      "key": "01556",
+      "name": "Jörg Geerlings",
+      "matchKey": "joerg geerlings",
+      "wahlkreis": "Rhein-Kreis Neuss I",
+      "email": "joerg.geerlings@landtag.nrw.de"
+    },
+    {
+      "key": "01727",
+      "name": "Thomas Göddertz",
+      "matchKey": "thomas goeddertz",
+      "wahlkreis": "Bottrop - Recklinghausen VI",
+      "email": "thomas.goeddertz@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Osterfelder Str. 23",
+        "plz": "46236",
+        "ort": "Bottrop"
+      }
+    },
+    {
+      "key": "01726",
+      "name": "Matthias Goeken",
+      "matchKey": "matthias goeken",
+      "wahlkreis": "Höxter",
+      "email": "matthias.goeken@landtag.nrw.de"
+    },
+    {
+      "key": "01825",
+      "name": "Guido Görtz",
+      "matchKey": "guido goertz",
+      "wahlkreis": "Viersen I",
+      "email": "guido.goertz@landtag.nrw.de"
+    },
+    {
+      "key": "01557",
+      "name": "Gregor Golland",
+      "matchKey": "gregor golland",
+      "wahlkreis": "Rhein-Erft-Kreis III",
+      "email": "gregor.golland@landtag.nrw.de"
+    },
+    {
+      "key": "01822",
+      "name": "Silvia Gosewinkel",
+      "matchKey": "silvia gosewinkel",
+      "wahlkreis": "Unna III - Hamm II",
+      "email": "silvia.gosewinkel@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro Silvia Gosewinkel MdL",
+        "strasse": "Bahnhofstr. 13",
+        "plz": "59174",
+        "ort": "Kamen"
+      }
+    },
+    {
+      "key": "01823",
+      "name": "Antje Grothus",
+      "matchKey": "antje grothus",
+      "wahlkreis": "LL Nr. 013",
+      "email": "antje.grothus@landtag.nrw.de"
+    },
+    {
+      "key": "01824",
+      "name": "Jonathan Grunwald",
+      "matchKey": "jonathan grunwald",
+      "wahlkreis": "Rhein-Sieg-Kreis II",
+      "email": "jonathan.grunwald@landtag.nrw.de"
+    },
+    {
+      "key": "01558",
+      "name": "Marcel Hafke",
+      "matchKey": "marcel hafke",
+      "wahlkreis": "LL Nr. 007",
+      "email": "marcel.hafke@landtag.nrw.de"
+    },
+    {
+      "key": "01728",
+      "name": "Daniel Hagemeier",
+      "matchKey": "daniel hagemeier",
+      "wahlkreis": "Warendorf I",
+      "email": "daniel.hagemeier@landtag.nrw.de"
+    },
+    {
+      "key": "01826",
+      "name": "Klaus Hansen",
+      "matchKey": "klaus hansen",
+      "wahlkreis": "Lippe I",
+      "email": "klaus.hansen@landtag.nrw.de"
+    },
+    {
+      "key": "01560",
+      "name": "Dagmar Hanses",
+      "matchKey": "dagmar hanses",
+      "wahlkreis": "LL Nr. 017",
+      "email": "dagmar.hanses@landtag.nrw.de"
+    },
+    {
+      "key": "01827",
+      "name": "Bastian Hartmann",
+      "matchKey": "bastian hartmann",
+      "wahlkreis": "Bochum II",
+      "email": "bastian.hartmann@landtag.nrw.de"
+    },
+    {
+      "key": "01828",
+      "name": "Sebastian Haug",
+      "matchKey": "sebastian haug",
+      "wahlkreis": "Solingen I",
+      "email": "sebastian.haug@landtag.nrw.de"
+    },
+    {
+      "key": "01633",
+      "name": "Wilhelm Hausmann",
+      "matchKey": "wilhelm hausmann",
+      "email": "wilhelm.hausmann@landtag.nrw.de"
+    },
+    {
+      "key": "01730",
+      "name": "Jan Heinisch",
+      "matchKey": "jan heinisch",
+      "wahlkreis": "Mettmann III - Mülheim II",
+      "email": "jan.heinisch@landtag.nrw.de"
+    },
+    {
+      "key": "01829",
+      "name": "Julia Höller",
+      "matchKey": "julia hoeller",
+      "wahlkreis": "LL Nr. 011",
+      "email": "julia.hoeller@landtag.nrw.de"
+    },
+    {
+      "key": "01637",
+      "name": "Henning Höne",
+      "matchKey": "henning hoene",
+      "wahlkreis": "LL Nr. 009",
+      "email": "henning.hoene@landtag.nrw.de"
+    },
+    {
+      "key": "01830",
+      "name": "Markus Höner",
+      "matchKey": "markus hoener",
+      "wahlkreis": "Warendorf II",
+      "email": "markus.hoener@landtag.nrw.de"
+    },
+    {
+      "key": "01731",
+      "name": "Bernhard Hoppe-Biermeyer",
+      "matchKey": "bernhard biermeyer",
+      "wahlkreis": "Paderborn I",
+      "email": "bernhard.hoppe-biermeyer@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Liboriberg 21",
+        "plz": "33098",
+        "ort": "Paderborn"
+      }
+    },
+    {
+      "key": "01347",
+      "name": "Josef Hovenjürgen",
+      "matchKey": "josef hovenjuergen",
+      "wahlkreis": "Recklinghausen III",
+      "email": "josef.hovenjuergen@landtag.nrw.de"
+    },
+    {
+      "key": "01831",
+      "name": "Frank Jablonski Nagel",
+      "matchKey": "frank nagel",
+      "wahlkreis": "Köln II",
+      "email": "frank.jablonski@landtag.nrw.de"
+    },
+    {
+      "key": "01479",
+      "name": "Wolfgang Jörg",
+      "matchKey": "wolfgang joerg",
+      "wahlkreis": "Hagen I",
+      "email": "wolfgang.joerg@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Elberfelder Str. 57",
+        "plz": "58095",
+        "ort": "Hagen"
+      }
+    },
+    {
+      "key": "01649",
+      "name": "Stefan Kämmerling",
+      "matchKey": "stefan kaemmerling",
+      "email": "stefan.kaemmerling@landtag.nrw.de"
+    },
+    {
+      "key": "01832",
+      "name": "Julia Kahle-Hausmann",
+      "matchKey": "julia hausmann",
+      "wahlkreis": "Essen III",
+      "email": "julia.kahle-hausmann@landtag.nrw.de"
+    },
+    {
+      "key": "01833",
+      "name": "Gregor Kaiser",
+      "matchKey": "gregor kaiser",
+      "wahlkreis": "LL Nr. 028",
+      "email": "gregor.kaiser@landtag.nrw.de"
+    },
+    {
+      "key": "01395",
+      "name": "Klaus Kaiser",
+      "matchKey": "klaus kaiser",
+      "wahlkreis": "Hochsauerlandkreis I",
+      "email": "klaus.kaiser@landtag.nrw.de"
+    },
+    {
+      "key": "01565",
+      "name": "Jens Kamieth",
+      "matchKey": "jens kamieth",
+      "wahlkreis": "Siegen-Wittgenstein I",
+      "email": "jens.kamieth@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Weststr. 1",
+        "plz": "57072",
+        "ort": "Siegen"
+      }
+    },
+    {
+      "key": "01732",
+      "name": "Christina Kampmann",
+      "matchKey": "christina kampmann",
+      "wahlkreis": "Bielefeld I",
+      "email": "christina.kampmann@landtag.nrw.de"
+    },
+    {
+      "key": "01733",
+      "name": "Lisa-Kristin Kapteinat",
+      "matchKey": "lisa kapteinat",
+      "wahlkreis": "Recklinghausen IV",
+      "email": "lisa-kristin.kapteinat@landtag.nrw.de"
+    },
+    {
+      "key": "01734",
+      "name": "Christos Katzidis",
+      "matchKey": "christos katzidis",
+      "wahlkreis": "Bonn II",
+      "email": "christos.katzidis@landtag.nrw.de"
+    },
+    {
+      "key": "01834",
+      "name": "Anna Teresa Kavena",
+      "matchKey": "anna kavena",
+      "wahlkreis": "Recklinghausen I",
+      "email": "anna.kavena@landtag.nrw.de"
+    },
+    {
+      "key": "01736",
+      "name": "Andreas Keith",
+      "matchKey": "andreas keith",
+      "wahlkreis": "LL Nr. 003",
+      "email": "andreas.keith@landtag.nrw.de"
+    },
+    {
+      "key": "01640",
+      "name": "Matthias Kerkhoff",
+      "matchKey": "matthias kerkhoff",
+      "wahlkreis": "Hochsauerlandkreis II",
+      "email": "matthias.kerkhoff@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Mühlenufer 2",
+        "plz": "59939",
+        "ort": "Olsberg"
+      }
+    },
+    {
+      "key": "01835",
+      "name": "Carolin Kirsch",
+      "matchKey": "carolin kirsch",
+      "wahlkreis": "Köln VII",
+      "email": "carolin.kirsch@landtag.nrw.de"
+    },
+    {
+      "key": "01737",
+      "name": "Jochen Klenner",
+      "matchKey": "jochen klenner",
+      "wahlkreis": "Mönchengladbach II",
+      "email": "jochen.klenner@landtag.nrw.de"
+    },
+    {
+      "key": "01566",
+      "name": "Arndt Klocke",
+      "matchKey": "arndt klocke",
+      "wahlkreis": "Köln III",
+      "email": "arndt.klocke@landtag.nrw.de"
+    },
+    {
+      "key": "01836",
+      "name": "Thorsten Klute",
+      "matchKey": "thorsten klute",
+      "wahlkreis": "Gütersloh I - Bielefeld III",
+      "email": "thorsten.klute@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Langertsweg 24",
+        "plz": "33330",
+        "ort": "Gütersloh"
+      }
+    },
+    {
+      "key": "01837",
+      "name": "Robin Korte",
+      "matchKey": "robin korte",
+      "wahlkreis": "Münster II",
+      "email": "robin.korte@landtag.nrw.de"
+    },
+    {
+      "key": "01738",
+      "name": "Wilhelm Korth",
+      "matchKey": "wilhelm korth",
+      "wahlkreis": "Coesfeld I - Borken III",
+      "email": "wilhelm.korth@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro Borken",
+        "strasse": "Butenwall 81",
+        "plz": "46325",
+        "ort": "Borken"
+      }
+    },
+    {
+      "key": "01739",
+      "name": "Oliver Krauß",
+      "matchKey": "oliver krauss",
+      "wahlkreis": "Rhein-Sieg-Kreis III - Euskirchen III",
+      "email": "oliver.krauss@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Wesselstr. 10",
+        "plz": "53113",
+        "ort": "Bonn"
+      }
+    },
+    {
+      "key": "01490",
+      "name": "Bernd Krückel",
+      "matchKey": "bernd krueckel",
+      "wahlkreis": "Heinsberg I",
+      "email": "bernd.krueckel@landtag.nrw.de"
+    },
+    {
+      "key": "01648",
+      "name": "André Kuper",
+      "matchKey": "andr kuper",
+      "wahlkreis": "Gütersloh III",
+      "email": "andre.kuper@landtag.nrw.de"
+    },
+    {
+      "key": "01491",
+      "name": "Thomas Kutschaty",
+      "matchKey": "thomas kutschaty",
+      "wahlkreis": "Essen I",
+      "email": "thomas.kutschaty@landtag.nrw.de"
+    },
+    {
+      "key": "01526",
+      "name": "Karl-Josef Laumann",
+      "matchKey": "karl laumann",
+      "wahlkreis": "Steinfurt III",
+      "email": "karl-josef.laumann@mags.nrw.de"
+    },
+    {
+      "key": "01492",
+      "name": "Olaf Lehne",
+      "matchKey": "olaf lehne",
+      "wahlkreis": "Düsseldorf I",
+      "email": "olaf.lehne@landtag.nrw.de"
+    },
+    {
+      "key": "01838",
+      "name": "Sascha Lienesch",
+      "matchKey": "sascha lienesch",
+      "wahlkreis": "Rhein-Sieg-Kreis V",
+      "email": "sascha.lienesch@landtag.nrw.de"
+    },
+    {
+      "key": "01874",
+      "name": "Nathanael Liminski",
+      "matchKey": "nathanael liminski",
+      "email": "nathanael.liminski@landtag.nrw.de"
+    },
+    {
+      "key": "01651",
+      "name": "Carsten Löcker",
+      "matchKey": "carsten loecker",
+      "wahlkreis": "Recklinghausen II",
+      "email": "carsten.loecker@landtag.nrw.de"
+    },
+    {
+      "key": "01876",
+      "name": "Katrin Lögering",
+      "matchKey": "katrin loegering",
+      "email": "katrin.loegering@landtag.nrw.de"
+    },
+    {
+      "key": "01496",
+      "name": "Bodo Löttgen",
+      "matchKey": "bodo loettgen",
+      "wahlkreis": "Oberbergischer Kreis II",
+      "email": "bodo.loettgen@landtag.nrw.de"
+    },
+    {
+      "key": "01743",
+      "name": "Christian Loose",
+      "matchKey": "christian loose",
+      "wahlkreis": "LL Nr. 004",
+      "email": "christian.loose@landtag.nrw.de"
+    },
+    {
+      "key": "01839",
+      "name": "Martin Lucke",
+      "matchKey": "martin lucke",
+      "wahlkreis": "Rheinisch-Bergischer Kreis I",
+      "email": "martin.lucke@landtag.nrw.de"
+    },
+    {
+      "key": "01572",
+      "name": "Nadja Lüders",
+      "matchKey": "nadja lueders",
+      "wahlkreis": "Dortmund III",
+      "email": "nadja.lueders@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Brüderweg 10-12",
+        "plz": "44135",
+        "ort": "Dortmund"
+      }
+    },
+    {
+      "key": "01574",
+      "name": "Dennis Maelzer",
+      "matchKey": "dennis maelzer",
+      "wahlkreis": "Lippe III",
+      "email": "dennis.maelzer@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Paulinenstr. 39",
+        "plz": "32756",
+        "ort": "Detmold"
+      }
+    },
+    {
+      "key": "01841",
+      "name": "Jan Matzoll",
+      "matchKey": "jan matzoll",
+      "wahlkreis": "LL Nr. 026",
+      "email": "jan.matzoll@landtag.nrw.de"
+    },
+    {
+      "key": "01872",
+      "name": "Sandy Meinhardt",
+      "matchKey": "sandy meinhardt",
+      "email": "sandy.meinhardt@landtag.nrw.de"
+    },
+    {
+      "key": "01842",
+      "name": "Martin Metz",
+      "matchKey": "martin metz",
+      "wahlkreis": "LL Nr. 016",
+      "email": "martin.metz@landtag.nrw.de"
+    },
+    {
+      "key": "01843",
+      "name": "Justus Moor",
+      "matchKey": "justus moor",
+      "wahlkreis": "Hamm I",
+      "email": "justus.moor@landtag.nrw.de"
+    },
+    {
+      "key": "01579",
+      "name": "Mehrdad Mostofizadeh",
+      "matchKey": "mehrdad mostofizadeh",
+      "wahlkreis": "LL Nr. 008",
+      "email": "mehrdad.mostofizadeh@landtag.nrw.de"
+    },
+    {
+      "key": "01747",
+      "name": "Frank Müller",
+      "matchKey": "frank mueller",
+      "wahlkreis": "Essen II",
+      "email": "frank.mueller@landtag.nrw.de"
+    },
+    {
+      "key": "01748",
+      "name": "Franziska Müller-Rech",
+      "matchKey": "franziska rech",
+      "email": "franziska.mueller-rech@landtag.nrw.de"
+    },
+    {
+      "key": "01656",
+      "name": "Elisabeth Müller-Witt",
+      "matchKey": "elisabeth witt",
+      "wahlkreis": "LL Nr. 014",
+      "email": "elisabeth.mueller-witt@landtag.nrw.de"
+    },
+    {
+      "key": "01700",
+      "name": "Jens-Peter Nettekoven",
+      "matchKey": "jens nettekoven",
+      "wahlkreis": "Remscheid I - Oberbergischer Kreis III",
+      "email": "jens-peter.nettekoven@landtag.nrw.de"
+    },
+    {
+      "key": "01659",
+      "name": "Ralf Nettelstroth",
+      "matchKey": "ralf nettelstroth",
+      "email": "ralf.nettelstroth@landtag.nrw.de"
+    },
+    {
+      "key": "01844",
+      "name": "Mona Neubaur",
+      "matchKey": "mona neubaur",
+      "wahlkreis": "LL Nr. 001",
+      "email": "mona.neubaur@landtag.nrw.de"
+    },
+    {
+      "key": "01580",
+      "name": "Josef Neumann",
+      "matchKey": "josef neumann",
+      "wahlkreis": "Wuppertal III - Solingen II",
+      "email": "josef.neumann@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Linkgasse 1a",
+        "plz": "42651",
+        "ort": "Solingen"
+      }
+    },
+    {
+      "key": "01660",
+      "name": "Thomas Nückel",
+      "matchKey": "thomas nueckel",
+      "email": "thomas.nueckel@landtag.nrw.de"
+    },
+    {
+      "key": "01845",
+      "name": "Christian Obrok",
+      "matchKey": "christian obrok",
+      "wahlkreis": "Herford II - Minden-Lübbecke III",
+      "email": "christian.obrok@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Mindener Str. 5",
+        "plz": "32049",
+        "ort": "Herford"
+      }
+    },
+    {
+      "key": "01846",
+      "name": "Vanessa Odermatt",
+      "matchKey": "vanessa odermatt",
+      "wahlkreis": "Mönchengladbach I",
+      "email": "vanessa.odermatt@landtag.nrw.de"
+    },
+    {
+      "key": "01752",
+      "name": "Britta Oellers",
+      "matchKey": "britta oellers",
+      "wahlkreis": "Krefeld I - Viersen III",
+      "email": "britta.oellers@landtag.nrw.de"
+    },
+    {
+      "key": "01847",
+      "name": "Thomas Okos",
+      "matchKey": "thomas okos",
+      "wahlkreis": "Rhein-Erft-Kreis II",
+      "email": "thomas.okos@landtag.nrw.de"
+    },
+    {
+      "key": "01662",
+      "name": "Marcus Optendrenk",
+      "matchKey": "marcus optendrenk",
+      "wahlkreis": "Viersen II",
+      "email": "marcus.optendrenk@landtag.nrw.de"
+    },
+    {
+      "key": "01848",
+      "name": "Christina Osei",
+      "matchKey": "christina osei",
+      "wahlkreis": "LL Nr. 021",
+      "email": "christina.osei@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Kavalleriestr. 26",
+        "plz": "33602",
+        "ort": "Bielefeld"
+      }
+    },
+    {
+      "key": "01581",
+      "name": "Jochen Ott",
+      "matchKey": "jochen ott",
+      "wahlkreis": "LL Nr. 005",
+      "email": "jochen.ott@landtag.nrw.de"
+    },
+    {
+      "key": "01582",
+      "name": "Josefine Paul",
+      "matchKey": "josefine paul",
+      "wahlkreis": "LL Nr. 002",
+      "email": "josefine.paul@landtag.nrw.de"
+    },
+    {
+      "key": "01755",
+      "name": "Patricia Peill",
+      "matchKey": "patricia peill",
+      "wahlkreis": "Düren I",
+      "email": "patricia.peill@landtag.nrw.de"
+    },
+    {
+      "key": "01757",
+      "name": "Werner Pfeil",
+      "matchKey": "werner pfeil",
+      "wahlkreis": "LL Nr. 011",
+      "email": "werner.pfeil@landtag.nrw.de"
+    },
+    {
+      "key": "01664",
+      "name": "Sarah Philipp",
+      "matchKey": "sarah philipp",
+      "wahlkreis": "Duisburg I",
+      "email": "sarah.philipp@landtag.nrw.de"
+    },
+    {
+      "key": "01758",
+      "name": "Romina Plonsker",
+      "matchKey": "romina plonsker",
+      "wahlkreis": "Rhein-Erft-Kreis I",
+      "email": "info@rominaplonsker.de"
+    },
+    {
+      "key": "01849",
+      "name": "Laura Postma",
+      "matchKey": "laura postma",
+      "wahlkreis": "LL Nr. 025",
+      "email": "laura.postma@landtag.nrw.de"
+    },
+    {
+      "key": "01760",
+      "name": "Charlotte Quik",
+      "matchKey": "charlotte quik",
+      "wahlkreis": "Wesel III",
+      "email": "charlotte.quik@landtag.nrw.de"
+    },
+    {
+      "key": "01419",
+      "name": "Christof Rasche",
+      "matchKey": "christof rasche",
+      "wahlkreis": "LL Nr. 003",
+      "email": "christof.rasche@landtag.nrw.de"
+    },
+    {
+      "key": "01850",
+      "name": "Benjamin Rauer",
+      "matchKey": "benjamin rauer",
+      "wahlkreis": "LL Nr. 032",
+      "email": "benjamin.rauer@landtag.nrw.de"
+    },
+    {
+      "key": "01875",
+      "name": "Andrea Reh",
+      "matchKey": "andrea reh",
+      "email": "andrea.reh@landtag.nrw.de"
+    },
+    {
+      "key": "01124",
+      "name": "Herbert Reul",
+      "matchKey": "herbert reul",
+      "wahlkreis": "Rheinisch-Bergischer Kreis II",
+      "email": "herbert.reul@landtag.nrw.de"
+    },
+    {
+      "key": "01762",
+      "name": "Jochen Ritter",
+      "matchKey": "jochen ritter",
+      "wahlkreis": "Olpe",
+      "email": "jochen.ritter@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Martinstr. 49",
+        "plz": "57462",
+        "ort": "Olpe"
+      }
+    },
+    {
+      "key": "01851",
+      "name": "Simon Rock",
+      "matchKey": "simon rock",
+      "wahlkreis": "LL Nr. 030",
+      "email": "simon.rock@landtag.nrw.de"
+    },
+    {
+      "key": "01764",
+      "name": "Thomas Röckemann",
+      "matchKey": "thomas roeckemann",
+      "email": "thomas.roeckemann@landtag.nrw.de"
+    },
+    {
+      "key": "01852",
+      "name": "Michael Röls",
+      "matchKey": "michael roels",
+      "wahlkreis": "LL Nr. 012",
+      "email": "michael.roels@landtag.nrw.de"
+    },
+    {
+      "key": "01585",
+      "name": "Norwich Rüße",
+      "matchKey": "norwich ruesse",
+      "wahlkreis": "LL Nr. 006",
+      "email": "norwich.ruesse@landtag.nrw.de"
+    },
+    {
+      "key": "01589",
+      "name": "Verena Schäffer",
+      "matchKey": "verena schaeffer",
+      "wahlkreis": "LL Nr. 003",
+      "email": "verena.schaeffer@landtag.nrw.de"
+    },
+    {
+      "key": "01853",
+      "name": "Zacharias Schalley",
+      "matchKey": "zacharias schalley",
+      "wahlkreis": "LL Nr. 012",
+      "email": "zacharias.schalley@landtag.nrw.de"
+    },
+    {
+      "key": "01670",
+      "name": "Ina Scharrenbach",
+      "matchKey": "ina scharrenbach",
+      "email": "ina.scharrenbach@landtag.nrw.de"
+    },
+    {
+      "key": "01854",
+      "name": "Daniel Scheen-Pauls",
+      "matchKey": "daniel pauls",
+      "wahlkreis": "Aachen IV",
+      "email": "daniel.scheen-pauls@landtag.nrw.de"
+    },
+    {
+      "key": "01509",
+      "name": "Thorsten Schick",
+      "matchKey": "thorsten schick",
+      "wahlkreis": "Märkischer Kreis I",
+      "email": "thorsten.schick@landtag.nrw.de"
+    },
+    {
+      "key": "01766",
+      "name": "Claudia Schlottmann",
+      "matchKey": "claudia schlottmann",
+      "wahlkreis": "Mettmann I",
+      "email": "claudia.schlottmann@landtag.nrw.de"
+    },
+    {
+      "key": "01427",
+      "name": "Rainer Schmeltzer",
+      "matchKey": "rainer schmeltzer",
+      "wahlkreis": "Unna II",
+      "email": "rainer.schmeltzer@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Stadttorstr. 5",
+        "plz": "44532",
+        "ort": "Lünen"
+      }
+    },
+    {
+      "key": "01674",
+      "name": "Hendrik Schmitz",
+      "matchKey": "hendrik schmitz",
+      "wahlkreis": "Aachen III",
+      "email": "hendrik.schmitz@landtag.nrw.de"
+    },
+    {
+      "key": "01767",
+      "name": "Marco Schmitz",
+      "matchKey": "marco schmitz",
+      "wahlkreis": "Düsseldorf II",
+      "email": "marco.schmitz@landtag.nrw.de"
+    },
+    {
+      "key": "01678",
+      "name": "René Schneider",
+      "matchKey": "ren schneider",
+      "wahlkreis": "Wesel II",
+      "email": "rene.schneider@landtag.nrw.de"
+    },
+    {
+      "key": "01677",
+      "name": "Susanne Schneider",
+      "matchKey": "susanne schneider",
+      "email": "Susanne.Schneider-MdL@landtag.nrw.de"
+    },
+    {
+      "key": "01768",
+      "name": "Thomas Schnelle",
+      "matchKey": "thomas schnelle",
+      "wahlkreis": "Heinsberg II",
+      "email": "thomas.schnelle@landtag.nrw.de"
+    },
+    {
+      "key": "01769",
+      "name": "Rüdiger Scholz",
+      "matchKey": "ruediger scholz",
+      "wahlkreis": "Leverkusen",
+      "email": "ruediger.scholz@landtag.nrw.de"
+    },
+    {
+      "key": "01770",
+      "name": "Fabian Schrumpf",
+      "matchKey": "fabian schrumpf",
+      "wahlkreis": "Essen IV",
+      "email": "fabian.schrumpf@landtag.nrw.de"
+    },
+    {
+      "key": "01588",
+      "name": "Christina Schulze Föcking",
+      "matchKey": "christina foecking",
+      "wahlkreis": "Steinfurt I",
+      "email": "christina.schulze-foecking@landtag.nrw.de"
+    },
+    {
+      "key": "01856",
+      "name": "Enxhi Seli-Zacharias",
+      "matchKey": "enxhi zacharias",
+      "wahlkreis": "LL Nr. 007",
+      "email": "enxhi.seli-zacharias@landtag.nrw.de"
+    },
+    {
+      "key": "01857",
+      "name": "Christin Siebel",
+      "matchKey": "christin siebel",
+      "wahlkreis": "Gelsenkirchen I - Recklinghausen V",
+      "email": "christin.siebel@landtag.nrw.de"
+    },
+    {
+      "key": "01858",
+      "name": "Dennis Sonne",
+      "matchKey": "dennis sonne",
+      "wahlkreis": "LL Nr. 036",
+      "email": "dennis.sonne@landtag.nrw.de"
+    },
+    {
+      "key": "01859",
+      "name": "Christin-Marie Stamm",
+      "matchKey": "christin stamm",
+      "wahlkreis": "LL Nr. 012",
+      "email": "christin-marie.stamm@landtag.nrw.de"
+    },
+    {
+      "key": "01877",
+      "name": "Alexander Steffen",
+      "matchKey": "alexander steffen",
+      "email": "alexander.steffen@landtag.nrw.de"
+    },
+    {
+      "key": "01860",
+      "name": "Kirsten Stich",
+      "matchKey": "kirsten stich",
+      "wahlkreis": "Ennepe-Ruhr-Kreis I",
+      "email": "kirsten.stich@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Königstr. 69a",
+        "plz": "58300",
+        "ort": "Wetter (Ruhr)"
+      }
+    },
+    {
+      "key": "01512",
+      "name": "André Stinka",
+      "matchKey": "andr stinka",
+      "wahlkreis": "LL Nr. 003",
+      "email": "andre.stinka@landtag.nrw.de"
+    },
+    {
+      "key": "01772",
+      "name": "Ellen Stock",
+      "matchKey": "ellen stock",
+      "wahlkreis": "LL Nr. 006",
+      "email": "ellen.stock@landtag.nrw.de"
+    },
+    {
+      "key": "01861",
+      "name": "Ralf Stoltze",
+      "matchKey": "ralf stoltze",
+      "wahlkreis": "Dortmund I",
+      "email": "ralf.stoltze@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro Ralf Stoltze MdL",
+        "strasse": "Brüderweg 10-12",
+        "plz": "44135",
+        "ort": "Dortmund"
+      }
+    },
+    {
+      "key": "01774",
+      "name": "Martin Sträßer",
+      "matchKey": "martin straesser",
+      "wahlkreis": "Mettmann IV",
+      "email": "martin.straesser@landtag.nrw.de"
+    },
+    {
+      "key": "01775",
+      "name": "Andrea Stullich",
+      "matchKey": "andrea stullich",
+      "wahlkreis": "Steinfurt II",
+      "email": "andrea.stullich@landtag.nrw.de"
+    },
+    {
+      "key": "01592",
+      "name": "Frank Sundermann",
+      "matchKey": "frank sundermann",
+      "email": "frank.sundermann@landtag.nrw.de"
+    },
+    {
+      "key": "01322",
+      "name": "Hedwig Tarner",
+      "matchKey": "hedwig tarner",
+      "wahlkreis": "LL Nr. 029",
+      "email": "hedwig.tarner@landtag.nrw.de"
+    },
+    {
+      "key": "01862",
+      "name": "Lena Teschlade",
+      "matchKey": "lena teschlade",
+      "wahlkreis": "Köln IV",
+      "email": "lena.teschlade@landtag.nrw.de"
+    },
+    {
+      "key": "01863",
+      "name": "Meral Thoms",
+      "matchKey": "meral thoms",
+      "wahlkreis": "LL Nr. 023",
+      "email": "meral.thoms@landtag.nrw.de"
+    },
+    {
+      "key": "01776",
+      "name": "Raphael Tigges",
+      "matchKey": "raphael tigges",
+      "wahlkreis": "Gütersloh II",
+      "email": "raphael.tigges@landtag.nrw.de"
+    },
+    {
+      "key": "01777",
+      "name": "Sven W. Tritschler",
+      "matchKey": "sven tritschler",
+      "wahlkreis": "LL Nr. 006",
+      "email": "sven.werner.tritschler@landtag.nrw.de"
+    },
+    {
+      "key": "01778",
+      "name": "Heike Troles",
+      "matchKey": "heike troles",
+      "wahlkreis": "Rhein-Kreis Neuss II",
+      "email": "heike.troles@landtag.nrw.de"
+    },
+    {
+      "key": "01779",
+      "name": "Christian Untrieser",
+      "matchKey": "christian untrieser",
+      "wahlkreis": "Mettmann II",
+      "email": "christian.untrieser@landtag.nrw.de"
+    },
+    {
+      "key": "01780",
+      "name": "Martin Vincentz",
+      "matchKey": "martin vincentz",
+      "wahlkreis": "LL Nr. 002",
+      "email": "martin.vincentz@landtag.nrw.de"
+    },
+    {
+      "key": "01864",
+      "name": "Astrid Vogelheim",
+      "matchKey": "astrid vogelheim",
+      "wahlkreis": "Aachen I",
+      "email": "astrid.vogelheim@landtag.nrw.de"
+    },
+    {
+      "key": "01594",
+      "name": "Alexander Vogt",
+      "matchKey": "alexander vogt",
+      "wahlkreis": "Herne",
+      "email": "alexander.vogt@landtag.nrw.de"
+    },
+    {
+      "key": "01689",
+      "name": "Petra Vogt",
+      "matchKey": "petra vogt",
+      "email": "petra.vogt@landtag.nrw.de"
+    },
+    {
+      "key": "01597",
+      "name": "Klaus Voussem",
+      "matchKey": "klaus voussem",
+      "wahlkreis": "Euskirchen I",
+      "email": "klaus.voussem@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "An der Vogelrute 9",
+        "plz": "53879",
+        "ort": "Euskirchen"
+      }
+    },
+    {
+      "key": "01783",
+      "name": "Markus Wagner",
+      "matchKey": "markus wagner",
+      "wahlkreis": "LL Nr. 001",
+      "email": "markus.wagner@landtag.nrw.de"
+    },
+    {
+      "key": "01785",
+      "name": "Sebastian Watermeier",
+      "matchKey": "sebastian watermeier",
+      "wahlkreis": "Gelsenkirchen II",
+      "email": "sebastian.watermeier@landtag.nrw.de"
+    },
+    {
+      "key": "01786",
+      "name": "Simone Wendland",
+      "matchKey": "simone wendland",
+      "wahlkreis": "Münster I - Steinfurt IV",
+      "email": "simone.wendland@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Mauritzstr. 4-6",
+        "plz": "48143",
+        "ort": "Münster"
+      }
+    },
+    {
+      "key": "01787",
+      "name": "Christina Weng",
+      "matchKey": "christina weng",
+      "wahlkreis": "Minden-Lübbecke II",
+      "email": "christina.weng@landtag.nrw.de"
+    },
+    {
+      "key": "01865",
+      "name": "Jule Wenzel",
+      "matchKey": "jule wenzel",
+      "wahlkreis": "LL Nr. 015",
+      "email": "jule.wenzel@landtag.nrw.de"
+    },
+    {
+      "key": "01788",
+      "name": "Heike Wermer",
+      "matchKey": "heike wermer",
+      "wahlkreis": "Borken II",
+      "email": "heike.wermer@landtag.nrw.de"
+    },
+    {
+      "key": "01866",
+      "name": "Volkhard Wille",
+      "matchKey": "volkhard wille",
+      "wahlkreis": "LL Nr. 018",
+      "email": "volkhard.wille@landtag.nrw.de"
+    },
+    {
+      "key": "01789",
+      "name": "Bianca Winkelmann",
+      "matchKey": "bianca winkelmann",
+      "wahlkreis": "Minden-Lübbecke I",
+      "email": "bianca.winkelmann@landtag.nrw.de",
+      "address": {
+        "label": "Wahlkreisbüro",
+        "strasse": "Marienglacis 35",
+        "plz": "32427",
+        "ort": "Minden"
+      }
+    },
+    {
+      "key": "01441",
+      "name": "Ralf Witzel",
+      "matchKey": "ralf witzel",
+      "wahlkreis": "LL Nr. 006",
+      "email": "ralf.witzel@landtag.nrw.de"
+    },
+    {
+      "key": "01867",
+      "name": "Eileen Woestmann",
+      "matchKey": "eileen woestmann",
+      "wahlkreis": "Köln I",
+      "email": "eileen.woestmann@landtag.nrw.de"
+    },
+    {
+      "key": "01868",
+      "name": "Stephan Wolters",
+      "matchKey": "stephan wolters",
+      "wahlkreis": "Kleve I",
+      "email": "stephan.wolters@landtag.nrw.de"
+    },
+    {
+      "key": "01525",
+      "name": "Hendrik Wüst",
+      "matchKey": "hendrik wuest",
+      "wahlkreis": "Borken I",
+      "email": "hendrik.wuest@landtag.nrw.de"
+    },
+    {
+      "key": "01604",
+      "name": "Stefan Zimkeit",
+      "matchKey": "stefan zimkeit",
+      "wahlkreis": "Oberhausen II - Wesel I",
+      "email": "stefan.zimkeit@landtag.nrw.de"
+    },
+    {
+      "key": "01870",
+      "name": "Marc Zimmermann",
+      "matchKey": "marc zimmermann",
+      "wahlkreis": "LL Nr. 034",
+      "email": "marc.zimmermann@landtag.nrw.de"
+    },
+    {
+      "key": "01871",
+      "name": "Lena Zingsheim-Zobel",
+      "matchKey": "lena zobel",
+      "wahlkreis": "LL Nr. 009",
+      "email": "lena.zingsheim-zobel@landtag.nrw.de"
+    }
+  ]
+}

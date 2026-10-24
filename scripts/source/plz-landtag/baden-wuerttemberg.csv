@@ -1,0 +1,1635 @@
+# PLZ -> Landtagswahlkreis Baden-Württemberg (Landtag)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 163 (Baden-Württemberg 2026)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+63897,38,38 - Neckar-Odenwald
+63916,38,38 - Neckar-Odenwald
+63927,23,23 - Main-Tauber
+63928,23,23 - Main-Tauber
+63928,38,38 - Neckar-Odenwald
+63930,23,23 - Main-Tauber
+63931,38,38 - Neckar-Odenwald
+63936,38,38 - Neckar-Odenwald
+64646,39,39 - Weinheim
+64653,39,39 - Weinheim
+64754,38,38 - Neckar-Odenwald
+64754,41,41 - Sinsheim
+64757,41,41 - Sinsheim
+64760,38,38 - Neckar-Odenwald
+64760,41,41 - Sinsheim
+67059,35,35 - Mannheim I
+67059,36,36 - Mannheim II
+67061,35,35 - Mannheim I
+67061,36,36 - Mannheim II
+67063,35,35 - Mannheim I
+67063,36,36 - Mannheim II
+67065,35,35 - Mannheim I
+67065,36,36 - Mannheim II
+67069,35,35 - Mannheim I
+67069,36,36 - Mannheim II
+67122,35,35 - Mannheim I
+67122,36,36 - Mannheim II
+67122,39,39 - Weinheim
+67122,40,40 - Schwetzingen
+67165,39,39 - Weinheim
+67165,40,40 - Schwetzingen
+67166,40,40 - Schwetzingen
+67227,35,35 - Mannheim I
+67227,36,36 - Mannheim II
+67240,35,35 - Mannheim I
+67240,36,36 - Mannheim II
+67346,40,40 - Schwetzingen
+67354,29,29 - Bruchsal
+67360,29,29 - Bruchsal
+68159,35,35 - Mannheim I
+68159,36,36 - Mannheim II
+68161,35,35 - Mannheim I
+68161,36,36 - Mannheim II
+68163,35,35 - Mannheim I
+68163,36,36 - Mannheim II
+68165,35,35 - Mannheim I
+68165,36,36 - Mannheim II
+68167,35,35 - Mannheim I
+68167,36,36 - Mannheim II
+68169,35,35 - Mannheim I
+68169,36,36 - Mannheim II
+68199,35,35 - Mannheim I
+68199,36,36 - Mannheim II
+68219,35,35 - Mannheim I
+68219,36,36 - Mannheim II
+68229,35,35 - Mannheim I
+68229,36,36 - Mannheim II
+68239,35,35 - Mannheim I
+68239,36,36 - Mannheim II
+68259,35,35 - Mannheim I
+68259,36,36 - Mannheim II
+68305,35,35 - Mannheim I
+68305,36,36 - Mannheim II
+68307,35,35 - Mannheim I
+68307,36,36 - Mannheim II
+68309,35,35 - Mannheim I
+68309,36,36 - Mannheim II
+68519,35,35 - Mannheim I
+68519,36,36 - Mannheim II
+68519,39,39 - Weinheim
+68526,39,39 - Weinheim
+68535,39,39 - Weinheim
+68542,39,39 - Weinheim
+68549,35,35 - Mannheim I
+68549,36,36 - Mannheim II
+68549,39,39 - Weinheim
+68623,35,35 - Mannheim I
+68623,36,36 - Mannheim II
+68623,39,39 - Weinheim
+68723,40,40 - Schwetzingen
+68753,29,29 - Bruchsal
+68766,40,40 - Schwetzingen
+68775,40,40 - Schwetzingen
+68782,39,39 - Weinheim
+68782,40,40 - Schwetzingen
+68789,37,37 - Wiesloch
+68794,29,29 - Bruchsal
+68799,40,40 - Schwetzingen
+68804,40,40 - Schwetzingen
+68809,40,40 - Schwetzingen
+69115,34,34 - Heidelberg
+69117,34,34 - Heidelberg
+69118,34,34 - Heidelberg
+69120,34,34 - Heidelberg
+69121,34,34 - Heidelberg
+69123,34,34 - Heidelberg
+69124,34,34 - Heidelberg
+69126,34,34 - Heidelberg
+69151,41,41 - Sinsheim
+69168,37,37 - Wiesloch
+69181,37,37 - Wiesloch
+69190,37,37 - Wiesloch
+69198,39,39 - Weinheim
+69207,37,37 - Wiesloch
+69207,40,40 - Schwetzingen
+69214,34,34 - Heidelberg
+69214,40,40 - Schwetzingen
+69221,39,39 - Weinheim
+69226,37,37 - Wiesloch
+69231,37,37 - Wiesloch
+69234,37,37 - Wiesloch
+69239,41,41 - Sinsheim
+69242,37,37 - Wiesloch
+69245,41,41 - Sinsheim
+69250,41,41 - Sinsheim
+69251,34,34 - Heidelberg
+69251,37,37 - Wiesloch
+69251,41,41 - Sinsheim
+69253,41,41 - Sinsheim
+69254,37,37 - Wiesloch
+69256,41,41 - Sinsheim
+69257,41,41 - Sinsheim
+69259,39,39 - Weinheim
+69259,41,41 - Sinsheim
+69412,41,41 - Sinsheim
+69427,38,38 - Neckar-Odenwald
+69429,38,38 - Neckar-Odenwald
+69434,41,41 - Sinsheim
+69436,41,41 - Sinsheim
+69437,38,38 - Neckar-Odenwald
+69439,38,38 - Neckar-Odenwald
+69469,39,39 - Weinheim
+69483,41,41 - Sinsheim
+69488,39,39 - Weinheim
+69493,39,39 - Weinheim
+69502,39,39 - Weinheim
+69509,39,39 - Weinheim
+69514,39,39 - Weinheim
+69517,39,39 - Weinheim
+69517,41,41 - Sinsheim
+69518,41,41 - Sinsheim
+70173,1,01 - Stuttgart I
+70173,2,02 - Stuttgart II
+70173,3,03 - Stuttgart III
+70173,4,04 - Stuttgart IV
+70174,1,01 - Stuttgart I
+70174,2,02 - Stuttgart II
+70174,3,03 - Stuttgart III
+70174,4,04 - Stuttgart IV
+70176,1,01 - Stuttgart I
+70176,2,02 - Stuttgart II
+70176,3,03 - Stuttgart III
+70176,4,04 - Stuttgart IV
+70178,1,01 - Stuttgart I
+70178,2,02 - Stuttgart II
+70178,3,03 - Stuttgart III
+70178,4,04 - Stuttgart IV
+70180,1,01 - Stuttgart I
+70180,2,02 - Stuttgart II
+70180,3,03 - Stuttgart III
+70180,4,04 - Stuttgart IV
+70182,1,01 - Stuttgart I
+70182,2,02 - Stuttgart II
+70182,3,03 - Stuttgart III
+70182,4,04 - Stuttgart IV
+70184,1,01 - Stuttgart I
+70184,2,02 - Stuttgart II
+70184,3,03 - Stuttgart III
+70184,4,04 - Stuttgart IV
+70186,1,01 - Stuttgart I
+70186,2,02 - Stuttgart II
+70186,3,03 - Stuttgart III
+70186,4,04 - Stuttgart IV
+70188,1,01 - Stuttgart I
+70188,2,02 - Stuttgart II
+70188,3,03 - Stuttgart III
+70188,4,04 - Stuttgart IV
+70190,1,01 - Stuttgart I
+70190,2,02 - Stuttgart II
+70190,3,03 - Stuttgart III
+70190,4,04 - Stuttgart IV
+70191,1,01 - Stuttgart I
+70191,2,02 - Stuttgart II
+70191,3,03 - Stuttgart III
+70191,4,04 - Stuttgart IV
+70192,1,01 - Stuttgart I
+70192,2,02 - Stuttgart II
+70192,3,03 - Stuttgart III
+70192,4,04 - Stuttgart IV
+70193,1,01 - Stuttgart I
+70193,2,02 - Stuttgart II
+70193,3,03 - Stuttgart III
+70193,4,04 - Stuttgart IV
+70195,1,01 - Stuttgart I
+70195,2,02 - Stuttgart II
+70195,3,03 - Stuttgart III
+70195,4,04 - Stuttgart IV
+70197,1,01 - Stuttgart I
+70197,2,02 - Stuttgart II
+70197,3,03 - Stuttgart III
+70197,4,04 - Stuttgart IV
+70199,1,01 - Stuttgart I
+70199,2,02 - Stuttgart II
+70199,3,03 - Stuttgart III
+70199,4,04 - Stuttgart IV
+70327,1,01 - Stuttgart I
+70327,2,02 - Stuttgart II
+70327,3,03 - Stuttgart III
+70327,4,04 - Stuttgart IV
+70329,1,01 - Stuttgart I
+70329,2,02 - Stuttgart II
+70329,3,03 - Stuttgart III
+70329,4,04 - Stuttgart IV
+70372,1,01 - Stuttgart I
+70372,2,02 - Stuttgart II
+70372,3,03 - Stuttgart III
+70372,4,04 - Stuttgart IV
+70374,1,01 - Stuttgart I
+70374,2,02 - Stuttgart II
+70374,3,03 - Stuttgart III
+70374,4,04 - Stuttgart IV
+70376,1,01 - Stuttgart I
+70376,2,02 - Stuttgart II
+70376,3,03 - Stuttgart III
+70376,4,04 - Stuttgart IV
+70378,1,01 - Stuttgart I
+70378,2,02 - Stuttgart II
+70378,3,03 - Stuttgart III
+70378,4,04 - Stuttgart IV
+70378,12,12 - Ludwigsburg
+70435,1,01 - Stuttgart I
+70435,2,02 - Stuttgart II
+70435,3,03 - Stuttgart III
+70435,4,04 - Stuttgart IV
+70437,1,01 - Stuttgart I
+70437,2,02 - Stuttgart II
+70437,3,03 - Stuttgart III
+70437,4,04 - Stuttgart IV
+70439,1,01 - Stuttgart I
+70439,2,02 - Stuttgart II
+70439,3,03 - Stuttgart III
+70439,4,04 - Stuttgart IV
+70469,1,01 - Stuttgart I
+70469,2,02 - Stuttgart II
+70469,3,03 - Stuttgart III
+70469,4,04 - Stuttgart IV
+70499,1,01 - Stuttgart I
+70499,2,02 - Stuttgart II
+70499,3,03 - Stuttgart III
+70499,4,04 - Stuttgart IV
+70563,1,01 - Stuttgart I
+70563,2,02 - Stuttgart II
+70563,3,03 - Stuttgart III
+70563,4,04 - Stuttgart IV
+70565,1,01 - Stuttgart I
+70565,2,02 - Stuttgart II
+70565,3,03 - Stuttgart III
+70565,4,04 - Stuttgart IV
+70567,1,01 - Stuttgart I
+70567,2,02 - Stuttgart II
+70567,3,03 - Stuttgart III
+70567,4,04 - Stuttgart IV
+70569,1,01 - Stuttgart I
+70569,2,02 - Stuttgart II
+70569,3,03 - Stuttgart III
+70569,4,04 - Stuttgart IV
+70597,1,01 - Stuttgart I
+70597,2,02 - Stuttgart II
+70597,3,03 - Stuttgart III
+70597,4,04 - Stuttgart IV
+70599,1,01 - Stuttgart I
+70599,2,02 - Stuttgart II
+70599,3,03 - Stuttgart III
+70599,4,04 - Stuttgart IV
+70619,1,01 - Stuttgart I
+70619,2,02 - Stuttgart II
+70619,3,03 - Stuttgart III
+70619,4,04 - Stuttgart IV
+70629,1,01 - Stuttgart I
+70629,2,02 - Stuttgart II
+70629,3,03 - Stuttgart III
+70629,4,04 - Stuttgart IV
+70629,9,09 - Nürtingen
+70734,1,01 - Stuttgart I
+70734,2,02 - Stuttgart II
+70734,3,03 - Stuttgart III
+70734,4,04 - Stuttgart IV
+70734,15,15 - Waiblingen
+70736,15,15 - Waiblingen
+70771,1,01 - Stuttgart I
+70771,2,02 - Stuttgart II
+70771,3,03 - Stuttgart III
+70771,4,04 - Stuttgart IV
+70771,9,09 - Nürtingen
+70794,9,09 - Nürtingen
+70806,1,01 - Stuttgart I
+70806,2,02 - Stuttgart II
+70806,3,03 - Stuttgart III
+70806,4,04 - Stuttgart IV
+70806,12,12 - Ludwigsburg
+70825,1,01 - Stuttgart I
+70825,2,02 - Stuttgart II
+70825,3,03 - Stuttgart III
+70825,4,04 - Stuttgart IV
+70825,13,13 - Vaihingen
+70839,13,13 - Vaihingen
+71032,5,05 - Böblingen
+71034,5,05 - Böblingen
+71063,5,05 - Böblingen
+71065,1,01 - Stuttgart I
+71065,2,02 - Stuttgart II
+71065,3,03 - Stuttgart III
+71065,4,04 - Stuttgart IV
+71065,5,05 - Böblingen
+71067,5,05 - Böblingen
+71069,5,05 - Böblingen
+71083,6,06 - Leonberg
+71088,5,05 - Böblingen
+71093,5,05 - Böblingen
+71101,5,05 - Böblingen
+71106,5,05 - Böblingen
+71106,6,06 - Leonberg
+71111,5,05 - Böblingen
+71111,9,09 - Nürtingen
+71116,5,05 - Böblingen
+71116,6,06 - Leonberg
+71120,6,06 - Leonberg
+71126,6,06 - Leonberg
+71126,62,62 - Tübingen
+71131,6,06 - Leonberg
+71134,6,06 - Leonberg
+71139,5,05 - Böblingen
+71144,5,05 - Böblingen
+71149,6,06 - Leonberg
+71149,62,62 - Tübingen
+71154,5,05 - Böblingen
+71154,6,06 - Leonberg
+71155,5,05 - Böblingen
+71157,5,05 - Böblingen
+71159,6,06 - Leonberg
+71229,6,06 - Leonberg
+71254,13,13 - Vaihingen
+71263,6,06 - Leonberg
+71272,6,06 - Leonberg
+71277,6,06 - Leonberg
+71282,13,13 - Vaihingen
+71287,6,06 - Leonberg
+71292,44,44 - Enz
+71296,6,06 - Leonberg
+71296,44,44 - Enz
+71297,44,44 - Enz
+71299,44,44 - Enz
+71332,15,15 - Waiblingen
+71334,15,15 - Waiblingen
+71334,16,16 - Schorndorf
+71336,15,15 - Waiblingen
+71364,14,14 - Bietigheim-Bissingen
+71364,15,15 - Waiblingen
+71384,16,16 - Schorndorf
+71394,15,15 - Waiblingen
+71394,16,16 - Schorndorf
+71397,15,15 - Waiblingen
+71404,15,15 - Waiblingen
+71409,15,15 - Waiblingen
+71522,17,17 - Backnang
+71540,17,17 - Backnang
+71543,19,19 - Eppingen
+71543,20,20 - Neckarsulm
+71546,17,17 - Backnang
+71549,17,17 - Backnang
+71554,17,17 - Backnang
+71560,17,17 - Backnang
+71563,14,14 - Bietigheim-Bissingen
+71563,17,17 - Backnang
+71566,17,17 - Backnang
+71570,17,17 - Backnang
+71573,17,17 - Backnang
+71576,17,17 - Backnang
+71577,17,17 - Backnang
+71579,17,17 - Backnang
+71634,12,12 - Ludwigsburg
+71636,12,12 - Ludwigsburg
+71638,12,12 - Ludwigsburg
+71640,12,12 - Ludwigsburg
+71642,12,12 - Ludwigsburg
+71642,14,14 - Bietigheim-Bissingen
+71665,13,13 - Vaihingen
+71672,14,14 - Bietigheim-Bissingen
+71679,12,12 - Ludwigsburg
+71686,12,12 - Ludwigsburg
+71691,12,12 - Ludwigsburg
+71691,14,14 - Bietigheim-Bissingen
+71696,12,12 - Ludwigsburg
+71696,13,13 - Vaihingen
+71701,13,13 - Vaihingen
+71706,13,13 - Vaihingen
+71711,14,14 - Bietigheim-Bissingen
+71717,19,19 - Eppingen
+71720,14,14 - Bietigheim-Bissingen
+71720,19,19 - Eppingen
+71723,14,14 - Bietigheim-Bissingen
+71726,14,14 - Bietigheim-Bissingen
+71729,14,14 - Bietigheim-Bissingen
+71732,12,12 - Ludwigsburg
+71735,13,13 - Vaihingen
+71737,17,17 - Backnang
+71739,13,13 - Vaihingen
+72070,62,62 - Tübingen
+72072,62,62 - Tübingen
+72074,62,62 - Tübingen
+72076,62,62 - Tübingen
+72108,62,62 - Tübingen
+72116,62,62 - Tübingen
+72119,62,62 - Tübingen
+72124,60,60 - Reutlingen
+72127,60,60 - Reutlingen
+72131,62,62 - Tübingen
+72135,62,62 - Tübingen
+72138,60,60 - Reutlingen
+72141,9,09 - Nürtingen
+72141,60,60 - Reutlingen
+72144,60,60 - Reutlingen
+72145,63,63 - Balingen
+72147,60,60 - Reutlingen
+72147,62,62 - Tübingen
+72149,62,62 - Tübingen
+72160,45,45 - Freudenstadt
+72172,53,53 - Rottweil
+72175,53,53 - Rottweil
+72178,45,45 - Freudenstadt
+72181,63,63 - Balingen
+72184,45,45 - Freudenstadt
+72186,45,45 - Freudenstadt
+72186,53,53 - Rottweil
+72189,53,53 - Rottweil
+72202,43,43 - Calw
+72213,43,43 - Calw
+72218,43,43 - Calw
+72221,43,43 - Calw
+72221,45,45 - Freudenstadt
+72224,43,43 - Calw
+72226,43,43 - Calw
+72227,43,43 - Calw
+72229,43,43 - Calw
+72250,45,45 - Freudenstadt
+72270,45,45 - Freudenstadt
+72275,45,45 - Freudenstadt
+72280,45,45 - Freudenstadt
+72285,45,45 - Freudenstadt
+72290,45,45 - Freudenstadt
+72293,45,45 - Freudenstadt
+72294,45,45 - Freudenstadt
+72296,45,45 - Freudenstadt
+72297,45,45 - Freudenstadt
+72299,45,45 - Freudenstadt
+72336,63,63 - Balingen
+72348,63,63 - Balingen
+72351,63,63 - Balingen
+72355,63,63 - Balingen
+72356,63,63 - Balingen
+72358,63,63 - Balingen
+72359,63,63 - Balingen
+72361,63,63 - Balingen
+72362,63,63 - Balingen
+72364,63,63 - Balingen
+72365,63,63 - Balingen
+72367,55,55 - Tuttlingen-Donaueschingen
+72367,63,63 - Balingen
+72369,53,53 - Rottweil
+72369,63,63 - Balingen
+72379,61,61 - Hechingen-Münsingen
+72379,63,63 - Balingen
+72393,61,61 - Hechingen-Münsingen
+72401,63,63 - Balingen
+72406,63,63 - Balingen
+72411,61,61 - Hechingen-Münsingen
+72411,62,62 - Tübingen
+72414,63,63 - Balingen
+72415,63,63 - Balingen
+72417,61,61 - Hechingen-Münsingen
+72419,70,70 - Sigmaringen
+72458,63,63 - Balingen
+72459,63,63 - Balingen
+72461,63,63 - Balingen
+72469,63,63 - Balingen
+72474,63,63 - Balingen
+72475,63,63 - Balingen
+72477,70,70 - Sigmaringen
+72479,63,63 - Balingen
+72488,70,70 - Sigmaringen
+72501,70,70 - Sigmaringen
+72505,70,70 - Sigmaringen
+72510,70,70 - Sigmaringen
+72511,70,70 - Sigmaringen
+72513,70,70 - Sigmaringen
+72514,70,70 - Sigmaringen
+72516,70,70 - Sigmaringen
+72517,70,70 - Sigmaringen
+72519,70,70 - Sigmaringen
+72525,61,61 - Hechingen-Münsingen
+72531,61,61 - Hechingen-Münsingen
+72532,61,61 - Hechingen-Münsingen
+72534,61,61 - Hechingen-Münsingen
+72535,65,65 - Ehingen
+72537,61,61 - Hechingen-Münsingen
+72539,61,61 - Hechingen-Münsingen
+72555,61,61 - Hechingen-Münsingen
+72574,61,61 - Hechingen-Münsingen
+72581,61,61 - Hechingen-Münsingen
+72582,8,08 - Kirchheim
+72582,61,61 - Hechingen-Münsingen
+72584,61,61 - Hechingen-Münsingen
+72585,61,61 - Hechingen-Münsingen
+72587,61,61 - Hechingen-Münsingen
+72589,65,65 - Ehingen
+72622,9,09 - Nürtingen
+72631,9,09 - Nürtingen
+72636,9,09 - Nürtingen
+72639,9,09 - Nürtingen
+72644,8,08 - Kirchheim
+72649,7,07 - Esslingen
+72654,9,09 - Nürtingen
+72655,9,09 - Nürtingen
+72657,9,09 - Nürtingen
+72658,9,09 - Nürtingen
+72660,8,08 - Kirchheim
+72660,9,09 - Nürtingen
+72661,9,09 - Nürtingen
+72661,61,61 - Hechingen-Münsingen
+72663,9,09 - Nürtingen
+72664,9,09 - Nürtingen
+72666,9,09 - Nürtingen
+72667,9,09 - Nürtingen
+72669,8,08 - Kirchheim
+72760,60,60 - Reutlingen
+72762,60,60 - Reutlingen
+72764,60,60 - Reutlingen
+72766,60,60 - Reutlingen
+72768,60,60 - Reutlingen
+72770,60,60 - Reutlingen
+72793,60,60 - Reutlingen
+72800,61,61 - Hechingen-Münsingen
+72805,61,61 - Hechingen-Münsingen
+72810,60,60 - Reutlingen
+72813,61,61 - Hechingen-Münsingen
+72818,61,61 - Hechingen-Münsingen
+72820,61,61 - Hechingen-Münsingen
+72827,60,60 - Reutlingen
+72829,61,61 - Hechingen-Münsingen
+73033,10,10 - Göppingen
+73035,10,10 - Göppingen
+73037,10,10 - Göppingen
+73037,11,11 - Geislingen
+73054,10,10 - Göppingen
+73054,11,11 - Geislingen
+73061,10,10 - Göppingen
+73066,10,10 - Göppingen
+73072,11,11 - Geislingen
+73072,25,25 - Schwäbisch Gmünd
+73079,11,11 - Geislingen
+73084,11,11 - Geislingen
+73087,11,11 - Geislingen
+73092,11,11 - Geislingen
+73095,10,10 - Göppingen
+73095,11,11 - Geislingen
+73098,10,10 - Göppingen
+73099,10,10 - Göppingen
+73099,16,16 - Schorndorf
+73101,11,11 - Geislingen
+73102,10,10 - Göppingen
+73104,10,10 - Göppingen
+73105,11,11 - Geislingen
+73107,11,11 - Geislingen
+73108,11,11 - Geislingen
+73110,11,11 - Geislingen
+73111,11,11 - Geislingen
+73113,11,11 - Geislingen
+73114,11,11 - Geislingen
+73116,10,10 - Göppingen
+73117,10,10 - Göppingen
+73119,11,11 - Geislingen
+73207,8,08 - Kirchheim
+73230,8,08 - Kirchheim
+73235,8,08 - Kirchheim
+73240,8,08 - Kirchheim
+73249,8,08 - Kirchheim
+73252,8,08 - Kirchheim
+73257,8,08 - Kirchheim
+73262,10,10 - Göppingen
+73265,8,08 - Kirchheim
+73266,8,08 - Kirchheim
+73268,8,08 - Kirchheim
+73268,9,09 - Nürtingen
+73269,8,08 - Kirchheim
+73269,10,10 - Göppingen
+73271,8,08 - Kirchheim
+73272,8,08 - Kirchheim
+73274,8,08 - Kirchheim
+73275,8,08 - Kirchheim
+73277,8,08 - Kirchheim
+73278,10,10 - Göppingen
+73312,11,11 - Geislingen
+73326,11,11 - Geislingen
+73329,11,11 - Geislingen
+73333,11,11 - Geislingen
+73337,11,11 - Geislingen
+73340,65,65 - Ehingen
+73342,11,11 - Geislingen
+73344,11,11 - Geislingen
+73345,11,11 - Geislingen
+73347,11,11 - Geislingen
+73349,11,11 - Geislingen
+73430,26,26 - Aalen
+73431,26,26 - Aalen
+73432,26,26 - Aalen
+73433,26,26 - Aalen
+73434,26,26 - Aalen
+73441,26,26 - Aalen
+73447,26,26 - Aalen
+73450,24,24 - Heidenheim
+73450,26,26 - Aalen
+73453,25,25 - Schwäbisch Gmünd
+73453,26,26 - Aalen
+73457,25,25 - Schwäbisch Gmünd
+73460,26,26 - Aalen
+73463,26,26 - Aalen
+73466,26,26 - Aalen
+73467,26,26 - Aalen
+73469,26,26 - Aalen
+73479,26,26 - Aalen
+73485,26,26 - Aalen
+73486,22,22 - Schwäbisch Hall
+73486,26,26 - Aalen
+73488,26,26 - Aalen
+73489,22,22 - Schwäbisch Hall
+73489,26,26 - Aalen
+73491,26,26 - Aalen
+73492,26,26 - Aalen
+73494,26,26 - Aalen
+73495,26,26 - Aalen
+73497,26,26 - Aalen
+73499,26,26 - Aalen
+73525,25,25 - Schwäbisch Gmünd
+73527,25,25 - Schwäbisch Gmünd
+73529,11,11 - Geislingen
+73529,25,25 - Schwäbisch Gmünd
+73540,25,25 - Schwäbisch Gmünd
+73547,25,25 - Schwäbisch Gmünd
+73550,25,25 - Schwäbisch Gmünd
+73553,17,17 - Backnang
+73557,25,25 - Schwäbisch Gmünd
+73560,25,25 - Schwäbisch Gmünd
+73563,25,25 - Schwäbisch Gmünd
+73565,25,25 - Schwäbisch Gmünd
+73566,24,24 - Heidenheim
+73566,25,25 - Schwäbisch Gmünd
+73568,25,25 - Schwäbisch Gmünd
+73569,25,25 - Schwäbisch Gmünd
+73571,25,25 - Schwäbisch Gmünd
+73572,25,25 - Schwäbisch Gmünd
+73574,25,25 - Schwäbisch Gmünd
+73575,25,25 - Schwäbisch Gmünd
+73577,25,25 - Schwäbisch Gmünd
+73579,25,25 - Schwäbisch Gmünd
+73614,16,16 - Schorndorf
+73630,16,16 - Schorndorf
+73635,16,16 - Schorndorf
+73635,17,17 - Backnang
+73642,16,16 - Schorndorf
+73642,17,17 - Backnang
+73650,8,08 - Kirchheim
+73650,16,16 - Schorndorf
+73655,16,16 - Schorndorf
+73655,17,17 - Backnang
+73660,16,16 - Schorndorf
+73663,15,15 - Waiblingen
+73663,16,16 - Schorndorf
+73663,17,17 - Backnang
+73666,8,08 - Kirchheim
+73667,17,17 - Backnang
+73669,8,08 - Kirchheim
+73728,7,07 - Esslingen
+73730,7,07 - Esslingen
+73732,7,07 - Esslingen
+73733,7,07 - Esslingen
+73734,7,07 - Esslingen
+73760,1,01 - Stuttgart I
+73760,2,02 - Stuttgart II
+73760,3,03 - Stuttgart III
+73760,4,04 - Stuttgart IV
+73760,7,07 - Esslingen
+73765,7,07 - Esslingen
+73770,7,07 - Esslingen
+73773,7,07 - Esslingen
+73776,7,07 - Esslingen
+73776,8,08 - Kirchheim
+73779,8,08 - Kirchheim
+74072,18,18 - Heilbronn
+74074,18,18 - Heilbronn
+74076,18,18 - Heilbronn
+74076,20,20 - Neckarsulm
+74078,18,18 - Heilbronn
+74080,18,18 - Heilbronn
+74081,18,18 - Heilbronn
+74172,18,18 - Heilbronn
+74172,20,20 - Neckarsulm
+74177,20,20 - Neckarsulm
+74182,20,20 - Neckarsulm
+74189,20,20 - Neckarsulm
+74193,19,19 - Eppingen
+74196,20,20 - Neckarsulm
+74199,19,19 - Eppingen
+74206,20,20 - Neckarsulm
+74211,18,18 - Heilbronn
+74214,21,21 - Hohenlohe
+74219,20,20 - Neckarsulm
+74223,18,18 - Heilbronn
+74223,19,19 - Eppingen
+74226,18,18 - Heilbronn
+74229,20,20 - Neckarsulm
+74232,19,19 - Eppingen
+74235,20,20 - Neckarsulm
+74238,21,21 - Hohenlohe
+74239,20,20 - Neckarsulm
+74243,20,20 - Neckarsulm
+74245,19,19 - Eppingen
+74245,20,20 - Neckarsulm
+74246,20,20 - Neckarsulm
+74248,20,20 - Neckarsulm
+74249,20,20 - Neckarsulm
+74249,21,21 - Hohenlohe
+74251,20,20 - Neckarsulm
+74252,19,19 - Eppingen
+74254,20,20 - Neckarsulm
+74255,20,20 - Neckarsulm
+74257,20,20 - Neckarsulm
+74259,20,20 - Neckarsulm
+74321,12,12 - Ludwigsburg
+74321,14,14 - Bietigheim-Bissingen
+74336,19,19 - Eppingen
+74343,13,13 - Vaihingen
+74348,18,18 - Heilbronn
+74348,19,19 - Eppingen
+74354,14,14 - Bietigheim-Bissingen
+74357,13,13 - Vaihingen
+74357,14,14 - Bietigheim-Bissingen
+74360,19,19 - Eppingen
+74363,19,19 - Eppingen
+74366,14,14 - Bietigheim-Bissingen
+74369,14,14 - Bietigheim-Bissingen
+74372,13,13 - Vaihingen
+74374,19,19 - Eppingen
+74376,14,14 - Bietigheim-Bissingen
+74379,14,14 - Bietigheim-Bissingen
+74382,14,14 - Bietigheim-Bissingen
+74382,19,19 - Eppingen
+74385,14,14 - Bietigheim-Bissingen
+74388,18,18 - Heilbronn
+74388,19,19 - Eppingen
+74389,19,19 - Eppingen
+74391,13,13 - Vaihingen
+74391,14,14 - Bietigheim-Bissingen
+74392,14,14 - Bietigheim-Bissingen
+74394,14,14 - Bietigheim-Bissingen
+74395,14,14 - Bietigheim-Bissingen
+74397,19,19 - Eppingen
+74399,14,14 - Bietigheim-Bissingen
+74405,22,22 - Schwäbisch Hall
+74417,25,25 - Schwäbisch Gmünd
+74420,22,22 - Schwäbisch Hall
+74423,22,22 - Schwäbisch Hall
+74424,22,22 - Schwäbisch Hall
+74426,22,22 - Schwäbisch Hall
+74427,22,22 - Schwäbisch Hall
+74429,22,22 - Schwäbisch Hall
+74523,21,21 - Hohenlohe
+74523,22,22 - Schwäbisch Hall
+74532,22,22 - Schwäbisch Hall
+74535,22,22 - Schwäbisch Hall
+74538,22,22 - Schwäbisch Hall
+74541,22,22 - Schwäbisch Hall
+74542,21,21 - Hohenlohe
+74544,22,22 - Schwäbisch Hall
+74545,21,21 - Hohenlohe
+74545,22,22 - Schwäbisch Hall
+74547,21,21 - Hohenlohe
+74549,22,22 - Schwäbisch Hall
+74564,22,22 - Schwäbisch Hall
+74572,21,21 - Hohenlohe
+74575,21,21 - Hohenlohe
+74579,22,22 - Schwäbisch Hall
+74579,26,26 - Aalen
+74582,21,21 - Hohenlohe
+74585,22,22 - Schwäbisch Hall
+74586,22,22 - Schwäbisch Hall
+74589,22,22 - Schwäbisch Hall
+74592,22,22 - Schwäbisch Hall
+74594,22,22 - Schwäbisch Hall
+74595,21,21 - Hohenlohe
+74597,22,22 - Schwäbisch Hall
+74597,26,26 - Aalen
+74599,22,22 - Schwäbisch Hall
+74613,21,21 - Hohenlohe
+74626,21,21 - Hohenlohe
+74629,21,21 - Hohenlohe
+74632,21,21 - Hohenlohe
+74635,21,21 - Hohenlohe
+74638,21,21 - Hohenlohe
+74638,22,22 - Schwäbisch Hall
+74639,21,21 - Hohenlohe
+74653,21,21 - Hohenlohe
+74670,21,21 - Hohenlohe
+74673,21,21 - Hohenlohe
+74676,21,21 - Hohenlohe
+74677,21,21 - Hohenlohe
+74679,21,21 - Hohenlohe
+74706,38,38 - Neckar-Odenwald
+74722,38,38 - Neckar-Odenwald
+74731,38,38 - Neckar-Odenwald
+74736,38,38 - Neckar-Odenwald
+74740,38,38 - Neckar-Odenwald
+74743,38,38 - Neckar-Odenwald
+74744,23,23 - Main-Tauber
+74746,38,38 - Neckar-Odenwald
+74747,38,38 - Neckar-Odenwald
+74749,38,38 - Neckar-Odenwald
+74821,38,38 - Neckar-Odenwald
+74831,20,20 - Neckarsulm
+74834,38,38 - Neckar-Odenwald
+74838,38,38 - Neckar-Odenwald
+74842,38,38 - Neckar-Odenwald
+74847,38,38 - Neckar-Odenwald
+74850,38,38 - Neckar-Odenwald
+74855,38,38 - Neckar-Odenwald
+74858,38,38 - Neckar-Odenwald
+74858,41,41 - Sinsheim
+74861,20,20 - Neckarsulm
+74862,38,38 - Neckar-Odenwald
+74864,38,38 - Neckar-Odenwald
+74865,38,38 - Neckar-Odenwald
+74867,38,38 - Neckar-Odenwald
+74869,38,38 - Neckar-Odenwald
+74869,41,41 - Sinsheim
+74889,41,41 - Sinsheim
+74906,19,19 - Eppingen
+74909,41,41 - Sinsheim
+74912,19,19 - Eppingen
+74915,41,41 - Sinsheim
+74918,41,41 - Sinsheim
+74921,41,41 - Sinsheim
+74924,19,19 - Eppingen
+74924,41,41 - Sinsheim
+74925,41,41 - Sinsheim
+74927,41,41 - Sinsheim
+74928,38,38 - Neckar-Odenwald
+74930,19,19 - Eppingen
+74931,41,41 - Sinsheim
+74933,41,41 - Sinsheim
+74934,41,41 - Sinsheim
+74936,19,19 - Eppingen
+74937,41,41 - Sinsheim
+74939,41,41 - Sinsheim
+75015,30,30 - Bretten
+75031,19,19 - Eppingen
+75038,30,30 - Bretten
+75045,30,30 - Bretten
+75050,19,19 - Eppingen
+75053,30,30 - Bretten
+75056,30,30 - Bretten
+75057,30,30 - Bretten
+75059,30,30 - Bretten
+75172,42,42 - Pforzheim
+75173,42,42 - Pforzheim
+75175,42,42 - Pforzheim
+75177,42,42 - Pforzheim
+75177,44,44 - Enz
+75179,42,42 - Pforzheim
+75179,44,44 - Enz
+75180,42,42 - Pforzheim
+75181,42,42 - Pforzheim
+75196,44,44 - Enz
+75203,44,44 - Enz
+75210,44,44 - Enz
+75217,42,42 - Pforzheim
+75217,44,44 - Enz
+75223,42,42 - Pforzheim
+75223,44,44 - Enz
+75228,42,42 - Pforzheim
+75233,44,44 - Enz
+75236,44,44 - Enz
+75239,44,44 - Enz
+75242,44,44 - Enz
+75245,44,44 - Enz
+75248,44,44 - Enz
+75249,42,42 - Pforzheim
+75249,44,44 - Enz
+75305,44,44 - Enz
+75323,43,43 - Calw
+75328,43,43 - Calw
+75331,42,42 - Pforzheim
+75334,44,44 - Enz
+75335,43,43 - Calw
+75337,43,43 - Calw
+75339,43,43 - Calw
+75339,44,44 - Enz
+75365,43,43 - Calw
+75378,43,43 - Calw
+75382,43,43 - Calw
+75385,43,43 - Calw
+75387,43,43 - Calw
+75389,43,43 - Calw
+75391,43,43 - Calw
+75392,6,06 - Leonberg
+75394,43,43 - Calw
+75395,43,43 - Calw
+75397,43,43 - Calw
+75399,43,43 - Calw
+75399,44,44 - Enz
+75417,44,44 - Enz
+75428,44,44 - Enz
+75433,44,44 - Enz
+75438,44,44 - Enz
+75443,44,44 - Enz
+75446,44,44 - Enz
+75447,44,44 - Enz
+75449,42,42 - Pforzheim
+75449,44,44 - Enz
+76131,27,27 - Karlsruhe I
+76131,28,28 - Karlsruhe II
+76133,27,27 - Karlsruhe I
+76133,28,28 - Karlsruhe II
+76135,27,27 - Karlsruhe I
+76135,28,28 - Karlsruhe II
+76137,27,27 - Karlsruhe I
+76137,28,28 - Karlsruhe II
+76139,27,27 - Karlsruhe I
+76139,28,28 - Karlsruhe II
+76149,27,27 - Karlsruhe I
+76149,28,28 - Karlsruhe II
+76185,27,27 - Karlsruhe I
+76185,28,28 - Karlsruhe II
+76187,27,27 - Karlsruhe I
+76187,28,28 - Karlsruhe II
+76189,27,27 - Karlsruhe I
+76189,28,28 - Karlsruhe II
+76199,27,27 - Karlsruhe I
+76199,28,28 - Karlsruhe II
+76227,27,27 - Karlsruhe I
+76227,28,28 - Karlsruhe II
+76228,27,27 - Karlsruhe I
+76228,28,28 - Karlsruhe II
+76229,27,27 - Karlsruhe I
+76229,28,28 - Karlsruhe II
+76275,27,27 - Karlsruhe I
+76275,28,28 - Karlsruhe II
+76275,31,31 - Ettlingen
+76287,31,31 - Ettlingen
+76297,30,30 - Bretten
+76307,31,31 - Ettlingen
+76316,31,31 - Ettlingen
+76327,27,27 - Karlsruhe I
+76327,28,28 - Karlsruhe II
+76327,31,31 - Ettlingen
+76332,32,32 - Rastatt
+76332,43,43 - Calw
+76337,31,31 - Ettlingen
+76344,30,30 - Bretten
+76351,30,30 - Bretten
+76356,30,30 - Bretten
+76359,31,31 - Ettlingen
+76437,32,32 - Rastatt
+76448,32,32 - Rastatt
+76456,32,32 - Rastatt
+76461,32,32 - Rastatt
+76467,32,32 - Rastatt
+76470,32,32 - Rastatt
+76473,32,32 - Rastatt
+76473,33,33 - Baden-Baden
+76474,32,32 - Rastatt
+76476,32,32 - Rastatt
+76477,32,32 - Rastatt
+76479,32,32 - Rastatt
+76530,33,33 - Baden-Baden
+76532,33,33 - Baden-Baden
+76534,33,33 - Baden-Baden
+76547,33,33 - Baden-Baden
+76549,33,33 - Baden-Baden
+76571,31,31 - Ettlingen
+76571,32,32 - Rastatt
+76593,32,32 - Rastatt
+76596,32,32 - Rastatt
+76597,32,32 - Rastatt
+76599,32,32 - Rastatt
+76646,29,29 - Bruchsal
+76661,29,29 - Bruchsal
+76669,29,29 - Bruchsal
+76676,30,30 - Bretten
+76684,29,29 - Bruchsal
+76689,29,29 - Bruchsal
+76694,29,29 - Bruchsal
+76698,29,29 - Bruchsal
+76703,30,30 - Bretten
+76706,30,30 - Bretten
+76707,29,29 - Bruchsal
+76709,29,29 - Bruchsal
+76726,29,29 - Bruchsal
+76726,30,30 - Bretten
+76744,27,27 - Karlsruhe I
+76744,28,28 - Karlsruhe II
+76744,30,30 - Bretten
+76767,27,27 - Karlsruhe I
+76767,28,28 - Karlsruhe II
+76771,30,30 - Bretten
+76774,30,30 - Bretten
+76776,27,27 - Karlsruhe I
+76776,28,28 - Karlsruhe II
+76776,31,31 - Ettlingen
+76776,32,32 - Rastatt
+76777,30,30 - Bretten
+77652,51,51 - Offenburg
+77654,51,51 - Offenburg
+77656,51,51 - Offenburg
+77694,52,52 - Kehl
+77704,52,52 - Kehl
+77709,50,50 - Lahr
+77716,50,50 - Lahr
+77723,51,51 - Offenburg
+77728,51,51 - Offenburg
+77731,52,52 - Kehl
+77736,51,51 - Offenburg
+77740,51,51 - Offenburg
+77743,51,51 - Offenburg
+77746,51,51 - Offenburg
+77749,51,51 - Offenburg
+77756,50,50 - Lahr
+77761,53,53 - Rottweil
+77767,52,52 - Kehl
+77770,51,51 - Offenburg
+77773,53,53 - Rottweil
+77776,45,45 - Freudenstadt
+77781,50,50 - Lahr
+77781,51,51 - Offenburg
+77784,51,51 - Offenburg
+77787,51,51 - Offenburg
+77790,50,50 - Lahr
+77791,51,51 - Offenburg
+77793,50,50 - Lahr
+77794,52,52 - Kehl
+77796,50,50 - Lahr
+77797,51,51 - Offenburg
+77799,51,51 - Offenburg
+77815,33,33 - Baden-Baden
+77815,52,52 - Kehl
+77830,33,33 - Baden-Baden
+77833,33,33 - Baden-Baden
+77833,52,52 - Kehl
+77836,33,33 - Baden-Baden
+77839,33,33 - Baden-Baden
+77855,52,52 - Kehl
+77866,52,52 - Kehl
+77871,52,52 - Kehl
+77876,52,52 - Kehl
+77880,52,52 - Kehl
+77883,52,52 - Kehl
+77886,52,52 - Kehl
+77887,52,52 - Kehl
+77889,52,52 - Kehl
+77933,50,50 - Lahr
+77948,50,50 - Lahr
+77955,50,50 - Lahr
+77960,50,50 - Lahr
+77963,50,50 - Lahr
+77966,50,50 - Lahr
+77971,50,50 - Lahr
+77972,50,50 - Lahr
+77974,50,50 - Lahr
+77975,50,50 - Lahr
+77977,50,50 - Lahr
+77978,50,50 - Lahr
+78048,54,54 - Villingen-Schwenningen
+78050,54,54 - Villingen-Schwenningen
+78052,54,54 - Villingen-Schwenningen
+78054,54,54 - Villingen-Schwenningen
+78056,54,54 - Villingen-Schwenningen
+78073,54,54 - Villingen-Schwenningen
+78078,54,54 - Villingen-Schwenningen
+78083,54,54 - Villingen-Schwenningen
+78086,54,54 - Villingen-Schwenningen
+78087,54,54 - Villingen-Schwenningen
+78089,54,54 - Villingen-Schwenningen
+78098,54,54 - Villingen-Schwenningen
+78112,54,54 - Villingen-Schwenningen
+78120,54,54 - Villingen-Schwenningen
+78126,53,53 - Rottweil
+78126,54,54 - Villingen-Schwenningen
+78132,50,50 - Lahr
+78136,54,54 - Villingen-Schwenningen
+78141,54,54 - Villingen-Schwenningen
+78144,53,53 - Rottweil
+78147,54,54 - Villingen-Schwenningen
+78148,54,54 - Villingen-Schwenningen
+78166,54,54 - Villingen-Schwenningen
+78166,55,55 - Tuttlingen-Donaueschingen
+78176,55,55 - Tuttlingen-Donaueschingen
+78183,55,55 - Tuttlingen-Donaueschingen
+78187,55,55 - Tuttlingen-Donaueschingen
+78194,55,55 - Tuttlingen-Donaueschingen
+78199,54,54 - Villingen-Schwenningen
+78199,55,55 - Tuttlingen-Donaueschingen
+78224,57,57 - Singen
+78234,55,55 - Tuttlingen-Donaueschingen
+78234,57,57 - Singen
+78239,57,57 - Singen
+78244,57,57 - Singen
+78247,57,57 - Singen
+78250,57,57 - Singen
+78253,57,57 - Singen
+78256,57,57 - Singen
+78259,57,57 - Singen
+78262,57,57 - Singen
+78266,57,57 - Singen
+78267,57,57 - Singen
+78269,57,57 - Singen
+78315,56,56 - Konstanz
+78333,57,57 - Singen
+78337,56,56 - Konstanz
+78343,56,56 - Konstanz
+78345,56,56 - Konstanz
+78351,57,57 - Singen
+78354,67,67 - Bodensee
+78355,57,57 - Singen
+78357,57,57 - Singen
+78359,57,57 - Singen
+78462,56,56 - Konstanz
+78464,56,56 - Konstanz
+78465,56,56 - Konstanz
+78467,56,56 - Konstanz
+78476,56,56 - Konstanz
+78479,56,56 - Konstanz
+78532,55,55 - Tuttlingen-Donaueschingen
+78549,55,55 - Tuttlingen-Donaueschingen
+78554,55,55 - Tuttlingen-Donaueschingen
+78559,55,55 - Tuttlingen-Donaueschingen
+78564,55,55 - Tuttlingen-Donaueschingen
+78567,55,55 - Tuttlingen-Donaueschingen
+78570,55,55 - Tuttlingen-Donaueschingen
+78573,55,55 - Tuttlingen-Donaueschingen
+78576,55,55 - Tuttlingen-Donaueschingen
+78579,55,55 - Tuttlingen-Donaueschingen
+78580,55,55 - Tuttlingen-Donaueschingen
+78582,55,55 - Tuttlingen-Donaueschingen
+78583,55,55 - Tuttlingen-Donaueschingen
+78585,55,55 - Tuttlingen-Donaueschingen
+78586,55,55 - Tuttlingen-Donaueschingen
+78588,55,55 - Tuttlingen-Donaueschingen
+78589,55,55 - Tuttlingen-Donaueschingen
+78591,55,55 - Tuttlingen-Donaueschingen
+78592,55,55 - Tuttlingen-Donaueschingen
+78594,55,55 - Tuttlingen-Donaueschingen
+78595,55,55 - Tuttlingen-Donaueschingen
+78597,55,55 - Tuttlingen-Donaueschingen
+78597,70,70 - Sigmaringen
+78598,55,55 - Tuttlingen-Donaueschingen
+78600,55,55 - Tuttlingen-Donaueschingen
+78601,55,55 - Tuttlingen-Donaueschingen
+78603,55,55 - Tuttlingen-Donaueschingen
+78604,55,55 - Tuttlingen-Donaueschingen
+78606,55,55 - Tuttlingen-Donaueschingen
+78607,55,55 - Tuttlingen-Donaueschingen
+78609,54,54 - Villingen-Schwenningen
+78628,53,53 - Rottweil
+78647,54,54 - Villingen-Schwenningen
+78647,55,55 - Tuttlingen-Donaueschingen
+78652,53,53 - Rottweil
+78655,53,53 - Rottweil
+78658,53,53 - Rottweil
+78661,53,53 - Rottweil
+78662,53,53 - Rottweil
+78664,53,53 - Rottweil
+78665,55,55 - Tuttlingen-Donaueschingen
+78667,53,53 - Rottweil
+78669,53,53 - Rottweil
+78713,53,53 - Rottweil
+78727,53,53 - Rottweil
+78730,53,53 - Rottweil
+78733,53,53 - Rottweil
+78736,53,53 - Rottweil
+78737,53,53 - Rottweil
+78739,53,53 - Rottweil
+79098,46,46 - Freiburg I
+79098,47,47 - Freiburg II
+79100,46,46 - Freiburg I
+79100,47,47 - Freiburg II
+79102,46,46 - Freiburg I
+79102,47,47 - Freiburg II
+79104,46,46 - Freiburg I
+79104,47,47 - Freiburg II
+79106,46,46 - Freiburg I
+79106,47,47 - Freiburg II
+79108,46,46 - Freiburg I
+79108,47,47 - Freiburg II
+79110,46,46 - Freiburg I
+79110,47,47 - Freiburg II
+79111,46,46 - Freiburg I
+79111,47,47 - Freiburg II
+79112,46,46 - Freiburg I
+79112,47,47 - Freiburg II
+79114,46,46 - Freiburg I
+79114,47,47 - Freiburg II
+79115,46,46 - Freiburg I
+79115,47,47 - Freiburg II
+79117,46,46 - Freiburg I
+79117,47,47 - Freiburg II
+79183,49,49 - Emmendingen
+79189,48,48 - Breisgau
+79194,46,46 - Freiburg I
+79199,46,46 - Freiburg I
+79206,48,48 - Breisgau
+79211,49,49 - Emmendingen
+79215,49,49 - Emmendingen
+79219,48,48 - Breisgau
+79224,46,46 - Freiburg I
+79224,47,47 - Freiburg II
+79227,46,46 - Freiburg I
+79227,47,47 - Freiburg II
+79232,47,47 - Freiburg II
+79235,48,48 - Breisgau
+79238,48,48 - Breisgau
+79241,48,48 - Breisgau
+79244,48,48 - Breisgau
+79249,48,48 - Breisgau
+79252,46,46 - Freiburg I
+79254,46,46 - Freiburg I
+79256,46,46 - Freiburg I
+79258,48,48 - Breisgau
+79261,49,49 - Emmendingen
+79263,49,49 - Emmendingen
+79268,48,48 - Breisgau
+79271,46,46 - Freiburg I
+79271,49,49 - Emmendingen
+79274,46,46 - Freiburg I
+79276,49,49 - Emmendingen
+79279,49,49 - Emmendingen
+79280,48,48 - Breisgau
+79282,48,48 - Breisgau
+79283,48,48 - Breisgau
+79285,47,47 - Freiburg II
+79285,48,48 - Breisgau
+79286,46,46 - Freiburg I
+79288,47,47 - Freiburg II
+79289,48,48 - Breisgau
+79291,48,48 - Breisgau
+79292,48,48 - Breisgau
+79294,48,48 - Breisgau
+79295,48,48 - Breisgau
+79297,49,49 - Emmendingen
+79299,48,48 - Breisgau
+79312,49,49 - Emmendingen
+79331,49,49 - Emmendingen
+79336,49,49 - Emmendingen
+79341,49,49 - Emmendingen
+79346,49,49 - Emmendingen
+79348,49,49 - Emmendingen
+79350,49,49 - Emmendingen
+79353,49,49 - Emmendingen
+79356,48,48 - Breisgau
+79356,49,49 - Emmendingen
+79359,49,49 - Emmendingen
+79361,49,49 - Emmendingen
+79362,49,49 - Emmendingen
+79364,49,49 - Emmendingen
+79365,49,49 - Emmendingen
+79367,49,49 - Emmendingen
+79369,49,49 - Emmendingen
+79379,48,48 - Breisgau
+79395,48,48 - Breisgau
+79400,48,48 - Breisgau
+79400,58,58 - Lörrach
+79410,48,48 - Breisgau
+79415,58,58 - Lörrach
+79418,48,48 - Breisgau
+79423,48,48 - Breisgau
+79424,48,48 - Breisgau
+79426,48,48 - Breisgau
+79427,48,48 - Breisgau
+79429,48,48 - Breisgau
+79539,58,58 - Lörrach
+79540,58,58 - Lörrach
+79541,58,58 - Lörrach
+79576,58,58 - Lörrach
+79585,58,58 - Lörrach
+79588,58,58 - Lörrach
+79589,58,58 - Lörrach
+79591,58,58 - Lörrach
+79592,58,58 - Lörrach
+79594,58,58 - Lörrach
+79595,58,58 - Lörrach
+79597,58,58 - Lörrach
+79599,58,58 - Lörrach
+79618,59,59 - Waldshut
+79639,58,58 - Lörrach
+79650,58,58 - Lörrach
+79664,59,59 - Waldshut
+79669,58,58 - Lörrach
+79674,58,58 - Lörrach
+79677,58,58 - Lörrach
+79682,46,46 - Freiburg I
+79685,58,58 - Lörrach
+79686,58,58 - Lörrach
+79688,58,58 - Lörrach
+79689,58,58 - Lörrach
+79692,58,58 - Lörrach
+79694,58,58 - Lörrach
+79695,58,58 - Lörrach
+79713,59,59 - Waldshut
+79725,59,59 - Waldshut
+79730,59,59 - Waldshut
+79733,59,59 - Waldshut
+79736,59,59 - Waldshut
+79737,59,59 - Waldshut
+79739,59,59 - Waldshut
+79761,59,59 - Waldshut
+79771,59,59 - Waldshut
+79774,59,59 - Waldshut
+79777,46,46 - Freiburg I
+79780,59,59 - Waldshut
+79787,59,59 - Waldshut
+79790,59,59 - Waldshut
+79793,59,59 - Waldshut
+79798,59,59 - Waldshut
+79801,59,59 - Waldshut
+79802,59,59 - Waldshut
+79804,59,59 - Waldshut
+79805,59,59 - Waldshut
+79807,59,59 - Waldshut
+79809,59,59 - Waldshut
+79822,46,46 - Freiburg I
+79837,46,46 - Freiburg I
+79843,46,46 - Freiburg I
+79848,46,46 - Freiburg I
+79853,46,46 - Freiburg I
+79856,46,46 - Freiburg I
+79859,46,46 - Freiburg I
+79862,46,46 - Freiburg I
+79865,46,46 - Freiburg I
+79868,46,46 - Freiburg I
+79871,46,46 - Freiburg I
+79872,46,46 - Freiburg I
+79874,46,46 - Freiburg I
+79875,46,46 - Freiburg I
+79877,46,46 - Freiburg I
+79879,46,46 - Freiburg I
+86720,26,26 - Aalen
+86735,24,24 - Heidenheim
+86735,26,26 - Aalen
+86739,26,26 - Aalen
+86742,26,26 - Aalen
+86748,26,26 - Aalen
+86757,26,26 - Aalen
+87452,68,68 - Wangen
+87474,68,68 - Wangen
+87480,68,68 - Wangen
+87700,68,68 - Wangen
+87740,68,68 - Wangen
+87748,68,68 - Wangen
+87751,68,68 - Wangen
+87758,68,68 - Wangen
+87763,68,68 - Wangen
+87764,68,68 - Wangen
+87773,68,68 - Wangen
+88045,67,67 - Bodensee
+88046,67,67 - Bodensee
+88046,69,69 - Ravensburg
+88048,67,67 - Bodensee
+88069,69,69 - Ravensburg
+88074,69,69 - Ravensburg
+88079,67,67 - Bodensee
+88079,69,69 - Ravensburg
+88085,67,67 - Bodensee
+88090,67,67 - Bodensee
+88094,67,67 - Bodensee
+88097,67,67 - Bodensee
+88099,69,69 - Ravensburg
+88131,67,67 - Bodensee
+88131,68,68 - Wangen
+88131,69,69 - Ravensburg
+88138,68,68 - Wangen
+88142,67,67 - Bodensee
+88145,68,68 - Wangen
+88147,68,68 - Wangen
+88147,69,69 - Ravensburg
+88149,67,67 - Bodensee
+88167,68,68 - Wangen
+88178,68,68 - Wangen
+88212,69,69 - Ravensburg
+88213,69,69 - Ravensburg
+88214,69,69 - Ravensburg
+88239,68,68 - Wangen
+88250,69,69 - Ravensburg
+88255,69,69 - Ravensburg
+88260,68,68 - Wangen
+88263,69,69 - Ravensburg
+88267,68,68 - Wangen
+88271,69,69 - Ravensburg
+88273,69,69 - Ravensburg
+88276,69,69 - Ravensburg
+88279,68,68 - Wangen
+88281,69,69 - Ravensburg
+88284,69,69 - Ravensburg
+88285,69,69 - Ravensburg
+88287,69,69 - Ravensburg
+88289,69,69 - Ravensburg
+88299,68,68 - Wangen
+88316,68,68 - Wangen
+88317,68,68 - Wangen
+88319,68,68 - Wangen
+88326,68,68 - Wangen
+88339,68,68 - Wangen
+88348,66,66 - Biberach
+88348,70,70 - Sigmaringen
+88353,68,68 - Wangen
+88356,70,70 - Sigmaringen
+88361,69,69 - Ravensburg
+88364,68,68 - Wangen
+88367,70,70 - Sigmaringen
+88368,68,68 - Wangen
+88370,69,69 - Ravensburg
+88371,69,69 - Ravensburg
+88373,69,69 - Ravensburg
+88374,69,69 - Ravensburg
+88376,69,69 - Ravensburg
+88377,69,69 - Ravensburg
+88379,69,69 - Ravensburg
+88400,66,66 - Biberach
+88410,68,68 - Wangen
+88416,66,66 - Biberach
+88422,66,66 - Biberach
+88427,66,66 - Biberach
+88430,68,68 - Wangen
+88433,66,66 - Biberach
+88436,66,66 - Biberach
+88437,66,66 - Biberach
+88441,66,66 - Biberach
+88444,66,66 - Biberach
+88447,66,66 - Biberach
+88448,66,66 - Biberach
+88450,68,68 - Wangen
+88451,68,68 - Wangen
+88453,68,68 - Wangen
+88454,66,66 - Biberach
+88456,66,66 - Biberach
+88457,68,68 - Wangen
+88459,68,68 - Wangen
+88471,66,66 - Biberach
+88477,66,66 - Biberach
+88480,66,66 - Biberach
+88481,64,64 - Ulm
+88483,66,66 - Biberach
+88484,66,66 - Biberach
+88486,68,68 - Wangen
+88487,66,66 - Biberach
+88489,66,66 - Biberach
+88499,65,65 - Ehingen
+88499,66,66 - Biberach
+88512,70,70 - Sigmaringen
+88515,66,66 - Biberach
+88518,70,70 - Sigmaringen
+88521,66,66 - Biberach
+88524,66,66 - Biberach
+88525,66,66 - Biberach
+88527,66,66 - Biberach
+88529,61,61 - Hechingen-Münsingen
+88605,70,70 - Sigmaringen
+88630,70,70 - Sigmaringen
+88631,70,70 - Sigmaringen
+88633,67,67 - Bodensee
+88634,70,70 - Sigmaringen
+88636,70,70 - Sigmaringen
+88637,55,55 - Tuttlingen-Donaueschingen
+88637,70,70 - Sigmaringen
+88639,70,70 - Sigmaringen
+88662,67,67 - Bodensee
+88677,67,67 - Bodensee
+88682,67,67 - Bodensee
+88690,67,67 - Bodensee
+88693,67,67 - Bodensee
+88696,67,67 - Bodensee
+88697,67,67 - Bodensee
+88699,67,67 - Bodensee
+88709,67,67 - Bodensee
+88718,67,67 - Bodensee
+88719,67,67 - Bodensee
+89073,64,64 - Ulm
+89075,64,64 - Ulm
+89077,64,64 - Ulm
+89079,64,64 - Ulm
+89081,64,64 - Ulm
+89129,65,65 - Ehingen
+89134,64,64 - Ulm
+89143,65,65 - Ehingen
+89150,65,65 - Ehingen
+89155,64,64 - Ulm
+89160,65,65 - Ehingen
+89165,64,64 - Ulm
+89165,66,66 - Biberach
+89168,24,24 - Heidenheim
+89171,64,64 - Ulm
+89173,65,65 - Ehingen
+89174,65,65 - Ehingen
+89176,24,24 - Heidenheim
+89176,65,65 - Ehingen
+89177,65,65 - Ehingen
+89179,65,65 - Ehingen
+89180,65,65 - Ehingen
+89182,65,65 - Ehingen
+89183,65,65 - Ehingen
+89185,64,64 - Ulm
+89186,64,64 - Ulm
+89188,65,65 - Ehingen
+89189,65,65 - Ehingen
+89191,65,65 - Ehingen
+89192,65,65 - Ehingen
+89194,64,64 - Ulm
+89195,64,64 - Ulm
+89197,65,65 - Ehingen
+89198,65,65 - Ehingen
+89231,64,64 - Ulm
+89233,64,64 - Ulm
+89250,64,64 - Ulm
+89257,64,64 - Ulm
+89269,64,64 - Ulm
+89275,64,64 - Ulm
+89275,65,65 - Ehingen
+89281,64,64 - Ulm
+89281,68,68 - Wangen
+89293,68,68 - Wangen
+89312,24,24 - Heidenheim
+89312,65,65 - Ehingen
+89340,65,65 - Ehingen
+89423,24,24 - Heidenheim
+89426,24,24 - Heidenheim
+89428,24,24 - Heidenheim
+89429,24,24 - Heidenheim
+89431,24,24 - Heidenheim
+89435,24,24 - Heidenheim
+89441,24,24 - Heidenheim
+89446,24,24 - Heidenheim
+89447,24,24 - Heidenheim
+89518,24,24 - Heidenheim
+89520,24,24 - Heidenheim
+89522,24,24 - Heidenheim
+89537,24,24 - Heidenheim
+89542,24,24 - Heidenheim
+89547,24,24 - Heidenheim
+89551,24,24 - Heidenheim
+89555,24,24 - Heidenheim
+89558,11,11 - Geislingen
+89561,24,24 - Heidenheim
+89564,24,24 - Heidenheim
+89567,24,24 - Heidenheim
+89568,24,24 - Heidenheim
+89584,65,65 - Ehingen
+89597,65,65 - Ehingen
+89601,65,65 - Ehingen
+89604,65,65 - Ehingen
+89605,65,65 - Ehingen
+89607,65,65 - Ehingen
+89607,66,66 - Biberach
+89608,65,65 - Ehingen
+89610,65,65 - Ehingen
+89611,65,65 - Ehingen
+89613,65,65 - Ehingen
+89613,66,66 - Biberach
+89614,65,65 - Ehingen
+89616,65,65 - Ehingen
+89617,65,65 - Ehingen
+89619,65,65 - Ehingen
+91541,21,21 - Hohenlohe
+91541,22,22 - Schwäbisch Hall
+91541,23,23 - Main-Tauber
+91550,22,22 - Schwäbisch Hall
+91550,26,26 - Aalen
+91555,22,22 - Schwäbisch Hall
+91587,23,23 - Main-Tauber
+91610,22,22 - Schwäbisch Hall
+91614,26,26 - Aalen
+91625,22,22 - Schwäbisch Hall
+91628,23,23 - Main-Tauber
+91631,22,22 - Schwäbisch Hall
+91634,26,26 - Aalen
+97215,23,23 - Main-Tauber
+97237,23,23 - Main-Tauber
+97239,23,23 - Main-Tauber
+97243,23,23 - Main-Tauber
+97244,23,23 - Main-Tauber
+97258,23,23 - Main-Tauber
+97264,23,23 - Main-Tauber
+97268,23,23 - Main-Tauber
+97270,23,23 - Main-Tauber
+97271,23,23 - Main-Tauber
+97277,23,23 - Main-Tauber
+97283,23,23 - Main-Tauber
+97285,23,23 - Main-Tauber
+97292,23,23 - Main-Tauber
+97855,23,23 - Main-Tauber
+97877,23,23 - Main-Tauber
+97892,23,23 - Main-Tauber
+97896,23,23 - Main-Tauber
+97900,23,23 - Main-Tauber
+97903,23,23 - Main-Tauber
+97904,23,23 - Main-Tauber
+97906,23,23 - Main-Tauber
+97907,23,23 - Main-Tauber
+97909,23,23 - Main-Tauber
+97922,23,23 - Main-Tauber
+97941,23,23 - Main-Tauber
+97944,23,23 - Main-Tauber
+97947,23,23 - Main-Tauber
+97950,23,23 - Main-Tauber
+97953,23,23 - Main-Tauber
+97956,23,23 - Main-Tauber
+97957,23,23 - Main-Tauber
+97959,23,23 - Main-Tauber
+97980,23,23 - Main-Tauber
+97990,23,23 - Main-Tauber
+97993,23,23 - Main-Tauber
+97996,23,23 - Main-Tauber
+97999,23,23 - Main-Tauber

@@ -1,0 +1,1623 @@
+[
+  {
+    "id": "lt-brandenburg-63564",
+    "name": "Jean-René Adam",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jean-rene-adam",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Prignitz I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63565",
+    "name": "Torsten Arndt",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/torsten-arndt",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Prignitz II / Ostprignitz-Ruppin II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63566",
+    "name": "Ulrike Liedtke",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulrike-liedtke",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Ostprignitz-Ruppin I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63567",
+    "name": "Kai Berger",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kai-berger",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Ostprignitz-Ruppin III / Havelland III"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63568",
+    "name": "Johannes Funke",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/johannes-funke",
+    "wahlkreis": {
+      "number": 5,
+      "name": "Havelland I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63569",
+    "name": "Julia Sahi",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-sahi",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Havelland II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63570",
+    "name": "Andreas Noack",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-noack-0",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Oberhavel I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63571",
+    "name": "Benjamin Grimm",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benjamin-grimm",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Oberhavel II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63572",
+    "name": "Tim Zimmermann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tim-zimmermann",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Oberhavel III"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63573",
+    "name": "Andreas Galau",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-galau",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Uckermark III / Oberhavel IV"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63574",
+    "name": "Felix Teichner",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/felix-teichner",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Uckermark I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63575",
+    "name": "Norbert Rescher",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/norbert-rescher",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Uckermark II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63576",
+    "name": "Roman Kuffert",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/roman-kuffert",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Barnim I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63577",
+    "name": "Steffen John",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/steffen-john",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Barnim II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63578",
+    "name": "Lena Kotré",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lena-kotre",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Barnim III"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63579",
+    "name": "Udo Wernitz",
+    "party": "SPD",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/udo-wernitz",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Brandenburg an der Havel I / Potsdam-Mittelmark I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63580",
+    "name": "Britta Kornmesser",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/britta-kornmesser",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Brandenburg an der Havel II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63581",
+    "name": "Melanie Balzer",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/melanie-balzer",
+    "wahlkreis": {
+      "number": 18,
+      "name": "Potsdam-Mittelmark II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63582",
+    "name": "Uwe Adler",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uwe-adler",
+    "wahlkreis": {
+      "number": 19,
+      "name": "Potsdam-Mittelmark III / Potsdam III"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63583",
+    "name": "Sebastian Rüter",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-rueter",
+    "wahlkreis": {
+      "number": 20,
+      "name": "Potsdam-Mittelmark IV"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63584",
+    "name": "Manja Schüle",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/manja-schuele",
+    "wahlkreis": {
+      "number": 21,
+      "name": "Potsdam I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63585",
+    "name": "Daniel Keller",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-keller",
+    "wahlkreis": {
+      "number": 22,
+      "name": "Potsdam II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63586",
+    "name": "Marcel Penquitt",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcel-penquitt",
+    "wahlkreis": {
+      "number": 23,
+      "name": "Teltow-Fläming I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63587",
+    "name": "Erik Stohn",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/erik-stohn",
+    "wahlkreis": {
+      "number": 24,
+      "name": "Teltow-Fläming II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63588",
+    "name": "Ines Seiler",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ines-seiler",
+    "wahlkreis": {
+      "number": 25,
+      "name": "Teltow-Fläming III"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63589",
+    "name": "Tina Fischer",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tina-fischer",
+    "wahlkreis": {
+      "number": 26,
+      "name": "Dahme-Spreewald I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63590",
+    "name": "Ludwig Scheetz",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ludwig-scheetz",
+    "wahlkreis": {
+      "number": 27,
+      "name": "Dahme-Spreewald II / Oder-Spree I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63591",
+    "name": "Hans-Christoph Berndt",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hans-christoph-berndt",
+    "wahlkreis": {
+      "number": 28,
+      "name": "Dahme-Spreewald III"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63592",
+    "name": "Dennis Hohloch",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dennis-hohloch",
+    "wahlkreis": {
+      "number": 29,
+      "name": "Oder-Spree II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63594",
+    "name": "Jörg Vogelsänger",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-vogelsaenger",
+    "wahlkreis": {
+      "number": 31,
+      "name": "Märkisch-Oderland I / Oder-Spree IV"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63595",
+    "name": "Erik Pardeik",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/erik-pardeik",
+    "wahlkreis": {
+      "number": 32,
+      "name": "Märkisch-Oderland II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63596",
+    "name": "Lars Günther",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lars-guenther",
+    "wahlkreis": {
+      "number": 33,
+      "name": "Märkisch-Oderland III"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63597",
+    "name": "Falk Janke",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/falk-janke",
+    "wahlkreis": {
+      "number": 34,
+      "name": "Märkisch-Oderland IV"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63598",
+    "name": "Wilko Möller",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wilko-moeller",
+    "wahlkreis": {
+      "number": 35,
+      "name": "Frankfurt (Oder)"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63599",
+    "name": "Peter Drenske",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-drenske",
+    "wahlkreis": {
+      "number": 36,
+      "name": "Elbe-Elster I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63600",
+    "name": "Volker Nothing",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volker-nothing",
+    "wahlkreis": {
+      "number": 37,
+      "name": "Elbe-Elster II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63602",
+    "name": "Fabian Jank",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/fabian-jank",
+    "wahlkreis": {
+      "number": 39,
+      "name": "Oberspreewald-Lausitz II / Spree-Neiße IV"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63603",
+    "name": "Daniel Münschke",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-muenschke",
+    "wahlkreis": {
+      "number": 40,
+      "name": "Oberspreewald-Lausitz III / Spree-Neiße III"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63604",
+    "name": "Steffen Kubitzki",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/steffen-kubitzki",
+    "wahlkreis": {
+      "number": 41,
+      "name": "Spree-Neiße I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63605",
+    "name": "Michael Hanko",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-hanko",
+    "wahlkreis": {
+      "number": 42,
+      "name": "Spree-Neiße II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63606",
+    "name": "Jean-Pascal Hohm",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jean-pascal-hohm",
+    "wahlkreis": {
+      "number": 43,
+      "name": "Cottbus I"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63607",
+    "name": "Lars Katzmarek",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lars-katzmarek",
+    "wahlkreis": {
+      "number": 44,
+      "name": "Cottbus II"
+    }
+  },
+  {
+    "id": "lt-brandenburg-63640",
+    "name": "André von Ossowski",
+    "party": "Wir für Brandenburg (Gruppe)",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andre-von-ossowski",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63645",
+    "name": "Andreas Kutsche",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-kutsche",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63614",
+    "name": "Annemarie Wolff",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/annemarie-wolff",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63623",
+    "name": "Benjamin Filter",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benjamin-filter",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63609",
+    "name": "Björn Lüttmann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bjoern-luettmann",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63647",
+    "name": "Christian Dorst",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-dorst",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-67623",
+    "name": "Corrado Gursch",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/corrado-gursch",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63620",
+    "name": "Daniel Freiherr von Lützow",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-freiherr-von-luetzow",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63651",
+    "name": "Daniela Oeynhausen",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniela-oeynhausen",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63633",
+    "name": "Danny Eichelbaum",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/danny-eichelbaum",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63650",
+    "name": "Dietmar Woidke",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dietmar-woidke",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63621",
+    "name": "Dominik Kaufner",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dominik-kaufner",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63635",
+    "name": "Ellen Fährmann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ellen-faehrmann",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63612",
+    "name": "Elske Hildebrandt",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/elske-hildebrandt",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63642",
+    "name": "Falk Peschel",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/falk-peschel",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63630",
+    "name": "Frank Bommert",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-bommert",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63626",
+    "name": "Gordon Hoffmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gordon-hoffmann",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63648",
+    "name": "Gunnar Lehmann",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gunnar-lehmann",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63613",
+    "name": "Hanka Mittelstädt",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hanka-mittelstaedt",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-69069",
+    "name": "Heiko Gehring",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heiko-gehring",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63624",
+    "name": "Jan Redmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-redmann",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63644",
+    "name": "Jenny Meyer",
+    "party": "BSW",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jenny-meyer",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63637",
+    "name": "Jouleen Gruhn",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jouleen-gruhn",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63634",
+    "name": "Julian Brüning",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julian-bruening",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63610",
+    "name": "Katja Poschmann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katja-poschmann",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63608",
+    "name": "Katrin Lange",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katrin-lange",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63625",
+    "name": "Kristy Augustin",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kristy-augustin",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63615",
+    "name": "Kurt Fischer",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kurt-fischer",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63622",
+    "name": "Lars Hünich",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lars-huenich",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-69021",
+    "name": "Marlon Deter",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marlon-deter",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63618",
+    "name": "Martina Maxi Schmidt",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-maxi-schmidt",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63617",
+    "name": "Matthias Steinfurth",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-steinfurth",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63641",
+    "name": "Melanie Matzies",
+    "party": "Wir für Brandenburg (Gruppe)",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/melanie-matzies",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63631",
+    "name": "Michael Schierack",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-schierack",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63616",
+    "name": "Nadine Graßmel",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nadine-grassmel",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63632",
+    "name": "Nicole Walter-Mundt",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nicole-walter-mundt",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63639",
+    "name": "Niels-Olaf Lüders",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/niels-olaf-lueders",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63649",
+    "name": "Oliver Skopec",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-skopec",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63627",
+    "name": "Rainer Genilke",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rainer-genilke",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63646",
+    "name": "Reinhard Simon",
+    "party": "Wir für Brandenburg (Gruppe)",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/reinhard-simon",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63636",
+    "name": "Robert Crumbach",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/robert-crumbach",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63619",
+    "name": "Sina Schönbrunn",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sina-schoenbrunn",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63628",
+    "name": "Steeven Bretz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/steeven-bretz",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63638",
+    "name": "Stefan Roth",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-roth",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63643",
+    "name": "Sven Hornauf",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sven-hornauf",
+    "state": "Brandenburg"
+  },
+  {
+    "id": "lt-brandenburg-63611",
+    "name": "Wolfgang Roick",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Brandenburg",
+    "address": {
+      "strasse": "Alter Markt 1",
+      "plz": "14467",
+      "ort": "Potsdam",
+      "label": "Landtag Brandenburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wolfgang-roick",
+    "state": "Brandenburg"
+  }
+]

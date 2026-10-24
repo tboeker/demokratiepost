@@ -1,0 +1,3865 @@
+[
+  {
+    "id": "lt-nrw-56201",
+    "name": "Astrid Vogelheim",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/astrid-vogelheim",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Aachen I"
+    },
+    "email": "astrid.vogelheim@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56202",
+    "name": "Annika Fohn",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/annika-fohn",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Aachen II"
+    },
+    "email": "annika.fohn@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56203",
+    "name": "Hendrik Schmitz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hendrik-schmitz",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Aachen III"
+    },
+    "email": "hendrik.schmitz@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56204",
+    "name": "Daniel Scheen-Pauls",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-scheen-pauls",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Aachen IV"
+    },
+    "email": "daniel.scheen-pauls@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56205",
+    "name": "Romina Plonsker",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/romina-plonsker",
+    "wahlkreis": {
+      "number": 5,
+      "name": "Rhein-Erft-Kreis I"
+    },
+    "email": "info@rominaplonsker.de"
+  },
+  {
+    "id": "lt-nrw-56206",
+    "name": "Thomas Okos",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-okos",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Rhein-Erft-Kreis II"
+    },
+    "email": "thomas.okos@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56207",
+    "name": "Gregor Golland",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gregor-golland",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Rhein-Erft-Kreis III"
+    },
+    "email": "gregor.golland@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56208",
+    "name": "Klaus Voussem",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "An der Vogelrute 9",
+      "plz": "53879",
+      "ort": "Euskirchen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/klaus-voussem",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Euskirchen I"
+    },
+    "email": "klaus.voussem@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56209",
+    "name": "Bernd Krückel",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernd-krueckel",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Heinsberg I"
+    },
+    "email": "bernd.krueckel@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56210",
+    "name": "Thomas Schnelle",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-schnelle",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Heinsberg II"
+    },
+    "email": "thomas.schnelle@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56211",
+    "name": "Patricia Peill",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/patricia-peill",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Düren I"
+    },
+    "email": "patricia.peill@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56213",
+    "name": "Eileen Woestmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eileen-woestmann",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Köln I"
+    },
+    "email": "eileen.woestmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56214",
+    "name": "Frank Jablonski",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-jablonski",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Köln II"
+    },
+    "email": "frank.jablonski@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56215",
+    "name": "Arndt Klocke",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/arndt-klocke",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Köln III"
+    },
+    "email": "arndt.klocke@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56216",
+    "name": "Lena Teschlade",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lena-teschlade",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Köln IV"
+    },
+    "email": "lena.teschlade@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56217",
+    "name": "Florian Braun",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/florian-braun",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Köln V"
+    },
+    "email": "florian.braun@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56218",
+    "name": "Berivan Aymaz",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/berivan-aymaz",
+    "wahlkreis": {
+      "number": 18,
+      "name": "Köln VI"
+    },
+    "email": "berivan.aymaz@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56219",
+    "name": "Carolin Kirsch",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carolin-kirsch",
+    "wahlkreis": {
+      "number": 19,
+      "name": "Köln VII"
+    },
+    "email": "carolin.kirsch@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56220",
+    "name": "Rüdiger Scholz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ruediger-scholz",
+    "wahlkreis": {
+      "number": 20,
+      "name": "Leverkusen"
+    },
+    "email": "ruediger.scholz@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56221",
+    "name": "Martin Lucke",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-lucke",
+    "wahlkreis": {
+      "number": 21,
+      "name": "Rheinisch-Bergischer Kreis I"
+    },
+    "email": "martin.lucke@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56222",
+    "name": "Herbert Reul",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/herbert-reul",
+    "wahlkreis": {
+      "number": 22,
+      "name": "Rheinisch-Bergischer Kreis II"
+    },
+    "email": "herbert.reul@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56223",
+    "name": "Christian Berger",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-berger",
+    "wahlkreis": {
+      "number": 23,
+      "name": "Oberbergischer Kreis I"
+    },
+    "email": "christian.berger@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56224",
+    "name": "Bodo Löttgen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bodo-loettgen",
+    "wahlkreis": {
+      "number": 24,
+      "name": "Oberbergischer Kreis II"
+    },
+    "email": "bodo.loettgen@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56225",
+    "name": "Björn Franken",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bjoern-franken",
+    "wahlkreis": {
+      "number": 25,
+      "name": "Rhein-Sieg-Kreis I"
+    },
+    "email": "bjoern.franken@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56226",
+    "name": "Jonathan Grunwald",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jonathan-grunwald",
+    "wahlkreis": {
+      "number": 26,
+      "name": "Rhein-Sieg-Kreis II"
+    },
+    "email": "jonathan.grunwald@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56326",
+    "name": "Oliver Krauß",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Wesselstr. 10",
+      "plz": "53113",
+      "ort": "Bonn"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-krauss",
+    "wahlkreis": {
+      "number": 27,
+      "name": "Rhein-Sieg-Kreis III - Euskirchen III"
+    },
+    "email": "oliver.krauss@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56227",
+    "name": "Katharina Gebauer",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katharina-gebauer",
+    "wahlkreis": {
+      "number": 28,
+      "name": "Rhein-Sieg-Kreis IV"
+    },
+    "email": "katharina.gebauer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56228",
+    "name": "Sascha Lienesch",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-lienesch",
+    "wahlkreis": {
+      "number": 29,
+      "name": "Rhein-Sieg-Kreis V"
+    },
+    "email": "sascha.lienesch@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56230",
+    "name": "Christos Katzidis",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christos-katzidis",
+    "wahlkreis": {
+      "number": 31,
+      "name": "Bonn II"
+    },
+    "email": "christos.katzidis@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56231",
+    "name": "Andreas Bialas",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-bialas",
+    "wahlkreis": {
+      "number": 32,
+      "name": "Wuppertal I"
+    },
+    "email": "andreas.bialas@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56232",
+    "name": "Dilek Engin",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dilek-engin",
+    "wahlkreis": {
+      "number": 33,
+      "name": "Wuppertal II"
+    },
+    "email": "dilek.engin@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56233",
+    "name": "Josef Neumann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Linkgasse 1a",
+      "plz": "42651",
+      "ort": "Solingen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josef-neumann",
+    "wahlkreis": {
+      "number": 34,
+      "name": "Wuppertal III - Solingen II"
+    },
+    "email": "josef.neumann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56234",
+    "name": "Sebastian Haug",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-haug",
+    "wahlkreis": {
+      "number": 35,
+      "name": "Solingen I"
+    },
+    "email": "sebastian.haug@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56235",
+    "name": "Jens-Peter Nettekoven",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-peter-nettekoven",
+    "wahlkreis": {
+      "number": 36,
+      "name": "Remscheid I - Oberbergischer Kreis III"
+    },
+    "email": "jens-peter.nettekoven@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56236",
+    "name": "Claudia Schlottmann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claudia-schlottmann",
+    "wahlkreis": {
+      "number": 37,
+      "name": "Mettmann I"
+    },
+    "email": "claudia.schlottmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56237",
+    "name": "Christian Untrieser",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-untrieser",
+    "wahlkreis": {
+      "number": 38,
+      "name": "Mettmann II"
+    },
+    "email": "christian.untrieser@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56238",
+    "name": "Jan Volker Heinisch",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-volker-heinisch",
+    "wahlkreis": {
+      "number": 39,
+      "name": "Mettmann III - Mülheim II"
+    },
+    "email": "jan.heinisch@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56239",
+    "name": "Martin Sträßer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-straesser",
+    "wahlkreis": {
+      "number": 40,
+      "name": "Mettmann IV"
+    },
+    "email": "martin.straesser@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56240",
+    "name": "Olaf Lehne",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/olaf-lehne",
+    "wahlkreis": {
+      "number": 41,
+      "name": "Düsseldorf I"
+    },
+    "email": "olaf.lehne@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56241",
+    "name": "Marco Schmitz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marco-schmitz",
+    "wahlkreis": {
+      "number": 42,
+      "name": "Düsseldorf II"
+    },
+    "email": "marco.schmitz@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56242",
+    "name": "Angela Erwin",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/angela-erwin",
+    "wahlkreis": {
+      "number": 43,
+      "name": "Düsseldorf III"
+    },
+    "email": "angela.erwin@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56243",
+    "name": "Peter Blumenrath",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-blumenrath",
+    "wahlkreis": {
+      "number": 44,
+      "name": "Düsseldorf IV"
+    },
+    "email": "peter.blumenrath@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56244",
+    "name": "Jörg Geerlings",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-geerlings",
+    "wahlkreis": {
+      "number": 45,
+      "name": "Rhein-Kreis Neuss I"
+    },
+    "email": "joerg.geerlings@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56245",
+    "name": "Heike Troles",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heike-troles",
+    "wahlkreis": {
+      "number": 46,
+      "name": "Rhein-Kreis Neuss II"
+    },
+    "email": "heike.troles@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56247",
+    "name": "Britta Oellers",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/britta-oellers",
+    "wahlkreis": {
+      "number": 48,
+      "name": "Krefeld I - Viersen III"
+    },
+    "email": "britta.oellers@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56248",
+    "name": "Marc Blondin",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro Krefeld",
+      "strasse": "Carl-Wilhelm-Str. 30-32",
+      "plz": "47798",
+      "ort": "Krefeld"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marc-blondin",
+    "wahlkreis": {
+      "number": 49,
+      "name": "Krefeld II"
+    },
+    "email": "marc.blondin@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56249",
+    "name": "Vanessa Odermatt",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/vanessa-odermatt",
+    "wahlkreis": {
+      "number": 50,
+      "name": "Mönchengladbach I"
+    },
+    "email": "vanessa.odermatt@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56250",
+    "name": "Jochen Klenner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jochen-klenner",
+    "wahlkreis": {
+      "number": 51,
+      "name": "Mönchengladbach II"
+    },
+    "email": "jochen.klenner@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56251",
+    "name": "Guido Görtz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/guido-goertz",
+    "wahlkreis": {
+      "number": 52,
+      "name": "Viersen I"
+    },
+    "email": "guido.goertz@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56252",
+    "name": "Marcus Optendrenk",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcus-optendrenk",
+    "wahlkreis": {
+      "number": 53,
+      "name": "Viersen II"
+    },
+    "email": "marcus.optendrenk@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56253",
+    "name": "Stephan Wolters",
+    "party": "CDU",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-wolters",
+    "wahlkreis": {
+      "number": 54,
+      "name": "Kleve I"
+    },
+    "email": "stephan.wolters@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56254",
+    "name": "Günther Bergmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/guenther-bergmann",
+    "wahlkreis": {
+      "number": 55,
+      "name": "Kleve II"
+    },
+    "email": "guenther.bergmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56255",
+    "name": "Sonja Bongers",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sonja-bongers",
+    "wahlkreis": {
+      "number": 56,
+      "name": "Oberhausen I"
+    },
+    "email": "sonja.bongers@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56256",
+    "name": "Stefan Zimkeit",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-zimkeit",
+    "wahlkreis": {
+      "number": 57,
+      "name": "Oberhausen II - Wesel I"
+    },
+    "email": "stefan.zimkeit@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56257",
+    "name": "René Schneider",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rene-schneider",
+    "wahlkreis": {
+      "number": 58,
+      "name": "Wesel II"
+    },
+    "email": "rene.schneider@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56258",
+    "name": "Charlotte Quik",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/charlotte-quik",
+    "wahlkreis": {
+      "number": 59,
+      "name": "Wesel III"
+    },
+    "email": "charlotte.quik@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56260",
+    "name": "Sarah Philipp",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sarah-philipp",
+    "wahlkreis": {
+      "number": 61,
+      "name": "Duisburg I"
+    },
+    "email": "sarah.philipp@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56261",
+    "name": "Benedikt Falszewski",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benedikt-falszewski",
+    "wahlkreis": {
+      "number": 62,
+      "name": "Duisburg II"
+    },
+    "email": "benedikt.falszewski@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56262",
+    "name": "Frank Börner",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-boerner",
+    "wahlkreis": {
+      "number": 63,
+      "name": "Duisburg III"
+    },
+    "email": "frank.boerner@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56263",
+    "name": "Rodion Bakum",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rodion-bakum",
+    "wahlkreis": {
+      "number": 64,
+      "name": "Mülheim I"
+    },
+    "email": "rodion.bakum@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56264",
+    "name": "Thomas Kutschaty",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-kutschaty",
+    "wahlkreis": {
+      "number": 65,
+      "name": "Essen I"
+    },
+    "email": "thomas.kutschaty@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56265",
+    "name": "Frank Müller",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-mueller",
+    "wahlkreis": {
+      "number": 66,
+      "name": "Essen II"
+    },
+    "email": "frank.mueller@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56266",
+    "name": "Julia Kahle-Hausmann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-kahle-hausmann",
+    "wahlkreis": {
+      "number": 67,
+      "name": "Essen III"
+    },
+    "email": "julia.kahle-hausmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56267",
+    "name": "Fabian Schrumpf",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/fabian-schrumpf",
+    "wahlkreis": {
+      "number": 68,
+      "name": "Essen IV"
+    },
+    "email": "fabian.schrumpf@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56327",
+    "name": "Anna Teresa Kavena",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anna-teresa-kavena",
+    "wahlkreis": {
+      "number": 69,
+      "name": "Recklinghausen I"
+    },
+    "email": "anna.kavena@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56268",
+    "name": "Carsten Löcker",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carsten-loecker",
+    "wahlkreis": {
+      "number": 70,
+      "name": "Recklinghausen II"
+    },
+    "email": "carsten.loecker@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56269",
+    "name": "Josef Hovenjürgen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josef-hovenjuergen",
+    "wahlkreis": {
+      "number": 71,
+      "name": "Recklinghausen III"
+    },
+    "email": "josef.hovenjuergen@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56328",
+    "name": "Lisa-Kristin Kapteinat",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lisa-kristin-kapteinat",
+    "wahlkreis": {
+      "number": 72,
+      "name": "Recklinghausen IV"
+    },
+    "email": "lisa-kristin.kapteinat@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56270",
+    "name": "Christin Siebel",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christin-siebel",
+    "wahlkreis": {
+      "number": 73,
+      "name": "Gelsenkirchen I - Recklinghausen V"
+    },
+    "email": "christin.siebel@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56271",
+    "name": "Sebastian Watermeier",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-watermeier",
+    "wahlkreis": {
+      "number": 74,
+      "name": "Gelsenkirchen II"
+    },
+    "email": "sebastian.watermeier@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56272",
+    "name": "Thomas Göddertz",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Osterfelder Str. 23",
+      "plz": "46236",
+      "ort": "Bottrop"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-goeddertz",
+    "wahlkreis": {
+      "number": 75,
+      "name": "Bottrop - Recklinghausen VI"
+    },
+    "email": "thomas.goeddertz@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56273",
+    "name": "Hendrik Wüst",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hendrik-wuest",
+    "wahlkreis": {
+      "number": 76,
+      "name": "Borken I"
+    },
+    "email": "hendrik.wuest@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56274",
+    "name": "Heike Wermer",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heike-wermer",
+    "wahlkreis": {
+      "number": 77,
+      "name": "Borken II"
+    },
+    "email": "heike.wermer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56275",
+    "name": "Wilhelm Korth",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro Borken",
+      "strasse": "Butenwall 81",
+      "plz": "46325",
+      "ort": "Borken"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wilhelm-korth",
+    "wahlkreis": {
+      "number": 78,
+      "name": "Coesfeld I - Borken III"
+    },
+    "email": "wilhelm.korth@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56277",
+    "name": "Christina Schulze Föcking",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christina-schulze-foecking",
+    "wahlkreis": {
+      "number": 80,
+      "name": "Steinfurt I"
+    },
+    "email": "christina.schulze-foecking@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56278",
+    "name": "Andrea Stullich",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andrea-stullich",
+    "wahlkreis": {
+      "number": 81,
+      "name": "Steinfurt II"
+    },
+    "email": "andrea.stullich@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56279",
+    "name": "Karl-Josef Laumann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karl-josef-laumann",
+    "wahlkreis": {
+      "number": 82,
+      "name": "Steinfurt III"
+    },
+    "email": "karl-josef.laumann@mags.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56280",
+    "name": "Simone Wendland",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Mauritzstr. 4-6",
+      "plz": "48143",
+      "ort": "Münster"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/simone-wendland",
+    "wahlkreis": {
+      "number": 83,
+      "name": "Münster I - Steinfurt IV"
+    },
+    "email": "simone.wendland@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56281",
+    "name": "Robin Korte",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/robin-korte",
+    "wahlkreis": {
+      "number": 84,
+      "name": "Münster II"
+    },
+    "email": "robin.korte@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56282",
+    "name": "Dorothea Deppermann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dorothea-deppermann",
+    "wahlkreis": {
+      "number": 85,
+      "name": "Münster III - Coesfeld III"
+    },
+    "email": "dorothea.deppermann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56283",
+    "name": "Daniel Hagemeier",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniel-hagemeier",
+    "wahlkreis": {
+      "number": 86,
+      "name": "Warendorf I"
+    },
+    "email": "daniel.hagemeier@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56284",
+    "name": "Markus Höner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-hoener",
+    "wahlkreis": {
+      "number": 87,
+      "name": "Warendorf II"
+    },
+    "email": "markus.hoener@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56285",
+    "name": "Bianca Winkelmann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Marienglacis 35",
+      "plz": "32427",
+      "ort": "Minden"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bianca-winkelmann",
+    "wahlkreis": {
+      "number": 88,
+      "name": "Minden-Lübbecke I"
+    },
+    "email": "bianca.winkelmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56286",
+    "name": "Christina Weng",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christina-weng",
+    "wahlkreis": {
+      "number": 89,
+      "name": "Minden-Lübbecke II"
+    },
+    "email": "christina.weng@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56287",
+    "name": "Christian Dahm",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Mindener Str. 5",
+      "plz": "32049",
+      "ort": "Herford"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-dahm",
+    "wahlkreis": {
+      "number": 90,
+      "name": "Herford I"
+    },
+    "email": "christian.dahm@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56288",
+    "name": "Christian Obrok",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Mindener Str. 5",
+      "plz": "32049",
+      "ort": "Herford"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-obrok",
+    "wahlkreis": {
+      "number": 91,
+      "name": "Herford II - Minden-Lübbecke III"
+    },
+    "email": "christian.obrok@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56289",
+    "name": "Christina Kampmann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christina-kampmann",
+    "wahlkreis": {
+      "number": 92,
+      "name": "Bielefeld I"
+    },
+    "email": "christina.kampmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56290",
+    "name": "Tom Brüntrup",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tom-bruentrup",
+    "wahlkreis": {
+      "number": 93,
+      "name": "Bielefeld II"
+    },
+    "email": "tom.bruentrup@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56291",
+    "name": "Thorsten Klute",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Langertsweg 24",
+      "plz": "33330",
+      "ort": "Gütersloh"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thorsten-klute",
+    "wahlkreis": {
+      "number": 94,
+      "name": "Gütersloh I - Bielefeld III"
+    },
+    "email": "thorsten.klute@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56292",
+    "name": "Raphael Tigges",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/raphael-tigges",
+    "wahlkreis": {
+      "number": 95,
+      "name": "Gütersloh II"
+    },
+    "email": "raphael.tigges@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56293",
+    "name": "André Kuper",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andre-kuper",
+    "wahlkreis": {
+      "number": 96,
+      "name": "Gütersloh III"
+    },
+    "email": "andre.kuper@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56294",
+    "name": "Klaus Hansen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/klaus-hansen",
+    "wahlkreis": {
+      "number": 97,
+      "name": "Lippe I"
+    },
+    "email": "klaus.hansen@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56295",
+    "name": "Alexander Baer",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-baer",
+    "wahlkreis": {
+      "number": 98,
+      "name": "Lippe II - Herford III"
+    },
+    "email": "alexander.baer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56296",
+    "name": "Dennis Maelzer",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Paulinenstr. 39",
+      "plz": "32756",
+      "ort": "Detmold"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dennis-maelzer",
+    "wahlkreis": {
+      "number": 99,
+      "name": "Lippe III"
+    },
+    "email": "dennis.maelzer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56297",
+    "name": "Bernhard Hoppe-Biermeyer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Liboriberg 21",
+      "plz": "33098",
+      "ort": "Paderborn"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernhard-hoppe-biermeyer",
+    "wahlkreis": {
+      "number": 100,
+      "name": "Paderborn I"
+    },
+    "email": "bernhard.hoppe-biermeyer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56299",
+    "name": "Matthias Goeken",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-goeken",
+    "wahlkreis": {
+      "number": 102,
+      "name": "Höxter"
+    },
+    "email": "matthias.goeken@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56300",
+    "name": "Wolfgang Jörg",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Elberfelder Str. 57",
+      "plz": "58095",
+      "ort": "Hagen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wolfgang-joerg",
+    "wahlkreis": {
+      "number": 103,
+      "name": "Hagen I"
+    },
+    "email": "wolfgang.joerg@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56301",
+    "name": "Ina Blumenthal",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ina-blumenthal",
+    "wahlkreis": {
+      "number": 104,
+      "name": "Hagen II - Ennepe-Ruhr-Kreis III"
+    },
+    "email": "ina.blumenthal@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56302",
+    "name": "Kirsten Stich",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Königstr. 69a",
+      "plz": "58300",
+      "ort": "Wetter (Ruhr)"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kirsten-stich",
+    "wahlkreis": {
+      "number": 105,
+      "name": "Ennepe-Ruhr-Kreis I"
+    },
+    "email": "kirsten.stich@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56304",
+    "name": "Andrea Busche",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andrea-busche",
+    "wahlkreis": {
+      "number": 107,
+      "name": "Bochum I"
+    },
+    "email": "andrea.busche@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56305",
+    "name": "Bastian Hartmann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bastian-hartmann",
+    "wahlkreis": {
+      "number": 108,
+      "name": "Bochum II"
+    },
+    "email": "bastian.hartmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56307",
+    "name": "Alexander Vogt",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-vogt",
+    "wahlkreis": {
+      "number": 110,
+      "name": "Herne I"
+    },
+    "email": "alexander.vogt@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56308",
+    "name": "Ralf Stoltze",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro Ralf Stoltze MdL",
+      "strasse": "Brüderweg 10-12",
+      "plz": "44135",
+      "ort": "Dortmund"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralf-stoltze",
+    "wahlkreis": {
+      "number": 111,
+      "name": "Dortmund I"
+    },
+    "email": "ralf.stoltze@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56309",
+    "name": "Volkan Baran",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro Volkan Baran",
+      "strasse": "Brüderweg 10-12",
+      "plz": "44135",
+      "ort": "Dortmund"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volkan-baran",
+    "wahlkreis": {
+      "number": 112,
+      "name": "Dortmund II"
+    },
+    "email": "volkan.baran@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56310",
+    "name": "Nadja Lüders",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Brüderweg 10-12",
+      "plz": "44135",
+      "ort": "Dortmund"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nadja-lueders",
+    "wahlkreis": {
+      "number": 113,
+      "name": "Dortmund III"
+    },
+    "email": "nadja.lueders@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56311",
+    "name": "Anja Butschkau",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Brüderweg 10-12",
+      "plz": "44135",
+      "ort": "Dortmund"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anja-butschkau",
+    "wahlkreis": {
+      "number": 114,
+      "name": "Dortmund IV"
+    },
+    "email": "anja.butschkau@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56312",
+    "name": "Hartmut Ganzke",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Friedrich-Ebert-Str. 61",
+      "plz": "59425",
+      "ort": "Unna"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hartmut-ganzke",
+    "wahlkreis": {
+      "number": 115,
+      "name": "Unna I"
+    },
+    "email": "hartmut.ganzke@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56313",
+    "name": "Rainer Schmeltzer",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Stadttorstr. 5",
+      "plz": "44532",
+      "ort": "Lünen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rainer-schmeltzer",
+    "wahlkreis": {
+      "number": 116,
+      "name": "Unna II"
+    },
+    "email": "rainer.schmeltzer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56314",
+    "name": "Silvia Gosewinkel",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro Silvia Gosewinkel MdL",
+      "strasse": "Bahnhofstr. 13",
+      "plz": "59174",
+      "ort": "Kamen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/silvia-gosewinkel",
+    "wahlkreis": {
+      "number": 117,
+      "name": "Unna III - Hamm II"
+    },
+    "email": "silvia.gosewinkel@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56315",
+    "name": "Justus Moor",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/justus-moor",
+    "wahlkreis": {
+      "number": 118,
+      "name": "Hamm I"
+    },
+    "email": "justus.moor@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56317",
+    "name": "Jörg Blöming",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-bloeming",
+    "wahlkreis": {
+      "number": 120,
+      "name": "Soest II"
+    },
+    "email": "joerg.bloeming@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56318",
+    "name": "Thorsten Schick",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thorsten-schick",
+    "wahlkreis": {
+      "number": 121,
+      "name": "Märkischer Kreis I"
+    },
+    "email": "thorsten.schick@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56319",
+    "name": "Matthias Eggers",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-eggers",
+    "wahlkreis": {
+      "number": 122,
+      "name": "Märkischer Kreis II"
+    },
+    "email": "matthias.eggers@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56321",
+    "name": "Klaus Kaiser",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/klaus-kaiser",
+    "wahlkreis": {
+      "number": 124,
+      "name": "Hochsauerlandkreis I"
+    },
+    "email": "klaus.kaiser@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56322",
+    "name": "Matthias Kerkhoff",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Mühlenufer 2",
+      "plz": "59939",
+      "ort": "Olsberg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-kerkhoff",
+    "wahlkreis": {
+      "number": 125,
+      "name": "Hochsauerlandkreis II"
+    },
+    "email": "matthias.kerkhoff@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56323",
+    "name": "Jens Kamieth",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Weststr. 1",
+      "plz": "57072",
+      "ort": "Siegen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-kamieth",
+    "wahlkreis": {
+      "number": 126,
+      "name": "Siegen-Wittgenstein I"
+    },
+    "email": "jens.kamieth@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56324",
+    "name": "Anke Fuchs-Dreisbach",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Bismarckstr. 2",
+      "plz": "57319",
+      "ort": "Bad Berleburg"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anke-fuchs-dreisbach",
+    "wahlkreis": {
+      "number": 127,
+      "name": "Siegen-Wittgenstein II"
+    },
+    "email": "anke.fuchs-dreisbach@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56325",
+    "name": "Jochen Ritter",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Martinstr. 49",
+      "plz": "57462",
+      "ort": "Olpe"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jochen-ritter",
+    "wahlkreis": {
+      "number": 128,
+      "name": "Olpe"
+    },
+    "email": "jochen.ritter@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-70827",
+    "name": "Alexander Steffen",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-steffen",
+    "state": "Nordrhein-Westfalen",
+    "email": "alexander.steffen@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56370",
+    "name": "André Stinka",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andre-stinka",
+    "state": "Nordrhein-Westfalen",
+    "email": "andre.stinka@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69060",
+    "name": "Andrea Reh",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andrea-reh",
+    "state": "Nordrhein-Westfalen",
+    "email": "andrea.reh@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56395",
+    "name": "Andreas Keith",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-keith",
+    "state": "Nordrhein-Westfalen",
+    "email": "andreas.keith@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69061",
+    "name": "Anette Bunse",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anette-bunse",
+    "state": "Nordrhein-Westfalen",
+    "email": "anette.bunse@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56391",
+    "name": "Angela Freimuth",
+    "party": "FDP",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/angela-freimuth",
+    "state": "Nordrhein-Westfalen",
+    "email": "angela.freimuth@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56332",
+    "name": "Antje Grothus",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/antje-grothus",
+    "state": "Nordrhein-Westfalen",
+    "email": "antje.grothus@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56376",
+    "name": "Benjamin Rauer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benjamin-rauer",
+    "state": "Nordrhein-Westfalen",
+    "email": "benjamin.rauer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56338",
+    "name": "Carlo Clemens",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carlo-clemens",
+    "state": "Nordrhein-Westfalen",
+    "email": "carlo.clemens@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56375",
+    "name": "Christian Blex",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-blex",
+    "state": "Nordrhein-Westfalen",
+    "email": "christian.blex@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56385",
+    "name": "Christian Loose",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-loose",
+    "state": "Nordrhein-Westfalen",
+    "email": "christian.loose@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56392",
+    "name": "Christin-Marie Stamm",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christin-marie-stamm",
+    "state": "Nordrhein-Westfalen",
+    "email": "christin-marie.stamm@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56378",
+    "name": "Christina Osei",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Kavalleriestr. 26",
+      "plz": "33602",
+      "ort": "Bielefeld"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christina-osei",
+    "state": "Nordrhein-Westfalen",
+    "email": "christina.osei@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56387",
+    "name": "Christof Rasche",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christof-rasche",
+    "state": "Nordrhein-Westfalen",
+    "email": "christof.rasche@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56388",
+    "name": "Dagmar Hanses",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dagmar-hanses",
+    "state": "Nordrhein-Westfalen",
+    "email": "dagmar.hanses@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56371",
+    "name": "Dennis Sonne",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dennis-sonne",
+    "state": "Nordrhein-Westfalen",
+    "email": "dennis.sonne@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56358",
+    "name": "Dietmar Brockes",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dietmar-brockes",
+    "state": "Nordrhein-Westfalen",
+    "email": "dietmar.brockes@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56350",
+    "name": "Elisabeth Müller-Witt",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/elisabeth-mueller-witt",
+    "state": "Nordrhein-Westfalen",
+    "email": "elisabeth.mueller-witt@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56380",
+    "name": "Ellen Stock",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ellen-stock",
+    "state": "Nordrhein-Westfalen",
+    "email": "ellen.stock@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56366",
+    "name": "Enxhi Seli-Zacharias",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/enxhi-seli-zacharias",
+    "state": "Nordrhein-Westfalen",
+    "email": "enxhi.seli-zacharias@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69019",
+    "name": "Frank Sundermann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-sundermann",
+    "state": "Nordrhein-Westfalen",
+    "email": "frank.sundermann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-58123",
+    "name": "Franziska Müller-Rech",
+    "party": "FDP",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/franziska-mueller-rech",
+    "state": "Nordrhein-Westfalen",
+    "email": "franziska.mueller-rech@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56394",
+    "name": "Frederick Cordes",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frederick-cordes",
+    "state": "Nordrhein-Westfalen",
+    "email": "frederick.cordes@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56361",
+    "name": "Gönül Eğlence",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/goenuel-eglence",
+    "state": "Nordrhein-Westfalen",
+    "email": "goenuel.eglence@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56390",
+    "name": "Gordan Dudas",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gordan-dudas",
+    "state": "Nordrhein-Westfalen",
+    "email": "gordan.dudas@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56393",
+    "name": "Gregor Kaiser",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gregor-kaiser",
+    "state": "Nordrhein-Westfalen",
+    "email": "gregor.kaiser@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56346",
+    "name": "Hartmut Beucker",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hartmut-beucker",
+    "state": "Nordrhein-Westfalen",
+    "email": "hartmut.beucker@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56374",
+    "name": "Hedwig Tarner",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hedwig-tarner",
+    "state": "Nordrhein-Westfalen",
+    "email": "hedwig.tarner@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56369",
+    "name": "Henning Höne",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/henning-hoene",
+    "state": "Nordrhein-Westfalen",
+    "email": "henning.hoene@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56367",
+    "name": "Ilayda Bostancieri",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ilayda-bostancieri",
+    "state": "Nordrhein-Westfalen",
+    "email": "ilayda.bostancieri@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56349",
+    "name": "Ina Besche-Krastl",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ina-besche-krastl",
+    "state": "Nordrhein-Westfalen",
+    "email": "ina.besche-krastl@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-63561",
+    "name": "Ina Brandes",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ina-brandes",
+    "state": "Nordrhein-Westfalen",
+    "email": "ina.brandes@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-57037",
+    "name": "Ina Scharrenbach",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ina-scharrenbach",
+    "state": "Nordrhein-Westfalen",
+    "email": "ina.scharrenbach@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56389",
+    "name": "Inge Blask",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/inge-blask",
+    "state": "Nordrhein-Westfalen",
+    "email": "inge.blask@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56364",
+    "name": "Jan Matzoll",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-matzoll",
+    "state": "Nordrhein-Westfalen",
+    "email": "jan.matzoll@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56334",
+    "name": "Jochen Ott",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jochen-ott",
+    "state": "Nordrhein-Westfalen",
+    "email": "jochen.ott@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56373",
+    "name": "Josefine Paul",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josefine-paul",
+    "state": "Nordrhein-Westfalen",
+    "email": "josefine.paul@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56360",
+    "name": "Jule Wenzel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jule-wenzel",
+    "state": "Nordrhein-Westfalen",
+    "email": "jule.wenzel@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56381",
+    "name": "Julia Eisentraut",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-eisentraut",
+    "state": "Nordrhein-Westfalen",
+    "email": "julia.eisentraut@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56344",
+    "name": "Julia Höller",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-hoeller",
+    "state": "Nordrhein-Westfalen",
+    "email": "julia.hoeller@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-70568",
+    "name": "Katrin Lögering",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katrin-loegering",
+    "state": "Nordrhein-Westfalen",
+    "email": "katrin.loegering@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56333",
+    "name": "Klaus Esser",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/klaus-esser",
+    "state": "Nordrhein-Westfalen",
+    "email": "klaus.esser@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56330",
+    "name": "Laura Postma",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/laura-postma",
+    "state": "Nordrhein-Westfalen",
+    "email": "laura.postma@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56357",
+    "name": "Lena Zingsheim-Zobel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lena-zingsheim-zobel",
+    "state": "Nordrhein-Westfalen",
+    "email": "lena.zingsheim-zobel@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56339",
+    "name": "Marc Zimmermann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marc-zimmermann",
+    "state": "Nordrhein-Westfalen",
+    "email": "marc.zimmermann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56345",
+    "name": "Marcel Hafke",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcel-hafke",
+    "state": "Nordrhein-Westfalen",
+    "email": "marcel.hafke@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56377",
+    "name": "Markus Wagner",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-wagner",
+    "state": "Nordrhein-Westfalen",
+    "email": "markus.wagner@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56341",
+    "name": "Martin Metz",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-metz",
+    "state": "Nordrhein-Westfalen",
+    "email": "martin.metz@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56355",
+    "name": "Martin Vincentz",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-vincentz",
+    "state": "Nordrhein-Westfalen",
+    "email": "martin.vincentz@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56363",
+    "name": "Mehrdad Mostofizadeh",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mehrdad-mostofizadeh",
+    "state": "Nordrhein-Westfalen",
+    "email": "mehrdad.mostofizadeh@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56356",
+    "name": "Meral Thoms",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/meral-thoms",
+    "state": "Nordrhein-Westfalen",
+    "email": "meral.thoms@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56386",
+    "name": "Michael Röls",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-roels",
+    "state": "Nordrhein-Westfalen",
+    "email": "michael.roels@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56351",
+    "name": "Mona Neubaur",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mona-neubaur",
+    "state": "Nordrhein-Westfalen",
+    "email": "mona.neubaur@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69058",
+    "name": "Nathanael Liminski",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nathanael-liminski",
+    "state": "Nordrhein-Westfalen",
+    "email": "nathanael.liminski@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56368",
+    "name": "Nina Andrieshen",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nina-andrieshen",
+    "state": "Nordrhein-Westfalen",
+    "email": "nina.andrieshen@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56382",
+    "name": "Norika Creuzmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/norika-creuzmann",
+    "state": "Nordrhein-Westfalen",
+    "email": "norika.creuzmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56372",
+    "name": "Norwich Rüße",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/norwich-ruesse",
+    "state": "Nordrhein-Westfalen",
+    "email": "norwich.ruesse@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69044",
+    "name": "Petra Vogt",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/petra-vogt",
+    "state": "Nordrhein-Westfalen",
+    "email": "petra.vogt@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69059",
+    "name": "Ralf Nettelstroth",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralf-nettelstroth",
+    "state": "Nordrhein-Westfalen",
+    "email": "ralf.nettelstroth@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56362",
+    "name": "Ralf Witzel",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralf-witzel",
+    "state": "Nordrhein-Westfalen",
+    "email": "ralf.witzel@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-60636",
+    "name": "Sandy Meinhardt",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandy-meinhardt",
+    "state": "Nordrhein-Westfalen",
+    "email": "sandy.meinhardt@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56354",
+    "name": "Simon Rock",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/simon-rock",
+    "state": "Nordrhein-Westfalen",
+    "email": "simon.rock@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56352",
+    "name": "Stefan Engstfeld",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-engstfeld",
+    "state": "Nordrhein-Westfalen",
+    "email": "stefan.engstfeld@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-58436",
+    "name": "Stefan Kämmerling",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-kaemmerling",
+    "state": "Nordrhein-Westfalen",
+    "email": "stefan.kaemmerling@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-57249",
+    "name": "Susanne Schneider",
+    "party": "FDP",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/susanne-schneider",
+    "state": "Nordrhein-Westfalen",
+    "email": "Susanne.Schneider-MdL@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56336",
+    "name": "Sven Tritschler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sven-tritschler",
+    "state": "Nordrhein-Westfalen",
+    "email": "sven.werner.tritschler@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69056",
+    "name": "Thomas Nückel",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-nueckel",
+    "state": "Nordrhein-Westfalen",
+    "email": "thomas.nueckel@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69011",
+    "name": "Thomas Röckemann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-roeckemann",
+    "state": "Nordrhein-Westfalen",
+    "email": "thomas.roeckemann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56342",
+    "name": "Tim Achtermeyer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tim-achtermeyer",
+    "state": "Nordrhein-Westfalen",
+    "email": "tim.achtermeyer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56337",
+    "name": "Tülay Durdu",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tuelay-durdu",
+    "state": "Nordrhein-Westfalen",
+    "email": "tuelay.durdu@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56384",
+    "name": "Verena Schäffer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/verena-schaeffer",
+    "state": "Nordrhein-Westfalen",
+    "email": "verena.schaeffer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56359",
+    "name": "Volkhard Wille",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volkhard-wille",
+    "state": "Nordrhein-Westfalen",
+    "email": "volkhard.wille@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56329",
+    "name": "Werner Pfeil",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/werner-pfeil",
+    "state": "Nordrhein-Westfalen",
+    "email": "werner.pfeil@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56379",
+    "name": "Wibke Brems",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wibke-brems",
+    "state": "Nordrhein-Westfalen",
+    "email": "wibke.brems@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-69062",
+    "name": "Wilhelm Hausmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wilhelm-hausmann",
+    "state": "Nordrhein-Westfalen",
+    "email": "wilhelm.hausmann@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56335",
+    "name": "Yvonne Gebauer",
+    "party": "FDP",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "label": "Wahlkreisbüro",
+      "strasse": "Breite Str. 159",
+      "plz": "50667",
+      "ort": "Köln"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/yvonne-gebauer",
+    "state": "Nordrhein-Westfalen",
+    "email": "yvonne.gebauer@landtag.nrw.de"
+  },
+  {
+    "id": "lt-nrw-56353",
+    "name": "Zacharias Schalley",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Nordrhein-Westfalen",
+    "address": {
+      "strasse": "Platz des Landtags 1",
+      "plz": "40221",
+      "ort": "Düsseldorf",
+      "label": "Landtag Nordrhein-Westfalen"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/zacharias-schalley",
+    "state": "Nordrhein-Westfalen",
+    "email": "zacharias.schalley@landtag.nrw.de"
+  }
+]

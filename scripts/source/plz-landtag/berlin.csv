@@ -1,0 +1,444 @@
+# PLZ -> Landtagswahlkreis Berlin (Abgeordnetenhaus)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 133 (Berlin 2026)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+10115,101,"Charité, Oranienburger Tor"
+10115,102,"Alexanderplatz, Engelbecken"
+10117,101,"Charité, Oranienburger Tor"
+10117,102,"Alexanderplatz, Engelbecken"
+10119,101,"Charité, Oranienburger Tor"
+10119,102,"Alexanderplatz, Engelbecken"
+10119,308,Prenzlauer Berg Südost
+10178,101,"Charité, Oranienburger Tor"
+10178,102,"Alexanderplatz, Engelbecken"
+10179,102,"Alexanderplatz, Engelbecken"
+10179,204,Warschauer Straße
+10243,203,"Skalitzer Straße, Stralauer Halbinsel"
+10243,204,Warschauer Straße
+10243,205,Petersburger Straße
+10245,203,"Skalitzer Straße, Stralauer Halbinsel"
+10245,205,Petersburger Straße
+10247,205,Petersburger Straße
+10247,309,Weißensee Südost
+10249,204,Warschauer Straße
+10249,205,Petersburger Straße
+10249,309,Weißensee Südost
+10315,1103,Karlshorst
+10315,1105,Fennpfuhl
+10317,1103,Karlshorst
+10317,1104,"Falkenberg, Malchow, Wartenberg"
+10317,1105,Fennpfuhl
+10317,1106,"Alt-Hohenschönhausen, Neu-Hohenschönhausen"
+10318,1106,"Alt-Hohenschönhausen, Neu-Hohenschönhausen"
+10319,1105,Fennpfuhl
+10319,1106,"Alt-Hohenschönhausen, Neu-Hohenschönhausen"
+10365,1103,Karlshorst
+10365,1104,"Falkenberg, Malchow, Wartenberg"
+10367,1103,Karlshorst
+10367,1104,"Falkenberg, Malchow, Wartenberg"
+10369,309,Weißensee Südost
+10369,1103,Karlshorst
+10369,1104,"Falkenberg, Malchow, Wartenberg"
+10405,306,"Esplanade, Schönhauser Allee"
+10405,308,Prenzlauer Berg Südost
+10405,309,Weißensee Südost
+10407,204,Warschauer Straße
+10407,309,Weißensee Südost
+10409,307,Prenzlauer Berg West
+10409,309,Weißensee Südost
+10435,101,"Charité, Oranienburger Tor"
+10435,306,"Esplanade, Schönhauser Allee"
+10435,308,Prenzlauer Berg Südost
+10437,306,"Esplanade, Schönhauser Allee"
+10437,307,Prenzlauer Berg West
+10437,308,Prenzlauer Berg Südost
+10439,305,"Pankow-Süd, Heinersdorf"
+10439,306,"Esplanade, Schönhauser Allee"
+10439,307,Prenzlauer Berg West
+10551,103,"Südliches Moabit, Hansaviertel"
+10551,104,"Nördliches Moabit, Westhafen"
+10553,103,"Südliches Moabit, Hansaviertel"
+10553,104,"Nördliches Moabit, Westhafen"
+10553,401,"Charlottenburg-Nord, Mierendorffplatz"
+10555,103,"Südliches Moabit, Hansaviertel"
+10557,101,"Charité, Oranienburger Tor"
+10557,103,"Südliches Moabit, Hansaviertel"
+10557,104,"Nördliches Moabit, Westhafen"
+10559,103,"Südliches Moabit, Hansaviertel"
+10559,104,"Nördliches Moabit, Westhafen"
+10585,401,"Charlottenburg-Nord, Mierendorffplatz"
+10585,403,"Schloßstraße, Lietzensee"
+10585,404,"Deutsche Oper, Kurfürstendamm"
+10587,401,"Charlottenburg-Nord, Mierendorffplatz"
+10587,404,"Deutsche Oper, Kurfürstendamm"
+10589,401,"Charlottenburg-Nord, Mierendorffplatz"
+10623,103,"Südliches Moabit, Hansaviertel"
+10623,404,"Deutsche Oper, Kurfürstendamm"
+10625,404,"Deutsche Oper, Kurfürstendamm"
+10627,403,"Schloßstraße, Lietzensee"
+10627,404,"Deutsche Oper, Kurfürstendamm"
+10629,403,"Schloßstraße, Lietzensee"
+10629,404,"Deutsche Oper, Kurfürstendamm"
+10707,403,"Schloßstraße, Lietzensee"
+10707,404,"Deutsche Oper, Kurfürstendamm"
+10707,405,"Grunewaldsee, Halensee"
+10707,406,"Ludwigkirchplatz, Volkspark"
+10707,407,"Krematorium, Rüdesheimer Platz"
+10709,403,"Schloßstraße, Lietzensee"
+10709,405,"Grunewaldsee, Halensee"
+10711,402,"Olympiastadion, Westend"
+10711,403,"Schloßstraße, Lietzensee"
+10711,405,"Grunewaldsee, Halensee"
+10713,405,"Grunewaldsee, Halensee"
+10713,406,"Ludwigkirchplatz, Volkspark"
+10713,407,"Krematorium, Rüdesheimer Platz"
+10715,406,"Ludwigkirchplatz, Volkspark"
+10715,407,"Krematorium, Rüdesheimer Platz"
+10717,406,"Ludwigkirchplatz, Volkspark"
+10719,404,"Deutsche Oper, Kurfürstendamm"
+10719,406,"Ludwigkirchplatz, Volkspark"
+10777,406,"Ludwigkirchplatz, Volkspark"
+10777,701,"Schöneberg-Nord, Wittenbergplatz"
+10779,406,"Ludwigkirchplatz, Volkspark"
+10779,701,"Schöneberg-Nord, Wittenbergplatz"
+10781,701,"Schöneberg-Nord, Wittenbergplatz"
+10783,701,"Schöneberg-Nord, Wittenbergplatz"
+10785,103,"Südliches Moabit, Hansaviertel"
+10785,201,"Yorckstraße, Hallesches Ufer"
+10785,701,"Schöneberg-Nord, Wittenbergplatz"
+10787,103,"Südliches Moabit, Hansaviertel"
+10787,404,"Deutsche Oper, Kurfürstendamm"
+10787,701,"Schöneberg-Nord, Wittenbergplatz"
+10789,404,"Deutsche Oper, Kurfürstendamm"
+10789,406,"Ludwigkirchplatz, Volkspark"
+10789,701,"Schöneberg-Nord, Wittenbergplatz"
+10823,701,"Schöneberg-Nord, Wittenbergplatz"
+10823,702,"Schöneberg-Süd, EUREF-Campus"
+10825,406,"Ludwigkirchplatz, Volkspark"
+10825,701,"Schöneberg-Nord, Wittenbergplatz"
+10825,702,"Schöneberg-Süd, EUREF-Campus"
+10827,701,"Schöneberg-Nord, Wittenbergplatz"
+10827,702,"Schöneberg-Süd, EUREF-Campus"
+10829,701,"Schöneberg-Nord, Wittenbergplatz"
+10829,702,"Schöneberg-Süd, EUREF-Campus"
+10829,703,Friedenau
+10829,704,Tempelhof: Tempelhofer Park
+10961,202,Südlich Yorckstraße
+10963,103,"Südliches Moabit, Hansaviertel"
+10963,201,"Yorckstraße, Hallesches Ufer"
+10963,202,Südlich Yorckstraße
+10965,201,"Yorckstraße, Hallesches Ufer"
+10965,202,Südlich Yorckstraße
+10965,701,"Schöneberg-Nord, Wittenbergplatz"
+10965,702,"Schöneberg-Süd, EUREF-Campus"
+10965,704,Tempelhof: Tempelhofer Park
+10965,802,Nord-Neukölln West
+10967,202,Südlich Yorckstraße
+10967,203,"Skalitzer Straße, Stralauer Halbinsel"
+10967,801,Nord-Neukölln Ost
+10967,802,Nord-Neukölln West
+10969,201,"Yorckstraße, Hallesches Ufer"
+10969,202,Südlich Yorckstraße
+10997,201,"Yorckstraße, Hallesches Ufer"
+10997,203,"Skalitzer Straße, Stralauer Halbinsel"
+10999,201,"Yorckstraße, Hallesches Ufer"
+10999,202,Südlich Yorckstraße
+10999,203,"Skalitzer Straße, Stralauer Halbinsel"
+12043,801,Nord-Neukölln Ost
+12043,802,Nord-Neukölln West
+12043,803,"Rixdorf, nördliches Britz"
+12045,801,Nord-Neukölln Ost
+12047,801,Nord-Neukölln Ost
+12049,802,Nord-Neukölln West
+12051,802,Nord-Neukölln West
+12051,803,"Rixdorf, nördliches Britz"
+12053,802,Nord-Neukölln West
+12055,802,Nord-Neukölln West
+12055,803,"Rixdorf, nördliches Britz"
+12057,803,"Rixdorf, nördliches Britz"
+12059,801,Nord-Neukölln Ost
+12059,803,"Rixdorf, nördliches Britz"
+12099,704,Tempelhof: Tempelhofer Park
+12099,705,Mariendorf
+12101,702,"Schöneberg-Süd, EUREF-Campus"
+12101,704,Tempelhof: Tempelhofer Park
+12103,703,Friedenau
+12103,704,Tempelhof: Tempelhofer Park
+12105,703,Friedenau
+12105,704,Tempelhof: Tempelhofer Park
+12105,705,Mariendorf
+12107,705,Mariendorf
+12107,706,Marienfelde
+12109,705,Mariendorf
+12157,601,"Breitenbachplatz, Schloßstraße"
+12157,702,"Schöneberg-Süd, EUREF-Campus"
+12157,703,Friedenau
+12159,702,"Schöneberg-Süd, EUREF-Campus"
+12159,703,Friedenau
+12161,601,"Breitenbachplatz, Schloßstraße"
+12161,703,Friedenau
+12163,601,"Breitenbachplatz, Schloßstraße"
+12163,703,Friedenau
+12165,601,"Breitenbachplatz, Schloßstraße"
+12165,602,"Albrechtstraße, Steglitzer Damm"
+12167,602,"Albrechtstraße, Steglitzer Damm"
+12167,605,"Leonorenstraße, Siemensstraße"
+12169,601,"Breitenbachplatz, Schloßstraße"
+12169,602,"Albrechtstraße, Steglitzer Damm"
+12169,703,Friedenau
+12203,601,"Breitenbachplatz, Schloßstraße"
+12203,602,"Albrechtstraße, Steglitzer Damm"
+12203,603,"Augustaplatz, Finckensteinallee"
+12203,604,"Hildburghauser Straße, Lippstädter Straße"
+12205,603,"Augustaplatz, Finckensteinallee"
+12205,604,"Hildburghauser Straße, Lippstädter Straße"
+12207,604,"Hildburghauser Straße, Lippstädter Straße"
+12207,605,"Leonorenstraße, Siemensstraße"
+12209,604,"Hildburghauser Straße, Lippstädter Straße"
+12247,602,"Albrechtstraße, Steglitzer Damm"
+12247,604,"Hildburghauser Straße, Lippstädter Straße"
+12247,605,"Leonorenstraße, Siemensstraße"
+12249,604,"Hildburghauser Straße, Lippstädter Straße"
+12249,605,"Leonorenstraße, Siemensstraße"
+12249,706,Marienfelde
+12277,705,Mariendorf
+12277,706,Marienfelde
+12279,706,Marienfelde
+12305,706,Marienfelde
+12305,707,Lichtenrade
+12307,706,Marienfelde
+12307,707,Lichtenrade
+12309,707,Lichtenrade
+12347,705,Mariendorf
+12347,803,"Rixdorf, nördliches Britz"
+12347,805,"Südwestliches Britz, Buckow"
+12349,805,"Südwestliches Britz, Buckow"
+12351,804,"Nordöstliches Buckow, Gropiusstadt"
+12351,805,"Südwestliches Britz, Buckow"
+12353,804,"Nordöstliches Buckow, Gropiusstadt"
+12353,805,"Südwestliches Britz, Buckow"
+12353,806,"Rudow, südliches Blumenviertel"
+12355,806,"Rudow, südliches Blumenviertel"
+12357,804,"Nordöstliches Buckow, Gropiusstadt"
+12357,806,"Rudow, südliches Blumenviertel"
+12359,803,"Rixdorf, nördliches Britz"
+12359,804,"Nordöstliches Buckow, Gropiusstadt"
+12359,805,"Südwestliches Britz, Buckow"
+12435,901,"Alt-Treptow, Plänterwald"
+12437,901,"Alt-Treptow, Plänterwald"
+12437,903,"Niederschöneweide, Oberspree, Johannisthal"
+12439,903,"Niederschöneweide, Oberspree, Johannisthal"
+12439,905,"Spindlersfeld, Köllnische Vorstadt, Grünau"
+12459,902,"Oberschöneweide, Dammvorstadt"
+12487,903,"Niederschöneweide, Oberspree, Johannisthal"
+12489,903,"Niederschöneweide, Oberspree, Johannisthal"
+12489,905,"Spindlersfeld, Köllnische Vorstadt, Grünau"
+12524,904,"Altglienicke, Bohnsdorf"
+12526,904,"Altglienicke, Bohnsdorf"
+12527,905,"Spindlersfeld, Köllnische Vorstadt, Grünau"
+12527,906,"Allendeviertel, Kietz, Müggelheim"
+12529,904,"Altglienicke, Bohnsdorf"
+12555,902,"Oberschöneweide, Dammvorstadt"
+12555,905,"Spindlersfeld, Köllnische Vorstadt, Grünau"
+12555,906,"Allendeviertel, Kietz, Müggelheim"
+12555,907,"Köpenick Nord, Friedrichshagen"
+12557,905,"Spindlersfeld, Köllnische Vorstadt, Grünau"
+12557,906,"Allendeviertel, Kietz, Müggelheim"
+12559,906,"Allendeviertel, Kietz, Müggelheim"
+12587,902,"Oberschöneweide, Dammvorstadt"
+12587,906,"Allendeviertel, Kietz, Müggelheim"
+12587,907,"Köpenick Nord, Friedrichshagen"
+12589,906,"Allendeviertel, Kietz, Müggelheim"
+12589,907,"Köpenick Nord, Friedrichshagen"
+12619,1003,Biesdorf
+12619,1005,Hellersdorf-Nord
+12619,1006,Hellersdorf-Süd
+12621,1005,Hellersdorf-Nord
+12621,1006,Hellersdorf-Süd
+12623,1005,Hellersdorf-Nord
+12627,1003,Biesdorf
+12627,1006,Hellersdorf-Süd
+12629,1003,Biesdorf
+12679,1001,"Ahrensfelde-Süd, Marzahn-West, Marzahn-Ost"
+12679,1002,"Gewerbegebiet, Marzahner Promenade"
+12681,1002,"Gewerbegebiet, Marzahner Promenade"
+12681,1003,Biesdorf
+12681,1004,"Kaulsdorf, Mahlsdorf"
+12683,1004,"Kaulsdorf, Mahlsdorf"
+12685,1002,"Gewerbegebiet, Marzahner Promenade"
+12685,1003,Biesdorf
+12687,1001,"Ahrensfelde-Süd, Marzahn-West, Marzahn-Ost"
+12687,1002,"Gewerbegebiet, Marzahner Promenade"
+12689,1001,"Ahrensfelde-Süd, Marzahn-West, Marzahn-Ost"
+12689,1002,"Gewerbegebiet, Marzahner Promenade"
+13051,304,"Weißensee-Nord, Stadtrandsiedlung Malchow"
+13051,1101,Friedrichsfelde
+13051,1102,"Rummelsburg, Lichtenberg"
+13053,1101,Friedrichsfelde
+13053,1102,"Rummelsburg, Lichtenberg"
+13055,1102,"Rummelsburg, Lichtenberg"
+13055,1103,Karlshorst
+13057,1101,Friedrichsfelde
+13059,1101,Friedrichsfelde
+13086,304,"Weißensee-Nord, Stadtrandsiedlung Malchow"
+13086,307,Prenzlauer Berg West
+13088,304,"Weißensee-Nord, Stadtrandsiedlung Malchow"
+13088,309,Weißensee Südost
+13089,304,"Weißensee-Nord, Stadtrandsiedlung Malchow"
+13089,305,"Pankow-Süd, Heinersdorf"
+13125,301,"Buch, Karow, Französisch Buchholz"
+13127,301,"Buch, Karow, Französisch Buchholz"
+13127,302,"Blankenfelde, Rosenthal, Wilhelmsruh"
+13127,303,"Pankow-Nord, Niederschönhausen-Süd"
+13129,301,"Buch, Karow, Französisch Buchholz"
+13129,304,"Weißensee-Nord, Stadtrandsiedlung Malchow"
+13156,302,"Blankenfelde, Rosenthal, Wilhelmsruh"
+13156,303,"Pankow-Nord, Niederschönhausen-Süd"
+13158,302,"Blankenfelde, Rosenthal, Wilhelmsruh"
+13159,302,"Blankenfelde, Rosenthal, Wilhelmsruh"
+13187,303,"Pankow-Nord, Niederschönhausen-Süd"
+13187,305,"Pankow-Süd, Heinersdorf"
+13187,306,"Esplanade, Schönhauser Allee"
+13189,303,"Pankow-Nord, Niederschönhausen-Süd"
+13189,305,"Pankow-Süd, Heinersdorf"
+13189,306,"Esplanade, Schönhauser Allee"
+13347,105,"Schillerpark, Rehberge"
+13347,106,Soldiner Straße
+13347,107,"Humboldthain, Nettelbeckplatz"
+13349,105,"Schillerpark, Rehberge"
+13351,105,"Schillerpark, Rehberge"
+13353,104,"Nördliches Moabit, Westhafen"
+13353,105,"Schillerpark, Rehberge"
+13353,107,"Humboldthain, Nettelbeckplatz"
+13355,101,"Charité, Oranienburger Tor"
+13355,107,"Humboldthain, Nettelbeckplatz"
+13355,306,"Esplanade, Schönhauser Allee"
+13357,106,Soldiner Straße
+13357,107,"Humboldthain, Nettelbeckplatz"
+13359,105,"Schillerpark, Rehberge"
+13359,106,Soldiner Straße
+13403,1202,"Reinickendorf, Wittenau"
+13403,1204,"Hermsdorf, Waidmannslust, Lübars"
+13405,105,"Schillerpark, Rehberge"
+13405,1202,"Reinickendorf, Wittenau"
+13407,105,"Schillerpark, Rehberge"
+13407,1201,"Borsigwalde, Tegel"
+13407,1202,"Reinickendorf, Wittenau"
+13409,105,"Schillerpark, Rehberge"
+13409,106,Soldiner Straße
+13409,1201,"Borsigwalde, Tegel"
+13435,1204,"Hermsdorf, Waidmannslust, Lübars"
+13435,1205,Märkisches Viertel
+13437,1201,"Borsigwalde, Tegel"
+13437,1202,"Reinickendorf, Wittenau"
+13437,1204,"Hermsdorf, Waidmannslust, Lübars"
+13439,1204,"Hermsdorf, Waidmannslust, Lübars"
+13439,1205,Märkisches Viertel
+13465,1206,"Wittenau-Süd, Reinickendorf-Ost"
+13467,1206,"Wittenau-Süd, Reinickendorf-Ost"
+13469,1204,"Hermsdorf, Waidmannslust, Lübars"
+13469,1205,Märkisches Viertel
+13469,1206,"Wittenau-Süd, Reinickendorf-Ost"
+13503,1203,"Heiligensee, Konradshöhe, Frohnau"
+13503,1206,"Wittenau-Süd, Reinickendorf-Ost"
+13505,1203,"Heiligensee, Konradshöhe, Frohnau"
+13507,1202,"Reinickendorf, Wittenau"
+13507,1203,"Heiligensee, Konradshöhe, Frohnau"
+13507,1204,"Hermsdorf, Waidmannslust, Lübars"
+13509,1202,"Reinickendorf, Wittenau"
+13509,1204,"Hermsdorf, Waidmannslust, Lübars"
+13509,1206,"Wittenau-Süd, Reinickendorf-Ost"
+13581,502,"Südliche Neustadt, Altstadt Spandau"
+13581,503,"Haselhorst, Siemensstadt"
+13581,504,"Südwestliches Falkenhagener Feld, Staaken"
+13581,505,"Südliche Wilhelmstadt, Gatow, Kladow"
+13583,501,"Hakenfelde, Falkenhagener Feld Nord"
+13583,502,"Südliche Neustadt, Altstadt Spandau"
+13583,504,"Südwestliches Falkenhagener Feld, Staaken"
+13585,501,"Hakenfelde, Falkenhagener Feld Nord"
+13585,502,"Südliche Neustadt, Altstadt Spandau"
+13587,501,"Hakenfelde, Falkenhagener Feld Nord"
+13589,501,"Hakenfelde, Falkenhagener Feld Nord"
+13589,504,"Südwestliches Falkenhagener Feld, Staaken"
+13591,504,"Südwestliches Falkenhagener Feld, Staaken"
+13593,504,"Südwestliches Falkenhagener Feld, Staaken"
+13593,505,"Südliche Wilhelmstadt, Gatow, Kladow"
+13595,502,"Südliche Neustadt, Altstadt Spandau"
+13595,503,"Haselhorst, Siemensstadt"
+13595,505,"Südliche Wilhelmstadt, Gatow, Kladow"
+13597,402,"Olympiastadion, Westend"
+13597,502,"Südliche Neustadt, Altstadt Spandau"
+13597,503,"Haselhorst, Siemensstadt"
+13599,503,"Haselhorst, Siemensstadt"
+13599,1203,"Heiligensee, Konradshöhe, Frohnau"
+13627,401,"Charlottenburg-Nord, Mierendorffplatz"
+13627,503,"Haselhorst, Siemensstadt"
+13629,401,"Charlottenburg-Nord, Mierendorffplatz"
+13629,503,"Haselhorst, Siemensstadt"
+13629,1202,"Reinickendorf, Wittenau"
+13629,1203,"Heiligensee, Konradshöhe, Frohnau"
+14050,402,"Olympiastadion, Westend"
+14050,403,"Schloßstraße, Lietzensee"
+14052,402,"Olympiastadion, Westend"
+14053,402,"Olympiastadion, Westend"
+14055,402,"Olympiastadion, Westend"
+14055,405,"Grunewaldsee, Halensee"
+14057,402,"Olympiastadion, Westend"
+14057,403,"Schloßstraße, Lietzensee"
+14059,401,"Charlottenburg-Nord, Mierendorffplatz"
+14059,402,"Olympiastadion, Westend"
+14059,403,"Schloßstraße, Lietzensee"
+14059,404,"Deutsche Oper, Kurfürstendamm"
+14089,505,"Südliche Wilhelmstadt, Gatow, Kladow"
+14109,607,"Lichtenrade, Volkspark Lichtenrade"
+14129,606,"Clayallee, Thielallee"
+14129,607,"Lichtenrade, Volkspark Lichtenrade"
+14163,606,"Clayallee, Thielallee"
+14163,607,"Lichtenrade, Volkspark Lichtenrade"
+14165,603,"Augustaplatz, Finckensteinallee"
+14165,606,"Clayallee, Thielallee"
+14165,607,"Lichtenrade, Volkspark Lichtenrade"
+14167,603,"Augustaplatz, Finckensteinallee"
+14167,604,"Hildburghauser Straße, Lippstädter Straße"
+14167,606,"Clayallee, Thielallee"
+14169,606,"Clayallee, Thielallee"
+14193,405,"Grunewaldsee, Halensee"
+14193,606,"Clayallee, Thielallee"
+14193,607,"Lichtenrade, Volkspark Lichtenrade"
+14195,405,"Grunewaldsee, Halensee"
+14195,407,"Krematorium, Rüdesheimer Platz"
+14195,601,"Breitenbachplatz, Schloßstraße"
+14195,606,"Clayallee, Thielallee"
+14197,407,"Krematorium, Rüdesheimer Platz"
+14197,601,"Breitenbachplatz, Schloßstraße"
+14197,703,Friedenau
+14199,405,"Grunewaldsee, Halensee"
+14199,407,"Krematorium, Rüdesheimer Platz"
+14467,607,"Lichtenrade, Volkspark Lichtenrade"
+14469,505,"Südliche Wilhelmstadt, Gatow, Kladow"
+14480,607,"Lichtenrade, Volkspark Lichtenrade"
+14482,607,"Lichtenrade, Volkspark Lichtenrade"
+14513,604,"Hildburghauser Straße, Lippstädter Straße"
+14532,607,"Lichtenrade, Volkspark Lichtenrade"
+14612,501,"Hakenfelde, Falkenhagener Feld Nord"
+14621,501,"Hakenfelde, Falkenhagener Feld Nord"
+14624,504,"Südwestliches Falkenhagener Feld, Staaken"
+14979,706,Marienfelde
+15366,907,"Köpenick Nord, Friedrichshagen"
+15566,907,"Köpenick Nord, Friedrichshagen"
+15569,907,"Köpenick Nord, Friedrichshagen"
+15713,905,"Spindlersfeld, Köllnische Vorstadt, Grünau"
+15732,905,"Spindlersfeld, Köllnische Vorstadt, Grünau"
+15738,905,"Spindlersfeld, Köllnische Vorstadt, Grünau"
+15831,707,Lichtenrade
+16341,301,"Buch, Karow, Französisch Buchholz"
+16356,1101,Friedrichsfelde
+16540,1206,"Wittenau-Süd, Reinickendorf-Ost"
+16548,1206,"Wittenau-Süd, Reinickendorf-Ost"
+16552,302,"Blankenfelde, Rosenthal, Wilhelmsruh"
+16562,1206,"Wittenau-Süd, Reinickendorf-Ost"
+16567,1206,"Wittenau-Süd, Reinickendorf-Ost"
+16761,1203,"Heiligensee, Konradshöhe, Frohnau"

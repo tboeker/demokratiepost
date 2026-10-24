@@ -34,6 +34,12 @@ node scripts/fetch-abgeordnetenwatch.mjs                      # laufende Mandate
 node scripts/fetch-bundestag.mjs                              # bundestag.de-Profile → public/data/mdb-profiles.json
 node scripts/build-mdb.mjs                                    # zusammenführen → public/data/mdb.json
 npm run data:plz         # PLZ-CSV aktualisieren + Shards → public/data/plz/*.json
+
+# Landtag (M4), ebenfalls einzeln und in dieser Reihenfolge:
+npm run data:lt:plz      # 16 PLZ-CSVs + Configs → scripts/source/plz-landtag/
+npm run data:lt:aw       # Landtags-Roster + sex-Cache → public/data/mandates-landtag.json
+npm run data:lt:build    # Konsistenzcheck + Shards → public/data/landtag/ + public/data/plz-landtag/
+npm run data:lt:nrw      # NRW-Anreicherung (E-Mail/Wahlkreisbüro) → scripts/source/landtag-contacts/nrw.json
 ```
 
 ## Dev-Container
@@ -48,13 +54,15 @@ Sandboxing-Optionen: `.devcontainer/README.md`.
 ```
 campaigns/                 Content: campaign.yaml + templates/<typ>.md
 scripts/                   Datenpipeline (Build-Zeit)
-public/data/               Laufzeit-Daten: mdb.json + plz/<prefix>.json (lazy geladen)
+public/data/               Laufzeit-Daten: mdb.json, plz/<prefix>.json,
+                           landtag/<staat>.json + plz-landtag/<prefix>.json (lazy geladen)
 src/App.tsx                Ablauf: Kampagne → Absender → Empfängertyp →
                            Empfänger (Suche mit PLZ-Vorbelegung / manuell) → Vorschau
 src/components/            PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
                            ManualRecipientForm, LetterPreview
 src/lib/                   campaigns, template, storage, lookup, recipientTypes, export
-src/types.ts               MdB, ManualRecipient, Recipient, Wahlkreis, Campaign, Sender
+src/types.ts               Mandatstraeger (MdB/Landtag), ManualRecipient, Recipient,
+                           Wahlkreis, Campaign, Sender
 ```
 
 ## Konventionen
@@ -65,8 +73,10 @@ src/types.ts               MdB, ManualRecipient, Recipient, Wahlkreis, Campaign,
 - Absenderdaten nur lokal im Browser: `localStorage`-Key `demokratiepost.sender.v1`
   (versioniert, siehe `src/lib/storage.ts`).
 - Manuell erfasste Empfänger ebenfalls nur lokal, **ein Key pro Typ**:
-  `demokratiepost.empfaenger.<typ>.v1` (Durchsuchbare Typen wie `mdb` werden nicht gespeichert;
-  Registry: `src/lib/recipientTypes.ts`).
+  `demokratiepost.empfaenger.<typ>.v1`. Durchsuchbare Typen wie `mdb` werden nicht gespeichert;
+  Ausnahme ist `landtag`: liefert die Suche keine Treffer (Bundesland ohne Landtagsdaten oder
+  PLZ ohne Direktmandat), wird zusätzlich das manuelle Formular angeboten und gespeichert
+  (Registry inkl. `emptyFallback`: `src/lib/recipientTypes.ts`).
 - Template-Platzhalter in Punktnotation: `{{ absender.name }}`, `{{ empfaenger.wahlkreis }}`.
 - Der Abschnitt `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` im Template
   ist die Nachricht für Kontaktformular/E-Mail (nur Text + Abschlussformel); der Rest ist der
@@ -100,6 +110,26 @@ src/types.ts               MdB, ManualRecipient, Recipient, Wahlkreis, Campaign,
   („© GeoBasis-DE / BKG“) muss im Impressum bleiben.
 - Nach `npm run data:plz` den **Dev-Server neu starten**: Vite kann sonst noch den alten
   Stand des Public-Ordners ausliefern und liefert neue Shards als HTML statt JSON.
+- **Landtag (M4)**: Mandate (wer aktuell Mitglied ist) kommen aus derselben
+  abgeordnetenwatch.de-API (`fetch-landtag.mjs`); nur `mandate_won = constituency` gilt als
+  Direktmandat. Die Anrede (`sex`) wird über den Cache `scripts/source/cache/politicians/`
+  gehalten. Die PLZ→Landtagswahlkreis-Zuordnung stammt aus OpenWahlkreisMap
+  (`fetch-plz-landtag.mjs`, Quellen yetzt/postleitzahlen ODbL + Landeswahlleiter:innen).
+- **Konsistenzregel**: Ein Land ist nur durchsuchbar, wenn die laufende API-Wahlperiode und die
+  OpenWahlkreisMap-Config in `period_id` **und** Label (Bundesland + Wahljahr) übereinstimmen.
+  Stand Oktober 2026: 11 Länder stimmig (SH, SN, BB, TH, SL, BY, NI, HE, HB, HH, NRW);
+  nicht durchsuchbar (manueller Fallback): MV, ST, RP (Datenstand Wahl 2021), BW (Id-Drift)
+  und BE (Legislaturwechsel noch nicht in der API). Grund steht im Build-Log.
+- **Wahlkreis-Nummerierung**: Einzelne Länder nummerieren in der OWM-Quelle anders als die API
+  (z. B. SH 101–135 statt 1–35) – `LANDTAG_WK_OFFSET` in `scripts/lib/landtag.mjs` rechnet um.
+- **Saarland** hat seit 2022 keine ausgewiesenen Direktmandate (`mandate_won` ist `null`);
+  `build-landtag.mjs` nutzt dort die Wahlkreis-Zuordnung als Suchschlüssel.
+- **Landtags-Kontakte**: Es gibt kein bundestag.de-Äquivalent. Brief-Fallback ist die
+  Sitzanschrift aus `scripts/source/landtage.csv`. NRW ist der Pilot: `fetch-landtag-nrw.mjs`
+  liest die Detailseiten von landtag.nrw.de (einfaches HTTP) und liefert E-Mail +
+  ggf. Wahlkreisbüro → `scripts/source/landtag-contacts/nrw.json`; `build-landtag.mjs` mischt
+  das ins Roster. Nach `data:lt:nrw` erneut `data:lt:build` ausführen.
+- Nach `npm run data:lt:plz`/`data:lt:build` den **Dev-Server neu starten** (Vite-Cache).
 
 ## Git
 

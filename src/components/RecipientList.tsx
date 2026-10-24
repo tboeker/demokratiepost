@@ -1,12 +1,12 @@
 import { recipientTypeLabel } from '../lib/recipientTypes';
-import type { MdB } from '../types';
+import type { Mandatstraeger } from '../types';
 
 interface RecipientListProps {
-  recipients: MdB[];
+  recipients: Mandatstraeger[];
   /** Empfängertyp aus der Kampagne, z. B. "mdb". */
   recipientType?: string;
   selectedId: string | null;
-  onSelect: (mdB: MdB) => void;
+  onSelect: (mandat: Mandatstraeger) => void;
 }
 
 export function RecipientList({
@@ -21,24 +21,24 @@ export function RecipientList({
 
   return (
     <ul className="recipient-list">
-      {recipients.map((mdB) => (
-        <li key={mdB.id}>
+      {recipients.map((mandat) => (
+        <li key={mandat.id}>
           <button
             type="button"
-            className={`recipient ${selectedId === mdB.id ? 'recipient-active' : ''}`}
-            onClick={() => onSelect(mdB)}
+            className={`recipient ${selectedId === mandat.id ? 'recipient-active' : ''}`}
+            onClick={() => onSelect(mandat)}
           >
             <span className="recipient-head">
-              <span className="recipient-name">{mdB.name}</span>
+              <span className="recipient-name">{mandat.name}</span>
               {recipientType && (
                 <span className="tag">{recipientTypeLabel(recipientType)}</span>
               )}
             </span>
             <span className="recipient-meta">
-              {mdB.party} ·{' '}
-              {mdB.wahlkreis
-                ? `Wahlkreis ${mdB.wahlkreis.number} – ${mdB.wahlkreis.name}`
-                : (mdB.state ?? '')}
+              {mandat.party} ·{' '}
+              {mandat.wahlkreis
+                ? `Wahlkreis ${mandat.wahlkreis.number} – ${mandat.wahlkreis.name}`
+                : (mandat.bundesland ?? mandat.state ?? '')}
             </span>
           </button>
         </li>

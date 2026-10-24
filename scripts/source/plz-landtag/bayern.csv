@@ -1,0 +1,3055 @@
+# PLZ -> Landtagswahlkreis Bayern (Landtag)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 149 (Bayern 2023)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+07330,407,"Kronach, Lichtenfels"
+07343,407,"Kronach, Lichtenfels"
+07349,407,"Kronach, Lichtenfels"
+07366,406,Hof
+07926,406,Hof
+07927,406,Hof
+08538,406,Hof
+08606,406,Hof
+08626,406,Hof
+36115,603,Bad Kissingen
+36129,603,Bad Kissingen
+36148,603,Bad Kissingen
+36157,603,Bad Kissingen
+36391,603,Bad Kissingen
+36391,606,Main-Spessart
+36396,606,Main-Spessart
+36452,603,Bad Kissingen
+63457,601,Aschaffenburg-Ost
+63500,601,Aschaffenburg-Ost
+63512,601,Aschaffenburg-Ost
+63517,601,Aschaffenburg-Ost
+63533,601,Aschaffenburg-Ost
+63533,602,Aschaffenburg-West
+63538,601,Aschaffenburg-Ost
+63579,601,Aschaffenburg-Ost
+63589,601,Aschaffenburg-Ost
+63599,601,Aschaffenburg-Ost
+63628,606,Main-Spessart
+63637,606,Main-Spessart
+63639,606,Main-Spessart
+63739,602,Aschaffenburg-West
+63741,602,Aschaffenburg-West
+63743,602,Aschaffenburg-West
+63755,601,Aschaffenburg-Ost
+63762,602,Aschaffenburg-West
+63768,601,Aschaffenburg-Ost
+63773,602,Aschaffenburg-West
+63776,601,Aschaffenburg-Ost
+63785,607,Miltenberg
+63791,601,Aschaffenburg-Ost
+63796,601,Aschaffenburg-Ost
+63801,601,Aschaffenburg-Ost
+63801,602,Aschaffenburg-West
+63808,602,Aschaffenburg-West
+63811,602,Aschaffenburg-West
+63814,601,Aschaffenburg-Ost
+63814,602,Aschaffenburg-West
+63820,607,Miltenberg
+63825,601,Aschaffenburg-Ost
+63826,601,Aschaffenburg-Ost
+63828,601,Aschaffenburg-Ost
+63829,601,Aschaffenburg-Ost
+63831,601,Aschaffenburg-Ost
+63834,607,Miltenberg
+63839,607,Miltenberg
+63840,607,Miltenberg
+63843,602,Aschaffenburg-West
+63843,607,Miltenberg
+63846,601,Aschaffenburg-Ost
+63849,607,Miltenberg
+63853,607,Miltenberg
+63856,601,Aschaffenburg-Ost
+63857,601,Aschaffenburg-Ost
+63860,601,Aschaffenburg-Ost
+63860,606,Main-Spessart
+63863,601,Aschaffenburg-Ost
+63863,607,Miltenberg
+63864,602,Aschaffenburg-West
+63867,602,Aschaffenburg-West
+63868,607,Miltenberg
+63869,601,Aschaffenburg-Ost
+63871,601,Aschaffenburg-Ost
+63872,601,Aschaffenburg-Ost
+63874,601,Aschaffenburg-Ost
+63875,601,Aschaffenburg-Ost
+63877,601,Aschaffenburg-Ost
+63879,601,Aschaffenburg-Ost
+63897,607,Miltenberg
+63906,607,Miltenberg
+63911,607,Miltenberg
+63916,607,Miltenberg
+63920,607,Miltenberg
+63924,607,Miltenberg
+63925,607,Miltenberg
+63927,607,Miltenberg
+63928,607,Miltenberg
+63930,607,Miltenberg
+63931,607,Miltenberg
+63933,607,Miltenberg
+63934,607,Miltenberg
+63936,607,Miltenberg
+63937,607,Miltenberg
+63939,607,Miltenberg
+64711,607,Miltenberg
+64720,607,Miltenberg
+64747,607,Miltenberg
+64750,607,Miltenberg
+64760,607,Miltenberg
+64823,607,Miltenberg
+64832,602,Aschaffenburg-West
+64850,602,Aschaffenburg-West
+64850,607,Miltenberg
+69427,607,Miltenberg
+73441,706,Donau-Ries
+73450,706,Donau-Ries
+73467,706,Donau-Ries
+73469,706,Donau-Ries
+73485,706,Donau-Ries
+73495,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+73497,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+73497,706,Donau-Ries
+73499,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+74572,505,Ansbach-Nord
+74575,505,Ansbach-Nord
+74579,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+74585,505,Ansbach-Nord
+74589,505,Ansbach-Nord
+74594,505,Ansbach-Nord
+74594,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+74599,505,Ansbach-Nord
+74722,607,Miltenberg
+74731,607,Miltenberg
+74736,607,Miltenberg
+80331,101,München-Stadt zusammen
+80331,102,München-Stadt zusammen
+80331,103,München-Stadt zusammen
+80331,104,München-Stadt zusammen
+80331,105,München-Stadt zusammen
+80331,106,München-Stadt zusammen
+80331,107,München-Stadt zusammen
+80331,108,München-Stadt zusammen
+80331,109,München-Stadt zusammen
+80333,101,München-Stadt zusammen
+80333,102,München-Stadt zusammen
+80333,103,München-Stadt zusammen
+80333,104,München-Stadt zusammen
+80333,105,München-Stadt zusammen
+80333,106,München-Stadt zusammen
+80333,107,München-Stadt zusammen
+80333,108,München-Stadt zusammen
+80333,109,München-Stadt zusammen
+80335,101,München-Stadt zusammen
+80335,102,München-Stadt zusammen
+80335,103,München-Stadt zusammen
+80335,104,München-Stadt zusammen
+80335,105,München-Stadt zusammen
+80335,106,München-Stadt zusammen
+80335,107,München-Stadt zusammen
+80335,108,München-Stadt zusammen
+80335,109,München-Stadt zusammen
+80336,101,München-Stadt zusammen
+80336,102,München-Stadt zusammen
+80336,103,München-Stadt zusammen
+80336,104,München-Stadt zusammen
+80336,105,München-Stadt zusammen
+80336,106,München-Stadt zusammen
+80336,107,München-Stadt zusammen
+80336,108,München-Stadt zusammen
+80336,109,München-Stadt zusammen
+80337,101,München-Stadt zusammen
+80337,102,München-Stadt zusammen
+80337,103,München-Stadt zusammen
+80337,104,München-Stadt zusammen
+80337,105,München-Stadt zusammen
+80337,106,München-Stadt zusammen
+80337,107,München-Stadt zusammen
+80337,108,München-Stadt zusammen
+80337,109,München-Stadt zusammen
+80339,101,München-Stadt zusammen
+80339,102,München-Stadt zusammen
+80339,103,München-Stadt zusammen
+80339,104,München-Stadt zusammen
+80339,105,München-Stadt zusammen
+80339,106,München-Stadt zusammen
+80339,107,München-Stadt zusammen
+80339,108,München-Stadt zusammen
+80339,109,München-Stadt zusammen
+80469,101,München-Stadt zusammen
+80469,102,München-Stadt zusammen
+80469,103,München-Stadt zusammen
+80469,104,München-Stadt zusammen
+80469,105,München-Stadt zusammen
+80469,106,München-Stadt zusammen
+80469,107,München-Stadt zusammen
+80469,108,München-Stadt zusammen
+80469,109,München-Stadt zusammen
+80538,101,München-Stadt zusammen
+80538,102,München-Stadt zusammen
+80538,103,München-Stadt zusammen
+80538,104,München-Stadt zusammen
+80538,105,München-Stadt zusammen
+80538,106,München-Stadt zusammen
+80538,107,München-Stadt zusammen
+80538,108,München-Stadt zusammen
+80538,109,München-Stadt zusammen
+80539,101,München-Stadt zusammen
+80539,102,München-Stadt zusammen
+80539,103,München-Stadt zusammen
+80539,104,München-Stadt zusammen
+80539,105,München-Stadt zusammen
+80539,106,München-Stadt zusammen
+80539,107,München-Stadt zusammen
+80539,108,München-Stadt zusammen
+80539,109,München-Stadt zusammen
+80634,101,München-Stadt zusammen
+80634,102,München-Stadt zusammen
+80634,103,München-Stadt zusammen
+80634,104,München-Stadt zusammen
+80634,105,München-Stadt zusammen
+80634,106,München-Stadt zusammen
+80634,107,München-Stadt zusammen
+80634,108,München-Stadt zusammen
+80634,109,München-Stadt zusammen
+80636,101,München-Stadt zusammen
+80636,102,München-Stadt zusammen
+80636,103,München-Stadt zusammen
+80636,104,München-Stadt zusammen
+80636,105,München-Stadt zusammen
+80636,106,München-Stadt zusammen
+80636,107,München-Stadt zusammen
+80636,108,München-Stadt zusammen
+80636,109,München-Stadt zusammen
+80637,101,München-Stadt zusammen
+80637,102,München-Stadt zusammen
+80637,103,München-Stadt zusammen
+80637,104,München-Stadt zusammen
+80637,105,München-Stadt zusammen
+80637,106,München-Stadt zusammen
+80637,107,München-Stadt zusammen
+80637,108,München-Stadt zusammen
+80637,109,München-Stadt zusammen
+80638,101,München-Stadt zusammen
+80638,102,München-Stadt zusammen
+80638,103,München-Stadt zusammen
+80638,104,München-Stadt zusammen
+80638,105,München-Stadt zusammen
+80638,106,München-Stadt zusammen
+80638,107,München-Stadt zusammen
+80638,108,München-Stadt zusammen
+80638,109,München-Stadt zusammen
+80639,101,München-Stadt zusammen
+80639,102,München-Stadt zusammen
+80639,103,München-Stadt zusammen
+80639,104,München-Stadt zusammen
+80639,105,München-Stadt zusammen
+80639,106,München-Stadt zusammen
+80639,107,München-Stadt zusammen
+80639,108,München-Stadt zusammen
+80639,109,München-Stadt zusammen
+80686,101,München-Stadt zusammen
+80686,102,München-Stadt zusammen
+80686,103,München-Stadt zusammen
+80686,104,München-Stadt zusammen
+80686,105,München-Stadt zusammen
+80686,106,München-Stadt zusammen
+80686,107,München-Stadt zusammen
+80686,108,München-Stadt zusammen
+80686,109,München-Stadt zusammen
+80687,101,München-Stadt zusammen
+80687,102,München-Stadt zusammen
+80687,103,München-Stadt zusammen
+80687,104,München-Stadt zusammen
+80687,105,München-Stadt zusammen
+80687,106,München-Stadt zusammen
+80687,107,München-Stadt zusammen
+80687,108,München-Stadt zusammen
+80687,109,München-Stadt zusammen
+80689,101,München-Stadt zusammen
+80689,102,München-Stadt zusammen
+80689,103,München-Stadt zusammen
+80689,104,München-Stadt zusammen
+80689,105,München-Stadt zusammen
+80689,106,München-Stadt zusammen
+80689,107,München-Stadt zusammen
+80689,108,München-Stadt zusammen
+80689,109,München-Stadt zusammen
+80796,101,München-Stadt zusammen
+80796,102,München-Stadt zusammen
+80796,103,München-Stadt zusammen
+80796,104,München-Stadt zusammen
+80796,105,München-Stadt zusammen
+80796,106,München-Stadt zusammen
+80796,107,München-Stadt zusammen
+80796,108,München-Stadt zusammen
+80796,109,München-Stadt zusammen
+80797,101,München-Stadt zusammen
+80797,102,München-Stadt zusammen
+80797,103,München-Stadt zusammen
+80797,104,München-Stadt zusammen
+80797,105,München-Stadt zusammen
+80797,106,München-Stadt zusammen
+80797,107,München-Stadt zusammen
+80797,108,München-Stadt zusammen
+80797,109,München-Stadt zusammen
+80798,101,München-Stadt zusammen
+80798,102,München-Stadt zusammen
+80798,103,München-Stadt zusammen
+80798,104,München-Stadt zusammen
+80798,105,München-Stadt zusammen
+80798,106,München-Stadt zusammen
+80798,107,München-Stadt zusammen
+80798,108,München-Stadt zusammen
+80798,109,München-Stadt zusammen
+80799,101,München-Stadt zusammen
+80799,102,München-Stadt zusammen
+80799,103,München-Stadt zusammen
+80799,104,München-Stadt zusammen
+80799,105,München-Stadt zusammen
+80799,106,München-Stadt zusammen
+80799,107,München-Stadt zusammen
+80799,108,München-Stadt zusammen
+80799,109,München-Stadt zusammen
+80801,101,München-Stadt zusammen
+80801,102,München-Stadt zusammen
+80801,103,München-Stadt zusammen
+80801,104,München-Stadt zusammen
+80801,105,München-Stadt zusammen
+80801,106,München-Stadt zusammen
+80801,107,München-Stadt zusammen
+80801,108,München-Stadt zusammen
+80801,109,München-Stadt zusammen
+80802,101,München-Stadt zusammen
+80802,102,München-Stadt zusammen
+80802,103,München-Stadt zusammen
+80802,104,München-Stadt zusammen
+80802,105,München-Stadt zusammen
+80802,106,München-Stadt zusammen
+80802,107,München-Stadt zusammen
+80802,108,München-Stadt zusammen
+80802,109,München-Stadt zusammen
+80803,101,München-Stadt zusammen
+80803,102,München-Stadt zusammen
+80803,103,München-Stadt zusammen
+80803,104,München-Stadt zusammen
+80803,105,München-Stadt zusammen
+80803,106,München-Stadt zusammen
+80803,107,München-Stadt zusammen
+80803,108,München-Stadt zusammen
+80803,109,München-Stadt zusammen
+80804,101,München-Stadt zusammen
+80804,102,München-Stadt zusammen
+80804,103,München-Stadt zusammen
+80804,104,München-Stadt zusammen
+80804,105,München-Stadt zusammen
+80804,106,München-Stadt zusammen
+80804,107,München-Stadt zusammen
+80804,108,München-Stadt zusammen
+80804,109,München-Stadt zusammen
+80805,101,München-Stadt zusammen
+80805,102,München-Stadt zusammen
+80805,103,München-Stadt zusammen
+80805,104,München-Stadt zusammen
+80805,105,München-Stadt zusammen
+80805,106,München-Stadt zusammen
+80805,107,München-Stadt zusammen
+80805,108,München-Stadt zusammen
+80805,109,München-Stadt zusammen
+80807,101,München-Stadt zusammen
+80807,102,München-Stadt zusammen
+80807,103,München-Stadt zusammen
+80807,104,München-Stadt zusammen
+80807,105,München-Stadt zusammen
+80807,106,München-Stadt zusammen
+80807,107,München-Stadt zusammen
+80807,108,München-Stadt zusammen
+80807,109,München-Stadt zusammen
+80809,101,München-Stadt zusammen
+80809,102,München-Stadt zusammen
+80809,103,München-Stadt zusammen
+80809,104,München-Stadt zusammen
+80809,105,München-Stadt zusammen
+80809,106,München-Stadt zusammen
+80809,107,München-Stadt zusammen
+80809,108,München-Stadt zusammen
+80809,109,München-Stadt zusammen
+80933,101,München-Stadt zusammen
+80933,102,München-Stadt zusammen
+80933,103,München-Stadt zusammen
+80933,104,München-Stadt zusammen
+80933,105,München-Stadt zusammen
+80933,106,München-Stadt zusammen
+80933,107,München-Stadt zusammen
+80933,108,München-Stadt zusammen
+80933,109,München-Stadt zusammen
+80935,101,München-Stadt zusammen
+80935,102,München-Stadt zusammen
+80935,103,München-Stadt zusammen
+80935,104,München-Stadt zusammen
+80935,105,München-Stadt zusammen
+80935,106,München-Stadt zusammen
+80935,107,München-Stadt zusammen
+80935,108,München-Stadt zusammen
+80935,109,München-Stadt zusammen
+80937,101,München-Stadt zusammen
+80937,102,München-Stadt zusammen
+80937,103,München-Stadt zusammen
+80937,104,München-Stadt zusammen
+80937,105,München-Stadt zusammen
+80937,106,München-Stadt zusammen
+80937,107,München-Stadt zusammen
+80937,108,München-Stadt zusammen
+80937,109,München-Stadt zusammen
+80939,101,München-Stadt zusammen
+80939,102,München-Stadt zusammen
+80939,103,München-Stadt zusammen
+80939,104,München-Stadt zusammen
+80939,105,München-Stadt zusammen
+80939,106,München-Stadt zusammen
+80939,107,München-Stadt zusammen
+80939,108,München-Stadt zusammen
+80939,109,München-Stadt zusammen
+80992,101,München-Stadt zusammen
+80992,102,München-Stadt zusammen
+80992,103,München-Stadt zusammen
+80992,104,München-Stadt zusammen
+80992,105,München-Stadt zusammen
+80992,106,München-Stadt zusammen
+80992,107,München-Stadt zusammen
+80992,108,München-Stadt zusammen
+80992,109,München-Stadt zusammen
+80993,101,München-Stadt zusammen
+80993,102,München-Stadt zusammen
+80993,103,München-Stadt zusammen
+80993,104,München-Stadt zusammen
+80993,105,München-Stadt zusammen
+80993,106,München-Stadt zusammen
+80993,107,München-Stadt zusammen
+80993,108,München-Stadt zusammen
+80993,109,München-Stadt zusammen
+80995,101,München-Stadt zusammen
+80995,102,München-Stadt zusammen
+80995,103,München-Stadt zusammen
+80995,104,München-Stadt zusammen
+80995,105,München-Stadt zusammen
+80995,106,München-Stadt zusammen
+80995,107,München-Stadt zusammen
+80995,108,München-Stadt zusammen
+80995,109,München-Stadt zusammen
+80997,101,München-Stadt zusammen
+80997,102,München-Stadt zusammen
+80997,103,München-Stadt zusammen
+80997,104,München-Stadt zusammen
+80997,105,München-Stadt zusammen
+80997,106,München-Stadt zusammen
+80997,107,München-Stadt zusammen
+80997,108,München-Stadt zusammen
+80997,109,München-Stadt zusammen
+80999,101,München-Stadt zusammen
+80999,102,München-Stadt zusammen
+80999,103,München-Stadt zusammen
+80999,104,München-Stadt zusammen
+80999,105,München-Stadt zusammen
+80999,106,München-Stadt zusammen
+80999,107,München-Stadt zusammen
+80999,108,München-Stadt zusammen
+80999,109,München-Stadt zusammen
+81241,101,München-Stadt zusammen
+81241,102,München-Stadt zusammen
+81241,103,München-Stadt zusammen
+81241,104,München-Stadt zusammen
+81241,105,München-Stadt zusammen
+81241,106,München-Stadt zusammen
+81241,107,München-Stadt zusammen
+81241,108,München-Stadt zusammen
+81241,109,München-Stadt zusammen
+81243,101,München-Stadt zusammen
+81243,102,München-Stadt zusammen
+81243,103,München-Stadt zusammen
+81243,104,München-Stadt zusammen
+81243,105,München-Stadt zusammen
+81243,106,München-Stadt zusammen
+81243,107,München-Stadt zusammen
+81243,108,München-Stadt zusammen
+81243,109,München-Stadt zusammen
+81245,101,München-Stadt zusammen
+81245,102,München-Stadt zusammen
+81245,103,München-Stadt zusammen
+81245,104,München-Stadt zusammen
+81245,105,München-Stadt zusammen
+81245,106,München-Stadt zusammen
+81245,107,München-Stadt zusammen
+81245,108,München-Stadt zusammen
+81245,109,München-Stadt zusammen
+81247,101,München-Stadt zusammen
+81247,102,München-Stadt zusammen
+81247,103,München-Stadt zusammen
+81247,104,München-Stadt zusammen
+81247,105,München-Stadt zusammen
+81247,106,München-Stadt zusammen
+81247,107,München-Stadt zusammen
+81247,108,München-Stadt zusammen
+81247,109,München-Stadt zusammen
+81248,101,München-Stadt zusammen
+81248,102,München-Stadt zusammen
+81248,103,München-Stadt zusammen
+81248,104,München-Stadt zusammen
+81248,105,München-Stadt zusammen
+81248,106,München-Stadt zusammen
+81248,107,München-Stadt zusammen
+81248,108,München-Stadt zusammen
+81248,109,München-Stadt zusammen
+81249,101,München-Stadt zusammen
+81249,102,München-Stadt zusammen
+81249,103,München-Stadt zusammen
+81249,104,München-Stadt zusammen
+81249,105,München-Stadt zusammen
+81249,106,München-Stadt zusammen
+81249,107,München-Stadt zusammen
+81249,108,München-Stadt zusammen
+81249,109,München-Stadt zusammen
+81369,101,München-Stadt zusammen
+81369,102,München-Stadt zusammen
+81369,103,München-Stadt zusammen
+81369,104,München-Stadt zusammen
+81369,105,München-Stadt zusammen
+81369,106,München-Stadt zusammen
+81369,107,München-Stadt zusammen
+81369,108,München-Stadt zusammen
+81369,109,München-Stadt zusammen
+81371,101,München-Stadt zusammen
+81371,102,München-Stadt zusammen
+81371,103,München-Stadt zusammen
+81371,104,München-Stadt zusammen
+81371,105,München-Stadt zusammen
+81371,106,München-Stadt zusammen
+81371,107,München-Stadt zusammen
+81371,108,München-Stadt zusammen
+81371,109,München-Stadt zusammen
+81373,101,München-Stadt zusammen
+81373,102,München-Stadt zusammen
+81373,103,München-Stadt zusammen
+81373,104,München-Stadt zusammen
+81373,105,München-Stadt zusammen
+81373,106,München-Stadt zusammen
+81373,107,München-Stadt zusammen
+81373,108,München-Stadt zusammen
+81373,109,München-Stadt zusammen
+81375,101,München-Stadt zusammen
+81375,102,München-Stadt zusammen
+81375,103,München-Stadt zusammen
+81375,104,München-Stadt zusammen
+81375,105,München-Stadt zusammen
+81375,106,München-Stadt zusammen
+81375,107,München-Stadt zusammen
+81375,108,München-Stadt zusammen
+81375,109,München-Stadt zusammen
+81377,101,München-Stadt zusammen
+81377,102,München-Stadt zusammen
+81377,103,München-Stadt zusammen
+81377,104,München-Stadt zusammen
+81377,105,München-Stadt zusammen
+81377,106,München-Stadt zusammen
+81377,107,München-Stadt zusammen
+81377,108,München-Stadt zusammen
+81377,109,München-Stadt zusammen
+81379,101,München-Stadt zusammen
+81379,102,München-Stadt zusammen
+81379,103,München-Stadt zusammen
+81379,104,München-Stadt zusammen
+81379,105,München-Stadt zusammen
+81379,106,München-Stadt zusammen
+81379,107,München-Stadt zusammen
+81379,108,München-Stadt zusammen
+81379,109,München-Stadt zusammen
+81475,101,München-Stadt zusammen
+81475,102,München-Stadt zusammen
+81475,103,München-Stadt zusammen
+81475,104,München-Stadt zusammen
+81475,105,München-Stadt zusammen
+81475,106,München-Stadt zusammen
+81475,107,München-Stadt zusammen
+81475,108,München-Stadt zusammen
+81475,109,München-Stadt zusammen
+81476,101,München-Stadt zusammen
+81476,102,München-Stadt zusammen
+81476,103,München-Stadt zusammen
+81476,104,München-Stadt zusammen
+81476,105,München-Stadt zusammen
+81476,106,München-Stadt zusammen
+81476,107,München-Stadt zusammen
+81476,108,München-Stadt zusammen
+81476,109,München-Stadt zusammen
+81477,101,München-Stadt zusammen
+81477,102,München-Stadt zusammen
+81477,103,München-Stadt zusammen
+81477,104,München-Stadt zusammen
+81477,105,München-Stadt zusammen
+81477,106,München-Stadt zusammen
+81477,107,München-Stadt zusammen
+81477,108,München-Stadt zusammen
+81477,109,München-Stadt zusammen
+81479,101,München-Stadt zusammen
+81479,102,München-Stadt zusammen
+81479,103,München-Stadt zusammen
+81479,104,München-Stadt zusammen
+81479,105,München-Stadt zusammen
+81479,106,München-Stadt zusammen
+81479,107,München-Stadt zusammen
+81479,108,München-Stadt zusammen
+81479,109,München-Stadt zusammen
+81539,101,München-Stadt zusammen
+81539,102,München-Stadt zusammen
+81539,103,München-Stadt zusammen
+81539,104,München-Stadt zusammen
+81539,105,München-Stadt zusammen
+81539,106,München-Stadt zusammen
+81539,107,München-Stadt zusammen
+81539,108,München-Stadt zusammen
+81539,109,München-Stadt zusammen
+81541,101,München-Stadt zusammen
+81541,102,München-Stadt zusammen
+81541,103,München-Stadt zusammen
+81541,104,München-Stadt zusammen
+81541,105,München-Stadt zusammen
+81541,106,München-Stadt zusammen
+81541,107,München-Stadt zusammen
+81541,108,München-Stadt zusammen
+81541,109,München-Stadt zusammen
+81543,101,München-Stadt zusammen
+81543,102,München-Stadt zusammen
+81543,103,München-Stadt zusammen
+81543,104,München-Stadt zusammen
+81543,105,München-Stadt zusammen
+81543,106,München-Stadt zusammen
+81543,107,München-Stadt zusammen
+81543,108,München-Stadt zusammen
+81543,109,München-Stadt zusammen
+81545,101,München-Stadt zusammen
+81545,102,München-Stadt zusammen
+81545,103,München-Stadt zusammen
+81545,104,München-Stadt zusammen
+81545,105,München-Stadt zusammen
+81545,106,München-Stadt zusammen
+81545,107,München-Stadt zusammen
+81545,108,München-Stadt zusammen
+81545,109,München-Stadt zusammen
+81547,101,München-Stadt zusammen
+81547,102,München-Stadt zusammen
+81547,103,München-Stadt zusammen
+81547,104,München-Stadt zusammen
+81547,105,München-Stadt zusammen
+81547,106,München-Stadt zusammen
+81547,107,München-Stadt zusammen
+81547,108,München-Stadt zusammen
+81547,109,München-Stadt zusammen
+81549,101,München-Stadt zusammen
+81549,102,München-Stadt zusammen
+81549,103,München-Stadt zusammen
+81549,104,München-Stadt zusammen
+81549,105,München-Stadt zusammen
+81549,106,München-Stadt zusammen
+81549,107,München-Stadt zusammen
+81549,108,München-Stadt zusammen
+81549,109,München-Stadt zusammen
+81667,101,München-Stadt zusammen
+81667,102,München-Stadt zusammen
+81667,103,München-Stadt zusammen
+81667,104,München-Stadt zusammen
+81667,105,München-Stadt zusammen
+81667,106,München-Stadt zusammen
+81667,107,München-Stadt zusammen
+81667,108,München-Stadt zusammen
+81667,109,München-Stadt zusammen
+81669,101,München-Stadt zusammen
+81669,102,München-Stadt zusammen
+81669,103,München-Stadt zusammen
+81669,104,München-Stadt zusammen
+81669,105,München-Stadt zusammen
+81669,106,München-Stadt zusammen
+81669,107,München-Stadt zusammen
+81669,108,München-Stadt zusammen
+81669,109,München-Stadt zusammen
+81671,101,München-Stadt zusammen
+81671,102,München-Stadt zusammen
+81671,103,München-Stadt zusammen
+81671,104,München-Stadt zusammen
+81671,105,München-Stadt zusammen
+81671,106,München-Stadt zusammen
+81671,107,München-Stadt zusammen
+81671,108,München-Stadt zusammen
+81671,109,München-Stadt zusammen
+81673,101,München-Stadt zusammen
+81673,102,München-Stadt zusammen
+81673,103,München-Stadt zusammen
+81673,104,München-Stadt zusammen
+81673,105,München-Stadt zusammen
+81673,106,München-Stadt zusammen
+81673,107,München-Stadt zusammen
+81673,108,München-Stadt zusammen
+81673,109,München-Stadt zusammen
+81675,101,München-Stadt zusammen
+81675,102,München-Stadt zusammen
+81675,103,München-Stadt zusammen
+81675,104,München-Stadt zusammen
+81675,105,München-Stadt zusammen
+81675,106,München-Stadt zusammen
+81675,107,München-Stadt zusammen
+81675,108,München-Stadt zusammen
+81675,109,München-Stadt zusammen
+81677,101,München-Stadt zusammen
+81677,102,München-Stadt zusammen
+81677,103,München-Stadt zusammen
+81677,104,München-Stadt zusammen
+81677,105,München-Stadt zusammen
+81677,106,München-Stadt zusammen
+81677,107,München-Stadt zusammen
+81677,108,München-Stadt zusammen
+81677,109,München-Stadt zusammen
+81679,101,München-Stadt zusammen
+81679,102,München-Stadt zusammen
+81679,103,München-Stadt zusammen
+81679,104,München-Stadt zusammen
+81679,105,München-Stadt zusammen
+81679,106,München-Stadt zusammen
+81679,107,München-Stadt zusammen
+81679,108,München-Stadt zusammen
+81679,109,München-Stadt zusammen
+81735,101,München-Stadt zusammen
+81735,102,München-Stadt zusammen
+81735,103,München-Stadt zusammen
+81735,104,München-Stadt zusammen
+81735,105,München-Stadt zusammen
+81735,106,München-Stadt zusammen
+81735,107,München-Stadt zusammen
+81735,108,München-Stadt zusammen
+81735,109,München-Stadt zusammen
+81737,101,München-Stadt zusammen
+81737,102,München-Stadt zusammen
+81737,103,München-Stadt zusammen
+81737,104,München-Stadt zusammen
+81737,105,München-Stadt zusammen
+81737,106,München-Stadt zusammen
+81737,107,München-Stadt zusammen
+81737,108,München-Stadt zusammen
+81737,109,München-Stadt zusammen
+81739,101,München-Stadt zusammen
+81739,102,München-Stadt zusammen
+81739,103,München-Stadt zusammen
+81739,104,München-Stadt zusammen
+81739,105,München-Stadt zusammen
+81739,106,München-Stadt zusammen
+81739,107,München-Stadt zusammen
+81739,108,München-Stadt zusammen
+81739,109,München-Stadt zusammen
+81825,101,München-Stadt zusammen
+81825,102,München-Stadt zusammen
+81825,103,München-Stadt zusammen
+81825,104,München-Stadt zusammen
+81825,105,München-Stadt zusammen
+81825,106,München-Stadt zusammen
+81825,107,München-Stadt zusammen
+81825,108,München-Stadt zusammen
+81825,109,München-Stadt zusammen
+81827,101,München-Stadt zusammen
+81827,102,München-Stadt zusammen
+81827,103,München-Stadt zusammen
+81827,104,München-Stadt zusammen
+81827,105,München-Stadt zusammen
+81827,106,München-Stadt zusammen
+81827,107,München-Stadt zusammen
+81827,108,München-Stadt zusammen
+81827,109,München-Stadt zusammen
+81829,101,München-Stadt zusammen
+81829,102,München-Stadt zusammen
+81829,103,München-Stadt zusammen
+81829,104,München-Stadt zusammen
+81829,105,München-Stadt zusammen
+81829,106,München-Stadt zusammen
+81829,107,München-Stadt zusammen
+81829,108,München-Stadt zusammen
+81829,109,München-Stadt zusammen
+81925,101,München-Stadt zusammen
+81925,102,München-Stadt zusammen
+81925,103,München-Stadt zusammen
+81925,104,München-Stadt zusammen
+81925,105,München-Stadt zusammen
+81925,106,München-Stadt zusammen
+81925,107,München-Stadt zusammen
+81925,108,München-Stadt zusammen
+81925,109,München-Stadt zusammen
+81927,101,München-Stadt zusammen
+81927,102,München-Stadt zusammen
+81927,103,München-Stadt zusammen
+81927,104,München-Stadt zusammen
+81927,105,München-Stadt zusammen
+81927,106,München-Stadt zusammen
+81927,107,München-Stadt zusammen
+81927,108,München-Stadt zusammen
+81927,109,München-Stadt zusammen
+81929,101,München-Stadt zusammen
+81929,102,München-Stadt zusammen
+81929,103,München-Stadt zusammen
+81929,104,München-Stadt zusammen
+81929,105,München-Stadt zusammen
+81929,106,München-Stadt zusammen
+81929,107,München-Stadt zusammen
+81929,108,München-Stadt zusammen
+81929,109,München-Stadt zusammen
+82008,124,München-Land-Süd
+82024,124,München-Land-Süd
+82031,124,München-Land-Süd
+82041,124,München-Land-Süd
+82049,124,München-Land-Süd
+82054,124,München-Land-Süd
+82057,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82061,124,München-Land-Süd
+82061,129,Starnberg
+82064,124,München-Land-Süd
+82065,124,München-Land-Süd
+82067,124,München-Land-Süd
+82069,124,München-Land-Süd
+82110,118,Fürstenfeldbruck-Ost
+82131,124,München-Land-Süd
+82131,129,Starnberg
+82140,118,Fürstenfeldbruck-Ost
+82152,124,München-Land-Süd
+82152,129,Starnberg
+82166,101,München-Stadt zusammen
+82166,102,München-Stadt zusammen
+82166,103,München-Stadt zusammen
+82166,104,München-Stadt zusammen
+82166,105,München-Stadt zusammen
+82166,106,München-Stadt zusammen
+82166,107,München-Stadt zusammen
+82166,108,München-Stadt zusammen
+82166,109,München-Stadt zusammen
+82166,124,München-Land-Süd
+82178,118,Fürstenfeldbruck-Ost
+82194,118,Fürstenfeldbruck-Ost
+82205,129,Starnberg
+82211,129,Starnberg
+82216,118,Fürstenfeldbruck-Ost
+82223,118,Fürstenfeldbruck-Ost
+82229,129,Starnberg
+82234,129,Starnberg
+82237,129,Starnberg
+82239,118,Fürstenfeldbruck-Ost
+82256,118,Fürstenfeldbruck-Ost
+82256,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82266,129,Starnberg
+82269,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82272,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82275,118,Fürstenfeldbruck-Ost
+82275,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82276,118,Fürstenfeldbruck-Ost
+82278,118,Fürstenfeldbruck-Ost
+82279,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82281,118,Fürstenfeldbruck-Ost
+82284,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82285,118,Fürstenfeldbruck-Ost
+82287,118,Fürstenfeldbruck-Ost
+82288,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82290,118,Fürstenfeldbruck-Ost
+82290,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82291,118,Fürstenfeldbruck-Ost
+82293,118,Fürstenfeldbruck-Ost
+82294,118,Fürstenfeldbruck-Ost
+82296,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82297,703,Aichach-Friedberg
+82299,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+82319,129,Starnberg
+82327,129,Starnberg
+82327,131,Weilheim-Schongau
+82335,129,Starnberg
+82340,129,Starnberg
+82343,129,Starnberg
+82346,129,Starnberg
+82347,129,Starnberg
+82349,129,Starnberg
+82362,131,Weilheim-Schongau
+82377,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82377,131,Weilheim-Schongau
+82380,131,Weilheim-Schongau
+82383,131,Weilheim-Schongau
+82386,131,Weilheim-Schongau
+82387,131,Weilheim-Schongau
+82389,131,Weilheim-Schongau
+82390,131,Weilheim-Schongau
+82392,131,Weilheim-Schongau
+82393,129,Starnberg
+82395,131,Weilheim-Schongau
+82396,131,Weilheim-Schongau
+82398,131,Weilheim-Schongau
+82399,131,Weilheim-Schongau
+82401,131,Weilheim-Schongau
+82402,129,Starnberg
+82404,131,Weilheim-Schongau
+82405,131,Weilheim-Schongau
+82407,131,Weilheim-Schongau
+82409,131,Weilheim-Schongau
+82418,131,Weilheim-Schongau
+82431,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82432,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82433,131,Weilheim-Schongau
+82435,131,Weilheim-Schongau
+82436,131,Weilheim-Schongau
+82438,131,Weilheim-Schongau
+82439,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82439,131,Weilheim-Schongau
+82441,131,Weilheim-Schongau
+82442,131,Weilheim-Schongau
+82444,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82445,131,Weilheim-Schongau
+82447,131,Weilheim-Schongau
+82449,131,Weilheim-Schongau
+82467,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82475,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82481,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82487,131,Weilheim-Schongau
+82488,131,Weilheim-Schongau
+82490,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82491,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82493,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82494,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82496,131,Weilheim-Schongau
+82497,131,Weilheim-Schongau
+82499,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82515,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82538,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82541,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82544,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82547,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+82549,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83022,127,Rosenheim-Ost
+83024,127,Rosenheim-Ost
+83026,127,Rosenheim-Ost
+83026,128,Rosenheim-West
+83043,128,Rosenheim-West
+83052,128,Rosenheim-West
+83059,127,Rosenheim-Ost
+83059,128,Rosenheim-West
+83064,128,Rosenheim-West
+83071,127,Rosenheim-Ost
+83075,121,Miesbach
+83080,128,Rosenheim-West
+83083,127,Rosenheim-Ost
+83088,128,Rosenheim-West
+83093,127,Rosenheim-Ost
+83098,128,Rosenheim-West
+83101,127,Rosenheim-Ost
+83101,128,Rosenheim-West
+83104,128,Rosenheim-West
+83109,128,Rosenheim-West
+83112,127,Rosenheim-Ost
+83115,127,Rosenheim-Ost
+83115,128,Rosenheim-West
+83119,130,Traunstein
+83122,127,Rosenheim-Ost
+83123,127,Rosenheim-Ost
+83125,127,Rosenheim-Ost
+83126,128,Rosenheim-West
+83128,127,Rosenheim-Ost
+83129,127,Rosenheim-Ost
+83131,128,Rosenheim-West
+83132,130,Traunstein
+83134,127,Rosenheim-Ost
+83135,128,Rosenheim-West
+83137,127,Rosenheim-Ost
+83139,127,Rosenheim-Ost
+83209,127,Rosenheim-Ost
+83224,130,Traunstein
+83229,127,Rosenheim-Ost
+83233,127,Rosenheim-Ost
+83236,130,Traunstein
+83242,130,Traunstein
+83246,130,Traunstein
+83250,130,Traunstein
+83253,127,Rosenheim-Ost
+83254,127,Rosenheim-Ost
+83256,127,Rosenheim-Ost
+83256,130,Traunstein
+83257,127,Rosenheim-Ost
+83259,130,Traunstein
+83278,130,Traunstein
+83301,130,Traunstein
+83308,130,Traunstein
+83313,130,Traunstein
+83317,112,Berchtesgadener Land
+83324,130,Traunstein
+83329,112,Berchtesgadener Land
+83334,130,Traunstein
+83339,130,Traunstein
+83342,130,Traunstein
+83346,130,Traunstein
+83349,130,Traunstein
+83352,130,Traunstein
+83355,130,Traunstein
+83358,130,Traunstein
+83361,130,Traunstein
+83362,130,Traunstein
+83364,112,Berchtesgadener Land
+83365,130,Traunstein
+83367,112,Berchtesgadener Land
+83368,130,Traunstein
+83370,130,Traunstein
+83371,130,Traunstein
+83373,112,Berchtesgadener Land
+83374,130,Traunstein
+83376,130,Traunstein
+83377,130,Traunstein
+83379,112,Berchtesgadener Land
+83395,112,Berchtesgadener Land
+83404,112,Berchtesgadener Land
+83410,112,Berchtesgadener Land
+83413,112,Berchtesgadener Land
+83416,112,Berchtesgadener Land
+83417,112,Berchtesgadener Land
+83435,112,Berchtesgadener Land
+83451,112,Berchtesgadener Land
+83454,112,Berchtesgadener Land
+83457,112,Berchtesgadener Land
+83458,112,Berchtesgadener Land
+83471,112,Berchtesgadener Land
+83483,112,Berchtesgadener Land
+83486,112,Berchtesgadener Land
+83487,112,Berchtesgadener Land
+83512,128,Rosenheim-West
+83527,122,Mühldorf a.Inn
+83530,130,Traunstein
+83533,128,Rosenheim-West
+83536,122,Mühldorf a.Inn
+83539,128,Rosenheim-West
+83543,128,Rosenheim-West
+83544,128,Rosenheim-West
+83546,122,Mühldorf a.Inn
+83547,128,Rosenheim-West
+83549,127,Rosenheim-Ost
+83550,114,Ebersberg
+83553,114,Ebersberg
+83555,122,Mühldorf a.Inn
+83556,127,Rosenheim-Ost
+83558,122,Mühldorf a.Inn
+83559,122,Mühldorf a.Inn
+83561,128,Rosenheim-West
+83562,122,Mühldorf a.Inn
+83564,128,Rosenheim-West
+83567,122,Mühldorf a.Inn
+83569,127,Rosenheim-Ost
+83607,121,Miesbach
+83620,121,Miesbach
+83623,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83624,121,Miesbach
+83626,121,Miesbach
+83627,121,Miesbach
+83629,121,Miesbach
+83646,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83661,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83666,121,Miesbach
+83670,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83671,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83673,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83674,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83676,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83677,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83679,111,"Bad Tölz-Wolfratshausen, Garmisch-Partenkirchen"
+83684,121,Miesbach
+83700,121,Miesbach
+83703,121,Miesbach
+83707,121,Miesbach
+83708,121,Miesbach
+83714,121,Miesbach
+83727,121,Miesbach
+83730,121,Miesbach
+83734,121,Miesbach
+83735,121,Miesbach
+83737,121,Miesbach
+84028,204,Landshut
+84030,204,Landshut
+84032,204,Landshut
+84034,204,Landshut
+84036,204,Landshut
+84048,203,Kelheim
+84051,204,Landshut
+84056,204,Landshut
+84061,204,Landshut
+84066,209,Straubing
+84069,304,Regensburg-Land
+84072,117,Freising
+84076,204,Landshut
+84079,204,Landshut
+84082,209,Straubing
+84085,203,Kelheim
+84088,204,Landshut
+84089,203,Kelheim
+84091,203,Kelheim
+84092,204,Landshut
+84094,203,Kelheim
+84095,204,Landshut
+84097,203,Kelheim
+84098,204,Landshut
+84100,202,Dingolfing
+84101,204,Landshut
+84103,202,Dingolfing
+84104,117,Freising
+84106,203,Kelheim
+84107,204,Landshut
+84109,202,Dingolfing
+84130,202,Dingolfing
+84137,202,Dingolfing
+84140,208,Rottal-Inn
+84144,202,Dingolfing
+84149,202,Dingolfing
+84152,202,Dingolfing
+84155,202,Dingolfing
+84160,202,Dingolfing
+84163,202,Dingolfing
+84164,202,Dingolfing
+84166,204,Landshut
+84168,202,Dingolfing
+84169,202,Dingolfing
+84171,202,Dingolfing
+84172,204,Landshut
+84174,204,Landshut
+84175,202,Dingolfing
+84177,202,Dingolfing
+84178,202,Dingolfing
+84180,202,Dingolfing
+84181,202,Dingolfing
+84183,202,Dingolfing
+84184,204,Landshut
+84186,202,Dingolfing
+84187,202,Dingolfing
+84189,202,Dingolfing
+84307,208,Rottal-Inn
+84323,208,Rottal-Inn
+84326,208,Rottal-Inn
+84329,208,Rottal-Inn
+84332,208,Rottal-Inn
+84333,208,Rottal-Inn
+84335,208,Rottal-Inn
+84337,208,Rottal-Inn
+84339,208,Rottal-Inn
+84347,208,Rottal-Inn
+84359,208,Rottal-Inn
+84364,208,Rottal-Inn
+84367,208,Rottal-Inn
+84371,208,Rottal-Inn
+84375,208,Rottal-Inn
+84378,208,Rottal-Inn
+84381,208,Rottal-Inn
+84384,208,Rottal-Inn
+84385,208,Rottal-Inn
+84387,208,Rottal-Inn
+84389,208,Rottal-Inn
+84405,116,Erding
+84416,116,Erding
+84419,122,Mühldorf a.Inn
+84424,116,Erding
+84427,116,Erding
+84428,122,Mühldorf a.Inn
+84431,122,Mühldorf a.Inn
+84432,116,Erding
+84434,116,Erding
+84435,116,Erding
+84437,122,Mühldorf a.Inn
+84439,116,Erding
+84453,122,Mühldorf a.Inn
+84478,122,Mühldorf a.Inn
+84489,110,Altötting
+84494,122,Mühldorf a.Inn
+84503,110,Altötting
+84508,110,Altötting
+84513,110,Altötting
+84513,122,Mühldorf a.Inn
+84518,110,Altötting
+84524,110,Altötting
+84529,112,Berchtesgadener Land
+84533,110,Altötting
+84539,122,Mühldorf a.Inn
+84543,110,Altötting
+84544,122,Mühldorf a.Inn
+84546,122,Mühldorf a.Inn
+84547,110,Altötting
+84549,130,Traunstein
+84550,110,Altötting
+84552,208,Rottal-Inn
+84553,110,Altötting
+84555,122,Mühldorf a.Inn
+84556,110,Altötting
+84558,110,Altötting
+84559,122,Mühldorf a.Inn
+84561,110,Altötting
+84562,122,Mühldorf a.Inn
+84564,122,Mühldorf a.Inn
+84565,122,Mühldorf a.Inn
+84567,110,Altötting
+84568,110,Altötting
+84570,122,Mühldorf a.Inn
+84571,110,Altötting
+84573,122,Mühldorf a.Inn
+84574,122,Mühldorf a.Inn
+84576,110,Altötting
+84577,110,Altötting
+84579,110,Altötting
+85049,119,Ingolstadt
+85051,119,Ingolstadt
+85053,115,Eichstätt
+85053,119,Ingolstadt
+85053,126,Pfaffenhofen a.d.Ilm
+85055,115,Eichstätt
+85055,119,Ingolstadt
+85057,119,Ingolstadt
+85072,115,Eichstätt
+85077,126,Pfaffenhofen a.d.Ilm
+85080,115,Eichstätt
+85084,126,Pfaffenhofen a.d.Ilm
+85088,126,Pfaffenhofen a.d.Ilm
+85092,115,Eichstätt
+85095,115,Eichstätt
+85098,115,Eichstätt
+85101,115,Eichstätt
+85104,115,Eichstätt
+85107,126,Pfaffenhofen a.d.Ilm
+85110,115,Eichstätt
+85111,115,Eichstätt
+85113,115,Eichstätt
+85114,115,Eichstätt
+85116,115,Eichstätt
+85116,125,Neuburg-Schrobenhausen
+85117,115,Eichstätt
+85119,126,Pfaffenhofen a.d.Ilm
+85120,115,Eichstätt
+85122,115,Eichstätt
+85123,125,Neuburg-Schrobenhausen
+85125,115,Eichstätt
+85126,115,Eichstätt
+85126,126,Pfaffenhofen a.d.Ilm
+85128,115,Eichstätt
+85129,115,Eichstätt
+85131,115,Eichstätt
+85132,115,Eichstätt
+85134,115,Eichstätt
+85135,115,Eichstätt
+85137,115,Eichstätt
+85139,115,Eichstätt
+85221,113,Dachau
+85229,113,Dachau
+85232,113,Dachau
+85235,113,Dachau
+85238,113,Dachau
+85241,113,Dachau
+85244,113,Dachau
+85247,113,Dachau
+85250,113,Dachau
+85253,113,Dachau
+85254,113,Dachau
+85256,113,Dachau
+85258,113,Dachau
+85259,113,Dachau
+85276,126,Pfaffenhofen a.d.Ilm
+85283,126,Pfaffenhofen a.d.Ilm
+85290,126,Pfaffenhofen a.d.Ilm
+85293,126,Pfaffenhofen a.d.Ilm
+85296,126,Pfaffenhofen a.d.Ilm
+85298,125,Neuburg-Schrobenhausen
+85301,126,Pfaffenhofen a.d.Ilm
+85302,125,Neuburg-Schrobenhausen
+85304,126,Pfaffenhofen a.d.Ilm
+85305,126,Pfaffenhofen a.d.Ilm
+85307,117,Freising
+85307,126,Pfaffenhofen a.d.Ilm
+85309,126,Pfaffenhofen a.d.Ilm
+85354,117,Freising
+85356,116,Erding
+85356,117,Freising
+85368,117,Freising
+85375,117,Freising
+85376,117,Freising
+85386,117,Freising
+85386,123,München-Land-Nord
+85391,117,Freising
+85395,117,Freising
+85399,117,Freising
+85402,117,Freising
+85405,117,Freising
+85406,117,Freising
+85408,117,Freising
+85410,117,Freising
+85411,117,Freising
+85413,117,Freising
+85414,117,Freising
+85416,117,Freising
+85417,117,Freising
+85419,117,Freising
+85435,116,Erding
+85445,116,Erding
+85447,116,Erding
+85452,116,Erding
+85456,116,Erding
+85457,116,Erding
+85459,116,Erding
+85461,116,Erding
+85462,116,Erding
+85464,116,Erding
+85465,116,Erding
+85467,116,Erding
+85469,116,Erding
+85521,123,München-Land-Nord
+85521,124,München-Land-Süd
+85540,123,München-Land-Nord
+85551,123,München-Land-Nord
+85560,114,Ebersberg
+85567,114,Ebersberg
+85570,114,Ebersberg
+85570,116,Erding
+85579,101,München-Stadt zusammen
+85579,102,München-Stadt zusammen
+85579,103,München-Stadt zusammen
+85579,104,München-Stadt zusammen
+85579,105,München-Stadt zusammen
+85579,106,München-Stadt zusammen
+85579,107,München-Stadt zusammen
+85579,108,München-Stadt zusammen
+85579,109,München-Stadt zusammen
+85579,124,München-Land-Süd
+85586,114,Ebersberg
+85591,114,Ebersberg
+85598,114,Ebersberg
+85599,114,Ebersberg
+85604,114,Ebersberg
+85609,123,München-Land-Nord
+85614,114,Ebersberg
+85617,114,Ebersberg
+85622,114,Ebersberg
+85622,123,München-Land-Nord
+85625,114,Ebersberg
+85630,123,München-Land-Nord
+85635,124,München-Land-Süd
+85640,123,München-Land-Nord
+85643,114,Ebersberg
+85646,114,Ebersberg
+85649,124,München-Land-Süd
+85652,114,Ebersberg
+85653,121,Miesbach
+85653,124,München-Land-Süd
+85656,116,Erding
+85658,114,Ebersberg
+85659,114,Ebersberg
+85659,116,Erding
+85661,114,Ebersberg
+85661,116,Erding
+85662,123,München-Land-Nord
+85662,124,München-Land-Süd
+85664,114,Ebersberg
+85664,116,Erding
+85665,114,Ebersberg
+85667,114,Ebersberg
+85669,116,Erding
+85716,123,München-Land-Nord
+85737,123,München-Land-Nord
+85748,123,München-Land-Nord
+85757,101,München-Stadt zusammen
+85757,102,München-Stadt zusammen
+85757,103,München-Stadt zusammen
+85757,104,München-Stadt zusammen
+85757,105,München-Stadt zusammen
+85757,106,München-Stadt zusammen
+85757,107,München-Stadt zusammen
+85757,108,München-Stadt zusammen
+85757,109,München-Stadt zusammen
+85757,113,Dachau
+85764,101,München-Stadt zusammen
+85764,102,München-Stadt zusammen
+85764,103,München-Stadt zusammen
+85764,104,München-Stadt zusammen
+85764,105,München-Stadt zusammen
+85764,106,München-Stadt zusammen
+85764,107,München-Stadt zusammen
+85764,108,München-Stadt zusammen
+85764,109,München-Stadt zusammen
+85764,113,Dachau
+85764,123,München-Land-Nord
+85774,123,München-Land-Nord
+85777,117,Freising
+85778,113,Dachau
+86150,701,Augsburg-Stadt zusammen
+86150,702,Augsburg-Stadt zusammen
+86152,701,Augsburg-Stadt zusammen
+86152,702,Augsburg-Stadt zusammen
+86153,701,Augsburg-Stadt zusammen
+86153,702,Augsburg-Stadt zusammen
+86154,701,Augsburg-Stadt zusammen
+86154,702,Augsburg-Stadt zusammen
+86156,701,Augsburg-Stadt zusammen
+86156,702,Augsburg-Stadt-West
+86157,701,Augsburg-Stadt zusammen
+86157,702,Augsburg-Stadt zusammen
+86157,705,Augsburg-Land-Süd
+86159,701,Augsburg-Stadt zusammen
+86159,702,Augsburg-Stadt zusammen
+86161,701,Augsburg-Stadt zusammen
+86161,702,Augsburg-Stadt zusammen
+86163,701,Augsburg-Stadt zusammen
+86163,702,Augsburg-Stadt zusammen
+86165,701,Augsburg-Stadt zusammen
+86165,702,Augsburg-Stadt zusammen
+86167,701,Augsburg-Stadt zusammen
+86167,702,Augsburg-Stadt zusammen
+86169,701,Augsburg-Stadt zusammen
+86169,702,Augsburg-Stadt zusammen
+86169,703,Aichach-Friedberg
+86179,701,Augsburg-Stadt zusammen
+86179,702,Augsburg-Stadt zusammen
+86199,701,Augsburg-Stadt zusammen
+86199,702,Augsburg-Stadt zusammen
+86316,703,Aichach-Friedberg
+86343,705,Augsburg-Land-Süd
+86356,702,Augsburg-Stadt-West
+86368,702,Augsburg-Stadt-West
+86381,707,Günzburg
+86391,701,Augsburg-Stadt zusammen
+86391,702,Augsburg-Stadt zusammen
+86391,705,Augsburg-Land-Süd
+86399,705,Augsburg-Land-Süd
+86405,704,"Augsburg-Land, Dillingen"
+86415,703,Aichach-Friedberg
+86420,705,Augsburg-Land-Süd
+86424,705,Augsburg-Land-Süd
+86438,703,Aichach-Friedberg
+86441,705,Augsburg-Land-Süd
+86444,703,Aichach-Friedberg
+86447,703,Aichach-Friedberg
+86450,704,"Augsburg-Land, Dillingen"
+86453,703,Aichach-Friedberg
+86456,704,"Augsburg-Land, Dillingen"
+86459,705,Augsburg-Land-Süd
+86462,704,"Augsburg-Land, Dillingen"
+86465,704,"Augsburg-Land, Dillingen"
+86470,707,Günzburg
+86473,707,Günzburg
+86476,707,Günzburg
+86477,704,"Augsburg-Land, Dillingen"
+86477,705,Augsburg-Land-Süd
+86479,707,Günzburg
+86480,707,Günzburg
+86482,702,Augsburg-Stadt-West
+86482,705,Augsburg-Land-Süd
+86483,707,Günzburg
+86485,704,"Augsburg-Land, Dillingen"
+86486,704,"Augsburg-Land, Dillingen"
+86488,707,Günzburg
+86489,707,Günzburg
+86491,707,Günzburg
+86492,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86494,704,"Augsburg-Land, Dillingen"
+86495,703,Aichach-Friedberg
+86497,705,Augsburg-Land-Süd
+86498,712,Memmingen
+86500,705,Augsburg-Land-Süd
+86502,704,"Augsburg-Land, Dillingen"
+86504,703,Aichach-Friedberg
+86505,707,Günzburg
+86507,705,Augsburg-Land-Süd
+86508,703,Aichach-Friedberg
+86510,703,Aichach-Friedberg
+86511,703,Aichach-Friedberg
+86513,707,Günzburg
+86514,705,Augsburg-Land-Süd
+86517,705,Augsburg-Land-Süd
+86519,707,Günzburg
+86529,125,Neuburg-Schrobenhausen
+86551,703,Aichach-Friedberg
+86554,703,Aichach-Friedberg
+86556,703,Aichach-Friedberg
+86558,125,Neuburg-Schrobenhausen
+86559,703,Aichach-Friedberg
+86561,125,Neuburg-Schrobenhausen
+86562,125,Neuburg-Schrobenhausen
+86564,125,Neuburg-Schrobenhausen
+86565,125,Neuburg-Schrobenhausen
+86567,113,Dachau
+86568,703,Aichach-Friedberg
+86570,703,Aichach-Friedberg
+86571,125,Neuburg-Schrobenhausen
+86573,703,Aichach-Friedberg
+86574,703,Aichach-Friedberg
+86576,703,Aichach-Friedberg
+86577,703,Aichach-Friedberg
+86579,125,Neuburg-Schrobenhausen
+86609,706,Donau-Ries
+86633,125,Neuburg-Schrobenhausen
+86637,704,"Augsburg-Land, Dillingen"
+86641,706,Donau-Ries
+86643,125,Neuburg-Schrobenhausen
+86647,704,"Augsburg-Land, Dillingen"
+86650,706,Donau-Ries
+86653,706,Donau-Ries
+86655,706,Donau-Ries
+86657,704,"Augsburg-Land, Dillingen"
+86660,706,Donau-Ries
+86663,706,Donau-Ries
+86666,125,Neuburg-Schrobenhausen
+86668,125,Neuburg-Schrobenhausen
+86669,125,Neuburg-Schrobenhausen
+86672,704,"Augsburg-Land, Dillingen"
+86673,125,Neuburg-Schrobenhausen
+86674,703,Aichach-Friedberg
+86675,706,Donau-Ries
+86676,125,Neuburg-Schrobenhausen
+86678,704,"Augsburg-Land, Dillingen"
+86679,704,"Augsburg-Land, Dillingen"
+86681,706,Donau-Ries
+86682,706,Donau-Ries
+86684,706,Donau-Ries
+86685,706,Donau-Ries
+86687,706,Donau-Ries
+86688,706,Donau-Ries
+86690,706,Donau-Ries
+86692,706,Donau-Ries
+86694,706,Donau-Ries
+86695,704,"Augsburg-Land, Dillingen"
+86697,125,Neuburg-Schrobenhausen
+86698,706,Donau-Ries
+86700,706,Donau-Ries
+86701,125,Neuburg-Schrobenhausen
+86703,115,Eichstätt
+86703,706,Donau-Ries
+86704,706,Donau-Ries
+86706,125,Neuburg-Schrobenhausen
+86707,704,"Augsburg-Land, Dillingen"
+86709,706,Donau-Ries
+86720,706,Donau-Ries
+86732,706,Donau-Ries
+86733,706,Donau-Ries
+86735,706,Donau-Ries
+86736,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+86736,706,Donau-Ries
+86738,706,Donau-Ries
+86739,706,Donau-Ries
+86741,706,Donau-Ries
+86742,706,Donau-Ries
+86744,706,Donau-Ries
+86745,706,Donau-Ries
+86747,706,Donau-Ries
+86748,706,Donau-Ries
+86750,706,Donau-Ries
+86751,706,Donau-Ries
+86753,706,Donau-Ries
+86754,706,Donau-Ries
+86756,706,Donau-Ries
+86757,706,Donau-Ries
+86759,706,Donau-Ries
+86807,711,Marktoberdorf
+86825,708,Kaufbeuren
+86830,705,Augsburg-Land-Süd
+86833,708,Kaufbeuren
+86836,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86836,705,Augsburg-Land-Süd
+86842,708,Kaufbeuren
+86845,705,Augsburg-Land-Süd
+86850,705,Augsburg-Land-Süd
+86853,705,Augsburg-Land-Süd
+86854,708,Kaufbeuren
+86856,705,Augsburg-Land-Süd
+86857,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86859,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86860,711,Marktoberdorf
+86862,711,Marktoberdorf
+86863,705,Augsburg-Land-Süd
+86865,708,Kaufbeuren
+86866,705,Augsburg-Land-Süd
+86868,705,Augsburg-Land-Süd
+86869,711,Marktoberdorf
+86871,708,Kaufbeuren
+86872,705,Augsburg-Land-Süd
+86874,708,Kaufbeuren
+86875,711,Marktoberdorf
+86877,705,Augsburg-Land-Süd
+86879,708,Kaufbeuren
+86899,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86911,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86916,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86919,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86920,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86922,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86923,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86925,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86926,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86928,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86929,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86931,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86931,703,Aichach-Friedberg
+86932,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86934,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86935,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86937,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86938,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86940,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86941,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86943,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86944,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86946,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86947,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86949,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86956,131,Weilheim-Schongau
+86971,131,Weilheim-Schongau
+86972,131,Weilheim-Schongau
+86974,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86975,131,Weilheim-Schongau
+86977,131,Weilheim-Schongau
+86978,131,Weilheim-Schongau
+86980,131,Weilheim-Schongau
+86981,120,"Landsberg am Lech, Fürstenfeldbruck-West"
+86981,131,Weilheim-Schongau
+86983,711,Marktoberdorf
+86984,131,Weilheim-Schongau
+86986,131,Weilheim-Schongau
+86987,131,Weilheim-Schongau
+86989,131,Weilheim-Schongau
+87435,709,"Kempten, Oberallgäu"
+87437,709,"Kempten, Oberallgäu"
+87439,709,"Kempten, Oberallgäu"
+87448,709,"Kempten, Oberallgäu"
+87452,709,"Kempten, Oberallgäu"
+87459,711,Marktoberdorf
+87463,709,"Kempten, Oberallgäu"
+87466,709,"Kempten, Oberallgäu"
+87471,709,"Kempten, Oberallgäu"
+87474,709,"Kempten, Oberallgäu"
+87477,709,"Kempten, Oberallgäu"
+87480,709,"Kempten, Oberallgäu"
+87484,711,Marktoberdorf
+87487,709,"Kempten, Oberallgäu"
+87488,709,"Kempten, Oberallgäu"
+87490,709,"Kempten, Oberallgäu"
+87491,709,"Kempten, Oberallgäu"
+87491,711,Marktoberdorf
+87493,709,"Kempten, Oberallgäu"
+87494,711,Marktoberdorf
+87496,711,Marktoberdorf
+87497,709,"Kempten, Oberallgäu"
+87499,709,"Kempten, Oberallgäu"
+87509,710,"Lindau, Sonthofen"
+87527,710,"Lindau, Sonthofen"
+87534,710,"Lindau, Sonthofen"
+87538,710,"Lindau, Sonthofen"
+87541,710,"Lindau, Sonthofen"
+87544,710,"Lindau, Sonthofen"
+87545,710,"Lindau, Sonthofen"
+87547,709,"Kempten, Oberallgäu"
+87549,710,"Lindau, Sonthofen"
+87561,710,"Lindau, Sonthofen"
+87567,710,"Lindau, Sonthofen"
+87568,710,"Lindau, Sonthofen"
+87569,710,"Lindau, Sonthofen"
+87600,708,Kaufbeuren
+87616,711,Marktoberdorf
+87629,711,Marktoberdorf
+87634,711,Marktoberdorf
+87637,711,Marktoberdorf
+87640,711,Marktoberdorf
+87642,711,Marktoberdorf
+87645,711,Marktoberdorf
+87647,711,Marktoberdorf
+87648,711,Marktoberdorf
+87650,711,Marktoberdorf
+87651,711,Marktoberdorf
+87653,711,Marktoberdorf
+87654,711,Marktoberdorf
+87656,708,Kaufbeuren
+87657,711,Marktoberdorf
+87659,711,Marktoberdorf
+87660,708,Kaufbeuren
+87662,711,Marktoberdorf
+87663,711,Marktoberdorf
+87665,708,Kaufbeuren
+87666,708,Kaufbeuren
+87668,708,Kaufbeuren
+87669,711,Marktoberdorf
+87671,711,Marktoberdorf
+87671,712,Memmingen
+87672,711,Marktoberdorf
+87674,711,Marktoberdorf
+87675,711,Marktoberdorf
+87677,711,Marktoberdorf
+87679,711,Marktoberdorf
+87700,712,Memmingen
+87719,708,Kaufbeuren
+87724,712,Memmingen
+87727,712,Memmingen
+87730,712,Memmingen
+87733,712,Memmingen
+87734,712,Memmingen
+87736,712,Memmingen
+87737,712,Memmingen
+87739,708,Kaufbeuren
+87740,712,Memmingen
+87742,708,Kaufbeuren
+87743,712,Memmingen
+87745,708,Kaufbeuren
+87746,712,Memmingen
+87748,712,Memmingen
+87749,712,Memmingen
+87751,712,Memmingen
+87752,712,Memmingen
+87754,712,Memmingen
+87755,712,Memmingen
+87757,708,Kaufbeuren
+87758,712,Memmingen
+87760,712,Memmingen
+87761,712,Memmingen
+87763,712,Memmingen
+87764,712,Memmingen
+87766,712,Memmingen
+87767,712,Memmingen
+87769,708,Kaufbeuren
+87770,712,Memmingen
+87772,708,Kaufbeuren
+87773,712,Memmingen
+87775,708,Kaufbeuren
+87776,712,Memmingen
+87778,708,Kaufbeuren
+87779,712,Memmingen
+87781,712,Memmingen
+87782,708,Kaufbeuren
+87784,712,Memmingen
+87785,712,Memmingen
+87787,712,Memmingen
+87789,712,Memmingen
+88069,710,"Lindau, Sonthofen"
+88079,710,"Lindau, Sonthofen"
+88131,710,"Lindau, Sonthofen"
+88138,710,"Lindau, Sonthofen"
+88142,710,"Lindau, Sonthofen"
+88145,710,"Lindau, Sonthofen"
+88147,710,"Lindau, Sonthofen"
+88149,710,"Lindau, Sonthofen"
+88161,710,"Lindau, Sonthofen"
+88167,710,"Lindau, Sonthofen"
+88171,710,"Lindau, Sonthofen"
+88175,710,"Lindau, Sonthofen"
+88178,710,"Lindau, Sonthofen"
+88179,710,"Lindau, Sonthofen"
+88239,710,"Lindau, Sonthofen"
+88260,710,"Lindau, Sonthofen"
+88299,709,"Kempten, Oberallgäu"
+88299,712,Memmingen
+88316,709,"Kempten, Oberallgäu"
+88316,710,"Lindau, Sonthofen"
+88317,712,Memmingen
+88319,712,Memmingen
+88451,712,Memmingen
+88457,712,Memmingen
+88459,712,Memmingen
+88481,712,Memmingen
+88486,712,Memmingen
+89073,713,Neu-Ulm
+89075,713,Neu-Ulm
+89077,713,Neu-Ulm
+89079,713,Neu-Ulm
+89081,713,Neu-Ulm
+89129,707,Günzburg
+89129,713,Neu-Ulm
+89165,713,Neu-Ulm
+89168,707,Günzburg
+89171,713,Neu-Ulm
+89176,707,Günzburg
+89186,713,Neu-Ulm
+89192,707,Günzburg
+89231,713,Neu-Ulm
+89233,713,Neu-Ulm
+89250,713,Neu-Ulm
+89257,713,Neu-Ulm
+89264,713,Neu-Ulm
+89269,713,Neu-Ulm
+89275,713,Neu-Ulm
+89278,713,Neu-Ulm
+89281,712,Memmingen
+89284,713,Neu-Ulm
+89287,713,Neu-Ulm
+89290,712,Memmingen
+89291,713,Neu-Ulm
+89293,712,Memmingen
+89294,712,Memmingen
+89296,712,Memmingen
+89297,713,Neu-Ulm
+89299,712,Memmingen
+89312,707,Günzburg
+89331,707,Günzburg
+89335,707,Günzburg
+89340,707,Günzburg
+89343,707,Günzburg
+89344,704,"Augsburg-Land, Dillingen"
+89346,707,Günzburg
+89347,707,Günzburg
+89349,707,Günzburg
+89350,707,Günzburg
+89352,707,Günzburg
+89353,704,"Augsburg-Land, Dillingen"
+89355,707,Günzburg
+89356,707,Günzburg
+89358,707,Günzburg
+89359,707,Günzburg
+89361,707,Günzburg
+89362,707,Günzburg
+89364,707,Günzburg
+89365,707,Günzburg
+89367,707,Günzburg
+89368,704,"Augsburg-Land, Dillingen"
+89368,707,Günzburg
+89407,704,"Augsburg-Land, Dillingen"
+89415,704,"Augsburg-Land, Dillingen"
+89420,704,"Augsburg-Land, Dillingen"
+89423,704,"Augsburg-Land, Dillingen"
+89426,704,"Augsburg-Land, Dillingen"
+89428,704,"Augsburg-Land, Dillingen"
+89429,704,"Augsburg-Land, Dillingen"
+89431,704,"Augsburg-Land, Dillingen"
+89434,704,"Augsburg-Land, Dillingen"
+89435,704,"Augsburg-Land, Dillingen"
+89437,704,"Augsburg-Land, Dillingen"
+89438,704,"Augsburg-Land, Dillingen"
+89440,704,"Augsburg-Land, Dillingen"
+89441,704,"Augsburg-Land, Dillingen"
+89443,704,"Augsburg-Land, Dillingen"
+89446,704,"Augsburg-Land, Dillingen"
+89447,704,"Augsburg-Land, Dillingen"
+89522,704,"Augsburg-Land, Dillingen"
+89537,704,"Augsburg-Land, Dillingen"
+89561,704,"Augsburg-Land, Dillingen"
+89561,706,Donau-Ries
+89564,704,"Augsburg-Land, Dillingen"
+89567,704,"Augsburg-Land, Dillingen"
+89567,707,Günzburg
+89568,704,"Augsburg-Land, Dillingen"
+90402,501,Nürnberg-Stadt zusammen
+90402,502,Nürnberg-Stadt zusammen
+90402,503,Nürnberg-Stadt zusammen
+90402,504,Nürnberg-Stadt zusammen
+90403,501,Nürnberg-Stadt zusammen
+90403,502,Nürnberg-Stadt zusammen
+90403,503,Nürnberg-Stadt zusammen
+90403,504,Nürnberg-Stadt zusammen
+90408,501,Nürnberg-Stadt zusammen
+90408,502,Nürnberg-Stadt zusammen
+90408,503,Nürnberg-Stadt zusammen
+90408,504,Nürnberg-Stadt zusammen
+90409,501,Nürnberg-Stadt zusammen
+90409,502,Nürnberg-Stadt zusammen
+90409,503,Nürnberg-Stadt zusammen
+90409,504,Nürnberg-Stadt zusammen
+90411,501,Nürnberg-Stadt zusammen
+90411,502,Nürnberg-Stadt zusammen
+90411,503,Nürnberg-Stadt zusammen
+90411,504,Nürnberg-Stadt zusammen
+90419,501,Nürnberg-Stadt zusammen
+90419,502,Nürnberg-Stadt zusammen
+90419,503,Nürnberg-Stadt zusammen
+90419,504,Nürnberg-Stadt zusammen
+90425,501,Nürnberg-Stadt zusammen
+90425,502,Nürnberg-Stadt zusammen
+90425,503,Nürnberg-Stadt zusammen
+90425,504,Nürnberg-Stadt zusammen
+90427,501,Nürnberg-Stadt zusammen
+90427,502,Nürnberg-Stadt zusammen
+90427,503,Nürnberg-Stadt zusammen
+90427,504,Nürnberg-Stadt zusammen
+90429,501,Nürnberg-Stadt zusammen
+90429,502,Nürnberg-Stadt zusammen
+90429,503,Nürnberg-Stadt zusammen
+90429,504,Nürnberg-Stadt zusammen
+90431,501,Nürnberg-Stadt zusammen
+90431,502,Nürnberg-Stadt zusammen
+90431,503,Nürnberg-Stadt zusammen
+90431,504,Nürnberg-Stadt zusammen
+90439,501,Nürnberg-Stadt zusammen
+90439,502,Nürnberg-Stadt zusammen
+90439,503,Nürnberg-Stadt zusammen
+90439,504,Nürnberg-Stadt zusammen
+90441,501,Nürnberg-Stadt zusammen
+90441,502,Nürnberg-Stadt zusammen
+90441,503,Nürnberg-Stadt zusammen
+90441,504,Nürnberg-Stadt zusammen
+90443,501,Nürnberg-Stadt zusammen
+90443,502,Nürnberg-Stadt zusammen
+90443,503,Nürnberg-Stadt zusammen
+90443,504,Nürnberg-Stadt zusammen
+90449,501,Nürnberg-Stadt zusammen
+90449,502,Nürnberg-Stadt zusammen
+90449,503,Nürnberg-Stadt zusammen
+90449,504,Nürnberg-Stadt zusammen
+90451,501,Nürnberg-Stadt zusammen
+90451,502,Nürnberg-Stadt zusammen
+90451,503,Nürnberg-Stadt zusammen
+90451,504,Nürnberg-Stadt zusammen
+90453,501,Nürnberg-Stadt zusammen
+90453,502,Nürnberg-Stadt zusammen
+90453,503,Nürnberg-Stadt zusammen
+90453,504,Nürnberg-Stadt zusammen
+90455,501,Nürnberg-Stadt zusammen
+90455,502,Nürnberg-Stadt zusammen
+90455,503,Nürnberg-Stadt zusammen
+90455,504,Nürnberg-Stadt zusammen
+90459,501,Nürnberg-Stadt zusammen
+90459,502,Nürnberg-Stadt zusammen
+90459,503,Nürnberg-Stadt zusammen
+90459,504,Nürnberg-Stadt zusammen
+90461,501,Nürnberg-Stadt zusammen
+90461,502,Nürnberg-Stadt zusammen
+90461,503,Nürnberg-Stadt zusammen
+90461,504,Nürnberg-Stadt zusammen
+90469,501,Nürnberg-Stadt zusammen
+90469,502,Nürnberg-Stadt zusammen
+90469,503,Nürnberg-Stadt zusammen
+90469,504,Nürnberg-Stadt zusammen
+90471,501,Nürnberg-Stadt zusammen
+90471,502,Nürnberg-Stadt zusammen
+90471,503,Nürnberg-Stadt zusammen
+90471,504,Nürnberg-Stadt zusammen
+90473,501,Nürnberg-Stadt zusammen
+90473,502,Nürnberg-Stadt zusammen
+90473,503,Nürnberg-Stadt zusammen
+90473,504,Nürnberg-Stadt zusammen
+90475,501,Nürnberg-Stadt zusammen
+90475,502,Nürnberg-Stadt zusammen
+90475,503,Nürnberg-Stadt zusammen
+90475,504,Nürnberg-Stadt zusammen
+90478,501,Nürnberg-Stadt zusammen
+90478,502,Nürnberg-Stadt zusammen
+90478,503,Nürnberg-Stadt zusammen
+90478,504,Nürnberg-Stadt zusammen
+90480,501,Nürnberg-Stadt zusammen
+90480,502,Nürnberg-Stadt zusammen
+90480,503,Nürnberg-Stadt zusammen
+90480,504,Nürnberg-Stadt zusammen
+90482,501,Nürnberg-Stadt zusammen
+90482,502,Nürnberg-Stadt zusammen
+90482,503,Nürnberg-Stadt zusammen
+90482,504,Nürnberg-Stadt zusammen
+90489,501,Nürnberg-Stadt zusammen
+90489,502,Nürnberg-Stadt zusammen
+90489,503,Nürnberg-Stadt zusammen
+90489,504,Nürnberg-Stadt zusammen
+90491,501,Nürnberg-Stadt zusammen
+90491,502,Nürnberg-Stadt zusammen
+90491,503,Nürnberg-Stadt zusammen
+90491,504,Nürnberg-Stadt zusammen
+90513,509,Fürth
+90518,511,Nürnberger Land
+90522,509,Fürth
+90530,512,Roth
+90537,502,Nürnberg-Ost
+90537,511,Nürnberger Land
+90537,512,Roth
+90542,507,Erlangen-Höchstadt
+90547,509,Fürth
+90552,502,Nürnberg-Ost
+90552,511,Nürnberger Land
+90556,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90559,511,Nürnberger Land
+90562,501,Nürnberg-Stadt zusammen
+90562,502,Nürnberg-Stadt zusammen
+90562,503,Nürnberg-Stadt zusammen
+90562,504,Nürnberg-Stadt zusammen
+90562,507,Erlangen-Höchstadt
+90562,508,Erlangen-Stadt
+90571,502,Nürnberg-Ost
+90574,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90579,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90584,512,Roth
+90587,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90592,511,Nürnberger Land
+90596,512,Roth
+90599,505,Ansbach-Nord
+90602,303,Neumarkt i.d.OPf.
+90607,502,Nürnberg-Ost
+90607,511,Nürnberger Land
+90610,511,Nürnberger Land
+90613,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90614,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90616,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90617,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90619,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+90762,501,Nürnberg-Stadt zusammen
+90762,502,Nürnberg-Stadt zusammen
+90762,503,Nürnberg-Stadt zusammen
+90762,504,Nürnberg-Stadt zusammen
+90762,509,Fürth
+90763,501,Nürnberg-Stadt zusammen
+90763,502,Nürnberg-Stadt zusammen
+90763,503,Nürnberg-Stadt zusammen
+90763,504,Nürnberg-Stadt zusammen
+90763,509,Fürth
+90765,509,Fürth
+90766,509,Fürth
+90768,509,Fürth
+91052,508,Erlangen-Stadt
+91054,507,Erlangen-Höchstadt
+91054,508,Erlangen-Stadt
+91056,508,Erlangen-Stadt
+91058,508,Erlangen-Stadt
+91074,507,Erlangen-Höchstadt
+91077,405,Forchheim
+91080,507,Erlangen-Höchstadt
+91083,405,Forchheim
+91083,507,Erlangen-Höchstadt
+91085,507,Erlangen-Höchstadt
+91086,507,Erlangen-Höchstadt
+91088,507,Erlangen-Höchstadt
+91088,508,Erlangen-Stadt
+91090,405,Forchheim
+91091,507,Erlangen-Höchstadt
+91093,507,Erlangen-Höchstadt
+91093,508,Erlangen-Stadt
+91094,405,Forchheim
+91094,507,Erlangen-Höchstadt
+91096,507,Erlangen-Höchstadt
+91096,508,Erlangen-Stadt
+91097,507,Erlangen-Höchstadt
+91097,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91099,405,Forchheim
+91099,507,Erlangen-Höchstadt
+91126,503,Nürnberg-Süd
+91126,512,Roth
+91154,512,Roth
+91161,512,Roth
+91166,512,Roth
+91171,512,Roth
+91174,512,Roth
+91177,512,Roth
+91180,512,Roth
+91183,512,Roth
+91186,512,Roth
+91187,512,Roth
+91189,512,Roth
+91207,511,Nürnberger Land
+91217,511,Nürnberger Land
+91220,511,Nürnberger Land
+91224,511,Nürnberger Land
+91227,511,Nürnberger Land
+91230,511,Nürnberger Land
+91233,511,Nürnberger Land
+91235,511,Nürnberger Land
+91236,303,Neumarkt i.d.OPf.
+91236,511,Nürnberger Land
+91238,511,Nürnberger Land
+91239,511,Nürnberger Land
+91241,511,Nürnberger Land
+91242,511,Nürnberger Land
+91244,511,Nürnberger Land
+91245,511,Nürnberger Land
+91247,511,Nürnberger Land
+91249,301,Amberg-Sulzbach
+91257,403,Bayreuth
+91275,301,Amberg-Sulzbach
+91278,403,Bayreuth
+91281,307,Tirschenreuth
+91282,403,Bayreuth
+91284,301,Amberg-Sulzbach
+91284,511,Nürnberger Land
+91286,405,Forchheim
+91287,403,Bayreuth
+91289,307,Tirschenreuth
+91289,403,Bayreuth
+91301,405,Forchheim
+91315,507,Erlangen-Höchstadt
+91320,405,Forchheim
+91322,405,Forchheim
+91325,507,Erlangen-Höchstadt
+91327,405,Forchheim
+91330,405,Forchheim
+91332,401,Bamberg-Land
+91334,405,Forchheim
+91334,507,Erlangen-Höchstadt
+91336,405,Forchheim
+91338,405,Forchheim
+91341,507,Erlangen-Höchstadt
+91344,403,Bayreuth
+91346,405,Forchheim
+91347,403,Bayreuth
+91349,405,Forchheim
+91350,507,Erlangen-Höchstadt
+91352,405,Forchheim
+91353,405,Forchheim
+91353,507,Erlangen-Höchstadt
+91355,405,Forchheim
+91356,405,Forchheim
+91358,405,Forchheim
+91359,405,Forchheim
+91361,405,Forchheim
+91362,405,Forchheim
+91364,405,Forchheim
+91365,405,Forchheim
+91367,405,Forchheim
+91369,405,Forchheim
+91413,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91438,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91443,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91448,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91452,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91456,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91459,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91460,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91462,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91463,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91465,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91466,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91468,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91469,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91471,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91472,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91474,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91475,507,Erlangen-Höchstadt
+91477,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91478,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91480,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91481,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91483,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91484,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91486,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91487,507,Erlangen-Höchstadt
+91489,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91522,505,Ansbach-Nord
+91541,505,Ansbach-Nord
+91550,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91555,505,Ansbach-Nord
+91560,505,Ansbach-Nord
+91564,505,Ansbach-Nord
+91567,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91572,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91575,505,Ansbach-Nord
+91578,505,Ansbach-Nord
+91580,505,Ansbach-Nord
+91583,505,Ansbach-Nord
+91586,505,Ansbach-Nord
+91587,505,Ansbach-Nord
+91589,505,Ansbach-Nord
+91590,505,Ansbach-Nord
+91592,505,Ansbach-Nord
+91593,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91595,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91596,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91598,505,Ansbach-Nord
+91599,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91601,505,Ansbach-Nord
+91602,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91604,505,Ansbach-Nord
+91605,505,Ansbach-Nord
+91605,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91607,505,Ansbach-Nord
+91608,505,Ansbach-Nord
+91610,505,Ansbach-Nord
+91611,505,Ansbach-Nord
+91613,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91614,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91616,505,Ansbach-Nord
+91617,505,Ansbach-Nord
+91619,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91620,505,Ansbach-Nord
+91620,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+91622,505,Ansbach-Nord
+91623,505,Ansbach-Nord
+91625,505,Ansbach-Nord
+91626,505,Ansbach-Nord
+91628,505,Ansbach-Nord
+91629,505,Ansbach-Nord
+91631,505,Ansbach-Nord
+91632,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91634,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91635,505,Ansbach-Nord
+91637,505,Ansbach-Nord
+91639,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91710,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91717,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91719,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91720,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91722,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91723,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91725,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91726,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91728,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91729,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91731,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91732,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91734,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91735,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91737,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91738,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91740,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91741,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91743,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91744,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91746,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91747,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91749,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91757,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91781,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91785,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91788,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91790,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91792,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91793,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91795,115,Eichstätt
+91796,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91798,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91799,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91801,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91802,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91804,115,Eichstätt
+91805,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91807,115,Eichstätt
+91807,506,"Ansbach-Süd, Weißenburg-Gunzenhausen"
+91809,115,Eichstätt
+92224,301,Amberg-Sulzbach
+92237,301,Amberg-Sulzbach
+92242,301,Amberg-Sulzbach
+92245,301,Amberg-Sulzbach
+92249,301,Amberg-Sulzbach
+92253,301,Amberg-Sulzbach
+92256,301,Amberg-Sulzbach
+92259,301,Amberg-Sulzbach
+92260,301,Amberg-Sulzbach
+92262,301,Amberg-Sulzbach
+92263,301,Amberg-Sulzbach
+92265,301,Amberg-Sulzbach
+92266,301,Amberg-Sulzbach
+92268,301,Amberg-Sulzbach
+92269,306,Schwandorf
+92271,301,Amberg-Sulzbach
+92272,301,Amberg-Sulzbach
+92274,301,Amberg-Sulzbach
+92275,301,Amberg-Sulzbach
+92277,301,Amberg-Sulzbach
+92278,301,Amberg-Sulzbach
+92280,301,Amberg-Sulzbach
+92281,301,Amberg-Sulzbach
+92283,303,Neumarkt i.d.OPf.
+92284,301,Amberg-Sulzbach
+92286,301,Amberg-Sulzbach
+92287,301,Amberg-Sulzbach
+92289,301,Amberg-Sulzbach
+92318,303,Neumarkt i.d.OPf.
+92331,303,Neumarkt i.d.OPf.
+92334,303,Neumarkt i.d.OPf.
+92339,115,Eichstätt
+92342,303,Neumarkt i.d.OPf.
+92345,303,Neumarkt i.d.OPf.
+92348,303,Neumarkt i.d.OPf.
+92353,303,Neumarkt i.d.OPf.
+92355,303,Neumarkt i.d.OPf.
+92358,303,Neumarkt i.d.OPf.
+92360,303,Neumarkt i.d.OPf.
+92361,303,Neumarkt i.d.OPf.
+92363,303,Neumarkt i.d.OPf.
+92364,303,Neumarkt i.d.OPf.
+92366,303,Neumarkt i.d.OPf.
+92367,303,Neumarkt i.d.OPf.
+92369,303,Neumarkt i.d.OPf.
+92421,306,Schwandorf
+92431,306,Schwandorf
+92436,306,Schwandorf
+92439,306,Schwandorf
+92442,306,Schwandorf
+92444,302,Cham
+92445,306,Schwandorf
+92447,306,Schwandorf
+92449,306,Schwandorf
+92507,306,Schwandorf
+92521,306,Schwandorf
+92526,306,Schwandorf
+92533,306,Schwandorf
+92536,306,Schwandorf
+92539,306,Schwandorf
+92540,306,Schwandorf
+92542,306,Schwandorf
+92543,306,Schwandorf
+92545,306,Schwandorf
+92546,306,Schwandorf
+92548,306,Schwandorf
+92549,306,Schwandorf
+92551,306,Schwandorf
+92552,306,Schwandorf
+92554,306,Schwandorf
+92555,306,Schwandorf
+92557,306,Schwandorf
+92559,306,Schwandorf
+92637,308,Weiden i.d.OPf.
+92648,308,Weiden i.d.OPf.
+92655,307,Tirschenreuth
+92660,308,Weiden i.d.OPf.
+92665,308,Weiden i.d.OPf.
+92670,307,Tirschenreuth
+92676,307,Tirschenreuth
+92681,307,Tirschenreuth
+92685,308,Weiden i.d.OPf.
+92690,307,Tirschenreuth
+92693,308,Weiden i.d.OPf.
+92694,308,Weiden i.d.OPf.
+92696,308,Weiden i.d.OPf.
+92697,308,Weiden i.d.OPf.
+92699,308,Weiden i.d.OPf.
+92700,307,Tirschenreuth
+92700,308,Weiden i.d.OPf.
+92702,308,Weiden i.d.OPf.
+92703,307,Tirschenreuth
+92705,308,Weiden i.d.OPf.
+92706,308,Weiden i.d.OPf.
+92708,307,Tirschenreuth
+92708,308,Weiden i.d.OPf.
+92709,308,Weiden i.d.OPf.
+92711,308,Weiden i.d.OPf.
+92712,308,Weiden i.d.OPf.
+92714,308,Weiden i.d.OPf.
+92715,307,Tirschenreuth
+92715,308,Weiden i.d.OPf.
+92717,307,Tirschenreuth
+92718,308,Weiden i.d.OPf.
+92720,307,Tirschenreuth
+92721,308,Weiden i.d.OPf.
+92723,306,Schwandorf
+92723,308,Weiden i.d.OPf.
+92724,307,Tirschenreuth
+92726,308,Weiden i.d.OPf.
+92727,308,Weiden i.d.OPf.
+92729,308,Weiden i.d.OPf.
+93047,305,Regensburg-Stadt
+93049,304,Regensburg-Land
+93049,305,Regensburg-Stadt
+93051,305,Regensburg-Stadt
+93053,305,Regensburg-Stadt
+93055,304,Regensburg-Land
+93055,305,Regensburg-Stadt
+93057,305,Regensburg-Stadt
+93059,304,Regensburg-Land
+93059,305,Regensburg-Stadt
+93073,304,Regensburg-Land
+93077,203,Kelheim
+93080,305,Regensburg-Stadt
+93083,304,Regensburg-Land
+93086,304,Regensburg-Land
+93087,304,Regensburg-Land
+93089,304,Regensburg-Land
+93090,304,Regensburg-Land
+93092,304,Regensburg-Land
+93093,304,Regensburg-Land
+93095,304,Regensburg-Land
+93096,304,Regensburg-Land
+93098,304,Regensburg-Land
+93099,304,Regensburg-Land
+93101,304,Regensburg-Land
+93102,304,Regensburg-Land
+93104,304,Regensburg-Land
+93105,304,Regensburg-Land
+93107,304,Regensburg-Land
+93109,304,Regensburg-Land
+93128,304,Regensburg-Land
+93133,306,Schwandorf
+93138,305,Regensburg-Stadt
+93142,306,Schwandorf
+93149,306,Schwandorf
+93152,304,Regensburg-Land
+93155,304,Regensburg-Land
+93158,306,Schwandorf
+93161,304,Regensburg-Land
+93164,304,Regensburg-Land
+93167,302,Cham
+93170,304,Regensburg-Land
+93173,305,Regensburg-Stadt
+93176,304,Regensburg-Land
+93177,304,Regensburg-Land
+93179,304,Regensburg-Land
+93180,304,Regensburg-Land
+93182,304,Regensburg-Land
+93183,304,Regensburg-Land
+93185,302,Cham
+93186,304,Regensburg-Land
+93188,304,Regensburg-Land
+93189,302,Cham
+93189,306,Schwandorf
+93191,302,Cham
+93192,302,Cham
+93194,302,Cham
+93195,304,Regensburg-Land
+93197,304,Regensburg-Land
+93199,302,Cham
+93309,203,Kelheim
+93326,203,Kelheim
+93333,203,Kelheim
+93336,115,Eichstätt
+93339,203,Kelheim
+93342,203,Kelheim
+93343,203,Kelheim
+93345,203,Kelheim
+93346,203,Kelheim
+93348,203,Kelheim
+93349,115,Eichstätt
+93351,203,Kelheim
+93352,203,Kelheim
+93354,203,Kelheim
+93356,203,Kelheim
+93358,203,Kelheim
+93359,203,Kelheim
+93413,302,Cham
+93426,302,Cham
+93437,302,Cham
+93444,302,Cham
+93449,302,Cham
+93453,302,Cham
+93455,302,Cham
+93458,302,Cham
+93462,302,Cham
+93464,302,Cham
+93466,302,Cham
+93468,302,Cham
+93470,302,Cham
+93471,207,"Regen, Freyung-Grafenau"
+93473,302,Cham
+93474,302,Cham
+93476,302,Cham
+93477,302,Cham
+93479,302,Cham
+93480,302,Cham
+93482,302,Cham
+93483,302,Cham
+93485,302,Cham
+93486,302,Cham
+93488,302,Cham
+93489,302,Cham
+93491,302,Cham
+93492,302,Cham
+93494,302,Cham
+93495,302,Cham
+93497,302,Cham
+93499,302,Cham
+94032,205,Passau-Ost
+94034,205,Passau-Ost
+94036,205,Passau-Ost
+94051,205,Passau-Ost
+94060,206,Passau-West
+94065,205,Passau-Ost
+94072,206,Passau-West
+94078,207,"Regen, Freyung-Grafenau"
+94081,206,Passau-West
+94086,206,Passau-West
+94089,205,Passau-Ost
+94094,206,Passau-West
+94099,206,Passau-West
+94104,205,Passau-Ost
+94107,205,Passau-Ost
+94110,205,Passau-Ost
+94113,205,Passau-Ost
+94116,205,Passau-Ost
+94118,205,Passau-Ost
+94121,205,Passau-Ost
+94124,205,Passau-Ost
+94127,206,Passau-West
+94130,205,Passau-Ost
+94133,205,Passau-Ost
+94136,205,Passau-Ost
+94137,208,Rottal-Inn
+94139,205,Passau-Ost
+94140,208,Rottal-Inn
+94142,205,Passau-Ost
+94142,207,"Regen, Freyung-Grafenau"
+94143,205,Passau-Ost
+94145,205,Passau-Ost
+94146,205,Passau-Ost
+94146,207,"Regen, Freyung-Grafenau"
+94148,206,Passau-West
+94149,206,Passau-West
+94151,207,"Regen, Freyung-Grafenau"
+94152,206,Passau-West
+94154,205,Passau-Ost
+94157,207,"Regen, Freyung-Grafenau"
+94160,207,"Regen, Freyung-Grafenau"
+94161,205,Passau-Ost
+94163,207,"Regen, Freyung-Grafenau"
+94164,205,Passau-Ost
+94166,208,Rottal-Inn
+94167,206,Passau-West
+94169,207,"Regen, Freyung-Grafenau"
+94209,207,"Regen, Freyung-Grafenau"
+94227,207,"Regen, Freyung-Grafenau"
+94234,207,"Regen, Freyung-Grafenau"
+94239,207,"Regen, Freyung-Grafenau"
+94244,207,"Regen, Freyung-Grafenau"
+94249,207,"Regen, Freyung-Grafenau"
+94250,207,"Regen, Freyung-Grafenau"
+94252,207,"Regen, Freyung-Grafenau"
+94253,207,"Regen, Freyung-Grafenau"
+94255,207,"Regen, Freyung-Grafenau"
+94256,207,"Regen, Freyung-Grafenau"
+94258,207,"Regen, Freyung-Grafenau"
+94259,207,"Regen, Freyung-Grafenau"
+94261,207,"Regen, Freyung-Grafenau"
+94262,207,"Regen, Freyung-Grafenau"
+94264,207,"Regen, Freyung-Grafenau"
+94265,207,"Regen, Freyung-Grafenau"
+94267,207,"Regen, Freyung-Grafenau"
+94269,207,"Regen, Freyung-Grafenau"
+94315,209,Straubing
+94327,209,Straubing
+94330,209,Straubing
+94333,209,Straubing
+94336,209,Straubing
+94339,209,Straubing
+94342,209,Straubing
+94344,209,Straubing
+94345,209,Straubing
+94345,304,Regensburg-Land
+94347,209,Straubing
+94348,209,Straubing
+94350,209,Straubing
+94351,209,Straubing
+94353,209,Straubing
+94354,209,Straubing
+94356,209,Straubing
+94357,209,Straubing
+94359,209,Straubing
+94359,302,Cham
+94360,209,Straubing
+94362,209,Straubing
+94363,209,Straubing
+94365,209,Straubing
+94366,209,Straubing
+94368,209,Straubing
+94369,209,Straubing
+94371,209,Straubing
+94372,209,Straubing
+94374,209,Straubing
+94375,209,Straubing
+94377,209,Straubing
+94379,209,Straubing
+94405,202,Dingolfing
+94419,202,Dingolfing
+94424,208,Rottal-Inn
+94428,202,Dingolfing
+94431,202,Dingolfing
+94436,202,Dingolfing
+94437,202,Dingolfing
+94439,208,Rottal-Inn
+94447,201,Deggendorf
+94469,201,Deggendorf
+94474,206,Passau-West
+94481,207,"Regen, Freyung-Grafenau"
+94486,201,Deggendorf
+94491,201,Deggendorf
+94496,206,Passau-West
+94501,206,Passau-West
+94505,201,Deggendorf
+94508,201,Deggendorf
+94513,207,"Regen, Freyung-Grafenau"
+94518,207,"Regen, Freyung-Grafenau"
+94522,202,Dingolfing
+94526,201,Deggendorf
+94527,201,Deggendorf
+94529,206,Passau-West
+94530,201,Deggendorf
+94532,201,Deggendorf
+94533,201,Deggendorf
+94535,206,Passau-West
+94536,207,"Regen, Freyung-Grafenau"
+94538,205,Passau-Ost
+94539,201,Deggendorf
+94541,201,Deggendorf
+94542,206,Passau-West
+94544,206,Passau-West
+94545,207,"Regen, Freyung-Grafenau"
+94547,201,Deggendorf
+94548,207,"Regen, Freyung-Grafenau"
+94550,201,Deggendorf
+94551,201,Deggendorf
+94553,209,Straubing
+94554,201,Deggendorf
+94556,207,"Regen, Freyung-Grafenau"
+94557,201,Deggendorf
+94559,209,Straubing
+94560,201,Deggendorf
+94562,201,Deggendorf
+94563,201,Deggendorf
+94566,207,"Regen, Freyung-Grafenau"
+94568,207,"Regen, Freyung-Grafenau"
+94569,201,Deggendorf
+94571,201,Deggendorf
+94572,207,"Regen, Freyung-Grafenau"
+94574,201,Deggendorf
+94575,206,Passau-West
+94577,201,Deggendorf
+94579,207,"Regen, Freyung-Grafenau"
+95028,406,Hof
+95030,406,Hof
+95032,406,Hof
+95100,406,Hof
+95100,408,"Wunsiedel, Kulmbach"
+95111,406,Hof
+95119,406,Hof
+95126,406,Hof
+95131,406,Hof
+95138,406,Hof
+95145,406,Hof
+95152,406,Hof
+95158,408,"Wunsiedel, Kulmbach"
+95163,408,"Wunsiedel, Kulmbach"
+95168,408,"Wunsiedel, Kulmbach"
+95173,408,"Wunsiedel, Kulmbach"
+95176,406,Hof
+95179,406,Hof
+95180,406,Hof
+95182,406,Hof
+95183,406,Hof
+95185,406,Hof
+95186,408,"Wunsiedel, Kulmbach"
+95188,406,Hof
+95189,406,Hof
+95191,406,Hof
+95192,406,Hof
+95194,406,Hof
+95195,408,"Wunsiedel, Kulmbach"
+95197,406,Hof
+95199,408,"Wunsiedel, Kulmbach"
+95213,406,Hof
+95233,406,Hof
+95234,406,Hof
+95236,406,Hof
+95236,408,"Wunsiedel, Kulmbach"
+95237,406,Hof
+95239,406,Hof
+95326,408,"Wunsiedel, Kulmbach"
+95336,408,"Wunsiedel, Kulmbach"
+95339,408,"Wunsiedel, Kulmbach"
+95346,408,"Wunsiedel, Kulmbach"
+95349,408,"Wunsiedel, Kulmbach"
+95352,408,"Wunsiedel, Kulmbach"
+95355,406,Hof
+95355,408,"Wunsiedel, Kulmbach"
+95356,408,"Wunsiedel, Kulmbach"
+95358,408,"Wunsiedel, Kulmbach"
+95359,408,"Wunsiedel, Kulmbach"
+95361,408,"Wunsiedel, Kulmbach"
+95362,408,"Wunsiedel, Kulmbach"
+95364,408,"Wunsiedel, Kulmbach"
+95365,408,"Wunsiedel, Kulmbach"
+95367,408,"Wunsiedel, Kulmbach"
+95369,408,"Wunsiedel, Kulmbach"
+95444,403,Bayreuth
+95445,403,Bayreuth
+95447,403,Bayreuth
+95448,403,Bayreuth
+95460,408,"Wunsiedel, Kulmbach"
+95463,403,Bayreuth
+95466,403,Bayreuth
+95469,403,Bayreuth
+95473,403,Bayreuth
+95478,307,Tirschenreuth
+95482,408,"Wunsiedel, Kulmbach"
+95485,403,Bayreuth
+95488,403,Bayreuth
+95490,403,Bayreuth
+95491,403,Bayreuth
+95493,408,"Wunsiedel, Kulmbach"
+95494,403,Bayreuth
+95496,403,Bayreuth
+95497,403,Bayreuth
+95499,408,"Wunsiedel, Kulmbach"
+95500,403,Bayreuth
+95502,408,"Wunsiedel, Kulmbach"
+95503,403,Bayreuth
+95505,307,Tirschenreuth
+95506,307,Tirschenreuth
+95508,307,Tirschenreuth
+95509,408,"Wunsiedel, Kulmbach"
+95511,403,Bayreuth
+95512,408,"Wunsiedel, Kulmbach"
+95514,307,Tirschenreuth
+95515,403,Bayreuth
+95517,403,Bayreuth
+95519,307,Tirschenreuth
+95615,408,"Wunsiedel, Kulmbach"
+95632,408,"Wunsiedel, Kulmbach"
+95643,307,Tirschenreuth
+95652,307,Tirschenreuth
+95659,408,"Wunsiedel, Kulmbach"
+95666,307,Tirschenreuth
+95671,307,Tirschenreuth
+95676,307,Tirschenreuth
+95679,307,Tirschenreuth
+95680,408,"Wunsiedel, Kulmbach"
+95682,307,Tirschenreuth
+95683,307,Tirschenreuth
+95685,307,Tirschenreuth
+95686,403,Bayreuth
+95686,408,"Wunsiedel, Kulmbach"
+95688,307,Tirschenreuth
+95689,307,Tirschenreuth
+95691,408,"Wunsiedel, Kulmbach"
+95692,307,Tirschenreuth
+95694,408,"Wunsiedel, Kulmbach"
+95695,307,Tirschenreuth
+95697,408,"Wunsiedel, Kulmbach"
+95698,307,Tirschenreuth
+95700,307,Tirschenreuth
+95701,307,Tirschenreuth
+95703,307,Tirschenreuth
+95704,307,Tirschenreuth
+95706,408,"Wunsiedel, Kulmbach"
+95707,408,"Wunsiedel, Kulmbach"
+95709,408,"Wunsiedel, Kulmbach"
+96047,402,Bamberg-Stadt
+96049,402,Bamberg-Stadt
+96050,402,Bamberg-Stadt
+96052,402,Bamberg-Stadt
+96103,402,Bamberg-Stadt
+96106,604,"Haßberge, Rhön-Grabfeld"
+96110,401,Bamberg-Land
+96114,401,Bamberg-Land
+96117,401,Bamberg-Land
+96120,402,Bamberg-Stadt
+96123,401,Bamberg-Land
+96126,604,"Haßberge, Rhön-Grabfeld"
+96129,401,Bamberg-Land
+96129,402,Bamberg-Stadt
+96132,401,Bamberg-Land
+96135,402,Bamberg-Stadt
+96138,401,Bamberg-Land
+96142,403,Bayreuth
+96145,404,Coburg
+96146,401,Bamberg-Land
+96146,405,Forchheim
+96148,401,Bamberg-Land
+96149,401,Bamberg-Land
+96151,604,"Haßberge, Rhön-Grabfeld"
+96152,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+96154,401,Bamberg-Land
+96155,401,Bamberg-Land
+96157,401,Bamberg-Land
+96158,401,Bamberg-Land
+96160,605,Kitzingen
+96161,401,Bamberg-Land
+96163,401,Bamberg-Land
+96163,402,Bamberg-Stadt
+96164,401,Bamberg-Land
+96166,604,"Haßberge, Rhön-Grabfeld"
+96167,401,Bamberg-Land
+96169,401,Bamberg-Land
+96170,402,Bamberg-Stadt
+96172,507,Erlangen-Höchstadt
+96173,402,Bamberg-Stadt
+96175,401,Bamberg-Land
+96176,604,"Haßberge, Rhön-Grabfeld"
+96178,401,Bamberg-Land
+96179,401,Bamberg-Land
+96181,604,"Haßberge, Rhön-Grabfeld"
+96182,401,Bamberg-Land
+96184,604,"Haßberge, Rhön-Grabfeld"
+96185,401,Bamberg-Land
+96187,401,Bamberg-Land
+96188,604,"Haßberge, Rhön-Grabfeld"
+96190,604,"Haßberge, Rhön-Grabfeld"
+96191,402,Bamberg-Stadt
+96193,507,Erlangen-Höchstadt
+96194,402,Bamberg-Stadt
+96196,401,Bamberg-Land
+96197,408,"Wunsiedel, Kulmbach"
+96199,401,Bamberg-Land
+96215,407,"Kronach, Lichtenfels"
+96224,407,"Kronach, Lichtenfels"
+96231,407,"Kronach, Lichtenfels"
+96237,404,Coburg
+96242,404,Coburg
+96247,407,"Kronach, Lichtenfels"
+96250,407,"Kronach, Lichtenfels"
+96253,404,Coburg
+96257,407,"Kronach, Lichtenfels"
+96260,407,"Kronach, Lichtenfels"
+96264,407,"Kronach, Lichtenfels"
+96268,407,"Kronach, Lichtenfels"
+96269,404,Coburg
+96271,404,Coburg
+96272,407,"Kronach, Lichtenfels"
+96274,404,Coburg
+96275,407,"Kronach, Lichtenfels"
+96277,404,Coburg
+96277,407,"Kronach, Lichtenfels"
+96279,404,Coburg
+96279,407,"Kronach, Lichtenfels"
+96317,407,"Kronach, Lichtenfels"
+96328,407,"Kronach, Lichtenfels"
+96332,407,"Kronach, Lichtenfels"
+96337,407,"Kronach, Lichtenfels"
+96342,407,"Kronach, Lichtenfels"
+96346,407,"Kronach, Lichtenfels"
+96349,407,"Kronach, Lichtenfels"
+96352,407,"Kronach, Lichtenfels"
+96355,407,"Kronach, Lichtenfels"
+96358,407,"Kronach, Lichtenfels"
+96361,407,"Kronach, Lichtenfels"
+96364,407,"Kronach, Lichtenfels"
+96365,406,Hof
+96365,407,"Kronach, Lichtenfels"
+96367,407,"Kronach, Lichtenfels"
+96369,407,"Kronach, Lichtenfels"
+96450,404,Coburg
+96465,404,Coburg
+96472,404,Coburg
+96476,404,Coburg
+96479,404,Coburg
+96482,404,Coburg
+96484,404,Coburg
+96486,404,Coburg
+96487,404,Coburg
+96489,404,Coburg
+96515,404,Coburg
+96515,407,"Kronach, Lichtenfels"
+96524,404,Coburg
+96524,407,"Kronach, Lichtenfels"
+96528,404,Coburg
+97070,610,Würzburg-Stadt
+97072,610,Würzburg-Stadt
+97074,610,Würzburg-Stadt
+97076,610,Würzburg-Stadt
+97078,610,Würzburg-Stadt
+97080,610,Würzburg-Stadt
+97082,610,Würzburg-Stadt
+97084,610,Würzburg-Stadt
+97199,609,Würzburg-Land
+97204,609,Würzburg-Land
+97209,609,Würzburg-Land
+97215,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+97218,610,Würzburg-Stadt
+97222,606,Main-Spessart
+97222,609,Würzburg-Land
+97225,606,Main-Spessart
+97228,605,Kitzingen
+97228,610,Würzburg-Stadt
+97230,609,Würzburg-Land
+97232,609,Würzburg-Land
+97234,609,Würzburg-Land
+97236,609,Würzburg-Land
+97236,610,Würzburg-Stadt
+97237,609,Würzburg-Land
+97239,609,Würzburg-Land
+97241,609,Würzburg-Land
+97243,609,Würzburg-Land
+97244,609,Würzburg-Land
+97246,609,Würzburg-Land
+97247,609,Würzburg-Land
+97249,609,Würzburg-Land
+97250,609,Würzburg-Land
+97252,605,Kitzingen
+97252,609,Würzburg-Land
+97253,609,Würzburg-Land
+97255,609,Würzburg-Land
+97256,609,Würzburg-Land
+97258,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+97259,609,Würzburg-Land
+97261,609,Würzburg-Land
+97262,609,Würzburg-Land
+97264,609,Würzburg-Land
+97265,609,Würzburg-Land
+97267,606,Main-Spessart
+97268,609,Würzburg-Land
+97270,609,Würzburg-Land
+97271,609,Würzburg-Land
+97273,609,Würzburg-Land
+97274,609,Würzburg-Land
+97276,609,Würzburg-Land
+97277,609,Würzburg-Land
+97279,609,Würzburg-Land
+97280,606,Main-Spessart
+97280,609,Würzburg-Land
+97282,606,Main-Spessart
+97283,609,Würzburg-Land
+97285,609,Würzburg-Land
+97286,609,Würzburg-Land
+97288,605,Kitzingen
+97288,609,Würzburg-Land
+97289,606,Main-Spessart
+97291,609,Würzburg-Land
+97292,609,Würzburg-Land
+97294,609,Würzburg-Land
+97295,609,Würzburg-Land
+97297,609,Würzburg-Land
+97299,609,Würzburg-Land
+97318,605,Kitzingen
+97320,605,Kitzingen
+97332,605,Kitzingen
+97334,605,Kitzingen
+97337,605,Kitzingen
+97340,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+97340,605,Kitzingen
+97342,605,Kitzingen
+97346,605,Kitzingen
+97348,605,Kitzingen
+97350,605,Kitzingen
+97353,605,Kitzingen
+97355,605,Kitzingen
+97357,605,Kitzingen
+97359,605,Kitzingen
+97421,608,Schweinfurt
+97422,608,Schweinfurt
+97424,608,Schweinfurt
+97437,604,"Haßberge, Rhön-Grabfeld"
+97440,608,Schweinfurt
+97447,605,Kitzingen
+97450,606,Main-Spessart
+97453,608,Schweinfurt
+97456,608,Schweinfurt
+97461,604,"Haßberge, Rhön-Grabfeld"
+97464,608,Schweinfurt
+97469,608,Schweinfurt
+97475,604,"Haßberge, Rhön-Grabfeld"
+97478,604,"Haßberge, Rhön-Grabfeld"
+97483,604,"Haßberge, Rhön-Grabfeld"
+97486,604,"Haßberge, Rhön-Grabfeld"
+97488,608,Schweinfurt
+97490,608,Schweinfurt
+97491,604,"Haßberge, Rhön-Grabfeld"
+97493,608,Schweinfurt
+97494,604,"Haßberge, Rhön-Grabfeld"
+97496,604,"Haßberge, Rhön-Grabfeld"
+97497,605,Kitzingen
+97499,605,Kitzingen
+97500,604,"Haßberge, Rhön-Grabfeld"
+97502,608,Schweinfurt
+97503,604,"Haßberge, Rhön-Grabfeld"
+97503,608,Schweinfurt
+97505,608,Schweinfurt
+97506,608,Schweinfurt
+97508,608,Schweinfurt
+97509,605,Kitzingen
+97509,608,Schweinfurt
+97511,605,Kitzingen
+97513,604,"Haßberge, Rhön-Grabfeld"
+97513,605,Kitzingen
+97514,604,"Haßberge, Rhön-Grabfeld"
+97516,605,Kitzingen
+97517,603,Bad Kissingen
+97519,604,"Haßberge, Rhön-Grabfeld"
+97520,608,Schweinfurt
+97522,604,"Haßberge, Rhön-Grabfeld"
+97523,608,Schweinfurt
+97525,608,Schweinfurt
+97526,608,Schweinfurt
+97528,604,"Haßberge, Rhön-Grabfeld"
+97529,605,Kitzingen
+97531,604,"Haßberge, Rhön-Grabfeld"
+97532,608,Schweinfurt
+97534,608,Schweinfurt
+97535,608,Schweinfurt
+97537,608,Schweinfurt
+97539,604,"Haßberge, Rhön-Grabfeld"
+97616,604,"Haßberge, Rhön-Grabfeld"
+97618,604,"Haßberge, Rhön-Grabfeld"
+97631,604,"Haßberge, Rhön-Grabfeld"
+97633,604,"Haßberge, Rhön-Grabfeld"
+97638,604,"Haßberge, Rhön-Grabfeld"
+97640,604,"Haßberge, Rhön-Grabfeld"
+97645,603,Bad Kissingen
+97647,603,Bad Kissingen
+97650,603,Bad Kissingen
+97653,603,Bad Kissingen
+97654,604,"Haßberge, Rhön-Grabfeld"
+97656,603,Bad Kissingen
+97657,603,Bad Kissingen
+97659,604,"Haßberge, Rhön-Grabfeld"
+97688,603,Bad Kissingen
+97702,603,Bad Kissingen
+97705,603,Bad Kissingen
+97708,603,Bad Kissingen
+97711,603,Bad Kissingen
+97714,603,Bad Kissingen
+97717,603,Bad Kissingen
+97720,603,Bad Kissingen
+97723,603,Bad Kissingen
+97724,603,Bad Kissingen
+97724,604,"Haßberge, Rhön-Grabfeld"
+97725,603,Bad Kissingen
+97727,603,Bad Kissingen
+97729,603,Bad Kissingen
+97737,606,Main-Spessart
+97753,606,Main-Spessart
+97762,603,Bad Kissingen
+97769,603,Bad Kissingen
+97772,603,Bad Kissingen
+97773,606,Main-Spessart
+97775,606,Main-Spessart
+97776,606,Main-Spessart
+97778,606,Main-Spessart
+97779,603,Bad Kissingen
+97780,606,Main-Spessart
+97782,606,Main-Spessart
+97783,606,Main-Spessart
+97785,606,Main-Spessart
+97786,603,Bad Kissingen
+97788,606,Main-Spessart
+97789,603,Bad Kissingen
+97791,606,Main-Spessart
+97792,603,Bad Kissingen
+97794,606,Main-Spessart
+97795,603,Bad Kissingen
+97797,603,Bad Kissingen
+97799,603,Bad Kissingen
+97816,606,Main-Spessart
+97828,606,Main-Spessart
+97833,601,Aschaffenburg-Ost
+97833,606,Main-Spessart
+97834,606,Main-Spessart
+97836,606,Main-Spessart
+97837,606,Main-Spessart
+97839,606,Main-Spessart
+97840,601,Aschaffenburg-Ost
+97840,606,Main-Spessart
+97842,606,Main-Spessart
+97843,606,Main-Spessart
+97845,606,Main-Spessart
+97846,606,Main-Spessart
+97848,606,Main-Spessart
+97849,606,Main-Spessart
+97851,606,Main-Spessart
+97852,606,Main-Spessart
+97854,606,Main-Spessart
+97855,606,Main-Spessart
+97857,606,Main-Spessart
+97859,606,Main-Spessart
+97877,606,Main-Spessart
+97877,607,Miltenberg
+97877,609,Würzburg-Land
+97892,606,Main-Spessart
+97896,607,Miltenberg
+97900,607,Miltenberg
+97901,607,Miltenberg
+97903,607,Miltenberg
+97904,607,Miltenberg
+97906,607,Miltenberg
+97907,606,Main-Spessart
+97907,607,Miltenberg
+97909,607,Miltenberg
+97922,609,Würzburg-Land
+97950,609,Würzburg-Land
+97956,609,Würzburg-Land
+97957,609,Würzburg-Land
+97990,609,Würzburg-Land
+97993,505,Ansbach-Nord
+97993,510,"Neustadt a.d.Aisch-Bad Windsheim, Fürth-Land"
+97993,609,Würzburg-Land
+97999,609,Würzburg-Land
+98617,603,Bad Kissingen
+98617,604,"Haßberge, Rhön-Grabfeld"
+98630,604,"Haßberge, Rhön-Grabfeld"
+98631,604,"Haßberge, Rhön-Grabfeld"
+98634,603,Bad Kissingen
+98646,404,Coburg
+98646,604,"Haßberge, Rhön-Grabfeld"
+98663,404,Coburg
+98663,604,"Haßberge, Rhön-Grabfeld"
+98669,404,Coburg
+98673,404,Coburg
+98743,407,"Kronach, Lichtenfels"

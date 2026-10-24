@@ -1,0 +1,21 @@
+# Sitzanschrift je Landtag – Brief-Fallback, wenn für eine Person keine
+# Wahlkreisbüro-Anschrift vorliegt (die Landtage veröffentlichen uneinheitlich).
+# Spalten: staat,name,strasse,plz,ort,url
+# `staat` entspricht dem Ordnernamen bei OpenWahlkreisMap (configs/landtag/<staat>.yaml).
+staat,name,strasse,plz,ort,url
+baden-wuerttemberg,Landtag von Baden-Württemberg,Konrad-Adenauer-Straße 3,70173,Stuttgart,https://www.landtag-bw.de/
+bayern,Bayerischer Landtag,Max-Planck-Straße 1,81675,München,https://www.bayern.landtag.de/
+berlin,Abgeordnetenhaus von Berlin,Niederkirchnerstraße 5,10117,Berlin,https://www.parlament-berlin.de/
+brandenburg,Landtag Brandenburg,Alter Markt 1,14467,Potsdam,https://www.landtag.brandenburg.de/
+bremen,Bremische Bürgerschaft,Böttcherstraße 2,28195,Bremen,https://www.bremische-buergerschaft.de/
+hamburg,Hamburgische Bürgerschaft,Rathausmarkt 1,20095,Hamburg,https://www.hamburgische-buergerschaft.de/
+hessen,Hessischer Landtag,Schlossplatz 1,65183,Wiesbaden,https://www.hessischer-landtag.de/
+mecklenburg-vorpommern,Landtag Mecklenburg-Vorpommern,Lennéstraße 1,19053,Schwerin,https://www.landtag-mv.de/
+niedersachsen,Niedersächsischer Landtag,Hannah-Arendt-Platz 1,30159,Hannover,https://www.landtag-niedersachsen.de/
+nrw,Landtag Nordrhein-Westfalen,Platz des Landtags 1,40221,Düsseldorf,https://www.landtag.nrw.de/
+rheinland-pfalz,Landtag Rheinland-Pfalz,Deutschhausplatz 1,55116,Mainz,https://www.landtag.rlp.de/
+saarland,Landtag des Saarlandes,Franz-Josef-Röder-Straße 7,66119,Saarbrücken,https://www.landtag-saar.de/
+sachsen,Sächsischer Landtag,Bernhard-von-Lindenau-Platz 1,01067,Dresden,https://www.landtag.sachsen.de/
+sachsen-anhalt,Landtag von Sachsen-Anhalt,Domplatz 6-9,39104,Magdeburg,https://www.landtag.sachsen-anhalt.de/
+schleswig-holstein,Schleswig-Holsteinischer Landtag,Düsternbrooker Weg 70,24105,Kiel,https://www.landtag.ltsh.de/
+thueringen,Thüringer Landtag,Jürgen-Fuchs-Straße 1,99096,Erfurt,https://www.thueringer-landtag.de/

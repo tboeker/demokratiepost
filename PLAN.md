@@ -22,7 +22,7 @@ Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, 
 |---|---|
 | Versandkanal | PDF-Brief (Druck) **und** Kontaktformular/mailto (E-Mail nur, wo vorhanden) |
 | MVP-Empfänger | Bundestagsabgeordnete |
-| Nächster Empfängertyp | Landtagsabgeordnete (M4, siehe *M4 im Detail — Landtag*) |
+| Nächster Empfängertyp | Landtagsabgeordnete (M4, umgesetzt – siehe *M4 im Detail — Landtag*) |
 | Architektur | Statische Seite, 100 % clientseitig, kein Backend/Tracking |
 | Stack | Vite + React + TypeScript |
 | Hosting | GitHub Pages (Deploy via GitHub Actions) |
@@ -141,7 +141,7 @@ Zwei getrennte Baustellen für den Bundestag (Punkt 1–2), dazu der Landtag (Pu
 Ergebnis wird als **Shards** (`public/data/plz/10.json`, `11.json`, …) ausgeliefert,
 damit pro Anfrage nur wenige KB geladen werden.
 
-**3. Landtag — 16 Bundesländer (geplant, M4)**
+**3. Landtag — 16 Bundesländer (M4, umgesetzt)**
 - **Wer ist aktuell Mitglied**: dieselbe abgeordnetenwatch.de-API v2. `GET /parliaments`
   listet die 16 Landtage (ids 2–4, 6–18; ohne Bundestag 5 und EU-Parlament 1) inklusive
   `current_project` = laufende Wahlperiode. `candidacies-mandates?parliament_period=…&type=mandate&range_end=1000`
@@ -150,10 +150,11 @@ damit pro Anfrage nur wenige KB geladen werden.
   „39 - Mettmann III - Mülheim II (Nordrhein-Westfalen 2022 - 2027)") und Fraktion.
   Nur `mandate_won = constituency` gilt als Direktmandat (nur diese sind über die PLZ
   auffindbar); Listenmandate werden mitgeführt, aber nicht gesucht.
-- **Anrede (`sex`)**: steht nur pro Person (`/politicians?id=…`); Batching ist nicht möglich
-  (getestet). Deshalb **incrementeller Cache** `scripts/source/cache/politicians/<id>.json`:
-  erster Vollaufbau ~1.900 Einzelabfragen, danach nur noch Deltas. Die API drosselt
-  (HTTP 429 bei schnellen Folgen) → Build-Skript mit Backoff und Pausen.
+- **Anrede (`sex`)**: steht nur pro Person (`/politicians?id=…`); das Bündeln von Ids ist nicht
+  möglich. Die API erlaubt aber, Mandate über das Referenzfeld zu filtern
+  (`…&politician[entity.sex]=m|f|d`) – drei Abrufe je Wahlperiode statt ~1.900 Einzelabfragen.
+  Das Ergebnis wird im **inkrementellen Cache** `scripts/source/cache/politicians/<id>.json`
+  gehalten; die API drosselt (HTTP 429) → Build-Skript mit Backoff. `--force` baut neu auf.
 - **PLZ → Landtagswahlkreis**: OpenWahlkreisMap (derselbe gepinnte Commit wie beim Bund)
   liefert für alle 16 Länder `data/landtag/<staat>/plz-wahlkreis.csv`
   (`plz, wahlkreis_nr, wahlkreis_name, overlap, is_primary`) sowie je Land
@@ -294,13 +295,13 @@ demokratiepost/
    (Kampagne → Absender → **Empfängertyp** → Empfänger (Suche mit PLZ-Vorbelegung bzw.
    manuelle Erfassung pro Typ) → Vorschau); **Template pro Empfängertyp**;
    Typen-Registry `recipientTypes.ts` – _umgesetzt_; Einzel-Details im Abschnitt *User-Workflow*.
-4. **M4 — Erweiterung**: Landtag _(geplant, Details im Abschnitt *M4 im Detail — Landtag*)_,
+4. **M4 — Erweiterung**: Landtag _(umgesetzt, Details im Abschnitt *M4 im Detail — Landtag*)_,
    danach Gemeinde-Ebene (Bürgermeister/Landrat).
 5. **M5 — später**: Netzbetreiber/Stadtwerke (Grundversorger via BNetzA).
 
 M1–M3 sind der Proof-of-Value. Erst danach lohnt sich die Datenbreite.
 
-## M4 im Detail — Landtag (geplant)
+## M4 im Detail — Landtag (umgesetzt)
 
 **Ziel:** Landtagsabgeordnete als zweiter durchsuchbarer Empfängertyp – PLZ rein,
 Direktmandat des zuständigen Landtags raus, Brief versandfertig.
@@ -310,6 +311,24 @@ inklusive laufender Wahlperiode ab (Abschnitt *Datenpipeline*, Punkt 3). OpenWah
 liefert die fertigen PLZ→Landtagswahlkreis-Zuordnungen für alle 16 Länder. Die Kontaktdaten
 der Landtage sind uneinheitlich (NRW: E-Mail + Wahlkreisbüro per einfachem HTTP; Sachsen
 u. a.: nur Kontaktformular-Token + Landtagssitz).
+
+**Umsetzungsstand (Oktober 2026):** Umgesetzt. Ist-Stand der Daten:
+
+- 16 Landtage, 1.876 Mandate (866 als Direktmandat eingeordnet), 11 Länder durchsuchbar,
+  85 PLZ-Shards mit 6.027 PLZ. Quellen-Commit wie beim Bund gepinnt.
+- **sex** wird nicht mehr einzeln, sondern über den API-Filter `politician[entity.sex]`
+  (drei Abrufe je Wahlperiode) ermittelt; der Per-Person-Cache bleibt erhalten.
+- **Konsistenz:** stimmig/„Treffer“ sind SH, SN, BB, TH, SL, BY, NI, HE, HB, HH, NRW; nicht
+  durchsuchbar (manueller Fallback) MV, ST, RP (Daten noch Wahl 2021), BW (Perioden-Id-Drift
+  163/165) und BE (Legislaturwechsel noch nicht in der API abgebildet).
+- **Saarland** hat seit 2022 keine ausgewiesenen Direktmandate (Wahlkreislisten, `mandate_won`
+  ist `null`). `build-landtag.mjs` nutzt dort die Wahlkreis-Zuordnung als Suchschlüssel, damit
+  die PLZ-Suche trotzdem Treffer liefert.
+- **Wahlkreis-Nummerierung:** SH wird in der amtlichen Quelle 101–135 geführt, in der API 1–35
+  → `LANDTAG_WK_OFFSET` (in `scripts/lib/landtag.mjs`) rechnet um.
+- **NRW-Kontakte:** Die Detailseiten liefern die dienstliche E-Mail und – nur wo angegeben –
+  ein Wahlkreisbüro. Sonst bleibt es bei der Landtagssitz als Briefanschrift. Ist-Stand:
+  195 E-Mail-Adressen, 28 Wahlkreisbüros.
 
 ### Datenbasis (Build-Zeit)
 
@@ -350,17 +369,20 @@ u. a.: nur Kontaktformular-Token + Landtagssitz).
 - `campaigns/redispatch-2026-01/campaign.yaml`: `recipients: [mdb, landtag]`.
 - `templates/landtag.md`: derselbe Kern (EU-Rechtsbruch, fossile Kostenfalle) auf
   Landesebene – Landtage/Landesregierungen gestalten Umsetzung, Bau- und Genehmigungsrecht
-  sowie Landesenergiegesetze. Anrede `{{ empfaenger.anrede }}`, Bezug
-  `{{ empfaenger.wahlkreis }}` / `{{ empfaenger.bundesland }}`,
-  `<!-- kontaktformular:start/ende -->`-Marker. Betreff bleibt kampagnenweit.
-  **Textentwurf wird vor Veröffentlichung mit dem Kampagnen-Autor (Kail) abgestimmt.**
+  sowie Landesenergiegesetze. Anrede `{{ empfaenger.anrede }}`, Ortsbezug `{{ absender.ort }}`
+  (funktioniert auch beim manuellen Fallback, wo kein Bundesland bekannt ist), Empfänger-
+  anschrift aus `empfaenger.*`, `<!-- kontaktformular:start/ende -->`-Marker. Betreff bleibt
+  kampagnenweit. **Textentwurf wird vor Veröffentlichung mit dem Kampagnen-Autor (Kail)
+  abgestimmt.**
 
-### NRW-Anreicherung (direkt danach, eigener Commit)
+### NRW-Anreicherung (umgesetzt)
 
-- `scripts/fetch-landtag-nrw.mjs` (einfacher `fetch`, kein `puppeteer`): Abgeordnetensuche +
-  Detailseiten crawlen, Join über normalisierten Namen und Wahlkreis-Label; setzt `email`
-  und `address` (Wahlkreisbüro, Fallback Sitzanschrift) im NRW-Roster. Wirkung: mailto-Button
-  + vorbefüllte Nachricht für NRW.
+- `scripts/fetch-landtag-nrw.mjs` (einfacher `fetch`, kein `puppeteer`): liest die A-Z-Liste und
+  die Detailseiten von landtag.nrw.de, Join über normalisierten Namen (`scripts/lib/names.mjs`);
+  schreibt `scripts/source/landtag-contacts/nrw.json`. `build-landtag.mjs` merge-t das ins
+  NRW-Roster: `email` (dienstlich) und – nur wo angegeben – `address` (Wahlkreisbüro, sonst
+  Sitzanschrift). Wirkung: mailto-Button + vorbefüllte Nachricht für NRW (nach `data:lt:nrw`
+  erneut `data:lt:build` ausführen).
 - Weitere Länder (Hamburg, Bremen, …) folgen als eigene Scraper nach demselben Muster.
 
 ### Doku, Lizenz, Abnahme
@@ -386,7 +408,7 @@ mit wenigen Wahlkreisen (`expected_wk_count`-Sanity).
 ## Offene Punkte (entscheiden beim Bauen, blockieren nicht)
 
 - **Kampagnen-Autor**: Wer schreibt die Templates — Nutzer oder strukturiert von Kail?
-  (Gilt auch für das geplante `templates/landtag.md`.)
+  (Der `templates/landtag.md`-Entwurf wird vor Veröffentlichung mit Kail abgestimmt.)
 - **Bündel-Download**: Ein Brief pro MdB (Standard) oder „an alle im Wahlkreis" als Sammel-PDF?
 - **Domain**: `*.github.io/demokratiepost` oder später eigene Domain?
 - **PLZ→Wahlkreis-Pflege**: Die abgeleitete Zuordnung muss zu jeder neuen Wahlperiode
@@ -400,10 +422,9 @@ mit wenigen Wahlkreisen (`expected_wk_count`-Sanity).
 
 ## Nächster Schritt
 
-M1–M3 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, die MdB-Daten (Anschriften,
-Kontaktformular-Links) kommen aus den bundestag.de-Profilen, die **PLZ→Wahlkreis-Zuordnung**
-ist vollständig (8.218 PLZ, 299 Wahlkreise). Als Nächstes **M4 — Landtag** nach dem Abschnitt
-*M4 im Detail — Landtag*: Roster und PLZ-Shards aus abgeordnetenwatch.de und
-OpenWahlkreisMap für die 11 stimmigen Länder (MV, ST, RP, BW, BE zunächst manuell),
-Client-Integration mit Manual-Fallback, `templates/landtag.md` in der Redispatch-Kampagne,
-danach der NRW-Anreicherungs-Pilot (E-Mail + Wahlkreisbüro).
+M1–M4 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB- und Landtagsdaten sind
+vollständig (Bund: 630 Mandate, 299 Wahlkreise; Landtage: 16 Roster, davon 11 durchsuchbar,
+6.027 PLZ in 85 Shards), Client inkl. Manual-Fallback und `templates/landtag.md` in der
+Redispatch-Kampagne. Als Nächstes **M5 — Gemeinde-Ebene** (Bürgermeister/Landrat) und danach
+Netzbetreiber/Stadtwerke; daneben weitere Landtags-Kontakt-Scraper nach dem NRW-Muster
+(Abschnitt *M4 im Detail — Landtag*).

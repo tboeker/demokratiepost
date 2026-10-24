@@ -1,0 +1,435 @@
+# PLZ -> Landtagswahlkreis Sachsen-Anhalt (Landtag)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 131 (Sachsen-Anhalt 2021)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+04420,33,Merseburg
+04420,34,Bad Dürrenberg-Saalekreis
+04420,39,Weißenfels
+04435,33,Merseburg
+04435,34,Bad Dürrenberg-Saalekreis
+04509,22,Köthen
+04509,28,Bitterfeld-Wolfen
+04509,34,Bad Dürrenberg-Saalekreis
+04523,39,Weißenfels
+04523,41,Zeitz
+04539,41,Zeitz
+04610,41,Zeitz
+04613,41,Zeitz
+04617,41,Zeitz
+04626,41,Zeitz
+04849,22,Köthen
+04849,25,Jessen
+04880,25,Jessen
+04886,25,Jessen
+04916,25,Jessen
+06108,35,Halle I
+06108,36,Halle II
+06108,37,Halle III
+06108,38,Halle IV
+06110,35,Halle I
+06110,36,Halle II
+06110,37,Halle III
+06110,38,Halle IV
+06112,35,Halle I
+06112,36,Halle II
+06112,37,Halle III
+06112,38,Halle IV
+06114,35,Halle I
+06114,36,Halle II
+06114,37,Halle III
+06114,38,Halle IV
+06116,34,Bad Dürrenberg-Saalekreis
+06116,35,Halle I
+06116,36,Halle II
+06116,37,Halle III
+06116,38,Halle IV
+06118,35,Halle I
+06118,36,Halle II
+06118,37,Halle III
+06118,38,Halle IV
+06120,35,Halle I
+06120,36,Halle II
+06120,37,Halle III
+06120,38,Halle IV
+06122,35,Halle I
+06122,36,Halle II
+06122,37,Halle III
+06122,38,Halle IV
+06124,35,Halle I
+06124,36,Halle II
+06124,37,Halle III
+06124,38,Halle IV
+06126,35,Halle I
+06126,36,Halle II
+06126,37,Halle III
+06126,38,Halle IV
+06128,35,Halle I
+06128,36,Halle II
+06128,37,Halle III
+06128,38,Halle IV
+06130,35,Halle I
+06130,36,Halle II
+06130,37,Halle III
+06130,38,Halle IV
+06132,35,Halle I
+06132,36,Halle II
+06132,37,Halle III
+06132,38,Halle IV
+06179,29,Saalekreis
+06184,34,Bad Dürrenberg-Saalekreis
+06188,34,Bad Dürrenberg-Saalekreis
+06193,29,Saalekreis
+06193,34,Bad Dürrenberg-Saalekreis
+06198,29,Saalekreis
+06217,33,Merseburg
+06231,34,Bad Dürrenberg-Saalekreis
+06237,33,Merseburg
+06237,34,Bad Dürrenberg-Saalekreis
+06242,33,Merseburg
+06246,32,Querfurt
+06249,32,Querfurt
+06255,32,Querfurt
+06258,34,Bad Dürrenberg-Saalekreis
+06259,33,Merseburg
+06268,32,Querfurt
+06279,32,Querfurt
+06295,30,Eisleben
+06308,30,Eisleben
+06311,30,Eisleben
+06313,30,Eisleben
+06317,29,Saalekreis
+06333,18,Aschersleben
+06333,30,Eisleben
+06343,31,Sangerhausen
+06347,30,Eisleben
+06366,22,Köthen
+06369,22,Köthen
+06385,23,Zerbst
+06386,22,Köthen
+06386,23,Zerbst
+06388,22,Köthen
+06406,21,Bernburg
+06408,21,Bernburg
+06420,21,Bernburg
+06425,21,Bernburg
+06429,21,Bernburg
+06449,18,Aschersleben
+06449,21,Bernburg
+06456,18,Aschersleben
+06458,17,Quedlinburg
+06463,18,Aschersleben
+06464,18,Aschersleben
+06466,17,Quedlinburg
+06466,18,Aschersleben
+06467,18,Aschersleben
+06469,18,Aschersleben
+06484,17,Quedlinburg
+06485,17,Quedlinburg
+06493,16,Wernigerode
+06493,17,Quedlinburg
+06502,15,Blankenburg
+06502,17,Quedlinburg
+06526,31,Sangerhausen
+06528,30,Eisleben
+06528,31,Sangerhausen
+06536,31,Sangerhausen
+06537,31,Sangerhausen
+06542,32,Querfurt
+06543,18,Aschersleben
+06556,31,Sangerhausen
+06556,32,Querfurt
+06567,31,Sangerhausen
+06571,32,Querfurt
+06618,40,Naumburg
+06628,32,Querfurt
+06628,40,Naumburg
+06632,32,Querfurt
+06632,40,Naumburg
+06636,40,Naumburg
+06638,40,Naumburg
+06642,32,Querfurt
+06642,40,Naumburg
+06647,32,Querfurt
+06648,32,Querfurt
+06667,39,Weißenfels
+06667,40,Naumburg
+06679,41,Zeitz
+06682,39,Weißenfels
+06686,39,Weißenfels
+06688,34,Bad Dürrenberg-Saalekreis
+06688,39,Weißenfels
+06711,41,Zeitz
+06712,41,Zeitz
+06721,40,Naumburg
+06722,41,Zeitz
+06729,41,Zeitz
+06749,28,Bitterfeld-Wolfen
+06766,28,Bitterfeld-Wolfen
+06772,25,Jessen
+06773,25,Jessen
+06774,22,Köthen
+06779,22,Köthen
+06780,28,Bitterfeld-Wolfen
+06785,27,Dessau-Roßlau-Wittenberg
+06792,28,Bitterfeld-Wolfen
+06794,28,Bitterfeld-Wolfen
+06796,28,Bitterfeld-Wolfen
+06800,22,Köthen
+06803,28,Bitterfeld-Wolfen
+06808,28,Bitterfeld-Wolfen
+06809,28,Bitterfeld-Wolfen
+06842,26,Dessau-Roßlau
+06842,27,Dessau-Roßlau-Wittenberg
+06844,26,Dessau-Roßlau
+06844,27,Dessau-Roßlau-Wittenberg
+06846,26,Dessau-Roßlau
+06846,27,Dessau-Roßlau-Wittenberg
+06847,26,Dessau-Roßlau
+06847,27,Dessau-Roßlau-Wittenberg
+06849,22,Köthen
+06849,26,Dessau-Roßlau
+06849,27,Dessau-Roßlau-Wittenberg
+06861,26,Dessau-Roßlau
+06861,27,Dessau-Roßlau-Wittenberg
+06862,26,Dessau-Roßlau
+06862,27,Dessau-Roßlau-Wittenberg
+06868,27,Dessau-Roßlau-Wittenberg
+06869,27,Dessau-Roßlau-Wittenberg
+06886,24,Wittenberg
+06888,24,Wittenberg
+06889,24,Wittenberg
+06895,24,Wittenberg
+06901,25,Jessen
+06905,25,Jessen
+06917,25,Jessen
+06925,25,Jessen
+07554,41,Zeitz
+07613,40,Naumburg
+07613,41,Zeitz
+07619,40,Naumburg
+07774,40,Naumburg
+14712,3,Havelberg-Osterburg
+14715,3,Havelberg-Osterburg
+14789,5,Genthin
+14793,5,Genthin
+14793,6,Burg
+14823,24,Wittenberg
+14823,27,Dessau-Roßlau-Wittenberg
+14827,6,Burg
+14827,23,Zerbst
+14827,27,Dessau-Roßlau-Wittenberg
+14828,6,Burg
+14913,24,Wittenberg
+14913,25,Jessen
+14929,24,Wittenberg
+16845,3,Havelberg-Osterburg
+19309,3,Havelberg-Osterburg
+19322,3,Havelberg-Osterburg
+19336,3,Havelberg-Osterburg
+19339,3,Havelberg-Osterburg
+29378,1,Salzwedel
+29389,1,Salzwedel
+29394,1,Salzwedel
+29410,1,Salzwedel
+29413,1,Salzwedel
+29416,1,Salzwedel
+29459,1,Salzwedel
+29462,1,Salzwedel
+29465,1,Salzwedel
+29468,1,Salzwedel
+29471,3,Havelberg-Osterburg
+29485,1,Salzwedel
+29487,1,Salzwedel
+29488,1,Salzwedel
+29491,1,Salzwedel
+29491,3,Havelberg-Osterburg
+29493,3,Havelberg-Osterburg
+29594,1,Salzwedel
+38170,15,Blankenburg
+38312,15,Blankenburg
+38315,15,Blankenburg
+38322,15,Blankenburg
+38325,15,Blankenburg
+38350,2,Gardelegen-Klötze
+38350,7,Haldensleben
+38364,7,Haldensleben
+38368,2,Gardelegen-Klötze
+38372,7,Haldensleben
+38381,14,Halberstadt
+38382,14,Halberstadt
+38382,15,Blankenburg
+38384,15,Blankenburg
+38387,7,Haldensleben
+38387,14,Halberstadt
+38458,2,Gardelegen-Klötze
+38459,2,Gardelegen-Klötze
+38462,2,Gardelegen-Klötze
+38465,1,Salzwedel
+38465,2,Gardelegen-Klötze
+38470,2,Gardelegen-Klötze
+38471,2,Gardelegen-Klötze
+38486,1,Salzwedel
+38486,2,Gardelegen-Klötze
+38489,1,Salzwedel
+38667,15,Blankenburg
+38667,16,Wernigerode
+38690,15,Blankenburg
+38700,16,Wernigerode
+38820,14,Halberstadt
+38822,14,Halberstadt
+38828,17,Quedlinburg
+38829,17,Quedlinburg
+38835,15,Blankenburg
+38836,14,Halberstadt
+38836,15,Blankenburg
+38838,14,Halberstadt
+38855,15,Blankenburg
+38855,16,Wernigerode
+38871,15,Blankenburg
+38875,16,Wernigerode
+38877,16,Wernigerode
+38879,16,Wernigerode
+38889,15,Blankenburg
+38889,16,Wernigerode
+38895,14,Halberstadt
+38895,15,Blankenburg
+38899,16,Wernigerode
+39104,10,Magdeburg I
+39104,11,Magdeburg II
+39104,12,Magdeburg III
+39104,13,Magdeburg IV
+39106,10,Magdeburg I
+39106,11,Magdeburg II
+39106,12,Magdeburg III
+39106,13,Magdeburg IV
+39108,10,Magdeburg I
+39108,11,Magdeburg II
+39108,12,Magdeburg III
+39108,13,Magdeburg IV
+39110,10,Magdeburg I
+39110,11,Magdeburg II
+39110,12,Magdeburg III
+39110,13,Magdeburg IV
+39112,10,Magdeburg I
+39112,11,Magdeburg II
+39112,12,Magdeburg III
+39112,13,Magdeburg IV
+39114,10,Magdeburg I
+39114,11,Magdeburg II
+39114,12,Magdeburg III
+39114,13,Magdeburg IV
+39116,10,Magdeburg I
+39116,11,Magdeburg II
+39116,12,Magdeburg III
+39116,13,Magdeburg IV
+39118,10,Magdeburg I
+39118,11,Magdeburg II
+39118,12,Magdeburg III
+39118,13,Magdeburg IV
+39120,10,Magdeburg I
+39120,11,Magdeburg II
+39120,12,Magdeburg III
+39120,13,Magdeburg IV
+39122,10,Magdeburg I
+39122,11,Magdeburg II
+39122,12,Magdeburg III
+39122,13,Magdeburg IV
+39124,10,Magdeburg I
+39124,11,Magdeburg II
+39124,12,Magdeburg III
+39124,13,Magdeburg IV
+39126,10,Magdeburg I
+39126,11,Magdeburg II
+39126,12,Magdeburg III
+39126,13,Magdeburg IV
+39128,10,Magdeburg I
+39128,11,Magdeburg II
+39128,12,Magdeburg III
+39128,13,Magdeburg IV
+39130,10,Magdeburg I
+39130,11,Magdeburg II
+39130,12,Magdeburg III
+39130,13,Magdeburg IV
+39164,9,Oschersleben-Wanzleben
+39167,8,Wolmirstedt
+39171,9,Oschersleben-Wanzleben
+39175,6,Burg
+39175,23,Zerbst
+39179,8,Wolmirstedt
+39179,10,Magdeburg I
+39179,11,Magdeburg II
+39179,12,Magdeburg III
+39179,13,Magdeburg IV
+39217,20,Schönebeck
+39218,20,Schönebeck
+39221,20,Schönebeck
+39240,20,Schönebeck
+39245,23,Zerbst
+39249,20,Schönebeck
+39261,23,Zerbst
+39264,23,Zerbst
+39279,6,Burg
+39279,23,Zerbst
+39288,6,Burg
+39291,5,Genthin
+39291,6,Burg
+39291,23,Zerbst
+39307,5,Genthin
+39317,5,Genthin
+39319,5,Genthin
+39326,8,Wolmirstedt
+39340,7,Haldensleben
+39343,2,Gardelegen-Klötze
+39343,7,Haldensleben
+39343,8,Wolmirstedt
+39345,7,Haldensleben
+39345,8,Wolmirstedt
+39356,2,Gardelegen-Klötze
+39356,7,Haldensleben
+39359,2,Gardelegen-Klötze
+39359,7,Haldensleben
+39365,7,Haldensleben
+39387,9,Oschersleben-Wanzleben
+39393,7,Haldensleben
+39393,9,Oschersleben-Wanzleben
+39397,9,Oschersleben-Wanzleben
+39397,14,Halberstadt
+39418,19,Staßfurt
+39435,19,Staßfurt
+39439,21,Bernburg
+39443,19,Staßfurt
+39444,19,Staßfurt
+39446,19,Staßfurt
+39448,19,Staßfurt
+39517,5,Genthin
+39517,8,Wolmirstedt
+39524,3,Havelberg-Osterburg
+39539,3,Havelberg-Osterburg
+39576,4,Stendal
+39579,3,Havelberg-Osterburg
+39590,5,Genthin
+39596,3,Havelberg-Osterburg
+39606,3,Havelberg-Osterburg
+39615,3,Havelberg-Osterburg
+39619,1,Salzwedel
+39624,2,Gardelegen-Klötze
+39628,4,Stendal
+39629,4,Stendal
+39638,2,Gardelegen-Klötze
+39638,7,Haldensleben
+39646,2,Gardelegen-Klötze
+39649,2,Gardelegen-Klötze
+99518,32,Querfurt
+99518,40,Naumburg
+99625,32,Querfurt
+99628,32,Querfurt
+99636,32,Querfurt
+99707,31,Sangerhausen
+99734,31,Sangerhausen
+99755,16,Wernigerode
+99765,31,Sangerhausen
+99768,16,Wernigerode
+99768,31,Sangerhausen

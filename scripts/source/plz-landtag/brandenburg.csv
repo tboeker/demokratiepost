@@ -1,0 +1,417 @@
+# PLZ -> Landtagswahlkreis Brandenburg (Landtag)
+#
+# Quelle: OpenWahlkreisMap (MIT), abgeleitet aus den PLZ-Gebieten von
+# yetzt/postleitzahlen (ODbL) und den amtlichen Wahlkreisgrenzen des Landes.
+# Stand: OpenWahlkreisMap 6dbe352 | Wahlperiode 158 (Brandenburg 2024)
+# Nur Überlappungen >= 1 % sind enthalten.
+plz,wk,wahlkreis_name
+01561,37,Elbe-Elster II
+01561,38,Oberspreewald-Lausitz I
+01609,37,Elbe-Elster II
+01616,37,Elbe-Elster II
+01619,37,Elbe-Elster II
+01936,38,Oberspreewald-Lausitz I
+01945,38,Oberspreewald-Lausitz I
+01945,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+01968,38,Oberspreewald-Lausitz I
+01968,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+01979,38,Oberspreewald-Lausitz I
+01983,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+01987,38,Oberspreewald-Lausitz I
+01990,38,Oberspreewald-Lausitz I
+01993,38,Oberspreewald-Lausitz I
+01994,38,Oberspreewald-Lausitz I
+01994,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+01996,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+01998,38,Oberspreewald-Lausitz I
+02953,42,Spree-Neiße II
+02959,42,Spree-Neiße II
+02979,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+02979,42,Spree-Neiße II
+02991,38,Oberspreewald-Lausitz I
+02991,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+02994,38,Oberspreewald-Lausitz I
+03042,43,Cottbus I
+03042,44,Cottbus II
+03044,43,Cottbus I
+03044,44,Cottbus II
+03046,43,Cottbus I
+03046,44,Cottbus II
+03048,40,Oberspreewald-Lausitz III/ Spree-Neiße III
+03048,43,Cottbus I
+03048,44,Cottbus II
+03050,43,Cottbus I
+03050,44,Cottbus II
+03051,43,Cottbus I
+03051,44,Cottbus II
+03052,42,Spree-Neiße II
+03052,43,Cottbus I
+03052,44,Cottbus II
+03053,43,Cottbus I
+03053,44,Cottbus II
+03054,43,Cottbus I
+03054,44,Cottbus II
+03055,43,Cottbus I
+03055,44,Cottbus II
+03058,42,Spree-Neiße II
+03096,40,Oberspreewald-Lausitz III/ Spree-Neiße III
+03099,40,Oberspreewald-Lausitz III/ Spree-Neiße III
+03103,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+03116,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+03119,42,Spree-Neiße II
+03130,42,Spree-Neiße II
+03149,41,Spree-Neiße I
+03149,42,Spree-Neiße II
+03159,42,Spree-Neiße II
+03172,41,Spree-Neiße I
+03185,41,Spree-Neiße I
+03197,41,Spree-Neiße I
+03205,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+03205,40,Oberspreewald-Lausitz III/ Spree-Neiße III
+03222,40,Oberspreewald-Lausitz III/ Spree-Neiße III
+03226,40,Oberspreewald-Lausitz III/ Spree-Neiße III
+03229,39,Oberspreewald-Lausitz II/ Spree-Neiße IV
+03238,36,Elbe-Elster I
+03238,37,Elbe-Elster II
+03246,36,Elbe-Elster I
+03249,36,Elbe-Elster I
+03253,37,Elbe-Elster II
+04758,37,Elbe-Elster II
+04874,37,Elbe-Elster II
+04886,36,Elbe-Elster I
+04886,37,Elbe-Elster II
+04895,36,Elbe-Elster I
+04895,37,Elbe-Elster II
+04910,37,Elbe-Elster II
+04916,36,Elbe-Elster I
+04924,36,Elbe-Elster I
+04924,37,Elbe-Elster II
+04928,37,Elbe-Elster II
+04931,37,Elbe-Elster II
+04932,37,Elbe-Elster II
+04934,37,Elbe-Elster II
+04936,36,Elbe-Elster I
+04938,36,Elbe-Elster I
+06868,18,Potsdam-Mittelmark II
+06869,18,Potsdam-Mittelmark II
+06889,18,Potsdam-Mittelmark II
+06889,24,Teltow-Fläming II
+06895,24,Teltow-Fläming II
+06917,24,Teltow-Fläming II
+06917,36,Elbe-Elster I
+06925,36,Elbe-Elster I
+12207,20,Potsdam-Mittelmark IV
+12207,23,Teltow-Fläming I
+12209,23,Teltow-Fläming I
+12277,23,Teltow-Fläming I
+12279,23,Teltow-Fläming I
+12307,23,Teltow-Fläming I
+12307,25,Teltow-Fläming III
+12309,25,Teltow-Fläming III
+12309,26,Dahme-Spreewald I
+12349,26,Dahme-Spreewald I
+12353,26,Dahme-Spreewald I
+12355,26,Dahme-Spreewald I
+12524,26,Dahme-Spreewald I
+12526,26,Dahme-Spreewald I
+12527,26,Dahme-Spreewald I
+12527,27,Dahme-Spreewald II/ Oder-Spree I
+12529,26,Dahme-Spreewald I
+12559,27,Dahme-Spreewald II/ Oder-Spree I
+12559,31,Märkisch-Oderland I/ Oder-Spree IV
+12587,31,Märkisch-Oderland I/ Oder-Spree IV
+12589,31,Märkisch-Oderland I/ Oder-Spree IV
+12623,31,Märkisch-Oderland I/ Oder-Spree IV
+12627,15,Barnim III
+12627,31,Märkisch-Oderland I/ Oder-Spree IV
+12629,15,Barnim III
+12679,15,Barnim III
+12681,15,Barnim III
+12685,15,Barnim III
+12689,15,Barnim III
+13051,15,Barnim III
+13057,15,Barnim III
+13059,15,Barnim III
+13125,14,Barnim II
+13125,15,Barnim III
+13127,15,Barnim III
+13159,8,Oberhavel II
+13159,15,Barnim III
+13465,8,Oberhavel II
+13467,8,Oberhavel II
+13469,8,Oberhavel II
+13503,7,Oberhavel I
+13503,8,Oberhavel II
+13505,7,Oberhavel I
+13587,6,Havelland II
+13587,7,Oberhavel I
+13589,6,Havelland II
+13591,6,Havelland II
+13593,6,Havelland II
+14089,19,Potsdam-Mittelmark III/ Potsdam III
+14089,21,Potsdam I
+14089,22,Potsdam II
+14109,19,Potsdam-Mittelmark III/ Potsdam III
+14109,20,Potsdam-Mittelmark IV
+14109,21,Potsdam I
+14109,22,Potsdam II
+14129,20,Potsdam-Mittelmark IV
+14165,20,Potsdam-Mittelmark IV
+14167,20,Potsdam-Mittelmark IV
+14467,19,Potsdam-Mittelmark III/ Potsdam III
+14467,21,Potsdam I
+14467,22,Potsdam II
+14469,19,Potsdam-Mittelmark III/ Potsdam III
+14469,21,Potsdam I
+14469,22,Potsdam II
+14471,19,Potsdam-Mittelmark III/ Potsdam III
+14471,21,Potsdam I
+14471,22,Potsdam II
+14473,19,Potsdam-Mittelmark III/ Potsdam III
+14473,21,Potsdam I
+14473,22,Potsdam II
+14476,19,Potsdam-Mittelmark III/ Potsdam III
+14476,21,Potsdam I
+14476,22,Potsdam II
+14478,19,Potsdam-Mittelmark III/ Potsdam III
+14478,20,Potsdam-Mittelmark IV
+14478,21,Potsdam I
+14478,22,Potsdam II
+14480,19,Potsdam-Mittelmark III/ Potsdam III
+14480,20,Potsdam-Mittelmark IV
+14480,21,Potsdam I
+14480,22,Potsdam II
+14482,19,Potsdam-Mittelmark III/ Potsdam III
+14482,21,Potsdam I
+14482,22,Potsdam II
+14513,20,Potsdam-Mittelmark IV
+14532,20,Potsdam-Mittelmark IV
+14542,19,Potsdam-Mittelmark III/ Potsdam III
+14547,18,Potsdam-Mittelmark II
+14548,18,Potsdam-Mittelmark II
+14550,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14552,18,Potsdam-Mittelmark II
+14554,18,Potsdam-Mittelmark II
+14558,20,Potsdam-Mittelmark IV
+14612,5,Havelland I
+14612,6,Havelland II
+14621,6,Havelland II
+14624,6,Havelland II
+14641,5,Havelland I
+14656,5,Havelland I
+14662,5,Havelland I
+14669,5,Havelland I
+14712,4,Ostprignitz-Ruppin III/ Havelland III
+14715,4,Ostprignitz-Ruppin III/ Havelland III
+14715,5,Havelland I
+14727,4,Ostprignitz-Ruppin III/ Havelland III
+14728,4,Ostprignitz-Ruppin III/ Havelland III
+14770,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14770,17,Brandenburg an der Havel II
+14772,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14772,17,Brandenburg an der Havel II
+14774,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14774,17,Brandenburg an der Havel II
+14776,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14776,17,Brandenburg an der Havel II
+14778,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14778,17,Brandenburg an der Havel II
+14789,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14793,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14797,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14798,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14806,18,Potsdam-Mittelmark II
+14822,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14822,18,Potsdam-Mittelmark II
+14823,18,Potsdam-Mittelmark II
+14827,18,Potsdam-Mittelmark II
+14828,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+14913,24,Teltow-Fläming II
+14929,18,Potsdam-Mittelmark II
+14943,24,Teltow-Fläming II
+14947,23,Teltow-Fläming I
+14959,23,Teltow-Fläming I
+14974,23,Teltow-Fläming I
+14979,23,Teltow-Fläming I
+15230,35,Frankfurt (Oder)
+15232,35,Frankfurt (Oder)
+15234,35,Frankfurt (Oder)
+15236,30,Oder-Spree III
+15236,34,Märkisch-Oderland IV
+15236,35,Frankfurt (Oder)
+15295,29,Oder-Spree II
+15299,29,Oder-Spree II
+15306,34,Märkisch-Oderland IV
+15320,33,Märkisch-Oderland III
+15320,34,Märkisch-Oderland IV
+15324,34,Märkisch-Oderland IV
+15326,34,Märkisch-Oderland IV
+15328,34,Märkisch-Oderland IV
+15344,32,Märkisch-Oderland II
+15345,32,Märkisch-Oderland II
+15345,33,Märkisch-Oderland III
+15345,34,Märkisch-Oderland IV
+15366,31,Märkisch-Oderland I/ Oder-Spree IV
+15370,32,Märkisch-Oderland II
+15370,33,Märkisch-Oderland III
+15374,34,Märkisch-Oderland IV
+15377,34,Märkisch-Oderland IV
+15378,32,Märkisch-Oderland II
+15517,30,Oder-Spree III
+15518,27,Dahme-Spreewald II/ Oder-Spree I
+15518,30,Oder-Spree III
+15526,27,Dahme-Spreewald II/ Oder-Spree I
+15528,27,Dahme-Spreewald II/ Oder-Spree I
+15537,27,Dahme-Spreewald II/ Oder-Spree I
+15537,30,Oder-Spree III
+15537,31,Märkisch-Oderland I/ Oder-Spree IV
+15562,32,Märkisch-Oderland II
+15566,31,Märkisch-Oderland I/ Oder-Spree IV
+15569,31,Märkisch-Oderland I/ Oder-Spree IV
+15711,26,Dahme-Spreewald I
+15711,27,Dahme-Spreewald II/ Oder-Spree I
+15712,27,Dahme-Spreewald II/ Oder-Spree I
+15713,27,Dahme-Spreewald II/ Oder-Spree I
+15732,26,Dahme-Spreewald I
+15738,26,Dahme-Spreewald I
+15741,26,Dahme-Spreewald I
+15745,26,Dahme-Spreewald I
+15746,28,Dahme-Spreewald III
+15748,28,Dahme-Spreewald III
+15749,26,Dahme-Spreewald I
+15754,28,Dahme-Spreewald III
+15755,28,Dahme-Spreewald III
+15757,28,Dahme-Spreewald III
+15806,25,Teltow-Fläming III
+15827,25,Teltow-Fläming III
+15831,25,Teltow-Fläming III
+15834,25,Teltow-Fläming III
+15837,25,Teltow-Fläming III
+15838,23,Teltow-Fläming I
+15848,27,Dahme-Spreewald II/ Oder-Spree I
+15848,29,Oder-Spree II
+15848,30,Oder-Spree III
+15859,27,Dahme-Spreewald II/ Oder-Spree I
+15864,27,Dahme-Spreewald II/ Oder-Spree I
+15868,28,Dahme-Spreewald III
+15890,29,Oder-Spree II
+15898,29,Oder-Spree II
+15907,28,Dahme-Spreewald III
+15910,28,Dahme-Spreewald III
+15913,28,Dahme-Spreewald III
+15926,28,Dahme-Spreewald III
+15936,24,Teltow-Fläming II
+15938,28,Dahme-Spreewald III
+16225,13,Barnim I
+16227,13,Barnim I
+16230,15,Barnim III
+16244,13,Barnim I
+16247,13,Barnim I
+16248,15,Barnim III
+16259,33,Märkisch-Oderland III
+16269,33,Märkisch-Oderland III
+16278,11,Uckermark I
+16278,12,Uckermark II
+16303,12,Uckermark II
+16306,11,Uckermark I
+16306,12,Uckermark II
+16307,12,Uckermark II
+16321,14,Barnim II
+16321,15,Barnim III
+16341,14,Barnim II
+16348,15,Barnim III
+16356,15,Barnim III
+16359,15,Barnim III
+16515,8,Oberhavel II
+16515,9,Oberhavel III
+16540,8,Oberhavel II
+16547,8,Oberhavel II
+16547,9,Oberhavel III
+16548,8,Oberhavel II
+16552,8,Oberhavel II
+16556,7,Oberhavel I
+16556,8,Oberhavel II
+16556,9,Oberhavel III
+16559,9,Oberhavel III
+16559,13,Barnim I
+16562,8,Oberhavel II
+16567,8,Oberhavel II
+16727,7,Oberhavel I
+16761,7,Oberhavel I
+16761,8,Oberhavel II
+16766,7,Oberhavel I
+16767,7,Oberhavel I
+16767,9,Oberhavel III
+16775,7,Oberhavel I
+16775,10,Uckermark III/ Oberhavel IV
+16792,10,Uckermark III/ Oberhavel IV
+16798,10,Uckermark III/ Oberhavel IV
+16816,3,Ostprignitz-Ruppin I
+16818,3,Ostprignitz-Ruppin I
+16827,3,Ostprignitz-Ruppin I
+16831,3,Ostprignitz-Ruppin I
+16833,3,Ostprignitz-Ruppin I
+16835,3,Ostprignitz-Ruppin I
+16837,3,Ostprignitz-Ruppin I
+16845,3,Ostprignitz-Ruppin I
+16845,4,Ostprignitz-Ruppin III/ Havelland III
+16866,1,Prignitz I
+16866,2,Prignitz II/ Ostprignitz-Ruppin II
+16866,4,Ostprignitz-Ruppin III/ Havelland III
+16868,4,Ostprignitz-Ruppin III/ Havelland III
+16909,2,Prignitz II/ Ostprignitz-Ruppin II
+16928,2,Prignitz II/ Ostprignitz-Ruppin II
+16945,2,Prignitz II/ Ostprignitz-Ruppin II
+16949,2,Prignitz II/ Ostprignitz-Ruppin II
+17209,2,Prignitz II/ Ostprignitz-Ruppin II
+17237,10,Uckermark III/ Oberhavel IV
+17248,2,Prignitz II/ Ostprignitz-Ruppin II
+17252,2,Prignitz II/ Ostprignitz-Ruppin II
+17252,3,Ostprignitz-Ruppin I
+17255,3,Ostprignitz-Ruppin I
+17255,10,Uckermark III/ Oberhavel IV
+17258,10,Uckermark III/ Oberhavel IV
+17258,11,Uckermark I
+17268,10,Uckermark III/ Oberhavel IV
+17268,11,Uckermark I
+17279,10,Uckermark III/ Oberhavel IV
+17291,11,Uckermark I
+17309,11,Uckermark I
+17321,11,Uckermark I
+17322,11,Uckermark I
+17326,11,Uckermark I
+17328,12,Uckermark II
+17329,12,Uckermark II
+17335,11,Uckermark I
+17337,11,Uckermark I
+17348,11,Uckermark I
+19294,1,Prignitz I
+19300,1,Prignitz I
+19303,1,Prignitz I
+19309,1,Prignitz I
+19322,1,Prignitz I
+19336,1,Prignitz I
+19339,1,Prignitz I
+19348,1,Prignitz I
+19348,2,Prignitz II/ Ostprignitz-Ruppin II
+19357,1,Prignitz I
+19372,2,Prignitz II/ Ostprignitz-Ruppin II
+19376,2,Prignitz II/ Ostprignitz-Ruppin II
+19386,2,Prignitz II/ Ostprignitz-Ruppin II
+19395,2,Prignitz II/ Ostprignitz-Ruppin II
+29471,1,Prignitz I
+29475,1,Prignitz I
+29478,1,Prignitz I
+29484,1,Prignitz I
+29493,1,Prignitz I
+29494,1,Prignitz I
+39264,18,Potsdam-Mittelmark II
+39279,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+39291,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+39307,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+39319,4,Ostprignitz-Ruppin III/ Havelland III
+39319,16,Brandenburg an der Havel I/ Potsdam-Mittelmark I
+39524,4,Ostprignitz-Ruppin III/ Havelland III
+39539,1,Prignitz I
+39539,4,Ostprignitz-Ruppin III/ Havelland III
+39615,1,Prignitz I

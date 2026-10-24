@@ -1,0 +1,1573 @@
+[
+  {
+    "id": "lt-bremen-58536",
+    "name": "Antje Grotheer",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/antje-grotheer",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58532",
+    "name": "Arno Gottschalk",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/arno-gottschalk",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58548",
+    "name": "Basem Khan",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/basem-khan",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58590",
+    "name": "Cindi Tuncel",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/cindi-tuncel",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58539",
+    "name": "Dariush Hassanpour Fard Khorashad",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dariush-hassanpour-fard-khorashad",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58512",
+    "name": "Elombo Bolayela",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/elombo-bolayela",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58523",
+    "name": "Falko Bries",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/falko-bries",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58544",
+    "name": "Frank Imhoff",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-imhoff",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58582",
+    "name": "Heiko Strohmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heiko-strohmann",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58540",
+    "name": "Hubertus Hess-Grunewald",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hubertus-hess-grunewald",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58529",
+    "name": "Jens Eckhoff",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-eckhoff",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58594",
+    "name": "Kai-Lena Wargalla",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kai-lena-wargalla",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58571",
+    "name": "Maike Schaefer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maike-schaefer",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58556",
+    "name": "Marco Lübke",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marco-luebke",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58597",
+    "name": "Medine Yildiz",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/medine-yildiz",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58578",
+    "name": "Mehmet-Ali Seyrek",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mehmet-ali-seyrek",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58537",
+    "name": "Mustafa Güngör",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mustafa-guengoer",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58596",
+    "name": "Oguzhan Yazici",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oguzhan-yazici",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58552",
+    "name": "Piet Leidreiter",
+    "party": "Bündnis Deutschland",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/piet-leidreiter",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58518",
+    "name": "Rainer Bensch",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rainer-bensch",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58517",
+    "name": "Recai Aytas",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/recai-aytas",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58534",
+    "name": "Sigrid Grönert",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sigrid-groenert",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58554",
+    "name": "Sofia Leonidakis",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sofia-leonidakis",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58533",
+    "name": "Susanne Grobien",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/susanne-grobien",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58570",
+    "name": "Thore Schäck",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thore-schaeck",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58589",
+    "name": "Valentina Tuchel",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/valentina-tuchel",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58579",
+    "name": "Volker Stahmann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volker-stahmann",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58595",
+    "name": "Wiebke Winter",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wiebke-winter",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Bremen"
+    }
+  },
+  {
+    "id": "lt-bremen-58575",
+    "name": "Christine Schnittker",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christine-schnittker",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Bremerhaven"
+    }
+  },
+  {
+    "id": "lt-bremen-58588",
+    "name": "Jan Timke",
+    "party": "Bündnis Deutschland",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-timke",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Bremerhaven"
+    }
+  },
+  {
+    "id": "lt-bremen-58525",
+    "name": "Sülmez Çolak",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/suelmez-colak",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Bremerhaven"
+    }
+  },
+  {
+    "id": "lt-bremen-58555",
+    "name": "Sven Lichtenfeld",
+    "party": "",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sven-lichtenfeld",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Bremerhaven"
+    }
+  },
+  {
+    "id": "lt-bremen-58560",
+    "name": "Andre Minne",
+    "party": "Bündnis Deutschland",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andre-minne",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58573",
+    "name": "Anja Schiemann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anja-schiemann",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58542",
+    "name": "Bettina Hornhues",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bettina-hornhues",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58558",
+    "name": "Bithja Menzel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bithja-menzel",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58565",
+    "name": "Claas Rohmeyer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claas-rohmeyer",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58526",
+    "name": "Cord Degenhard",
+    "party": "Bündnis Deutschland",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/cord-degenhard",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58603",
+    "name": "Derik Eicke",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/derik-eicke",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58606",
+    "name": "Emanuel Herold",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/emanuel-herold",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58593",
+    "name": "Falk Wagner",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/falk-wagner",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58586",
+    "name": "Franziska Tell",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/franziska-tell",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58592",
+    "name": "Fynn Voigt",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/fynn-voigt",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-63653",
+    "name": "Gökhan Brandt",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/goekhan-brandt",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58520",
+    "name": "Hartmut Bodeit",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hartmut-bodeit",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58550",
+    "name": "Heike Kretschmann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heike-kretschmann",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58585",
+    "name": "Hetav Tek",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hetav-tek",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58531",
+    "name": "Holger Fricke",
+    "party": "Gruppe Bürgerallianz Bremen/Bremerhaven",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/holger-fricke",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58607",
+    "name": "Holger Welt",
+    "party": "SPD",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/holger-welt",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58581",
+    "name": "Janina Strelow",
+    "party": "SPD",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/janina-strelow",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-60626",
+    "name": "Jörg Zager",
+    "party": "SPD",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-zager",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58587",
+    "name": "Julia Tiedemann",
+    "party": "Bündnis Deutschland",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-tiedemann",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58547",
+    "name": "Katharina Kähler",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katharina-kaehler",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58528",
+    "name": "Kerstin Eckardt",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kerstin-eckardt",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58553",
+    "name": "Kevin Lenkeit",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kevin-lenkeit",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58566",
+    "name": "Klaus-Rainer Rupp",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/klaus-rainer-rupp",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58584",
+    "name": "Maja Tegeler",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maja-tegeler",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58576",
+    "name": "Marcel Schröder",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcel-schroeder",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58559",
+    "name": "Martin Michalik",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-michalik",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58567",
+    "name": "Meltem Sağiroğlu",
+    "party": "Gruppe Bürgerallianz Bremen/Bremerhaven",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/meltem-sagiroglu",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58546",
+    "name": "Michael Jonitz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-jonitz",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58551",
+    "name": "Michael Labetzke",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-labetzke",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58583",
+    "name": "Miriam Strunge",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/miriam-strunge",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58549",
+    "name": "Muhlis Kocaağa",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/muhlis-kocaaga",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58545",
+    "name": "Nelson Janßen",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nelson-janssen",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58521",
+    "name": "Nils Bothen",
+    "party": "SPD",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nils-bothen",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58608",
+    "name": "Nurtekin Tepe",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nurtekin-tepe",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58610",
+    "name": "Olaf Zimmer",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/olaf-zimmer",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58543",
+    "name": "Ole Humpich",
+    "party": "FDP",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ole-humpich",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58524",
+    "name": "Philipp Bruck",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/philipp-bruck",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58569",
+    "name": "Ralph Saxe",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralph-saxe",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58609",
+    "name": "Sahhanim Görgü-Philipp",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sahhanim-goergue-philipp",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58513",
+    "name": "Sandra Ahrens",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandra-ahrens",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-69054",
+    "name": "Sascha Karolin Aulepp",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-karolin-aulepp",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58577",
+    "name": "Sascha Schuster",
+    "party": "Gruppe Bürgerallianz Bremen/Bremerhaven",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-schuster",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58514",
+    "name": "Selin Ece Arpaz",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/selin-ece-arpaz",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58568",
+    "name": "Senihad Sator",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/senihad-sator",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58562",
+    "name": "Silvia Neumeyer",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/silvia-neumeyer",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58598",
+    "name": "Simon Zeimke",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/simon-zeimke",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58527",
+    "name": "Sina Dertwinkel",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sina-dertwinkel",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-69063",
+    "name": "Solveig Eschen",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/solveig-eschen",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58572",
+    "name": "Sven Schellenberg",
+    "party": "Bündnis Deutschland",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sven-schellenberg",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58535",
+    "name": "Theresa Gröninger",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/theresa-groeninger",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58563",
+    "name": "Thorsten Raschen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thorsten-raschen",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58604",
+    "name": "Tim Sültenfuß",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tim-sueltenfuss",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58564",
+    "name": "Ute Reimers-Bruns",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ute-reimers-bruns",
+    "state": "Bremen"
+  },
+  {
+    "id": "lt-bremen-58516",
+    "name": "Yvonne Averwerser",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Bremen",
+    "address": {
+      "strasse": "Böttcherstraße 2",
+      "plz": "28195",
+      "ort": "Bremen",
+      "label": "Bremische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/yvonne-averwerser",
+    "state": "Bremen"
+  }
+]

@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "lt-hamburg-68258",
+    "name": "David Christopher Stoop",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/david-christopher-stoop",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Hamburg-Mitte"
+    }
+  },
+  {
+    "id": "lt-hamburg-68255",
+    "name": "Hansjörg Schmidt",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hansjoerg-schmidt",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Hamburg-Mitte"
+    }
+  },
+  {
+    "id": "lt-hamburg-68256",
+    "name": "Julia Dworzynski",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-dworzynski",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Hamburg-Mitte"
+    }
+  },
+  {
+    "id": "lt-hamburg-68259",
+    "name": "Lena Zagst",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lena-zagst",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Hamburg-Mitte"
+    }
+  },
+  {
+    "id": "lt-hamburg-68257",
+    "name": "Stefanie Blaschka",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefanie-blaschka",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Hamburg-Mitte"
+    }
+  },
+  {
+    "id": "lt-hamburg-68260",
+    "name": "Baris Önes",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/baris-oenes",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Billstedt - Wilhelmsburg - Finkenwerder"
+    }
+  },
+  {
+    "id": "lt-hamburg-68264",
+    "name": "Benjamin Mennerich",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/benjamin-mennerich",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Billstedt - Wilhelmsburg - Finkenwerder"
+    }
+  },
+  {
+    "id": "lt-hamburg-68262",
+    "name": "David Adnan Erkalp",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/david-adnan-erkalp",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Billstedt - Wilhelmsburg - Finkenwerder"
+    }
+  },
+  {
+    "id": "lt-hamburg-68263",
+    "name": "Kay Jäger",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kay-jaeger",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Billstedt - Wilhelmsburg - Finkenwerder"
+    }
+  },
+  {
+    "id": "lt-hamburg-68261",
+    "name": "Michael Weinreich",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-weinreich",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Billstedt - Wilhelmsburg - Finkenwerder"
+    }
+  },
+  {
+    "id": "lt-hamburg-68268",
+    "name": "Andreas Grutzeck",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-grutzeck",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Altona"
+    }
+  },
+  {
+    "id": "lt-hamburg-68269",
+    "name": "Heike Sudmann",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heike-sudmann",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Altona"
+    }
+  },
+  {
+    "id": "lt-hamburg-68266",
+    "name": "Mareike Engels",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mareike-engels",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Altona"
+    }
+  },
+  {
+    "id": "lt-hamburg-68265",
+    "name": "Mithat Çapar",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mithat-capar",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Altona"
+    }
+  },
+  {
+    "id": "lt-hamburg-68272",
+    "name": "Anke Frieling",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anke-frieling",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Altona-West"
+    }
+  },
+  {
+    "id": "lt-hamburg-68273",
+    "name": "Antje Müller-Möller",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/antje-mueller-moeller",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Altona-West"
+    }
+  },
+  {
+    "id": "lt-hamburg-68274",
+    "name": "Filiz (Phyliss) Demirel",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/filiz-phyliss-demirel",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Altona-West"
+    }
+  },
+  {
+    "id": "lt-hamburg-68271",
+    "name": "Frank Schmitt",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-schmitt",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Altona-West"
+    }
+  },
+  {
+    "id": "lt-hamburg-68270",
+    "name": "Philine Sturzenbecher",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/philine-sturzenbecher",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Altona-West"
+    }
+  },
+  {
+    "id": "lt-hamburg-68275",
+    "name": "Olaf Steinbiß",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/olaf-steinbiss",
+    "wahlkreis": {
+      "number": 5,
+      "name": "Rotherbaum - Harvestehude - Eimsbüttel-Ost"
+    }
+  },
+  {
+    "id": "lt-hamburg-68277",
+    "name": "Sascha Greshake",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-greshake",
+    "wahlkreis": {
+      "number": 5,
+      "name": "Rotherbaum - Harvestehude - Eimsbüttel-Ost"
+    }
+  },
+  {
+    "id": "lt-hamburg-68279",
+    "name": "Anne Kathrin Warnecke",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anne-kathrin-warnecke",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Eidelstedt - Stellingen - Eimsbüttel-West"
+    }
+  },
+  {
+    "id": "lt-hamburg-68280",
+    "name": "Jan Libbertz",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-libbertz",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Eidelstedt - Stellingen - Eimsbüttel-West"
+    }
+  },
+  {
+    "id": "lt-hamburg-68278",
+    "name": "Martina Koeppen",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-koeppen",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Eidelstedt - Stellingen - Eimsbüttel-West"
+    }
+  },
+  {
+    "id": "lt-hamburg-68282",
+    "name": "Koorosh Armi",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/koorosh-armi",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Lokstedt - Niendorf - Schnelsen"
+    }
+  },
+  {
+    "id": "lt-hamburg-68283",
+    "name": "Lisa Kern",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lisa-kern",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Lokstedt - Niendorf - Schnelsen"
+    }
+  },
+  {
+    "id": "lt-hamburg-68281",
+    "name": "Marc Schemmel",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marc-schemmel",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Lokstedt - Niendorf - Schnelsen"
+    }
+  },
+  {
+    "id": "lt-hamburg-68284",
+    "name": "Silke Seif",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/silke-seif",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Lokstedt - Niendorf - Schnelsen"
+    }
+  },
+  {
+    "id": "lt-hamburg-68285",
+    "name": "Lena Silke Otto",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lena-silke-otto",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Eppendorf - Winterhude - Hoheluft-Ost"
+    }
+  },
+  {
+    "id": "lt-hamburg-68288",
+    "name": "Marco Hosemann",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marco-hosemann",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Eppendorf - Winterhude - Hoheluft-Ost"
+    }
+  },
+  {
+    "id": "lt-hamburg-68287",
+    "name": "Sina Imhof",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sina-imhof",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Eppendorf - Winterhude - Hoheluft-Ost"
+    }
+  },
+  {
+    "id": "lt-hamburg-68292",
+    "name": "Deniz Çelik",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/deniz-celik",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Barmbek - Uhlenhorst - Dulsberg"
+    }
+  },
+  {
+    "id": "lt-hamburg-68291",
+    "name": "Julian Herrmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julian-herrmann",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Barmbek - Uhlenhorst - Dulsberg"
+    }
+  },
+  {
+    "id": "lt-hamburg-68290",
+    "name": "Kemir Čolić",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kemir-colic",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Barmbek - Uhlenhorst - Dulsberg"
+    }
+  },
+  {
+    "id": "lt-hamburg-68289",
+    "name": "Sarah Timmann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sarah-timmann",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Barmbek - Uhlenhorst - Dulsberg"
+    }
+  },
+  {
+    "id": "lt-hamburg-68293",
+    "name": "Simone Dornia",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/simone-dornia",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Barmbek - Uhlenhorst - Dulsberg"
+    }
+  },
+  {
+    "id": "lt-hamburg-68294",
+    "name": "Clarissa Herbst",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/clarissa-herbst",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Fuhlsbüttel - Alsterdorf - Langenhorn"
+    }
+  },
+  {
+    "id": "lt-hamburg-68295",
+    "name": "Gulfam Malik",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gulfam-malik",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Fuhlsbüttel - Alsterdorf - Langenhorn"
+    }
+  },
+  {
+    "id": "lt-hamburg-68296",
+    "name": "Richard Seelmäcker",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/richard-seelmaecker",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Fuhlsbüttel - Alsterdorf - Langenhorn"
+    }
+  },
+  {
+    "id": "lt-hamburg-68298",
+    "name": "Cem Berk",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/cem-berk",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Wandsbek"
+    }
+  },
+  {
+    "id": "lt-hamburg-68299",
+    "name": "Ralf Niedmers",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralf-niedmers",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Wandsbek"
+    }
+  },
+  {
+    "id": "lt-hamburg-68300",
+    "name": "Rosa Domm",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rosa-domm",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Wandsbek"
+    }
+  },
+  {
+    "id": "lt-hamburg-68302",
+    "name": "Regina Jäck",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/regina-jaeck",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Bramfeld - Farmsen-Berne - Steilshoop"
+    }
+  },
+  {
+    "id": "lt-hamburg-68304",
+    "name": "Sandro Kappe",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandro-kappe",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Bramfeld - Farmsen-Berne - Steilshoop"
+    }
+  },
+  {
+    "id": "lt-hamburg-68303",
+    "name": "Tom Hinzmann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tom-hinzmann",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Bramfeld - Farmsen-Berne - Steilshoop"
+    }
+  },
+  {
+    "id": "lt-hamburg-68307",
+    "name": "Anja Quast",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anja-quast",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Alstertal - Walddörfer"
+    }
+  },
+  {
+    "id": "lt-hamburg-68308",
+    "name": "Dennis Thering",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dennis-thering",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Alstertal - Walddörfer"
+    }
+  },
+  {
+    "id": "lt-hamburg-68309",
+    "name": "Thilo Kleibauer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thilo-kleibauer",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Alstertal - Walddörfer"
+    }
+  },
+  {
+    "id": "lt-hamburg-68312",
+    "name": "Astrid Hennies",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/astrid-hennies",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Rahlstedt"
+    }
+  },
+  {
+    "id": "lt-hamburg-68314",
+    "name": "Marco Schulz",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marco-schulz",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Rahlstedt"
+    }
+  },
+  {
+    "id": "lt-hamburg-68313",
+    "name": "Markus Kranig",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-kranig",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Rahlstedt"
+    }
+  },
+  {
+    "id": "lt-hamburg-68311",
+    "name": "Ole Thorben Buschhüter",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ole-thorben-buschhueter",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Rahlstedt"
+    }
+  },
+  {
+    "id": "lt-hamburg-68317",
+    "name": "Dennis Gladiator",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dennis-gladiator",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Bergedorf"
+    }
+  },
+  {
+    "id": "lt-hamburg-68318",
+    "name": "Dirk Nockemann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dirk-nockemann",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Bergedorf"
+    }
+  },
+  {
+    "id": "lt-hamburg-68319",
+    "name": "Jennifer Jasberg",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jennifer-jasberg",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Bergedorf"
+    }
+  },
+  {
+    "id": "lt-hamburg-68315",
+    "name": "Nils Hansen",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nils-hansen",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Bergedorf"
+    }
+  },
+  {
+    "id": "lt-hamburg-68316",
+    "name": "Simone Jasmin Gündüz",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/simone-jasmin-guenduez",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Bergedorf"
+    }
+  },
+  {
+    "id": "lt-hamburg-68321",
+    "name": "Birgit Stöver",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/birgit-stoever",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Harburg"
+    }
+  },
+  {
+    "id": "lt-hamburg-68320",
+    "name": "Sören Schumacher",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/soeren-schumacher",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Harburg"
+    }
+  },
+  {
+    "id": "lt-hamburg-68322",
+    "name": "Xenija Melnik",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/xenija-melnik",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Harburg"
+    }
+  },
+  {
+    "id": "lt-hamburg-68324",
+    "name": "André Trepoll",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andre-trepoll",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Süderelbe"
+    }
+  },
+  {
+    "id": "lt-hamburg-68325",
+    "name": "Gudrun Schittek",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gudrun-schittek",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Süderelbe"
+    }
+  },
+  {
+    "id": "lt-hamburg-68323",
+    "name": "Matthias Czech",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-czech",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Süderelbe"
+    }
+  },
+  {
+    "id": "lt-hamburg-68335",
+    "name": "Alexander Mohrenberg",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-mohrenberg",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68339",
+    "name": "Ali Kazanci",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ali-kazanci",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68360",
+    "name": "Alske Freter",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alske-freter",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68344",
+    "name": "Anna-Elisabeth von Treuenfels-Frowein",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anna-elisabeth-von-treuenfels-frowein",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69027",
+    "name": "Annika Urbanski",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/annika-urbanski",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68375",
+    "name": "Antje Hebel",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/antje-hebel",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69048",
+    "name": "Antonia-Katharina Goldner",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/antonia-katharina-goldner",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69033",
+    "name": "Arne Platzbecker",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/arne-platzbecker",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68366",
+    "name": "Carola Ensslen",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carola-ensslen",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68327",
+    "name": "Carola Veit",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carola-veit",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68346",
+    "name": "Christin Christ",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christin-christ",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68334",
+    "name": "Claudia Loss",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claudia-loss",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68338",
+    "name": "Danial Ilkhanipour",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/danial-ilkhanipour",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68355",
+    "name": "Dennis Paustian-Döscher",
+    "party": "GRÜNE",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dennis-paustian-doescher",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68347",
+    "name": "Dietrich Wersich",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dietrich-wersich",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68328",
+    "name": "Dirk Kienscherf",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dirk-kienscherf",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68352",
+    "name": "Dominik Lorenzen",
+    "party": "GRÜNE",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dominik-lorenzen",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68372",
+    "name": "Eugen Seiler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eugen-seiler",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68357",
+    "name": "Eva Botzenhart",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eva-botzenhart",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68368",
+    "name": "Hila Latifi",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hila-latifi",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68337",
+    "name": "Indira Chuda",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/indira-chuda",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68342",
+    "name": "Irene Appiah",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/irene-appiah",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68336",
+    "name": "Isabella Vértes-Schütter",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/isabella-vertes-schuetter",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69031",
+    "name": "Jan Koltze",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-koltze",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69030",
+    "name": "Jan Koriath",
+    "party": "GRÜNE",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-koriath",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68341",
+    "name": "Jessica Hennig",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jessica-hennig",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68374",
+    "name": "Joachim Körner",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joachim-koerner",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68331",
+    "name": "Juliane Timmermann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juliane-timmermann",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68350",
+    "name": "Kaja Steffens",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kaja-steffens",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68369",
+    "name": "Krzysztof Rafal Walczak",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/krzysztof-rafal-walczak",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68353",
+    "name": "Leon Alam",
+    "party": "GRÜNE",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/leon-alam",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69029",
+    "name": "Linus Görg",
+    "party": "GRÜNE",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/linus-goerg",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68361",
+    "name": "Lisa Maria Otte",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lisa-maria-otte",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68367",
+    "name": "Marie Kleinert",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marie-kleinert",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69037",
+    "name": "Martin Wolter",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-wolter",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69041",
+    "name": "Mechthild Weber",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mechthild-weber",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68340",
+    "name": "Mehria Ashuftah",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mehria-ashuftah",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68359",
+    "name": "Melanie Nerlich",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/melanie-nerlich",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68348",
+    "name": "Michael Becken",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-becken",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68354",
+    "name": "Michael Gwosdz",
+    "party": "GRÜNE",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-gwosdz",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68330",
+    "name": "Milan Pein",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/milan-pein",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68362",
+    "name": "Miriam Block",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/miriam-block",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68351",
+    "name": "Nikola Tunici",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nikola-tunici",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68343",
+    "name": "Oktay Özdemir",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oktay-oezdemir",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68365",
+    "name": "Olga Fritzsche",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/olga-fritzsche",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69032",
+    "name": "Parica Partoshoar",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/parica-partoshoar",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68373",
+    "name": "Peggy Petra Heitmann",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peggy-petra-heitmann",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68345",
+    "name": "Philipp Heißner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/philipp-heissner",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68356",
+    "name": "René Gögge",
+    "party": "GRÜNE",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rene-goegge",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69024",
+    "name": "Robert Risch",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/robert-risch",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68364",
+    "name": "Sabine Ritter",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sabine-ritter",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68358",
+    "name": "Selina Storm",
+    "party": "GRÜNE",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/selina-storm",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68333",
+    "name": "Sören Platten",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/soeren-platten",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68349",
+    "name": "Stefan Bereuter",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-bereuter",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69025",
+    "name": "Stephan Jersch",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-jersch",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69034",
+    "name": "Thomas Meyer",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-meyer",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-68371",
+    "name": "Thomas Reich",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-reich",
+    "state": "Hamburg"
+  },
+  {
+    "id": "lt-hamburg-69028",
+    "name": "Tim Kristian Stoberock",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Hamburg",
+    "address": {
+      "strasse": "Rathausmarkt 1",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "label": "Hamburgische Bürgerschaft"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tim-kristian-stoberock",
+    "state": "Hamburg"
+  }
+]

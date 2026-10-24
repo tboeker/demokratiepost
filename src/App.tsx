@@ -11,7 +11,8 @@ import { loadCampaigns } from './lib/campaigns';
 import { isDocKey, type DocKey } from './lib/docs';
 import { genericSalutation, isValidPlz, salutation } from './lib/lookup';
 import {
-  isMdB,
+  hasEmptyFallback,
+  isMandat,
   isSearchable,
   lookupRecipients,
   recipientTypeLabel,
@@ -33,7 +34,7 @@ import {
   saveSender,
 } from './lib/storage';
 import { renderTemplate, splitTemplate } from './lib/template';
-import type { ManualRecipient, MdB, Recipient, Sender, TemplateContext } from './types';
+import type { ManualRecipient, Mandatstraeger, Recipient, Sender, TemplateContext } from './types';
 
 type SearchStatus = 'idle' | 'loading' | 'done' | 'empty' | 'error';
 
@@ -50,14 +51,15 @@ function getActiveViewFromHash(): ActiveView {
 function recipientContext(recipient: Recipient | null): Record<string, string> {
   if (!recipient) return {};
 
-  if (isMdB(recipient)) {
+  if (isMandat(recipient)) {
     return {
       anrede: salutation(recipient),
       name: recipient.name,
       partei: recipient.party,
       wahlkreis: recipient.wahlkreis
         ? `Wahlkreis ${recipient.wahlkreis.number} – ${recipient.wahlkreis.name}`
-        : (recipient.state ?? ''),
+        : (recipient.bundesland ?? recipient.state ?? ''),
+      bundesland: recipient.bundesland ?? recipient.state ?? '',
       organisation: '',
       strasse: recipient.address?.strasse ?? '',
       plz: recipient.address?.plz ?? '',
@@ -95,11 +97,12 @@ export default function App() {
       ? recipientType
       : (campaign?.recipients[0] ?? '');
   const searchable = isSearchable(activeType);
+  const emptyFallback = hasEmptyFallback(activeType);
 
   // PLZ-Vorbelegung: initial aus den Absenderdaten, danach frei überschreibbar.
   const [plz, setPlz] = useState(() => sender.plz);
-  const [recipients, setRecipients] = useState<MdB[]>([]);
-  const [selectedMdB, setSelectedMdB] = useState<MdB | null>(null);
+  const [recipients, setRecipients] = useState<Mandatstraeger[]>([]);
+  const [selectedMandat, setSelectedMandat] = useState<Mandatstraeger | null>(null);
   const [status, setStatus] = useState<SearchStatus>('idle');
   const [error, setError] = useState('');
   const [manual, setManual] = useState<ManualRecipient>(
@@ -124,20 +127,22 @@ export default function App() {
     }
   }, [sender]);
 
-  // Manuell erfasste Empfänger pro Typ speichern (nur bei Typen ohne Suche).
+  // Manuell erfasste Empfänger pro Typ speichern (für Typen ohne Suche sowie
+  // für durchsuchbare Typen mit Fallback, z. B. landtag).
   useEffect(() => {
-    if (searchable) return;
+    if (searchable && !emptyFallback) return;
     if (hasRecipientData(manual)) {
       saveRecipientData(activeType, manual);
     } else {
       clearRecipientData(activeType);
     }
-  }, [manual, activeType, searchable]);
+  }, [manual, activeType, searchable, emptyFallback]);
 
   const template = campaign && activeType ? campaign.templates[activeType] : undefined;
 
   const recipient: Recipient | null = searchable
-    ? selectedMdB
+    ? (selectedMandat ??
+      (emptyFallback && status === 'empty' && isRecipientComplete(manual) ? manual : null))
     : isRecipientComplete(manual)
       ? manual
       : null;
@@ -146,7 +151,7 @@ export default function App() {
     if (!isValidPlz(plz)) return;
     setStatus('loading');
     setError('');
-    setSelectedMdB(null);
+    setSelectedMandat(null);
     try {
       const found = await lookupRecipients(activeType, plz);
       setRecipients(found);
@@ -175,7 +180,7 @@ export default function App() {
 
   function resetRecipientState(type: string) {
     setRecipients([]);
-    setSelectedMdB(null);
+    setSelectedMandat(null);
     setStatus('idle');
     setError('');
     setManual(loadRecipientData(type) ?? emptyManualRecipient);
@@ -226,8 +231,8 @@ export default function App() {
   const contactBody = renderTemplate(templateParts.contact, letterContext);
 
   const recipientEmail = recipient ? recipient.email || undefined : undefined;
-  const contactFormUrl = recipient && isMdB(recipient) ? recipient.contactFormUrl : undefined;
-  const homepage = recipient && isMdB(recipient) ? recipient.homepage : undefined;
+  const contactFormUrl = recipient && isMandat(recipient) ? recipient.contactFormUrl : undefined;
+  const homepage = recipient && isMandat(recipient) ? recipient.homepage : undefined;
 
   if (activeView === 'datenspeicherung') {
     return (
@@ -318,9 +323,13 @@ export default function App() {
 
               {status === 'empty' && (
                 <p className="hint">
-                  Für die PLZ {plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – oder der
-                  Wahlkreis hat derzeit keine direkt gewählte Person (Zweitstimmendeckung oder
-                  vakantes Mandat).
+                  {activeType === 'landtag'
+                    ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
+                      'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
+                      'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
+                    : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
+                      'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
+                      '(Zweitstimmendeckung oder vakantes Mandat).'}
                 </p>
               )}
               {status === 'error' && <p className="error">{error}</p>}
@@ -332,8 +341,21 @@ export default function App() {
                   <RecipientList
                     recipients={recipients}
                     recipientType={activeType}
-                    selectedId={selectedMdB?.id ?? null}
-                    onSelect={setSelectedMdB}
+                    selectedId={selectedMandat?.id ?? null}
+                    onSelect={setSelectedMandat}
+                  />
+                </>
+              )}
+
+              {status === 'empty' && emptyFallback && (
+                <>
+                  <hr className="divider" />
+                  <h3 className="subheading">Empfänger manuell erfassen</h3>
+                  <ManualRecipientForm
+                    recipientTypeLabel={recipientTypeLabel(activeType)}
+                    recipient={manual}
+                    onChange={setManual}
+                    onClear={handleClearManual}
                   />
                 </>
               )}

@@ -1,0 +1,2219 @@
+[
+  {
+    "id": "lt-sachsen-63353",
+    "name": "Jörg Schmidt",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-schmidt-0",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Vogtland 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63354",
+    "name": "Sören Voigt",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/soeren-voigt",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Vogtland 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63355",
+    "name": "René Standke",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rene-standke",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Vogtland 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63356",
+    "name": "Kerstin Nicolaus",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kerstin-nicolaus",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Zwickau 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63357",
+    "name": "Heiko Gumprecht",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heiko-gumprecht",
+    "wahlkreis": {
+      "number": 5,
+      "name": "Zwickau 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63358",
+    "name": "Jonas Dünzel",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jonas-duenzel",
+    "wahlkreis": {
+      "number": 6,
+      "name": "Zwickau 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63359",
+    "name": "Daniela Pfeifer",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniela-pfeifer",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Zwickau 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63360",
+    "name": "Mike Moncsek",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mike-moncsek",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Zwickau 5"
+    }
+  },
+  {
+    "id": "lt-sachsen-63361",
+    "name": "Peter Wilhelm Patt",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-wilhelm-patt",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Chemnitz 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63362",
+    "name": "Alexander Dierks",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-dierks",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Chemnitz 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63363",
+    "name": "Ines Saborowski",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ines-saborowski",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Chemnitz 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63364",
+    "name": "Katja Dietz",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katja-dietz",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Erzgebirge 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63365",
+    "name": "Peter Bachmann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peter-bachmann",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Erzgebirge 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63366",
+    "name": "Thomas Thumm",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-thumm",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Erzgebirge 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63367",
+    "name": "Thomas Prantl",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-prantl",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Erzgebirge 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63368",
+    "name": "Arthur Österle",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/arthur-oesterle",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Erzgebirge 5"
+    }
+  },
+  {
+    "id": "lt-sachsen-63369",
+    "name": "Marko Winter",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marko-winter",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Mittelsachsen 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63370",
+    "name": "Romy Penz",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/romy-penz",
+    "wahlkreis": {
+      "number": 18,
+      "name": "Mittelsachsen 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63371",
+    "name": "Thomas Schmidt",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-schmidt",
+    "wahlkreis": {
+      "number": 19,
+      "name": "Mittelsachsen 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63372",
+    "name": "Lars Kuppi",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lars-kuppi",
+    "wahlkreis": {
+      "number": 20,
+      "name": "Mittelsachsen 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63373",
+    "name": "Georg-Ludwig von Breitenbuch",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/georg-ludwig-von-breitenbuch",
+    "wahlkreis": {
+      "number": 21,
+      "name": "Leipzig Land 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63374",
+    "name": "Oliver Fritzsche",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-fritzsche",
+    "wahlkreis": {
+      "number": 22,
+      "name": "Leipzig Land 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63375",
+    "name": "Matthias Berger",
+    "party": "",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-berger",
+    "wahlkreis": {
+      "number": 23,
+      "name": "Leipzig Land 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63376",
+    "name": "Kay Ritter",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kay-ritter",
+    "wahlkreis": {
+      "number": 24,
+      "name": "Leipzig Land 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63377",
+    "name": "Nam Duy Nguyen",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nam-duy-nguyen",
+    "wahlkreis": {
+      "number": 25,
+      "name": "Leipzig 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63378",
+    "name": "Ronald Pohle",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ronald-pohle",
+    "wahlkreis": {
+      "number": 26,
+      "name": "Leipzig 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63379",
+    "name": "Wolf-Dietrich Rost",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wolf-dietrich-rost",
+    "wahlkreis": {
+      "number": 27,
+      "name": "Leipzig 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63380",
+    "name": "Juliane Nagel",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juliane-nagel",
+    "wahlkreis": {
+      "number": 28,
+      "name": "Leipzig 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63381",
+    "name": "Andreas Nowak",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-nowak",
+    "wahlkreis": {
+      "number": 29,
+      "name": "Leipzig 5"
+    }
+  },
+  {
+    "id": "lt-sachsen-63382",
+    "name": "Claudia Maicher",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claudia-maicher",
+    "wahlkreis": {
+      "number": 30,
+      "name": "Leipzig 6"
+    }
+  },
+  {
+    "id": "lt-sachsen-63383",
+    "name": "Rick Ulbricht",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rick-ulbricht",
+    "wahlkreis": {
+      "number": 31,
+      "name": "Leipzig 7"
+    }
+  },
+  {
+    "id": "lt-sachsen-63384",
+    "name": "Holger Gasse",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/holger-gasse",
+    "wahlkreis": {
+      "number": 32,
+      "name": "Leipzig 8"
+    }
+  },
+  {
+    "id": "lt-sachsen-63385",
+    "name": "Tina Trompter",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tina-trompter",
+    "wahlkreis": {
+      "number": 33,
+      "name": "Nordsachsen 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63386",
+    "name": "Ferdinand Wiedeburg",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ferdinand-wiedeburg",
+    "wahlkreis": {
+      "number": 34,
+      "name": "Nordsachsen 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63387",
+    "name": "Tobias Heller",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tobias-heller",
+    "wahlkreis": {
+      "number": 35,
+      "name": "Nordsachsen 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63388",
+    "name": "Carsten Hütter",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carsten-huetter",
+    "wahlkreis": {
+      "number": 36,
+      "name": "Meißen 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63389",
+    "name": "Mario Beger",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/mario-beger",
+    "wahlkreis": {
+      "number": 37,
+      "name": "Meißen 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63390",
+    "name": "Thomas Kirste",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-kirste",
+    "wahlkreis": {
+      "number": 38,
+      "name": "Meißen 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63391",
+    "name": "Sven Eppinger",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sven-eppinger",
+    "wahlkreis": {
+      "number": 39,
+      "name": "Meißen 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63392",
+    "name": "Christian Hartmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-hartmann",
+    "wahlkreis": {
+      "number": 40,
+      "name": "Dresden 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63393",
+    "name": "Thomas Löser",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-loeser",
+    "wahlkreis": {
+      "number": 41,
+      "name": "Dresden 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63394",
+    "name": "Christian Piwarz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-piwarz",
+    "wahlkreis": {
+      "number": 42,
+      "name": "Dresden 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63395",
+    "name": "Frank Kromer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-kromer",
+    "wahlkreis": {
+      "number": 43,
+      "name": "Dresden 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63396",
+    "name": "Martin Modschiedler",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-modschiedler",
+    "wahlkreis": {
+      "number": 44,
+      "name": "Dresden 5"
+    }
+  },
+  {
+    "id": "lt-sachsen-63397",
+    "name": "Barbara Klepsch",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/barbara-klepsch",
+    "wahlkreis": {
+      "number": 45,
+      "name": "Dresden 6"
+    }
+  },
+  {
+    "id": "lt-sachsen-63398",
+    "name": "Felix Hitzig",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/felix-hitzig",
+    "wahlkreis": {
+      "number": 46,
+      "name": "Dresden 7"
+    }
+  },
+  {
+    "id": "lt-sachsen-63399",
+    "name": "Ingo Flemming",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ingo-flemming",
+    "wahlkreis": {
+      "number": 47,
+      "name": "Dresden 8"
+    }
+  },
+  {
+    "id": "lt-sachsen-63400",
+    "name": "Norbert Otto Mayer",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/norbert-otto-mayer",
+    "wahlkreis": {
+      "number": 48,
+      "name": "Sächsische Schweiz−Osterzgebirge 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63402",
+    "name": "Jan-Oliver Zwerg",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-oliver-zwerg",
+    "wahlkreis": {
+      "number": 50,
+      "name": "Sächsische Schweiz−Osterzgebirge 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63403",
+    "name": "Martin Braukmann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-braukmann",
+    "wahlkreis": {
+      "number": 51,
+      "name": "Sächsische Schweiz−Osterzgebirge 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63404",
+    "name": "Frank Peschel",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-peschel",
+    "wahlkreis": {
+      "number": 52,
+      "name": "Bautzen 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63405",
+    "name": "Elaine Jentsch",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/elaine-jentsch",
+    "wahlkreis": {
+      "number": 53,
+      "name": "Bautzen 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63406",
+    "name": "Timo Schreyer",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/timo-schreyer",
+    "wahlkreis": {
+      "number": 54,
+      "name": "Bautzen 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63407",
+    "name": "Doreen Schwietzer",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/doreen-schwietzer",
+    "wahlkreis": {
+      "number": 55,
+      "name": "Bautzen 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63408",
+    "name": "Jörg Urban",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-urban",
+    "wahlkreis": {
+      "number": 56,
+      "name": "Bautzen 5"
+    }
+  },
+  {
+    "id": "lt-sachsen-63409",
+    "name": "Roberto Kuhnert",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/roberto-kuhnert",
+    "wahlkreis": {
+      "number": 57,
+      "name": "Görlitz 1"
+    }
+  },
+  {
+    "id": "lt-sachsen-63410",
+    "name": "Michael Kretschmer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-kretschmer",
+    "wahlkreis": {
+      "number": 58,
+      "name": "Görlitz 2"
+    }
+  },
+  {
+    "id": "lt-sachsen-63411",
+    "name": "Roman Golombek",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/roman-golombek",
+    "wahlkreis": {
+      "number": 59,
+      "name": "Görlitz 3"
+    }
+  },
+  {
+    "id": "lt-sachsen-63412",
+    "name": "Hajo Exner",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hajo-exner",
+    "wahlkreis": {
+      "number": 60,
+      "name": "Görlitz 4"
+    }
+  },
+  {
+    "id": "lt-sachsen-63454",
+    "name": "Albrecht Pallas",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/albrecht-pallas",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63430",
+    "name": "Alexander Wiesner",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-wiesner",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63427",
+    "name": "André Wendt",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andre-wendt",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63436",
+    "name": "Andreas Gerold",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-gerold",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63426",
+    "name": "Andreas Heinz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-heinz",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63464",
+    "name": "Bernd Rudolph",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernd-rudolph",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63446",
+    "name": "Christin Melcher",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christin-melcher",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63421",
+    "name": "Conrad Clemens",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/conrad-clemens",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63416",
+    "name": "Daniela Kuge",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniela-kuge",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63452",
+    "name": "Dirk Panter",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dirk-panter",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63459",
+    "name": "Doreen Voigt",
+    "party": "",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/doreen-voigt",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-70121",
+    "name": "Eric Recke",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eric-recke",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63444",
+    "name": "Franziska Schubert",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/franziska-schubert",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63456",
+    "name": "Gerald Eisenblätter",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gerald-eisenblaetter",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63432",
+    "name": "Hans-Jürgen Zickler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hans-juergen-zickler",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63448",
+    "name": "Henning Homann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/henning-homann",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63429",
+    "name": "Holger Hentschel",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/holger-hentschel",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63424",
+    "name": "Ina Klemm",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ina-klemm",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63468",
+    "name": "Ines Biebrach",
+    "party": "BSW",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ines-biebrach",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63466",
+    "name": "Ingolf Huhn",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ingolf-huhn",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63422",
+    "name": "Iris Firmenich",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/iris-firmenich",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63418",
+    "name": "Jan Löffler",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-loeffler",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63465",
+    "name": "Janina Pfau",
+    "party": "BSW",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/janina-pfau",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63469",
+    "name": "Jens Hentschel-Thöricht",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-hentschel-thoericht",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63419",
+    "name": "Jessica Steiner",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jessica-steiner",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63472",
+    "name": "Joachim Keiler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joachim-keiler",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63437",
+    "name": "Jörg Dornau",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-dornau",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-70553",
+    "name": "Jörg Kühne",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-kuehne",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63458",
+    "name": "Jörg Scheibe",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-scheibe",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63451",
+    "name": "Juliane Pfeil",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juliane-pfeil",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63442",
+    "name": "Katja Meier",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katja-meier",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63463",
+    "name": "Lars Wurzler",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lars-wurzler",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63455",
+    "name": "Laura Stellbrink",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/laura-stellbrink",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63440",
+    "name": "Luise Neuhaus-Wartenberg",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/luise-neuhaus-wartenberg",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63461",
+    "name": "Lutz Richter",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lutz-richter",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63423",
+    "name": "Marko Schiemann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marko-schiemann",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63450",
+    "name": "Martin Dulig",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martin-dulig",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63435",
+    "name": "Martina Jost",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-jost",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63467",
+    "name": "Nico Rudolph",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nico-rudolph",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63447",
+    "name": "Petra Köpping",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/petra-koepping",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63471",
+    "name": "Ralf Böhme",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ralf-boehme",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63441",
+    "name": "Rico Gebhardt",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rico-gebhardt",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63460",
+    "name": "Ronny Kupke",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ronny-kupke",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63420",
+    "name": "Ronny Wähner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ronny-waehner",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63414",
+    "name": "Sandra Gockel",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandra-gockel",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63415",
+    "name": "Sebastian Gemkow",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-gemkow",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63428",
+    "name": "Sebastian Wippel",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-wippel",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63453",
+    "name": "Simone Lang",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/simone-lang",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63449",
+    "name": "Sophie Koch",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sophie-koch",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63439",
+    "name": "Stefan Hartmann",
+    "party": "Die Linke",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-hartmann",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63425",
+    "name": "Stephan Weinrich",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-weinrich",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63413",
+    "name": "Susan Leithoff",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/susan-leithoff",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63438",
+    "name": "Susanne Schaper",
+    "party": "Die Linke",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/susanne-schaper",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63433",
+    "name": "Tobias Keller",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tobias-keller",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63417",
+    "name": "Tom Unger",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tom-unger",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63434",
+    "name": "Torsten Gahler",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/torsten-gahler",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63470",
+    "name": "Ulf Günter Lange",
+    "party": "BSW",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulf-guenter-lange",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63462",
+    "name": "Uta Knebel",
+    "party": "BSW",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uta-knebel",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63445",
+    "name": "Valentin Lippmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/valentin-lippmann",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63431",
+    "name": "Volker Götz Dringenberg",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volker-goetz-dringenberg",
+    "state": "Sachsen"
+  },
+  {
+    "id": "lt-sachsen-63443",
+    "name": "Wolfram Günther",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Sachsen",
+    "address": {
+      "strasse": "Bernhard-von-Lindenau-Platz 1",
+      "plz": "01067",
+      "ort": "Dresden",
+      "label": "Sächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wolfram-guenther",
+    "state": "Sachsen"
+  }
+]

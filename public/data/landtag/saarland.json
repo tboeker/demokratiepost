@@ -1,0 +1,998 @@
+[
+  {
+    "id": "lt-saarland-55881",
+    "name": "Anja Wagner-Scheid",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anja-wagner-scheid",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55882",
+    "name": "Bernd Wegner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bernd-wegner",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55889",
+    "name": "Flora Schröder",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/flora-schroeder",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55891",
+    "name": "Frank Dieter Schmidt",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-dieter-schmidt",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55892",
+    "name": "Josef Dörr",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/josef-doerr",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55887",
+    "name": "Kira Braun",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kira-braun",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55886",
+    "name": "Pascal Arweiler",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/pascal-arweiler",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-58165",
+    "name": "Petra Fretter",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/petra-fretter",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55888",
+    "name": "Sascha Haas",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-haas",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55883",
+    "name": "Sascha Zehner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sascha-zehner",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55885",
+    "name": "Stephanie Meiser",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephanie-meiser",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55884",
+    "name": "Ulrich Commerçon",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulrich-commercon",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Saarbrücken"
+    }
+  },
+  {
+    "id": "lt-saarland-55898",
+    "name": "Anke Rehlinger",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anke-rehlinger",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55906",
+    "name": "Carsten Becker",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carsten-becker",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55895",
+    "name": "Dagmar Heib",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dagmar-heib",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55903",
+    "name": "Florian Schäfer",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/florian-schaefer",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55894",
+    "name": "Frank Wagner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-wagner",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55904",
+    "name": "Julia Harenz",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-harenz",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55897",
+    "name": "Patrick Waldraff",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/patrick-waldraff",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55900",
+    "name": "Petra Berg",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/petra-berg",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55893",
+    "name": "Raphael Schäfer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/raphael-schaefer",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55899",
+    "name": "Reinhold Jost",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/reinhold-jost",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55902",
+    "name": "Sandra Quinten",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandra-quinten",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55905",
+    "name": "Sebastian Schmitt",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-schmitt",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55896",
+    "name": "Stefan Thielen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-thielen",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55901",
+    "name": "Timo Ahr",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/timo-ahr",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Saarlouis"
+    }
+  },
+  {
+    "id": "lt-saarland-55912",
+    "name": "Alwin Theobald",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alwin-theobald",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55916",
+    "name": "Christina Baltes",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christina-baltes",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55914",
+    "name": "Christine Streichert-Clivot",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christine-streichert-clivot",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55922",
+    "name": "Christoph Schaufert",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-schaufert",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55918",
+    "name": "Heike Winzent",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heike-winzent",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55908",
+    "name": "Hermann-Josef Scharf",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hermann-josef-scharf",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55915",
+    "name": "Magnus Jung",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/magnus-jung",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55919",
+    "name": "Maximilian Raber",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/maximilian-raber",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55920",
+    "name": "Nadia Schindelhauer",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nadia-schindelhauer",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-71931",
+    "name": "Nadine Backes",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nadine-backes",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55917",
+    "name": "Pascal Sebastien Conigliaro",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/pascal-sebastien-conigliaro",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-57088",
+    "name": "Sandra Johann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sandra-johann",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-69036",
+    "name": "Sebastian Schorr",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-schorr",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-56397",
+    "name": "Sevim Kaya-Karadağ",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sevim-kaya-karadag",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55921",
+    "name": "Stefan Löw",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-loew-0",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55907",
+    "name": "Stephan Toscani",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-toscani",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-70124",
+    "name": "Timo P. Gros",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/timo-p-gros",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Neunkirchen"
+    }
+  },
+  {
+    "id": "lt-saarland-55879",
+    "name": "Alexandra Becker",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexandra-becker",
+    "state": "Saarland"
+  },
+  {
+    "id": "lt-saarland-63563",
+    "name": "Christopher Salm",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christopher-salm",
+    "state": "Saarland"
+  },
+  {
+    "id": "lt-saarland-55875",
+    "name": "Damhat Sisamci",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/damhat-sisamci",
+    "state": "Saarland"
+  },
+  {
+    "id": "lt-saarland-55878",
+    "name": "David Maaß",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/david-maass",
+    "state": "Saarland"
+  },
+  {
+    "id": "lt-saarland-55872",
+    "name": "Jutta Schmitt-Lang",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jutta-schmitt-lang",
+    "state": "Saarland"
+  },
+  {
+    "id": "lt-saarland-55876",
+    "name": "Martina Holzner",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-holzner",
+    "state": "Saarland"
+  },
+  {
+    "id": "lt-saarland-55877",
+    "name": "Réka Klein",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/reka-klein",
+    "state": "Saarland"
+  },
+  {
+    "id": "lt-saarland-55871",
+    "name": "Tobias Hans",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Saarland",
+    "address": {
+      "strasse": "Franz-Josef-Röder-Straße 7",
+      "plz": "66119",
+      "ort": "Saarbrücken",
+      "label": "Landtag des Saarlandes"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tobias-hans",
+    "state": "Saarland"
+  }
+]

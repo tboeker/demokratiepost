@@ -1,0 +1,2727 @@
+[
+  {
+    "id": "lt-niedersachsen-57092",
+    "name": "Julia Retzlaff",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-retzlaff",
+    "wahlkreis": {
+      "number": 1,
+      "name": "Braunschweig-Nord"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57093",
+    "name": "Annette Schütze",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/annette-schuetze",
+    "wahlkreis": {
+      "number": 2,
+      "name": "Braunschweig-Süd"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57094",
+    "name": "Christoph Bratmann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-bratmann",
+    "wahlkreis": {
+      "number": 3,
+      "name": "Braunschweig-West"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57095",
+    "name": "Julius Schneider",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julius-schneider",
+    "wahlkreis": {
+      "number": 4,
+      "name": "Peine"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57096",
+    "name": "Kirsikka Lansmann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/kirsikka-lansmann",
+    "wahlkreis": {
+      "number": 5,
+      "name": "Gifhorn-Nord/Wolfsburg"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57098",
+    "name": "Immacolata Glosemeyer",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/immacolata-glosemeyer",
+    "wahlkreis": {
+      "number": 7,
+      "name": "Wolfsburg"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57099",
+    "name": "Jörn Domeier",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joern-domeier",
+    "wahlkreis": {
+      "number": 8,
+      "name": "Helmstedt"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57100",
+    "name": "Jan Schröder",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-schroeder",
+    "wahlkreis": {
+      "number": 9,
+      "name": "Wolfenbüttel-Nord"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57101",
+    "name": "Marcus Bosse",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcus-bosse",
+    "wahlkreis": {
+      "number": 10,
+      "name": "Wolfenbüttel-Süd/Salzgitter"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57102",
+    "name": "Stefan Klein",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-klein",
+    "wahlkreis": {
+      "number": 11,
+      "name": "Salzgitter"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57103",
+    "name": "Alexander Saade",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-saade",
+    "wahlkreis": {
+      "number": 12,
+      "name": "Göttingen/Harz"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57104",
+    "name": "Christoph Willeke",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-willeke",
+    "wahlkreis": {
+      "number": 13,
+      "name": "Goslar"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57105",
+    "name": "Christian Frölich",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-froelich",
+    "wahlkreis": {
+      "number": 14,
+      "name": "Duderstadt"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57106",
+    "name": "Gerd Hujahn",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/gerd-hujahn",
+    "wahlkreis": {
+      "number": 15,
+      "name": "Göttingen/Münden"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57176",
+    "name": "Marie Kollenrott",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marie-kollenrott",
+    "wahlkreis": {
+      "number": 16,
+      "name": "Göttingen-Stadt"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57107",
+    "name": "Sebastian Penno",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-penno",
+    "wahlkreis": {
+      "number": 17,
+      "name": "Northeim"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57108",
+    "name": "René Kopka",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/rene-kopka",
+    "wahlkreis": {
+      "number": 18,
+      "name": "Einbeck"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57109",
+    "name": "Sabine Tippelt",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sabine-tippelt",
+    "wahlkreis": {
+      "number": 19,
+      "name": "Holzminden"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57110",
+    "name": "Antonia Hillberg",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/antonia-hillberg",
+    "wahlkreis": {
+      "number": 20,
+      "name": "Hildesheim"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57111",
+    "name": "Markus Brinkmann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/markus-brinkmann",
+    "wahlkreis": {
+      "number": 21,
+      "name": "Sarstedt/Bad Salzdetfurth"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57112",
+    "name": "Andrea Prell",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andrea-prell",
+    "wahlkreis": {
+      "number": 22,
+      "name": "Alfeld"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57113",
+    "name": "Doris Schröder-Köpf",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/doris-schroeder-koepf",
+    "wahlkreis": {
+      "number": 23,
+      "name": "Hannover-Döhren"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57114",
+    "name": "Stephan Weil",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-weil",
+    "wahlkreis": {
+      "number": 24,
+      "name": "Hannover-Buchholz"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57116",
+    "name": "Stefan Politze",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-politze",
+    "wahlkreis": {
+      "number": 26,
+      "name": "Hannover-Ricklingen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57117",
+    "name": "Julia Willie Hamburg",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/julia-willie-hamburg",
+    "wahlkreis": {
+      "number": 27,
+      "name": "Hannover-Mitte"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57118",
+    "name": "Silke Lesemann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/silke-lesemann",
+    "wahlkreis": {
+      "number": 28,
+      "name": "Laatzen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57119",
+    "name": "Thordies Hanisch",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thordies-hanisch",
+    "wahlkreis": {
+      "number": 29,
+      "name": "Lehrte"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57120",
+    "name": "Tim Wook",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tim-wook",
+    "wahlkreis": {
+      "number": 30,
+      "name": "Langenhagen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57121",
+    "name": "Rüdiger Kauroff",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ruediger-kauroff",
+    "wahlkreis": {
+      "number": 31,
+      "name": "Garbsen/Wedemark"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57122",
+    "name": "Wiebke Osigus",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wiebke-osigus",
+    "wahlkreis": {
+      "number": 32,
+      "name": "Neustadt/Wunstorf"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57123",
+    "name": "Claudia Schüßler",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claudia-schuessler",
+    "wahlkreis": {
+      "number": 33,
+      "name": "Barsinghausen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57124",
+    "name": "Brian Baatzsch",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/brian-baatzsch",
+    "wahlkreis": {
+      "number": 34,
+      "name": "Springe"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57125",
+    "name": "Uli Watermann",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uli-watermann",
+    "wahlkreis": {
+      "number": 35,
+      "name": "Bad Pyrmont"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57126",
+    "name": "Jan-Philipp Beck",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-philipp-beck",
+    "wahlkreis": {
+      "number": 36,
+      "name": "Schaumburg"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57127",
+    "name": "Constantin Grosch",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/constantin-grosch",
+    "wahlkreis": {
+      "number": 37,
+      "name": "Hameln/Rinteln"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57128",
+    "name": "Grant Hendrik Tonne",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/grant-hendrik-tonne",
+    "wahlkreis": {
+      "number": 38,
+      "name": "Nienburg/Schaumburg"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57129",
+    "name": "Frank Schmädeke",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-schmaedeke",
+    "wahlkreis": {
+      "number": 39,
+      "name": "Nienburg-Nord"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57131",
+    "name": "Marcel Scharrelmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marcel-scharrelmann",
+    "wahlkreis": {
+      "number": 41,
+      "name": "Diepholz"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57132",
+    "name": "Sebastian Zinke",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-zinke",
+    "wahlkreis": {
+      "number": 42,
+      "name": "Walsrode"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57133",
+    "name": "Karl-Ludwig von Danwitz",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karl-ludwig-von-danwitz",
+    "wahlkreis": {
+      "number": 43,
+      "name": "Soltau"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57177",
+    "name": "Jörn Schepelmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joern-schepelmann",
+    "wahlkreis": {
+      "number": 44,
+      "name": "Bergen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57134",
+    "name": "Alexander Wille",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alexander-wille",
+    "wahlkreis": {
+      "number": 45,
+      "name": "Celle"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57135",
+    "name": "Jörg Hillmer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/joerg-hillmer",
+    "wahlkreis": {
+      "number": 46,
+      "name": "Uelzen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57136",
+    "name": "Uwe Dorendorf",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uwe-dorendorf",
+    "wahlkreis": {
+      "number": 47,
+      "name": "Elbe"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57137",
+    "name": "Philipp Meyn",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/philipp-meyn",
+    "wahlkreis": {
+      "number": 48,
+      "name": "Lüneburg-Land"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57138",
+    "name": "Pascal Mennen",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/pascal-mennen",
+    "wahlkreis": {
+      "number": 49,
+      "name": "Lüneburg"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57139",
+    "name": "André Bock",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andre-bock",
+    "wahlkreis": {
+      "number": 50,
+      "name": "Winsen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57141",
+    "name": "Jan Christian Fritz Bauer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-christian-fritz-bauer",
+    "wahlkreis": {
+      "number": 52,
+      "name": "Buchholz"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57142",
+    "name": "Eike Holsten",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eike-holsten",
+    "wahlkreis": {
+      "number": 53,
+      "name": "Rotenburg"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57143",
+    "name": "Marco Mohrmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marco-mohrmann",
+    "wahlkreis": {
+      "number": 54,
+      "name": "Bremervörde"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57144",
+    "name": "Birgit Butter",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/birgit-butter",
+    "wahlkreis": {
+      "number": 55,
+      "name": "Buxtehude"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57145",
+    "name": "Corinna Lange",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/corinna-lange",
+    "wahlkreis": {
+      "number": 56,
+      "name": "Stade"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57146",
+    "name": "Claus Seebeck",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/claus-seebeck",
+    "wahlkreis": {
+      "number": 57,
+      "name": "Geestland"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57147",
+    "name": "Oliver Ebken",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-ebken",
+    "wahlkreis": {
+      "number": 58,
+      "name": "Cuxhaven"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57148",
+    "name": "Oliver Lottke",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-lottke",
+    "wahlkreis": {
+      "number": 59,
+      "name": "Unterweser"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57149",
+    "name": "Axel Miesner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/axel-miesner",
+    "wahlkreis": {
+      "number": 60,
+      "name": "Osterholz"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57150",
+    "name": "Dörte Liebetruth",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/doerte-liebetruth",
+    "wahlkreis": {
+      "number": 61,
+      "name": "Verden"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57151",
+    "name": "Ulf Prange",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulf-prange",
+    "wahlkreis": {
+      "number": 62,
+      "name": "Oldenburg-Mitte/Süd"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57152",
+    "name": "Hanna Naber",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hanna-naber",
+    "wahlkreis": {
+      "number": 63,
+      "name": "Oldenburg-Nord/West"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57153",
+    "name": "Thore Güldner",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thore-gueldner",
+    "wahlkreis": {
+      "number": 64,
+      "name": "Oldenburg-Land"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57154",
+    "name": "Deniz Kurku",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/deniz-kurku",
+    "wahlkreis": {
+      "number": 65,
+      "name": "Delmenhorst"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57155",
+    "name": "Lukas Reinken",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lukas-reinken",
+    "wahlkreis": {
+      "number": 66,
+      "name": "Cloppenburg-Nord"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57156",
+    "name": "Christoph Eilers",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-eilers",
+    "wahlkreis": {
+      "number": 67,
+      "name": "Cloppenburg"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57158",
+    "name": "Marten Gäde",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/marten-gaede",
+    "wahlkreis": {
+      "number": 69,
+      "name": "Wilhelmshaven"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57159",
+    "name": "Olaf Lies",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/olaf-lies",
+    "wahlkreis": {
+      "number": 70,
+      "name": "Friesland"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57160",
+    "name": "Karin Logemann",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karin-logemann",
+    "wahlkreis": {
+      "number": 71,
+      "name": "Wesermarsch"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57161",
+    "name": "Björn Meyer",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bjoern-meyer",
+    "wahlkreis": {
+      "number": 72,
+      "name": "Ammerland"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57162",
+    "name": "Christian Calderone",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-calderone",
+    "wahlkreis": {
+      "number": 73,
+      "name": "Bersenbrück"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57163",
+    "name": "Thomas Uhlen",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thomas-uhlen",
+    "wahlkreis": {
+      "number": 74,
+      "name": "Melle"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57164",
+    "name": "Guido Pott",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/guido-pott",
+    "wahlkreis": {
+      "number": 75,
+      "name": "Bramsche"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57165",
+    "name": "Jonas Pohlmann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jonas-pohlmann",
+    "wahlkreis": {
+      "number": 76,
+      "name": "Georgsmarienhütte"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57166",
+    "name": "Frank Henning",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/frank-henning",
+    "wahlkreis": {
+      "number": 77,
+      "name": "Osnabrück-Ost"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57168",
+    "name": "Reinhold Hilbers",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/reinhold-hilbers",
+    "wahlkreis": {
+      "number": 79,
+      "name": "Grafschaft Bentheim"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57169",
+    "name": "Christian Fühner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-fuehner",
+    "wahlkreis": {
+      "number": 80,
+      "name": "Lingen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57178",
+    "name": "Lara Evers",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lara-evers",
+    "wahlkreis": {
+      "number": 81,
+      "name": "Meppen"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57170",
+    "name": "Hartmut Moorkamp",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/hartmut-moorkamp",
+    "wahlkreis": {
+      "number": 82,
+      "name": "Papenburg"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57171",
+    "name": "Ulf Thiele",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ulf-thiele",
+    "wahlkreis": {
+      "number": 83,
+      "name": "Leer"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57172",
+    "name": "Nico Bloem",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nico-bloem",
+    "wahlkreis": {
+      "number": 84,
+      "name": "Leer/Borkum"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57173",
+    "name": "Matthias Arends",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/matthias-arends",
+    "wahlkreis": {
+      "number": 85,
+      "name": "Emden/Norden"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57174",
+    "name": "Wiard Siebels",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/wiard-siebels",
+    "wahlkreis": {
+      "number": 86,
+      "name": "Aurich"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57175",
+    "name": "Karin Emken",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "direct",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karin-emken",
+    "wahlkreis": {
+      "number": 87,
+      "name": "Wittmund/Inseln"
+    }
+  },
+  {
+    "id": "lt-niedersachsen-57226",
+    "name": "Alfred Dannenberg",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/alfred-dannenberg",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-69064",
+    "name": "Andrea Kötter",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andrea-koetter",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57216",
+    "name": "Andreas Hoffmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/andreas-hoffmann-1",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57198",
+    "name": "Anna Bauseneick",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anna-bauseneick",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57200",
+    "name": "Anne Kura",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/anne-kura",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57220",
+    "name": "Ansgar Schledde",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ansgar-schledde",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57179",
+    "name": "Barbara Otte-Kinast",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/barbara-otte-kinast",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57183",
+    "name": "Björn Thümler",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/bjoern-thuemler",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57243",
+    "name": "Britta Kellermann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/britta-kellermann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57194",
+    "name": "Carina Hermann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/carina-hermann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57245",
+    "name": "Christian Schroeder",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christian-schroeder",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57196",
+    "name": "Christoph Plett",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/christoph-plett",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57184",
+    "name": "Cindy Lutz",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/cindy-lutz",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57191",
+    "name": "Colette Christin Thiemann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/colette-christin-thiemann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57937",
+    "name": "Daniela Behrens",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/daniela-behrens",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57224",
+    "name": "Delia Klages",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/delia-klages",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57234",
+    "name": "Dennis Jahn",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dennis-jahn",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57205",
+    "name": "Detlev Schulz-Hendel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/detlev-schulz-hendel",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57180",
+    "name": "Dirk Toepffer",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/dirk-toepffer",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57236",
+    "name": "Djenabou Diallo-Hartmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/djenabou-diallo-hartmann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57209",
+    "name": "Eva Viehoff",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/eva-viehoff",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57203",
+    "name": "Evrim Camuz",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/evrim-camuz",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57227",
+    "name": "Harm Rykena",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/harm-rykena",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-63293",
+    "name": "Heike Koehler",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heike-koehler",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57208",
+    "name": "Heiko Sachtleben",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/heiko-sachtleben",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57237",
+    "name": "Holger Kühnlenz",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/holger-kuehnlenz",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-69018",
+    "name": "Ingo Kerzel",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/ingo-kerzel",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-60181",
+    "name": "Jan Henner Putzier",
+    "party": "SPD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jan-henner-putzier",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57189",
+    "name": "Jens Nacke",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-nacke",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57221",
+    "name": "Jens-Christoph Brockmann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jens-christoph-brockmann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57232",
+    "name": "Jessica Schülke",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jessica-schuelke",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57229",
+    "name": "Jozef Rakicky",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/jozef-rakicky",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57235",
+    "name": "Jürgen Pastewsky",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/juergen-pastewsky",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-67619",
+    "name": "Karola Margraf",
+    "party": "SPD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/karola-margraf",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57192",
+    "name": "Katharina Jensen",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/katharina-jensen",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57222",
+    "name": "Klaus Wichmann",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/klaus-wichmann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57188",
+    "name": "Laura Hopmann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/laura-hopmann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57211",
+    "name": "Lena Nzume",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lena-nzume",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-63652",
+    "name": "Lena-Sophie Laue",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/lena-sophie-laue",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57197",
+    "name": "Martina Machulla",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/martina-machulla",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57181",
+    "name": "Melanie Reinecke",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/melanie-reinecke",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57218",
+    "name": "Michael Lühmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/michael-luehmann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57213",
+    "name": "Nadja Weippert",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nadja-weippert",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-60615",
+    "name": "Nicolas Breer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/nicolas-breer",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-60180",
+    "name": "Oliver Schatta",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/oliver-schatta",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57231",
+    "name": "Omid Najafi",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/omid-najafi",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57214",
+    "name": "Pascal Leddin",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/pascal-leddin",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57223",
+    "name": "Peer Lilienthal",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/peer-lilienthal",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57206",
+    "name": "Pippa Schneider",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/pippa-schneider",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57195",
+    "name": "Saskia Buschmann",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/saskia-buschmann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57185",
+    "name": "Sebastian Lechner",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sebastian-lechner",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57217",
+    "name": "Sina Beckmann",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sina-beckmann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57182",
+    "name": "Sophie Ramdor",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/sophie-ramdor",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57219",
+    "name": "Stefan Marzischewski-Drewes",
+    "party": "",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stefan-marzischewski-drewes",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57225",
+    "name": "Stephan Bothe",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-bothe",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57210",
+    "name": "Stephan Christ",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/stephan-christ",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57215",
+    "name": "Swantje Schendel",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/swantje-schendel",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-63658",
+    "name": "Tamina Reinecke",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tamina-reinecke",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57212",
+    "name": "Tanja Meyer",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/tanja-meyer",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57230",
+    "name": "Thorsten Moriße",
+    "party": "AfD",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/thorsten-morisse",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57187",
+    "name": "Uwe Schünemann",
+    "party": "CDU",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/uwe-schuenemann",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57233",
+    "name": "Vanessa Behrendt",
+    "party": "AfD",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/vanessa-behrendt",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57186",
+    "name": "Verena Kämmerling",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/verena-kaemmerling",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57190",
+    "name": "Veronika Bode",
+    "party": "CDU",
+    "sex": "f",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/veronika-bode",
+    "state": "Niedersachsen"
+  },
+  {
+    "id": "lt-niedersachsen-57207",
+    "name": "Volker Bajus",
+    "party": "BÜNDNIS 90/DIE GRÜNEN",
+    "sex": "m",
+    "mandate": "list",
+    "parlament": "landtag",
+    "bundesland": "Niedersachsen",
+    "address": {
+      "strasse": "Hannah-Arendt-Platz 1",
+      "plz": "30159",
+      "ort": "Hannover",
+      "label": "Niedersächsischer Landtag"
+    },
+    "profileUrl": "https://www.abgeordnetenwatch.de/profile/volker-bajus",
+    "state": "Niedersachsen"
+  }
+]

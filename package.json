@@ -10,7 +10,11 @@
     "data:aw": "node scripts/fetch-abgeordnetenwatch.mjs",
     "data:bundestag": "node scripts/fetch-bundestag.mjs",
     "data:build": "node scripts/build-mdb.mjs",
-    "data:plz": "node scripts/fetch-plz-wahlkreis.mjs && node --experimental-strip-types scripts/build-plz-index.ts"
+    "data:plz": "node scripts/fetch-plz-wahlkreis.mjs && node --experimental-strip-types scripts/build-plz-index.ts",
+    "data:lt:plz": "node scripts/fetch-plz-landtag.mjs",
+    "data:lt:aw": "node scripts/fetch-landtag.mjs",
+    "data:lt:build": "node scripts/build-landtag.mjs",
+    "data:lt:nrw": "node scripts/fetch-landtag-nrw.mjs"
   },
   "dependencies": {
     "react": "18.3.1",
