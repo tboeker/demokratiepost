@@ -10,8 +10,7 @@
     "data:aw": "node scripts/fetch-abgeordnetenwatch.mjs",
     "data:bundestag": "node scripts/fetch-bundestag.mjs",
     "data:build": "node scripts/build-mdb.mjs",
-    "data:plz": "node scripts/fetch-plz-wahlkreis.mjs && node --experimental-strip-types scripts/build-plz-index.ts",
-    "data": "npm run data:aw && npm run data:bundestag && npm run data:build && npm run data:plz"
+    "data:plz": "node scripts/fetch-plz-wahlkreis.mjs && node --experimental-strip-types scripts/build-plz-index.ts"
   },
   "dependencies": {
     "react": "18.3.1",

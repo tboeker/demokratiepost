@@ -20,9 +20,9 @@ Die MdB-Daten entstehen aus **zwei Quellen**, die sich ergänzen:
 npm run data:aw          # 1. laufende Mandate  -> public/data/mandates.json
 npm run data:bundestag   # 2. Profile           -> public/data/mdb-profiles.json
 npm run data:build       # 3. zusammenführen    -> public/data/mdb.json
-# oder alles zusammen:
-npm run data
 ```
+
+Die Schritte laufen **einzeln und in dieser Reihenfolge** (kein Sammelbefehl).
 
 ### Schritt 1: `fetch-abgeordnetenwatch.mjs`
 

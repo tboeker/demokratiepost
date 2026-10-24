@@ -29,7 +29,7 @@ Datenpipeline (Build-Zeit, nicht Teil des Clients) – Details in
 [`scripts/README.md`](./scripts/README.md):
 
 ```bash
-npm run data             # alle Schritte: Mandate + Profile + Zusammenführung + PLZ-Index
+# Jeder Schritt wird einzeln ausgeführt (kein Sammelbefehl):
 node scripts/fetch-abgeordnetenwatch.mjs                      # laufende Mandate → public/data/mandates.json
 node scripts/fetch-bundestag.mjs                              # bundestag.de-Profile → public/data/mdb-profiles.json
 node scripts/build-mdb.mjs                                    # zusammenführen → public/data/mdb.json
