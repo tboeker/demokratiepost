@@ -1,0 +1,55 @@
+# Die Idee
+
+**Demokratiepost** macht politische Musterschreiben in wenigen Sekunden versandfertig.
+
+Gutachter Kail veröffentlicht auf YouTube Videos zu Stromnetzen und erneuerbaren Energien.
+Zu seinen Videos stellt er **Musterschreiben** bereit, mit denen Bürgerinnen und Bürger sich
+bei politischen Akteuren Gehör verschaffen sollen. Diese Schreiben sind allerdings
+Rohvorlagen: Der passende Empfänger muss selbst gefunden, die eigenen Daten müssen
+eingetragen und alles druckfertig aufbereitet werden.
+
+Genau diese Hürden nimmt die Seite ab.
+
+## Das Problem
+
+Vor dem Versand steht man jedes Mal vor denselben Aufgaben:
+
+1. den **richtigen Empfänger** für den eigenen Wohnort herausfinden,
+2. **Absender- und Empfängerdaten** in die Vorlage eintragen,
+3. das Ganze **druckfertig oder als Nachricht** aufbereiten.
+
+Das kostet Zeit – und viele Schreiben erreichen ihr Ziel deshalb gar nicht erst.
+
+## Die Lösung
+
+> **Postleitzahl eingeben → Kampagne wählen → fertigen Brief erhalten.**
+
+Anhand der Postleitzahl werden die zuständigen Empfänger automatisch ermittelt. Das passende
+Musterschreiben wird mit den eigenen Daten befüllt und kann direkt gedruckt, kopiert oder über
+das Kontaktformular versendet werden.
+
+Das Ziel: **möglichst große Reichweite durch eine möglichst kleine Hürde.**
+
+## So funktioniert es
+
+1. **PLZ eingeben** – zum Beispiel `10115`.
+2. **Kampagne auswählen** – das Thema, zu dem du schreiben möchtest.
+3. **Empfänger anzeigen** – die zuständigen Akteure für deine PLZ werden aufgelistet.
+4. **Schreiben prüfen** – die Vorlage wird automatisch mit Absender- und Empfängerdaten gefüllt.
+5. **Versenden** – als PDF-Brief zum Ausdrucken, über das Kontaktformular oder als kopierbaren Text.
+
+## Was die Seite leistet
+
+- **Kein Backend:** Alles läuft direkt im Browser.
+- **Kein Tracking:** Es werden keine Nutzungsdaten erhoben.
+- **Lokale Daten:** Absenderdaten bleiben auf deinem Gerät und lassen sich jederzeit löschen.
+- **Freie Inhalte:** Kampagnen und Musterschreiben liegen als Dateien im Repository und können
+  transparent nachvollzogen werden.
+
+## Projektstatus
+
+Der Prototyp beginnt bewusst klein:
+
+- **MVP:** Postleitzahl → Bundestagsabgeordnete → fertiger Brief.
+- Danach: Landtagsabgeordnete, kommunale Ebene (Bürgermeister, Landrat) und später
+  Netzbetreiber und Stadtwerke.

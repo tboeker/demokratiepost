@@ -1,6 +1,6 @@
 # Dev-Container (VS Code)
 
-Node-Entwicklungsumgebung für **Meine Beschwerde**, in der **OpenCode** gekapselt im
+Node-Entwicklungsumgebung für **Demokratiepost**, in der **OpenCode** gekapselt im
 Container läuft. Der Container ist die Sandbox: OpenCode kann nur den gemounteten
 Workspace und den Container selbst verändern – nicht das Host-System.
 

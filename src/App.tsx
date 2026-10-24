@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
+import { DatenspeicherungView } from './components/DatenspeicherungView';
+import { DocView } from './components/DocView';
 import { LetterPreview } from './components/LetterPreview';
 import { PlzInput } from './components/PlzInput';
 import { RecipientList } from './components/RecipientList';
 import { SenderForm } from './components/SenderForm';
-import { StorageInfo } from './components/StorageInfo';
 import { loadCampaigns } from './lib/campaigns';
+import { isDocKey, type DocKey } from './lib/docs';
 import { findRecipientsByPlz, isValidPlz, salutation } from './lib/lookup';
 import {
   clearSender,
@@ -19,6 +21,15 @@ import type { MdB, Sender, TemplateContext } from './types';
 
 type SearchStatus = 'idle' | 'loading' | 'done' | 'empty' | 'error';
 
+type ActiveView = DocKey | 'datenspeicherung' | null;
+
+function getActiveViewFromHash(): ActiveView {
+  const hash = window.location.hash.replace(/^#/, '');
+  if (hash === 'datenspeicherung') return 'datenspeicherung';
+  if (isDocKey(hash)) return hash;
+  return null;
+}
+
 export default function App() {
   const campaigns = useMemo(() => loadCampaigns(), []);
   const [selectedCampaignId, setSelectedCampaignId] = useState(campaigns[0]?.id ?? '');
@@ -28,6 +39,15 @@ export default function App() {
   const [selectedMdB, setSelectedMdB] = useState<MdB | null>(null);
   const [status, setStatus] = useState<SearchStatus>('idle');
   const [error, setError] = useState('');
+  const [activeView, setActiveView] = useState<ActiveView>(getActiveViewFromHash);
+
+  useEffect(() => {
+    function onHashChange() {
+      setActiveView(getActiveViewFromHash());
+    }
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
 
   const campaign = campaigns.find((item) => item.id === selectedCampaignId);
   const recipientType = campaign?.recipients[0];
@@ -63,6 +83,19 @@ export default function App() {
     setSender(emptySender);
   }
 
+  function goToDoc(doc: DocKey) {
+    window.location.hash = doc;
+  }
+
+  function goToDatenspeicherung() {
+    window.location.hash = 'datenspeicherung';
+  }
+
+  function goHome() {
+    window.location.hash = '';
+    setActiveView(null);
+  }
+
   const letterContext: TemplateContext = useMemo(() => {
     return {
       datum: new Date().toLocaleDateString('de-DE'),
@@ -70,28 +103,43 @@ export default function App() {
       absender: { ...sender },
       empfaenger: selectedMdB
         ? {
-            anrede: salutation(selectedMdB),
-            name: selectedMdB.name,
-            partei: selectedMdB.party,
-            wahlkreis: selectedMdB.wahlkreis
-              ? `Wahlkreis ${selectedMdB.wahlkreis.number} – ${selectedMdB.wahlkreis.name}`
-              : (selectedMdB.state ?? ''),
-            strasse: selectedMdB.address?.strasse ?? '',
-            plz: selectedMdB.address?.plz ?? '',
-            ort: selectedMdB.address?.ort ?? '',
-            email: selectedMdB.email ?? '',
-          }
+          anrede: salutation(selectedMdB),
+          name: selectedMdB.name,
+          partei: selectedMdB.party,
+          wahlkreis: selectedMdB.wahlkreis
+            ? `Wahlkreis ${selectedMdB.wahlkreis.number} – ${selectedMdB.wahlkreis.name}`
+            : (selectedMdB.state ?? ''),
+          strasse: selectedMdB.address?.strasse ?? '',
+          plz: selectedMdB.address?.plz ?? '',
+          ort: selectedMdB.address?.ort ?? '',
+          email: selectedMdB.email ?? '',
+        }
         : {},
     };
   }, [sender, selectedMdB, campaign]);
 
   const letterBody = template ? renderTemplate(template, letterContext) : '';
 
+  if (activeView === 'datenspeicherung') {
+    return (
+      <DatenspeicherungView
+        hasSenderData={hasSenderData(sender)}
+        onClear={handleClearSender}
+        onBack={goHome}
+      />
+    );
+  }
+
+  if (activeView) {
+    return <DocView doc={activeView} onBack={goHome} />;
+  }
+
   return (
     <div className="page">
       <header className="header">
-        <h1>Meine Beschwerde</h1>
+        <h1>Demokratiepost</h1>
         <p className="subtitle">In vier Schritten zum versandfertigen Brief</p>
+        <p className="hint">Hinweis: Der Quellcode dieser App wurde mit AI Tools erstellt.</p>
       </header>
 
       <main className="main">
@@ -170,11 +218,36 @@ export default function App() {
           </section>
         )}
 
-        <StorageInfo hasSenderData={hasSenderData(sender)} onClear={handleClearSender} />
+        <section className="card">
+          <h2>Datenspeicherung</h2>
+          <p className="hint">
+            Diese Seite läuft vollständig in deinem Browser – ohne Server, ohne Tracking.
+            Absenderdaten werden nur lokal im <code>localStorage</code> gespeichert.
+          </p>
+          <button className="button button-secondary" type="button" onClick={goToDatenspeicherung}>
+            Details zur Datenspeicherung
+          </button>
+        </section>
       </main>
 
       <footer className="footer">
-        <a href="#datenspeicherung">Datenspeicherung</a>
+        <nav className="footer-nav">
+          <button type="button" className="footer-link" onClick={() => goToDoc('idee')}>
+            Idee
+          </button>
+          <span className="footer-sep">·</span>
+          <button type="button" className="footer-link" onClick={() => goToDoc('impressum')}>
+            Impressum
+          </button>
+          <span className="footer-sep">·</span>
+          <button type="button" className="footer-link" onClick={() => goToDoc('datenschutz')}>
+            Datenschutz
+          </button>
+          <span className="footer-sep">·</span>
+          <button type="button" className="footer-link" onClick={goToDatenspeicherung}>
+            Datenspeicherung
+          </button>
+        </nav>
       </footer>
     </div>
   );

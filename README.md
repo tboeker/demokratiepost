@@ -1,4 +1,4 @@
-# Meine Beschwerde
+# Demokratiepost
 
 **Eine Webseite, die politische Musterschreiben in wenigen Sekunden versandfertig macht.**
 

@@ -4,7 +4,7 @@ Hinweise für Coding-Agents, die in diesem Repository arbeiten.
 
 ## Projekt
 
-**Meine Beschwerde** ist eine statische Web-App, die aus einer Postleitzahl und einer
+**Demokratiepost** ist eine statische Web-App, die aus einer Postleitzahl und einer
 Kampagne fertige politische Musterschreiben erzeugt (Empfänger + Absenderdaten eingesetzt),
 bereit zum Drucken oder Versenden.
 

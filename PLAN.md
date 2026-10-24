@@ -1,4 +1,4 @@
-# Plan: Meine Beschwerde Prototyp
+# Plan: Demokratiepost Prototyp
 
 ## Idee (Kurzfassung)
 
