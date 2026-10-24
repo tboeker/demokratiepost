@@ -103,7 +103,7 @@ Kampagnen liegen als Dateien im Repo und werden zur Build-Zeit eingelesen:
 
 ```
 campaigns/<kampagne>/
-├── campaign.yaml        # id, title, theme, description, recipients
+├── campaign.yaml        # id, title, subject, theme, description, recipients
 └── templates/<typ>.md   # Markdown-Template je Empfängertyp (z. B. mdb.md)
 ```
 

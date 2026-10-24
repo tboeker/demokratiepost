@@ -97,7 +97,7 @@ damit pro Anfrage nur wenige KB geladen werden.
 ```
 campaigns/
   stromnetz-2026/
-    campaign.yaml        # id, titel, thema, beschreibung, empfängertypen, laufzeit
+    campaign.yaml        # id, titel, betreff, thema, beschreibung, empfängertypen, laufzeit
     templates/
       mdb.md             # Musterschreiben für Bundestagsabgeordnete
 ```

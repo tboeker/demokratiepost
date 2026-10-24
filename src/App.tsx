@@ -103,7 +103,7 @@ export default function App() {
   const letterContext: TemplateContext = useMemo(() => {
     return {
       datum: new Date().toLocaleDateString('de-DE'),
-      betreff: campaign?.title ?? '',
+      betreff: campaign?.subject ?? campaign?.title ?? '',
       absender: { ...sender },
       empfaenger: selectedMdB
         ? {
@@ -217,7 +217,7 @@ export default function App() {
               </p>
             )}
             <LetterPreview
-              subject={campaign?.title ?? ''}
+              subject={campaign?.subject ?? campaign?.title ?? ''}
               recipientType={recipientType}
               body={letterBody}
               contactBody={contactBody}

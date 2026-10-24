@@ -4,6 +4,8 @@ export interface CampaignMeta {
   id: string;
   /** Anzeigetitel der Kampagne. */
   title: string;
+  /** Betreff des Briefes (Platzhalter `{{ betreff }}` und Formularfeld „Betreff“). */
+  subject: string;
   /** Übergeordnetes Thema, z. B. "Energiewende". */
   theme?: string;
   /** Kurzbeschreibung für die Auswahl. */
