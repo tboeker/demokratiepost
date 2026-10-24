@@ -1,11 +1,13 @@
 # Datenpipeline
 
-Die Anwendung lädt zur Laufzeit zwei Arten von Daten aus `public/data/`:
+Die Anwendung lädt zur Laufzeit Daten aus `public/data/` (lazy, nach Bedarf):
 
 | Datei | Inhalt |
 |---|---|
 | `public/data/mdb.json` | Alle Bundestagsabgeordneten (Direkt- + Listenmandate) inkl. Anschrift und Kontaktformular-Link |
 | `public/data/plz/<prefix>.json` | Zuordnung `PLZ -> [Wahlkreis-Nummern]`, aufgeteilt nach den ersten zwei PLZ-Ziffern |
+| `public/data/landtag/<staat>.json` + `plz-landtag/<prefix>.json` | Landtags-Roster je stimmigem Bundesland und PLZ→Landtagswahlkreis |
+| `public/data/kommunen/gemeinden-<land>.json` + `kreise.json` + `plz-kommunen/<prefix>.json` | Kommunale Verwaltungen (Kreis/Verband/Gemeinde) und PLZ→Gemeinde/Kreis |
 
 ## 1. Abgeordnete (drei Schritte)
 
