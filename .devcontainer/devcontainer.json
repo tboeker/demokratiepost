@@ -1,7 +1,7 @@
 {
   // Dev-Container: Node-Umgebung + OpenCode, gekapselt im Container (Sandbox).
   // Öffnen in VS Code über die Erweiterung „Dev Containers" (siehe README.md).
-  "name": "Demokratiepost – Node + OpenCode (Sandbox)",
+  "name": "Node + OpenCode (Sandbox)",
   "build": {
     "dockerfile": "Dockerfile",
     "args": { "NODE_VERSION": "22" }
