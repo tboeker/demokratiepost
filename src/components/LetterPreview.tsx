@@ -5,7 +5,10 @@ import { ContactFormFields } from './ContactFormFields';
 
 interface LetterPreviewProps {
   subject: string;
+  /** Vollständiger Brief für Vorschau und Druck. */
   body: string;
+  /** Nur Text und Abschlussformel für Kontaktformular/E-Mail. */
+  contactBody: string;
   sender: Sender;
   recipientEmail?: string;
   contactFormUrl?: string;
@@ -17,6 +20,7 @@ type ContactStatus = 'idle' | 'copied' | 'failed';
 export function LetterPreview({
   subject,
   body,
+  contactBody,
   sender,
   recipientEmail,
   contactFormUrl,
@@ -26,17 +30,17 @@ export function LetterPreview({
   const [contactStatus, setContactStatus] = useState<ContactStatus>('idle');
 
   async function handleCopy() {
-    const ok = await copyToClipboard(body);
+    const ok = await copyToClipboard(contactBody);
     setCopied(ok);
     window.setTimeout(() => setCopied(false), 2000);
   }
 
   /**
-   * Kopiert den Brieftext, bevor der Link das Kontaktformular in einem neuen Tab öffnet.
+   * Kopiert die Nachricht, bevor der Link das Kontaktformular in einem neuen Tab öffnet.
    * Der Klick-Handler läuft synchron, damit die Zwischenablage trotz Tab-Wechsel gefüllt wird.
    */
   function handleContactFormClick() {
-    const ok = copyToClipboardSync(body);
+    const ok = copyToClipboardSync(contactBody);
     setContactStatus(ok ? 'copied' : 'failed');
   }
 
@@ -48,7 +52,10 @@ export function LetterPreview({
         </button>
 
         {recipientEmail ? (
-          <a className="button button-secondary" href={buildMailto(recipientEmail, subject, body)}>
+          <a
+            className="button button-secondary"
+            href={buildMailto(recipientEmail, subject, contactBody)}
+          >
             Als E-Mail öffnen
           </a>
         ) : (
@@ -66,7 +73,7 @@ export function LetterPreview({
         )}
 
         <button className="button button-secondary" type="button" onClick={handleCopy}>
-          {copied ? 'Kopiert!' : 'Text kopieren'}
+          {copied ? 'Kopiert!' : 'Nachricht kopieren'}
         </button>
 
         {homepage && (
@@ -83,7 +90,7 @@ export function LetterPreview({
 
       {!recipientEmail && contactFormUrl && contactStatus === 'copied' && (
         <p className="hint">
-          Kontaktformular geöffnet – der Brieftext liegt in der Zwischenablage. Füge ihn im
+          Kontaktformular geöffnet – die Nachricht liegt in der Zwischenablage. Füge sie im
           Feld „Nachricht“ mit <kbd>Strg</kbd>+<kbd>V</kbd> (Mac: <kbd>⌘</kbd>+<kbd>V</kbd>) ein.
           Die übrigen Felder findest du unten zum Kopieren.
         </p>
@@ -92,14 +99,15 @@ export function LetterPreview({
       {!recipientEmail && contactFormUrl && contactStatus === 'failed' && (
         <p className="hint">
           Kontaktformular geöffnet. Automatisches Kopieren hat nicht geklappt – nutze
-          „Text kopieren“ oder die Felder unten.
+          „Nachricht kopieren“ oder die Felder unten.
         </p>
       )}
 
       {!recipientEmail && contactFormUrl && (
         <p className="hint">
           Der Bundestag veröffentlicht keine E-Mail-Adressen. Nutze das Kontaktformular oder
-          verschicke den Brief per Post.
+          verschicke den Brief per Post. Für das Kontaktformular wird nur der Nachrichtentext
+          mit Abschlussformel verwendet – Anschriften und Datum stehen nur im Brief.
         </p>
       )}
 
@@ -108,7 +116,7 @@ export function LetterPreview({
       </div>
 
       {!recipientEmail && contactFormUrl && (
-        <ContactFormFields subject={subject} body={body} sender={sender} />
+        <ContactFormFields subject={subject} body={contactBody} sender={sender} />
       )}
     </div>
   );

@@ -53,8 +53,9 @@ export function ContactFormFields({ subject, body, sender }: ContactFormFieldsPr
     <div className="copy-form">
       <h3>Kontaktformular ausfüllen</h3>
       <p className="hint">
-        Die Felder sind aus deinem Brief übernommen. Kopiere sie einzeln und füge sie im
-        Kontaktformular auf bundestag.de ein.
+        Die Felder sind aus deinem Brief übernommen. Die Nachricht enthält nur den Text und die
+        Abschlussformel – Anschriften und Datum stehen nur im Brief. Kopiere die Felder einzeln
+        und füge sie im Kontaktformular auf bundestag.de ein.
       </p>
 
       <div className="copy-fields">

@@ -17,7 +17,7 @@ import {
   prefilledSender,
   saveSender,
 } from './lib/storage';
-import { renderTemplate } from './lib/template';
+import { renderTemplate, splitTemplate } from './lib/template';
 import type { MdB, Sender, TemplateContext } from './types';
 
 type SearchStatus = 'idle' | 'loading' | 'done' | 'empty' | 'error';
@@ -122,7 +122,9 @@ export default function App() {
     };
   }, [sender, selectedMdB, campaign]);
 
-  const letterBody = template ? renderTemplate(template, letterContext) : '';
+  const templateParts = template ? splitTemplate(template) : { letter: '', contact: '' };
+  const letterBody = renderTemplate(templateParts.letter, letterContext);
+  const contactBody = renderTemplate(templateParts.contact, letterContext);
 
   if (activeView === 'datenspeicherung') {
     return (
@@ -215,6 +217,7 @@ export default function App() {
             <LetterPreview
               subject={campaign?.title ?? ''}
               body={letterBody}
+              contactBody={contactBody}
               sender={sender}
               recipientEmail={selectedMdB.email}
               contactFormUrl={selectedMdB.contactFormUrl}

@@ -58,6 +58,9 @@ src/types.ts               MdB, Wahlkreis, Campaign, Sender
 - Absenderdaten nur lokal im Browser: `localStorage`-Key `demokratiepost.sender.v1`
   (versioniert, siehe `src/lib/storage.ts`).
 - Template-Platzhalter in Punktnotation: `{{ absender.name }}`, `{{ empfaenger.wahlkreis }}`.
+- Der Abschnitt `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` im Template
+  ist die Nachricht für Kontaktformular/E-Mail (nur Text + Abschlussformel); der Rest ist der
+  vollständige Brief. Fehlen die Marker, gilt der ganze Brief als Nachricht.
 - Änderungen am Verhalten an `PLAN.md` spiegeln, wenn sie Architektur/Meilensteine betreffen.
 
 ## Daten & Gotchas

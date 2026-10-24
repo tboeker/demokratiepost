@@ -10,6 +10,7 @@
 
 Betreff: {{ betreff }}
 
+<!-- kontaktformular:start -->
 {{ empfaenger.anrede }},
 
 [Platzhalter für das Musterschreiben aus der Kampagne. Hier steht später der
@@ -17,3 +18,4 @@ Text von Gutachter Kail, der an {{ empfaenger.wahlkreis }} geht.]
 
 Mit freundlichen Grüßen
 {{ absender.name }}
+<!-- kontaktformular:ende -->

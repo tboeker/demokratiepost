@@ -106,6 +106,11 @@ campaigns/<kampagne>/
 Im Template werden Platzhalter in Punktnotation verwendet, z. B. `{{ absender.name }}`
 oder `{{ empfaenger.wahlkreis }}`. Sie werden automatisch mit den passenden Werten gefüllt.
 
+Der Bereich zwischen `<!-- kontaktformular:start -->` und `<!-- kontaktformular:ende -->`
+wird als Nachricht im Kontaktformular (bzw. als E-Mail-Text) verwendet – also nur der reine
+Text mit Anrede und Abschlussformel. Der vollständige Brief enthält zusätzlich Absender,
+Empfängeranschrift, Datum und Betreff.
+
 ### Empfängerdaten
 
 Die Empfänger (Bundestagsabgeordnete) und die Zuordnung `PLZ → Wahlkreis` liegen als
