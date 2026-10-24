@@ -27,7 +27,10 @@ Datenpipeline (Build-Zeit, nicht Teil des Clients) – Details in
 [`scripts/README.md`](./scripts/README.md):
 
 ```bash
-node scripts/fetch-bundestag.mjs                              # bundestag.de-Profile → public/data/mdb.json
+npm run data             # alle drei Schritte: Mandate + Profile + Zusammenführung
+node scripts/fetch-abgeordnetenwatch.mjs                      # laufende Mandate → public/data/mandates.json
+node scripts/fetch-bundestag.mjs                              # bundestag.de-Profile → public/data/mdb-profiles.json
+node scripts/build-mdb.mjs                                    # zusammenführen → public/data/mdb.json
 node --experimental-strip-types scripts/build-plz-index.ts    # PLZ→Wahlkreis → public/data/plz/*.json
 ```
 
@@ -72,8 +75,15 @@ src/types.ts               MdB, Wahlkreis, Campaign, Sender
 - **Bot-Challenge**: bundestag.de schützt Seiten mit einer Challenge (Enodia). Ein normaler
   HTTP-Request wird auf `/.enodia/challenge` umgeleitet. `fetch-bundestag.mjs` nutzt daher
   Headless-Chrome über `puppeteer-core` (Chrome nötig, Pfad via `CHROME_PATH`).
+- **Zwei Datenquellen**: Wer aktuell Mitglied ist, kommt aus der abgeordnetenwatch.de-API
+  (`fetch-abgeordnetenwatch.mjs`, CC0, ohne Schlüssel); bundestag.de liefert nur Anschriften,
+  Kontaktformular und Homepage. bundestag.de hat Profile ausgeschiedener Abgeordneter online
+  (639 Profile für 630 Mandate) – `build-mdb.mjs` filtert sie über den Mandatsabgleich.
+- **Mandatsart** steht auf bundestag.de im `constituencyInfo`-Block
+  (`Wahlkreismandat` / `Gewählt über Landesliste`), **nicht** zuverlässig im JSON-LD.
 - Alle **630 Abgeordneten** werden erfasst: Direktmandate (mit Wahlkreis) und Listenmandate
-  (mit Bundesland). Nur Direktmandate sind über die PLZ auffindbar.
+  (mit Bundesland). Nur Direktmandate sind über die PLZ auffindbar. Aktuell 274 Direkt- und
+  356 Listenmandate (Zweitstimmendeckung + vakante Wahlkreise).
 - Die **PLZ→Wahlkreis-Zuordnung ist noch Demo** – derzeit einziger Daten-Risikopunkt.
 
 ## Git

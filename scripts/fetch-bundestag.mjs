@@ -29,7 +29,8 @@ const USER_AGENT =
   'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const outFile = resolve(root, 'public/data/mdb.json');
+// Rohdaten; `build-mdb.mjs` filtert Ausgeschiedene und schreibt `mdb.json`.
+const outFile = resolve(root, 'public/data/mdb-profiles.json');
 
 const SOCIAL = /(facebook|instagram|twitter|x\.com|tiktok|youtube|linkedin|mastodon)/i;
 const STATES = new Set([
@@ -115,6 +116,34 @@ function sexFromGender(gender) {
   return undefined;
 }
 
+/**
+ * Liest die Mandatsart aus dem `constituencyInfo`-Block des Profils.
+ * Das ist die verlässliche Quelle – im JSON-LD fehlt der Wahlkreis bei einem
+ * Teil der Profile.
+ */
+function mandateFromConstituency(items = []) {
+  const direct = items.find((item) => /^Wahlkreismandat$/i.test(item.title));
+  if (direct) {
+    const number =
+      direct.href?.match(/wknr=(\d+)/)?.[1] ?? direct.label.match(/Wahlkreis\s+(\d+)/)?.[1];
+    if (number) {
+      const name = direct.label
+        .replace(/^Wahlkreis\s+\d+:\s*/, '')
+        .replace(/,\s*[^,]+$/, '')
+        .trim();
+      return { mandate: 'direct', wahlkreis: { number: Number(number), name } };
+    }
+  }
+
+  const list = items.find((item) => /Landesliste/i.test(item.title));
+  if (list) {
+    const state = list.label.replace(/^Landesliste:\s*/, '').trim();
+    if (state) return { mandate: 'list', state };
+  }
+
+  return undefined;
+}
+
 /** Ermittelt die Partei aus den JSON-LD-Keywords als Fallback. */
 function partyFromKeywords(keywords) {
   if (!Array.isArray(keywords)) return undefined;
@@ -127,22 +156,33 @@ function partyFromKeywords(keywords) {
 }
 
 async function load(page, url) {
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  try {
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
+  } catch {
+    // Zweiter Versuch mit vollständigem Ladeereignis (Challenge/Redirects).
+    await page.goto(url, { waitUntil: 'load', timeout: 90000 });
+  }
+  await sleep(1000);
 }
 
 async function collectProfileUrls(page) {
   const urls = new Set();
   for (let offset = 0; offset < 5000; offset += PAGE_STEP) {
-    await load(page, `${LIST_URL}?offset=${offset}&limit=100`);
-    await sleep(300);
-    const found = await page.$$eval('a[href*="/abgeordnete/biografien/"]', (anchors) =>
-      anchors
-        .map((anchor) => anchor.href.replace('/de/abgeordnete/biografien/', '/abgeordnete/biografien/'))
-        .filter((href) => !/biografien\/(ausgeschiedene|verstorbene_abgeordnete)/.test(href)),
-    );
-    if (found.length === 0) break;
-    for (const url of found) urls.add(url);
-    if (urls.size % 60 < PAGE_STEP) console.log(`  Liste offset=${offset}: ${urls.size} Profile bisher`);
+    try {
+      await load(page, `${LIST_URL}?offset=${offset}&limit=100`);
+      await sleep(800);
+      const found = await page.$$eval('a[href*="/abgeordnete/biografien/"]', (anchors) =>
+        anchors
+          .map((anchor) => anchor.href.replace('/de/abgeordnete/biografien/', '/abgeordnete/biografien/'))
+          .filter((href) => !/biografien\/(ausgeschiedene|verstorbene_abgeordnete)/.test(href)),
+      );
+      if (found.length === 0) break;
+      for (const url of found) urls.add(url);
+      if (urls.size % 60 < PAGE_STEP) console.log(`  Liste offset=${offset}: ${urls.size} Profile bisher`);
+    } catch (e) {
+      console.log(`  Fehler bei offset=${offset}, versuche weiter...`);
+      break;
+    }
   }
   return [...urls];
 }
@@ -167,6 +207,18 @@ async function readProfile(page, url) {
         abgeordnetenbueros: section('Abgeordnetenbüro'),
         wahlkreisbueros: section('Wahlkreisbüro'),
         contact: document.querySelector('a[href*="contactform?mdbId="]')?.getAttribute('href') ?? null,
+        // Maßgeblicher Block für die Mandatsart: "Wahlkreismandat" bzw.
+        // "Gewählt über Landesliste" (das JSON-LD enthält den Wahlkreis nicht immer).
+        constituency: [...document.querySelectorAll('.m-biography__constituencyInfoItem')].map((item) => ({
+          title:
+            item
+              .querySelector('.m-biography__constituencyInfoItemTitle')
+              ?.textContent.replace(/\s+/g, ' ')
+              .trim() ?? '',
+          href: item.querySelector('a')?.getAttribute('href') ?? null,
+          label:
+            item.querySelector('.a-link__label')?.textContent.replace(/\s+/g, ' ').trim() ?? '',
+        })),
       };
     });
     if (raw.ld) return raw;
@@ -178,7 +230,7 @@ async function main() {
   const browser = await puppeteer.launch({
     executablePath: EXECUTABLE_PATH,
     headless: 'new',
-    args: ['--no-sandbox', '--disable-gpu'],
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--single-process'],
   });
 
   try {
@@ -214,8 +266,18 @@ async function main() {
       const wahlkreisMatch = wahlkreisEntry?.name?.match(/^Wahlkreis\s+(\d+):\s*(.+)$/i);
       const stateEntry = parts.find((part) => STATES.has((part.name ?? '').trim()));
 
+      // Vorrang: der constituencyInfo-Block, danach das JSON-LD.
+      const fromPage = mandateFromConstituency(raw.constituency);
+      const wahlkreis =
+        fromPage?.wahlkreis ??
+        (wahlkreisMatch
+          ? { number: Number(wahlkreisMatch[1]), name: wahlkreisMatch[2].trim() }
+          : undefined);
+      const state = fromPage?.state ?? stateEntry?.name?.trim();
+      const mandate = fromPage?.mandate ?? (wahlkreis ? 'direct' : state ? 'list' : undefined);
+
       // Weder Wahlkreis noch Bundesland erkennbar → kein verwertbares Mandat.
-      if (!wahlkreisMatch && !stateEntry) {
+      if (!mandate) {
         skipped += 1;
         continue;
       }
@@ -248,10 +310,8 @@ async function main() {
         name: ld.mainEntity?.name ?? '',
         party: party ?? '',
         sex: sexFromGender(ld.mainEntity?.gender),
-        mandate: wahlkreisMatch ? 'direct' : 'list',
-        ...(wahlkreisMatch
-          ? { wahlkreis: { number: Number(wahlkreisMatch[1]), name: wahlkreisMatch[2].trim() } }
-          : { state: stateEntry.name.trim() }),
+        mandate,
+        ...(mandate === 'direct' ? { wahlkreis } : { state }),
         address,
         offices: officeList,
         contactFormUrl,

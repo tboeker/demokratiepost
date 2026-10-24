@@ -35,7 +35,7 @@ Browser (statische Seite)
 ├── Kampagnen: campaigns/*/campaign.yaml + templates/*.md
 ├── Rendering: Markdown-Template + Platzhalter → HTML
 ├── Ausgabe A: DIN-5008-Briefansicht → window.print() → "Als PDF speichern"
-└── Ausgabe B: Kontaktformular-Link (bzw. mailto) + "Text kopieren"
+└── Ausgabe B: Kontaktformular-Link (bzw. mailto) + "Nachricht kopieren"
 ```
 
 - Kein Backend, kein Tracking. PLZ und Absenderdaten bleiben im Browser
@@ -43,29 +43,39 @@ Browser (statische Seite)
 - PDF über eine per CSS gestylte Briefansicht + `window.print()` (beste Typografie,
   DIN 5008, keine PDF-Library nötig). Optional später `pdf-lib` für direkten `.pdf`-Download.
 - Versand: Der Bundestag veröffentlicht **keine E-Mail-Adressen**. Die App führt daher direkt
-  zum **Kontaktformular** des Abgeordneten; zusätzlich „Text kopieren". Wo eine E-Mail-Adresse
+  zum **Kontaktformular** des Abgeordneten; zusätzlich „Nachricht kopieren". Wo eine E-Mail-Adresse
   vorliegt (spätere Empfängertypen), wird ein `mailto:`-Link angeboten.
 - Das Kontaktformular auf bundestag.de lässt sich **nicht** per URL vorbelegen (getestet) und
   ist wegen Cross-Origin/CSRF von der App aus nicht befüllbar. Beim Klick auf
-  „Kontaktformular öffnen" wird deshalb der Brieftext automatisch in die Zwischenablage
+  „Kontaktformular öffnen" wird deshalb die Nachricht automatisch in die Zwischenablage
   kopiert. Zusätzlich zeigt die App die Formularfelder (Betreff, Nachricht, Absenderdaten)
   vorausgefüllt an – jedes Feld mit eigenem Kopier-Button.
+- Brief und Kontaktformular brauchen **unterschiedliche Inhalte**: Der Brief enthält Absender,
+  Empfängeranschrift, Datum und Betreff; die Kontaktformular-Nachricht nur den Text mit
+  Anrede und Abschlussformel. Im Template markieren
+  `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` diesen Ausschnitt.
+  Fehlen die Marker, wird der vollständige Brief als Nachricht verwendet.
 
 ## Datenpipeline (kritischer Teil)
 
 Zwei getrennte Baustellen mit je einem Build-Skript:
 
-**1. Empfänger (MdB) — aus den Profilen auf bundestag.de**
-- Scraping der Abgeordneten-Profile (`/abgeordnete/biografien/…`).
-- Erfasst **alle 630 Abgeordneten**: Direktmandate (mit Wahlkreis) und Listenmandate
-  (mit Bundesland); nur Direktmandate sind über die PLZ auffindbar.
+**1. Empfänger (MdB) — abgeordnetenwatch.de + bundestag.de**
+- **Wer ist aktuell Mitglied**: abgeordnetenwatch.de-API v2 (CC0, ohne Schlüssel). Sie liefert
+  die laufenden Mandate des Bundestages (aktuell 630) mit Mandatsart, Wahlkreis, Landesliste
+  und Partei. Nötig, weil bundestag.de Profile ausgeschiedener Abgeordneter online lässt
+  (aktuell 639 Profile für 630 Mandate).
+- **Anschriften**: Scraping der Profile auf bundestag.de (`/abgeordnete/biografien/…`).
+  Die Mandatsart kommt dort aus dem `constituencyInfo`-Block (`Wahlkreismandat` /
+  `Gewählt über Landesliste`); das JSON-LD enthält den Wahlkreis nicht zuverlässig.
 - Liefert: Name, Fraktion, Geschlecht, Wahlkreis/Bundesland, Homepage,
-  **Wahlkreisbüro-Anschrift** und **Kontaktformular-Link**.
+  **Wahlkreisbüro-Anschrift** und **Kontaktformular-Link**. Nur Direktmandate sind über die
+  PLZ auffindbar.
 - **Keine E-Mail-Adressen**: Der Bundestag veröffentlicht nur Kontaktformulare (auch die
   Open-Data-Stammdaten enthalten keine Kontakte). Die App nutzt daher den
   Kontaktformular-Link statt einer E-Mail und für Briefe die Wahlkreisbüro-Anschrift.
 - Die Seite schützt sich mit einer Bot-Challenge → Abruf über einen Headless-Browser
-  (`puppeteer-core`).
+  (`puppeteer-core`). Zusammenführung: `scripts/build-mdb.mjs`.
 
 **2. PLZ → Wahlkreis — eigentlicher Daten-Risikopunkt**
 - Für die Zuordnung PLZ → Wahlkreis gibt es keine fertige offene Quelle.

@@ -7,28 +7,43 @@ Die Anwendung lädt zur Laufzeit zwei Arten von Daten aus `public/data/`:
 | `public/data/mdb.json` | Alle Bundestagsabgeordneten (Direkt- + Listenmandate) inkl. Anschrift und Kontaktformular-Link |
 | `public/data/plz/<prefix>.json` | Zuordnung `PLZ -> [Wahlkreis-Nummern]`, aufgeteilt nach den ersten zwei PLZ-Ziffern |
 
-## 1. Abgeordnete holen (`fetch-bundestag.mjs`)
+## 1. Abgeordnete (drei Schritte)
+
+Die MdB-Daten entstehen aus **zwei Quellen**, die sich ergänzen:
+
+| Quelle | Liefert | Warum |
+|---|---|---|
+| abgeordnetenwatch.de (API v2, CC0) | Wer ist **aktuell** Mitglied, Mandatsart, Wahlkreis, Landesliste, Partei | bundestag.de lässt Profile ausgeschiedener Abgeordneter online (639 Profile für 630 Mandate) |
+| bundestag.de (Profile) | Anschriften (Bundestags- und Wahlkreisbüro), Kontaktformular-Link, Homepage, Geschlecht | Nur der Bundestag veröffentlicht die Büroanschriften |
+
+```bash
+npm run data:aw          # 1. laufende Mandate  -> public/data/mandates.json
+npm run data:bundestag   # 2. Profile           -> public/data/mdb-profiles.json
+npm run data:build       # 3. zusammenführen    -> public/data/mdb.json
+# oder alles zusammen:
+npm run data
+```
+
+### Schritt 1: `fetch-abgeordnetenwatch.mjs`
+
+Holt die laufende Wahlperiode des Bundestages und alle `mandate` daraus (aktuell
+**630**). Kein Browser, kein API-Schlüssel, ein paar Requests. Ergebnis pro Mandat:
+Name, Partei, Mandatsart (`direct`/`list`), Wahlkreis (Nummer + Name) bzw. Landesliste,
+Profil-URL und – bei Nachrückern – ein Hinweistext.
+
+### Schritt 2: `fetch-bundestag.mjs`
 
 Liest die Abgeordneten-Profile von bundestag.de aus. Pro Profil werden gelesen:
 
-- **JSON-LD**: Name, Geschlecht, Fraktion, **Wahlkreis (Nummer + Name)** oder **Bundesland**, Homepage
+- **`constituencyInfo`-Block**: `Wahlkreismandat` (mit Wahlkreisnummer) oder
+  `Gewählt über Landesliste` – die verlässliche Quelle für die Mandatsart
+- **JSON-LD**: Name, Geschlecht, Fraktion, Homepage (Wahlkreis nur als Fallback)
 - **Anschriftenblock**: Bundestagsbüro und **Wahlkreisbüro(s)**
 - **Kontaktformular-Link** (`/services/formular/contactform?mdbId=…`)
-
-Es werden **alle** Abgeordneten erfasst. Jeder Eintrag hat ein Feld `mandate`:
-
-- `direct` – Direktmandat, mit `wahlkreis` (Nummer + Name). Nur diese finden bei der
-  PLZ-Suche Verwendung.
-- `list` – Listenmandat, mit `state` (Bundesland). Kein Wahlkreis, daher nicht über die PLZ
-  auffindbar.
 
 Fehlt einem Profil die Anschrift (manche Abgeordnete geben keine Kontaktdaten an), wird die
 Standard-**Bundestagsadresse** (`Platz der Republik 1, 11011 Berlin`) als Fallback gesetzt.
 Der **Kontaktformular-Link** wird notfalls aus der `mdbId` (letzte Zahl der Profil-URL) gebildet.
-
-> Hinweis: Wegen der Wahlrechtsreform (Zweitstimmendeckung) sind im 21. Bundestag nicht alle
-> 299 Wahlkreise besetzt – 23 Wahlkreissieger zogen nicht ein. Es gibt daher weniger als 299
-> Direktmandate (aktuell ~278), der Rest sind Listenmandate.
 
 ```bash
 node scripts/fetch-bundestag.mjs
@@ -36,7 +51,24 @@ node scripts/fetch-bundestag.mjs
 CHROME_PATH=/pfad/zu/chrome MAX_PROFILES=5 node scripts/fetch-bundestag.mjs
 ```
 
-Ergebnis: `public/data/mdb.json`.
+### Schritt 3: `build-mdb.mjs`
+
+Verknüpft Profile und Mandate über den normalisierten Namen (Titel, Adelspartikel,
+Mittelnamen und Umlautschreibweisen werden ignoriert), **behält nur laufende Mandate** und
+schreibt `public/data/mdb.json`. Jeder Eintrag hat ein Feld `mandate`:
+
+- `direct` – Direktmandat, mit `wahlkreis` (Nummer + Name). Nur diese finden bei der
+  PLZ-Suche Verwendung.
+- `list` – Listenmandat, mit `state` (Bundesland). Kein Wahlkreis, daher nicht über die PLZ
+  auffindbar.
+
+Bei abweichender Mandatsart gewinnt bundestag.de (die Quelle mit dem `Wahlkreismandat`-Block);
+das Skript protokolliert solche Fälle. Aktuell betrifft das nur Nachrücker, die einen
+Wahlkreis übernommen haben.
+
+> Hinweis: Wegen der Wahlrechtsreform (Zweitstimmendeckung) sind im 21. Bundestag nicht alle
+> 299 Wahlkreise besetzt. Dazu kommen Wahlkreise, deren Direktmandat nach einem Ausscheiden
+> vakant bleibt. Aktuell: 274 Direktmandate, 356 Listenmandate.
 
 ### Warum ein Browser?
 

@@ -4,3 +4,6 @@ dist-ssr
 *.local
 .DS_Store
 .vite
+# Zwischenergebnisse der Datenpipeline (siehe scripts/README.md)
+public/data/mdb-profiles.json
+public/data/mandates.json

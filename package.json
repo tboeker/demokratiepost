@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "data:aw": "node scripts/fetch-abgeordnetenwatch.mjs",
+    "data:bundestag": "node scripts/fetch-bundestag.mjs",
+    "data:build": "node scripts/build-mdb.mjs",
+    "data": "npm run data:aw && npm run data:bundestag && npm run data:build"
   },
   "dependencies": {
     "react": "18.3.1",
