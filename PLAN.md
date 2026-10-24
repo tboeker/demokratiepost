@@ -77,11 +77,13 @@ Zwei getrennte Baustellen mit je einem Build-Skript:
 - Die Seite schützt sich mit einer Bot-Challenge → Abruf über einen Headless-Browser
   (`puppeteer-core`). Zusammenführung: `scripts/build-mdb.mjs`.
 
-**2. PLZ → Wahlkreis — eigentlicher Daten-Risikopunkt**
-- Für die Zuordnung PLZ → Wahlkreis gibt es keine fertige offene Quelle.
-- Kette: `PLZ → Gemeinde (AGS) → Wahlkreis`.
-  Quellen: OSM-Grenzen bzw. Destatis-Gemeindeverzeichnis für PLZ↔Gemeinde,
-  Bundeswahlleiterin-Liste für Gemeinde↔Wahlkreis.
+**2. PLZ → Wahlkreis — gelöst über abgeleitete Geodaten**
+- Es gibt keine amtliche 1:1-Tabelle, weil PLZ- und Wahlkreisgrenzen nicht deckungsgleich sind.
+- Die App nutzt eine aus amtlichen Geodaten abgeleitete Zuordnung: PLZ-Gebiete des BKG
+  (dl-de/by-2-0) verschnitten mit der Wahlkreiseinteilung 2025 der Bundeswahlleiterin,
+  ergänzt um die amtliche Gemeinde-Zuordnung der Bundeswahlleiterin.
+  Die Aufbereitung stammt von OpenWahlkreisMap (MIT) und wird auf einen Commit gepinnt
+  (`scripts/fetch-plz-wahlkreis.mjs`).
 - PLZ und Wahlkreis sind **nicht** 1:1. Eine PLZ kann mehrere Wahlkreise umfassen.
   Bei Mehrdeutigkeit werden **alle** passenden MdB angezeigt (Feature, kein Bug).
 - Wegen der Zweitstimmendeckung (Wahlrechtsreform) sind nicht alle 299 Wahlkreise besetzt;
@@ -179,12 +181,13 @@ M1–M3 sind der Proof-of-Value. Erst danach lohnt sich die Datenbreite.
 - **Kampagnen-Autor**: Wer schreibt die Templates — Nutzer oder strukturiert von Kail?
 - **Bündel-Download**: Ein Brief pro MdB (Standard) oder „an alle im Wahlkreis" als Sammel-PDF?
 - **Domain**: `*.github.io/demokratiepost` oder später eigene Domain?
-- **PLZ→Wahlkreis-Quelle**: noch umzusetzen (OSM/Destatis + Bundeswahlleiterin) —
-  aktuell Demo-Daten, einziges echtes Datenrisiko.
+- **PLZ→Wahlkreis-Pflege**: Die abgeleitete Zuordnung muss zu jeder neuen Wahlperiode
+  aktualisiert werden (neuer Commit in `scripts/fetch-plz-wahlkreis.mjs`, dann
+  `npm run data:plz`).
 
 ## Nächster Schritt
 
 M1 und M2 sind umgesetzt. Die echten MdB-Daten (inkl. Anschriften und Kontaktformular-Links)
-kommen aus den bundestag.de-Profilen. Als Nächstes **M3**: Kails Schreiben als erste Kampagne,
-optionaler persönlicher Absatz, Feinschliff. Offen bleibt die echte **PLZ→Wahlkreis-Zuordnung**
-(aktuell Demo-Daten).
+kommen aus den bundestag.de-Profilen. Die **PLZ→Wahlkreis-Zuordnung** ist vollständig
+(8.218 PLZ, 299 Wahlkreise) und wird aus amtlichen Geodaten abgeleitet. Als Nächstes **M3**:
+Kails Schreiben als erste Kampagne, optionaler persönlicher Absatz, Feinschliff.

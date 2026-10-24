@@ -27,11 +27,11 @@ Datenpipeline (Build-Zeit, nicht Teil des Clients) – Details in
 [`scripts/README.md`](./scripts/README.md):
 
 ```bash
-npm run data             # alle drei Schritte: Mandate + Profile + Zusammenführung
+npm run data             # alle Schritte: Mandate + Profile + Zusammenführung + PLZ-Index
 node scripts/fetch-abgeordnetenwatch.mjs                      # laufende Mandate → public/data/mandates.json
 node scripts/fetch-bundestag.mjs                              # bundestag.de-Profile → public/data/mdb-profiles.json
 node scripts/build-mdb.mjs                                    # zusammenführen → public/data/mdb.json
-node --experimental-strip-types scripts/build-plz-index.ts    # PLZ→Wahlkreis → public/data/plz/*.json
+npm run data:plz         # PLZ-CSV aktualisieren + Shards → public/data/plz/*.json
 ```
 
 ## Dev-Container
@@ -84,7 +84,13 @@ src/types.ts               MdB, Wahlkreis, Campaign, Sender
 - Alle **630 Abgeordneten** werden erfasst: Direktmandate (mit Wahlkreis) und Listenmandate
   (mit Bundesland). Nur Direktmandate sind über die PLZ auffindbar. Aktuell 274 Direkt- und
   356 Listenmandate (Zweitstimmendeckung + vakante Wahlkreise).
-- Die **PLZ→Wahlkreis-Zuordnung ist noch Demo** – derzeit einziger Daten-Risikopunkt.
+- Die **PLZ→Wahlkreis-Zuordnung** ist vollständig (8.218 PLZ, 299 Wahlkreise) und wird aus
+  [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT) erzeugt. Die
+  Aufbereitung beruht auf den BKG-PLZ-Gebieten und der Wahlkreiseinteilung 2025, ergänzt um
+  die amtliche Gemeinde-Zuordnung der Bundeswahlleiterin; eine PLZ kann mehrere Wahlkreise
+  überlappen, dann sind alle Zuordnungen (≥ 1 % Flächenanteil) enthalten.
+  `fetch-plz-wahlkreis.mjs` pinnt die Quelle auf einen Commit. BKG-Attribution
+  („© GeoBasis-DE / BKG“) muss im Impressum bleiben.
 
 ## Git
 

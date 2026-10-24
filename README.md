@@ -119,9 +119,15 @@ auf bundestag.de gelesen (Name, Fraktion, Wahlkreis, Wahlkreisbüro-Anschrift,
 Kontaktformular-Link). E-Mail-Adressen veröffentlicht der Bundestag nicht – die App bietet
 deshalb den Kontaktformular-Link an. Beim Öffnen wird der Brieftext automatisch in die
 Zwischenablage kopiert; zusätzlich zeigt die App die Formularfelder vorausgefüllt mit
-eigenem Kopier-Button pro Feld (das Formular selbst lässt sich nicht vorbelegen). Die
-**PLZ-Zuordnung ist noch Demo**. Wie die Daten
-erzeugt werden, steht in [`scripts/README.md`](./scripts/README.md).
+eigenem Kopier-Button pro Feld (das Formular selbst lässt sich nicht vorbelegen).
+Die **PLZ-Zuordnung ist vollständig** (8.218 PLZ, 299 Wahlkreise) und wird aus den
+PLZ-Gebieten des BKG und der Wahlkreiseinteilung 2025 der Bundeswahlleiterin abgeleitet.
+Wie die Daten erzeugt werden, steht in [`scripts/README.md`](./scripts/README.md).
+
+Datenquellen und Lizenzen: Die Bundeswahlleiterin (amtliches Werk), bundestag.de,
+abgeordnetenwatch.de (CC0) sowie für die PLZ-Gebiete © GeoBasis-DE / BKG (dl-de/by-2-0);
+Aufbereitung der PLZ-Zuordnung durch
+[OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT).
 
 ## Projektstatus
 

@@ -84,17 +84,24 @@ Kontaktformulare). Die offiziellen Stammdaten (Open Data, XML) enthalten ebenfal
 Kontakte. Deshalb speichert die App den **Kontaktformular-Link** statt einer E-Mail und
 nutzt für Briefe die **Wahlkreisbüro-Anschrift** (Fallback: Bundestagsbüro).
 
-## 2. PLZ → Wahlkreis (`build-plz-index.ts`)
+## 2. PLZ → Wahlkreis (`fetch-plz-wahlkreis.mjs` + `build-plz-index.ts`)
 
-Wandelt eine CSV-Quelle in die Laufzeit-Shards um:
+Die Zuordnung wird in zwei Schritten erzeugt:
 
 ```bash
+npm run data:plz
+# entspricht:
+node scripts/fetch-plz-wahlkreis.mjs
 node --experimental-strip-types scripts/build-plz-index.ts
-# oder mit eigener Quelle:
+# oder mit eigener CSV:
 PLZ_SOURCE=/pfad/plz-wahlkreis.csv node --experimental-strip-types scripts/build-plz-index.ts
 ```
 
-CSV-Format (Kopfzeile optional):
+`fetch-plz-wahlkreis.mjs` lädt die vollständige Zuordnung und schreibt die normalisierte CSV
+nach `scripts/source/plz-wahlkreis.csv`. `build-plz-index.ts` erzeugt daraus die
+Laufzeit-Shards `public/data/plz/<prefix>.json`.
+
+CSV-Format (Kopfzeile und `#`-Kommentare optional):
 
 ```csv
 plz,wk
@@ -102,20 +109,26 @@ plz,wk
 10117,74
 ```
 
-Ergebnis: `public/data/plz/<prefix>.json`.
+Aktuell: **8.218 PLZ**, **8.961 Zuordnungen**, **299 Wahlkreise**. Eine PLZ kann mehrere
+Wahlkreise überlappen; dann enthält der Shard alle Wahlkreisnummern (≥ 1 % Flächenanteil).
+Die App zeigt bei Mehrdeutigkeit alle passenden Direktmandate an.
 
-### Woher kommt die CSV?
+### Datenquelle und Lizenz
 
-PLZ und Bundestagswahlkreis sind **nicht** 1:1 – eine PLZ kann mehrere Wahlkreise umfassen.
-Die CSV wird aus zwei Quellen zusammengeführt:
+Es gibt keine amtliche 1:1-Tabelle „PLZ → Wahlkreis“, weil PLZ-Gebiete (Deutsche Post) und
+Wahlkreisgrenzen (Bundeswahlleiterin) nicht deckungsgleich sind. Die CSV wird daher aus
+amtlichen Geodaten abgeleitet:
 
-1. **PLZ → Gemeinde** (Amtlicher Gemeindeschlüssel): z. B. über OpenStreetMap-Grenzen
-   oder das Gemeindeverzeichnis (Destatis).
-2. **Gemeinde → Wahlkreis**: Wahlkreiseinteilung der Bundeswahlleiterin.
+1. **PLZ-Gebiete** inkl. Gemeindeschlüssel: Bundesamt für Kartographie und Geodäsie (BKG),
+   Datenlizenz Deutschland – Namensnennung 2.0 („© GeoBasis-DE / BKG“).
+2. **Wahlkreiseinteilung 2025**: Die Bundeswahlleiterin (amtliches Werk).
+3. **Amtliche Gemeinde-Zuordnung**: Die Bundeswahlleiterin („Wahlkreise und zugeordnete
+   Gemeinden“). Für Gemeinden mit genau einem Wahlkreis wird die dort genannte PLZ ergänzt;
+   das füllt Lücken des räumlichen Verschnitts (z. B. 94158 Philippsreut) und fehlende
+   Randgebiete (z. B. 56729 Nitz, 83256 Chiemsee).
+4. **Aufbereitung**: [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap)
+   (MIT), Quelle auf einen festen Commit gepinnt, damit Builds reproduzierbar sind.
 
-Diese Vorarbeit ist der eigentliche Aufwand; das Skript übernimmt nur den letzten Schritt
-(CSV → Shards). Aktuell liegt `scripts/source/plz-wahlkreis.csv` mit **Demo-Zuordnungen** bei.
-
-> Hinweis: Der Bundestag bietet eine Wahlkreissuche mit PLZ/Ort-Autocomplete
-> (`/ajax/filterlist/de/533302-533302/plz-ort-autocomplete`). Das könnte künftig eine
-> direkte PLZ→Wahlkreis-Quelle liefern.
+Die Attribution `© GeoBasis-DE / BKG` steht im Impressum der App und muss dort erhalten
+bleiben. Zum Aktualisieren auf eine neue Wahlperiode: Commit in
+`scripts/fetch-plz-wahlkreis.mjs` anpassen und `npm run data:plz` ausführen.

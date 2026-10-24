@@ -2,7 +2,8 @@
  * Erzeugt aus einer CSV-Quelle (PLZ -> Wahlkreis) die Laufzeit-Shards
  * unter `public/data/plz/<prefix>.json`.
  *
- * Eingabeformat (Kopfzeile optional, Trennzeichen Komma/Semikolon/Tab):
+ * Eingabeformat (Kopfzeile optional, Trennzeichen Komma/Semikolon/Tab,
+ * Kommentarzeilen mit `#` werden ignoriert):
  *   plz,wk
  *   10115,74
  *   10117,74
@@ -22,17 +23,24 @@ const outDir = resolve(root, 'public/data/plz');
 const lines = readFileSync(sourceFile, 'utf8')
   .split(/\r?\n/)
   .map((line) => line.trim())
-  .filter((line) => line.length > 0 && !line.toLowerCase().startsWith('plz'));
+  .filter(
+    (line) =>
+      line.length > 0 &&
+      !line.startsWith('#') &&
+      !line.toLowerCase().startsWith('plz'),
+  );
 
 // prefix -> plz -> Menge von Wahlkreis-Nummern
 const byPrefix = new Map<string, Map<string, Set<number>>>();
+let assignmentCount = 0;
+const wahlkreisNumbers = new Set<number>();
 
 for (const line of lines) {
   const [plz, wkRaw] = line.split(/[;,\t]/).map((cell) => cell.trim());
   if (!/^\d{5}$/.test(plz)) continue;
 
   const wk = Number(wkRaw);
-  if (!Number.isInteger(wk)) continue;
+  if (!Number.isInteger(wk) || wk < 1 || wk > 299) continue;
 
   const prefix = plz.slice(0, 2);
   const plzMap = byPrefix.get(prefix) ?? new Map<string, Set<number>>();
@@ -40,6 +48,12 @@ for (const line of lines) {
   wahlkreise.add(wk);
   plzMap.set(plz, wahlkreise);
   byPrefix.set(prefix, plzMap);
+  assignmentCount += 1;
+  wahlkreisNumbers.add(wk);
+}
+
+if (assignmentCount === 0) {
+  throw new Error(`Keine gültigen Zuordnungen in ${sourceFile} gefunden.`);
 }
 
 rmSync(outDir, { recursive: true, force: true });
@@ -56,5 +70,7 @@ for (const [prefix, plzMap] of byPrefix) {
 }
 
 console.log(
-  `${shardCount} Shard(s) aus ${lines.length} Zeilen geschrieben nach public/data/plz/`,
+  `${shardCount} Shard(s) aus ${assignmentCount} Zuordnungen ` +
+    `(${[...byPrefix.values()].reduce((sum, plzMap) => sum + plzMap.size, 0)} PLZ, ` +
+    `${wahlkreisNumbers.size} Wahlkreise) geschrieben nach public/data/plz/`,
 );

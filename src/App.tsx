@@ -187,8 +187,9 @@ export default function App() {
 
           {status === 'empty' && (
             <p className="hint">
-              Für die PLZ {plz} wurden keine Empfänger gefunden. Die PLZ-Zuordnung ist noch
-              Demo – probiere z. B. <strong>10115</strong> oder <strong>10551</strong>.
+              Für die PLZ {plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – oder der
+              Wahlkreis hat derzeit keine direkt gewählte Person (Zweitstimmendeckung oder
+              vakantes Mandat).
             </p>
           )}
           {status === 'error' && <p className="error">{error}</p>}

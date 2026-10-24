@@ -16,6 +16,16 @@ E-Mail: [E-Mail-Adresse]
 [Vor- und Nachname]
 [Anschrift wie oben]
 
+## Datenquellen
+
+- **Abgeordnete und Anschriften:** Deutscher Bundestag, [bundestag.de](https://www.bundestag.de); laufende Mandate: [abgeordnetenwatch.de](https://www.abgeordnetenwatch.de) (CC0 1.0).
+- **Wahlkreiseinteilung:** Die Bundeswahlleiterin, Bundestagswahl 2025 (amtliches Werk).
+- **PLZ-Gebiete:** © GeoBasis-DE / BKG (Datenlizenz Deutschland – Namensnennung 2.0).
+- **Aufbereitung PLZ → Wahlkreis:** [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT-Lizenz).
+
+Die PLZ-Zuordnung ist eine Näherung: Eine PLZ kann mehrere Wahlkreise überlappen. Bei
+Mehrdeutigkeit zeigt die App alle passenden Direktmandate an.
+
 ## Hinweis
 
 Dieses Angebot ist ein **nicht-kommerzielles Projekt**. Es stellt politische Musterschreiben
