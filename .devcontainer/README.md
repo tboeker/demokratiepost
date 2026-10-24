@@ -57,8 +57,41 @@ Mehrere Ebenen:
 4. **OpenCode-Policies/Permissions** – zusätzlich lassen sich auf Agentenebene Regeln
    definieren (`permissions`, `policies` in `opencode.jsonc`), z. B. `git push` verbieten
    oder Shell-Befehle bestätigen lassen.
-5. **Optional: Netzwerk-Allowlist** – `init-firewall.sh` begrenzt ausgehende Verbindungen
+5. **Kein Push aus dem Container** – Commits ja, Publish nein. Siehe
+   [Push im Container](#push-im-container).
+6. **Optional: Netzwerk-Allowlist** – `init-firewall.sh` begrenzt ausgehende Verbindungen
    auf eine Liste (OpenCode-Provider, GitHub, npm, bundestag.de). Siehe unten.
+
+### Push im Container
+
+**Warum der Container pushen konnte:** Der Container hat nie eigene Zugangsdaten
+gespeichert – VS Code hat sie durchgereicht. Die Dev-Containers-Erweiterung schreibt
+beim Start einen Credential-Helper nach `/etc/gitconfig` und `~/.gitconfig`, der über
+einen IPC-Socket die GitHub-Anmeldung des **Hosts** abfragt. Zusätzlich werden
+`GIT_ASKPASS`/`VSCODE_GIT_ASKPASS_*` und `SSH_AUTH_SOCK` in den Container geforwardet.
+Ein `git push` im Container war damit effektiv ein Push mit deinen Host-Rechten.
+
+**Was jetzt gilt:**
+
+- `GIT_CONFIG_GLOBAL` zeigt auf `.devcontainer/gitconfig-sandbox` (per Symlink nach
+  `~/.config/git/sandbox.gitconfig`). Diese Konfiguration leert die Helferliste
+  (`credential.helper =`), setzt `askPass = /bin/false`, `push.default = nothing` und
+  deaktiviert den SSH-Agent (`core.sshCommand`).
+- `.devcontainer/git-hooks/pre-push` bricht jeden `git push` mit einer Erklärung ab
+  (`core.hooksPath`), auch wenn doch irgendwo ein Token auftauchen sollte.
+- `opencode.json` verbietet dem Agenten `git push` zusätzlich auf Permission-Ebene.
+
+Push läuft damit **nur auf dem Host** (VS Code ohne Container oder Terminal):
+
+```bash
+git add -A && git commit -m "…"   # im Container okay
+# Push dann auf dem Host:
+git push
+```
+
+Bewusst in Kauf genommen: `git fetch`/`pull` funktionieren im Container nur für
+öffentliche Repos (ohne Zugangsdaten). Und wer die Sperre wirklich umgehen will, kann
+`GIT_CONFIG_GLOBAL` überschreiben – es ist eine Leitplanke, keine Festung.
 
 ### Netzwerk begrenzen (optional)
 

@@ -28,7 +28,11 @@
 
   "containerEnv": {
     "CHROME_PATH": "/usr/bin/chromium",
-    "PUPPETEER_SKIP_DOWNLOAD": "1"
+    "PUPPETEER_SKIP_DOWNLOAD": "1",
+    // Push-Schutz: eigene Git-Konfiguration ohne Credential-Helper (siehe
+    // gitconfig-sandbox). Verhindert, dass VS Code die Host-Anmeldung durchreicht.
+    "GIT_CONFIG_GLOBAL": "/home/node/.config/git/sandbox.gitconfig",
+    "GIT_TERMINAL_PROMPT": "0"
   },
 
   // Das Install-Skript legt die CLI in ~/.opencode/bin ab – in den PATH aufnehmen.

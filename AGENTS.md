@@ -76,4 +76,7 @@ src/types.ts               MdB, Wahlkreis, Campaign, Sender
 ## Git
 
 - Identität dieses Repos: `tboeker <tboeker@users.noreply.github.com>`.
+- **`git push` ist im Dev-Container gesperrt** (`.devcontainer/gitconfig-sandbox` +
+  `pre-push`-Hook, `opencode.json` verbietet dem Agenten den Befehl). Committen im
+  Container ist okay, Publish macht der Nutzer auf dem Host.
 - `node_modules`, `dist`, `*.local` sind ignoriert.

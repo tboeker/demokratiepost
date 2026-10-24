@@ -1,0 +1,34 @@
+# Git-Konfiguration, die NUR im Dev-Container gilt.
+#
+# Eingebunden über GIT_CONFIG_GLOBAL in devcontainer.json; ersetzt dort die
+# ~/.gitconfig des Containers. Zweck: Der Container hat keine GitHub-Zugangsdaten,
+# Push ist nur vom Host (ohne Container) möglich.
+#
+# Warum das nötig ist: VS Code Dev Containers schreibt beim Start einen
+# Credential-Helper nach /etc/gitconfig und ~/.gitconfig, der über einen
+# IPC-Socket die Host-Anmeldung durchreicht. Außerdem werden GIT_ASKPASS und
+# SSH_AUTH_SOCK vom Host in den Container geforwardet.
+
+[credential]
+	# Leere Zuweisung löscht die Helferliste – damit ist auch der von VS Code
+	# gesetzte Helper aus /etc/gitconfig wirkungslos.
+	helper =
+
+[core]
+	# Kein interaktives Nachfragen, kein askpass-Fallback.
+	askPass = /bin/false
+	# Push-Hook, der jeden Push im Container abbricht (siehe git-hooks/pre-push).
+	# setup.sh verlinkt das Verzeichnis nach ~/.config/git/hooks.
+	hooksPath = ~/.config/git/hooks
+	# SSH-Transport im Container ohne Agent/Keys nutzbar machen unmöglich.
+	sshCommand = ssh -o BatchMode=yes -o IdentityAgent=none -o IdentitiesOnly=yes
+
+[push]
+	# "git push" ohne explizites Refspec schlägt fehl.
+	default = nothing
+
+[user]
+	# Identität wie im Repo (AGENTS.md), damit Commits in anderen Repos im
+	# Container nicht an fehlender Konfiguration scheitern.
+	name = tboeker
+	email = tboeker@users.noreply.github.com

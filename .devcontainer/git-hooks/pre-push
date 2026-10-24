@@ -1,0 +1,17 @@
+#!/bin/sh
+# Wird im Dev-Container bei jedem `git push` ausgeführt (core.hooksPath).
+# Push ist im Container gesperrt – bewusst auch für den Agenten. Auf dem Host
+# (ohne Container) funktioniert `git push` normal.
+cat >&2 <<'EOF'
+
+  ✋ Push ist im Dev-Container gesperrt.
+
+  Committen ist erlaubt, Publish nicht: Der Container bekommt absichtlich keine
+  GitHub-Zugangsdaten (siehe .devcontainer/README.md → „Push im Container").
+
+  So pushst du trotzdem:
+    - auf dem Host im Repo:      git push
+    - aus dem Container heraus:  git -C /pfad/auf/host push   (nicht empfohlen)
+
+EOF
+exit 1
