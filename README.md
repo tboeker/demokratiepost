@@ -82,6 +82,10 @@ npm run build   # Produktions-Build nach dist/
 npm run preview # Build lokal testen
 ```
 
+> Nach `npm run data:plz` bzw. Änderungen unter `public/` den Dev-Server neu starten.
+> Vite kann sonst noch den alten Stand des Public-Ordners ausliefern; neue Shards
+> erscheinen dann als HTML-Fallback statt als JSON.
+
 Die Seite wird über GitHub Actions automatisch nach GitHub Pages deployt
 (`.github/workflows/deploy.yml`). Wichtig: In `vite.config.ts` muss `base` dem
 Repo-Namen entsprechen (`/demokratiepost/`).

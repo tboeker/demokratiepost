@@ -91,6 +91,8 @@ src/types.ts               MdB, Wahlkreis, Campaign, Sender
   überlappen, dann sind alle Zuordnungen (≥ 1 % Flächenanteil) enthalten.
   `fetch-plz-wahlkreis.mjs` pinnt die Quelle auf einen Commit. BKG-Attribution
   („© GeoBasis-DE / BKG“) muss im Impressum bleiben.
+- Nach `npm run data:plz` den **Dev-Server neu starten**: Vite kann sonst noch den alten
+  Stand des Public-Ordners ausliefern und liefert neue Shards als HTML statt JSON.
 
 ## Git
 
