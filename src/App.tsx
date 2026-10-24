@@ -146,6 +146,10 @@ export default function App() {
         <h1>Demokratiepost</h1>
         <p className="subtitle">In vier Schritten zum versandfertigen Brief</p>
         <p className="hint">Hinweis: Der Quellcode dieser App wurde mit AI Tools erstellt.</p>
+        <button type="button" className="footer-link" onClick={() => goToDoc('idee')}>
+          Beschreibung der Idee
+        </button>
+
       </header>
 
       <main className="main">
