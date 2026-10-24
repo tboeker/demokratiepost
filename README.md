@@ -112,7 +112,10 @@ Die Empfänger (Bundestagsabgeordnete) und die Zuordnung `PLZ → Wahlkreis` lie
 JSON unter `public/data/`. Die **Abgeordneten-Daten sind echt** und werden aus den Profilen
 auf bundestag.de gelesen (Name, Fraktion, Wahlkreis, Wahlkreisbüro-Anschrift,
 Kontaktformular-Link). E-Mail-Adressen veröffentlicht der Bundestag nicht – die App bietet
-deshalb den Kontaktformular-Link an. Die **PLZ-Zuordnung ist noch Demo**. Wie die Daten
+deshalb den Kontaktformular-Link an. Beim Öffnen wird der Brieftext automatisch in die
+Zwischenablage kopiert; zusätzlich zeigt die App die Formularfelder vorausgefüllt mit
+eigenem Kopier-Button pro Feld (das Formular selbst lässt sich nicht vorbelegen). Die
+**PLZ-Zuordnung ist noch Demo**. Wie die Daten
 erzeugt werden, steht in [`scripts/README.md`](./scripts/README.md).
 
 ## Projektstatus

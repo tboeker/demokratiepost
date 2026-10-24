@@ -12,6 +12,19 @@ export const emptySender: Sender = {
   telefon: '',
 };
 
+/**
+ * Vorbelegung, wenn noch keine Absenderdaten gespeichert sind.
+ * Erleichtert Test und Demo – die Werte sind frei erfunden.
+ */
+export const prefilledSender: Sender = {
+  name: 'Max Mustermann',
+  strasse: 'Musterstraße 1',
+  plz: '10115',
+  ort: 'Berlin',
+  email: 'max.mustermann@example.org',
+  telefon: '030 12345678',
+};
+
 /** Prüft, ob überhaupt Absenderdaten eingegeben wurden (für den Speicher-Hinweis). */
 export function hasSenderData(sender: Sender): boolean {
   return [sender.name, sender.strasse, sender.plz, sender.ort, sender.email, sender.telefon].some(

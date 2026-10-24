@@ -45,6 +45,11 @@ Browser (statische Seite)
 - Versand: Der Bundestag veröffentlicht **keine E-Mail-Adressen**. Die App führt daher direkt
   zum **Kontaktformular** des Abgeordneten; zusätzlich „Text kopieren". Wo eine E-Mail-Adresse
   vorliegt (spätere Empfängertypen), wird ein `mailto:`-Link angeboten.
+- Das Kontaktformular auf bundestag.de lässt sich **nicht** per URL vorbelegen (getestet) und
+  ist wegen Cross-Origin/CSRF von der App aus nicht befüllbar. Beim Klick auf
+  „Kontaktformular öffnen" wird deshalb der Brieftext automatisch in die Zwischenablage
+  kopiert. Zusätzlich zeigt die App die Formularfelder (Betreff, Nachricht, Absenderdaten)
+  vorausgefüllt an – jedes Feld mit eigenem Kopier-Button.
 
 ## Datenpipeline (kritischer Teil)
 

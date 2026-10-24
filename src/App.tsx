@@ -14,6 +14,7 @@ import {
   hasSenderData,
   isSenderComplete,
   loadSender,
+  prefilledSender,
   saveSender,
 } from './lib/storage';
 import { renderTemplate } from './lib/template';
@@ -33,7 +34,10 @@ function getActiveViewFromHash(): ActiveView {
 export default function App() {
   const campaigns = useMemo(() => loadCampaigns(), []);
   const [selectedCampaignId, setSelectedCampaignId] = useState(campaigns[0]?.id ?? '');
-  const [sender, setSender] = useState<Sender>(() => loadSender() ?? emptySender);
+  const [sender, setSender] = useState<Sender>(() => {
+    const stored = loadSender();
+    return stored && hasSenderData(stored) ? stored : prefilledSender;
+  });
   const [plz, setPlz] = useState('');
   const [recipients, setRecipients] = useState<MdB[]>([]);
   const [selectedMdB, setSelectedMdB] = useState<MdB | null>(null);
@@ -211,6 +215,7 @@ export default function App() {
             <LetterPreview
               subject={campaign?.title ?? ''}
               body={letterBody}
+              sender={sender}
               recipientEmail={selectedMdB.email}
               contactFormUrl={selectedMdB.contactFormUrl}
               homepage={selectedMdB.homepage}

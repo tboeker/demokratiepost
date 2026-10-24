@@ -158,6 +158,30 @@ body {
   font-size: 0.9rem;
 }
 
+.link-button {
+  color: var(--accent);
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link-button:hover {
+  color: var(--accent-dark);
+}
+
+.hint kbd {
+  border: 1px solid var(--border);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0 0.25rem;
+  background: #f6f7f9;
+  font-family: inherit;
+  font-size: 0.85em;
+}
+
 .error {
   color: #b42318;
   font-size: 0.9rem;
@@ -247,6 +271,58 @@ body {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 1rem;
   line-height: 1.6;
+}
+
+.copy-form {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.copy-form h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.copy-fields {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+.copy-field-label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.copy-field-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.copy-field-value {
+  flex: 1;
+  min-width: 0;
+}
+
+.copy-field-textarea {
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.copy-field-button {
+  flex: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .copy-field-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
 
 .storage-list {
