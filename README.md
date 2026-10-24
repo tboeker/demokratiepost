@@ -14,7 +14,7 @@ Gutachter Kail veröffentlicht auf YouTube Videos zu Stromnetzen und erneuerbare
 Zu seinen Videos stellt er **Musterschreiben** bereit, mit denen Bürgerinnen und Bürger sich
 bei politischen Akteuren Gehör verschaffen sollen.
 
-Zum Beispiel: <https://www.youtube.com/post/UgkxTjjsGzwaoI8yyszmxAbxtlIDJ3pFjAwl>
+Zum Beispiel: <https://www.youtube.com/post/UgkxudKjnqoKblaqiziqhYnBrJeksirqE-OH>
 
 Das Problem dabei: Diese Schreiben sind **Rohvorlagen**. Vor dem Versand muss man selbst …
 
