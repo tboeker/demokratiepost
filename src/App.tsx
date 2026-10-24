@@ -209,7 +209,7 @@ export default function App() {
         </section>
 
         {template && selectedMdB && (
-          <section className="card">
+          <section className="card letter-card">
             <h2>4. Briefvorschau</h2>
             {!isSenderComplete(sender) && (
               <p className="hint">

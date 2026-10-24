@@ -454,22 +454,39 @@ body {
 
 /* Beim Drucken nur den Brief ausgeben. */
 @media print {
-  body * {
-    visibility: hidden;
+  body {
+    background: #fff;
   }
 
-  #letter,
-  #letter * {
-    visibility: visible;
+  /* Alles außer der Briefkarte ausblenden – nicht nur unsichtbar schalten,
+     sonst bleiben leere Seiten durch den ausgeblendeten Seiteninhalt übrig. */
+  .header,
+  .footer,
+  .main > .card:not(.letter-card) {
+    display: none;
   }
 
-  #letter {
-    position: absolute;
-    inset: 0 auto auto 0;
-    width: 100%;
+  .page {
+    max-width: none;
     margin: 0;
     padding: 0;
+  }
+
+  .letter-card {
     border: 0;
-    border-radius: 0;
+    padding: 0;
+  }
+
+  .letter-card > h2,
+  .letter-actions,
+  .letter-preview-header,
+  .letter-card .hint,
+  .copy-form {
+    display: none;
+  }
+
+  .letter {
+    border: 0;
+    padding: 0;
   }
 }
