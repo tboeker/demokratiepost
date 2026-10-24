@@ -1,7 +1,7 @@
 import type { Sender } from '../types';
 
 // Versionierter Schlüssel: erlaubt später saubere Migrationen bei Schemaänderungen.
-export const SENDER_STORAGE_KEY = 'meine-beschwerde.sender.v1';
+export const SENDER_STORAGE_KEY = 'demokratiepost.sender.v1';
 
 export const emptySender: Sender = {
   name: '',

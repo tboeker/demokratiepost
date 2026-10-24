@@ -84,7 +84,7 @@ npm run preview # Build lokal testen
 
 Die Seite wird über GitHub Actions automatisch nach GitHub Pages deployt
 (`.github/workflows/deploy.yml`). Wichtig: In `vite.config.ts` muss `base` dem
-Repo-Namen entsprechen (`/meine-beschwerde/`).
+Repo-Namen entsprechen (`/demokratiepost/`).
 
 ### Dev-Container (VS Code)
 

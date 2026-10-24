@@ -10,7 +10,7 @@ bereit zum Drucken oder Versenden.
 
 - 100 % clientseitig, **kein Backend, kein Tracking**.
 - Stack: Vite + React + TypeScript.
-- Hosting: GitHub Pages (`base: '/meine-beschwerde/'`).
+- Hosting: GitHub Pages (`base: '/demokratiepost/'`).
 - Der vollständige Plan steht in [`PLAN.md`](./PLAN.md) – **das ist die Quelle der Wahrheit**
   für Architektur, Datenquellen und Meilensteine.
 
@@ -55,7 +55,7 @@ src/types.ts               MdB, Wahlkreis, Campaign, Sender
 - **Sprache: Deutsch** – UI-Texte, Kommentare, Doku und Commit-Messages.
 - Keine externen Netzwerkzugriffe zur Laufzeit außer dem Laden der eigenen Daten aus
   `public/data/` (URLs über `import.meta.env.BASE_URL` bauen, wegen GitHub-Pages-Basispfad).
-- Absenderdaten nur lokal im Browser: `localStorage`-Key `meine-beschwerde.sender.v1`
+- Absenderdaten nur lokal im Browser: `localStorage`-Key `demokratiepost.sender.v1`
   (versioniert, siehe `src/lib/storage.ts`).
 - Template-Platzhalter in Punktnotation: `{{ absender.name }}`, `{{ empfaenger.wahlkreis }}`.
 - Änderungen am Verhalten an `PLAN.md` spiegeln, wenn sie Architektur/Meilensteine betreffen.

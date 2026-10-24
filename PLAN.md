@@ -101,7 +101,7 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 
 **Speicherung**
 
-- Key: `meine-beschwerde.sender.v1` (versioniert, damit spätere Schemaänderungen sauber
+- Key: `demokratiepost.sender.v1` (versioniert, damit spätere Schemaänderungen sauber
   migrierbar sind)
 - Format: JSON
 - Laden beim Start, Speichern bei Eingabe/Submit; Schaltflächen „Speichern" und „Löschen"
@@ -116,7 +116,7 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 ## Geplante Repo-Struktur
 
 ```
-meine-beschwerde/
+demokratiepost/
 ├── .github/workflows/deploy.yml      # Build + Deploy nach GitHub Pages
 ├── campaigns/                        # Content (versioniert, von Hand pflegbar)
 │   └── stromnetz-2026/
@@ -133,13 +133,13 @@ meine-beschwerde/
 │   ├── components/  (PlzInput, SenderForm, RecipientList, LetterPreview)
 │   ├── lib/         (campaigns, template, storage, lookup, export)
 │   └── types.ts
-├── vite.config.ts                    # base: '/meine-beschwerde/'
+├── vite.config.ts                    # base: '/demokratiepost/'
 └── README.md
 ```
 
 ## GitHub-Pages-Besonderheiten
 
-- `vite.config.ts` braucht `base: '/meine-beschwerde/'` (Repo-Pfad), sonst laden
+- `vite.config.ts` braucht `base: '/demokratiepost/'` (Repo-Pfad), sonst laden
   Assets/Daten nicht.
 - Daten- und Asset-URLs relativ über `import.meta.env.BASE_URL` bauen.
 - Deploy: GitHub Actions (Build → `actions/upload-pages-artifact` → `actions/deploy-pages`).
@@ -163,7 +163,7 @@ M1–M3 sind der Proof-of-Value. Erst danach lohnt sich die Datenbreite.
 
 - **Kampagnen-Autor**: Wer schreibt die Templates — Nutzer oder strukturiert von Kail?
 - **Bündel-Download**: Ein Brief pro MdB (Standard) oder „an alle im Wahlkreis" als Sammel-PDF?
-- **Domain**: `*.github.io/meine-beschwerde` oder später eigene Domain?
+- **Domain**: `*.github.io/demokratiepost` oder später eigene Domain?
 - **PLZ→Wahlkreis-Quelle**: noch umzusetzen (OSM/Destatis + Bundeswahlleiterin) —
   aktuell Demo-Daten, einziges echtes Datenrisiko.
 

@@ -27,7 +27,7 @@ Wir selbst betreiben keinen eigenen Server und erhalten keine Zugriffsprotokolle
 ## Lokale Speicherung (localStorage)
 
 Damit du deine Absenderdaten beim nächsten Besuch nicht erneut eingeben musst, speichert die
-Seite sie lokal in deinem Browser unter dem Schlüssel `meine-beschwerde.sender.v1`.
+Seite sie lokal in deinem Browser unter dem Schlüssel `demokratiepost.sender.v1`.
 
 - Gespeichert werden: Name, Anschrift sowie optional E-Mail-Adresse und Telefonnummer.
 - Die Daten verlassen dein Gerät **nicht**.
