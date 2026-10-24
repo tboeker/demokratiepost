@@ -1,7 +1,13 @@
 #!/bin/sh
 # Wird im Dev-Container bei jedem `git push` ausgeführt (core.hooksPath).
-# Push ist im Container gesperrt – bewusst auch für den Agenten. Auf dem Host
-# (ohne Container) funktioniert `git push` normal.
+# Push ist im Container standardmäßig gesperrt. Mit dem Flag
+# DEVCONTAINER_ALLOW_PUSH=1 (devcontainer.json, danach Container neu erstellen)
+# ist Push erlaubt – dann bricht dieser Hook nicht ab. Auf dem Host (ohne
+# Container) funktioniert `git push` ohnehin normal.
+if [ "${DEVCONTAINER_ALLOW_PUSH:-0}" = "1" ]; then
+  exit 0
+fi
+
 cat >&2 <<'EOF'
 
   ✋ Push ist im Dev-Container gesperrt.
@@ -9,9 +15,12 @@ cat >&2 <<'EOF'
   Committen ist erlaubt, Publish nicht: Der Container bekommt absichtlich keine
   GitHub-Zugangsdaten (siehe .devcontainer/README.md → „Push im Container").
 
-  So pushst du trotzdem:
-    - auf dem Host im Repo:      git push
-    - aus dem Container heraus:  git -C /pfad/auf/host push   (nicht empfohlen)
+  Push im Container freischalten:
+    - Host-Variable DEVCONTAINER_ALLOW_PUSH=1 setzen (oder den Standardwert in
+      .devcontainer/devcontainer.json auf "1" ändern) und den Container neu
+      erstellen.
+
+  Oder auf dem Host im Repo: git push
 
 EOF
 exit 1

@@ -29,9 +29,16 @@
   "containerEnv": {
     "CHROME_PATH": "/usr/bin/chromium",
     "PUPPETEER_SKIP_DOWNLOAD": "1",
-    // Push-Schutz: eigene Git-Konfiguration ohne Credential-Helper (siehe
-    // gitconfig-sandbox). Verhindert, dass VS Code die Host-Anmeldung durchreicht.
-    "GIT_CONFIG_GLOBAL": "/home/node/.config/git/sandbox.gitconfig",
+    // Push-Schutz als Flag: "0" (Standard) sperrt `git push` im Container,
+    // "1" erlaubt ihn mit den vom Host durchgereichten Zugangsdaten.
+    // Umschalten: Host-Variable DEVCONTAINER_ALLOW_PUSH=1 setzen und den
+    // Container neu erstellen (alternativ den Standardwert hier ändern).
+    // Details: README.md → „Push im Container".
+    "DEVCONTAINER_ALLOW_PUSH": "${localEnv:DEVCONTAINER_ALLOW_PUSH:0}",
+    // Git-Konfiguration: setup.sh verlinkt diese Datei je nach Flag entweder auf
+    // die Sandbox-Konfiguration (ohne Credential-Helper, siehe gitconfig-sandbox)
+    // oder auf die normale ~/.gitconfig des Containers.
+    "GIT_CONFIG_GLOBAL": "/home/node/.config/git/gitconfig",
     "GIT_TERMINAL_PROMPT": "0"
   },
 

@@ -12,12 +12,23 @@ fi
 echo "==> Projekt-Abhängigkeiten installieren"
 npm ci
 
-echo "==> Push-Schutz einrichten (Git-Config + pre-push-Hook)"
+echo "==> Git-Konfiguration einrichten"
+ALLOW_PUSH="${DEVCONTAINER_ALLOW_PUSH:-0}"
 mkdir -p "$HOME/.config/git"
 # Symlinks statt Kopien: Änderungen im Repo gelten sofort im Container.
 ln -sfn "$PWD/.devcontainer/gitconfig-sandbox" "$HOME/.config/git/sandbox.gitconfig"
-ln -sfn "$PWD/.devcontainer/git-hooks" "$HOME/.config/git/hooks"
 chmod +x "$PWD/.devcontainer/git-hooks/"* 2>/dev/null || true
+
+if [ "$ALLOW_PUSH" = "1" ]; then
+  # Push erlaubt: normale Git-Konfiguration (~/.gitconfig) nutzen. Dort trägt
+  # VS Code beim Start den Credential-Helper ein, der die Host-Anmeldung nutzt.
+  touch "$HOME/.gitconfig"
+  ln -sfn "$HOME/.gitconfig" "$HOME/.config/git/gitconfig"
+else
+  # Push gesperrt: Sandbox-Konfiguration ohne Credential-Helper plus pre-push-Hook.
+  ln -sfn "$HOME/.config/git/sandbox.gitconfig" "$HOME/.config/git/gitconfig"
+  ln -sfn "$PWD/.devcontainer/git-hooks" "$HOME/.config/git/hooks"
+fi
 
 echo
 echo "==> Fertig."
@@ -25,4 +36,8 @@ echo "    OpenCode starten:   opencode"
 echo "    Dev-Server starten: npm run dev   (Port 5173)"
 echo "    Datenschutz-Hinweis: Der Workspace ist ins Host-System gemountet –"
 echo "    OpenCode kann ihn (und nur ihn) verändern."
-echo "    Push-Hinweis: git push ist im Container gesperrt – bitte auf dem Host pushen."
+if [ "$ALLOW_PUSH" = "1" ]; then
+  echo "    Push-Hinweis: git push ist im Container ERLAUBT (Flag DEVCONTAINER_ALLOW_PUSH=1)."
+else
+  echo "    Push-Hinweis: git push ist im Container gesperrt – bitte auf dem Host pushen."
+fi
