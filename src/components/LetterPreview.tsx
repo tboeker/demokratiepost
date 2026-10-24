@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { buildMailto, copyToClipboard, copyToClipboardSync, printLetter } from '../lib/export';
+import { recipientTypeLabel } from '../lib/recipients';
 import type { Sender } from '../types';
 import { ContactFormFields } from './ContactFormFields';
 
 interface LetterPreviewProps {
   subject: string;
+  /** Empfängertyp aus der Kampagne, z. B. "mdb". */
+  recipientType?: string;
   /** Vollständiger Brief für Vorschau und Druck. */
   body: string;
   /** Nur Text und Abschlussformel für Kontaktformular/E-Mail. */
@@ -19,6 +22,7 @@ type ContactStatus = 'idle' | 'copied' | 'failed';
 
 export function LetterPreview({
   subject,
+  recipientType,
   body,
   contactBody,
   sender,
@@ -111,8 +115,16 @@ export function LetterPreview({
         </p>
       )}
 
-      <div className="letter" id="letter">
-        <pre className="letter-text">{body}</pre>
+      <div className="letter-preview">
+        <div className="letter-preview-header">
+          <span className="letter-preview-title">Vorschau</span>
+          {recipientType && (
+            <span className="tag">Empfängertyp: {recipientTypeLabel(recipientType)}</span>
+          )}
+        </div>
+        <div className="letter" id="letter">
+          <pre className="letter-text">{body}</pre>
+        </div>
       </div>
 
       {!recipientEmail && contactFormUrl && (

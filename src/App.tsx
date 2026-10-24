@@ -200,6 +200,7 @@ export default function App() {
               </p>
               <RecipientList
                 recipients={recipients}
+                recipientType={recipientType}
                 selectedId={selectedMdB?.id ?? null}
                 onSelect={setSelectedMdB}
               />
@@ -217,6 +218,7 @@ export default function App() {
             )}
             <LetterPreview
               subject={campaign?.title ?? ''}
+              recipientType={recipientType}
               body={letterBody}
               contactBody={contactBody}
               sender={sender}
