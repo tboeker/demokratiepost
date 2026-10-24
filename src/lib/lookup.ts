@@ -1,4 +1,4 @@
-import type { Mandatstraeger, PlzIndex } from '../types';
+import type { Kommune, Mandatstraeger, PlzIndex } from '../types';
 
 /** Prüft, ob eine Eingabe eine gültige fünfstellige PLZ ist. */
 export function isValidPlz(plz: string): boolean {
@@ -103,6 +103,153 @@ export async function findLandtagRecipientsByPlz(plz: string): Promise<Mandatstr
     }
   }
   return result;
+}
+
+/** ARS-Landescode → Dateiname der Laufzeitdaten (`gemeinden-<slug>.json`). */
+const LAND_SLUGS: Record<string, string> = {
+  '01': 'schleswig-holstein',
+  '02': 'hamburg',
+  '03': 'niedersachsen',
+  '04': 'bremen',
+  '05': 'nrw',
+  '06': 'hessen',
+  '07': 'rheinland-pfalz',
+  '08': 'baden-wuerttemberg',
+  '09': 'bayern',
+  '10': 'saarland',
+  '11': 'berlin',
+  '12': 'brandenburg',
+  '13': 'mecklenburg-vorpommern',
+  '14': 'sachsen',
+  '15': 'sachsen-anhalt',
+  '16': 'thueringen',
+};
+
+const kommuneCache = new Map<string, Kommune[]>();
+let kreiseCache: Kommune[] | null = null;
+
+/** Lädt (und cacht) alle kommunalen Einheiten eines Bundeslands. */
+async function loadKommunen(landCode: string): Promise<Kommune[]> {
+  const slug = LAND_SLUGS[landCode];
+  if (!slug) return [];
+  if (!kommuneCache.has(slug)) {
+    const data = await fetchJson<Kommune[]>(`kommunen/gemeinden-${slug}.json`);
+    kommuneCache.set(slug, data ?? []);
+  }
+  return kommuneCache.get(slug)!;
+}
+
+/** Lädt (und cacht) alle Kreisverwaltungen. */
+async function loadKreise(): Promise<Kommune[]> {
+  if (!kreiseCache) {
+    const data = await fetchJson<Kommune[]>('kommunen/kreise.json');
+    kreiseCache = data ?? [];
+  }
+  return kreiseCache;
+}
+
+/** Ein Eintrag im kommunalen PLZ-Shard. */
+interface KommunePlzEntry {
+  ags?: string;
+  kreisArs?: string;
+  verbandArs?: string;
+  overlap?: number;
+}
+
+/** Lädt den PLZ-Shard eines Präfixes. */
+async function loadKommunePlzIndex(
+  plz: string,
+): Promise<Record<string, KommunePlzEntry[]> | null> {
+  return fetchJson<Record<string, KommunePlzEntry[]>>(
+    `kommunen/plz-kommunen/${plz.slice(0, 2)}.json`,
+  );
+}
+
+/**
+ * Ermittelt die zuständige Gemeindeverwaltung (und – falls vorhanden – den
+ * Gemeindeverband) für eine PLZ. Eine PLZ kann mehrere Gemeinden umfassen;
+ * dann werden alle zurückgegeben (Auswahl immer manuell).
+ */
+export async function findBuergermeisterByPlz(plz: string): Promise<Kommune[]> {
+  if (!isValidPlz(plz)) return [];
+  const index = await loadKommunePlzIndex(plz);
+  if (!index) return [];
+  const entries = index[plz] ?? [];
+
+  const byLand = new Map<string, Kommune[]>();
+  for (const entry of entries) {
+    const landCode = (entry.kreisArs ?? entry.ags ?? '').slice(0, 2);
+    if (!landCode || byLand.has(landCode)) continue;
+    byLand.set(landCode, await loadKommunen(landCode));
+  }
+
+  const result: Kommune[] = [];
+  const seen = new Set<string>();
+  const add = (kommune: Kommune | undefined) => {
+    if (!kommune || seen.has(kommune.id)) return;
+    seen.add(kommune.id);
+    result.push(kommune);
+  };
+
+  for (const entry of entries) {
+    const landCode = (entry.kreisArs ?? entry.ags ?? '').slice(0, 2);
+    const kommunen = byLand.get(landCode) ?? [];
+    const gemeinde = entry.ags
+      ? kommunen.find((item) => item.ebene === 'gemeinde' && item.ags === entry.ags)
+      : undefined;
+    const verbandByArs = entry.verbandArs
+      ? kommunen.find((item) => item.ebene === 'verband' && item.ars === entry.verbandArs)
+      : undefined;
+    // Zustell-PLZ-Ergänzungen für Verbände tragen den Verbands-AGS als ags.
+    const verbandByAgs = entry.ags
+      ? kommunen.find((item) => item.ebene === 'verband' && item.ags === entry.ags)
+      : undefined;
+    add(gemeinde);
+    add(verbandByArs ?? verbandByAgs);
+  }
+
+  // Die Shard-Einträge sind nach Flächenüberlappung sortiert. Diese Reihenfolge
+  // bleibt erhalten: Die wahrscheinlichste Gemeinde steht oben, danach folgen
+  // ihr Gemeindeverband und die übrigen (auch Zustell-PLZ-)Treffer.
+  return result;
+}
+
+/**
+ * Ermittelt die zuständige Kreisverwaltung (Landrät:in) für eine PLZ.
+ * Bei kreisfreien Städten kommt die Stadtverwaltung mit Hinweis zurück – dort
+ * gibt es keine Landrätin/keinen Landrat.
+ */
+export async function findLandratByPlz(plz: string): Promise<Kommune[]> {
+  if (!isValidPlz(plz)) return [];
+  const index = await loadKommunePlzIndex(plz);
+  if (!index) return [];
+  const entries = index[plz] ?? [];
+  const kreise = await loadKreise();
+
+  const result: Kommune[] = [];
+  const seen = new Set<string>();
+  for (const entry of entries) {
+    const kreisArs = entry.kreisArs;
+    if (!kreisArs) continue;
+    const kreis = kreise.find((item) => item.ebene === 'kreis' && item.kreisArs === kreisArs);
+    if (kreis && !seen.has(kreis.id)) {
+      seen.add(kreis.id);
+      result.push(kreis);
+    }
+  }
+  return result;
+}
+
+/** Baut eine Anrede für eine kommunale Amtsinhaber:in. */
+export function kommuneSalutation(kommune: Kommune): string {
+  if (kommune.anrede) return kommune.anrede;
+  const name = (kommune.name ?? '').trim();
+  if (!name) return 'Sehr geehrte Damen und Herren';
+  const parts = name.split(/\s+/);
+  const lastName = parts[parts.length - 1] ?? name;
+  if (kommune.sex === 'f') return `Sehr geehrte Frau ${lastName}`;
+  if (kommune.sex === 'm') return `Sehr geehrter Herr ${lastName}`;
+  return 'Sehr geehrte Damen und Herren';
 }
 
 /** Baut eine passende Anrede aus Geschlecht und Namen. */

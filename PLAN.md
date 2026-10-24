@@ -23,7 +23,7 @@ Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, 
 | Versandkanal | PDF-Brief (Druck) **und** Kontaktformular/mailto (E-Mail nur, wo vorhanden) |
 | MVP-Empfänger | Bundestagsabgeordnete |
 | Nächster Empfängertyp | Landtagsabgeordnete (M4, umgesetzt – siehe *M4 im Detail — Landtag*) |
-| Nächster Meilenstein | Gemeinde-Ebene (M5): Bürgermeister:in + Landrät:in |
+| Nächster Meilenstein | Gemeinde-Ebene (M5, umgesetzt): Bürgermeister:in + Landrät:in |
 | Architektur | Statische Seite, 100 % clientseitig, kein Backend/Tracking |
 | Stack | Vite + React + TypeScript |
 | Hosting | GitHub Pages (Deploy via GitHub Actions) |
@@ -89,7 +89,7 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
        `public/data/plz-landtag/…` + Roster `public/data/landtag/<staat>.json`.
        Suche nur für Bundesländer, deren Datenstand zur laufenden Wahlperiode passt
        (Details: Abschnitt *M4 im Detail — Landtag*).
-     - `landrat` / `buergermeister` (M5, geplant): PLZ → Kreis bzw. Gemeinde (und deren
+     - `landrat` / `buergermeister` (M5, umgesetzt): PLZ → Kreis bzw. Gemeinde (und deren
        Gemeindeverband), Shards `public/data/kommunen/plz-kommunen/…` + Regionaleinheiten
        `public/data/kommunen/gemeinden-<land>.json` (Details: Abschnitt
        *M5 im Detail — Gemeinde-Ebene*).
@@ -207,11 +207,12 @@ Die Schritte werden **einzeln und in dieser Reihenfolge** ausgeführt; ein Samme
 existiert bewusst nicht (Laufzeit/Cache/Backoff). Die npm-Aliase `data:lt:plz`,
 `data:lt:aw` und `data:lt:build` stehen für die drei Schritte.
 
-**4. Gemeinde- und Kreisebene (M5, geplant)**
+**4. Gemeinde- und Kreisebene (M5, umgesetzt)**
 - **Wer ist die Verwaltungsspitze**: Es gibt keine amtliche, bundesweit maschinenlesbare Quelle.
-  Basis sind die Amtsinhaber:innen aus den Direktwahlen; fehlende oder veraltete Einträge
-  bleiben beim Behördenbrief ohne Namen (Details und Zahlen: Abschnitt *M5 im Detail —
-  Gemeinde-Ebene*).
+  Basis sind die Amtsinhaber:innen aus den Direktwahlen (GERDA); fehlende oder veraltete
+  Einträge bleiben beim Behördenbrief ohne Namen. AGS-Stände driften zwischen Destatis, VG250
+  und GERDA – der Build gleicht daher zusätzlich über den normalisierten Ortsnamen ab
+  (Details und Zahlen: Abschnitt *M5 im Detail — Gemeinde-Ebene*).
 - **Anschriften und dienstliche E-Mail**: Das Statistikportal veröffentlicht das
   *Anschriftenverzeichnis* „Anschriften der Gemeinde- und Stadtverwaltungen in Deutschland“
   (Excel, jährlich, Stichtag 31.01.) mit Name, ARS, AGS, Zustell-PLZ, Straße/Hausnummer und
@@ -221,7 +222,9 @@ existiert bewusst nicht (Laufzeit/Cache/Backoff). Die npm-Aliase `data:lt:plz`,
   liegt nicht im offenen BKG-Spiegel. Die Zuordnung entsteht daher wie beim Bund über einen
   geometrischen Verschnitt der PLZ-Polygone (`yetzt/postleitzahlen`, ODbL) mit den
   Gemeindegrenzen der VG250 (BKG Open Data), Überlappung ≥ 1 %, alle Treffer (vergleiche
-  Punkt 2). Ergänzt wird sie über die amtliche PLZ der Gemeindeverwaltung.
+  Punkt 2). Ergänzt wird sie über die Zustell-PLZ der Gemeindeverwaltung und eine kleine,
+  geprüfte Liste für PLZ, die in keiner der beiden Quellen vorkommen
+  (`scripts/source/kommunen-plz-ergaenzungen.csv`).
 
 ```bash
 npm run data:kom:verwaltung  # 1. Anschriftenverzeichnis -> scripts/source/gemeinde-verwaltungen.csv
@@ -291,9 +294,9 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 demokratiepost/
 ├── .github/workflows/deploy.yml      # Build + Deploy nach GitHub Pages
 ├── campaigns/                        # Content (versioniert, von Hand pflegbar)
-│   └── stromnetz-2026/
+│   └── redispatch-2026-01/
 │       ├── campaign.yaml
-│       └── templates/mdb.md
+│       └── templates/ (mdb.md, landtag.md, landrat.md, buergermeister.md)
 ├── scripts/                          # Datenpipeline (Build-Zeit, nicht im Client)
 │   ├── fetch-bundestag.mjs           # bundestag.de-Profile → data/mdb.json
 │   ├── build-plz-index.ts            # PLZ→Wahlkreis → data/plz/<prefix>.json
@@ -301,9 +304,11 @@ demokratiepost/
 │   ├── fetch-plz-landtag.mjs         # PLZ→Landtagswahlkreis → source/plz-landtag/
 │   ├── build-landtag.mjs             # Konsistenzcheck + Shards → data/landtag/ + plz-landtag/
 │   ├── fetch-landtag-nrw.mjs         # NRW-Anreicherung (E-Mail + Wahlkreisbüro)
+│   ├── lib/kommunen.mjs              # gemeinsame M5-Helfer (CSV, Namen, Rollen)
 │   ├── fetch-kommunen-verwaltung.mjs # Anschriftenverzeichnis (Destatis) → source/gemeinde-verwaltungen.csv
 │   ├── fetch-plz-gemeinde.mjs        # PLZ→Gemeinde (VG250 × PLZ-Polygone) → source/plz-gemeinde.csv
 │   ├── fetch-gemeinde-koepfe.mjs     # Amtsinhaber:innen (GERDA) → source/gemeinde-koepfe.csv
+│   ├── source/kommunen-plz-ergaenzungen.csv # manuell geprüfte PLZ-Lücken (7)
 │   └── build-kommunen.mjs            # Join + Validierung → data/kommunen/ (M5)
 ├── public/data/                      # Laufzeit-Daten, lazy geladen
 │   ├── mdb.json
@@ -319,7 +324,8 @@ demokratiepost/
 │   ├── components/  (PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
 │   │                 ManualRecipientForm, LetterPreview)
 │   ├── lib/         (campaigns, template, storage, lookup, recipientTypes, export)
-│   └── types.ts     (ManualRecipient, Mandatstraeger (MdB/Landtag); Recipient-Union)
+│   └── types.ts     (ManualRecipient, Mandatstraeger (MdB/Landtag), Kommune (M5);
+│                     Recipient/RecipientCandidate-Union)
 ├── vite.config.ts                    # base: '/demokratiepost/'
 └── README.md
 ```
@@ -345,11 +351,11 @@ demokratiepost/
    manuelle Erfassung pro Typ) → Vorschau); **Template pro Empfängertyp**;
    Typen-Registry `recipientTypes.ts` – _umgesetzt_; Einzel-Details im Abschnitt *User-Workflow*.
 4. **M4 — Landtag** _(umgesetzt, Details im Abschnitt *M4 im Detail — Landtag*)_.
-5. **M5 — Gemeinde-Ebene**: Bürgermeister:in und Landrät:in _(geplant, Details im Abschnitt
-   *M5 im Detail — Gemeinde-Ebene*)_.
+5. **M5 — Gemeinde-Ebene** _(umgesetzt, Details im Abschnitt *M5 im Detail — Gemeinde-Ebene*)_:
+   Bürgermeister:in und Landrät:in bundesweit, inkl. vorbefülltem Formular.
 6. **M6 — später**: Netzbetreiber/Stadtwerke (Grundversorger via BNetzA).
 
-M1–M3 sind der Proof-of-Value. Erst danach lohnt sich die Datenbreite.
+M1–M5 sind umgesetzt; M6 (Netzbetreiber/Stadtwerke) ist die nächste Ausbaustufe.
 
 ## M4 im Detail — Landtag (umgesetzt)
 
@@ -455,7 +461,7 @@ LT6 NRW-Pilot. Risiken: Rate-Limits beim Vollaufbau (Backoff + Cache), Namensnor
 bei Umlauten/Bindestrichen (`scripts/lib/names.mjs` wiederverwenden), kleine Länder (SL/HB)
 mit wenigen Wahlkreisen (`expected_wk_count`-Sanity).
 
-## M5 im Detail — Gemeinde-Ebene (Bürgermeister:in / Landrät:in)
+## M5 im Detail — Gemeinde-Ebene (Bürgermeister:in / Landrät:in) (umgesetzt)
 
 **Ziel:** Die kommunale Verwaltungsspitze als dritte durchsuchbare Empfängergruppe – PLZ rein,
 zuständige Verwaltung raus, Brief versandfertig. Zwei Typen:
@@ -467,6 +473,32 @@ zuständige Verwaltung raus, Brief versandfertig. Zwei Typen:
 
 `ob` (Oberbürgermeister(in)) bleibt als **Alias** auf `buergermeister` bestehen; die
 Amtsbezeichnung kommt aus den Daten, nicht aus dem Typ.
+
+### Umsetzungsstand (Oktober 2026)
+
+Umgesetzt. Ist-Stand der Daten:
+
+- **Anschriftenverzeichnis:** 401 Kreise, 1.202 Gemeindeverbände, 12.088 Gemeinden;
+  E-Mail in 12.526 von 13.691 Zeilen (~91 %).
+- **PLZ → Gemeinde/Kreis:** 21.219 Zuordnungen für 8.585 PLZ – 14.581 aus dem
+  Geometrie-Verschnitt (davon 4 unter 1 % als bester Treffer), 5.014 Zustell-PLZ,
+  1.193 Verbands-, 401 Kreis- und 23 Sitz-Ergänzungen sowie 7 manuell geprüfte PLZ.
+  Der Bundestags-PLZ-Index (8.218 PLZ) ist vollständig abgedeckt.
+- **GERDA:** 8.462 Bürgermeister:innen- und 255 Landrät:innen-Einträge. 2.606 Einträge
+  bleiben ohne Zuordnung (historische AGS-/Gemeindestände, aufgelöste Verbände); dort
+  bleibt der Name leer, der Behördenbrief ist der Standardfall.
+- **Namen:** nur bei plausibler Amtszeit (Wahl ≤ 9 Jahre zurück) angezeigt; Geschlecht
+  nur bei GERDA-Quelle `raw` (kein `predicted`). Sonderformen: Region Hannover
+  („Regionspräsident:in“), Regionalverband Saarbrücken („Regionalverbandspräsident:in“).
+- **Laufzeitdaten:** 8,8 MB unter `public/data/kommunen/` (größte Land-Datei Bayern
+  ~1,5 MB, 95 PLZ-Shards ~1,9 MB, `kreise.json` 210 KB).
+- **Postfach-PLZ:** 56 PLZ (überwiegend Postfach-PLZ von Kreisverwaltungen) haben nur eine
+  Kreiszuordnung; die Bürgermeister-Suche bietet dort den manuellen Fallback, die
+  Landrat-Suche liefert den Kreis.
+- **Abnahme:** `npm run build` sauber; im Preview geprüft: Köln (OB), Prenzlau
+  (Landgemeinde), Kiel (kreisfrei), Hannover (Region), Saarbrücken (Regionalverband),
+  Hamburg/Bremen (Stadtstaat, manuell), Adenau (Verbandsgemeinde RP), 19053 (MV,
+  Bürgermeister-Suche), Mehrfachtreffer je PLZ.
 
 ### Entscheidungen (fix)
 
@@ -481,7 +513,8 @@ Amtsbezeichnung kommt aus den Daten, nicht aus dem Typ.
 ### Datenlage (Vorprüfung Oktober 2026)
 
 Die Zahlen unten stammen aus einer Vorprüfung der Quellen (Dateien geladen und ausgewertet),
-nicht aus Schätzungen. Sie sind beim Bauen zu bestätigen.
+nicht aus Schätzungen. Sie sind beim Bauen bestätigt; die bereinigten Ist-Zahlen stehen im
+Abschnitt *Umsetzungsstand* (GERDA 8.462/255 nach Entfernen zukünftiger Termine und Dubletten).
 
 **a) Anschriften und E-Mail – amtlich und vollständig**
 
@@ -543,46 +576,63 @@ den Media-Endpunkt, Commit pinnen).
 ### Datenbasis (Build-Zeit)
 
 1. `scripts/fetch-kommunen-verwaltung.mjs`: lädt das Anschriftenverzeichnis (XLSX), normalisiert
-   nach `scripts/source/gemeinde-verwaltungen.csv` (`satzart, ars, ags, name, verwaltungssitz,
-   strasse, plz, ort, email, einwohner`), Stand im Kopfkommentar gepinnt.
-2. `scripts/fetch-plz-gemeinde.mjs`: lädt VG250 (GEM + KRS) und die PLZ-Geometrien, verschneidet
-   sie (devDependencies: Shapefile-/GeoJSON-Parser + `polygon-clipping`; **nichts davon im
-   Client**) und schreibt `scripts/source/plz-gemeinde.csv` (`plz, ags, overlap`), Lücken
-   ergänzt aus den Zustell-PLZ.
-3. `scripts/fetch-gemeinde-koepfe.mjs`: lädt die GERDA-Dateien, filtert `is_winner`, nimmt je AGS
-   die jüngste Wahl und schreibt `scripts/source/gemeinde-koepfe.csv`
-   (`ags, amt, name, partei, geschlecht, geschlecht_quelle, wahljahr, quelle`).
-4. `scripts/build-kommunen.mjs`: Join über AGS/ARS und Validierung (Warnungen statt Abbruch):
-   jede Gemeinde hat eine Verwaltung, jede PLZ ≥ 1 Gemeinde, Kreis-/kreisfrei-Plausibilität
-   (294 Landkreise + kreisfreie Städte + Sonderformen ≈ 401), Zustell-PLZ ⊆ Geometrie-PLZ,
-   Stichproben (Kiel → Oberbürgermeister, Flensburg kreisfrei, Verbandsgemeinde in RP),
-   Abdeckungsreport Namen je Land. Ausgabe:
-   - `public/data/kommunen/plz-kommunen/<prefix>.json` → `{ "<plz>": [{ ags, kreisAgs, overlap }] }`
+   nach `scripts/source/gemeinde-verwaltungen.csv` (`satzart, art, ars, ags, name,
+   verwaltungssitz, strasse, plz, ort, email, flaeche, einwohner`). `art` ist die lesbare
+   Bezeichnung („Kreisfreie Stadt“, „Verbandsgemeinde“ …); AGS werden bei Kreisen aus dem
+   5-stelligen ARS und bei Verbänden aus den ersten 8 ARS-Stellen abgeleitet. Stand im
+   Kopfkommentar gepinnt.
+2. `scripts/fetch-plz-gemeinde.mjs`: lädt VG250 (GEM + KRS, UTM32-Shapefile) und die
+   PLZ-Topologie (yetzt/postleitzahlen 2026.02), verschneidet sie (devDependencies:
+   `shapefile`, `proj4`, `polygon-clipping`, `topojson-client`, `fflate`; **nichts davon im
+   Client**) und schreibt `scripts/source/plz-gemeinde.csv` (`plz, ags, kreis_ars,
+   verband_ars, overlap, quelle`). Überlappung ≥ 1 %, 10-km-Raster als räumlicher Index;
+   Lücken aus den Zustell-PLZ und der geprüften Liste `kommunen-plz-ergaenzungen.csv`.
+3. `scripts/fetch-gemeinde-koepfe.mjs`: lädt die GERDA-Dateien (gepinnter Commit, LFS),
+   filtert `is_winner`, entfernt zukünftige Termine und Dubletten, nimmt je AGS die jüngste
+   Wahl und schreibt `scripts/source/gemeinde-koepfe.csv` (`typ, ebene, ags, ags_name,
+   state_name, amt, name, partei, geschlecht, geschlecht_quelle, wahljahr, verifiziert,
+   quelle, hinweis`). Geschlecht nur bei `raw`; Veraltet-Regel ≤ 9 Jahre.
+4. `scripts/build-kommunen.mjs`: Join über AGS und – bei AGS-Drift – über den normalisierten
+   `ags_name` (SN, ST, RP, NI u. a.), Validierung (Warnungen statt Abbruch):
+   Satzart-Zahlen (401 / 1.202 / 12.088), jede PLZ aus `public/data/plz/` ≥ 1 Gemeinde,
+   Zustell-PLZ ⊆ Geometrie-PLZ, Stichproben (Kiel, Flensburg kreisfrei, Adenau RP),
+   Abdeckungsreport Namen je Land und Liste nicht zugeordneter GERDA-Köpfe. Ausgabe:
+   - `public/data/kommunen/plz-kommunen/<prefix>.json` → `{ "<plz>": [{ ags, kreisArs,
+     verbandArs, overlap }] }`
    - `public/data/kommunen/gemeinden-<land>.json` → alle Regionaleinheiten des Landes
-     (Kreis, Gemeindeverband, Gemeinde) mit Name, ARS, AGS, Anschrift, E-Mail, Einwohner und
-     Amtsinhaber:in (`amt`, `name`, `partei`, `wahljahr`)
+     (Kreis, Gemeindeverband, Gemeinde) mit Behördenzeile, ARS/AGS, Anschrift, E-Mail,
+     Einwohner und Amtsinhaber:in (`amt`, `name`, `partei`, `wahljahr`, `hinweis`,
+     `landratCapable`)
    - `public/data/kommunen/kreise.json` → Kreisverwaltungen + Landrät:in
 5. npm-Aliase: `data:kom:verwaltung`, `data:kom:plz`, `data:kom:koepfe`, `data:kom:build` –
-   einzeln ausgeführt, kein Sammelbefehl.
+   einzeln ausgeführt, kein Sammelbefehl. Nach `data:kom:plz`/`data:kom:build` Dev-Server
+   neu starten.
 
 ### Client
 
 - `src/types.ts`: neue Art `Kommune` in der `Recipient`-Union – `behoerde` („Stadt Köln“,
-  „Landratsamt Musterkreis“, „Verbandsgemeinde X“), `amt` („Bürgermeisterin“, „Landrat“),
-  `name?`, `partei?`, `address`, `email`, `ebene` (`gemeinde`/`verband`/`kreis`), `wahljahr?`,
-  `quelle?`, `hinweis?`. Gemeinsamer Suchtyp `RecipientCandidate = Mandatstraeger | Kommune`,
-  Guard `isKommune` analog `isMandat`.
-- `src/lib/lookup.ts`: `findBuergermeisterByPlz(plz)` (PLZ-Shard → Gemeinden und deren
-  Gemeindeverband → Regionaleinheiten des Landes) und `findLandratByPlz(plz)` (PLZ-Shard →
-  Kreis-AGS → Kreis + Landrät:in). Beide cachen je Land wie `loadLandtagRoster`.
+  „Landratsamt Musterkreis“, „Verbandsgemeinde X“), `amt` („Bürgermeisterin“, „Landrät:in“),
+  `name?`, `partei?`, `sex?`, `anrede?`, `address`, `email`, `ebene`
+  (`gemeinde`/`verband`/`kreis`), `wahljahr?`, `quelle?`, `hinweis?`, `einwohner?`,
+  `ars`, `ags?`, `kreisArs?`, `verbandArs?`, `land?`, `landratCapable?`. Gemeinsamer Suchtyp
+  `RecipientCandidate = Mandatstraeger | Kommune`, Guards `isKommune`/`isMandat`.
+- `ManualRecipient` erhält ein optionales `amt` (Amtsbezeichnung), damit die vorbefüllte
+  Empfängerzeile auch nach dem Bearbeiten vollständig bleibt. `isRecipientComplete` akzeptiert
+  einen Behördenbrief ohne Namen, wenn `organisation` gesetzt ist.
+- `src/lib/lookup.ts`: `findBuergermeisterByPlz(plz)` (PLZ-Shard → Gemeinde + Gemeindeverband
+  → Land-Datei) und `findLandratByPlz(plz)` (PLZ-Shard → Kreis-ARS → `kreise.json`). Beide
+  cachen je Land bzw. global; `kommuneSalutation()` bildet die Anrede.
 - `src/lib/recipientTypes.ts`: `buergermeister` und `landrat` mit Lookup; neues Feld
   `prefillForm: true` – das manuelle Formular bleibt **immer** sichtbar und wird beim Auswählen
-  eines Treffers vorbefüllt (Behörde, Anschrift, E-Mail, Name soweit vorhanden). Speicherung
+  eines Treffers vorbefüllt (Behörde, Anschrift, E-Mail, Name/Amt soweit vorhanden). Speicherung
   wie gehabt `demokratiepost.empfaenger.<typ>.v1`. `ob` → Alias auf `buergermeister`.
 - `src/App.tsx` Schritt 4: Trefferliste wie bei mdb/landtag, zusätzlich das vorbefüllte
-  Formular. Hinweise: „Amtsträger: Stand <Wahljahr> – bitte prüfen“, „Name nicht verifiziert“.
-- Sonderfälle: kreisfreie Stadt + Typ `landrat` → Hinweis und Stadtverwaltung/OB als Alternative;
-  Stadtstaaten (BE/HH/HB) → Hinweis und manuelles Formular; mehrere Gemeinden je PLZ → Auswahl.
+  Formular (auch bei Treffern). Hinweise: „Amtsträger: Stand <Wahljahr> – bitte prüfen“,
+  „nicht verifiziert“, „Geschlecht nur geschätzt“; bei leerer Suche bleibt das Formular
+  sichtbar. `landtag` nutzt weiterhin `emptyFallback`, aber mit eigenem Fallback-Hinweis.
+- Sonderfälle: kreisfreie Stadt + Typ `landrat` → Stadtverwaltung mit Hinweis (keine
+  Landrätin/kein Landrat; ggf. Typ wechseln); Stadtstaaten (BE/HH/HB) → Stadtverwaltung ohne
+  Namen/Amtsbezeichnung mit Hinweis; mehrere Gemeinden je PLZ → alle Treffer, Auswahl manuell.
 - Anrede: `Sehr geehrte Damen und Herren` als Standard; rollenbezogen („Sehr geehrte Frau
   Bürgermeisterin …“) nur bei verlässlicher Geschlechtsquelle. Empfängerzeile im Brief:
   ```
@@ -591,43 +641,48 @@ den Media-Endpunkt, Commit pinnen).
   {{ empfaenger.strasse }}
   {{ empfaenger.plz }} {{ empfaenger.ort }}
   ```
-- `RecipientList`: Behörde, Anschrift, E-Mail und Stand statt Wahlkreis/Partei.
+- `RecipientList`: Behörde, Ebene, Amtsinhaber:in, Anschrift, E-Mail und Stand statt
+  Wahlkreis/Partei.
 - Keine neuen Laufzeit-Netzwerkzugriffe außerhalb `public/data/`.
 
 ### Kampagne
 
-- `campaigns/redispatch-2026-01/campaign.yaml`: `recipients: [mdb, landtag, landrat, buergermeister]`.
-- Neue Templates `landrat.md` und `buergermeister.md` mit demselben Kern auf kommunaler Ebene
+- `campaigns/redispatch-2026-01/campaign.yaml`: `recipients: [mdb, landtag, landrat, buergermeister]`
+  (umgesetzt).
+- Templates `landrat.md` und `buergermeister.md` mit demselben Kern auf kommunaler Ebene
   (Wärmeplanung, Bauleitplanung, Netzentgelte vor Ort, Konzessions-/Beteiligungsfragen),
   Anrede `{{ empfaenger.anrede }}`, Ortsbezug `{{ absender.ort }}`,
   `<!-- kontaktformular:start/ende -->`-Marker. Betreff bleibt kampagnenweit.
   **Textentwürfe vor Veröffentlichung mit Kail abstimmen.**
 
-### Doku, Lizenz, Abnahme
+### Doku, Lizenz, Abnahme (umgesetzt)
 
-- `scripts/README.md`: neuer Abschnitt „Gemeinde- und Kreisebene“ (Quellen, Geometrie-Join,
+- `scripts/README.md`: Abschnitt „Gemeinde- und Kreisebene (M5)“ (Quellen, Geometrie-Join,
   Datenstände, Befehle, Lizenz).
-- AGENTS.md: Befehle ergänzen; Gotchas (keine amtlichen Namen, `predicted`-Geschlecht,
-  Satzart-Zählung, Geometrie-Tooling nur Build-Zeit, Dev-Server-Neustart).
-- Impressum: **Destatis** (dl-de/by-2-0), „© GeoBasis-DE / BKG“ (VG250; bleibt), yetzt/ODbL
-  (bleibt), **GERDA CC BY 4.0** inkl. Zitationshinweis (Hessen-Wahldaten: Hessami 2018).
+- AGENTS.md: Befehle ergänzt; Gotchas (keine amtlichen Namen, `predicted`-Geschlecht,
+  AGS-Drift/Name-Join, Satzart-Zählung, Geometrie-Tooling nur Build-Zeit, manuelle
+  PLZ-Ergänzungen, Sonderfälle, Dev-Server-Neustart).
+- Impressum: **Destatis**-Anschriftenverzeichnis, „© GeoBasis-DE / BKG“ (VG250; bleibt),
+  yetzt/ODbL (bleibt), **GERDA CC BY 4.0** inkl. Zitationshinweis (Hessen-Wahldaten:
+  Hessami 2018).
 - Nach `data:kom:plz`/`data:kom:build` Dev-Server neu starten.
-- Abnahme im Preview: je eine PLZ pro Fall – Großstadt (z. B. 50667 Köln → OB), Landgemeinde
-  (z. B. 17291 Prenzlau), kreisfreie Stadt + Typ `landrat` (Hinweis), Verbandsgemeinde (RP),
-  Stadtstaat (Hinweis + manuell), PLZ mit mehreren Gemeinden (Auswahl); `npm run build` sauber;
-  Datenmenge/Shard-Größen prüfen.
+- Abnahme im Preview: je eine PLZ pro Fall – Großstadt (50667 Köln → OB), Landgemeinde
+  (17291 Prenzlau), kreisfreie Stadt + Typ `landrat` (Hinweis), Verbandsgemeinde (Adenau, RP),
+  Stadtstaat (Hamburg/Bremen, Hinweis + manuell), PLZ mit mehreren Gemeinden (Auswahl);
+  `npm run build` sauber; Datenmenge/Shard-Größen geprüft (8,8 MB).
 
 ### Reihenfolge und Risiken
 
-G1 Vorprüfung (Satzart-Zählung, GERDA-Abdeckung im Join je Land, Veraltet-Regel, Geometrie-
-Prototyp für ein Land, Lizenztexte) → G2 Pipeline → G3 Client → G4 Templates → G5 Doku/Lizenz →
-G6 Abnahme. Danach optional G7: Ersatzquellen für Stadtstaaten und für die Landrät:innen in
+G1–G6 sind umgesetzt: Vorprüfung → Pipeline → Client → Templates → Doku/Lizenz → Abnahme.
+Offen bleibt **G7**: Ersatzquellen für Stadtstaaten (BE/HH/HB) und für die Landrät:innen in
 BW/SH (Wahl durch den Kreistag).
 
 Risiken: Namen sind nicht amtlich und teils alt (deshalb ist der Behördenbrief ohne Namen ein
 gleichwertiger Standardfall); Geometrie-Join ist neues Build-Tooling (nur devDependencies);
 AGS-Stände driften zwischen Destatis (31.01.2026), VG250 (2026) und GERDA-Wahljahren –
-deshalb Validierung mit Report statt stillem Merge.
+deshalb der Name-Fallback und die Validierung mit Report statt stillem Merge. Die
+Zustell-PLZ-Ergänzung kann Postfach-PLZ auf die zentrale Verwaltung abbilden; das ist
+gewollt, aber im Einzelfall zu prüfen.
 
 ## Offene Punkte (entscheiden beim Bauen, blockieren nicht)
 
@@ -643,26 +698,31 @@ deshalb Validierung mit Report statt stillem Merge.
   reaktivieren, wenn Wahlperiode und Wahlkreiszuschnitt stimmig sind.
 - **Kontaktdaten weiterer Landtage**: NRW ist der Pilot; weitere Länder brauchen je einen
   Scraper für E-Mail/Wahlkreisbüro – sonst bleibt es beim Sitzanschrift-Fallback.
-- **M5 – Namen der Verwaltungsspitzen**: GERDA deckt 13 Länder (Bürgermeister:innen) bzw.
-  11 Länder (Landrät:innen) ab; für Berlin, Hamburg, Bremen sowie die Landrät:innen in BW und
-  SH (Wahl durch den Kreistag) fehlt eine Quelle. Bis dahin: Behördenbrief ohne Namen bzw.
-  manuelle Ergänzung. Ersatzquellen (Landeslisten, Kreistagsbeschlüsse) sind G7.
-- **M5 – Veraltete Wahldaten**: Einzelne GERDA-Einträge reichen bis 1994 zurück (u. a. weil
-  Amtsinhaber:innen im Amt bestätigt wurden). Regel beim Bauen festlegen: Name nur bei
-  plausibler Amtszeit anzeigen, sonst „nicht verifiziert“.
+- **M5 – Namen der Verwaltungsspitzen**: GERDA liefert 8.462 Bürgermeister:innen- und 255
+  Landrät:innen-Einträge; 2.606 Einträge bleiben ohne Zuordnung (historische AGS-/Gemeindestände,
+  aufgelöste Verbände). Für Berlin, Hamburg, Bremen sowie die Landrät:innen in BW und SH (Wahl
+  durch den Kreistag) fehlt eine Quelle. Bis dahin: Behördenbrief ohne Namen bzw. manuelle
+  Ergänzung. Ersatzquellen (Landeslisten, Kreistagsbeschlüsse) sind G7.
+- **M5 – Veraltete Wahldaten**: Die Regel ist umgesetzt: Name nur bei Wahl ≤ 9 Jahre zurück,
+  sonst „nicht verifiziert“ mit Wahljahr. Einzelne Einträge reichen bis 1994 zurück; sie werden
+  nicht als Name angezeigt.
 - **M5 – Geschlecht/Anrede**: `candidate_gender` ist teils vorhergesagt und bei Landrät:innen
-  oft leer → keine automatische geschlechtsspezifische Anrede ohne verlässliche Quelle.
+  oft leer → umgesetzt: Geschlecht nur bei GERDA-Quelle `raw`, sonst neutrale Anrede; das
+  Formular bleibt editierbar.
+- **M5 – AGS-/Datenpflege**: Nach kommunalen Neugliederungen Anschriftenverzeichnis und
+  VG250-Stand aktualisieren, dann `data:kom:*` erneut ausführen. Der Name-Fallback fängt
+  AGS-Drift, aber nicht jede Umbenennung; der Build-Report zeigt nicht zugeordnete Köpfe.
+- **M5 – Postfach-/Zustell-PLZ**: Die Zustell-PLZ-Ergänzung kann eine Postfach-PLZ auf die
+  zentrale Verwaltung abbilden. Im Einzelfall prüfen; die Anschrift im Formular ist editierbar.
 
 ## Nächster Schritt
 
-M1–M4 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB- und Landtagsdaten sind
+M1–M5 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB-, Landtags- und kommunale Daten sind
 vollständig (Bund: 630 Mandate, 299 Wahlkreise; Landtage: 16 Roster, davon 11 durchsuchbar,
-6.027 PLZ in 85 Shards), Client inkl. Manual-Fallback und `templates/landtag.md` in der
-Redispatch-Kampagne.
+6.027 PLZ in 85 Shards; Kommunen: 401 Kreise, 1.202 Verbände, 12.088 Gemeinden, 8.585 PLZ in
+95 Shards). Der Client bietet Suche, Manual-Fallback und das vorbefüllte M5-Formular; die
+Redispatch-Kampagne enthält `mdb.md`, `landtag.md`, `landrat.md` und `buergermeister.md`.
 
-Als Nächstes **M5 — Gemeinde-Ebene** (Bürgermeister:in und Landrät:in, Abschnitt
-*M5 im Detail — Gemeinde-Ebene*): mit **G1** beginnen (Satzart-Zählung des
-Anschriftenverzeichnisses, GERDA-Abdeckung im Join je Land, Veraltet-Regel, Geometrie-Prototyp
-für ein Land), dann G2 Pipeline, G3 Client, G4 Templates, G5 Doku/Lizenz, G6 Abnahme.
-Danach **M6 — Netzbetreiber/Stadtwerke**; daneben weiterhin offen: weitere
+Als Nächstes **M6 — Netzbetreiber/Stadtwerke** (Grundversorger via BNetzA). Daneben offen:
+G7-Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH sowie weitere
 Landtags-Kontakt-Scraper nach dem NRW-Muster (Abschnitt *M4 im Detail — Landtag*).

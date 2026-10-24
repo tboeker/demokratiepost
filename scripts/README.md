@@ -206,3 +206,157 @@ E-Mail und Wahlkreisbüro ins NRW-Roster (sonst Sitzanschrift). Ist-Stand: 195 E
 - **PLZ-Polygone** – [yetzt/postleitzahlen](https://github.com/yetzt/postleitzahlen) (ODbL);
   Aufbereitung [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT).
 - **Kontakte NRW** – landtag.nrw.de.
+
+## 4. Gemeinde- und Kreisebene (M5)
+
+Die kommunale Verwaltungsspitze besteht aus zwei durchsuchbaren Empfängertypen:
+
+| Typ | Suche | Empfänger |
+|---|---|---|
+| `buergermeister` | PLZ → Gemeinde (und deren Gemeindeverband) | Leitung der Gemeinde-/Stadtverwaltung |
+| `landrat` | PLZ → Kreis | Leitung der Kreisverwaltung |
+
+Die Daten entstehen in vier Schritten. Sie laufen **einzeln und in dieser Reihenfolge**
+(großer Download, Geometrie-Laufzeit, Datenstände):
+
+```bash
+npm run data:kom:verwaltung   # 1. Anschriftenverzeichnis -> source/gemeinde-verwaltungen.csv
+npm run data:kom:plz          # 2. Geometrie-Join        -> source/plz-gemeinde.csv
+npm run data:kom:koepfe       # 3. GERDA-Amtsträger:innen -> source/gemeinde-koepfe.csv
+npm run data:kom:build        # 4. Join + Validierung    -> public/data/kommunen/
+```
+
+Nach `data:kom:plz`/`data:kom:build` den **Dev-Server neu starten** (Vite-Cache).
+
+### Schritt 1: `fetch-kommunen-verwaltung.mjs`
+
+Lädt das amtliche *Anschriftenverzeichnis „Anschriften der Gemeinde- und Stadtverwaltungen
+in Deutschland“* (Statistisches Bundesamt / Statistikportal, Stand 31.01.2026, XLSX) und
+normalisiert es nach `scripts/source/gemeinde-verwaltungen.csv`:
+
+```csv
+satzart,art,ars,ags,name,verwaltungssitz,strasse,plz,ort,email,flaeche,einwohner
+```
+
+- `satzart` 40 = Kreis, 50 = Gemeindeverband, 60 = Gemeinde; `art` ist die lesbare
+  Bezeichnung (z. B. „Kreisfreie Stadt“, „Verbandsgemeinde“).
+- `ags` wird bei Kreisen aus dem 5-stelligen ARS abgeleitet (→ 8 Stellen), bei
+  Gemeindeverbänden aus den ersten 8 ARS-Stellen; bei Gemeinden steht der amtliche AGS.
+- Das Verzeichnis enthält **keine Namen** der Bürgermeister:innen/Landrät:innen – nur
+  Anschrift und E-Mail. Ist-Stand: 401 Kreise, 1.202 Gemeindeverbände, 12.088 Gemeinden;
+  E-Mail in 12.526 von 13.691 Zeilen (~91 %).
+
+### Schritt 2: `fetch-plz-gemeinde.mjs`
+
+Erzeugt die Zuordnung PLZ → Gemeinde/Kreis durch einen geometrischen Verschnitt:
+
+- **PLZ-Polygone:** [yetzt/postleitzahlen](https://github.com/yetzt/postleitzahlen),
+  Release 2026.02 (ODbL), TopoJSON.
+- **Gemeindegrenzen:** BKG **VG250**, Ebenen 01.01.2026, UTM32-Shapefile
+  (© GeoBasis-DE / BKG, dl-de/by-2-0).
+- Beide Quellen werden im Cache `scripts/source/cache/kommunen/` gehalten
+  (`--force` lädt neu). Der Verschnitt läuft in ETRS89/UTM32; ein 10-km-Raster
+  reduziert die Kandidatenpaare. Übernommen werden alle Gemeinden mit
+  **Überlappung ≥ 1 %** der PLZ-Fläche (Methodik wie OpenWahlkreisMap, MIT).
+- Lücken werden aus den **Zustell-PLZ** des Anschriftenverzeichnisses ergänzt
+  (`quelle = zustell-plz`, `zustell-plz-verband`, `zustell-plz-kreis`,
+  `zustell-plz-kreis-sitz`). Das fängt Postfach-PLZ und nicht im Polygon enthaltene
+  Verwaltungssitze ab; bei Kreis-Postfach-PLZ wird zusätzlich die Gemeinde am
+  Verwaltungssitz zugeordnet.
+- Für PLZ, die in keiner der beiden Quellen vorkommen, gibt es die kleine,
+  geprüfte Liste `scripts/source/kommunen-plz-ergaenzungen.csv`
+  (`quelle = manuell`, `overlap = 0`). Ist-Stand: 7 PLZ (u. a. 91051 Erlangen,
+  94158 Philippsreut).
+
+Ausgabe `scripts/source/plz-gemeinde.csv`:
+
+```csv
+plz,ags,kreis_ars,verband_ars,overlap,quelle
+```
+
+Ist-Stand: 21.219 Zuordnungen für 8.585 PLZ, davon 14.581 aus der Geometrie
+(4 davon unter 1 % als bester Treffer), 5.014 Zustell-PLZ, 1.193 Verbands-,
+401 Kreis- und 23 Sitz-Ergänzungen sowie 7 manuelle.
+Die kommunalen Shards enthalten damit auch Postfach-PLZ; der Bundestags-PLZ-Index
+(8.218 PLZ) ist vollständig abgedeckt. 56 PLZ (überwiegend Postfach-PLZ von
+Kreisverwaltungen) haben nur eine Kreiszuordnung – dort bietet die Bürgermeister-Suche
+den manuellen Fallback, die Landrat-Suche liefert den Kreis.
+
+### Schritt 3: `fetch-gemeinde-koepfe.mjs`
+
+Lädt die GERDA-Dateien `mayoral_candidates.csv` und `landrat_candidates.csv`
+(Commit gepinnt, Git LFS über den Media-Endpunkt) und wählt je AGS die **jüngste
+Wahl mit `is_winner = TRUE`**. Doppelte Zeilen derselben Wahl werden über den
+Namen entdoppelt; zukünftige Wahltermine werden ignoriert.
+
+- `amt` wird aus dem Wahltyp abgeleitet (Oberbürgermeister-, Bürgermeister-,
+  Samt-/Verbandsgemeindewahl bzw. Landratswahl); Sonderformen Region Hannover
+  und Regionalverband Saarbrücken erhalten „Regionspräsident:in“ bzw.
+  „Regionalverbandspräsident:in“.
+- **Geschlecht** wird nur bei GERDA-Quelle `raw` übernommen. `predicted` ist zu
+  unsicher für eine geschlechtsspezifische Anrede; dann bleibt die Anrede neutral.
+- **Veraltet-Regel:** Ein Name wird nur angezeigt, wenn die Wahl nicht länger als
+  9 Jahre zurückliegt (reguläre Amtszeit + Puffer). Ältere Einträge bleiben als
+  „nicht verifiziert“ mit Wahljahr erhalten; der Name wird weggelassen.
+- **AGS-Drift:** GERDA führt teils andere AGS-Stände als das Anschriftenverzeichnis
+  (u. a. Sachsen, Sachsen-Anhalt, Rheinland-Pfalz, Niedersachsen). Deshalb enthält
+  die CSV zusätzlich `ags_name` und `state_name`; `build-kommunen.mjs` gleicht
+  zuerst über den AGS und dann über den normalisierten Namen ab.
+
+Ausgabe `scripts/source/gemeinde-koepfe.csv`:
+
+```csv
+typ,ebene,ags,ags_name,state_name,amt,name,partei,geschlecht,geschlecht_quelle,wahljahr,verifiziert,quelle,hinweis
+```
+
+Ist-Stand: 8.462 Bürgermeister:innen-Einträge und 255 Landrät:innen-Einträge.
+Nicht zugeordnet bleiben 2.606 Einträge – überwiegend historische AGS-/Gemeindestände
+und aufgelöste Verbände (z. B. alte Verbandsgemeinden in Rheinland-Pfalz).
+
+### Schritt 4: `build-kommunen.mjs`
+
+Führt Anschriften, PLZ-Zuordnung und GERDA-Köpfe zusammen:
+
+- `public/data/kommunen/gemeinden-<land>.json` – alle Kreis-, Verbands- und
+  Gemeindeverwaltungen eines Landes mit Behördenzeile, Anschrift, E-Mail,
+  Einwohnerzahl und Amtsinhaber:in (Name, Partei, Amtsbezeichnung, Wahljahr,
+  Hinweis). Ist-Stand: 8,8 MB gesamt, größte Datei Bayern ~1,5 MB.
+- `public/data/kommunen/kreise.json` – alle 401 Kreisverwaltungen (für `landrat`),
+  inkl. `landratCapable` (bei kreisfreien Städten `false`).
+- `public/data/kommunen/plz-kommunen/<prefix>.json` – `{ "<plz>": [{ ags,
+  kreisArs, verbandArs, overlap }] }`, 8.585 PLZ in 95 Shards (~1,9 MB).
+
+Validierung (Warnungen statt Abbruch):
+
+- Satzart-Zahlen (401 / 1.202 / 12.088) gegen die Erwartung.
+- Jede PLZ aus `public/data/plz/` hat mindestens eine kommunale Zuordnung.
+- Zustell-PLZ ⊆ Geometrie-PLZ (Postfach-PLZ werden als Lücke ausgewiesen).
+- Stichproben: Kiel (Gemeinde/OB), Flensburg (kreisfrei), Adenau
+  (Verbandsgemeinde).
+- Abdeckungsreport Namen je Land sowie Liste der nicht zugeordneten GERDA-Köpfe.
+
+### Client-Verhalten
+
+- `buergermeister` und `landrat` sind durchsuchbar; das manuelle Formular ist
+  **immer** sichtbar (`prefillForm`). Beim Auswählen eines Treffers werden
+  Behörde, Anschrift, E-Mail und – soweit bekannt – Name/Amtsbezeichnung
+  vorbefüllt; das Formular ist die Quelle für den Brief und wird pro Typ unter
+  `demokratiepost.empfaenger.<typ>.v1` gespeichert.
+- Kreisfreie Städte: Der Typ `landrat` liefert die Stadtverwaltung mit Hinweis
+  (keine Landrätin/kein Landrat). Stadtstaaten (BE/HH/HB) liefern die
+  Stadtverwaltung ohne Namen mit Hinweis; die Amtsbezeichnung bleibt leer.
+- Eine PLZ kann mehrere Gemeinden und deren Gemeindeverband treffen – alle
+  Treffer werden angezeigt, die Auswahl bleibt manuell.
+- `ob` ist ein Alias auf die Bürgermeister-Suche; die konkrete Amtsbezeichnung
+  kommt aus den Daten.
+
+### Lizenz
+
+- **Anschriftenverzeichnis** – Statistisches Bundesamt / Statistikportal,
+  Stand 31.01.2026; Vervielfältigung/Verbreitung mit Quellenangabe gestattet.
+- **VG250** – © GeoBasis-DE / BKG, Datenlizenz Deutschland – Namensnennung 2.0.
+- **PLZ-Polygone** – yetzt/postleitzahlen (ODbL).
+- **GERDA** – Heddesheimer, Hilbig, Sichart & Wiedemann (2025), *GERDA: German
+  Election Database*, Nature: Scientific Data 12: 618,
+  [doi:10.1038/s41597-025-04811-5](https://doi.org/10.1038/s41597-025-04811-5),
+  CC BY 4.0. Hessen-Namen 1993–2012: Hessami (2018), CC0.

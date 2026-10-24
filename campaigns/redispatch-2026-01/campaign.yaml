@@ -9,3 +9,5 @@ description: >
 recipients:
   - mdb
   - landtag
+  - landrat
+  - buergermeister

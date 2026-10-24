@@ -85,6 +85,7 @@ export function clearSender(): void {
 export const emptyManualRecipient: ManualRecipient = {
   anrede: '',
   name: '',
+  amt: '',
   organisation: '',
   strasse: '',
   plz: '',
@@ -97,10 +98,15 @@ export function hasRecipientData(recipient: ManualRecipient): boolean {
   return Object.values(recipient).some((value) => (value ?? '').trim() !== '');
 }
 
-/** Prüft, ob alle Pflichtfelder des manuellen Empfängers gefüllt sind. */
+/**
+ * Prüft, ob der manuelle Empfänger für den Brief ausreicht. Ein Behördenbrief
+ * ohne Namen ist ein gültiger Standardfall – dann muss die Organisation
+ * (Behörde) gesetzt sein. Anschrift ist immer erforderlich.
+ */
 export function isRecipientComplete(recipient: ManualRecipient): boolean {
+  const hasAddressee = Boolean(recipient.name.trim() || recipient.organisation.trim());
   return Boolean(
-    recipient.name.trim() && recipient.strasse.trim() && recipient.plz.trim() && recipient.ort.trim(),
+    hasAddressee && recipient.strasse.trim() && recipient.plz.trim() && recipient.ort.trim(),
   );
 }
 

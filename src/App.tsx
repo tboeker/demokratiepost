@@ -9,9 +9,16 @@ import { RecipientTypeSelect } from './components/RecipientTypeSelect';
 import { SenderForm } from './components/SenderForm';
 import { loadCampaigns } from './lib/campaigns';
 import { isDocKey, type DocKey } from './lib/docs';
-import { genericSalutation, isValidPlz, salutation } from './lib/lookup';
+import {
+  genericSalutation,
+  isValidPlz,
+  kommuneSalutation,
+  salutation,
+} from './lib/lookup';
 import {
   hasEmptyFallback,
+  hasPrefillForm,
+  isKommune,
   isMandat,
   isSearchable,
   lookupRecipients,
@@ -34,7 +41,14 @@ import {
   saveSender,
 } from './lib/storage';
 import { renderTemplate, splitTemplate } from './lib/template';
-import type { ManualRecipient, Mandatstraeger, Recipient, Sender, TemplateContext } from './types';
+import type {
+  Kommune,
+  ManualRecipient,
+  Recipient,
+  RecipientCandidate,
+  Sender,
+  TemplateContext,
+} from './types';
 
 type SearchStatus = 'idle' | 'loading' | 'done' | 'empty' | 'error';
 
@@ -61,10 +75,30 @@ function recipientContext(recipient: Recipient | null): Record<string, string> {
         : (recipient.bundesland ?? recipient.state ?? ''),
       bundesland: recipient.bundesland ?? recipient.state ?? '',
       organisation: '',
+      amt: '',
       strasse: recipient.address?.strasse ?? '',
       plz: recipient.address?.plz ?? '',
       ort: recipient.address?.ort ?? '',
       email: recipient.email ?? '',
+    };
+  }
+
+  if (isKommune(recipient)) {
+    return {
+      anrede: kommuneSalutation(recipient),
+      name: recipient.name ?? '',
+      partei: recipient.partei ?? '',
+      wahlkreis: '',
+      bundesland: recipient.land ?? '',
+      organisation: recipient.behoerde,
+      amt: recipient.amt ?? '',
+      strasse: recipient.address.strasse ?? '',
+      plz: recipient.address.plz ?? '',
+      ort: recipient.address.ort ?? '',
+      email: recipient.email ?? '',
+      ebene: recipient.ebene,
+      wahljahr: recipient.wahljahr ? String(recipient.wahljahr) : '',
+      hinweis: recipient.hinweis ?? '',
     };
   }
 
@@ -73,11 +107,27 @@ function recipientContext(recipient: Recipient | null): Record<string, string> {
     name: recipient.name,
     partei: '',
     wahlkreis: '',
+    bundesland: '',
     organisation: recipient.organisation,
+    amt: recipient.amt ?? '',
     strasse: recipient.strasse,
     plz: recipient.plz,
     ort: recipient.ort,
     email: recipient.email,
+  };
+}
+
+/** Übernimmt eine kommunale Verwaltung in das editierbare Empfängerformular. */
+function manualFromKommune(kommune: Kommune): ManualRecipient {
+  return {
+    anrede: kommuneSalutation(kommune),
+    name: kommune.name ?? '',
+    amt: kommune.amt ?? '',
+    organisation: kommune.behoerde,
+    strasse: kommune.address.strasse ?? '',
+    plz: kommune.address.plz ?? '',
+    ort: kommune.address.ort ?? '',
+    email: kommune.email ?? '',
   };
 }
 
@@ -98,11 +148,12 @@ export default function App() {
       : (campaign?.recipients[0] ?? '');
   const searchable = isSearchable(activeType);
   const emptyFallback = hasEmptyFallback(activeType);
+  const prefillForm = hasPrefillForm(activeType);
 
   // PLZ-Vorbelegung: initial aus den Absenderdaten, danach frei überschreibbar.
   const [plz, setPlz] = useState(() => sender.plz);
-  const [recipients, setRecipients] = useState<Mandatstraeger[]>([]);
-  const [selectedMandat, setSelectedMandat] = useState<Mandatstraeger | null>(null);
+  const [recipients, setRecipients] = useState<RecipientCandidate[]>([]);
+  const [selectedRecipient, setSelectedRecipient] = useState<RecipientCandidate | null>(null);
   const [status, setStatus] = useState<SearchStatus>('idle');
   const [error, setError] = useState('');
   const [manual, setManual] = useState<ManualRecipient>(
@@ -127,31 +178,38 @@ export default function App() {
     }
   }, [sender]);
 
-  // Manuell erfasste Empfänger pro Typ speichern (für Typen ohne Suche sowie
-  // für durchsuchbare Typen mit Fallback, z. B. landtag).
+  // Manuell erfasste Empfänger pro Typ speichern (Typen ohne Suche, den
+  // landtag-Fallback und das vorbefüllte M5-Formular).
   useEffect(() => {
-    if (searchable && !emptyFallback) return;
+    if (searchable && !emptyFallback && !prefillForm) return;
     if (hasRecipientData(manual)) {
       saveRecipientData(activeType, manual);
     } else {
       clearRecipientData(activeType);
     }
-  }, [manual, activeType, searchable, emptyFallback]);
+  }, [manual, activeType, searchable, emptyFallback, prefillForm]);
 
-  const template = campaign && activeType ? campaign.templates[activeType] : undefined;
+  // `ob` ist ein Alias auf `buergermeister`; ein eigenes Template ist nicht nötig.
+  const templateType = activeType === 'ob' ? 'buergermeister' : activeType;
+  const template = campaign && templateType ? campaign.templates[templateType] : undefined;
 
-  const recipient: Recipient | null = searchable
-    ? (selectedMandat ??
-      (emptyFallback && status === 'empty' && isRecipientComplete(manual) ? manual : null))
-    : isRecipientComplete(manual)
+  const recipient: Recipient | null = prefillForm
+    ? isRecipientComplete(manual)
       ? manual
-      : null;
+      : null
+    : searchable
+      ? (selectedRecipient ??
+        (emptyFallback && status === 'empty' && isRecipientComplete(manual) ? manual : null))
+      : isRecipientComplete(manual)
+        ? manual
+        : null;
+  const showManualForm = !searchable || prefillForm || (status === 'empty' && emptyFallback);
 
   async function handleSearch() {
     if (!isValidPlz(plz)) return;
     setStatus('loading');
     setError('');
-    setSelectedMandat(null);
+    setSelectedRecipient(null);
     try {
       const found = await lookupRecipients(activeType, plz);
       setRecipients(found);
@@ -160,6 +218,14 @@ export default function App() {
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : 'Unbekannter Fehler.');
       setStatus('error');
+    }
+  }
+
+  /** Auswahl eines Suchtreffers; bei M5 wird das Formular vorbefüllt. */
+  function handleSelectRecipient(candidate: RecipientCandidate) {
+    setSelectedRecipient(candidate);
+    if (prefillForm && isKommune(candidate)) {
+      setManual(manualFromKommune(candidate));
     }
   }
 
@@ -180,7 +246,7 @@ export default function App() {
 
   function resetRecipientState(type: string) {
     setRecipients([]);
-    setSelectedMandat(null);
+    setSelectedRecipient(null);
     setStatus('idle');
     setError('');
     setManual(loadRecipientData(type) ?? emptyManualRecipient);
@@ -194,6 +260,7 @@ export default function App() {
   function handleClearManual() {
     clearRecipientData(activeType);
     setManual(emptyManualRecipient);
+    setSelectedRecipient(null);
   }
 
   function handleClearAll() {
@@ -202,6 +269,8 @@ export default function App() {
       for (const type of item.recipients) clearRecipientData(type);
     }
     setManual(emptyManualRecipient);
+    setSelectedRecipient(null);
+    setRecipients([]);
   }
 
   function goToDoc(doc: DocKey) {
@@ -233,6 +302,18 @@ export default function App() {
   const recipientEmail = recipient ? recipient.email || undefined : undefined;
   const contactFormUrl = recipient && isMandat(recipient) ? recipient.contactFormUrl : undefined;
   const homepage = recipient && isMandat(recipient) ? recipient.homepage : undefined;
+  const selectedKommune =
+    selectedRecipient && isKommune(selectedRecipient) ? selectedRecipient : null;
+  const recipientHint = selectedKommune
+    ? [
+        selectedKommune.wahljahr
+          ? `Amtsträger: Stand ${selectedKommune.wahljahr} – bitte prüfen.`
+          : '',
+        selectedKommune.hinweis ?? '',
+      ]
+        .filter(Boolean)
+        .join(' ')
+    : '';
 
   if (activeView === 'datenspeicherung') {
     return (
@@ -299,9 +380,12 @@ export default function App() {
                 onChange={handleTypeChange}
               />
               <p className="hint">
-                {searchable
-                  ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht.'
-                  : 'Für diesen Typ gibt es noch keine Suche – trage den Empfänger im nächsten Schritt manuell ein.'}
+                {prefillForm
+                  ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht; ' +
+                    'die Angaben werden in ein vorbefülltes, editierbares Formular übernommen.'
+                  : searchable
+                    ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht.'
+                    : 'Für diesen Typ gibt es noch keine Suche – trage den Empfänger im nächsten Schritt manuell ein.'}
               </p>
             </>
           ) : (
@@ -311,7 +395,7 @@ export default function App() {
 
         <section className="card">
           <h2>4. {searchable ? 'Empfänger suchen' : 'Empfänger erfassen'}</h2>
-          {searchable ? (
+          {searchable && (
             <>
               <PlzInput
                 value={plz}
@@ -327,9 +411,12 @@ export default function App() {
                     ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
                       'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
                       'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
-                    : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
-                      'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
-                      '(Zweitstimmendeckung oder vakantes Mandat).'}
+                    : prefillForm
+                      ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
+                        'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
+                      : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
+                        'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
+                        '(Zweitstimmendeckung oder vakantes Mandat).'}
                 </p>
               )}
               {status === 'error' && <p className="error">{error}</p>}
@@ -341,32 +428,35 @@ export default function App() {
                   <RecipientList
                     recipients={recipients}
                     recipientType={activeType}
-                    selectedId={selectedMandat?.id ?? null}
-                    onSelect={setSelectedMandat}
+                    selectedId={selectedRecipient?.id ?? null}
+                    onSelect={handleSelectRecipient}
                   />
-                </>
-              )}
-
-              {status === 'empty' && emptyFallback && (
-                <>
-                  <hr className="divider" />
-                  <h3 className="subheading">Empfänger manuell erfassen</h3>
-                  <ManualRecipientForm
-                    recipientTypeLabel={recipientTypeLabel(activeType)}
-                    recipient={manual}
-                    onChange={setManual}
-                    onClear={handleClearManual}
-                  />
+                  {prefillForm && (
+                    <p className="hint">
+                      Die Namen der Amtsinhaber:innen stammen aus Forschungsdaten und sind nicht
+                      amtlich – bitte prüfe die Angaben im Formular.
+                    </p>
+                  )}
                 </>
               )}
             </>
-          ) : (
-            <ManualRecipientForm
-              recipientTypeLabel={recipientTypeLabel(activeType)}
-              recipient={manual}
-              onChange={setManual}
-              onClear={handleClearManual}
-            />
+          )}
+
+          {showManualForm && (
+            <>
+              {searchable && <hr className="divider" />}
+              <h3 className="subheading">
+                {prefillForm ? 'Empfängerangaben prüfen / ergänzen' : 'Empfänger manuell erfassen'}
+              </h3>
+              <ManualRecipientForm
+                recipientTypeLabel={recipientTypeLabel(activeType)}
+                recipient={manual}
+                onChange={setManual}
+                onClear={handleClearManual}
+                prefill={prefillForm}
+                fallback={status === 'empty' && (emptyFallback || prefillForm)}
+              />
+            </>
           )}
         </section>
 
@@ -387,6 +477,7 @@ export default function App() {
               recipientEmail={recipientEmail}
               contactFormUrl={contactFormUrl}
               homepage={homepage}
+              recipientHint={recipientHint}
             />
           </section>
         )}

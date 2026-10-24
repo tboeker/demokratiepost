@@ -14,7 +14,11 @@
     "data:lt:plz": "node scripts/fetch-plz-landtag.mjs",
     "data:lt:aw": "node scripts/fetch-landtag.mjs",
     "data:lt:build": "node scripts/build-landtag.mjs",
-    "data:lt:nrw": "node scripts/fetch-landtag-nrw.mjs"
+    "data:lt:nrw": "node scripts/fetch-landtag-nrw.mjs",
+    "data:kom:verwaltung": "node scripts/fetch-kommunen-verwaltung.mjs",
+    "data:kom:plz": "node scripts/fetch-plz-gemeinde.mjs",
+    "data:kom:koepfe": "node scripts/fetch-gemeinde-koepfe.mjs",
+    "data:kom:build": "node scripts/build-kommunen.mjs"
   },
   "dependencies": {
     "react": "18.3.1",
@@ -25,8 +29,14 @@
     "@types/react": "18.3.11",
     "@types/react-dom": "18.3.0",
     "@vitejs/plugin-react": "4.3.2",
+    "fflate": "0.8.3",
+    "polygon-clipping": "0.15.7",
+    "proj4": "2.15.0",
     "puppeteer-core": "23.11.1",
+    "shapefile": "0.6.6",
+    "topojson-client": "3.1.0",
     "typescript": "5.6.2",
-    "vite": "5.4.8"
+    "vite": "5.4.8",
+    "xlsx": "0.18.5"
   }
 }

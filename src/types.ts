@@ -90,14 +90,65 @@ export interface Mandatstraeger {
 /** Abwärtskompatibler Alias für {@link Mandatstraeger}. */
 export type MdB = Mandatstraeger;
 
+/** Ebene einer kommunalen Verwaltung. */
+export type KommuneEbene = 'gemeinde' | 'verband' | 'kreis';
+
 /**
- * Manuell erfasster Empfänger – für Typen ohne PLZ-Suche (z. B. Landrat,
- * Bürgermeister, Stadtwerke). Felder sind für alle Typen gleich (siehe PLAN.md).
+ * Kommunale Verwaltung (M5) – Ergebnis der Suche nach Bürgermeister:in oder
+ * Landrät:in. Die Behördenanschrift und E-Mail stammen aus dem amtlichen
+ * Anschriftenverzeichnis, der Name (soweit vorhanden) aus GERDA. Der Name ist
+ * ein Vorschlag, nie amtlich – das Formular bleibt immer editierbar.
+ */
+export interface Kommune {
+  id: string;
+  /** Behördenzeile, z. B. "Stadt Köln", "Landratsamt Musterkreis". */
+  behoerde: string;
+  /** Amtsbezeichnung, z. B. "Bürgermeisterin", "Landrät:in". */
+  amt?: string;
+  /** Name der Amtsinhaber:in, falls verifiziert. */
+  name?: string;
+  partei?: string;
+  /** Geschlecht nur bei verlässlicher Quelle (für die Anrede). */
+  sex?: 'm' | 'f' | 'd';
+  /** Fertige Anrede, z. B. "Sehr geehrte Frau Bürgermeisterin Berger". */
+  anrede?: string;
+  address: Address;
+  email?: string;
+  ebene: KommuneEbene;
+  /** Jahr der letzten Wahl der Amtsinhaber:in. */
+  wahljahr?: number;
+  /** Datenquelle, z. B. "GERDA mayoral_candidates.csv (…)". */
+  quelle?: string;
+  /** Hinweis zur Verlässlichkeit/Prüfung, z. B. "nicht verifiziert". */
+  hinweis?: string;
+  einwohner?: number;
+  /** Amtlicher Regionalschlüssel (Kreis 5-, Verband 9-, Gemeinde 12-stellig). */
+  ars: string;
+  /** Amtlicher Gemeindeschlüssel (8-stellig), soweit vorhanden. */
+  ags?: string;
+  /** Kreis-ARS (5-stellig). */
+  kreisArs?: string;
+  /** Verbands-ARS (9-stellig), falls die Gemeinde in einem Verband liegt. */
+  verbandArs?: string;
+  /** Bundesland. */
+  land?: string;
+  /** Nur bei Kreisen: true, wenn dort eine Landrätin/ein Landrat amtiert. */
+  landratCapable?: boolean;
+}
+
+/** Suchtreffer: Mandatsträger oder kommunale Verwaltung. */
+export type RecipientCandidate = Mandatstraeger | Kommune;
+
+/**
+ * Manuell erfasster Empfänger – für Typen ohne PLZ-Suche (z. B. Stadtwerke)
+ * sowie als vorbefülltes, editierbares Formular für kommunale Typen (M5).
  */
 export interface ManualRecipient {
   /** Fertige Anrede; leer → automatische Anrede aus dem Namen. */
   anrede: string;
   name: string;
+  /** Amtsbezeichnung, z. B. "Bürgermeisterin". */
+  amt?: string;
   /** Behörde/Organisation, z. B. "Landkreis Musterstadt". */
   organisation: string;
   strasse: string;
@@ -106,8 +157,8 @@ export interface ManualRecipient {
   email: string;
 }
 
-/** Empfänger: Suchtreffer (MdB) oder manuell erfasst. */
-export type Recipient = MdB | ManualRecipient;
+/** Empfänger: Suchtreffer (Mandat/Kommune) oder manuell erfasst. */
+export type Recipient = RecipientCandidate | ManualRecipient;
 
 /** Zuordnung Postleitzahl -> Liste von Wahlkreis-Nummern. */
 export type PlzIndex = Record<string, number[]>;

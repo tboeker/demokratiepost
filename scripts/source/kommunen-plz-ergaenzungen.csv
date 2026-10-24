@@ -1,0 +1,25 @@
+# Manuelle PLZ-Ergänzungen (M5)
+#
+# Diese PLZ kommen weder im geometrischen PLZ-Verschnitt (yetzt/postleitzahlen)
+# noch in den Zustell-PLZ des Destatis-Anschriftenverzeichnisses vor, sind aber
+# im amtlichen PLZ-Index (public/data/plz/) enthalten. Die Zuordnung wurde
+# anhand der amtlichen Gemeindeanschrift bzw. des Gemeindeverzeichnisses
+# geprüft. overlap = 0, quelle = "manuell".
+#
+# 23952 = Wismar, Hansestadt (Postfach-PLZ)
+# 83294 = Traunreut, Stadt
+# 91051 = Erlangen, Stadt (Postfach-PLZ)
+# 94158 = Philippsreut
+# 95153 = Kirchenlamitz, Stadt
+# 95480 = Gefrees, Stadt
+# 97451 = Schonungen
+#
+# Format: plz,ags
+plz,ags
+23952,13074087
+83294,09189154
+91051,09562000
+94158,09272139
+95153,09479129
+95480,09472139
+97451,09678174

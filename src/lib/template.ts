@@ -50,10 +50,18 @@ export function splitTemplate(template: string): TemplateParts {
 
 /** Ersetzt alle Platzhalter im Template durch Werte aus dem Kontext. */
 export function renderTemplate(template: string, context: TemplateContext): string {
-  return template.replace(PLACEHOLDER, (_match, path: string) => {
-    const value = resolvePath(context, path);
-    return value == null ? '' : String(value);
-  });
+  return (
+    template
+      .replace(PLACEHOLDER, (_match, path: string) => {
+        const value = resolvePath(context, path);
+        return value == null ? '' : String(value);
+      })
+      // Leere Platzhalter (z. B. `{{ empfaenger.amt }} {{ empfaenger.name }}`
+      // bei einem Behördenbrief ohne Namen) dürfen keine Leerzeile mit
+      // Leerzeichen hinterlassen.
+      .replace(/^[ \t]+$/gm, '')
+      .replace(/[ \t]+$/gm, '')
+  );
 }
 
 /** Listet alle im Template verwendeten Platzhalter auf (z. B. für Formulare). */

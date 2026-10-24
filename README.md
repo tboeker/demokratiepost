@@ -82,9 +82,9 @@ npm run build   # Produktions-Build nach dist/
 npm run preview # Build lokal testen
 ```
 
-> Nach `npm run data:plz` bzw. Änderungen unter `public/` den Dev-Server neu starten.
-> Vite kann sonst noch den alten Stand des Public-Ordners ausliefern; neue Shards
-> erscheinen dann als HTML-Fallback statt als JSON.
+> Nach `npm run data:plz`/`data:kom:plz`/`data:kom:build` bzw. Änderungen unter `public/`
+> den Dev-Server neu starten. Vite kann sonst noch den alten Stand des Public-Ordners
+> ausliefern; neue Shards erscheinen dann als HTML-Fallback statt als JSON.
 
 Die Seite wird über GitHub Actions automatisch nach GitHub Pages deployt
 (`.github/workflows/deploy.yml`). Wichtig: In `vite.config.ts` muss `base` dem
@@ -126,11 +126,16 @@ Zwischenablage kopiert; zusätzlich zeigt die App die Formularfelder vorausgefü
 eigenem Kopier-Button pro Feld (das Formular selbst lässt sich nicht vorbelegen).
 Die **PLZ-Zuordnung ist vollständig** (8.218 PLZ, 299 Wahlkreise) und wird aus den
 PLZ-Gebieten des BKG und der Wahlkreiseinteilung 2025 der Bundeswahlleiterin abgeleitet.
+Für die kommunale Ebene (Bürgermeister:in, Landrät:in) kommen die Anschriften und
+dienstlichen E-Mail-Adressen aus dem amtlichen Anschriftenverzeichnis des Statistikportals
+(Stand 31.01.2026); die Namen der Amtsinhaber:innen aus GERDA (Forschungsdaten, CC BY 4.0)
+und die PLZ→Gemeinde/Kreis-Zuordnung aus einem Verschnitt der PLZ-Polygone mit der VG250.
 Wie die Daten erzeugt werden, steht in [`scripts/README.md`](./scripts/README.md).
 
 Datenquellen und Lizenzen: Die Bundeswahlleiterin (amtliches Werk), bundestag.de,
-abgeordnetenwatch.de (CC0) sowie für die PLZ-Gebiete © GeoBasis-DE / BKG (dl-de/by-2-0);
-Aufbereitung der PLZ-Zuordnung durch
+abgeordnetenwatch.de (CC0), Statistisches Bundesamt/Statistikportal (Anschriftenverzeichnis),
+GERDA – German Election Database (CC BY 4.0), © GeoBasis-DE / BKG (dl-de/by-2-0),
+yetzt/postleitzahlen (ODbL); Aufbereitung der PLZ→Wahlkreis-Zuordnung durch
 [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT).
 
 ## Projektstatus
@@ -138,8 +143,9 @@ Aufbereitung der PLZ-Zuordnung durch
 Der Prototyp beginnt bewusst klein:
 
 - **MVP:** Postleitzahl → Bundestagsabgeordnete → fertiger Brief (PDF oder Kontaktformular).
-- Danach: Landtagsabgeordnete, kommunale Ebene (Bürgermeister/Landrat) und später
-  Netzbetreiber/Stadtwerke.
+- **Umgesetzt:** Landtagsabgeordnete (M4) sowie die kommunale Ebene mit Bürgermeister:in
+  und Landrät:in (M5, inkl. vorbefülltem, editierbarem Empfängerformular).
+- **Als Nächstes:** Netzbetreiber/Stadtwerke (M6).
 
 Der vollständige technische Plan, die Datenquellen und die Meilensteine stehen in
 [`PLAN.md`](./PLAN.md).

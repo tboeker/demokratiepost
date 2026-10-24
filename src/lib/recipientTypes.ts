@@ -1,5 +1,10 @@
-import { findLandtagRecipientsByPlz, findRecipientsByPlz } from './lookup';
-import type { Mandatstraeger, Recipient } from '../types';
+import {
+  findBuergermeisterByPlz,
+  findLandratByPlz,
+  findLandtagRecipientsByPlz,
+  findRecipientsByPlz,
+} from './lookup';
+import type { Kommune, Mandatstraeger, Recipient, RecipientCandidate } from '../types';
 
 /** Definition eines in der App unterstützten Empfängertyps. */
 export interface RecipientTypeDef {
@@ -11,7 +16,7 @@ export interface RecipientTypeDef {
    * Lookup für die PLZ-Suche. Fehlt er (z. B. bei neuen Typen), werden die
    * Empfänger über das manuelle Formular erfasst – ohne Code-Änderung.
    */
-  lookup?: (plz: string) => Promise<Mandatstraeger[]>;
+  lookup?: (plz: string) => Promise<RecipientCandidate[]>;
   /**
    * Bietet zusätzlich zum Suchfeld das manuelle Formular an, wenn die Suche
    * keine Treffer liefert (z. B. `landtag` für Bundesländer ohne Landtagsdaten
@@ -19,7 +24,21 @@ export interface RecipientTypeDef {
    * Ausnahme von der Regel – trotz Suche pro Typ gespeichert.
    */
   emptyFallback?: boolean;
+  /**
+   * Das manuelle Formular ist immer sichtbar und wird beim Auswählen eines
+   * Suchtreffers mit Behörde, Anschrift, E-Mail und – soweit bekannt – Name
+   * vorbefüllt (M5: `landrat`, `buergermeister`). Die Daten werden pro Typ
+   * gespeichert; das Formular ist die Quelle für den Brief.
+   */
+  prefillForm?: boolean;
 }
+
+const BUERGERMEISTER: RecipientTypeDef = {
+  id: 'buergermeister',
+  label: 'Bürgermeister(in)',
+  lookup: findBuergermeisterByPlz,
+  prefillForm: true,
+};
 
 /**
  * Registry der unterstützten Typen. Einzel-Details zum Ablauf: PLAN.md,
@@ -33,9 +52,16 @@ const RECIPIENT_TYPES: Record<string, RecipientTypeDef> = {
     lookup: findLandtagRecipientsByPlz,
     emptyFallback: true,
   },
-  landrat: { id: 'landrat', label: 'Landrätin / Landrat' },
-  buergermeister: { id: 'buergermeister', label: 'Bürgermeister(in)' },
-  ob: { id: 'ob', label: 'Oberbürgermeister(in)' },
+  landrat: {
+    id: 'landrat',
+    label: 'Landrätin / Landrat',
+    lookup: findLandratByPlz,
+    prefillForm: true,
+  },
+  buergermeister: BUERGERMEISTER,
+  // Oberbürgermeister(in) bleibt als Alias auf die Bürgermeister-Suche bestehen;
+  // die konkrete Amtsbezeichnung kommt aus den Daten.
+  ob: { ...BUERGERMEISTER, id: 'ob', label: 'Oberbürgermeister(in)' },
   stadtwerke: { id: 'stadtwerke', label: 'Stadtwerke' },
   netzbetreiber: { id: 'netzbetreiber', label: 'Netzbetreiber' },
 };
@@ -64,11 +90,16 @@ export function hasEmptyFallback(recipientType: string | undefined): boolean {
   return Boolean(recipientTypeDef(recipientType).emptyFallback);
 }
 
+/** true, wenn das manuelle Formular immer sichtbar und vorbefüllt ist (M5). */
+export function hasPrefillForm(recipientType: string | undefined): boolean {
+  return Boolean(recipientTypeDef(recipientType).prefillForm);
+}
+
 /** Sucht die zuständigen Empfänger eines durchsuchbaren Typs per PLZ. */
 export async function lookupRecipients(
   recipientType: string | undefined,
   plz: string,
-): Promise<Mandatstraeger[]> {
+): Promise<RecipientCandidate[]> {
   const { lookup } = recipientTypeDef(recipientType);
   if (!lookup) return [];
   return lookup(plz);
@@ -77,4 +108,9 @@ export async function lookupRecipients(
 /** Typguard: Suchtreffer (Mandatstraeger) – im Gegensatz zum manuell erfassten Empfänger. */
 export function isMandat(recipient: Recipient): recipient is Mandatstraeger {
   return 'id' in recipient && 'mandate' in recipient;
+}
+
+/** Typguard: Suchtreffer ist eine kommunale Verwaltung (M5). */
+export function isKommune(recipient: Recipient): recipient is Kommune {
+  return 'ebene' in recipient && 'behoerde' in recipient;
 }

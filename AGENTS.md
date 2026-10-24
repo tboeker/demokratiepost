@@ -40,6 +40,12 @@ npm run data:lt:plz      # 16 PLZ-CSVs + Configs → scripts/source/plz-landtag/
 npm run data:lt:aw       # Landtags-Roster + sex-Cache → public/data/mandates-landtag.json
 npm run data:lt:build    # Konsistenzcheck + Shards → public/data/landtag/ + public/data/plz-landtag/
 npm run data:lt:nrw      # NRW-Anreicherung (E-Mail/Wahlkreisbüro) → scripts/source/landtag-contacts/nrw.json
+
+# Gemeinde-/Kreisebene (M5), ebenfalls einzeln und in dieser Reihenfolge:
+npm run data:kom:verwaltung  # Anschriftenverzeichnis → scripts/source/gemeinde-verwaltungen.csv
+npm run data:kom:plz         # PLZ-Geometrie × VG250 → scripts/source/plz-gemeinde.csv
+npm run data:kom:koepfe      # GERDA-Amtsträger:innen → scripts/source/gemeinde-koepfe.csv
+npm run data:kom:build       # Join + Validierung → public/data/kommunen/
 ```
 
 ## Dev-Container
@@ -55,14 +61,16 @@ Sandboxing-Optionen: `.devcontainer/README.md`.
 campaigns/                 Content: campaign.yaml + templates/<typ>.md
 scripts/                   Datenpipeline (Build-Zeit)
 public/data/               Laufzeit-Daten: mdb.json, plz/<prefix>.json,
-                           landtag/<staat>.json + plz-landtag/<prefix>.json (lazy geladen)
+                           landtag/<staat>.json + plz-landtag/<prefix>.json,
+                           kommunen/gemeinden-<land>.json + kreise.json +
+                           plz-kommunen/<prefix>.json (alle lazy geladen)
 src/App.tsx                Ablauf: Kampagne → Absender → Empfängertyp →
                            Empfänger (Suche mit PLZ-Vorbelegung / manuell) → Vorschau
 src/components/            PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
                            ManualRecipientForm, LetterPreview
 src/lib/                   campaigns, template, storage, lookup, recipientTypes, export
-src/types.ts               Mandatstraeger (MdB/Landtag), ManualRecipient, Recipient,
-                           Wahlkreis, Campaign, Sender
+src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5), ManualRecipient,
+                           Recipient/RecipientCandidate, Wahlkreis, Campaign, Sender
 ```
 
 ## Konventionen
@@ -74,10 +82,12 @@ src/types.ts               Mandatstraeger (MdB/Landtag), ManualRecipient, Recipi
   (versioniert, siehe `src/lib/storage.ts`).
 - Manuell erfasste Empfänger ebenfalls nur lokal, **ein Key pro Typ**:
   `demokratiepost.empfaenger.<typ>.v1`. Durchsuchbare Typen wie `mdb` werden nicht gespeichert;
-  Ausnahme ist `landtag`: liefert die Suche keine Treffer (Bundesland ohne Landtagsdaten oder
-  PLZ ohne Direktmandat), wird zusätzlich das manuelle Formular angeboten und gespeichert
-  (Registry inkl. `emptyFallback`: `src/lib/recipientTypes.ts`).
-- Template-Platzhalter in Punktnotation: `{{ absender.name }}`, `{{ empfaenger.wahlkreis }}`.
+  Ausnahmen sind `landtag` (bei leerer Suche: `emptyFallback`) und die kommunalen Typen
+  `landrat`/`buergermeister` (immer sichtbares, beim Treffer vorbefülltes Formular:
+  `prefillForm`). Registry: `src/lib/recipientTypes.ts`.
+- Template-Platzhalter in Punktnotation: `{{ absender.name }}`, `{{ empfaenger.wahlkreis }}`,
+  für kommunale Empfänger `{{ empfaenger.organisation }}`, `{{ empfaenger.amt }}`,
+  `{{ empfaenger.name }}`.
 - Der Abschnitt `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` im Template
   ist die Nachricht für Kontaktformular/E-Mail (nur Text + Abschlussformel); der Rest ist der
   vollständige Brief. Fehlen die Marker, gilt der ganze Brief als Nachricht.
@@ -130,6 +140,27 @@ src/types.ts               Mandatstraeger (MdB/Landtag), ManualRecipient, Recipi
   ggf. Wahlkreisbüro → `scripts/source/landtag-contacts/nrw.json`; `build-landtag.mjs` mischt
   das ins Roster. Nach `data:lt:nrw` erneut `data:lt:build` ausführen.
 - Nach `npm run data:lt:plz`/`data:lt:build` den **Dev-Server neu starten** (Vite-Cache).
+- **Gemeinde-/Kreisebene (M5)**: Anschriften/E-Mail aus dem Destatis-Anschriftenverzeichnis
+  (XLSX, Stand 31.01.2026), Namen aus GERDA (CC BY 4.0). Die Namen sind **Forschungsdaten,
+  nicht amtlich** und teils veraltet; die App zeigt den Stand und lässt das Formular immer
+  bearbeiten. Keine geschlechtsspezifische Anrede bei GERDA-Quelle `predicted`.
+- **AGS-Drift**: GERDA führt teils andere AGS-Stände als Destatis/VG250 (u. a. SN, ST, RP, NI).
+  `build-kommunen.mjs` gleicht deshalb zuerst über den AGS, dann über den normalisierten Namen
+  (`ags_name`). Nicht zugeordnete GERDA-Köpfe stehen im Build-Log; dort fehlt der Name, der
+  Behördenbrief bleibt gültig.
+- **PLZ → Gemeinde/Kreis**: geometrischer Verschnitt aus yetzt/postleitzahlen (ODbL) und
+  VG250 (BKG, dl-de/by-2-0), Überlappung ≥ 1 %, plus Zustell-PLZ-Ergänzung. Die
+  Geometrie-Bibliotheken (`shapefile`, `proj4`, `polygon-clipping`, `topojson-client`,
+  `xlsx`, `fflate`) sind **nur devDependencies** und dürfen nicht in den Client.
+- **Manuelle PLZ-Ergänzungen**: `scripts/source/kommunen-plz-ergaenzungen.csv` für PLZ, die
+  weder im Polygon-Verschnitt noch in den Zustell-PLZ vorkommen (aktuell 7). Nur nach
+  amtlicher Prüfung erweitern.
+- **Sonderfälle M5**: kreisfreie Stadt + Typ `landrat` → Stadtverwaltung mit Hinweis
+  (keine Landrätin/kein Landrat); Stadtstaaten BE/HH/HB → Stadtverwaltung ohne Namen und
+  ohne Amtsbezeichnung; eine PLZ kann mehrere Gemeinden und deren Verband treffen.
+  56 PLZ (überwiegend Postfach-PLZ von Kreisverwaltungen) haben nur eine Kreiszuordnung –
+  die Bürgermeister-Suche bietet dort den manuellen Fallback.
+- Nach `npm run data:kom:plz`/`data:kom:build` den **Dev-Server neu starten** (Vite-Cache).
 
 ## Git
 

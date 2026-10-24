@@ -16,6 +16,8 @@ interface LetterPreviewProps {
   recipientEmail?: string;
   contactFormUrl?: string;
   homepage?: string;
+  /** Hinweis zur Amtsinhaber:in (z. B. „Stand 2021 – bitte prüfen“). */
+  recipientHint?: string;
 }
 
 type ContactStatus = 'idle' | 'copied' | 'failed';
@@ -29,6 +31,7 @@ export function LetterPreview({
   recipientEmail,
   contactFormUrl,
   homepage,
+  recipientHint,
 }: LetterPreviewProps) {
   const [copied, setCopied] = useState(false);
   const [contactStatus, setContactStatus] = useState<ContactStatus>('idle');
@@ -115,13 +118,15 @@ export function LetterPreview({
         </p>
       )}
 
-      {recipientType === 'landtag' && !recipientEmail && !contactFormUrl && (
+      {!recipientEmail && !contactFormUrl && (
         <p className="hint">
           Für diesen Empfänger ist keine E-Mail-Adresse hinterlegt. Nutze den Brief
-          (Drucken / als PDF speichern) oder kopiere die Nachricht für das Kontaktformular des
-          Landtags.
+          (Drucken / als PDF speichern) oder kopiere die Nachricht für das Kontaktformular der
+          Behörde.
         </p>
       )}
+
+      {recipientHint && <p className="hint">{recipientHint}</p>}
 
       <div className="letter-preview">
         <div className="letter-preview-header">

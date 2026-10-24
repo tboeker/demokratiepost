@@ -21,12 +21,17 @@ E-Mail: [E-Mail-Adresse]
 - **Abgeordnete und Anschriften (Bundestag):** Deutscher Bundestag, [bundestag.de](https://www.bundestag.de); laufende Mandate: [abgeordnetenwatch.de](https://www.abgeordnetenwatch.de) (CC0 1.0).
 - **Landtagsabgeordnete:** laufende Mandate aller 16 Landtage: [abgeordnetenwatch.de](https://www.abgeordnetenwatch.de) (CC0 1.0); Kontakte für Nordrhein-Westfalen: [landtag.nrw.de](https://www.landtag.nrw.de).
 - **Wahlkreiseinteilung:** Die Bundeswahlleiterin, Bundestagswahl 2025 (amtliches Werk); Landtagswahlkreise: die jeweiligen Landeswahlleiter:innen (amtliche Werke).
+- **Gemeinde- und Kreisverwaltungen (Anschriften und E-Mail):** Statistisches Bundesamt / Statistikportal, *Anschriften der Gemeinde- und Stadtverwaltungen in Deutschland*, Stand 31.01.2026; Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellenangabe gestattet.
+- **Amtsinhaber:innen (Bürgermeister:innen, Landrät:innen):** GERDA – German Election Database, Heddesheimer, Hilbig, Sichart & Wiedemann (2025), *Nature: Scientific Data* 12: 618, [doi:10.1038/s41597-025-04811-5](https://doi.org/10.1038/s41597-025-04811-5) (CC BY 4.0). Hessen-Namen 1993–2012: Hessami, Zohal (2018), *Review of Economics and Statistics* 100(1): 51–64, [doi:10.7910/DVN/FZWOMK](https://doi.org/10.7910/DVN/FZWOMK) (CC0). Die Namen sind Forschungsdaten, nicht amtlich, und können veraltet sein.
+- **Gemeindegrenzen:** © GeoBasis-DE / BKG, VG250 (Datenlizenz Deutschland – Namensnennung 2.0).
 - **PLZ-Gebiete:** © GeoBasis-DE / BKG (Datenlizenz Deutschland – Namensnennung 2.0).
-- **PLZ-Polygone (Landtag):** [yetzt/postleitzahlen](https://github.com/yetzt/postleitzahlen) (Open Database License, ODbL).
+- **PLZ-Polygone (Landtag und Gemeinde):** [yetzt/postleitzahlen](https://github.com/yetzt/postleitzahlen) (Open Database License, ODbL).
 - **Aufbereitung PLZ → Wahlkreis:** [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT-Lizenz).
 
-Die PLZ-Zuordnung ist eine Näherung: Eine PLZ kann mehrere Wahlkreise überlappen. Bei
-Mehrdeutigkeit zeigt die App alle passenden Direktmandate an.
+Die PLZ-Zuordnung ist eine Näherung: Eine PLZ kann mehrere Wahlkreise oder Gemeinden
+überlappen. Bei Mehrdeutigkeit zeigt die App alle passenden Empfänger an. Die Namen der
+kommunalen Amtsinhaber:innen stammen aus Forschungsdaten (GERDA) und sind kein amtlicher
+Nachweis; die App kennzeichnet den Stand der Wahl und bietet immer ein editierbares Formular an.
 
 ## Hinweis
 

@@ -6,6 +6,13 @@ interface ManualRecipientFormProps {
   recipient: ManualRecipient;
   onChange: (recipient: ManualRecipient) => void;
   onClear: () => void;
+  /**
+   * M5: Das Formular ist immer sichtbar und wird beim Auswählen eines
+   * Suchtreffers vorbefüllt. Der Hinweistext erklärt das.
+   */
+  prefill?: boolean;
+  /** Die Suche war leer; das Formular ist der manuelle Fallback (z. B. landtag). */
+  fallback?: boolean;
 }
 
 /**
@@ -17,6 +24,8 @@ export function ManualRecipientForm({
   recipient,
   onChange,
   onClear,
+  prefill = false,
+  fallback = false,
 }: ManualRecipientFormProps) {
   function update<K extends keyof ManualRecipient>(key: K, value: ManualRecipient[K]) {
     onChange({ ...recipient, [key]: value });
@@ -25,9 +34,17 @@ export function ManualRecipientForm({
   return (
     <div className="sender-form">
       <p className="hint">
-        Für {recipientTypeLabel ? recipientTypeLabel : 'diesen Empfängertyp'} gibt es (noch) keine
-        Suche – bitte Anschrift des Empfängeramts manuell erfassen. Die Eingaben werden nur lokal
-        in deinem Browser gespeichert und beim nächsten Besuch dieses Typs vorausgefüllt.
+        {fallback
+          ? `Die Suche hat für diese PLZ keine Treffer geliefert. Erfasse den Empfänger ` +
+            `hier manuell; die Eingaben werden nur lokal in deinem Browser gespeichert.`
+          : prefill
+            ? `Wähle oben einen Treffer – Behörde, Anschrift, E-Mail und (soweit bekannt) Name ` +
+              `werden hier vorbefüllt. Prüfe die Angaben und korrigiere sie bei Bedarf. ` +
+              `Die Eingaben werden nur lokal in deinem Browser gespeichert.`
+            : `Für ${recipientTypeLabel ? recipientTypeLabel : 'diesen Empfängertyp'} gibt es ` +
+              `(noch) keine Suche – bitte Anschrift des Empfängeramts manuell erfassen. Die ` +
+              `Eingaben werden nur lokal in deinem Browser gespeichert und beim nächsten Besuch ` +
+              `dieses Typs vorausgefüllt.`}
       </p>
 
       <div className="field-grid">
@@ -67,6 +84,19 @@ export function ManualRecipientForm({
             value={recipient.organisation}
             onChange={(event) => update('organisation', event.target.value)}
             placeholder="z. B. Landratsamt Musterkreis"
+          />
+        </div>
+
+        <div className="field">
+          <label className="label" htmlFor="recipient-amt">
+            Amtsbezeichnung <span className="optional">(optional)</span>
+          </label>
+          <input
+            id="recipient-amt"
+            className="input"
+            value={recipient.amt ?? ''}
+            onChange={(event) => update('amt', event.target.value)}
+            placeholder="z. B. Bürgermeisterin"
           />
         </div>
 
