@@ -12,7 +12,9 @@ bereit zum Drucken oder Versenden.
 - Stack: Vite + React + TypeScript.
 - Hosting: GitHub Pages (`base: '/demokratiepost/'`).
 - Der vollständige Plan steht in [`PLAN.md`](./PLAN.md) – **das ist die Quelle der Wahrheit**
-  für Architektur, Datenquellen und Meilensteine.
+  für Architektur, Datenquellen und Meilensteine. Der Plan wird **ausschließlich in dieser
+  lokalen Datei im Repo** gepflegt – auch geplante Änderungen (z. B. der Fünf-Schritte-
+  User-Workflow) dokumentiert man dort, nicht in separaten Dateien.
 
 ## Befehle
 
@@ -47,10 +49,12 @@ Sandboxing-Optionen: `.devcontainer/README.md`.
 campaigns/                 Content: campaign.yaml + templates/<typ>.md
 scripts/                   Datenpipeline (Build-Zeit)
 public/data/               Laufzeit-Daten: mdb.json + plz/<prefix>.json (lazy geladen)
-src/App.tsx                Ablauf: PLZ → Kampagne → Empfänger → Absender → Brief
-src/components/            PlzInput, SenderForm, RecipientList, LetterPreview
-src/lib/                   campaigns, template, storage, lookup, export
-src/types.ts               MdB, Wahlkreis, Campaign, Sender
+src/App.tsx                Ablauf: Kampagne → Absender → Empfängertyp →
+                           Empfänger (Suche mit PLZ-Vorbelegung / manuell) → Vorschau
+src/components/            PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
+                           ManualRecipientForm, LetterPreview
+src/lib/                   campaigns, template, storage, lookup, recipientTypes, export
+src/types.ts               MdB, ManualRecipient, Recipient, Wahlkreis, Campaign, Sender
 ```
 
 ## Konventionen
@@ -60,6 +64,9 @@ src/types.ts               MdB, Wahlkreis, Campaign, Sender
   `public/data/` (URLs über `import.meta.env.BASE_URL` bauen, wegen GitHub-Pages-Basispfad).
 - Absenderdaten nur lokal im Browser: `localStorage`-Key `demokratiepost.sender.v1`
   (versioniert, siehe `src/lib/storage.ts`).
+- Manuell erfasste Empfänger ebenfalls nur lokal, **ein Key pro Typ**:
+  `demokratiepost.empfaenger.<typ>.v1` (Durchsuchbare Typen wie `mdb` werden nicht gespeichert;
+  Registry: `src/lib/recipientTypes.ts`).
 - Template-Platzhalter in Punktnotation: `{{ absender.name }}`, `{{ empfaenger.wahlkreis }}`.
 - Der Abschnitt `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` im Template
   ist die Nachricht für Kontaktformular/E-Mail (nur Text + Abschlussformel); der Rest ist der

@@ -1,12 +1,18 @@
-import { SENDER_STORAGE_KEY } from '../lib/storage';
+import { RECIPIENT_STORAGE_PREFIX, SENDER_STORAGE_KEY } from '../lib/storage';
 
 interface DatenspeicherungViewProps {
   hasSenderData: boolean;
+  hasRecipientData: boolean;
   onClear: () => void;
   onBack: () => void;
 }
 
-export function DatenspeicherungView({ hasSenderData, onClear, onBack }: DatenspeicherungViewProps) {
+export function DatenspeicherungView({
+  hasSenderData,
+  hasRecipientData,
+  onClear,
+  onBack,
+}: DatenspeicherungViewProps) {
   return (
     <div className="page">
       <header className="header">
@@ -24,31 +30,34 @@ export function DatenspeicherungView({ hasSenderData, onClear, onBack }: Datensp
             <div>
               <dt>Was gespeichert wird</dt>
               <dd>
-                Deine Absenderdaten (Name, Anschrift, optional E-Mail und Telefon), damit du sie beim
-                nächsten Besuch nicht erneut eingeben musst.
+                Deine Absenderdaten (Name, Anschrift, optional E-Mail und Telefon) sowie die
+                manuell erfassten Empfängerdaten – damit du sie beim nächsten Besuch nicht erneut
+                eingeben musst.
               </dd>
             </div>
             <div>
               <dt>Wo gespeichert wird</dt>
               <dd>
-                Nur lokal in diesem Browser unter dem Schlüssel{' '}
-                <code>{SENDER_STORAGE_KEY}</code> (localStorage). Die Daten verlassen dein Gerät
-                nicht.
+                Nur lokal in diesem Browser: Absender unter <code>{SENDER_STORAGE_KEY}</code>,
+                manuell erfasste Empfänger pro Typ unter <code>{RECIPIENT_STORAGE_PREFIX}.&lt;typ&gt;.v1</code>{' '}
+                (localStorage). Die Daten verlassen dein Gerät nicht.
               </dd>
             </div>
             <div>
               <dt>Was nicht gespeichert wird</dt>
               <dd>
-                Die eingegebene Postleitzahl wird nicht gespeichert. Es werden keine Daten an einen
-                Server übertragen.
+                Die Postleitzahl der Empfängersuche wird nicht gespeichert, ebenso wenig
+                ausgewählte Suchtreffer. Es werden keine Daten an einen Server übertragen.
               </dd>
             </div>
             <div>
               <dt>Daten löschen</dt>
               <dd>
-                {hasSenderData
-                  ? 'Aktuell sind Absenderdaten gespeichert. Du kannst sie jederzeit entfernen.'
-                  : 'Aktuell sind keine Absenderdaten gespeichert.'}
+                {hasSenderData || hasRecipientData
+                  ? 'Aktuell sind Daten gespeichert. Du kannst sie jederzeit entfernen.'
+                  : 'Aktuell sind keine Daten gespeichert.'}
+                {hasSenderData ? ' Absenderdaten: gespeichert.' : ''}
+                {hasRecipientData ? ' Empfängerdaten: gespeichert.' : ''}
               </dd>
             </div>
           </dl>
@@ -57,7 +66,7 @@ export function DatenspeicherungView({ hasSenderData, onClear, onBack }: Datensp
             className="button button-secondary"
             type="button"
             onClick={onClear}
-            disabled={!hasSenderData}
+            disabled={!hasSenderData && !hasRecipientData}
           >
             Gespeicherte Daten löschen
           </button>

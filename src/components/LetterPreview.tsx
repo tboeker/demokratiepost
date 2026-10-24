@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { buildMailto, copyToClipboard, copyToClipboardSync, printLetter } from '../lib/export';
-import { recipientTypeLabel } from '../lib/recipients';
+import { recipientTypeLabel } from '../lib/recipientTypes';
 import type { Sender } from '../types';
 import { ContactFormFields } from './ContactFormFields';
 

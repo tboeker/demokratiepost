@@ -1,4 +1,4 @@
-import { recipientTypeLabel } from '../lib/recipients';
+import { recipientTypeLabel } from '../lib/recipientTypes';
 import type { MdB } from '../types';
 
 interface RecipientListProps {

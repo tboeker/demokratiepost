@@ -50,7 +50,7 @@ export interface Address {
   label?: string;
 }
 
-/** Ein Bundestagsabgeordneter (Empfänger). */
+/** Ein Bundestagsabgeordneter (Ergebnis der Empfängersuche, Typ "mdb"). */
 export interface MdB {
   id: string;
   name: string;
@@ -78,6 +78,25 @@ export interface MdB {
   /** E-Mail-Adresse, falls für einen Empfängertyp vorhanden. */
   email?: string;
 }
+
+/**
+ * Manuell erfasster Empfänger – für Typen ohne PLZ-Suche (z. B. Landrat,
+ * Bürgermeister, Stadtwerke). Felder sind für alle Typen gleich (siehe PLAN.md).
+ */
+export interface ManualRecipient {
+  /** Fertige Anrede; leer → automatische Anrede aus dem Namen. */
+  anrede: string;
+  name: string;
+  /** Behörde/Organisation, z. B. "Landkreis Musterstadt". */
+  organisation: string;
+  strasse: string;
+  plz: string;
+  ort: string;
+  email: string;
+}
+
+/** Empfänger: Suchtreffer (MdB) oder manuell erfasst. */
+export type Recipient = MdB | ManualRecipient;
 
 /** Zuordnung Postleitzahl -> Liste von Wahlkreis-Nummern. */
 export type PlzIndex = Record<string, number[]>;

@@ -68,3 +68,19 @@ export function salutation(mdB: MdB): string {
   if (mdB.sex === 'f') return `Sehr geehrte Frau ${lastName}`;
   return 'Sehr geehrte Damen und Herren';
 }
+
+/**
+ * Anrede für einen manuell erfassten Empfänger ohne Geschlechtsangabe:
+ * Namen wie "Frau Müller"/"Herr Schmidt" werden erkannt, sonst neutrale Anrede.
+ */
+export function genericSalutation(name: string): string {
+  const match = name.trim().match(/^(Frau|Herr)\s+(.+)$/i);
+  if (match) {
+    const parts = match[2].trim().split(/\s+/);
+    const lastName = parts[parts.length - 1] ?? '';
+    return match[1].toLowerCase() === 'frau'
+      ? `Sehr geehrte Frau ${lastName}`
+      : `Sehr geehrter Herr ${lastName}`;
+  }
+  return 'Sehr geehrte Damen und Herren';
+}

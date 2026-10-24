@@ -8,12 +8,13 @@ Kernversprechen:
 
 > **PLZ rein → korrekte Empfänger raus → fertiger, personalisierter Brief.**
 
-Der Nutzer gibt eine Postleitzahl ein und wählt eine Kampagne. Anhand der PLZ werden die
-zuständigen Empfänger ermittelt, und passende Musterschreiben (Absender + Empfänger bereits
-eingesetzt) werden versandfertig aufbereitet. Ziel: maximale Reichweite durch minimale Hürde.
+Der Nutzer wählt eine Kampagne, erfasst seine Absenderdaten und den Empfängertyp. Die
+zuständigen Empfänger werden über die PLZ (aus den Absenderdaten vorbelegt) gesucht oder –
+bei Typen ohne Suche – manuell erfasst. Das zum Typ passende Musterschreiben (Absender +
+Empfänger bereits eingesetzt) wird versandfertig aufbereitet. Ziel: maximale Reichweite durch
+minimale Hürde.
 
-Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, Bürgermeister,
-Stadtwerke, Netzbetreiber.
+Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, Bürgermeister, Stadtwerke, Netzbetreiber.
 
 ## Entscheidungen (fix)
 
@@ -29,11 +30,15 @@ Stadtwerke, Netzbetreiber.
 ## Architektur (statisch, clientseitig)
 
 ```
-Browser (statische Seite)
-├── PLZ-Eingabe
-├── Lookup: PLZ-Präfix → public/data/plz/<prefix>.json   (nur bei Bedarf geladen)
-├── Kampagnen: campaigns/*/campaign.yaml + templates/*.md
-├── Rendering: Markdown-Template + Platzhalter → HTML
+Browser (statische Seite) – Fünf-Schritte-Ablauf (siehe *User-Workflow*)
+├── 1. Kampagne: campaigns/*/campaign.yaml (recipients + templates/<typ>.md)
+├── 2. Absenderdaten: Eingabe + localStorage (demokratiepost.sender.v1)
+├── 3. Empfängertyp: Auswahl aus campaign.recipients → bestimmt das Template
+├── 4. Empfänger: Suche (mdb) mit PLZ-Vorbelegung
+│      (Lookup: PLZ-Präfix → public/data/plz/<prefix>.json, nur bei Bedarf geladen)
+│      bzw. manuelles Formular (Typen ohne Suche),
+│      Speicherung pro Typ: demokratiepost.empfaenger.<typ>.v1
+├── 5. Rendering: Markdown-Template + Platzhalter → HTML (Vorschau)
 ├── Ausgabe A: DIN-5008-Briefansicht → window.print() → "Als PDF speichern"
 └── Ausgabe B: Kontaktformular-Link (bzw. mailto) + "Nachricht kopieren"
 ```
@@ -55,6 +60,34 @@ Browser (statische Seite)
   Anrede und Abschlussformel. Im Template markieren
   `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` diesen Ausschnitt.
   Fehlen die Marker, wird der vollständige Brief als Nachricht verwendet.
+
+## User-Workflow (fünf Schritte)
+
+Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.**
+
+1. **Kampagne auswählen** – Auswahl aus `campaigns/*/campaign.yaml`.
+2. **Absenderdaten erfassen** – wie bisher; localStorage `demokratiepost.sender.v1`.
+3. **Empfängertyp auswählen** – Auswahl aus `recipients` der Kampagne (z. B. `mdb` →
+   „Bundestagsabgeordnete(r)"). **Der gewählte Typ bestimmt das Template**
+   (`templates/<typ>.md`) für Schritt 5.
+4. **Empfänger suchen bzw. manuell erfassen** – typabhängig über eine Registry
+   (`src/lib/recipientTypes.ts`: Label, `searchable`, Lookup-Funktion):
+   - **Typ mit Suche** (aktuell nur `mdb`): PLZ-Feld **mit `absender.plz` vorbelegt**
+     (nur initiale Vorbelegung, der Nutzer kann überschreiben). Wie bisher mehrere Treffer
+     bei mehrdeutiger PLZ; die Auswahl erfolgt **immer manuell** – auch bei nur einem
+     Treffer wird nicht automatisch vorausgewählt.
+   - **Typ ohne Suche** (alle übrigen/unbekannten Typen, z. B. später `landrat`,
+     `buergermeister`, `stadtwerke`): **manuelles Formular** mit für alle Typen gleichen
+     Feldern: Anrede, Name, Behörde/Organisation, Straße, PLZ, Ort, E-Mail. Leere Anrede →
+     automatische Anrede aus dem Namen. Die erfassten Daten werden **pro Typ** gespeichert:
+     `demokratiepost.empfaenger.<typ>.v1` (versioniert wie der Absender, `src/lib/storage.ts`).
+   - `empfaenger.*` wird aus dem gewählten Suchtreffer oder den manuellen Daten gespeist;
+     Organisation → `empfaenger.organisation`; Partei/Wahlkreis nur bei Suchtreffern gesetzt.
+5. **Vorschau** – `renderTemplate()` füllt die Platzhalter dynamisch; Brief, Druck/PDF,
+   Kontaktformular/mailto und „Nachricht kopieren" wie bisher.
+
+**Fehlerfall:** Ist ein Typ in `recipients` gelistet, aber es existiert kein
+`templates/<typ>.md`, zeigt die App einen Hinweis statt einer Vorschau.
 
 ## Datenpipeline (kritischer Teil)
 
@@ -99,8 +132,14 @@ campaigns/
   stromnetz-2026/
     campaign.yaml        # id, titel, betreff, thema, beschreibung, empfängertypen, laufzeit
     templates/
-      mdb.md             # Musterschreiben für Bundestagsabgeordnete
+      mdb.md             # Musterschreiben für Bundestagsabgeordnete (Typ "mdb")
+      landrat.md         # weiteres Schreiben pro Empfängertyp (Typ "landrat")
 ```
+
+**Pro Empfängertyp aus `recipients` gibt es genau ein Template** `templates/<typ>.md`;
+die Typ-Auswahl im Workflow (Schritt 3) bestimmt, welches Template gerendert wird.
+Der Betreff (`{{ betreff }}`) bleibt kampagnenweit – ein Betreff pro Typ wäre eine
+spätere Erweiterung (z. B. `subject` pro Typ in der YAML).
 
 Platzhalter: `{{ absender.* }}`, `{{ empfaenger.anrede|name|partei|wahlkreis }}`,
 `{{ datum }}`, `{{ betreff }}` + optionaler **persönlicher Absatz** des Nutzers
@@ -124,6 +163,9 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 - Laden beim Start, Speichern bei Eingabe/Submit; Schaltflächen „Speichern" und „Löschen"
 - Umsetzung: `src/lib/storage.ts` (lesen/schreiben/validieren) + `SenderForm`-Komponente
 - Der `TemplateContext` (`absender.*`) wird direkt aus diesen Werten gespeist.
+- Die Absender-PLZ **vorbelegt das Suchfeld** im Empfänger-Schritt (bei Typen mit Suche;
+  nur initial, überschreibbar). Manuell erfasste Empfänger-Daten liegen analog **pro Typ**
+  unter `demokratiepost.empfaenger.<typ>.v1`.
 
 **Datenschutz**
 
@@ -146,10 +188,11 @@ demokratiepost/
 │   ├── mdb.json
 │   └── plz/10.json, 11.json, …
 ├── src/
-│   ├── App.tsx
-│   ├── components/  (PlzInput, SenderForm, RecipientList, LetterPreview)
-│   ├── lib/         (campaigns, template, storage, lookup, export)
-│   └── types.ts
+│   ├── App.tsx      (Fünf-Schritte-Ablauf, siehe *User-Workflow*)
+│   ├── components/  (PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
+│   │                 ManualRecipientForm, LetterPreview)
+│   ├── lib/         (campaigns, template, storage, lookup, recipientTypes, export)
+│   └── types.ts     (inkl. ManualRecipient, Recipient-Union MdB | ManualRecipient)
 ├── vite.config.ts                    # base: '/demokratiepost/'
 └── README.md
 ```
@@ -170,7 +213,10 @@ demokratiepost/
    (Mehrfachtreffer bei mehrdeutiger PLZ) → **Absenderformular mit localStorage** →
    Briefvorschau → PDF/Print + Kontaktformular/Copy.
 3. **M3 — Content & UX**: Kails Schreiben als erste Kampagne, optionaler persönlicher
-   Absatz, Feinschliff.
+   Absatz, Feinschliff. **Workflow-Umbau** auf den Fünf-Schritte-Ablauf
+   (Kampagne → Absender → **Empfängertyp** → Empfänger (Suche mit PLZ-Vorbelegung bzw.
+   manuelle Erfassung pro Typ) → Vorschau); **Template pro Empfängertyp**;
+   Typen-Registry `recipientTypes.ts` – _umgesetzt_; Einzel-Details im Abschnitt *User-Workflow*.
 4. **M4 — Erweiterung**: Landtag, danach Gemeinde-Ebene (Bürgermeister/Landrat).
 5. **M5 — später**: Netzbetreiber/Stadtwerke (Grundversorger via BNetzA).
 
@@ -190,4 +236,5 @@ M1–M3 sind der Proof-of-Value. Erst danach lohnt sich die Datenbreite.
 M1 und M2 sind umgesetzt. Die echten MdB-Daten (inkl. Anschriften und Kontaktformular-Links)
 kommen aus den bundestag.de-Profilen. Die **PLZ→Wahlkreis-Zuordnung** ist vollständig
 (8.218 PLZ, 299 Wahlkreise) und wird aus amtlichen Geodaten abgeleitet. Als Nächstes **M3**:
-Kails Schreiben als erste Kampagne, optionaler persönlicher Absatz, Feinschliff.
+Workflow-Umbau auf den Fünf-Schritte-Ablauf (Abschnitt *User-Workflow*), Kails Schreiben als
+erste Kampagne, optionaler persönlicher Absatz, Feinschliff.
