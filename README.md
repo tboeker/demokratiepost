@@ -145,7 +145,8 @@ Der Prototyp beginnt bewusst klein:
 - **MVP:** Postleitzahl → Bundestagsabgeordnete → fertiger Brief (PDF oder Kontaktformular).
 - **Umgesetzt:** Landtagsabgeordnete (M4) sowie die kommunale Ebene mit Bürgermeister:in
   und Landrät:in (M5, inkl. vorbefülltem, editierbarem Empfängerformular).
-- **Als Nächstes:** Netzbetreiber/Stadtwerke (M6).
+- **Als Nächstes:** Netzbetreiber (Strom) (M6, geplant) – Zuordnung aus dem
+  Marktstammdatenregister; Stadtwerke bleiben manuell.
 
 Der vollständige technische Plan, die Datenquellen und die Meilensteine stehen in
 [`PLAN.md`](./PLAN.md).
