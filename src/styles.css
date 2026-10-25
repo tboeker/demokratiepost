@@ -58,6 +58,18 @@ body {
   font-size: 1.1rem;
 }
 
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-header h2 {
+  margin: 0;
+}
+
 .label {
   display: block;
   font-weight: 600;
@@ -120,6 +132,43 @@ body {
 
 .button-secondary:hover:not(:disabled) {
   background: #eef4ff;
+}
+
+/* Icon-only Aktion (z. B. Absenderdaten löschen) – bewusst unauffällig. */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background: #f2f3f5;
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.icon-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.icon-button-danger {
+  color: #b42318;
+}
+
+.icon-button-danger:hover {
+  background: #fef3f2;
+  border-color: #fecdca;
+  color: #912018;
 }
 
 .plz-form {

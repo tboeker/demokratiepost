@@ -353,7 +353,9 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 - Format: JSON
 - Das optionale Feld `geschlecht` ist abwärtskompatibel: ältere `sender.v1`-Daten ohne
   das Feld laden weiterhin und fallen auf „Bürgerin/Bürger“ zurück.
-- Laden beim Start, Speichern bei Eingabe/Submit; Schaltflächen „Speichern" und „Löschen"
+- Laden beim Start, Speichern bei jeder Eingabe; „Absenderdaten löschen“ ist ein rotes
+  Papierkorb-Symbol in der Kopfzeile der Absenderkarte (nur Icon mit Tooltip, bewusst
+  unauffällig, damit es nicht versehentlich geklickt wird)
 - Umsetzung: `src/lib/storage.ts` (lesen/schreiben/validieren) + `SenderForm`-Komponente
 - Der `TemplateContext` (`absender.*`) wird direkt aus diesen Werten gespeist.
 - Die Absender-PLZ **vorbelegt das Suchfeld** im Empfänger-Schritt (bei Typen mit Suche;

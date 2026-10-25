@@ -204,6 +204,30 @@ function manualFromNetzbetreiber(operator: Netzbetreiber): ManualRecipient {
   };
 }
 
+/** Papierkorb-Symbol für die Lösch-Aktion im Kartenkopf. */
+function TrashIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="18"
+      height="18"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M4 7h16" />
+      <path d="M10 11v6" />
+      <path d="M14 11v6" />
+      <path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12" />
+      <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" />
+    </svg>
+  );
+}
+
 export default function App() {
   const campaigns = useMemo(() => loadCampaigns(), []);
   const [selectedCampaignId, setSelectedCampaignId] = useState(campaigns[0]?.id ?? '');
@@ -465,8 +489,19 @@ export default function App() {
         </section>
 
         <section className="card">
-          <h2>2. Deine Absenderdaten</h2>
-          <SenderForm sender={sender} onChange={setSender} onClear={handleClearSender} />
+          <div className="card-header">
+            <h2>2. Deine Absenderdaten</h2>
+            <button
+              type="button"
+              className="icon-button icon-button-danger"
+              onClick={handleClearSender}
+              title="Absenderdaten löschen"
+              aria-label="Absenderdaten löschen"
+            >
+              <TrashIcon />
+            </button>
+          </div>
+          <SenderForm sender={sender} onChange={setSender} />
         </section>
 
         <section className="card">

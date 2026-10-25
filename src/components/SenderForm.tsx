@@ -4,10 +4,9 @@ import { noAutofill } from '../lib/autofill';
 interface SenderFormProps {
   sender: Sender;
   onChange: (sender: Sender) => void;
-  onClear: () => void;
 }
 
-export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
+export function SenderForm({ sender, onChange }: SenderFormProps) {
   function update<K extends keyof Sender>(key: K, value: Sender[K]) {
     onChange({ ...sender, [key]: value });
   }
@@ -122,9 +121,6 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
       </div>
 
       <div className="sender-actions">
-        <button className="button button-secondary" type="button" onClick={onClear}>
-          Absenderdaten löschen
-        </button>
         <p className="hint">
           Deine Angaben werden nur lokal in deinem Browser gespeichert und nicht übertragen.
           Mehr dazu unter <a href="#datenspeicherung">Datenspeicherung</a>.
