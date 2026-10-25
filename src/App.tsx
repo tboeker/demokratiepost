@@ -154,21 +154,21 @@ function recipientContext(
     // erhalten (z. B. Netzgebiet/Anteil beim Netzbetreiber, Wahljahr bei M5).
     ...(selectedCandidate && isNetzbetreiber(selectedCandidate)
       ? {
-          netzgebiet: selectedCandidate.gemeinde ?? '',
-          anteil:
-            typeof selectedCandidate.anteil === 'number'
-              ? `${Math.round(selectedCandidate.anteil * 100)} %`
-              : '',
-          quelle:
-            selectedCandidate.quelle === 'gemeinde' ? 'Gemeindeebene' : 'PLZ-Ebene',
-        }
+        netzgebiet: selectedCandidate.gemeinde ?? '',
+        anteil:
+          typeof selectedCandidate.anteil === 'number'
+            ? `${Math.round(selectedCandidate.anteil * 100)} %`
+            : '',
+        quelle:
+          selectedCandidate.quelle === 'gemeinde' ? 'Gemeindeebene' : 'PLZ-Ebene',
+      }
       : {}),
     ...(selectedCandidate && isKommune(selectedCandidate)
       ? {
-          ebene: selectedCandidate.ebene,
-          wahljahr: selectedCandidate.wahljahr ? String(selectedCandidate.wahljahr) : '',
-          hinweis: selectedCandidate.hinweis ?? '',
-        }
+        ebene: selectedCandidate.ebene,
+        wahljahr: selectedCandidate.wahljahr ? String(selectedCandidate.wahljahr) : '',
+        hinweis: selectedCandidate.hinweis ?? '',
+      }
       : {}),
   };
 }
@@ -398,22 +398,21 @@ export default function App() {
     selectedRecipient && isNetzbetreiber(selectedRecipient) ? selectedRecipient : null;
   const recipientHint = selectedKommune
     ? [
-        selectedKommune.wahljahr
-          ? `Amtsträger: Stand ${selectedKommune.wahljahr} – bitte prüfen.`
-          : '',
-        selectedKommune.hinweis ?? '',
+      selectedKommune.wahljahr
+        ? `Amtsträger: Stand ${selectedKommune.wahljahr} – bitte prüfen.`
+        : '',
+      selectedKommune.hinweis ?? '',
+    ]
+      .filter(Boolean)
+      .join(' ')
+    : selectedNetzbetreiber
+      ? [
+        `Zuordnung aus dem Marktstammdatenregister${selectedNetzbetreiber.stand ? ` (Stand ${selectedNetzbetreiber.stand})` : ''
+        }, keine amtliche Netzgebietsgrenze – bitte prüfen.`,
+        selectedNetzbetreiber.hinweis ?? '',
       ]
         .filter(Boolean)
         .join(' ')
-    : selectedNetzbetreiber
-      ? [
-          `Zuordnung aus dem Marktstammdatenregister${
-            selectedNetzbetreiber.stand ? ` (Stand ${selectedNetzbetreiber.stand})` : ''
-          }, keine amtliche Netzgebietsgrenze – bitte prüfen.`,
-          selectedNetzbetreiber.hinweis ?? '',
-        ]
-          .filter(Boolean)
-          .join(' ')
       : '';
 
   if (activeView === 'datenspeicherung') {
@@ -436,7 +435,6 @@ export default function App() {
       <header className="header">
         <h1>Demokratiepost</h1>
         <p className="subtitle">In fünf Schritten zum versandfertigen Schreiben</p>
-        <p className="hint">Hinweis: Der Quellcode dieser App wurde mit AI Tools erstellt.</p>
         <button type="button" className="footer-link" onClick={() => goToDoc('idee')}>
           Beschreibung der Idee
         </button>
@@ -483,10 +481,10 @@ export default function App() {
               <p className="hint">
                 {instructionMode
                   ? 'Für diesen Empfänger gibt es nur ein Webformular – Schritt 4 zeigt die ' +
-                    'Anleitung, Schritt 5 die Angaben zum Einfügen.'
+                  'Anleitung, Schritt 5 die Angaben zum Einfügen.'
                   : prefillForm
                     ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht; ' +
-                      'die Angaben werden in ein vorbefülltes, editierbares Formular übernommen.'
+                    'die Angaben werden in ein vorbefülltes, editierbares Formular übernommen.'
                     : searchable
                       ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht.'
                       : 'Für diesen Typ gibt es noch keine Suche – trage den Empfänger im nächsten Schritt manuell ein.'}
@@ -535,17 +533,17 @@ export default function App() {
                     <p className="hint">
                       {activeType === 'landtag'
                         ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
-                          'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
-                          'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
+                        'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
+                        'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
                         : activeType === 'netzbetreiber'
                           ? `Für die PLZ ${plz} wurde kein zuständiger Netzbetreiber gefunden. ` +
-                            'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
+                          'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
                           : prefillForm
                             ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
-                              'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
+                            'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
                             : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
-                              'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
-                              '(Zweitstimmendeckung oder vakantes Mandat).'}
+                            'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
+                            '(Zweitstimmendeckung oder vakantes Mandat).'}
                     </p>
                   )}
                   {status === 'error' && <p className="error">{error}</p>}
@@ -564,9 +562,9 @@ export default function App() {
                         <p className="hint">
                           {activeType === 'netzbetreiber'
                             ? 'Die Zuordnung stammt aus dem Marktstammdatenregister (In-Betrieb-PV-Anlagen) ' +
-                              'und ist keine amtliche Netzgebietsgrenze – bitte prüfe die Angaben im Formular.'
+                            'und ist keine amtliche Netzgebietsgrenze – bitte prüfe die Angaben im Formular.'
                             : 'Die Namen der Amtsinhaber:innen stammen aus Forschungsdaten und sind nicht ' +
-                              'amtlich – bitte prüfe die Angaben im Formular.'}
+                            'amtlich – bitte prüfe die Angaben im Formular.'}
                         </p>
                       )}
                     </>
@@ -636,9 +634,9 @@ export default function App() {
             <p className="hint">
               {instructionMode
                 ? `Für den Empfängertyp „${recipientTypeLabel(activeType)}“ gibt es in dieser ` +
-                  'Kampagne noch keinen Text für das Webformular.'
+                'Kampagne noch keinen Text für das Webformular.'
                 : `Für den Empfängertyp „${recipientTypeLabel(activeType)}“ gibt es in dieser ` +
-                  'Kampagne noch kein Musterschreiben.'}
+                'Kampagne noch kein Musterschreiben.'}
             </p>
           </section>
         )}
@@ -657,6 +655,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
+        <p className="hint">Hinweis: Der Quellcode dieser App wurde mit AI Tools erstellt.</p>
         <nav className="footer-nav">
           <button type="button" className="footer-link" onClick={() => goToDoc('idee')}>
             Idee
