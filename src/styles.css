@@ -7,6 +7,7 @@
   --border: #d9dde3;
   --accent: #1f6feb;
   --accent-dark: #1858bd;
+  --success: #1a7f37;
 }
 
 * {
@@ -327,7 +328,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .letter-preview-header {
@@ -413,6 +414,40 @@ body {
 .copy-field-button {
   flex: none;
   white-space: nowrap;
+}
+
+/* Button plus Statusanzeige (grüner Haken nach dem Kopieren). Der Platz für den
+   Haken ist immer reserviert, damit die Felder beim Kopieren nicht springen. */
+.action-with-status {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex: none;
+}
+
+.action-status {
+  display: inline-flex;
+  align-items: center;
+  min-width: 1.1rem;
+}
+
+.action-check {
+  color: var(--success);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 @media (max-width: 560px) {
@@ -525,6 +560,32 @@ body {
 
 .instruction-actions {
   margin: 1rem 0 0.5rem;
+}
+
+/* Schritte der Anleitung; Felder stehen direkt im jeweiligen Schritt. */
+.instruction-steps {
+  margin: 0.8rem 0 1rem 1.2rem;
+  padding: 0;
+}
+
+.instruction-steps li {
+  margin: 0.6rem 0;
+}
+
+.instruction-step-text p {
+  margin: 0;
+}
+
+.instruction-step-fields {
+  margin: 0.5rem 0 0.75rem;
+}
+
+.instruction-step-link {
+  margin: 0.5rem 0 0.25rem;
+}
+
+.instruction-step-link .button {
+  text-decoration: none;
 }
 
 .instruction-actions .button {

@@ -16,6 +16,8 @@ export interface CampaignMeta {
 
 /** Ein Feld eines externen Webformulars, das von Hand befüllt wird (M7). */
 export interface InstructionField {
+  /** Eindeutige ID, über die ein Schritt das Feld einbindet. */
+  id: string;
   /** Feldbezeichnung im externen Formular, z. B. „Petitionstext“. */
   label: string;
   /** Vorbelegter Wert; Platzhalter wie `{{ absender.name }}` werden ersetzt. */
@@ -24,6 +26,16 @@ export interface InstructionField {
   multiline?: boolean;
   /** Zusatzhinweis unter dem Feld, z. B. „Im Portal aus der Liste wählen“. */
   note?: string;
+}
+
+/** Ein Schritt der Anleitung; kann Felder zum Kopieren einbinden. */
+export interface InstructionStep {
+  /** Beschreibung des Schritts (Markdown, meist eine Zeile). */
+  text: string;
+  /** IDs der Felder, die direkt unter diesem Schritt kopiert werden können. */
+  fields?: string[];
+  /** Link zum externen Formular direkt an diesem Schritt anzeigen. */
+  link?: boolean;
 }
 
 /**
@@ -39,7 +51,9 @@ export interface Instruction {
   linkLabel?: string;
   /** Felder des externen Formulars mit vorbelegten Werten. */
   fields: InstructionField[];
-  /** Markdown-Anleitung (Schritte und Hinweise). */
+  /** Schritt-für-Schritt-Anleitung; Felder werden im Schritt selbst kopiert. */
+  steps: InstructionStep[];
+  /** Markdown-Anleitung; `<!-- schritte -->` markiert die Stelle der Schritte. */
   body: string;
 }
 

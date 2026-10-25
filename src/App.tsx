@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { DatenspeicherungView } from './components/DatenspeicherungView';
 import { DocView } from './components/DocView';
-import { InstructionCard, InstructionFields } from './components/InstructionCard';
+import { InstructionCard } from './components/InstructionCard';
 import { LetterPreview } from './components/LetterPreview';
 import { ManualRecipientForm } from './components/ManualRecipientForm';
 import { PlzInput } from './components/PlzInput';
@@ -520,7 +520,7 @@ export default function App() {
               <p className="hint">
                 {instructionMode
                   ? 'Für diesen Empfänger gibt es nur ein Webformular – Schritt 4 zeigt die ' +
-                  'Anleitung, Schritt 5 die Angaben zum Einfügen.'
+                  'Anleitung; die Angaben zum Kopieren stehen direkt im jeweiligen Schritt.'
                   : prefillForm
                     ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht; ' +
                     'die Angaben werden in ein vorbefülltes, editierbares Formular übernommen.'
@@ -546,10 +546,26 @@ export default function App() {
 
           {instructionMode ? (
             instruction ? (
-              <InstructionCard
-                instruction={instruction}
-                fallbackTitle={recipientTypeLabel(activeType)}
-              />
+              <>
+                {!template && (
+                  <p className="hint">
+                    Für den Empfängertyp „{recipientTypeLabel(activeType)}“ gibt es in dieser
+                    Kampagne noch keinen Text für das Webformular.
+                  </p>
+                )}
+                {template && !isSenderComplete(sender) && (
+                  <p className="hint">
+                    Tipp: Fülle oben deine Absenderdaten aus, damit die Felder vollständig
+                    sind.
+                  </p>
+                )}
+                <InstructionCard
+                  instruction={instruction}
+                  fallbackTitle={recipientTypeLabel(activeType)}
+                  context={instructionContext}
+                  showFields={Boolean(template)}
+                />
+              </>
             ) : (
               <p className="hint">
                 Für den Empfängertyp „{recipientTypeLabel(activeType)}“ ist in dieser Kampagne
@@ -633,18 +649,6 @@ export default function App() {
           )}
         </section>
 
-        {template && instruction && (
-          <section className="card">
-            <h2>5. Angaben zum Einfügen</h2>
-            {!isSenderComplete(sender) && (
-              <p className="hint">
-                Tipp: Fülle oben deine Absenderdaten aus, damit die Felder vollständig sind.
-              </p>
-            )}
-            <InstructionFields instruction={instruction} context={instructionContext} />
-          </section>
-        )}
-
         {template && recipient && (
           <section className="card letter-card">
             <h2>5. Briefvorschau</h2>
@@ -658,7 +662,6 @@ export default function App() {
               recipientType={activeType}
               body={letterBody}
               contactBody={contactBody}
-              sender={sender}
               recipientEmail={recipientEmail}
               contactFormUrl={contactFormUrl}
               homepage={homepage}
@@ -667,15 +670,12 @@ export default function App() {
           </section>
         )}
 
-        {campaign && activeType && !template && (
+        {campaign && activeType && !template && !instructionMode && (
           <section className="card">
-            <h2>5. {instructionMode ? 'Angaben zum Einfügen' : 'Briefvorschau'}</h2>
+            <h2>5. Briefvorschau</h2>
             <p className="hint">
-              {instructionMode
-                ? `Für den Empfängertyp „${recipientTypeLabel(activeType)}“ gibt es in dieser ` +
-                'Kampagne noch keinen Text für das Webformular.'
-                : `Für den Empfängertyp „${recipientTypeLabel(activeType)}“ gibt es in dieser ` +
-                'Kampagne noch kein Musterschreiben.'}
+              Für den Empfängertyp „{recipientTypeLabel(activeType)}“ gibt es in dieser
+              Kampagne noch kein Musterschreiben.
             </p>
           </section>
         )}

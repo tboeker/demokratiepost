@@ -46,6 +46,12 @@ export function markdownToHtml(markdown: string): string {
       continue;
     }
 
+    // Fortsetzungszeile einer Liste (eingerückt) gehört zum letzten Punkt.
+    if (listType && listItems.length > 0 && /^\s{2,}\S/.test(line)) {
+      listItems[listItems.length - 1] += ' ' + inline(trimmed);
+      continue;
+    }
+
     const heading = trimmed.match(/^(#{1,3})\s+(.+)$/);
     if (heading) {
       flushParagraph();

@@ -56,7 +56,8 @@ Browser (statische Seite) – Fünf-Schritte-Ablauf (siehe *User-Workflow*)
 ```
 
 Für Anleitungstypen (M7) entfallen Ausgabe A und B: Schritt 4 zeigt die Anleitung samt
-Link zum externen Webformular, Schritt 5 die Formularfelder mit Kopier-Button.
+Link zum externen Webformular; die Formularfelder stehen mit eigenem Kopier-Button direkt
+im jeweiligen Schritt.
 
 - Kein Backend, kein Tracking. PLZ und Absenderdaten bleiben im Browser
   (`localStorage` für Komfort). Gleichzeitig das Datenschutz-Argument.
@@ -69,8 +70,9 @@ Link zum externen Webformular, Schritt 5 die Formularfelder mit Kopier-Button.
 - Das Kontaktformular auf bundestag.de lässt sich **nicht** per URL vorbelegen (getestet) und
   ist wegen Cross-Origin/CSRF von der App aus nicht befüllbar. Beim Klick auf
   „Kontaktformular öffnen" wird deshalb die Nachricht automatisch in die Zwischenablage
-  kopiert. Zusätzlich zeigt die App die Formularfelder (Betreff, Nachricht, Absenderdaten)
-  vorausgefüllt an – jedes Feld mit eigenem Kopier-Button.
+  kopiert. Zusätzlich zeigt die App **Betreff und Nachricht** vorausgefüllt an – jeweils mit
+  eigenem Kopier-Button. Die Kontaktdaten (Name, E-Mail, Anschrift) trägt der Nutzer direkt
+  im Formular ein; sie stehen ohnehin unter der Nachricht.
 - Brief und Kontaktformular brauchen **unterschiedliche Inhalte**: Der Brief enthält Absender,
   Empfängeranschrift, Datum und Betreff; die Kontaktformular-Nachricht nur den Text mit
   Anrede und Abschlussformel. Im Template markieren
@@ -128,17 +130,20 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
      gespeichert werden.
    - **Typ mit Anleitung** (`ep-petition`, M7): Der Empfänger ist nur über ein Webformular
      erreichbar. Statt Suche und Adressformular zeigt Schritt 4 die Anleitung aus
-     `campaigns/<id>/instructions/<typ>.md` (Markdown mit YAML-Frontmatter) samt Link;
-     Schritt 5 zeigt die dort definierten Formularfelder mit eigenem Kopier-Button. Kein
-     Druck/PDF, kein `mailto`; es werden keine Empfängerdaten gespeichert.
+     `campaigns/<id>/instructions/<typ>.md` (Markdown mit YAML-Frontmatter) samt Link.
+     Die Schritte sind strukturiert (`steps`); Felder erscheinen mit eigenem Kopier-Button
+     direkt unter dem Schritt, in dem sie gebraucht werden. Kein Druck/PDF, kein `mailto`;
+     es werden keine Empfängerdaten gespeichert.
    - `empfaenger.*` wird aus dem gewählten Suchtreffer oder den manuellen Daten gespeist;
      Organisation → `empfaenger.organisation`; Partei/Wahlkreis/Bundesland nur bei
      Suchtreffern gesetzt; `empfaenger.amt` (z. B. „Bürgermeisterin“) nur bei kommunalen
      Treffern (M5). Bei `netzbetreiber` ist `organisation` der Firmenname; `name` und `amt`
      bleiben leer, die Anrede ist „Sehr geehrte Damen und Herren“.
-5. **Vorschau** – `renderTemplate()` füllt die Platzhalter dynamisch; Brief, Druck/PDF,
-   Kontaktformular/mailto und „Nachricht kopieren" wie bisher. Bei Anleitungstypen (M7)
-   entfällt der Brief: Schritt 5 zeigt „Angaben zum Einfügen“ (Felder und Nachricht).
+5. **Vorschau** – `renderTemplate()` füllt die Platzhalter dynamisch. Zuerst erscheint die
+   Briefvorschau, darunter die Aktionen (Druck/PDF, Kontaktformular/mailto, „Nachricht
+   kopieren“) und bei Kontaktformular-Empfängern die Kopierfelder. Bei Anleitungstypen (M7)
+   entfällt der Brief: Schritt 4 enthält die Anleitung mit den Feldern direkt im
+   jeweiligen Schritt.
 
 **Fehlerfall:** Ist ein Typ in `recipients` gelistet, aber es existiert kein
 `templates/<typ>.md` (bzw. bei Anleitungstypen keine `instructions/<typ>.md`), zeigt die
@@ -1107,34 +1112,57 @@ werden.
 | Versandweg | Nur Webformular; **kein** Druck/PDF und **kein** `mailto` für diesen Typ. |
 | Content | Je Typ eine Datei `campaigns/<id>/instructions/<typ>.md` (Markdown + YAML-Frontmatter). |
 | Template | `templates/<typ>.md` liefert den Text für das Webformular (kein Briefkopf, keine Kontaktformular-Marker). |
-| Datenmodell | Neuer Registry-Schalter `instruction`; `Instruction`/`InstructionField` in `src/types.ts`. |
+| Datenmodell | Neuer Registry-Schalter `instruction`; `Instruction`, `InstructionStep`, `InstructionField` in `src/types.ts`. |
 | Speicherung | Keine Empfängerdaten; die Absenderdaten bleiben wie bisher lokal gespeichert. |
 | Laufzeit | Keine neuen Netzwerkzugriffe; der externe Link wird nur durch Klick geöffnet. |
 
 ### Content-Format
 
-```markdown
+````markdown
 ---
 title: Petition beim Europäischen Parlament einreichen
 url: https://www.europarl.europa.eu/petitions/de/home
 linkLabel: Petitionsportal öffnen
 fields:
-  - label: Titel der Petition
+  - id: titel
+    label: Titel der Petition
     value: "Redispatch-Vorbehalt verstößt gegen Art. 13 Abs. 7 VO (EU) 2019/943"
-  - label: Petitionstext
+  - id: text
+    label: Petitionstext
     value: "{{ nachricht }}"
     multiline: true
-  - label: Name
-    value: "{{ absender.name }}"
+steps:
+  - text: Öffne das Petitionsportal und registriere dich mit deiner E-Mail-Adresse.
+    link: true
+  - text: Wähle „Petition einreichen“ und als Sprache Deutsch.
+  - text: Kopiere den Titel der Petition in das Formular.
+    fields: [titel]
+  - text: Kopiere den Petitionstext in das Formular.
+    fields: [text]
 ---
+## Wer kann eine Petition einreichen?
+…
 ## Schritt für Schritt
-1. Im Petitionsportal registrieren und anmelden.
-2. Die Felder aus Schritt 5 einzeln kopieren und einfügen.
-```
 
+<!-- schritte -->
+
+## Hinweise
+…
+````
+
+- Jeder Schritt ist ein Eintrag in `steps`; über `fields: [id]` werden die Felder direkt
+  unter dem Schritt zum Kopieren angeboten. Schritte ohne Feld brauchen keine Eingabe.
+- `link: true` an einem Schritt zeigt den Portal-Button direkt unter diesem Schritt (z. B.
+  „Öffne das Portal“); ohne diese Angabe steht der Button am Ende der Karte.
+- `<!-- schritte -->` im Markdown markiert die Stelle der Schritte. Fehlt die Markierung,
+  stehen die Schritte am Ende des Textes; nicht in einem Schritt referenzierte Felder
+  erscheinen gesammelt darunter.
 - Die Feldwerte werden mit `renderTemplate()` gefüllt. `{{ nachricht }}` ist der
   vollständig gerenderte Template-Text; `{{ absender.* }}` und `{{ betreff }}` stehen
   ebenfalls zur Verfügung.
+- Zum Kopieren werden nur die inhaltlichen Felder angeboten (hier Titel und Petitionstext).
+  Persönliche Angaben wie Name, Anschrift und E-Mail trägt der Nutzer direkt im Portal ein;
+  sie stehen unter dem Petitionstext.
 - Der Markdown-Text selbst bleibt statisch (keine Nutzereingaben als HTML).
 - Feldbezeichnungen und Schritte liegen im Content, nicht im Code – Formularänderungen
   des Portals brauchen nur eine Markdown-Anpassung.
@@ -1145,17 +1173,19 @@ fields:
 ### Client
 
 - `src/lib/campaigns.ts`: zweiter `import.meta.glob` für `instructions/*.md`,
-  Frontmatter über `yaml` parsen.
+  Frontmatter über `yaml` parsen (`fields` mit `id`, `steps` mit Feld-Referenzen).
 - `src/lib/recipientTypes.ts`: `instruction: true` für `ep-petition`, Helfer
   `hasInstruction()`.
-- `src/App.tsx`: `instructionMode`; angepasste Texte in Schritt 3/4/5; PLZ-Suche und
-  Adressformular entfallen; Schritt 5 rendert die Felder mit `{{ nachricht }}` und
-  `{{ absender.* }}`.
+- `src/App.tsx`: `instructionMode`; angepasste Texte in Schritt 3/4; PLZ-Suche und
+  Adressformular entfallen; Schritt 4 rendert Anleitung und Felder in einer Karte.
 - `src/lib/markdown.ts`: gemeinsamer Mini-Renderer (aus `DocView` extrahiert, geordnete
-  Listen ergänzt).
-- `src/components/CopyFields.tsx`: generische Kopierfelder; `ContactFormFields` ist jetzt
-  ein Wrapper.
-- `src/components/InstructionCard.tsx`: Anleitung (Schritt 4) und Felder (Schritt 5).
+  Listen ergänzt; eingerückte Folgezeilen werden an den letzten Listenpunkt angehängt).
+- `src/components/CopyFields.tsx`: generische Kopierfelder (`CopyFields`) und einzelnes
+  Feld (`CopyFieldItem`); `ContactFormFields` ist ein Wrapper. Nach dem Kopieren erscheint
+  ein grüner Haken neben dem Button (Platz ist reserviert, damit nichts springt). Für
+  Screenreader wird „Kopiert“ ausgegeben.
+- `src/components/InstructionCard.tsx`: Anleitung, strukturierte Schritte mit
+  eingebetteten Feldern und Link in einer Karte (Schritt 4).
 
 ### Kampagne
 
@@ -1168,7 +1198,8 @@ fields:
 
 - `npm run build` sauber.
 - Typ `ep-petition`: Anleitung, Link und Felder sichtbar; keine PLZ, kein Adressformular,
-  kein Druck-Button; Petitionstext und Absenderdaten in den Kopierfeldern.
+  kein Druck-Button; Titel und Petitionstext in den Kopierfeldern, persönliche Angaben
+  direkt im Portal.
 - Regression: `mdb`, `landtag`, `landrat`, `buergermeister`, `netzbetreiber` unverändert.
 - Fehlende `instructions/<typ>.md` → Hinweis statt leerer Karte.
 

@@ -1,5 +1,11 @@
 import { parse } from 'yaml';
-import type { Campaign, CampaignMeta, Instruction, InstructionField } from '../types';
+import type {
+  Campaign,
+  CampaignMeta,
+  Instruction,
+  InstructionField,
+  InstructionStep,
+} from '../types';
 
 // Alle Kampagnen-Dateien werden zur Build-Zeit eingelesen. Dadurch landen die
 // Inhalte direkt im Bundle und es ist zur Laufzeit kein Server nötig.
@@ -38,6 +44,7 @@ interface InstructionFrontmatter {
   url?: unknown;
   linkLabel?: unknown;
   fields?: Array<Partial<InstructionField>>;
+  steps?: Array<{ text?: unknown; fields?: unknown; link?: unknown }>;
 }
 
 /**
@@ -47,17 +54,27 @@ interface InstructionFrontmatter {
 function parseInstruction(raw: string): Instruction {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---[ \t]*(?:\r?\n|$)/);
   if (!match) {
-    return { fields: [], body: raw.trim() };
+    return { fields: [], steps: [], body: raw.trim() };
   }
 
   const meta = (parse(match[1]) ?? {}) as InstructionFrontmatter;
-  const fields = Array.isArray(meta.fields)
-    ? meta.fields.map((field) => ({
+  const fields: InstructionField[] = Array.isArray(meta.fields)
+    ? meta.fields.map((field, index) => ({
+        id: String(field.id ?? `feld-${index + 1}`),
         label: String(field.label ?? ''),
         value: String(field.value ?? ''),
         multiline: Boolean(field.multiline),
         note: field.note ? String(field.note) : undefined,
       }))
+    : [];
+  const steps: InstructionStep[] = Array.isArray(meta.steps)
+    ? meta.steps
+        .map((step) => ({
+          text: String(step.text ?? '').trim(),
+          fields: Array.isArray(step.fields) ? step.fields.map(String) : undefined,
+          link: step.link ? Boolean(step.link) : undefined,
+        }))
+        .filter((step) => step.text)
     : [];
 
   return {
@@ -65,6 +82,7 @@ function parseInstruction(raw: string): Instruction {
     url: meta.url ? String(meta.url) : undefined,
     linkLabel: meta.linkLabel ? String(meta.linkLabel) : undefined,
     fields,
+    steps,
     body: raw.slice(match[0].length).trim(),
   };
 }

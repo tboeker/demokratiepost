@@ -98,7 +98,11 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
 - **Anleitungstypen** (`instruction: true`, z. B. `ep-petition`, M7): kein Lookup, kein
   Adressformular, kein Druck/PDF. Die Anleitung liegt in
   `campaigns/<id>/instructions/<typ>.md` (Markdown + YAML-Frontmatter mit `url`,
-  `linkLabel`, `fields`), der Text für das Webformular in `templates/<typ>.md`.
+  `linkLabel`, `fields`, `steps`), der Text für das Webformular in `templates/<typ>.md`.
+  Anleitung und Kopierfelder stehen zusammen in Schritt 4 (eine Karte): Jeder Schritt aus
+  `steps` bindet über `fields: [id]` die Formularfelder ein, die direkt darunter kopiert
+  werden; `link: true` setzt den Portal-Button unter den Schritt. `<!-- schritte -->` im
+  Markdown markiert die Stelle der Schrittliste.
   Feldwerte dürfen Platzhalter enthalten (`{{ absender.* }}`, `{{ betreff }}`,
   `{{ nachricht }}` = gerenderter Template-Text); der Markdown-Text bleibt statisch.
 - Template-Platzhalter in Punktnotation: `{{ absender.name }}`, für die Selbstbezeichnung

@@ -12,6 +12,75 @@ export interface CopyField {
   note?: string;
 }
 
+interface CopyFieldItemProps {
+  field: CopyField;
+  /** Präfix für die Feld-IDs, damit mehrere Formulare eindeutig bleiben. */
+  idPrefix?: string;
+}
+
+/**
+ * Ein einzelnes Feld zum Kopieren. Weil sich externe Formulare (Cross-Origin)
+ * nicht direkt aus der App befüllen lassen, gibt es pro Feld einen eigenen
+ * Kopier-Button; nach dem Kopieren erscheint ein grüner Haken.
+ */
+export function CopyFieldItem({ field, idPrefix = 'copy' }: CopyFieldItemProps) {
+  const [copied, setCopied] = useState(false);
+  const inputId = `${idPrefix}-${field.id}`;
+
+  async function handleCopy() {
+    const ok = await copyToClipboard(field.value);
+    if (ok) setCopied(true);
+  }
+
+  return (
+    <div className="copy-field">
+      <label className="copy-field-label" htmlFor={inputId}>
+        {field.label}
+      </label>
+      {field.note && <p className="copy-field-note">{field.note}</p>}
+      <div className="copy-field-row">
+        {field.multiline ? (
+          <textarea
+            id={inputId}
+            className="input copy-field-value copy-field-textarea"
+            value={field.value}
+            readOnly
+            rows={10}
+            {...noAutofill}
+          />
+        ) : (
+          <input
+            id={inputId}
+            className="input copy-field-value"
+            value={field.value}
+            readOnly
+            {...noAutofill}
+          />
+        )}
+        <div className="action-with-status">
+          <button
+            type="button"
+            className="button button-secondary copy-field-button"
+            onClick={handleCopy}
+          >
+            Kopieren
+          </button>
+          <span className="action-status" role="status">
+            {copied && (
+              <>
+                <span className="action-check" aria-hidden="true">
+                  ✓
+                </span>
+                <span className="visually-hidden">Kopiert</span>
+              </>
+            )}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 interface CopyFieldsProps {
   title?: string;
   hint?: string;
@@ -26,62 +95,15 @@ interface CopyFieldsProps {
  * direkt aus der App befüllen lassen.
  */
 export function CopyFields({ title, hint, fields, idPrefix = 'copy' }: CopyFieldsProps) {
-  const [copiedId, setCopiedId] = useState<string | null>(null);
-
-  async function handleCopy(field: CopyField) {
-    const ok = await copyToClipboard(field.value);
-    if (!ok) return;
-
-    setCopiedId(field.id);
-    window.setTimeout(() => {
-      setCopiedId((current) => (current === field.id ? null : current));
-    }, 2000);
-  }
-
   return (
     <div className="copy-form">
       {title && <h3>{title}</h3>}
       {hint && <p className="hint">{hint}</p>}
 
       <div className="copy-fields">
-        {fields.map((field) => {
-          const inputId = `${idPrefix}-${field.id}`;
-          return (
-            <div className="copy-field" key={field.id}>
-              <label className="copy-field-label" htmlFor={inputId}>
-                {field.label}
-              </label>
-              {field.note && <p className="copy-field-note">{field.note}</p>}
-              <div className="copy-field-row">
-                {field.multiline ? (
-                  <textarea
-                    id={inputId}
-                    className="input copy-field-value copy-field-textarea"
-                    value={field.value}
-                    readOnly
-                    rows={10}
-                    {...noAutofill}
-                  />
-                ) : (
-                  <input
-                    id={inputId}
-                    className="input copy-field-value"
-                    value={field.value}
-                    readOnly
-                    {...noAutofill}
-                  />
-                )}
-                <button
-                  type="button"
-                  className="button button-secondary copy-field-button"
-                  onClick={() => handleCopy(field)}
-                >
-                  {copiedId === field.id ? 'Kopiert!' : 'Kopieren'}
-                </button>
-              </div>
-            </div>
-          );
-        })}
+        {fields.map((field) => (
+          <CopyFieldItem key={field.id} field={field} idPrefix={idPrefix} />
+        ))}
       </div>
     </div>
   );
