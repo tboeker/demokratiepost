@@ -1,4 +1,5 @@
 import type { FormEvent } from 'react';
+import { noAutofill } from '../lib/autofill';
 
 interface PlzInputProps {
   value: string;
@@ -24,12 +25,11 @@ export function PlzInput({ value, onChange, onSubmit, loading }: PlzInputProps) 
           className="input"
           type="text"
           inputMode="numeric"
-          autoComplete="postal-code"
           placeholder="z. B. 10115"
           maxLength={5}
           value={value}
           onChange={(event) => onChange(event.target.value.replace(/\D/g, ''))}
-          data-bwignore="true"
+          {...noAutofill}
         />
         <button className="button" type="submit" disabled={loading || value.length !== 5}>
           {loading ? 'Suche …' : 'Empfänger suchen'}

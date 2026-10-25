@@ -360,6 +360,20 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
   nur initial, überschreibbar). Manuell erfasste Empfänger-Daten liegen analog **pro Typ**
   unter `demokratiepost.empfaenger.<typ>.v1`.
 
+**Autofill durch Browser und Passwort-Manager**
+
+- Alle Eingabefelder – Absender, PLZ-Suche, manuelles Empfängerformular und Kopierfelder –
+  sind über `noAutofill` (`src/lib/autofill.ts`) markiert: `autocomplete="off"` plus
+  `data-bwignore` (Bitwarden), `data-1p-ignore` (1Password), `data-lpignore` (LastPass),
+  `data-protonpass-ignore` (Proton Pass) und `data-form-type="other"` (Dashlane). Dadurch
+  bieten Passwort-Manager auf keinem Feld ihr Inline-Menü an.
+- Bewusster Verzicht: Auch die Absenderfelder sind gesperrt, damit keine Identitäts- oder
+  Adress-Plugins fremde Daten einsetzen. Die Werte kommen ausschließlich aus der Eingabe
+  bzw. dem lokalen Speicher (`demokratiepost.sender.v1`).
+- `autocomplete="off"` wird von manchen Browsern bei Adressfeldern ignoriert; die
+  Passwort-Manager-Marker greifen davon unabhängig. Das ist bekannt und bewusst in Kauf
+  genommen – die App verlässt sich nicht auf Browser-Autofill.
+
 **Datenschutz**
 
 - Die Daten verlassen das Gerät nie: kein Backend, keine Übertragung, kein Tracking.

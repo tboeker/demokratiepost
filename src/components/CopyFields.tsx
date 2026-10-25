@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { copyToClipboard } from '../lib/export';
+import { noAutofill } from '../lib/autofill';
 
 /** Ein vorausgefülltes Feld mit eigenem Kopier-Button. */
 export interface CopyField {
@@ -59,8 +60,7 @@ export function CopyFields({ title, hint, fields, idPrefix = 'copy' }: CopyField
                     value={field.value}
                     readOnly
                     rows={10}
-                    autoComplete="off"
-                    data-bwignore="true"
+                    {...noAutofill}
                   />
                 ) : (
                   <input
@@ -68,8 +68,7 @@ export function CopyFields({ title, hint, fields, idPrefix = 'copy' }: CopyField
                     className="input copy-field-value"
                     value={field.value}
                     readOnly
-                    autoComplete="off"
-                    data-bwignore="true"
+                    {...noAutofill}
                   />
                 )}
                 <button
