@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { buildMailto, copyToClipboard, copyToClipboardSync, printLetter } from '../lib/export';
 import { recipientTypeLabel } from '../lib/recipientTypes';
 import type { Sender } from '../types';
@@ -35,6 +35,7 @@ export function LetterPreview({
 }: LetterPreviewProps) {
   const [copied, setCopied] = useState(false);
   const [contactStatus, setContactStatus] = useState<ContactStatus>('idle');
+  const contactFieldsRef = useRef<HTMLDivElement>(null);
 
   async function handleCopy() {
     const ok = await copyToClipboard(contactBody);
@@ -45,10 +46,16 @@ export function LetterPreview({
   /**
    * Kopiert die Nachricht, bevor der Link das Kontaktformular in einem neuen Tab öffnet.
    * Der Klick-Handler läuft synchron, damit die Zwischenablage trotz Tab-Wechsel gefüllt wird.
+   * Anschließend springt die Seite zu den kopierbaren Feldern, damit sie beim Zurückwechseln
+   * direkt sichtbar sind.
    */
   function handleContactFormClick() {
     const ok = copyToClipboardSync(contactBody);
     setContactStatus(ok ? 'copied' : 'failed');
+
+    window.setTimeout(() => {
+      contactFieldsRef.current?.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }, 0);
   }
 
   return (
@@ -141,7 +148,9 @@ export function LetterPreview({
       </div>
 
       {!recipientEmail && contactFormUrl && (
-        <ContactFormFields subject={subject} body={contactBody} sender={sender} />
+        <div ref={contactFieldsRef} className="contact-form-fields">
+          <ContactFormFields subject={subject} body={contactBody} sender={sender} />
+        </div>
       )}
     </div>
   );

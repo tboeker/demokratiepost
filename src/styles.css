@@ -317,6 +317,10 @@ body {
   border-top: 1px solid var(--border);
 }
 
+.contact-form-fields {
+  scroll-margin-top: 1rem;
+}
+
 .copy-form h3 {
   margin: 0 0 0.25rem;
   font-size: 1.05rem;
