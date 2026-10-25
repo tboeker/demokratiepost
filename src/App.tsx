@@ -414,6 +414,12 @@ export default function App() {
   const instructionContext: TemplateContext = { ...letterContext, nachricht: instructionMessage };
 
   const recipientEmail = recipient ? recipient.email || undefined : undefined;
+  const recipientEmailQuelle =
+    recipient && isMandat(recipient) ? recipient.emailQuelle : undefined;
+  const recipientEmailQuelleUrl =
+    recipient && isMandat(recipient) ? recipient.emailQuelleUrl : undefined;
+  const recipientEmailStand =
+    recipient && isMandat(recipient) ? recipient.emailStand : undefined;
   const contactFormUrl = recipient && isMandat(recipient) ? recipient.contactFormUrl : undefined;
   const homepage = recipient && isMandat(recipient) ? recipient.homepage : undefined;
   const selectedKommune =
@@ -663,6 +669,9 @@ export default function App() {
               body={letterBody}
               contactBody={contactBody}
               recipientEmail={recipientEmail}
+              recipientEmailQuelle={recipientEmailQuelle}
+              recipientEmailQuelleUrl={recipientEmailQuelleUrl}
+              recipientEmailStand={recipientEmailStand}
               contactFormUrl={contactFormUrl}
               homepage={homepage}
               recipientHint={recipientHint}

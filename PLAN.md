@@ -63,10 +63,11 @@ im jeweiligen Schritt.
   (`localStorage` für Komfort). Gleichzeitig das Datenschutz-Argument.
 - PDF über eine per CSS gestylte Briefansicht + `window.print()` (beste Typografie,
   DIN 5008, keine PDF-Library nötig). Optional später `pdf-lib` für direkten `.pdf`-Download.
-- Versand: Der Bundestag veröffentlicht **keine E-Mail-Adressen**. Die App führt daher direkt
-  zum **Kontaktformular** des Abgeordneten; zusätzlich „Nachricht kopieren". Wo eine E-Mail-Adresse
-  vorliegt (spätere Empfängertypen, z. B. Landtag Nordrhein-Westfalen), wird ein `mailto:`-Link
-  angeboten.
+- Versand: Primär `mailto:` mit der E-Mail-Adresse aus dem offiziellen PDF-Sonderdruck
+  „Kürschners Volkshandbuch“ (`fetch-mdb-emails.mjs`; Quelle und Stand werden in der App
+  angezeigt). Liegt keine Adresse vor, wird **kein** „E-Mail senden“-Button gezeigt. Das
+  **Kontaktformular** des Abgeordneten bleibt als zweite Option erhalten; zusätzlich
+  „Nachricht kopieren“. Landtag Nordrhein-Westfalen nutzt denselben `mailto:`-Weg.
 - Das Kontaktformular auf bundestag.de lässt sich **nicht** per URL vorbelegen (getestet) und
   ist wegen Cross-Origin/CSRF von der App aus nicht befüllbar. Beim Klick auf
   „Kontaktformular öffnen" wird deshalb die Nachricht automatisch in die Zwischenablage
@@ -163,11 +164,15 @@ die Gemeinde-/Kreisebene (Punkt 4, M5) und die Netzbetreiber (Punkt 5, M6):
   Die Mandatsart kommt dort aus dem `constituencyInfo`-Block (`Wahlkreismandat` /
   `Gewählt über Landesliste`); das JSON-LD enthält den Wahlkreis nicht zuverlässig.
 - Liefert: Name, Fraktion, Geschlecht, Wahlkreis/Bundesland, Homepage,
-  **Wahlkreisbüro-Anschrift** und **Kontaktformular-Link**. Nur Direktmandate sind über die
-  PLZ auffindbar.
-- **Keine E-Mail-Adressen**: Der Bundestag veröffentlicht nur Kontaktformulare (auch die
-  Open-Data-Stammdaten enthalten keine Kontakte). Die App nutzt daher den
-  Kontaktformular-Link statt einer E-Mail und für Briefe die Wahlkreisbüro-Anschrift.
+  **E-Mail-Adresse**, **Wahlkreisbüro-Anschrift** und **Kontaktformular-Link**. Nur
+  Direktmandate sind über die PLZ auffindbar.
+- **E-Mail-Adressen**: Die Profile und die Open-Data-Stammdaten enthalten keine Kontakte.
+  Der Bundestag veröffentlicht die Adressen aber im offiziellen PDF-Sonderdruck
+  „Kürschners Volkshandbuch“ (unter jeder Biografie). `fetch-mdb-emails.mjs` liest das PDF,
+  ordnet die Adressen über Nachname + Partei den laufenden Mandaten zu und ergänzt Nachrücker
+  über deren persönliche Homepage (nur Adressen mit passendem Nachnamen im lokalen Teil).
+  Geprüfte Sonderfälle stehen in `scripts/source/mdb-emails-ergaenzungen.json`. Das
+  Kontaktformular bleibt als zweite Option; für Briefe gilt die Wahlkreisbüro-Anschrift.
 - Die Seite schützt sich mit einer Bot-Challenge → Abruf über einen Headless-Browser
   (`puppeteer-core`). Zusammenführung: `scripts/build-mdb.mjs`.
 
@@ -398,7 +403,9 @@ demokratiepost/
 │       │              netzbetreiber.md, ep-petition.md)
 │       └── instructions/ (ep-petition.md – Anleitung + Formularfelder, M7)
 ├── scripts/                          # Datenpipeline (Build-Zeit, nicht im Client)
-│   ├── fetch-bundestag.mjs           # bundestag.de-Profile → data/mdb.json
+│   ├── fetch-bundestag.mjs           # bundestag.de-Profile → data/mdb-profiles.json
+│   ├── fetch-mdb-emails.mjs          # Kürschner-PDF + Homepage-Fallback → source/mdb-emails.json
+│   ├── build-mdb.mjs                 # Profile + Mandate + E-Mails → data/mdb.json
 │   ├── build-plz-index.ts            # PLZ→Wahlkreis → data/plz/<prefix>.json
 │   ├── fetch-landtag.mjs             # Landtags-Roster (abgeordnetenwatch) → mandates-landtag.json
 │   ├── fetch-plz-landtag.mjs         # PLZ→Landtagswahlkreis → source/plz-landtag/

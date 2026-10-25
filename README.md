@@ -131,10 +131,13 @@ Feldwerte dürfen Platzhalter enthalten (`{{ absender.* }}`, `{{ betreff }}`,
 Die Empfänger (Bundestagsabgeordnete) und die Zuordnung `PLZ → Wahlkreis` liegen als
 JSON unter `public/data/`. Die **Abgeordneten-Daten sind echt** und werden aus den Profilen
 auf bundestag.de gelesen (Name, Fraktion, Wahlkreis, Wahlkreisbüro-Anschrift,
-Kontaktformular-Link). E-Mail-Adressen veröffentlicht der Bundestag nicht – die App bietet
-deshalb den Kontaktformular-Link an. Beim Öffnen wird der Brieftext automatisch in die
-Zwischenablage kopiert; zusätzlich zeigt die App die Formularfelder vorausgefüllt mit
-eigenem Kopier-Button pro Feld (das Formular selbst lässt sich nicht vorbelegen).
+Kontaktformular-Link). Die **E-Mail-Adressen** stammen aus dem offiziellen PDF-Sonderdruck
+„Kürschners Volkshandbuch“; Nachrücker werden über ihre persönliche Homepage ergänzt
+(`scripts/fetch-mdb-emails.mjs`, Quelle und Stand zeigt die App an). Die App bietet primär
+`mailto:` an und behält das **Kontaktformular als Alternative**. Beim Öffnen wird der
+Brieftext automatisch in die Zwischenablage kopiert; zusätzlich zeigt die App die
+Formularfelder vorausgefüllt mit eigenem Kopier-Button pro Feld (das Formular selbst lässt
+sich nicht vorbelegen). Ohne E-Mail-Adresse erscheint kein „E-Mail senden“-Button.
 Die **PLZ-Zuordnung ist vollständig** (8.218 PLZ, 299 Wahlkreise) und wird aus den
 PLZ-Gebieten des BKG und der Wahlkreiseinteilung 2025 der Bundeswahlleiterin abgeleitet.
 Für die kommunale Ebene (Bürgermeister:in, Landrät:in) kommen die Anschriften und

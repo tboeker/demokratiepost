@@ -15,7 +15,7 @@
  * Aufruf:
  *   node scripts/build-mdb.mjs
  */
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { matchKey } from './lib/names.mjs';
@@ -23,6 +23,7 @@ import { matchKey } from './lib/names.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const profilesFile = resolve(root, 'public/data/mdb-profiles.json');
 const mandatesFile = resolve(root, 'public/data/mandates.json');
+const emailsFile = resolve(root, 'scripts/source/mdb-emails.json');
 const outFile = resolve(root, 'public/data/mdb.json');
 
 function readJson(file, hint) {
@@ -38,6 +39,20 @@ function readJson(file, hint) {
 
 const profiles = readJson(profilesFile, 'node scripts/fetch-bundestag.mjs');
 const mandates = readJson(mandatesFile, 'node scripts/fetch-abgeordnetenwatch.mjs');
+
+// Optional: E-Mail-Adressen aus `fetch-mdb-emails.mjs`. Fehlt die Datei, wird
+// ohne E-Mail gebaut (die App nutzt dann weiter nur das Kontaktformular).
+const emailData = existsSync(emailsFile)
+  ? JSON.parse(readFileSync(emailsFile, 'utf8'))
+  : undefined;
+const emailsById = new Map((emailData?.eintraege ?? []).map((entry) => [entry.id, entry]));
+
+function emailQuelleLabel(hit) {
+  if (!hit) return undefined;
+  if (hit.quelle === 'kuerschner') return 'Kürschners Volkshandbuch';
+  if (hit.quelle === 'homepage') return 'Persönliche Website';
+  return hit.quelle;
+}
 
 const byKey = new Map();
 for (const profile of profiles) {
@@ -84,6 +99,8 @@ for (const mandate of mandates) {
     throw new Error(`Listenmandat ohne Bundesland: ${mandate.name}`);
   }
 
+  const emailHit = emailsById.get(profile?.id ?? `aw-${mandate.politicianId}`);
+
   merged.push({
     id: profile?.id ?? `aw-${mandate.politicianId}`,
     name: profile?.name ?? mandate.name,
@@ -94,6 +111,14 @@ for (const mandate of mandates) {
     address: profile?.address,
     offices: profile?.offices,
     contactFormUrl: profile?.contactFormUrl,
+    ...(emailHit
+      ? {
+          email: emailHit.email,
+          emailQuelle: emailQuelleLabel(emailHit),
+          ...(emailHit.quelleUrl ? { emailQuelleUrl: emailHit.quelleUrl } : {}),
+          ...(emailHit.stand ? { emailStand: emailHit.stand } : {}),
+        }
+      : {}),
     homepage: profile?.homepage,
     profileUrl: profile?.profileUrl,
   });
@@ -113,7 +138,14 @@ writeFileSync(outFile, `${JSON.stringify(merged, null, 2)}\n`);
 
 const direct = merged.filter((entry) => entry.mandate === 'direct').length;
 const list = merged.filter((entry) => entry.mandate === 'list').length;
+const withEmail = merged.filter((entry) => entry.email).length;
 console.log(`${merged.length} Abgeordnete geschrieben (${direct} direkt, ${list} Liste).`);
+console.log(
+  `${withEmail} mit E-Mail-Adresse` +
+    (emailData
+      ? ` (${emailData.stand ? `Kürschner-Stand ${emailData.stand}` : 'Quelle: mdb-emails.json'})`
+      : ' – mdb-emails.json fehlt'),
+);
 if (dropped.length > 0) {
   console.log(`${dropped.length} Profile ohne laufendes Mandat entfernt: ${dropped.join(', ')}`);
 }

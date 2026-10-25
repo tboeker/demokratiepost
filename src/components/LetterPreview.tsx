@@ -12,6 +12,12 @@ interface LetterPreviewProps {
   /** Nur Text und Abschlussformel für Kontaktformular/E-Mail. */
   contactBody: string;
   recipientEmail?: string;
+  /** Quelle der E-Mail-Adresse, z. B. "Kürschners Volkshandbuch". */
+  recipientEmailQuelle?: string;
+  /** Link zur Quelle (PDF oder persönliche Website). */
+  recipientEmailQuelleUrl?: string;
+  /** Stand der E-Mail-Adresse, z. B. "8. Juni 2026". */
+  recipientEmailStand?: string;
   contactFormUrl?: string;
   homepage?: string;
   /** Hinweis zur Amtsinhaber:in (z. B. „Stand 2021 – bitte prüfen“). */
@@ -26,11 +32,15 @@ export function LetterPreview({
   body,
   contactBody,
   recipientEmail,
+  recipientEmailQuelle,
+  recipientEmailQuelleUrl,
+  recipientEmailStand,
   contactFormUrl,
   homepage,
   recipientHint,
 }: LetterPreviewProps) {
   const [copied, setCopied] = useState(false);
+  const [subjectCopied, setSubjectCopied] = useState(false);
   const [contactStatus, setContactStatus] = useState<ContactStatus>('idle');
   const contactFieldsRef = useRef<HTMLDivElement>(null);
 
@@ -38,6 +48,12 @@ export function LetterPreview({
     const ok = await copyToClipboard(contactBody);
     setCopied(ok);
     window.setTimeout(() => setCopied(false), 2000);
+  }
+
+  async function handleCopySubject() {
+    const ok = await copyToClipboard(subject);
+    setSubjectCopied(ok);
+    window.setTimeout(() => setSubjectCopied(false), 2000);
   }
 
   /**
@@ -55,6 +71,13 @@ export function LetterPreview({
     }, 0);
   }
 
+  const emailQuelle = [
+    recipientEmailQuelle,
+    recipientEmailStand ? `Stand ${recipientEmailStand}` : '',
+  ]
+    .filter(Boolean)
+    .join(', ');
+
   return (
     <div className="letter-block">
       <div className="letter-preview">
@@ -71,9 +94,30 @@ export function LetterPreview({
 
       {recipientHint && <p className="hint">{recipientHint}</p>}
 
+      {recipientEmail && recipientEmailQuelle && (
+        <p className="hint">
+          Quelle der E-Mail-Adresse: {emailQuelle} – bitte vor dem Versand prüfen.
+          {recipientEmailQuelleUrl && (
+            <>
+              {' '}
+              <a href={recipientEmailQuelleUrl} target="_blank" rel="noreferrer">
+                Quelle öffnen
+              </a>
+            </>
+          )}
+        </p>
+      )}
+
+      {recipientEmail && contactFormUrl && (
+        <p className="hint">
+          Alternativ kannst du das Kontaktformular nutzen; die Nachricht wird dabei in die
+          Zwischenablage kopiert.
+        </p>
+      )}
+
       {!recipientEmail && contactFormUrl && (
         <p className="hint">
-          Der Bundestag veröffentlicht keine E-Mail-Adressen. Nutze das Kontaktformular oder
+          Für diesen Empfänger ist keine E-Mail-Adresse hinterlegt. Nutze das Kontaktformular oder
           verschicke den Brief per Post. Für das Kontaktformular wird nur der Nachrichtentext
           mit Abschlussformel verwendet – Anschriften und Datum stehen nur im Brief.
         </p>
@@ -88,30 +132,47 @@ export function LetterPreview({
       )}
 
       <div className="letter-actions">
-        <button className="button" type="button" onClick={printLetter}>
+        {recipientEmail && (
+          <a className="button" href={buildMailto(recipientEmail, subject, contactBody)}>
+            E-Mail senden
+          </a>
+        )}
+
+        <button
+          className={recipientEmail ? 'button button-secondary' : 'button'}
+          type="button"
+          onClick={printLetter}
+        >
           Drucken / als PDF speichern
         </button>
 
-        {recipientEmail ? (
+        {contactFormUrl && (
           <a
             className="button button-secondary"
-            href={buildMailto(recipientEmail, subject, contactBody)}
+            href={contactFormUrl}
+            target="_blank"
+            rel="noreferrer"
+            onClick={handleContactFormClick}
           >
-            E-Mail senden
+            Kontaktformular öffnen
           </a>
-        ) : (
-          contactFormUrl && (
-            <a
-              className="button button-secondary"
-              href={contactFormUrl}
-              target="_blank"
-              rel="noreferrer"
-              onClick={handleContactFormClick}
-            >
-              Kontaktformular öffnen
-            </a>
-          )
         )}
+
+        <div className="action-with-status">
+          <button className="button button-secondary" type="button" onClick={handleCopySubject}>
+            Betreff kopieren
+          </button>
+          <span className="action-status" role="status">
+            {subjectCopied && (
+              <>
+                <span className="action-check" aria-hidden="true">
+                  ✓
+                </span>
+                <span className="visually-hidden">Betreff kopiert</span>
+              </>
+            )}
+          </span>
+        </div>
 
         <div className="action-with-status">
           <button className="button button-secondary" type="button" onClick={handleCopy}>
@@ -123,7 +184,7 @@ export function LetterPreview({
                 <span className="action-check" aria-hidden="true">
                   ✓
                 </span>
-                <span className="visually-hidden">Kopiert</span>
+                <span className="visually-hidden">Nachricht kopiert</span>
               </>
             )}
           </span>
@@ -141,7 +202,7 @@ export function LetterPreview({
         )}
       </div>
 
-      {!recipientEmail && contactFormUrl && contactStatus === 'copied' && (
+      {contactFormUrl && contactStatus === 'copied' && (
         <p className="hint">
           Kontaktformular geöffnet – die Nachricht liegt in der Zwischenablage. Füge sie im
           Feld „Nachricht“ mit <kbd>Strg</kbd>+<kbd>V</kbd> (Mac: <kbd>⌘</kbd>+<kbd>V</kbd>) ein.
@@ -149,14 +210,14 @@ export function LetterPreview({
         </p>
       )}
 
-      {!recipientEmail && contactFormUrl && contactStatus === 'failed' && (
+      {contactFormUrl && contactStatus === 'failed' && (
         <p className="hint">
           Kontaktformular geöffnet. Automatisches Kopieren hat nicht geklappt – nutze
           „Nachricht kopieren“ oder kopiere Betreff und Nachricht unten.
         </p>
       )}
 
-      {!recipientEmail && contactFormUrl && (
+      {contactFormUrl && (!recipientEmail || contactStatus !== 'idle') && (
         <div ref={contactFieldsRef} className="contact-form-fields">
           <ContactFormFields subject={subject} body={contactBody} />
         </div>

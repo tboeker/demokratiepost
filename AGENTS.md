@@ -32,6 +32,7 @@ Datenpipeline (Build-Zeit, nicht Teil des Clients) – Details in
 # Jeder Schritt wird einzeln ausgeführt (kein Sammelbefehl):
 node scripts/fetch-abgeordnetenwatch.mjs                      # laufende Mandate → public/data/mandates.json
 node scripts/fetch-bundestag.mjs                              # bundestag.de-Profile → public/data/mdb-profiles.json
+node scripts/fetch-mdb-emails.mjs                             # Kürschner-PDF + Homepage-Fallback → scripts/source/mdb-emails.json
 node scripts/build-mdb.mjs                                    # zusammenführen → public/data/mdb.json
 npm run data:plz         # PLZ-CSV aktualisieren + Shards → public/data/plz/*.json
 
@@ -119,10 +120,15 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
 
 ## Daten & Gotchas
 
-- **Keine E-Mail-Adressen**: Der Bundestag veröffentlicht keine Mails der Abgeordneten (nur
-  Kontaktformulare; auch die Open-Data-Stammdaten enthalten keine Kontakte). Die App nutzt
-  deshalb den **Kontaktformular-Link** und für Briefe die **Wahlkreisbüro-Anschrift**
-  (Fallback: Bundestagsbüro).
+- **E-Mail-Adressen**: Die bundestag.de-Profile und die Open-Data-Stammdaten enthalten keine
+  Kontakte. Der Bundestag veröffentlicht die Adressen aber im offiziellen PDF-Sonderdruck
+  „Kürschners Volkshandbuch“ (unter jeder Biografie). `fetch-mdb-emails.mjs` liest dieses PDF
+  (Cache `scripts/source/cache/kuerschner/`, `pdfjs-dist` nur devDependency) und ergänzt
+  Nachrücker über deren persönliche Homepage; geprüfte Sonderfälle stehen in
+  `scripts/source/mdb-emails-ergaenzungen.json`. Stand Oktober 2026: 630/630 Adressen.
+  Das **Kontaktformular bleibt als zweite Option** erhalten (bundestag.de lässt sich nicht
+  vorbelegen). Für Briefe gilt weiter die **Wahlkreisbüro-Anschrift** (Fallback:
+  Bundestagsbüro). Bei fehlender E-Mail zeigt die App **keinen** „E-Mail senden“-Button.
 - **Bot-Challenge**: bundestag.de schützt Seiten mit einer Challenge (Enodia). Ein normaler
   HTTP-Request wird auf `/.enodia/challenge` umgeleitet. `fetch-bundestag.mjs` nutzt daher
   Headless-Chrome über `puppeteer-core` (Chrome nötig, Pfad via `CHROME_PATH`).

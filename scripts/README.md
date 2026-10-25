@@ -4,25 +4,27 @@ Die Anwendung lädt zur Laufzeit Daten aus `public/data/` (lazy, nach Bedarf):
 
 | Datei | Inhalt |
 |---|---|
-| `public/data/mdb.json` | Alle Bundestagsabgeordneten (Direkt- + Listenmandate) inkl. Anschrift und Kontaktformular-Link |
+| `public/data/mdb.json` | Alle Bundestagsabgeordneten (Direkt- + Listenmandate) inkl. Anschrift, E-Mail-Adresse und Kontaktformular-Link |
 | `public/data/plz/<prefix>.json` | Zuordnung `PLZ -> [Wahlkreis-Nummern]`, aufgeteilt nach den ersten zwei PLZ-Ziffern |
 | `public/data/landtag/<staat>.json` + `plz-landtag/<prefix>.json` | Landtags-Roster je stimmigem Bundesland und PLZ→Landtagswahlkreis |
 | `public/data/kommunen/gemeinden-<land>.json` + `kreise.json` + `plz-kommunen/<prefix>.json` | Kommunale Verwaltungen (Kreis/Verband/Gemeinde) und PLZ→Gemeinde/Kreis |
 | `public/data/netzbetreiber/netzbetreiber.json` + `meta.json` + `plz-netzbetreiber/<prefix>.json` | Verteilnetzbetreiber Strom (M6) und PLZ→Netzbetreiber |
 
-## 1. Abgeordnete (drei Schritte)
+## 1. Abgeordnete (vier Schritte)
 
-Die MdB-Daten entstehen aus **zwei Quellen**, die sich ergänzen:
+Die MdB-Daten entstehen aus **drei Quellen**, die sich ergänzen:
 
 | Quelle | Liefert | Warum |
 |---|---|---|
 | abgeordnetenwatch.de (API v2, CC0) | Wer ist **aktuell** Mitglied, Mandatsart, Wahlkreis, Landesliste, Partei | bundestag.de lässt Profile ausgeschiedener Abgeordneter online (639 Profile für 630 Mandate) |
 | bundestag.de (Profile) | Anschriften (Bundestags- und Wahlkreisbüro), Kontaktformular-Link, Homepage, Geschlecht | Nur der Bundestag veröffentlicht die Büroanschriften |
+| Kürschners Volkshandbuch (PDF) | E-Mail-Adressen | Der Bundestag veröffentlicht die Adressen nicht in den Profilen, aber im offiziellen PDF-Sonderdruck des Handbuchs |
 
 ```bash
 npm run data:aw          # 1. laufende Mandate  -> public/data/mandates.json
 npm run data:bundestag   # 2. Profile           -> public/data/mdb-profiles.json
-npm run data:build       # 3. zusammenführen    -> public/data/mdb.json
+npm run data:emails      # 3. E-Mail-Adressen   -> scripts/source/mdb-emails.json
+npm run data:build       # 4. zusammenführen    -> public/data/mdb.json
 ```
 
 Die Schritte laufen **einzeln und in dieser Reihenfolge** (kein Sammelbefehl).
@@ -54,7 +56,36 @@ node scripts/fetch-bundestag.mjs
 CHROME_PATH=/pfad/zu/chrome MAX_PROFILES=5 node scripts/fetch-bundestag.mjs
 ```
 
-### Schritt 3: `build-mdb.mjs`
+### Schritt 3: `fetch-mdb-emails.mjs`
+
+Die bundestag.de-Profile enthalten keine E-Mail-Adressen. Der Bundestag veröffentlicht sie
+aber im offiziellen PDF-Sonderdruck **„Kürschners Volkshandbuch Deutscher Bundestag“**
+(unter jeder Biografie). Das Skript lädt das PDF (ca. 9,5 MB) nach
+`scripts/source/cache/kuerschner/` und liest den Biografie-Teil:
+
+- `--force` lädt das PDF neu; `KUERSCHNER_PDF=/pfad/volkshandbuch.pdf` nutzt eine lokale Datei.
+- Jede `E-Mail:`-Zeile wird über Nachname + Partei dem laufenden Mandat zugeordnet; bei
+  mehrdeutigen Nachnamen entscheidet der Vorname im lokalen Teil (z. B. `martin.hess@…`).
+- **Fallback Homepage**: Für Nachrücker nach dem Redaktionsschluss wird die persönliche
+  Homepage aus dem bundestag.de-Profil gelesen (Startseite, Kontakt-/Impressum-Seiten).
+  Übernommen werden nur Adressen, deren lokaler Teil den Nachnamen enthält – so fallen
+  veraltete Adressen von Vorgängern heraus (z. B. `jan.koestering@…` auf der Krampe-Seite).
+  Entschlüsselt werden auch Cloudflare- und WordPress-Obfuskationen (`data-cfemail`,
+  `[at]`/`[dot]`, `var ml/mi`).
+- **Manuelle Ergänzungen**: `scripts/source/mdb-emails-ergaenzungen.json` (Muster wie
+  `kommunen-plz-ergaenzungen.csv`) überschreibt automatisch ermittelte Adressen. Dort stehen
+  nur offiziell geprüfte Sonderfälle (aktuell Jan Krampe).
+- Ausgabe `scripts/source/mdb-emails.json` (committet) mit `stand` und je Eintrag
+  `{ id, name, email, quelle, quelleUrl?, stand? }`.
+
+Ist-Stand Oktober 2026: **630 von 630** Adressen (628 aus dem Kürschner, 1 Homepage,
+1 manuell). `build-mdb.mjs` übernimmt sie als `email`, `emailQuelle`, `emailQuelleUrl` und
+`emailStand`. Das Kontaktformular bleibt als zweite Option erhalten; ohne E-Mail zeigt die
+App **keinen** „E-Mail senden“-Button.
+
+`pdfjs-dist` ist nur **devDependency** und wird nicht in den Client gebündelt.
+
+### Schritt 4: `build-mdb.mjs`
 
 Verknüpft Profile und Mandate über den normalisierten Namen (Titel, Adelspartikel,
 Mittelnamen und Umlautschreibweisen werden ignoriert), **behält nur laufende Mandate** und
@@ -80,12 +111,13 @@ HTTP-Request wird auf `/.enodia/challenge` umgeleitet. Das Skript nutzt daher ei
 (Headless-)Chrome über `puppeteer-core`. Voraussetzung ist ein installiertes
 Chrome/Chromium (Standard-Pfad `/usr/bin/google-chrome`, sonst `CHROME_PATH` setzen).
 
-### Keine E-Mail-Adressen
+### E-Mail-Adressen und Kontaktformular
 
-Der Bundestag **veröffentlicht keine E-Mail-Adressen** der Abgeordneten (nur
-Kontaktformulare). Die offiziellen Stammdaten (Open Data, XML) enthalten ebenfalls keine
-Kontakte. Deshalb speichert die App den **Kontaktformular-Link** statt einer E-Mail und
-nutzt für Briefe die **Wahlkreisbüro-Anschrift** (Fallback: Bundestagsbüro).
+Die Profile auf bundestag.de und die offiziellen Stammdaten (Open Data, XML) enthalten keine
+Kontakte. Die Adressen stehen aber im **Kürschners Volkshandbuch**, das der Bundestag als
+PDF-Sonderdruck veröffentlicht (Schritt 3). Die App nutzt deshalb primär `mailto:` und bietet
+das **Kontaktformular** weiterhin als Alternative an. Für Briefe gilt die
+**Wahlkreisbüro-Anschrift** (Fallback: Bundestagsbüro).
 
 ## 2. PLZ → Wahlkreis (`fetch-plz-wahlkreis.mjs` + `build-plz-index.ts`)
 

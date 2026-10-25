@@ -130,14 +130,20 @@ export interface Mandatstraeger {
   address?: Address;
   /** Alle bekannten Büros (Bundestag + Wahlkreisbüros). */
   offices?: Address[];
-  /** Link zum Kontaktformular des Bundestags (ersetzt die E-Mail). */
+  /** Link zum Kontaktformular des Bundestags (Alternative zur E-Mail). */
   contactFormUrl?: string;
   /** Persönliche Homepage, falls bekannt. */
   homepage?: string;
   /** Profil beim jeweiligen Parlament bzw. auf abgeordnetenwatch.de. */
   profileUrl?: string;
-  /** E-Mail-Adresse, falls für einen Empfängertyp vorhanden (z. B. NRW-Landtag). */
+  /** E-Mail-Adresse, falls für einen Empfängertyp vorhanden (z. B. Bundestag, NRW-Landtag). */
   email?: string;
+  /** Quelle der E-Mail-Adresse, z. B. "Kürschners Volkshandbuch". */
+  emailQuelle?: string;
+  /** Link zur Quelle (PDF oder persönliche Website). */
+  emailQuelleUrl?: string;
+  /** Stand der E-Mail-Adresse, z. B. "8. Juni 2026". */
+  emailStand?: string;
 }
 
 /** Abwärtskompatibler Alias für {@link Mandatstraeger}. */
