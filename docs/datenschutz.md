@@ -8,10 +8,10 @@ deine Absenderdaten werden nicht an uns übertragen.
 
 ## Verantwortliche Stelle
 
-[Vor- und Nachname]
-[Straße und Hausnummer]
-[PLZ Ort]
-E-Mail: [E-Mail-Adresse]
+Tobias Böker
+Untere Hauptstr. 120
+37688 Beverungen
+E-Mail: demokratiepost@proton.me
 
 ## Hosting
 

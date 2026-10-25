@@ -46,10 +46,23 @@ Das Ziel: **möglichst große Reichweite durch eine möglichst kleine Hürde.**
 - **Freie Inhalte:** Kampagnen und Musterschreiben liegen als Dateien im Repository und können
   transparent nachvollzogen werden.
 
-## Projektstatus
+## Projektverlauf
 
-Der Prototyp beginnt bewusst klein:
+Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M6 sind umgesetzt.
 
-- **MVP:** Postleitzahl → Bundestagsabgeordnete → fertiger Brief.
-- Danach: Landtagsabgeordnete, kommunale Ebene (Bürgermeister, Landrat) und später
-  Netzbetreiber und Stadtwerke.
+- **M1 – Gerüst:** Vite + React + TypeScript, GitHub-Pages-Deploy, Kampagnen-Loader,
+  Platzhalter-Engine.
+- **M2 – Bundestag:** PLZ → Wahlkreis → Direktmandat, Absenderdaten lokal gespeichert,
+  Briefvorschau, PDF/Druck, Kontaktformular + „Nachricht kopieren“.
+- **M3 – Content & UX:** erste Kampagne (Redispatch), fünf nummerierte Schritte,
+  Empfängertyp-Auswahl, Template pro Typ, Geschlecht in Anrede und Brieftext.
+- **M4 – Landtag:** 16 Länder im Roster, 11 durchsuchbar, 6.027 PLZ; NRW mit E-Mail und
+  Wahlkreisbüro; manueller Fallback.
+- **M5 – Kommunal:** Bürgermeister:in und Landrät:in; 401 Kreise, 1.202 Verbände,
+  12.088 Gemeinden; PLZ-Verschnitt; GERDA-Namen als Vorschlag; vorbefülltes, editierbares
+  Formular.
+- **M6 – Netzbetreiber Strom:** Zuordnung aus MaStR-PV-Anlagen; 8.527 von 8.585 PLZ
+  (99,3 %); Anteil und Quelle sichtbar; kein Grundversorger.
+
+**Offen (G7):** Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH; weitere
+Landtags-Kontakte nach dem NRW-Muster. Stadtwerke bleiben manuell.

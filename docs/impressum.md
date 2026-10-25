@@ -3,18 +3,19 @@
 ## Angaben gemäß § 5 DDG
 
 Demokratiepost
-[Vor- und Nachname]
-[Straße und Hausnummer]
-[PLZ Ort]
+Tobias Böker
+Untere Hauptstr. 120
+37688 Beverungen
 
 ## Kontakt
 
-E-Mail: [E-Mail-Adresse]
+E-Mail: demokratiepost@proton.me
 
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
-[Vor- und Nachname]
-[Anschrift wie oben]
+Tobias Böker
+Untere Hauptstr. 120
+37688 Beverungen
 
 ## Datenquellen
 
