@@ -32,9 +32,9 @@ export function DatenspeicherungView({
               <dd>
                 Deine Absenderdaten (Name, Anschrift, optional E-Mail und Telefon) sowie die
                 manuell erfassten Empfängerdaten. Bei den kommunalen Typen (Bürgermeister:in,
-                Landrät:in) werden die aus einem Suchtreffer vorbefüllten, von dir geprüften
-                Empfängerdaten gespeichert – damit du sie beim nächsten Besuch nicht erneut
-                eingeben musst.
+                Landrät:in) und beim Netzbetreiber werden die aus einem Suchtreffer
+                vorbefüllten, von dir geprüften Empfängerdaten gespeichert – damit du sie beim
+                nächsten Besuch nicht erneut eingeben musst.
               </dd>
             </div>
             <div>
@@ -50,8 +50,9 @@ export function DatenspeicherungView({
               <dd>
                 Die Postleitzahl der Empfängersuche wird nicht gespeichert. Bei Bundestags- und
                 Landtagsabgeordneten werden ausgewählte Suchtreffer nicht gespeichert; bei den
-                kommunalen Typen liegen die vorbefüllten Empfängerdaten nur unter dem jeweiligen
-                Typ-Schlüssel. Es werden keine Daten an einen Server übertragen.
+                kommunalen Typen und beim Netzbetreiber liegen die vorbefüllten Empfängerdaten
+                nur unter dem jeweiligen Typ-Schlüssel. Es werden keine Daten an einen Server
+                übertragen.
               </dd>
             </div>
             <div>

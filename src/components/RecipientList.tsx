@@ -1,4 +1,4 @@
-import { isKommune, recipientTypeLabel } from '../lib/recipientTypes';
+import { isKommune, isNetzbetreiber, recipientTypeLabel } from '../lib/recipientTypes';
 import type { RecipientCandidate } from '../types';
 
 interface RecipientListProps {
@@ -60,6 +60,50 @@ export function RecipientList({
                   <span className="recipient-meta">
                     Amtsträger: Stand {recipient.wahljahr} – bitte prüfen
                   </span>
+                )}
+                {recipient.hinweis && (
+                  <span className="recipient-hint">{recipient.hinweis}</span>
+                )}
+              </button>
+            </li>
+          );
+        }
+
+        if (isNetzbetreiber(recipient)) {
+          const address = [
+            recipient.address.strasse,
+            [recipient.address.plz, recipient.address.ort].filter(Boolean).join(' '),
+          ]
+            .filter(Boolean)
+            .join(', ');
+          const share =
+            typeof recipient.anteil === 'number'
+              ? `${Math.round(recipient.anteil * 100)} % der Anlagen`
+              : null;
+          const source =
+            recipient.quelle === 'gemeinde'
+              ? 'Zuordnung auf Gemeindeebene'
+              : recipient.quelle === 'plz'
+                ? 'Zuordnung auf PLZ-Ebene'
+                : null;
+          return (
+            <li key={recipient.id}>
+              <button
+                type="button"
+                className={`recipient ${active ? 'recipient-active' : ''}`}
+                onClick={() => onSelect(recipient)}
+              >
+                <span className="recipient-head">
+                  <span className="recipient-name">{recipient.name}</span>
+                  <span className="tag">{recipientTypeLabel(recipientType)}</span>
+                </span>
+                <span className="recipient-meta">
+                  {[recipient.gemeinde, share, source].filter(Boolean).join(' · ') ||
+                    'Netzgebiet nicht in den Daten'}
+                </span>
+                {address && <span className="recipient-meta">{address}</span>}
+                {recipient.email && (
+                  <span className="recipient-meta">E-Mail: {recipient.email}</span>
                 )}
                 {recipient.hinweis && (
                   <span className="recipient-hint">{recipient.hinweis}</span>

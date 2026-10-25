@@ -36,13 +36,14 @@ export function ManualRecipientForm({
       <p className="hint">
         {fallback
           ? `Die Suche hat für diese PLZ keine Treffer geliefert. Erfasse den Empfänger ` +
-            `hier manuell; die Eingaben werden nur lokal in deinem Browser gespeichert.`
+            `(Behörde oder Unternehmen) hier manuell; die Eingaben werden nur lokal in deinem ` +
+            `Browser gespeichert.`
           : prefill
-            ? `Wähle oben einen Treffer – Behörde, Anschrift, E-Mail und (soweit bekannt) Name ` +
-              `werden hier vorbefüllt. Prüfe die Angaben und korrigiere sie bei Bedarf. ` +
+            ? `Wähle oben einen Treffer – Organisation, Anschrift, E-Mail und (soweit bekannt) ` +
+              `Name werden hier vorbefüllt. Prüfe die Angaben und korrigiere sie bei Bedarf. ` +
               `Die Eingaben werden nur lokal in deinem Browser gespeichert.`
             : `Für ${recipientTypeLabel ? recipientTypeLabel : 'diesen Empfängertyp'} gibt es ` +
-              `(noch) keine Suche – bitte Anschrift des Empfängeramts manuell erfassen. Die ` +
+              `(noch) keine Suche – bitte Anschrift des Empfängers manuell erfassen. Die ` +
               `Eingaben werden nur lokal in deinem Browser gespeichert und beim nächsten Besuch ` +
               `dieses Typs vorausgefüllt.`}
       </p>
@@ -76,20 +77,20 @@ export function ManualRecipientForm({
 
         <div className="field">
           <label className="label" htmlFor="recipient-organisation">
-            Behörde / Organisation <span className="optional">(optional)</span>
+            Behörde / Organisation / Unternehmen <span className="optional">(optional)</span>
           </label>
           <input
             id="recipient-organisation"
             className="input"
             value={recipient.organisation}
             onChange={(event) => update('organisation', event.target.value)}
-            placeholder="z. B. Landratsamt Musterkreis"
+            placeholder="z. B. Landratsamt Musterkreis oder Netzbetreiber GmbH"
           />
         </div>
 
         <div className="field">
           <label className="label" htmlFor="recipient-amt">
-            Amtsbezeichnung <span className="optional">(optional)</span>
+            Amtsbezeichnung <span className="optional">(nur Personen, optional)</span>
           </label>
           <input
             id="recipient-amt"

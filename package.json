@@ -18,7 +18,9 @@
     "data:kom:verwaltung": "node scripts/fetch-kommunen-verwaltung.mjs",
     "data:kom:plz": "node scripts/fetch-plz-gemeinde.mjs",
     "data:kom:koepfe": "node scripts/fetch-gemeinde-koepfe.mjs",
-    "data:kom:build": "node scripts/build-kommunen.mjs"
+    "data:kom:build": "node scripts/build-kommunen.mjs",
+    "data:netz:mastr": "node --max-old-space-size=8192 scripts/fetch-mastr-netzbetreiber.mjs",
+    "data:netz:build": "node scripts/build-netzbetreiber.mjs"
   },
   "dependencies": {
     "react": "18.3.1",
@@ -37,6 +39,7 @@
     "topojson-client": "3.1.0",
     "typescript": "5.6.2",
     "vite": "5.4.8",
-    "xlsx": "0.18.5"
+    "xlsx": "0.18.5",
+    "yauzl": "2.10.0"
   }
 }

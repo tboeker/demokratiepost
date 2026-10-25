@@ -5,7 +5,7 @@ import type {
   ManualRecipient,
   Recipient,
 } from '../types';
-import { isKommune, isMandat } from './recipientTypes';
+import { isKommune, isMandat, isNetzbetreiber } from './recipientTypes';
 
 /** Wählt die geschlechtsbezogene Rollenform; ohne Angabe die neutrale Form. */
 function pickRole(
@@ -69,5 +69,7 @@ export function manualRole(recipient: ManualRecipient, recipientType?: string): 
 export function recipientRole(recipient: Recipient, recipientType?: string): string {
   if (isMandat(recipient)) return mandatRole(recipient);
   if (isKommune(recipient)) return kommuneRole(recipient);
+  // Netzbetreiber sind Unternehmen – keine personenbezogene Rolle.
+  if (isNetzbetreiber(recipient)) return '';
   return manualRole(recipient, recipientType);
 }

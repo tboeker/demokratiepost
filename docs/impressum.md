@@ -27,11 +27,17 @@ E-Mail: [E-Mail-Adresse]
 - **PLZ-Gebiete:** © GeoBasis-DE / BKG (Datenlizenz Deutschland – Namensnennung 2.0).
 - **PLZ-Polygone (Landtag und Gemeinde):** [yetzt/postleitzahlen](https://github.com/yetzt/postleitzahlen) (Open Database License, ODbL).
 - **Aufbereitung PLZ → Wahlkreis:** [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT-Lizenz).
+- **Netzbetreiber Strom:** © Bundesnetzagentur, Marktstammdatenregister, Gesamtdatenexport
+  Stand 01.10.2026, Datenlizenz Deutschland – Namensnennung 2.0 (dl-de/by-2-0). Die
+  PLZ→Netzbetreiber-Zuordnung ist eine eigene Auswertung der in Betrieb befindlichen
+  PV-Anlagen und **keine amtliche Netzgebietsgrenze**.
 
-Die PLZ-Zuordnung ist eine Näherung: Eine PLZ kann mehrere Wahlkreise oder Gemeinden
-überlappen. Bei Mehrdeutigkeit zeigt die App alle passenden Empfänger an. Die Namen der
-kommunalen Amtsinhaber:innen stammen aus Forschungsdaten (GERDA) und sind kein amtlicher
-Nachweis; die App kennzeichnet den Stand der Wahl und bietet immer ein editierbares Formular an.
+Die PLZ-Zuordnung ist eine Näherung: Eine PLZ kann mehrere Wahlkreise, Gemeinden oder
+Netzbetreiber überlappen. Bei Mehrdeutigkeit zeigt die App alle passenden Empfänger an.
+Die Namen der kommunalen Amtsinhaber:innen stammen aus Forschungsdaten (GERDA) und sind kein
+amtlicher Nachweis; die App kennzeichnet den Stand der Wahl und bietet immer ein editierbares
+Formular an. Die Zuordnung zum Netzbetreiber wird aus dem Marktstammdatenregister abgeleitet,
+zeigt Anteil und Quelle an und ersetzt keine verbindliche Auskunft des Netzbetreibers.
 
 ## Hinweis
 

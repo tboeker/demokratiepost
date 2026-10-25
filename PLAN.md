@@ -22,8 +22,8 @@ Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, 
 |---|---|
 | Versandkanal | PDF-Brief (Druck) **und** Kontaktformular/mailto (E-Mail nur, wo vorhanden) |
 | MVP-Empfänger | Bundestagsabgeordnete |
-| Nächster Empfängertyp | Netzbetreiber (Strom) (M6, geplant – siehe *M6 im Detail — Netzbetreiber*) |
-| Nächster Meilenstein | Netzbetreiber (Strom) (M6, geplant): PLZ → Verteilnetzbetreiber via MaStR |
+| Letzter Empfängertyp | Netzbetreiber (Strom) (M6, umgesetzt – siehe *M6 im Detail — Netzbetreiber*) |
+| Nächster Meilenstein | G7: Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH; weitere Landtags-Kontakte |
 | Grundversorger | **nicht** Teil von M6: Die BNetzA führt keine bundesweite Grundversorger-Liste; der Grundversorger wird nach § 36 EnWG vom jeweiligen Netzbetreiber festgestellt und veröffentlicht. |
 | Architektur | Statische Seite, 100 % clientseitig, kein Backend/Tracking |
 | Stack | Vite + React + TypeScript |
@@ -97,7 +97,7 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
        Gemeindeverband), Shards `public/data/kommunen/plz-kommunen/…` + Regionaleinheiten
        `public/data/kommunen/gemeinden-<land>.json` (Details: Abschnitt
        *M5 im Detail — Gemeinde-Ebene*).
-     - `netzbetreiber` (M6, geplant): PLZ → zuständiger Verteilnetzbetreiber (Strom), Shards
+     - `netzbetreiber` (M6, umgesetzt): PLZ → zuständiger Verteilnetzbetreiber (Strom), Shards
        `public/data/netzbetreiber/plz-netzbetreiber/…` + Roster
        `public/data/netzbetreiber/netzbetreiber.json`. Die Zuordnung stammt aus dem
        Marktstammdatenregister und ist **keine amtliche Netzgebietsgrenze**; mehrere
@@ -134,7 +134,7 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
 ## Datenpipeline (kritischer Teil)
 
 Zwei getrennte Baustellen für den Bundestag (Punkt 1–2), dazu der Landtag (Punkt 3, M4),
-die Gemeinde-/Kreisebene (Punkt 4, M5) und die Netzbetreiber (Punkt 5, M6, geplant):
+die Gemeinde-/Kreisebene (Punkt 4, M5) und die Netzbetreiber (Punkt 5, M6):
 
 **1. Empfänger (MdB) — abgeordnetenwatch.de + bundestag.de**
 - **Wer ist aktuell Mitglied**: abgeordnetenwatch.de-API v2 (CC0, ohne Schlüssel). Sie liefert
@@ -251,7 +251,7 @@ Die Schritte werden **einzeln und in dieser Reihenfolge** ausgeführt (großer D
 Geometrie-Laufzeit, Datenstände). Nach `data:kom:plz`/`data:kom:build` den Dev-Server neu
 starten (Vite-Cache).
 
-**5. Netzbetreiber (Strom) — M6, geplant**
+**5. Netzbetreiber (Strom) — M6, umgesetzt**
 - **Wer ist zuständig**: Das Marktstammdatenregister (MaStR) der Bundesnetzagentur ist die
   amtliche Quelle für Stromnetzbetreiber. Eine amtliche **PLZ → Netzbetreiber**-Tabelle gibt
   es nicht; die Zuordnung wird aus den in Betrieb befindlichen PV-Anlagen abgeleitet
@@ -261,8 +261,9 @@ starten (Vite-Cache).
   veröffentlicht; eine belastbare bundesweite offene Quelle gibt es nicht. M6 liefert
   deshalb den **Verteilnetzbetreiber**, nicht den Grundversorger.
 - **Datenbasis**: MaStR-Gesamtdatenexport (gepinnter Quartalsstand), Dateien
-  `Marktakteure.xml`, `Netzanschlusspunkte.xml`, `EinheitenSolar.xml`; Join über
-  `LokationMaStRNummer`; Aggregation pro `(PLZ, AGS)` und `AGS`; Top-1 plus weitere
+  `Marktakteure.xml`, `Netze.xml`, `Netzanschlusspunkte.xml`, `EinheitenSolar.xml` sowie
+  `Marktrollen.xml`/`Marktfunktionen.xml`; Join über `LokationMaStRNummer`.
+  Aggregation pro `(PLZ, AGS)` und `AGS`; Top-1 plus weitere
   Betreiber ab 10 % Anteil. PLZ ohne eigene Anlagen fallen auf die Gemeindeebene zurück
   (M5-Shards `plz-kommunen`).
 - **Ausgabe**: `scripts/source/mastr-netzbetreiber-{operators,plz,ags}.csv` (committet) →
@@ -275,7 +276,8 @@ npm run data:netz:build   # 2. Join + Validierung → public/data/netzbetreiber/
 ```
 
 Die Schritte werden **einzeln und in dieser Reihenfolge** ausgeführt. Nach
-`data:netz:build` den Dev-Server neu starten (Vite-Cache).
+`data:netz:build` den Dev-Server neu starten (Vite-Cache). Der 3-GB-Download ist
+nur für `data:netz:mastr` nötig; die daraus erzeugten CSVs sind committet.
 
 ## Kampagnen-Format (Dateien im Repo)
 
@@ -288,7 +290,7 @@ campaigns/
       landtag.md         # weiteres Schreiben pro Empfängertyp (Typ "landtag", M4)
       landrat.md         # Gemeinde-Ebene: Kreisverwaltung (Typ "landrat", M5)
       buergermeister.md  # Gemeinde-Ebene: Rathaus/Gemeindeverwaltung (Typ "buergermeister", M5)
-      netzbetreiber.md   # Verteilnetzbetreiber Strom (Typ "netzbetreiber", M6, geplant)
+      netzbetreiber.md   # Verteilnetzbetreiber Strom (Typ "netzbetreiber", M6)
 ```
 
 **Pro Empfängertyp aus `recipients` gibt es genau ein Template** `templates/<typ>.md`;
@@ -374,7 +376,7 @@ demokratiepost/
 │   │   ├── gemeinden-<land>.json     # Kreis-, Verbands- und Gemeindeverwaltungen je Land (M5)
 │   │   ├── kreise.json               # Kreisverwaltungen + Landrät:in (M5)
 │   │   └── plz-kommunen/10.json, …   # PLZ → Gemeinden/Kreise (M5)
-│   └── netzbetreiber/                # M6, geplant
+│   └── netzbetreiber/
 │       ├── netzbetreiber.json        # Betreiberstammdaten (Name, Anschrift, E-Mail)
 │       ├── meta.json                 # Stand, Quelle, Methodik
 │       └── plz-netzbetreiber/10.json, … # PLZ → Betreiber + Anteil + Gemeinde
@@ -413,12 +415,13 @@ demokratiepost/
 4. **M4 — Landtag** _(umgesetzt, Details im Abschnitt *M4 im Detail — Landtag*)_.
 5. **M5 — Gemeinde-Ebene** _(umgesetzt, Details im Abschnitt *M5 im Detail — Gemeinde-Ebene*)_:
    Bürgermeister:in und Landrät:in bundesweit, inkl. vorbefülltem Formular.
-6. **M6 — Netzbetreiber (Strom)** _(geplant, Details im Abschnitt
+6. **M6 — Netzbetreiber (Strom)** _(umgesetzt, Details im Abschnitt
    *M6 im Detail — Netzbetreiber*)_: PLZ → zuständiger Verteilnetzbetreiber aus dem
    Marktstammdatenregister, inkl. vorbefülltem, editierbarem Formular.
    **Kein Grundversorger** (keine bundesweite BNetzA-Liste); `stadtwerke` bleibt manuell.
 
-M1–M5 sind umgesetzt; M6 (Netzbetreiber Strom) ist die nächste Ausbaustufe.
+M1–M6 sind umgesetzt. Offen ist G7 (Ersatzquellen für Stadtstaaten und Landrät:innen in
+BW/SH) sowie weitere Landtags-Kontakt-Scraper nach dem NRW-Muster.
 
 ## M4 im Detail — Landtag (umgesetzt)
 
@@ -747,7 +750,7 @@ deshalb der Name-Fallback und die Validierung mit Report statt stillem Merge. Di
 Zustell-PLZ-Ergänzung kann Postfach-PLZ auf die zentrale Verwaltung abbilden; das ist
 gewollt, aber im Einzelfall zu prüfen.
 
-## M6 im Detail — Netzbetreiber (Strom) (geplant)
+## M6 im Detail — Netzbetreiber (Strom) (umgesetzt)
 
 **Ziel:** Der zuständige **Verteilnetzbetreiber Strom** als weiterer durchsuchbarer
 Empfängertyp – PLZ rein, Netzbetreiber raus, Brief versandfertig. Der Typ ist bewusst
@@ -755,8 +758,29 @@ Empfängertyp – PLZ rein, Netzbetreiber raus, Brief versandfertig. Der Typ ist
 Unternehmen, das vor Ort das Stromverteilnetz betreibt und damit für Netzanschluss,
 Redispatch-Umsetzung und Netzentgelte verantwortlich ist.
 
-**Status:** geplant. Die folgenden Zahlen sind Ziel- und Prüfwerte; die endgültigen
-Ist-Zahlen werden beim Bauen im Build-Log festgehalten und hier ergänzt.
+**Status:** umgesetzt. Die Ist-Zahlen werden nach dem Build im Abschnitt
+*Umsetzungsstand* festgehalten; die ursprünglichen Ziel- und Prüfwerte stehen in
+diesem Abschnitt weiterhin als Vergleichsmaßstab.
+
+### Umsetzungsstand (Oktober 2026)
+
+Umgesetzt. Ist-Stand der Daten (Build-Log):
+
+- **Anlagen/Betreiber:** 5.469.488 In-Betrieb-PV-Anlagen ausgewertet (von 6.535.547;
+  902.481 ohne aktiven Netzanschlusspunkt). 813 Betreiber mit Anlagen und im
+  Laufzeit-Roster; 26 geschlossene Verteilnetze ausgeschlossen.
+- **PLZ:** 8.527 von 8.585 PLZ mit Treffer (8.139 PLZ-Ebene, 388 Gemeinde-Fallback,
+  58 ohne Treffer → manuelles Formular). Im Bundestags-PLZ-Index fehlen nur 3 PLZ
+  (25869, 78266, 83256); dort gibt es keine auswertbaren Anlagen.
+- **Anteile:** Top-1 ≥ 95 % in 7.789 PLZ, 70–95 % in 465, < 70 % in 273; 592 PLZ mit
+  mehreren Betreibern. 1.252 unsichere Fälle stehen in
+  `scripts/source/netzbetreiber-prueffaelle.csv`.
+- **Laufzeitdaten:** 1,25 MB (`netzbetreiber.json` 187 KB, 95 Shards 1,06 MB,
+  `meta.json` < 1 KB); die drei Quell-CSVs sind zusammen 1,47 MB.
+- **Abnahme:** `npm run build` sauber; die Stichproben 10115, 80331, 50667, 01067,
+  24103, 79098, 04109, 20095, 28195, 30159 und 66111 liefern die erwarteten Betreiber
+  (Stromnetz Berlin, SWM Infrastruktur, RheinNetz, SachsenNetze, SWKiel, badenova,
+  Netz Leipzig, Hamburger Energienetze, wesernetz, enercity, Stadtwerke Saarbrücken).
 
 ### Warum nicht „Grundversorger via BNetzA“?
 
@@ -773,7 +797,8 @@ Die Methode ist etabliert: [EMA Energiewelt](https://ema-energiewelt.de/netzbetr
 leitet die Zuordnung ebenfalls aus Marktakteuren, Netzanschlusspunkten und EinheitenSolar
 ab und kommt nach eigenen Angaben auf **741 Netzbetreiber** und **95,2 % eindeutige
 Gemeindezuordnungen**. Das ist eine externe Validierung, keine Datenquelle für dieses
-Projekt.
+Projekt. Der eigene Build kommt auf **813 Betreiber mit Anlagen** (alle im Roster) und
+**8.527 von 8.585 PLZ mit Treffer** (99,3 %).
 
 ### Entscheidungen (fix)
 
@@ -797,12 +822,14 @@ Projekt.
 - ca. **3,0 GB ZIP**, Stand 01.10.2026, Revision 26.1; Doku im gleichnamigen
   Dokumentations-ZIP.
 - Lizenz: **Datenlizenz Deutschland – Namensnennung 2.0** (dl-de/by-2-0).
-- Benötigt werden nur:
+- Benötigt werden:
   - `Marktakteure.xml` – Betreiberstammdaten (Name, Anschrift, E-Mail, Telefon,
     Marktfunktion, Marktrollen, Tätigkeitszeitraum)
+  - `Netze.xml` – geschlossene Verteilnetze und angeschlossene Kunden
   - `Netzanschlusspunkte.xml` – Join `LokationMaStRNummer` → `NetzbetreiberMaStRNummer`
   - `EinheitenSolar.xml` – Standort (PLZ, Gemeinde, Gemeindeschlüssel) und Betriebsstatus
-  - `Marktfunktionen.xml` – Code-Zuordnung „Stromnetzbetreiber“ (nicht hart kodieren)
+  - `Marktrollen.xml` / `Marktfunktionen.xml` – Code-Zuordnung „Stromnetzbetreiber“
+    (nicht hart kodieren)
 
 **b) Warum EinheitenSolar?**
 
@@ -848,7 +875,7 @@ Projekt.
        (`plz,ags,gemeinde,netzbetreiber_id,anzahl`)
      - `scripts/source/mastr-netzbetreiber-ags.csv`
        (`ags,gemeinde,netzbetreiber_id,anzahl`)
-   - Die CSVs werden **committet** (ca. 2–3 MB), damit der Client-Build ohne den
+   - Die CSVs werden **committet** (ca. 1,5 MB), damit der Client-Build ohne den
      3-GB-Download reproduzierbar ist.
 
 2. **`scripts/build-netzbetreiber.mjs`**
@@ -884,10 +911,11 @@ Projekt.
    ```
    Nach `data:netz:build` den Dev-Server neu starten (Vite-Cache).
 
-**Datenmenge (Ziel):** Roster ca. 250 KB, Shards ca. 1,5–2 MB, `meta.json` wenige KB –
-also deutlich unter 3 MB.
+**Datenmenge:** Roster 187 KB, 95 Shards 1,06 MB, `meta.json` < 1 KB –
+zusammen 1,25 MB, also deutlich unter 3 MB.
 
-**Laufzeit/Risiko:** Download 3 GB, Parsen von ca. 5 Mio. Anlagen; eher 10–30 Minuten.
+**Laufzeit/Risiko:** Download 3 GB, Parsen von 6,5 Mio. Anlagen; in der Abnahme
+ca. 5 Minuten mit 8 GB Heap (`--max-old-space-size=8192`).
 Die NAP-Map (`Lokation → Betreiber`) ist der größte Speicherposten; 8 GB RAM empfohlen.
 Der Quartalsstand wird im Skript gepinnt und bei Bedarf (neuer Export) aktualisiert.
 
@@ -988,7 +1016,7 @@ unverändert; `rolle` ist bei Netzbetreibern leer.
 | 04109 Leipzig | Netz Leipzig GmbH |
 | 20095 Hamburg | Hamburger Energienetze GmbH |
 | 28195 Bremen | wesernetz Bremen GmbH |
-| 30159 Hannover | Mehrfachtreffer prüfen (DB Energie vs. enercity) |
+| 30159 Hannover | enercity Netz GmbH (97 %); DB Energie unter 10 % und daher nicht angezeigt |
 | 66111 Saarbrücken | Stadtwerke Saarbrücken Netz AG |
 
 Zusätzlich: PLZ ohne Treffer → Hinweis + manuelles Formular; Betreiber mit E-Mail →
@@ -997,12 +1025,8 @@ mailto; ohne E-Mail → Druck/Kopieren; Mehrfachtreffer → Anteile und Warnung 
 
 ### Reihenfolge und Risiken
 
-1. **M6.0** – Methode mit der öffentlichen MaStR-JSON-API für 5–10 PLZ/AGS prototypisch
-   prüfen (ohne 3-GB-Download).
-2. **M6.1** – `fetch-mastr-netzbetreiber.mjs` + `build-netzbetreiber.mjs` + Report.
-3. **M6.2** – Client (Typ, Lookup, UI, Prefill, Hinweise).
-4. **M6.3** – Kampagne (`campaign.yaml`, `netzbetreiber.md`, Abstimmung mit Kail).
-5. **M6.4** – Doku, Lizenz, Abnahme.
+M6.0–M6.4 sind umgesetzt: Methodenprüfung am gepinnten Export (Rollen-/Netzfilter,
+Stichproben) → Pipeline → Client → Template → Doku/Lizenz/Abnahme.
 
 Risiken:
 
@@ -1019,7 +1043,8 @@ Risiken:
 ## Offene Punkte (entscheiden beim Bauen, blockieren nicht)
 
 - **Kampagnen-Autor**: Wer schreibt die Templates — Nutzer oder strukturiert von Kail?
-  (Der `templates/landtag.md`-Entwurf wird vor Veröffentlichung mit Kail abgestimmt.)
+  (Die Entwürfe `templates/landtag.md` und `templates/netzbetreiber.md` werden vor
+  Veröffentlichung mit Kail abgestimmt.)
 - **Bündel-Download**: Ein Brief pro MdB (Standard) oder „an alle im Wahlkreis" als Sammel-PDF?
 - **Domain**: `*.github.io/demokratiepost` oder später eigene Domain?
 - **PLZ→Wahlkreis-Pflege**: Die abgeleitete Zuordnung muss zu jeder neuen Wahlperiode
@@ -1061,15 +1086,14 @@ Risiken:
 
 ## Nächster Schritt
 
-M1–M5 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB-, Landtags- und kommunale Daten sind
-vollständig (Bund: 630 Mandate, 299 Wahlkreise; Landtage: 16 Roster, davon 11 durchsuchbar,
-6.027 PLZ in 85 Shards; Kommunen: 401 Kreise, 1.202 Verbände, 12.088 Gemeinden, 8.585 PLZ in
-95 Shards). Der Client bietet Suche, Manual-Fallback und das vorbefüllte M5-Formular; die
-Redispatch-Kampagne enthält `mdb.md`, `landtag.md`, `landrat.md` und `buergermeister.md`.
+M1–M6 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB-, Landtags-, kommunale und
+Netzbetreiber-Daten sind vollständig (Bund: 630 Mandate, 299 Wahlkreise; Landtage: 16 Roster,
+davon 11 durchsuchbar, 6.027 PLZ in 85 Shards; Kommunen: 401 Kreise, 1.202 Verbände,
+12.088 Gemeinden, 8.585 PLZ in 95 Shards; Netzbetreiber: Zuordnung aus dem MaStR für die
+PLZ des Bundestags-Index). Der Client bietet Suche, Manual-Fallback und das vorbefüllte
+M5/M6-Formular; die Redispatch-Kampagne enthält `mdb.md`, `landtag.md`, `landrat.md`,
+`buergermeister.md` und `netzbetreiber.md`.
 
-Als Nächstes **M6 — Netzbetreiber (Strom)** (Details im Abschnitt
-*M6 im Detail — Netzbetreiber*): Ableitung der PLZ→Verteilnetzbetreiber-Zuordnung aus dem
-MaStR, neuer Typ `netzbetreiber` mit vorbefülltem Formular, Template `netzbetreiber.md`.
-**Kein Grundversorger** – die BNetzA führt keine bundesweite Liste; `stadtwerke` bleibt
-manuell. Daneben offen: G7-Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH sowie
-weitere Landtags-Kontakt-Scraper nach dem NRW-Muster (Abschnitt *M4 im Detail — Landtag*).
+Offen ist **G7** (Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH) sowie weitere
+Landtags-Kontakt-Scraper nach dem NRW-Muster. Ein Grundversorger-Typ bleibt bewusst außen
+vor – die BNetzA führt keine bundesweite Liste; `stadtwerke` bleibt manuell.

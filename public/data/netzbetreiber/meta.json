@@ -1,0 +1,26 @@
+{
+  "stand": "2026-10-01",
+  "revision": "26.1",
+  "quelle": "Marktstammdatenregister (Bundesnetzagentur), Gesamtdatenexport 2026-10-01 (Revision 26.1)",
+  "lizenz": "Datenlizenz Deutschland – Namensnennung 2.0 (dl-de/by-2-0)",
+  "methodik": "Zuordnung aus in Betrieb befindlichen PV-Anlagen (EinheitBetriebsstatus 35) über den Netzanschlusspunkt zum Stromnetzbetreiber. Keine amtliche Netzgebietsgrenze. Top-1 immer, weitere Betreiber ab 10 % Anteil; PLZ-Verteilung ab 10 Anlagen, sonst Gemeinde-Fallback.",
+  "minPlzUnits": 10,
+  "minShare": 0.1,
+  "warnShare": 0.7,
+  "erzeugt": "2026-10-25T08:44:10.426Z",
+  "betreiber": 813,
+  "plz": {
+    "gesamt": 8585,
+    "mitTreffer": 8527,
+    "plzEbene": 8139,
+    "gemeindeFallback": 388,
+    "ohneTreffer": 58
+  },
+  "top1Anteil": {
+    "high": 7789,
+    "medium": 465,
+    "low": 273
+  },
+  "unsichereTreffer": 1252,
+  "anlagenInTreffern": 6258627
+}

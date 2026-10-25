@@ -1,4 +1,4 @@
-import type { Kommune, Mandatstraeger, PlzIndex } from '../types';
+import type { Kommune, Mandatstraeger, Netzbetreiber, PlzIndex } from '../types';
 
 /** Prüft, ob eine Eingabe eine gültige fünfstellige PLZ ist. */
 export function isValidPlz(plz: string): boolean {
@@ -238,6 +238,108 @@ export async function findLandratByPlz(plz: string): Promise<Kommune[]> {
     }
   }
   return result;
+}
+
+/** Ein Eintrag im Netzbetreiber-PLZ-Shard (M6). */
+interface NetzbetreiberPlzEntry {
+  id: string;
+  ags?: string;
+  gemeinde?: string;
+  anteil?: number;
+  anzahl?: number;
+  quelle?: 'plz' | 'gemeinde';
+}
+
+/** Stammdaten eines Netzbetreibers im Roster. */
+interface NetzbetreiberStamm {
+  id: string;
+  name: string;
+  address: {
+    strasse?: string;
+    plz?: string;
+    ort?: string;
+  };
+  email?: string;
+  telefon?: string;
+}
+
+let netzbetreiberRosterCache: NetzbetreiberStamm[] | null = null;
+let netzbetreiberStandCache: string | null | undefined;
+
+/** Lädt (und cacht) das Netzbetreiber-Roster. */
+async function loadNetzbetreiberRoster(): Promise<NetzbetreiberStamm[]> {
+  if (!netzbetreiberRosterCache) {
+    const data = await fetchJson<NetzbetreiberStamm[]>('netzbetreiber/netzbetreiber.json');
+    netzbetreiberRosterCache = data ?? [];
+  }
+  return netzbetreiberRosterCache;
+}
+
+/** Lädt (und cacht) den Datenstand aus `meta.json`. */
+async function loadNetzbetreiberStand(): Promise<string | undefined> {
+  if (netzbetreiberStandCache === undefined) {
+    const data = await fetchJson<{ stand?: string }>('netzbetreiber/meta.json');
+    netzbetreiberStandCache = data?.stand ?? null;
+  }
+  return netzbetreiberStandCache ?? undefined;
+}
+
+/** Formuliert den Prüfhinweis aus Anteil und Quelle der Zuordnung. */
+function netzbetreiberHinweis(entry: NetzbetreiberPlzEntry): string {
+  const hints: string[] = [];
+  if (entry.quelle === 'gemeinde') {
+    hints.push(
+      'Zuordnung auf Gemeindeebene, weil in dieser PLZ keine oder wenige eigene PV-Anlagen liegen – bitte prüfen.',
+    );
+  }
+  if (typeof entry.anteil === 'number' && entry.anteil < 0.7) {
+    hints.push(
+      `Grenzgebiet: nur ${Math.round(entry.anteil * 100)} % der ausgewerteten Anlagen entfallen auf diesen Betreiber.`,
+    );
+  }
+  return hints.join(' ');
+}
+
+/**
+ * Ermittelt den zuständigen Verteilnetzbetreiber Strom für eine PLZ.
+ * Die Zuordnung wird aus den In-Betrieb-PV-Anlagen des Marktstammdatenregisters
+ * abgeleitet; eine PLZ kann mehrere Betreiber treffen. Sortiert nach Anteil.
+ */
+export async function findNetzbetreiberByPlz(plz: string): Promise<Netzbetreiber[]> {
+  if (!isValidPlz(plz)) return [];
+
+  const [index, roster, stand] = await Promise.all([
+    fetchJson<Record<string, NetzbetreiberPlzEntry[]>>(
+      `netzbetreiber/plz-netzbetreiber/${plz.slice(0, 2)}.json`,
+    ),
+    loadNetzbetreiberRoster(),
+    loadNetzbetreiberStand(),
+  ]);
+  if (!index) return [];
+
+  const entries = index[plz] ?? [];
+  const byId = new Map(roster.map((operator) => [operator.id, operator]));
+  const result: Netzbetreiber[] = [];
+  for (const entry of entries) {
+    const operator = byId.get(entry.id);
+    if (!operator) continue;
+    result.push({
+      art: 'netzbetreiber',
+      id: operator.id,
+      name: operator.name,
+      address: operator.address,
+      email: operator.email,
+      telefon: operator.telefon,
+      gemeinde: entry.gemeinde,
+      ags: entry.ags,
+      anteil: entry.anteil,
+      anzahl: entry.anzahl,
+      quelle: entry.quelle,
+      hinweis: netzbetreiberHinweis(entry),
+      stand,
+    });
+  }
+  return result.sort((a, b) => (b.anteil ?? 0) - (a.anteil ?? 0));
 }
 
 /** Baut eine Anrede für eine kommunale Amtsinhaber:in. */

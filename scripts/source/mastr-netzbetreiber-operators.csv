@@ -1,0 +1,819 @@
+# Marktstammdatenregister, Gesamtdatenexport 2026-10-01 (Revision 26.1)
+# Quelle: Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen
+# Lizenz: Datenlizenz Deutschland – Namensnennung 2.0 (dl-de/by-2-0)
+# Methode: In-Betrieb-PV-Anlagen (Status 35) → Netzanschlusspunkt → Stromnetzbetreiber
+# Anlagen verwendet: 5469488; Betreiber mit Anlagen: 813
+id,name,strasse,plz,ort,bundesland,email,telefon,geschlossen,kunden100k
+SNB982046657236,50Hertz Transmission GmbH,Heidestraße 2,10557,Berlin,Berlin,info@50hertz.com,+49 (030) 5150 0,FALSE,FALSE
+SNB939688186686,Abita Energie Otterberg GmbH,Bismarckstraße 14,67655,Kaiserslautern,Rheinland-Pfalz,netzbetreiber@swk-kl.de,+49 (0631) 80014051,FALSE,FALSE
+SNB983315496327,Ahrtal-Werke GmbH,Dahlienweg 25,53474,Bad Neuenahr-Ahrweiler,Rheinland-Pfalz,info@ahrtal-werke.de,02641 / 9050-0,FALSE,FALSE
+SNB969871992015,Albstadtwerke GmbH,Goethestraße 91,72461,Albstadt,Baden-Württemberg,info@albstadtwerke.de,07432 160-3999,FALSE,FALSE
+SNB926699071292,Albwerk GmbH & Co. KG,Eybstraße 98-102,73312,Geislingen,Baden-Württemberg,florian.gudath@albwerk.de,+497331209430,FALSE,FALSE
+SNB926394308747,AllgäuNetz GmbH & Co. KG,Illerstraße 18,87435,Kempten,Bayern,netzvertrieb@allgaeunetz.com,+49 (831) 96006365,FALSE,FALSE
+SNB931070025696,Alliander Netz Heinsberg GmbH,Boos-Fremery-Straße 70,52525,Heinsberg,Nordrhein-Westfalen,netzwirtschaft@alliander.de,+49 (0800) 1544800,FALSE,FALSE
+SNB922722422505,Alzchem Netz GmbH,Dr.-Albert-Frank-Straße 32,83308,Trostberg,Bayern,energie@alzchem.com,+49 (08621) 860,FALSE,FALSE
+SNB976890256486,Amprion GmbH,Robert-Schuman-Straße 7,44263,Dortmund,Nordrhein-Westfalen,nina.meyer@amprion.net,+49231584913042,FALSE,FALSE
+SNB918620072652,ASCANETZ GmbH,Magdeburger Straße 26,06449,Aschersleben,Sachsen-Anhalt,netznutzung@ascanetz.de,0347387670,FALSE,FALSE
+SNB911081401368,Aschaffenburger Versorgungs-GmbH,Werkstraße 2,63739,Aschaffenburg,Bayern,michelle.vaida@stwab.de,06021391235,FALSE,FALSE
+SNB990362338043,Avacon Netz GmbH,Schillerstraße 3,38350,Helmstedt,Niedersachsen,kundenservice@avacon.de,0800- 33 44 288,FALSE,FALSE
+SNB967794191157,AVU Netz GmbH,An der Drehbank 18,58285,Gevelsberg,Nordrhein-Westfalen,erzeugungsanlagen@avu-netz.de,02332 73 80411,FALSE,FALSE
+SNB973356062049,Bad Honnef AG,Lohfelder Straße 6,53604,Bad Honnef,Nordrhein-Westfalen,h.bouvelet@bhag.de,02224 17 118,FALSE,FALSE
+SNB965774651691,badenovaNETZE GmbH,Tullastraße 61,79108,Freiburg,Baden-Württemberg,service@badenovanetze.de,0800 2 21 26 21,FALSE,FALSE
+SNB914411628732,BASF InfraService & Solutions Lausitz GmbH,Schipkauer Straße 1,01987,Schwarzheide,332,industriepark-lausitz@basf.com,035752 60,FALSE,FALSE
+SNB963282434775,Bauer Netz GmbH & Co. KG,Kaspar-Graf-Straße 2,84428,Buchbach,Bayern,info@bauer-netz.de,08086/93000,FALSE,FALSE
+SNB940352624434,Bayernwerk Netz GmbH,Lilienthalstraße 7,93049,Regensburg,Bayern,kundenservice@bayernwerk.de,+49 871 - 965 60120,FALSE,FALSE
+SNB944057190867,BEW Netze GmbH,Sonnenweg 30,51688,Wipperfürth,Nordrhein-Westfalen,info@bew-netze.de,022676860,FALSE,FALSE
+SNB918516395612,Bielefelder Netz GmbH,Schildescher Straße 16,33611,Bielefeld,Nordrhein-Westfalen,info@bielefelder-netz.de,0521514265,FALSE,FALSE
+SNB990174285078,BIGGE ENERGIE GmbH & Co. KG,In der Stesse 14,57439,Attendorn,Nordrhein-Westfalen,info@bigge-energie.de,02761/896-2222,FALSE,FALSE
+SNB910395619643,Blomberg Netz GmbH & Co. KG,Nederlandstraße 15,32825,Blomberg,Nordrhein-Westfalen,info@blomberg-netz.de,0523595023050,FALSE,FALSE
+SNB927498960503,Bonn-Netz GmbH,Karlstr. 2-6,53115,Bonn,Nordrhein-Westfalen,info@bonn-netz.de,0228/711-1,FALSE,FALSE
+SNB926644622999,Braunschweiger Netz GmbH,Taubenstraße 7,38106,Braunschweig,Niedersachsen,info@bs-netz.de,+49 (0531) 3830,FALSE,FALSE
+SNB928184287881,BTT Bauteam Tretzel GmbH,Hochweg 83,93049,Regensburg,Bayern,mailbox@bauteam-tretzel.de,0941/307030,FALSE,FALSE
+SNB972511582064,Butzbacher Netzbetrieb GmbH & Co. KG,Himmrichsweg 2,35510,Butzbach,Hessen,netznutzung.bng@ovag-netz.de,+49 (06031) 820,FALSE,FALSE
+SNB956411704207,C. Ensinger GmbH & Co. KG,Schießhüttestraße 12,73277,Owen,Baden-Württemberg,info@c-ensinger.de,+49(07021)55365,FALSE,FALSE
+SNB956923775696,CPM Netz GmbH,Rellinghauser Str. 1 - 11,45128,Essen,Nordrhein-Westfalen,netzanschluss-verteilnetz@evonik.com,+49 2365 49-01,FALSE,FALSE
+SNB916672506194,Cramer - Mühle GmbH & Co. KG,Maininsel 3,97424,Schweinfurt,Bayern,evu@cramermuehle.de,+49 (09721) 64633-0,FALSE,FALSE
+SNB940133714842,Creos Deutschland GmbH,Am Zunderbaum 9,66424,Homburg,Saarland,info@creos-net.de,0684198860,FALSE,FALSE
+SNB942182027607,"DB Energie GmbH (Bahnstromnetz 16,7 Hz)",Kleyerstraße 25,60326,Frankfurt,Hessen,Regulierungsmanagement.DB.Energie@deutschebahn.com,06926523436,FALSE,FALSE
+SNB954281375657,Dessauer Stromversorgung GmbH,Albrechtstraße 48,06844,Dessau-Roßlau,Sachsen-Anhalt,netzwirtschaft.strom@dvv-dessau.de,+49 (0340) 899-1507,FALSE,FALSE
+SNB974556654430,Donau-Stadtwerke Dillingen-Lauingen,Regens-Wagner-Straße 8,89407,Dillingen,Bayern,s.ruess@dsdl.de,0907170670,FALSE,FALSE
+SNB981060961299,Dortmunder Netz GmbH,Günter-Samtlebe-Platz 1,44135,Dortmund,Nordrhein-Westfalen,einspeisung@do-netz.de,023154497-777,FALSE,FALSE
+SNB956958990736,e-netz Südhessen AG,Dornheimer Weg 24,64293,Darmstadt,Hessen,mastr@e-netz-suedhessen.de,06151-701 7070,FALSE,FALSE
+SNB992632801288,e-regio Netz GmbH,Hindenburgstraße 13,53925,Kall,Nordrhein-Westfalen,info@e-regio.de,022517087966,FALSE,FALSE
+SNB921550647487,E-Werk Meckenheim/Pfalz,Hauptstraße 58,67149,Meckenheim,Rheinland-Pfalz,gemeinde-meckenheim.pfalz@t-online.de,06326/219,FALSE,FALSE
+SNB913992545742,E-Werk Netze GmbH & Co. KG,E-Werk-Straße 1,77933,Lahr,Baden-Württemberg,info@ew-netze.de,07821/280555,FALSE,FALSE
+SNB958060904298,E-Werk Rohrdorf Josef Haimmerer,Achentalstraße 30,83101,Rohrdorf,Bayern,mh.haimmerer@gmx.de,08032/5204,FALSE,FALSE
+SNB978963778161,e-werk Sachsenwald GmbH,Hermann-Körner-Straße 61-63,21465,Reinbek,Schleswig-Holstein,moritz.manthey@ewerk-sachsenwald.de,040 72 73 73 34,FALSE,FALSE
+SNB945186990991,E-Werk Wanfried von Scharfenberg GmbH & Co. KG,Unter der Tränke 1,37281,Wanfried,Hessen,ann-kathrin.kalck@ewwanfried.de,05655988640,FALSE,FALSE
+SNB978299965228,E-Werke Haniel Haimhausen GmbH & Co. KG,Dachauer Straße 4 a,85778,Haimhausen,Bayern,p.mueller@e-werke-haniel.de,08133918418,FALSE,FALSE
+SNB941690671609,E.DIS Netz GmbH,Langewahler Straße 60,15517,Fürstenwalde,332,kundenservice@e-dis.de,0 33 61- 3 19 90 00,FALSE,FALSE
+SNB925685357501,e.wa riss Netze GmbH,Freiburger Straße 6,88400,Biberach,Baden-Württemberg,Einspeiser@ewa-netze.de,07351 3000 0,FALSE,FALSE
+SNB971311555230,EAM Netz GmbH,Monteverdistraße 2,34131,Kassel,Hessen,marktstammdatenregister@eam-netz.de,+49 (0)800 3250532,FALSE,FALSE
+SNB930525911119,EGC Infrastruktur und Netz GmbH,Auf der Hüls 191,52068,Aachen,Nordrhein-Westfalen,post@egc-fm.de,0241 968990,FALSE,FALSE
+SNB962011640685,EGF EnergieGesellschaft Frankenberg mbH,Pferdemarkt 22,35066,Frankenberg,Hessen,snb@egf-frankenberg.de,06451-7550,FALSE,FALSE
+SNB979557818782,EGT Energie GmbH,Schonacher Straße 2,78098,Triberg,Baden-Württemberg,eeg-kwk@egt.de,07722918244,FALSE,FALSE
+SNB928479274794,EHINGER ENERGIE GmbH & Co. KG,Groggentalgasse 5,89584,Ehingen,Baden-Württemberg,netz@ehinger-energie.de,+49 (0) 7391 589 22,FALSE,FALSE
+SNB945768616967,Eichsfelder Energie- und Wasserversorgungsgesellschaft mbH,Am Euzenberg 32,37115,Duderstadt,Niedersachsen,netznutzung@ewb-duderstadt.de,05527 9110,FALSE,FALSE
+SNB973074326355,ELE Verteilnetz GmbH,Ebertstraße 30,45879,Gelsenkirchen,Nordrhein-Westfalen,marktstammdatenregister@evng.de,0209-1651267,FALSE,FALSE
+SNB913085272050,Elektra - Genossenschaft Pinzberg eG,Keilbrunnen 33,91361,Pinzberg,Bayern,info@elektra-pinzberg.de,09133-5260,FALSE,FALSE
+SNB983973032059,Elektra-Genossenschaft Effeltrich eG,Lindenstraße 2a,91090,Effeltrich,Bayern,info@elektra-effeltrich.de,09133-5260,FALSE,FALSE
+SNB985979481190,Elektrizitäts- und Wasserversorgungsgenossenschaft Vagen eG,Lindenstraße 14,83620,Feldkirchen-Westerham,Bayern,info@ewg-vagen.de,08062-6205,FALSE,FALSE
+SNB986403410816,Elektrizitäts-Genossenschaft Rettenberg eG,Burgberger Straße 26,87549,Rettenberg,Bayern,info@eg-rettenberg.de,083271217,FALSE,FALSE
+SNB946086138155,Elektrizitäts-Genossenschaft Röthenbach eG,Wigglis 3,88167,Röthenbach,Bayern,schiessl@eg-roethenbach.de,08384/8202-13,FALSE,FALSE
+SNB950882682972,Elektrizitäts-Genossenschaft Schonstett eG,Achen 6,83137,Schonstett,Bayern,eder@eg-schonstett.de,+49 (08055) 9390,FALSE,FALSE
+SNB935303204162,Elektrizitäts-Genossenschaft Tacherting-Feichten eG,Stefan-Flötzl-Straße 4,83342,Tacherting,Bayern,info@egtf.de,08621806300,FALSE,FALSE
+SNB930558787330,Elektrizitäts-Versorgungs-Genossenschaft Perlesreut eG,Bräuhausstraße 3,94157,Perlesreut,Bayern,netz@evg-perlesreut.de,08555 40633 - 13,FALSE,FALSE
+SNB916008519201,Elektrizitäts-Werk Ottersberg,Grüne Straße 26,28870,Ottersberg,Niedersachsen,marktpartner@ewerk-ottersberg.de,04205-3170-80,FALSE,FALSE
+SNB984995121813,Elektrizitätsgenossenschaft e.G. Hasbergen,Alte Tecklenburger Straße 5,49205,Hasbergen,Niedersachsen,bernhard.snehota@eg-hasbergen.com,05405 92090,FALSE,FALSE
+SNB981887803796,Elektrizitätsgenossenschaft Engelsberg eG,Raiffeisenplatz 4,84549,Engelsberg,Bayern,t.fill@eg-engelsberg.de,+4986345732,FALSE,FALSE
+SNB945322307522,Elektrizitätsgenossenschaft Karlstein eG,Weitwiesenring 6,83435,Bad Reichenhall,Bayern,egkarlstein@t-online.de,0049865198670,FALSE,FALSE
+SNB985498109605,Elektrizitätsgenossenschaft Nordhalben und Umgebung e. G.,Gartenstraße 13,96365,Nordhalben,Bayern,info@eg-nordhalben.de,+49(09267)1606,FALSE,FALSE
+SNB931015724646,Elektrizitätsgenossenschaft Oesterweg eG,Taubenstraße 21,33775,Versmold,Nordrhein-Westfalen,info@eg-oesterweg.de,054233426,FALSE,FALSE
+SNB975801091031,Elektrizitätsgenossenschaft Ohlstadt eG,Schwaigweg 7,82441,Ohlstadt,Bayern,info@ego-ohlstadt.de,08841-67000,FALSE,FALSE
+SNB927462109518,Elektrizitätsgenossenschaft Schlachters e.G.,Hauptstraße 51,88138,Sigmarszell,Bayern,dieter.matheis@eg-schlachters.de,0838992090,FALSE,FALSE
+SNB988606051575,Elektrizitätsgenossenschaft Unterneukirchen eG,Kastler Straße 15,84579,Unterneukirchen,Bayern,hoelzlwimmer@eg-unterneukirchen.de,08634688906,FALSE,FALSE
+SNB930134015819,Elektrizitätsgenossenschaft Vogling & Angrenzer eG,Höpfling 2,83313,Siegsdorf,Bayern,eva@eva-siegsdorf.de,+49(8662) 490220,FALSE,FALSE
+SNB974959002937,Elektrizitätsgenossenschaft Wolkersdorf und Umgebung eG,Schmidhamer Straße 26,83278,Traunstein,Bayern,info@eg-wolkersdorf.de,0861 4315,FALSE,FALSE
+SNB921631931771,Elektrizitätsnetze Allgäu GmbH,Sedanstraße 19,88161,Lindenberg,Bayern,info@e-netzeallgaeu.de,08381 948266 0,FALSE,FALSE
+SNB916027833432,Elektrizitätsvereinigung Böbing eG,Auweg 9,82389,Böbing,Bayern,info@ev-boebing.de,08867 8647,FALSE,FALSE
+SNB987451707521,Elektrizitätswerk Bruchmühlbach-Miesau,Am Rathaus 2,66892,Bruchmühlbach-Miesau,Rheinland-Pfalz,netz-reg@stadtwerke-ramstein.de,+496374922-300,FALSE,FALSE
+SNB918689434309,Elektrizitätswerk Dahner Felsenland,Schulstraße 29,66994,Dahn,Rheinland-Pfalz,Teresa.Jung@werke-dfl.de,06391/9234431,FALSE,FALSE
+SNB985099151188,Elektrizitätswerk des Kantons Schaffhausen AG,Rheinstraße 37,,Schaffhausen,,eks-mastr@eks.ch,+41 52 633 54 58,FALSE,FALSE
+SNB916328839515,Elektrizitätswerk Dießen Stadler GmbH,Klosterhof 22,86911,Dießen,Bayern,management@ew-diessen.de,08807-217,FALSE,FALSE
+SNB965998184692,Elektrizitätswerk Goldbach-Hösbach GmbH & Co. KG,Aschaffstraße 1,63773,Goldbach,Bayern,netz@ew-goldbach-hoesbach.de,06021/33470,FALSE,FALSE
+SNB925558752303,Elektrizitätswerk Hindelang eG,Weidachstraße 9,87541,Bad Hindelang,Bayern,klaus.kiechle@ewhindelang.de,08324/9300-18,FALSE,FALSE
+SNB952385093224,Elektrizitätswerk Leitlein GmbH & Co. KG,Mühlweg 20,74670,Forchtenberg,Baden-Württemberg,anja.leitlein@ew-leitlein.de,079472075,FALSE,FALSE
+SNB980126228475,Elektrizitätswerk Mainbernheim GmbH,Hoheimer Weg 3,97350,Mainbernheim,Bayern,manuel.schaefer@ewerk-mainbernheim.de,0351 / 811 296 1023,FALSE,FALSE
+SNB936480897581,Elektrizitätswerk Max Peissker,Schloßstraße 42,07338,Kaulsdorf,Thüringen,info@max-peissker.de,03673322216,FALSE,FALSE
+SNB982597073882,Elektrizitätswerk Oberwössen e.G.,Dorfstraße 28,83246,Unterwössen,Bayern,info@ew-oberwoessen.de,086408535,FALSE,FALSE
+SNB921080203146,Elektrizitätswerk Rohmund GmbH,Jestädter Straße 9,37269,Eschwege,Hessen,mastr@ew-rohmund.de,05651 96083,FALSE,FALSE
+SNB927892816017,Elektrizitätswerk S c h w e i g e r  o.H.G,Schweigerstraße 1,85445,Oberding,Bayern,dm@ew-schweiger.de,08122 10153,FALSE,FALSE
+SNB929383206369,Elektrizitätswerk Simbach GmbH,Bayernwerkstraße 13,84359,Simbach,Bayern,info@hellmannsberger.de,08571 - 91 12 - 0,FALSE,FALSE
+SNB910882213224,Elektrizitätswerk Stern KG Bad Endorf,Kurf 11a,83093,Bad Endorf,Bayern,info@ewerk-stern.de,08053 306590,FALSE,FALSE
+SNB928258126528,Elektrizitätswerk Tegernsee Carl Miller KG,Hochfeldstraße 3,83684,Tegernsee,Bayern,info@ewerk-tegernsee.de,008022/183-0,FALSE,FALSE
+SNB917593691679,Elektrizitätswerk Unterwössen Döllerer&Greimel Netz GmbH&Co.KG,Neuschmied 6,83246,Unterwössen,Bayern,netz@ew-unterwoessen.de,086418532,FALSE,FALSE
+SNB913832420338,Elektrizitätswerk Wennenmühle Schörger GmbH & Co. KG,Wennenmühle 1,86733,Alerheim,Bayern,kontakt@wennenmuehle.de,09085/203,FALSE,FALSE
+SNB988980270319,Elektrizitätswerk Wörth a. d. Donau Rupert Heider GmbH & Co. KG,Regensburger Straße 21,93086,Wörth,Bayern,info@heider-energie.de,09482 204 0,FALSE,FALSE
+SNB969483935394,Elektrizitätswerke Reutte GmbH & Co. KG,Lechhalde 1 1/2,87629,Füssen,Bayern,netzbayern@ewr.at,+49(0)8362 909 0,FALSE,FALSE
+SNB974894111862,Elektrizitätswerke Schönau Netze GmbH,Friedrichstraße 53/55,79677,Schönau,Baden-Württemberg,netz-strom@ews-schoenau.de,+49-7673-8885-0,FALSE,FALSE
+SNB931431136771,Elektroenergieversorgung Cottbus GmbH,Karl-Liebknecht-Straße 130,03046,Cottbus,332,info@energienetze-cottbus.de,0355-351-0,FALSE,FALSE
+SNB913866241817,EMB Energieversorgung Miltenberg- Bürgstadt GmbH & Co. KG,Luitpoldstraße 17,63897,Miltenberg,Bayern,info@we-are-energy.de,09371 404 500,FALSE,FALSE
+SNB913563830420,ENA Energienetze Apolda GmbH,Heidenberg 52,99510,Apolda,Thüringen,falk.glockner@en-apolda.de,0364450289903,FALSE,FALSE
+SNB971746988153,enercity Netz GmbH,Auf der Papenburg 18,30459,Hannover,Niedersachsen,regulierungsmanagement@enercity-netz.de,+49 (0800) 2255005,FALSE,FALSE
+SNB913289502922,eneREGIO GmbH,Rastatter Straße 14/16,76461,Muggensturm,Baden-Württemberg,netze@eneregio.com,072224056880,FALSE,FALSE
+SNB976371748981,Energie Calw GmbH,Robert-Bosch-Straße 20,75365,Calw,Baden-Württemberg,netznutzung@encw.de,070511300505,FALSE,FALSE
+SNB936172924014,Energie Waldeck-Frankenberg GmbH,Arolser Landstraße 27,34497,Korbach,Hessen,info@ewf.de,05631 955 0,FALSE,FALSE
+SNB997465895442,Energie- und Bäderbetrieb Hauenstein,Schulstraße 4,76846,Hauenstein,Rheinland-Pfalz,info@hauenstein.rlp.de,06392-915-151,FALSE,FALSE
+SNB921626387354,energie- und wassergesellschaft mbh,Hermannsteiner Straße (NG) 1,35576,Wetzlar,Hessen,dirk.eufinger@enwag.de,+49 (06441) 939105,FALSE,FALSE
+SNB934514392514,Energie- und Wasserversorgung Altenburg GmbH,Franz-Mehring-Straße 6,04600,Altenburg,Thüringen,markus.scheibe@ewa-altenburg.de,03447/866240,FALSE,FALSE
+SNB941042755957,Energie- und Wasserversorgung Bruchsal GmbH,Schnabel-Henning-Straße 1 a,76646,Bruchsal,Baden-Württemberg,datenpool@ewb-bruchsal.de,07251706222,FALSE,FALSE
+SNB912743424114,Energie- und Wasserversorgung Hamm GmbH,Südring 1,59065,Hamm,Nordrhein-Westfalen,mastr@ewv-hamm-netz.de,+49 (02381) 2740,FALSE,FALSE
+SNB966380208811,Energie- und Wasserversorgung Kirchzarten GmbH,Erich-Rieder-Straße 15,79199,Kirchzarten,Baden-Württemberg,Werner.Lezius@ewk-gmbh.de,076619189123,FALSE,FALSE
+SNB932516649124,Energie- und Wasserversorgung Rheine GmbH,Hafenbahn 10,48431,Rheine,Nordrhein-Westfalen,h.schuette-bruns@swrheine.de,05971 45161,FALSE,FALSE
+SNB943962034624,Energie- und Wasserwerke Bautzen GmbH Energijowe a Wodowezawody Budysin,Schäfferstraße 44,02625,Bautzen,Sachsen,netz_info@ewbautzen.de,+49359137520,FALSE,FALSE
+SNB914735995145,Energiegenossenschaft für Wittmund eG,Am Markt 16,26409,Wittmund,Niedersachsen,info@eg-wittmund.de,04462 20660,FALSE,FALSE
+SNB994111700501,Energienetze Bayern GmbH (Stromverteilnetz Germering),Lilienthalstraße 7,93049,Regensburg,Bayern,marktstammdatenregister@bayernwerk.de,+49 871 - 965 60 180,FALSE,FALSE
+SNB917314328846,Energienetze Berlin GmbH,Am Studio 6,12489,Berlin,Berlin,kontakt@energienetze-berlin.de,+49 (030) 398 409 200,FALSE,FALSE
+SNB980055629275,Energienetze Mittelrhein GmbH & Co. KG,Schützenstraße 80-82,56068,Koblenz,Rheinland-Pfalz,info@enm.de,026129990,FALSE,FALSE
+SNB915100694458,Energienetze Offenbach GmbH,Andréstraße 71,63067,Offenbach,Hessen,einspeiser@energienetze-offenbach.de,06980604664,FALSE,FALSE
+SNB911521002599,EnergieSüdwest Netz GmbH,Industriestraße 18,76829,Landau,Rheinland-Pfalz,info@esw-netz.de,+49 (06341) 289200,FALSE,FALSE
+SNB913576376151,Energieversorgung Alzenau GmbH,Mühlweg 1,63755,Alzenau,Bayern,eva-einspeiser@rde-dienstleistungen.de,+49 931 73045 900,FALSE,FALSE
+SNB942173666990,Energieversorgung Beckum GmbH & Co. KG,Sternstraße 22,59269,Beckum,Nordrhein-Westfalen,info@evb-beckum.de,0252185060,FALSE,FALSE
+SNB932388577952,Energieversorgung Dahlenburg-Bleckede AG,Lüneburger Straße 21,21368,Dahlenburg,Niedersachsen,info@evdbag.de,05851 - 955 18,FALSE,FALSE
+SNB910995561328,Energieversorgung Filstal GmbH & Co. KG,Großeislinger Straße 28-34,73033,Göppingen,Baden-Württemberg,regulierung@evf.de,+49(07161)61010,FALSE,FALSE
+SNB915186313908,Energieversorgung Guben GmbH,Gasstraße 11,03172,Guben,332,walter@ev-guben.de,03561 508153,FALSE,FALSE
+SNB982934611074,Energieversorgung Halle Netz GmbH,Zum Heizkraftwerk 12,06112,Halle,Sachsen-Anhalt,info@netzhalle.de,03455817501,FALSE,FALSE
+SNB974763887737,Energieversorgung Inselsberg GmbH,Albrechtstraße 14,99880,Waltershausen,Thüringen,bomberg@evi-energy.de,03622920071,FALSE,FALSE
+SNB962013221356,Energieversorgung Klettgau-Rheintal GmbH & Co. KG,Industriestraße 19,79771,Klettgau,Baden-Württemberg,service@evkr.net,+49 7742 85675-0,FALSE,FALSE
+SNB965281540327,Energieversorgung Limburg GmbH,Ste.-Foy-Straße 36,65549,Limburg,Hessen,markus.boehm@evl.de,064312903462,FALSE,FALSE
+SNB991797615686,Energieversorgung Lohr-Karlstadt und Umgebung GmbH & Co. KG,Zum Helfenstein 4,97753,Karlstadt,Bayern,niklas.mueller@die-energie.de,093537901750,FALSE,FALSE
+SNB986363918520,Energieversorgung Putzbrunn GmbH & Co. KG,Rathausstraße 1,85640,Putzbrunn,Bayern,marktstammdatenregister@bayernwerk.de,+49 871 - 965 60 180,FALSE,FALSE
+SNB935932937127,Energieversorgung Rottenburg am Neckar GmbH,Siebenlindenstraße 19,72108,Rottenburg,Baden-Württemberg,info@evr-gmbh.de,07472 933-0,FALSE,FALSE
+SNB931930462517,Energieversorgung Rüsselsheim GmbH,Walter-Flex-Straße 74,65428,Rüsselsheim,Hessen,einspeiser@stadtwerke-ruesselsheim.de,06142500229,FALSE,FALSE
+SNB911696239035,Energieversorgung Selb-Marktredwitz GmbH,Gebrüder-Netzsch-Straße 14,95100,Selb,Bayern,netznutzung@esm-selb.de,+49 9287 8020,FALSE,FALSE
+SNB921611512679,Energieversorgung Südbaar GmbH & Co. KG,Leo-Wohleb-Straße 3,78176,Blumberg,Baden-Württemberg,servicecenter@esb-energie.de,+49770243920,FALSE,FALSE
+SNB994749019716,Energieversorgung Sylt GmbH,Friesische Straße 53,25980,Sylt,Schleswig-Holstein,netznutzung@energieversorgung-sylt.de,04651/925-925,FALSE,FALSE
+SNB938624241519,Energieversorgung Trossingen GmbH,Christian-Messner-Straße 2-6,78647,Trossingen,Baden-Württemberg,technik@swtro.de,0742594012,FALSE,FALSE
+SNB925831583235,Energieversorgung Wolfgang Schmid,Mühlenstraße 44,83417,Kirchanschöring,Bayern,wolfgang.schmid@evuschmid.de,08685 247,FALSE,FALSE
+SNB976379598847,energis-Netzgesellschaft mbH,Heinrich-Böcking-Straße 10-14,66121,Saarbrücken,Saarland,service@energis-netzgesellschaft.de,068140300,FALSE,FALSE
+SNB921319639913,ENERVIE Vernetzt GmbH,Lennestraße 2,58507,Lüdenscheid,Nordrhein-Westfalen,einspeisung@enervie-vernetzt.de,02351567523233,FALSE,FALSE
+SNB921629791202,ENGIE Deutschland GmbH,Aachener Str. 1044,50858,Köln,Nordrhein-Westfalen,es.vnb-strom@engie.com,+4930915810137,FALSE,FALSE
+SNB953495670831,EnR Energienetze Rudolstadt GmbH,Oststraße 18,07407,Rudolstadt,Thüringen,mastr@energienetze-rudolstadt.de,03672 444-311,FALSE,FALSE
+SNB999405828558,ENRO Ludwigsfelde Netz GmbH,Rudolf-Diesel-Straße 15,14974,Ludwigsfelde,332,info@enro-netz-ludwigsfelde.de,03378 823 600,FALSE,FALSE
+SNB951180867351,ENRW Energieversorgung Rottweil GmbH & Co. KG,Stuttgarter Straße 80-82,78628,Rottweil,Baden-Württemberg,marktstammdatenregister@enrw.de,+49 741 472 213,FALSE,FALSE
+SNB963792700889,ENWG Energienetze Weimar GmbH & Co. KG,Industriestraße 14,99427,Weimar,Thüringen,Netze@enwg-weimar.de,03643/4341633,FALSE,FALSE
+SNB967982606159,Erlanger Stadtwerke AG,Äußere Brucker Straße 33,91052,Erlangen,Bayern,ralf.wurzschmitt@estw.de,09131 823 4239,FALSE,FALSE
+SNB929575518928,EUROGATE Technical Services GmbH,Senator-Borttscheller-Straße 1,27568,Bremerhaven,Bremen,info.edifact@eurogate.eu,047114252300,FALSE,FALSE
+SNB989700422711,EVB Netze GmbH,An der Feuerwache 4,99817,Eisenach,Thüringen,info@evb-netze.de,03691/682-100,FALSE,FALSE
+SNB985172238775,EVE Netz GmbH,Rehfeldstraße 4,29451,Dannenberg,Niedersachsen,info@eve-netz.de,05861 800980,FALSE,FALSE
+SNB943915605062,EVG Energieversorgung Gemünden GmbH,Schulstraße 5,97737,Gemünden,Bayern,info@energieversorgung-gemuenden.de,09351 941610,FALSE,FALSE
+SNB980449174619,EVI Energieversorgung Hildesheim GmbH & Co. KG,Römerring 1,31137,Hildesheim,Niedersachsen,abrechnung-einspeisung@evi-hildesheim.de,+49 (5121) 508-433,FALSE,FALSE
+SNB989583209836,EVU der Gemeinde Gochsheim,Am Plan 4-6,97469,Gochsheim,Bayern,evu@gochsheim.de,09721 6444-26,FALSE,FALSE
+SNB930329896650,EVU Langenpreising,Marktplatz 8,85456,Wartenberg,Bayern,petra.meyer@vg-wartenberg.de,+498762/7309200,FALSE,FALSE
+SNB924535591034,EVU Späth e.K.,Brennesstraße 4,93470,Lohberg,Bayern,info@evu-spaeth.de,09943/94440,FALSE,FALSE
+SNB945750197795,EVU Weilerbach,Rummelstraße 15,67685,Weilerbach,Rheinland-Pfalz,info@stadtwerke-ramstein.de,+49 6371 922-300,FALSE,FALSE
+SNB977966674678,EW Geiger GmbH,Auf Gut Kless 6,93474,Arrach,Bayern,info@ewerk-geiger.de,+49(09943)619,FALSE,FALSE
+SNB934984130722,ewag kamenz Energie und Wasserversorgung Aktiengesellschaft Kamenz,An den Stadtwerken 2,01917,Kamenz,Sachsen,ewag@kamenz.de,03578 377 0,FALSE,FALSE
+SNB951051725711,EWE NETZ GmbH,Cloppenburger Straße 302,26133,Oldenburg,Niedersachsen,info@ewe-netz.de,0441 48080,FALSE,FALSE
+SNB924747450655,EWR GmbH (Remscheid),Neuenkamper Straße 81-87,42855,Remscheid,Nordrhein-Westfalen,a.m.motsch@ewr-gmbh.de,02191 16 4255,FALSE,FALSE
+SNB969068596941,EWR Netz GmbH,Gartenstraße 22,55232,Alzey,Rheinland-Pfalz,info@ewr-netz.de,+49 (06241) 848 0,FALSE,FALSE
+SNB923953358557,EWR Netze GmbH (Lichtenstein-Unterhausen),Friedrichstraße 16,72805,Lichtenstein,Baden-Württemberg,netz@ewr-rieger.de,07129/9251-10,FALSE,FALSE
+SNB911838879365,ews - Netz GmbH,Am Wasserwerk 5,23795,Bad Segeberg,Schleswig-Holstein,info@ewsnetz.de,04 55 1 / 52 26 00,FALSE,FALSE
+SNB940297211072,EZV Energie- und Service GmbH & Co. KG Untermain,Landstraße 47,63939,Wörth,Bayern,info@ezv-energie.de,09372 9455-0,FALSE,FALSE
+SNB991882909515,FairNetz GmbH,Hauffstraße 89,72762,Reutlingen,Baden-Württemberg,netzmanagement@fairnetzgmbh.de,07121 5823000,FALSE,FALSE
+SNB944723161733,Feuchter Gemeindewerke GmbH (FGW),Unterer Zeidlerweg 1,90537,Feucht,Bayern,fgw@feucht-gw.de,+499128 99140,FALSE,FALSE
+SNB914149166902,Fischereihafen-Betriebsgesellschaft mbH,Lengstraße 1,27572,Bremerhaven,Bremen,fluechter@fbg-bremerhaven.de,047197321442,FALSE,FALSE
+SNB960098459084,FischerStrom GmbH & Co. KG,Bruck 1,83533,Edling,Bayern,e-werk.fischer@gmx.de,08039/1226,FALSE,FALSE
+SNB990971435621,Freiberger Stromversorgung GmbH,Poststraße 5,09599,Freiberg,Sachsen,info@stadtwerke-freiberg.de,+49(03731)3094140,FALSE,FALSE
+SNB977384143473,Freisinger Stadtwerke Versorgungs-GmbH,Wippenhauser Straße 19,85354,Freising,Bayern,netznutzung@freisinger-stadtwerke.de,08161/183-0,FALSE,FALSE
+SNB982241851170,Freitaler Stadtwerke GmbH,Potschappler Straße 2,01705,Freital,Sachsen,netz-management@ftl-stadtwerke.de,0351 64828-531,FALSE,FALSE
+SNB991381724831,Fürstlich Fugger von Glött´sche Elektrizitätswerk GmbH & Co KG,Marktplatz 4,87757,Kirchheim,Bayern,d.fischer@ffew.de,08266-861011,FALSE,FALSE
+SNB953422913031,Gebrüder Eirich GmbH & Co. KG,Walldürner Straße 50,74736,Hardheim,Baden-Württemberg,netzbetrieb@gebruedereirich.de,+49 6283 51-5,FALSE,FALSE
+SNB926427521488,"Gebrüder Miller, Elektrizitätsversorgung GmbH & Co. KG",Hauptstraße 8/1,88477,Schwendi,Baden-Württemberg,info@gebrueder-miller.de,073531061,FALSE,FALSE
+SNB961497906636,GELSENWASSER Energienetze GmbH,Willy-Brandt-Allee 26,45891,Gelsenkirchen,Nordrhein-Westfalen,eeg-kwkg@gw-energienetze.de,+49 209-708 1011,FALSE,FALSE
+SNB968325295962,Gemeinde Glattbach,Schulstraße 17,63864,Glattbach,Bayern,verbrauchsgebuehren@glattbach.bayern.de,06021/349132,FALSE,FALSE
+SNB984338214660,Gemeinde-Elektrizitäts- und Wasserwerk Burtenbach,Bleichstraße 1,89349,Burtenbach,Bayern,r.frey@gew-burtenbach.de,(08285) 999618,FALSE,FALSE
+SNB998167765620,Gemeindewerke Baiersbronn,Neumühleweg 11,72270,Baiersbronn,Baden-Württemberg,werke@gemeindebaiersbronn.de,07442 / 8423-0,FALSE,FALSE
+SNB914092143906,Gemeindewerke Bayerisch Gmain,Hallgrafenstraße 2,83435,Bad Reichenhall,Bayern,service@gmwbg.de,08651 705 0,FALSE,FALSE
+SNB957268511697,Gemeindewerke Bovenden GmbH & Co. KG,Rathausplatz 1,37120,Bovenden,Niedersachsen,netzwirtschaft@gemeindewerke-bovenden.de,(0551)900333-0,FALSE,FALSE
+SNB922361841965,Gemeindewerke Budenheim,Untere Stefanstraße 65,55257,Budenheim,Rheinland-Pfalz,info@gemeindewerke-budenheim.de,06139-93060,FALSE,FALSE
+SNB951232597106,Gemeindewerke Cadolzburg,Egersdorfer Straße 62,90556,Cadolzburg,Bayern,info@werke-cadolzburg.de,+49 9103 79010,FALSE,FALSE
+SNB950724684287,Gemeindewerke Dudenhofen,Konrad-Adenauer-Platz 6,67373,Dudenhofen,Rheinland-Pfalz,gemeindewerke@vgrd.de,+49 6232 6560,FALSE,FALSE
+SNB991410365127,Gemeindewerke Ebersdorf,Raiffeisenstraße 1,96237,Ebersdorf,Bayern,info-gwe@ebersdorf.net,+49 (09562) 385270,FALSE,FALSE
+SNB986931195988,Gemeindewerke Enkenbach-Alsenborn - Elektrizitätswerk,Hauptstraße 18,67677,Enkenbach-Alsenborn,Rheinland-Pfalz,gabriele.gilcher@enkenbach-alsenborn.de,+49 (06305) 71127,FALSE,FALSE
+SNB947727983103,Gemeindewerke Frammersbach,Marktplatz 3,97833,Frammersbach,Bayern,dominik.zachrau@frammersbach.de,09355 9712-15,FALSE,FALSE
+SNB954239007623,Gemeindewerke Gangkofen,Marktplatz 21/23,84140,Gangkofen,Bayern,gemeindewerke@gangkofen.de,08722949417,FALSE,FALSE
+SNB926937565941,"Gemeindewerke Garmisch-Partenkirchen, KU",Adlerstraße 25,82467,Garmisch-Partenkirchen,Bayern,info@gw-gap.de,08821/753-0,FALSE,FALSE
+SNB966216072913,Gemeindewerke Georgensgmünd,Bahnhofstraße 4,91166,Georgensgmünd,Bayern,gemeindewerke@georgensgmuend.de,0917270354,FALSE,FALSE
+SNB993724515038,Gemeindewerke Grefrath GmbH,An der Plüschweberei 15,47929,Grefrath,Nordrhein-Westfalen,einpeisung@gemeindewerle-grefrath.de,02158 915512,FALSE,FALSE
+SNB962736090291,Gemeindewerke Großkrotzenburg GmbH,Im Flachsgewann 2a,63538,Großkrotzenburg,Hessen,info@gemeindewerke-grosskrotzenburg.de,0618691500100,FALSE,FALSE
+SNB926559276683,Gemeindewerke Gundelfingen GmbH,Alte Bundesstraße 35,79194,Gundelfingen,Baden-Württemberg,netzmanagement@gwg-gundelfingen.de,076188797540,FALSE,FALSE
+SNB928557841498,Gemeindewerke Halstenbek,Ostereschweg 9,25469,Halstenbek,Schleswig-Holstein,Info@gwhalstenbek.de,+49410149070,FALSE,FALSE
+SNB991400668603,Gemeindewerke Haßloch GmbH,Gottlieb-Duttenhöfer-Straße 27,67454,Haßloch,Rheinland-Pfalz,mario.ilg@gwhassloch.de,06324/5994401,FALSE,FALSE
+SNB971174411018,Gemeindewerke Heikendorf AöR,Wasserwaage 1,24226,Heikendorf,Schleswig-Holstein,info@gwh.sh,0431248700,FALSE,FALSE
+SNB961322866920,Gemeindewerke Herxheim,Am Rathaus 6,76863,Herxheim,Rheinland-Pfalz,k.wahl-knoll@herxheim.de,07276501-420,FALSE,FALSE
+SNB924819944297,Gemeindewerke Holzkirchen GmbH,Industriestraße 8,83607,Holzkirchen,Bayern,gemeindewerke@gw-holzkirchen.de,+49 8024 9044 0,FALSE,FALSE
+SNB919708421706,Gemeindewerke Hütschenhausen c/o SW Ramstein-Miesenbach GmbH,Am Neuen Markt 8,66877,Ramstein-Miesenbach,Rheinland-Pfalz,netz-reg@Stadtwerke-Ramstein.de,+49(6371) 592300,FALSE,FALSE
+SNB962006136537,Gemeindewerke Kahl Versorgungsgesellschaft mbH,Am Christnersee 4,63796,Kahl,Bayern,info@gemeindewerke-kahl.de,06188-9950 0,FALSE,FALSE
+SNB981193584808,Gemeindewerke Kiefersfelden,Kufsteiner Straße 17,83088,Kiefersfelden,Bayern,info@gemeindewerke-kiefersfelden.de,+49 (08033) 976521,FALSE,FALSE
+SNB969688824103,Gemeindewerke Kirkel GmbH,Hauptstraße 10b,66459,Kirkel,Saarland,marktstammdatenregister@gwkirkel.de,0684198150,FALSE,FALSE
+SNB955706777742,Gemeindewerke Lam,Schulweg 4,93462,Lam,Bayern,Gemeindewerke@markt-lam.de,099439415-0,FALSE,FALSE
+SNB994196581439,Gemeindewerke Langenpreising GmbH & Co. KG,Marktplatz 8,85456,Wartenberg,Bayern,netz@gemeindewerke-langenpreising.de,08081931754,FALSE,FALSE
+SNB972265030262,Gemeindewerke Münchweiler a.d.Rodalb Anstalt des öffentlichen Rechts,Schulstraße 19,66981,Münchweiler,Rheinland-Pfalz,netzbetreiber@swk-kl.de,+49 (0631) 80014051,FALSE,FALSE
+SNB984571613121,Gemeindewerke Neuendettelsau,Johann-Flierl-Straße 19,91564,Neuendettelsau,Bayern,service@gw-neuendettelsau.de,09874502800,FALSE,FALSE
+SNB940436967099,Gemeindewerke Niefern-Öschelbronn,Rathausstraße 1,75223,Niefern-Öschelbronn,Baden-Württemberg,werke@niefern-oeschelbronn.de,+49 (07233) 7089910,FALSE,FALSE
+SNB981336194529,Gemeindewerke Nüdlingen,Kissinger Straße 1,97720,Nüdlingen,Bayern,netz@gemeindewerke-nuedlingen.de,0971/7271-13,FALSE,FALSE
+SNB987153361809,Gemeindewerke Nümbrecht GmbH,Schulstraße 4,51588,Nümbrecht,Nordrhein-Westfalen,info@gwn24.de,02293 9113 0,FALSE,FALSE
+SNB950777700255,Gemeindewerke Oberaudorf,Kranzhornstraße 2,83080,Oberaudorf,Bayern,info@gemeindewerke-oberaudorf.de,08033/3056-20,FALSE,FALSE
+SNB955872978110,Gemeindewerke Partenstein,Hauptstraße 24,97846,Partenstein,Bayern,juergen.schneider@vgem-partenstein.bayern.de,+49 (9355) 972128,FALSE,FALSE
+SNB915728555230,Gemeindewerke Pleinfeld,Beim Sägwerk 4,91785,Pleinfeld,Bayern,netznutzung@gw-pleinfeld.de,+49 (09144) 920081,FALSE,FALSE
+SNB981972152532,Gemeindewerke Schönkirchen GmbH,Dorfstraße 4,24232,Schönkirchen,Schleswig-Holstein,eeg-gws-netz@service-plus-gmbh.de,04348-9592778,FALSE,FALSE
+SNB959475630567,Gemeindewerke Schutterwald (GWS),Kirchstraße 2,77746,Schutterwald,Baden-Württemberg,gemeindewerke@schutterwald.de,0781 9606 42,FALSE,FALSE
+SNB944419421783,Gemeindewerke Schwarzenbruck GmbH (GWS),Unterer Zeidlerweg 1,90537,Feucht,Bayern,fgw@feucht-gw.de,+499128 9914300,FALSE,FALSE
+SNB916657570554,Gemeindewerke Steinhagen GmbH,Westernkamp 12,33803,Steinhagen,Nordrhein-Westfalen,schulz@gs-werke.de,05204 / 99 555 449,FALSE,FALSE
+SNB983792571722,Gemeindewerke Wadgassen GmbH,Wendelstraße 79,66787,Wadgassen,Saarland,info@gemeindewerke-wadgassen.de,+49(0)6834-944-173,FALSE,FALSE
+SNB976297675927,Gemeindewerke Waging a. See,Am Höllenbach 18,83329,Waging a. See,Bayern,info@gw-waging.de,08681/47119-0,FALSE,FALSE
+SNB966823215826,Gemeindewerke Weidenthal c/o Stadtwerke Kaiserslautern,Bismarckstraße 14,67655,Kaiserslautern,Rheinland-Pfalz,netzbetreiber@swk-kl.de,+49 (0631) 80014051,FALSE,FALSE
+SNB964137069203,Gemeindewerke Wendelstein KU,Nürnberger Straße 5,90530,Wendelstein,Bayern,info.gemeindewerke@wendelstein.de,09129401261,FALSE,FALSE
+SNB945187645647,Gemeindewerke Wildeck,Eisenacher Straße 98,36208,Wildeck,Hessen,strom@wildeck.de,06626920015,FALSE,FALSE
+SNB925878615876,Gemeindliche Werke Hengersberg,Passauer Straße 1,94491,Hengersberg,Bayern,info@gw-hengersberg.de,09901/9308-0,FALSE,FALSE
+SNB967068117678,gemeinsames Kommunalunternehmen oberes Egertal,Wunsiedler Straße 30,95163,Weißenstadt,Bayern,info@g-ku.de,092539545750,FALSE,FALSE
+SNB948816192529,GeraNetz GmbH,De-Smit-Straße 18,07545,Gera,Thüringen,Katrin.Seidel@geranetz.de,03658561338,FALSE,FALSE
+SNB901665585874,GETEC net GmbH,An der Börse 4,30159,Hannover,Niedersachsen,info@getec-net.de,051112108860,FALSE,FALSE
+SNB995332374861,GETEC Quartier GmbH,An der Börse 4,30159,Hannover,Niedersachsen,detlef.goerges@getec-net.de,0511121088971,FALSE,FALSE
+SNB933529129573,Getreidemühle Zwiefalten eG,Hauptstraße 40,88529,Zwiefalten,Baden-Württemberg,info@getreidemuehle-zwiefalten.de,07373/2812,FALSE,FALSE
+SNB920157746937,GEW Wilhelmshaven GmbH,Nahestraße 6,26382,Wilhelmshaven,Niedersachsen,netznutzung@gew-wilhelmshaven.de,04421 404 740,FALSE,FALSE
+SNB968670865650,"GGEW, Gruppen-Gas- und Elektrizitätswerk Bergstraße AG",Dammstraße 68,64625,Bensheim,Hessen,netznutz@ggew.de,062511301270,FALSE,FALSE
+SNB961316124487,Gothaer Stadtwerke NETZ GmbH,Pfullendorfer Straße 83,99867,Gotha,Thüringen,mail@gothaer-stadtwerke-netz.de,03621/2 11 98 0,FALSE,FALSE
+SNB930067626847,Greizer Energienetze GmbH,Mollbergstraße 20,07973,Greiz,Thüringen,info@gen-greiz.de,03661/614-555,FALSE,FALSE
+SNB935600499711,"GSW Gemeinschaftsstadtwerke GmbH Kamen, Bönen, Bergkamen",Poststraße 4,59174,Kamen,Nordrhein-Westfalen,service@gsw-kamen.de,023079780,FALSE,FALSE
+SNB915686229082,GWS Gemeindewerke Sinzheim GmbH & Co. KG,Müllhofener Straße 22,76547,Sinzheim,Baden-Württemberg,info@gw-sinzheim.de,07221806510,FALSE,FALSE
+SNB977374861035,Halberstadtwerke GmbH,Wehrstedter Straße 48,38820,Halberstadt,Sachsen-Anhalt,info@halberstadtwerke.de,+49 (3941)579100,FALSE,FALSE
+SNB968295079586,Hamburger Energienetze GmbH,Bramfelder Chaussee 130,22177,Hamburg,Hamburg,kundenservice-strom@hamburger-energienetze.de,+49 (040) 4920200,FALSE,FALSE
+SNB985729975610,Hanau Netz GmbH,Leipziger Straße 17,63450,Hanau,Hessen,info@hanau-netz.de,06181 365-13,FALSE,FALSE
+SNB984607096621,Harz Energie Netz GmbH,Lasfelder Straße 10,37520,Osterode,Niedersachsen,einspeiser@harzenergie-netz.de,05522 503-9122,FALSE,FALSE
+SNB934355412402,Havelstrom Zehdenick GmbH,Schleusenstraße 22,16792,Zehdenick,332,info@stadtwerke-zehdenick.de,0330746930,FALSE,FALSE
+SNB975462731697,Heinzelmann Stromhandels- und Vertriebs-GmbH & Co. KG,Halbmeil 3-5,77709,Wolfach,Baden-Württemberg,johannes.koch@gebr-heinzelmann.de,0783483690,FALSE,FALSE
+SNB924453035597,Hellenstein-Energie-Logistik GmbH,Meeboldstraße 1,89522,Heidenheim,Baden-Württemberg,mastr-netzbetreiber@stadtwerke-heidenheim.de,+49 (0)7321 3280,FALSE,FALSE
+SNB964592501355,Hertener Stadtwerke GmbH,Herner Straße 21,45699,Herten,Nordrhein-Westfalen,em@herten.de,02366/307155,FALSE,FALSE
+SNB930312838582,Herzo Werke GmbH,Schießhausstraße 9,91074,Herzogenaurach,Bayern,mastr@herzowerke.de,+49 (9132) 9040,FALSE,FALSE
+SNB982085566391,HEWA GmbH,Wilhelm-Ulmer-Straße 12,91217,Hersbruck,Bayern,christian-fischer@hewagmbh.de,09151/8197-132,FALSE,FALSE
+SNB974319144116,IGS Netze GmbH,Ludwig-Hermann-Straße 100,86368,Gersthofen,Bayern,edm.strom@igs-netze.de,08214792568,FALSE,FALSE
+SNB916663914472,inetz GmbH,Straße der Nationen 140,09113,Chemnitz,Sachsen,info@inetz.de,0371/489-2999,FALSE,FALSE
+SNB911960309587,infra fürth gmbh,Leyher Straße 69,90763,Fürth,Bayern,kundenservice@infra-fuerth.de,091197044000,FALSE,FALSE
+SNB982722829230,InfraLeuna GmbH,Am Haupttor Bau 4310,06237,Leuna,Sachsen-Anhalt,vnb-strom@infraleuna.de,03461433224,FALSE,FALSE
+SNB942732578894,InfraServ Gendorf Netze GmbH,Industrieparkstraße 1,84508,Burgkirchen,Bayern,ISGN@infraserv.gendorf-netze.de,+49 8679 7-5660,FALSE,FALSE
+SNB942908692218,Karl Stengle GmbH & Co. KG,Niedere-Au-Straße 11,72108,Rottenburg,Baden-Württemberg,frankbuerkle@e-werk-stengle.de,+49(07472)9808606,FALSE,FALSE
+SNB913273314623,KBG Kraftstrom- Bezugsgenossenschaft Homberg eG,Ostpreußenweg 5,34576,Homberg,Hessen,info@kbg-homberg.de,05681/9909-0,FALSE,FALSE
+SNB951760950909,Keep - Kommunale Eisenberger Energiepartner GmbH,Schulstraße 18,67304,Eisenberg,Rheinland-Pfalz,info@keep-gmbh.de,06351407100,FALSE,FALSE
+SNB964573708865,KEW Karwendel Energie und Wasser GmbH,Innsbrucker Straße 31,82481,Mittenwald,Bayern,info@kewgmbh.de,08823 92000,FALSE,FALSE
+SNB943841101959,KEW Kommunale Energie- und Wasserversorgung AG,Händelstraße 5,66538,Neunkirchen,Saarland,marktstammdatenregister@kew.de,068212000,FALSE,FALSE
+SNB986580518855,KommEnergie GmbH,Hauptplatz 4,82223,Eichenau,Bayern,edm_einspeisung@kommenergie.de,0814122870,FALSE,FALSE
+SNB972153058149,Kommunale Energienetze Inn-Salzach GmbH & Co. KG,Weserstraße 4,84453,Mühldorf,Bayern,info@ken-is.de,+49 8631 1843 0,FALSE,FALSE
+SNB912218404412,Kommunale Energieversorgung GmbH Eisenhüttenstadt,Fährstraße 60,15890,Eisenhüttenstadt,332,kev-n@swehst.de,+4933642932371,FALSE,FALSE
+SNB985871274975,Kommunalunternehmen Gemeindewerke Peißenberg,Hauptstraße 116,82380,Peißenberg,Bayern,clearing@peissenberg.de,+49(08803) 690200,FALSE,FALSE
+SNB947553215997,Kommunalunternehmen Gemeindewerke Stammbach Anstalt des öffentlichen Rechts des Marktes Stammbach,Färberstraße 2,95236,Stammbach,Bayern,birgit.schenkl@gemeindewerke-stammbach.de,+49 9256 96009-0,FALSE,FALSE
+SNB990329664031,Kommunalunternehmen Stadtwerke Klingenberg a.M. (AöR),Ludwigstraße 41a,63911,Klingenberg,Bayern,stadtwerke@stadtwerke-klingenberg.de,+49(9372)947450,FALSE,FALSE
+SNB987171059405,Kraftwerk Farchant A. Poettinger & Co. KG,Esterbergstraße 8,82490,Farchant,Bayern,sg@kw-farchant.com,+49882196677-37,FALSE,FALSE
+SNB957361726592,Kraftwerk Köhlgartenwiese GmbH,Tegernauer Ortsstraße 9,79692,Kleines Wiesental,Baden-Württemberg,netz-kgw@ews-schoenau.de,+49-7673-8885-0,FALSE,FALSE
+SNB937858140285,Kreiswerke Main-Kinzig GmbH,Barbarossastraße 26,63571,Gelnhausen,Hessen,einspeiserabrechnung@kreiswerke-main-kinzig.de,06051 84-3030,FALSE,FALSE
+SNB952845016893,LeineNetz GmbH,Hertzstraße 3,31535,Neustadt,Niedersachsen,info@leinenetz.de,05032 8309-0,FALSE,FALSE
+SNB920357766414,Leitungspartner GmbH,Arnoldsweilerstraße 60,52351,Düren,Nordrhein-Westfalen,info@leitungspartner.de,0242148650,FALSE,FALSE
+SNB911705062982,LEW Verteilnetz GmbH,Schaezlerstraße 3,86150,Augsburg,Bayern,marktstammdatenregister@lew-verteilnetz.de,08213283095,FALSE,FALSE
+SNB922269370765,Licht- und Kraftwerke Helmbrechts GmbH,Münchberger Straße 65,95233,Helmbrechts,Bayern,mail@luk-helmbrechts.de,09252/704-0,FALSE,FALSE
+SNB919657321775,Licht- und Kraftwerke Sonneberg GmbH,Bismarckstraße 11,96515,Sonneberg,Thüringen,info@likra.de,0367589270,FALSE,FALSE
+SNB943319305469,"Licht-, Kraft- und Wasserwerke Kitzingen GmbH",Wörthstraße 5,97318,Kitzingen,Bayern,info@lkw-kitzingen.de,+49 (09321) 1010,FALSE,FALSE
+SNB977443469322,LokalWerke GmbH,Hoher Weg 2,48683,Ahaus,Nordrhein-Westfalen,info@lokalwerke.de,+49256193080,FALSE,FALSE
+SNB957862279702,LSW Netz GmbH & Co. KG,Heßlinger Straße 1-5,38440,Wolfsburg,Niedersachsen,info@lsw-netz.de,05361-189 0,FALSE,FALSE
+SNB915316807789,Mainfranken Netze GmbH,Haugerring 6,97070,Würzburg,Bayern,anmeldung-eigenerzeugung@mainfrankennetze.de,0931363131,FALSE,FALSE
+SNB983526428810,Mainnetz GmbH,Ringstraße 4-6,63179,Obertshausen,Hessen,netz@mainnetz.com,+49 (06104) 95195559,FALSE,FALSE
+SNB974647435931,Mainsite GmbH & Co. KG,Glanzstoffstr. 1,63906,Erlenbach,Bayern,ariane.lehman@mainsite.de,00496022812270,FALSE,FALSE
+SNB943571241628,Maintal-Werke-GmbH-Stadtwerke der Stadt Maintal,Neckarstraße 7,63477,Maintal,Hessen,netzservice@maintal-werke.de,+49(06181)941060,FALSE,FALSE
+SNB959523885956,Mainzer Netze GmbH,Rheinallee 41,55118,Mainz,Rheinland-Pfalz,mastr@mainzer-netze.de,,FALSE,FALSE
+SNB997826747014,Markt Egloffstein,Badstraße 166,91349,Egloffstein,Bayern,hofmann@egloffstein.de,09197/6292-21,FALSE,FALSE
+SNB932489723517,Markt Obernzell Elektrizitäts- versorgungsunternehmen,Marktplatz 42,94130,Obernzell,Bayern,daniela.krebsbach@obernzell.de,+49 (8591)9116-124,FALSE,FALSE
+SNB914731268120,MEGA Monheimer Elektrizitäts- und Gasversorgung GmbH,Rheinpromenade 3a,40789,Monheim,Nordrhein-Westfalen,netzmanagement@mega-monheim.de,02173/9520-209,FALSE,FALSE
+SNB914103081760,Meißener Stadtwerke GmbH,Karl-Niesner-Straße 1,01662,Meißen,Sachsen,erzeugungsanlagen@stadtwerke-meissen.de,03521 46010,FALSE,FALSE
+SNB916269213931,Mitteldeutsche Netzgesellschaft Strom mbH,Industriestraße 10,06184,Kabelsketal,Sachsen-Anhalt,info@mitnetz-strom.de,034605 291000,FALSE,FALSE
+SNB906862380628,Mittelhessen Netz GmbH,Lahnstraße 31,35398,Gießen,Hessen,einspeisung@mit-n.de,+496417081616,FALSE,FALSE
+SNB970253419624,Müller - Mühle GmbH & Co. KG,Mühlenstraße 35,97285,Tauberrettersheim,Bayern,info@mueller-muehle.de,09338/215,FALSE,FALSE
+SNB985472799266,MVV Netze GmbH,Luisenring 49,68159,Mannheim,Baden-Württemberg,einspeiser@mvv-netze.de,06212902662,FALSE,FALSE
+SNB973875583315,N-ERGIE Netz GmbH,Sandreuthstraße 21,90441,Nürnberg,Bayern,kundenservice@n-ergie-netz.de,091180202,FALSE,FALSE
+SNB993755128542,Nahwerk-Energie GmbH & Co. KG,Am Bauhof 1,67714,Waldfischbach-Burgalben,Rheinland-Pfalz,info@nahwerk-energie.de,+496333 2758270,FALSE,FALSE
+SNB945502201350,naturenergie netze GmbH,Schildgasse 20,79618,Rheinfelden,Baden-Württemberg,stammdaten@naturenergie-netze.de,07623 92 1865,FALSE,FALSE
+SNB974711150357,NETCUR GmbH,Kaiser-Wilhelm-Allee 80,51373,Leverkusen,Nordrhein-Westfalen,netzwirtschaft.strom@currenta.biz,,FALSE,FALSE
+SNB948859455841,Netz Leipzig GmbH,Arno-Nitzsche-Straße 35,04277,Leipzig,Sachsen,info@netz-leipzig.de,+49(0341) 12140,FALSE,FALSE
+SNB915030239484,Netzbetrieb Hirschberg GmbH & Co. KG,Industriestraße 2,68519,Viernheim,Hessen,Marktstammdatenregister@netzbetrieb-hirschberg.de,06204/989-775,FALSE,FALSE
+SNB939517994215,NETZE Bad Langensalza GmbH,Illebener Weg 11a,99947,Bad Langensalza,Thüringen,c.roenick@nbl-badlangensalza.de,036038508601,FALSE,FALSE
+SNB948311994307,Netze BW GmbH,Schelmenwasenstraße 15,70567,Stuttgart,Baden-Württemberg,,,FALSE,FALSE
+SNB916123648602,Netze Duisburg GmbH,Bungertstr. 27,47053,Duisburg,Nordrhein-Westfalen,info@netze-duisburg.de,+49 (0203) 6040,FALSE,FALSE
+SNB934214092950,Netze Hechingen GmbH & Co. KG,Alte Rottenburger Straße 5,72379,Hechingen,Baden-Württemberg,blaj@stadtwerke-hechingen.de,+49 (0) 7471 936539,FALSE,FALSE
+SNB933459598975,Netze Magdeburg GmbH,Franckestraße 8,39104,Magdeburg,Sachsen-Anhalt,info@netze-magdeburg.de,03915871500,FALSE,FALSE
+SNB935556509052,Netze ODR GmbH,Unterer Brühl 2,73479,Ellwangen,Baden-Württemberg,marktstammdatenregister@netze-odr.de,+4979619331490,FALSE,FALSE
+SNB933767388565,Netzgesellschaft Ahlen mbH,Industriestraße 40,59229,Ahlen,Nordrhein-Westfalen,info@netzgesellschaft-ahlen.de,023827880,FALSE,FALSE
+SNB978051166283,Netzgesellschaft Bitterfeld-Wolfen mbH,Steinfurther Straße 46,06766,Bitterfeld-Wolfen,Sachsen-Anhalt,mastr@netzb-w.de,0349438241,FALSE,FALSE
+SNB933956506145,Netzgesellschaft Düsseldorf mbH,Höherweg 200,40233,Düsseldorf,Nordrhein-Westfalen,info@netz-duesseldorf.de,(0211) 821 6389,FALSE,FALSE
+SNB917432806905,Netzgesellschaft Eisenberg mbH,Etzdorfer Straße 2,07607,Eisenberg,Thüringen,service@netz-eisenberg.de,036691/666-0,FALSE,FALSE
+SNB922055731633,Netzgesellschaft Forst (Lausitz) mbH & Co. KG,Euloer Straße 91,03149,Forst,332,n.welzel@nbb-netzgesellschaft.de,+4930818762205,FALSE,FALSE
+SNB954814647626,Netzgesellschaft Frankfurt (Oder) mbH,Karl-Marx-Straße 195,15230,Frankfurt,332,kontakt@netze-ffo.de,+493355533710,FALSE,FALSE
+SNB931546188436,Netzgesellschaft Gütersloh mbH,Berliner Straße 260,33330,Gütersloh,Nordrhein-Westfalen,info@netze-gt.de,05241/82-3700,FALSE,FALSE
+SNB934185023519,Netzgesellschaft Lübbecke mbH,Gasstraße 1,32312,Lübbecke,Nordrhein-Westfalen,netznutzung@netzgesellschaft-luebbecke.de,+49 (05741) 3460-55,FALSE,FALSE
+SNB987317008403,Netzgesellschaft Panketal GmbH,Langewahler Straße 60,15517,Fürstenwalde,332,,030-29 03 49 03,FALSE,FALSE
+SNB929027950139,Netzgesellschaft Potsdam GmbH,Großbeerenstraße 231,14480,Potsdam,332,netznutzung@ngp-potsdam.de,03316619660,FALSE,FALSE
+SNB913130054136,Netzgesellschaft Schwerin mbH (NGS),Eckdrift 43-45,19061,Schwerin,Mecklenburg-Vorpommern,ngs-eeg-kwk@swsn.de,0385/6333577,FALSE,FALSE
+SNB954504134696,netzplus GmbH & Co. KG,Nordfeldstraße 5,33775,Versmold,Nordrhein-Westfalen,info@netz.plus,+49 5423 9519 0,FALSE,FALSE
+SNB929088252340,Netzwerke Merzig GmbH,Am Gaswerk 10,66663,Merzig,Saarland,denoyelle@stadtwerke-merzig.de,06861/7006-153,FALSE,FALSE
+SNB915471253889,Netzwerke Saarlouis GmbH,Holtzendorffer Str. 12,66740,Saarlouis,Saarland,info@nwsls.de,068319596320,FALSE,FALSE
+SNB939624707241,Neubrandenburger Stadtwerke GmbH,John-Schehr-Straße 1,17033,Neubrandenburg,Mecklenburg-Vorpommern,info@neu-sw.de,039535000,FALSE,FALSE
+SNB940437318166,NEW Netz GmbH,Nikolaus-Becker-Straße 28-34,52511,Geilenkirchen,Nordrhein-Westfalen,mastr@new-netz.de,+49 (02451) 624-6333,FALSE,FALSE
+SNB911144461377,NGN Netzgesellschaft Niederrhein mbH,St. Töniser Straße 126,47804,Krefeld,Nordrhein-Westfalen,info@ngn-mbh.de,,FALSE,FALSE
+SNB998819299022,NHF Netzgesellschaft Heilbronn-Franken mbH,Weipertstraße 39,74076,Heilbronn,Baden-Württemberg,info@n-hf.de,071316499188,FALSE,FALSE
+SNB978108787379,NHL Netzgesellschaft Heilbronner Land GmbH & Co. KG,Weipertstraße 39,74076,Heilbronn,Baden-Württemberg,info@n-hl.de,07131 89810,FALSE,FALSE
+SNB917783023525,Niedersachsen Ports GmbH & Co. KG,Hindenburgstraße 26,26122,Oldenburg,Niedersachsen,emden@nports.de,04921897394,FALSE,FALSE
+SNB959176447266,Nordhausen Netz GmbH,Straße der Genossenschaften 93,99734,Nordhausen,Thüringen,a.kaemmerer@nordhausen-netz.de,03631 634764,FALSE,FALSE
+SNB920393062051,NordNetz GmbH,Schleswag-HeinGas-Platz 1,25451,Quickborn,Schleswig-Holstein,kundenservice@nordnetz.com,0 41 06-9 99 80 33,FALSE,FALSE
+SNB931610892481,Nordseeheilbad Borkum GmbH,Hindenburgstraße 110,26757,Borkum,Niedersachsen,stadtwerke@borkum.de,04922933800,FALSE,FALSE
+SNB921899277833,NRM Netzdienste Rhein-Main GmbH,Solmsstraße 38,60486,Frankfurt,Hessen,t.bott@nrm-netzdienste.de,069-21382657,FALSE,FALSE
+SNB945532057606,nvb Nordhorner Versorgungsbetriebe GmbH,Gildkamp 10,48529,Nordhorn,Niedersachsen,mastr@nvb.de,+49 (05921) 301172,FALSE,FALSE
+SNB992672107807,Oberhausener Netzgesellschaft mbH,Danziger Str. 31,46045,Oberhausen,Nordrhein-Westfalen,einspeisung@ob-netz.de,+49 208 8352341,FALSE,FALSE
+SNB949124413085,Obermaier und Gerg Grundstücksverwaltung KG,Schwaigerweg 2,85625,Baiern,Bayern,obermaierundgerg@eg-wolkersdorf.de,08093-59103,FALSE,FALSE
+SNB959255155907,Osterholzer Stadtwerke GmbH & Co. KG,Am Pumpelberg 4,27711,Osterholz-Scharmbeck,Niedersachsen,info@osterholzer-stadtwerke.de,047918090,FALSE,FALSE
+SNB934071779865,OsthessenNetz GmbH,Gerbergasse 9,36037,Fulda,Hessen,einspeiser@osthessennetz.de,0661 299-1441,FALSE,FALSE
+SNB942224012479,OUTLETCITY AG,Hugo-Boss-Platz 4,72555,Metzingen,Baden-Württemberg,strom@outletcity.com,07123/9234-902,FALSE,FALSE
+SNB969534177940,ovag Netz GmbH,Hanauer Straße 9-13,61169,Friedberg,Hessen,netznutzung@ovag-netz.de,+49 (06031) 820,FALSE,FALSE
+SNB961471621746,Pfalzwerke Netz AG,Wredestraße 35,67059,Ludwigshafen,Rheinland-Pfalz,einspeiser@pfalzwerke-netz.de,+49621 570572945,FALSE,FALSE
+SNB988532040636,PVU Energienetze GmbH,Feldstraße 27a,19348,Perleberg,332,energienetze@pvu-netze.de,03876782400,FALSE,FALSE
+SNB942804093577,Queichtal Energie Offenbach Netz GmbH,Industriestraße 18,76829,Landau,Rheinland-Pfalz,info@qeo-netz.de,06341-289-200,FALSE,FALSE
+SNB966494112844,Raiffeisenbank Altmühl-Jura eG,Marktplatz 9,91171,Greding,Bayern,info@stromversorgung-greding.de,08463900900,FALSE,FALSE
+SNB963995572245,REDINET Burgenland GmbH,Geußnitzer Straße 74,06712,Zeitz,Sachsen-Anhalt,info@redinet.de,+49 3441 8003 611,FALSE,FALSE
+SNB941929592729,Regensburg Netz GmbH,Greflingerstraße 26,93055,Regensburg,Bayern,info@regensburg-netz.de,09416013401,FALSE,FALSE
+SNB942274543879,Regionalnetze Linzgau GmbH,Bahnhofstraße 6,88630,Pfullendorf,Baden-Württemberg,einspeisung@regionalnetze-linzgau.de,07552/25-1793,FALSE,FALSE
+SNB974239978785,Regionalwerk Bodensee Netze GmbH & Co. KG,Waldesch 29,88069,Tettnang,Baden-Württemberg,eeg-kwkg@rw-bodensee.de,07542/9379-224,FALSE,FALSE
+SNB917014884420,Regionalwerke Wolfhager Land GmbH,Siemensstraße 10,34466,Wolfhagen,Hessen,martin.kreutz@rwl.gmbh,05692355960,FALSE,FALSE
+SNB911641710114,Regionetz GmbH,Lombardenstraße 12-22,52070,Aachen,Nordrhein-Westfalen,info@regionetz.de,0241 41368-2930,FALSE,FALSE
+SNB979950878543,Remstalwerk Netzgesellschaft GmbH,Stuttgarter Straße 85,73630,Remshalden,Baden-Württemberg,mastr-vnb@remstalwerk.de,07151/36971-62,FALSE,FALSE
+SNB912239808732,Rheinhessische Energie- und Wasserversorgungs-GmbH,Binger Straße 135,55218,Ingelheim,Rheinland-Pfalz,rheinhessische@rheinhessische.de,06132/7801-0,FALSE,FALSE
+SNB924477581384,RheinNetz GmbH,Parkgürtel 24,50823,Köln,Nordrhein-Westfalen,marktstammdatenregister@rng.de,0221-4746-0,FALSE,FALSE
+SNB976863966633,Rothmoser GmbH & Co. KG,Am Urtelbach 4,85567,Grafing,Bayern,florian.rothmoser@rothmoser.de,08092-700416,FALSE,FALSE
+SNB958237843443,Saalfelder Energienetze GmbH,Remschützer Straße 42,07318,Saalfeld,Thüringen,info@saalfelder-energienetze.de,03671 590290,FALSE,FALSE
+SNB980808485264,SachsenNetze GmbH,Friedrich-List-Platz 2,01069,Dresden,Sachsen,einspeiser@sachsenenergie.de,+49 351 563023810,FALSE,FALSE
+SNB968914838013,SachsenNetze HS.HD GmbH,Friedrich-List-Platz 2,01069,Dresden,Sachsen,einspeiser@sachsenenergie.de,+49 (0351) 5630 23810,FALSE,FALSE
+SNB956986612075,Saerbecker Ver- und Entsorgungsnetzgesellschaft mbH,An der Mühlenbreede 4,49525,Lengerich,Nordrhein-Westfalen,marktstammdatenregister@swl-unser-stadtwerk.de,05481-800522222,FALSE,FALSE
+SNB990857029876,Schleswig-Holstein Netz GmbH,Schleswag-HeinGas-Platz 1,25451,Quickborn,Schleswig-Holstein,kundenservice@sh-netz.com,0 41 06-6 48-90 90,FALSE,FALSE
+SNB953868012787,Schleswiger Stadtwerke GmbH,Werkstraße 1,24837,Schleswig,Schleswig-Holstein,netznutzung@schleswiger-stadtwerke.de,+49 (04621) 8010,FALSE,FALSE
+SNB950960779068,SEW Stromversorgungs GmbH,Werkstraße 2,85435,Erding,Bayern,info@sew-erding.de,0812298270,FALSE,FALSE
+SNB932006596143,Sömmerdaer Energieversorgung GmbH,Uhlandstraße 7,99610,Sömmerda,Thüringen,m.markus@sev-soemmerda.de,03634371140,FALSE,FALSE
+SNB989025785690,SSW Netz GmbH,St.Floriansweg 2,66606,St. Wendel,Saarland,info@ssw-netz.de,06851/902-570,FALSE,FALSE
+SNB931823254809,Stadt Burgbernheim - Stadtwerke,Rathausplatz 1,91593,Burgbernheim,Bayern,r.rank@burgbernheim.de,09843/309-11,FALSE,FALSE
+SNB922689183730,Stadt- und Überlandwerke GmbH Luckau-Lübbenau,Am Bahnhof 2,15926,Luckau,332,info@suell.de,03544 5026-0,FALSE,FALSE
+SNB943531720705,Städtische Betriebswerke Luckenwalde GmbH,Kirchhofsweg 6,14943,Luckenwalde,332,marktstammdaten@sbl-gmbh.net,03371/682 0,FALSE,FALSE
+SNB946013720880,Städtische Werke Borna Netz GmbH,Am Wilhelmschacht 20,04552,Borna,Sachsen,info@stadtwerke-borna-netz.de,+49 (03433) 218006,FALSE,FALSE
+SNB935482852901,Städtische Werke Netz+Service GmbH,Eisenacher Straße 12,34123,Kassel,Hessen,eeg@netzplusservice.de,+49 (561) 57452092,FALSE,FALSE
+SNB926394976090,Städtische Werke Spremberg (Lausitz) GmbH,Lustgartenstraße 4a,03130,Spremberg,332,post@swspremberg.de,03563/39070,FALSE,FALSE
+SNB980883363112,Stadtnetze Münster GmbH,Hafenplatz 1,48155,Münster,Nordrhein-Westfalen,mastr@stadtnetze-muenster.de,+49 (0251) 694-4021,FALSE,FALSE
+SNB993059842564,Stadtwerk am See GmbH & Co. KG,Kornblumenstraße 7,88046,Friedrichshafen,Baden-Württemberg,service@stadtwerk-am-see.de,+49 (07541) 5050,FALSE,FALSE
+SNB964046129302,Stadtwerk Haßfurt GmbH,Augsfelder Straße 6,97437,Haßfurt,Bayern,jutta.postler-sulimma@stwhas.de,09521 9494 380,FALSE,FALSE
+SNB936176430474,Stadtwerk Tauberfranken GmbH,Max-Planck-Straße 5,97980,Bad Mergentheim,Baden-Württemberg,nkm@stadtwerk-tauberfranken.de,07931 491 492,FALSE,FALSE
+SNB982726407335,Stadtwerke Aalen GmbH,Im Hasennest 9,73433,Aalen,Baden-Württemberg,a.heiss@sw-aalen.de,07361952150,FALSE,FALSE
+SNB942257679137,Stadtwerke Achim AG,Gaswerkstraße 7,28832,Achim,Niedersachsen,mastr@stadtwerke-achim.de,04202/510-0,FALSE,FALSE
+SNB947092763157,Stadtwerke Altdorf GmbH,Hersbrucker Straße 6a,90518,Altdorf,Bayern,netz@stadtwerke-altdorf.de,09187/929-0,FALSE,FALSE
+SNB947709605108,Stadtwerke Altensteig,Jahnstraße 13,72213,Altensteig,Baden-Württemberg,SWA-Netznutzung@altensteig.de,074539461426,FALSE,FALSE
+SNB978191145308,Stadtwerke Amberg Versorgungs GmbH,Gasfabrikstraße 16,92224,Amberg,Bayern,Poststelle@Stadtwerke-Amberg.de,0800 603-5555,FALSE,FALSE
+SNB981335690930,Stadtwerke Andernach Energie GmbH,Läufstraße 4,56626,Andernach,Rheinland-Pfalz,info-netz@stadtwerke-andernach.de,026322980,FALSE,FALSE
+SNB936769439815,Stadtwerke Annaberg-Buchholz Energie AG,Robert-Schumann-Straße 1,09456,Annaberg-Buchholz,Sachsen,infoline@swa-b.de,0373356130,FALSE,FALSE
+SNB972040623122,Stadtwerke Annweiler am Trifels,Saarlandstraße 13,76855,Annweiler,Rheinland-Pfalz,info@stadtwerke-annweiler.de,0634630090,FALSE,FALSE
+SNB937406641264,Stadtwerke Ansbach GmbH,Rügländer Straße 1,91522,Ansbach,Bayern,info@stwan.de,0981/8904-0,FALSE,FALSE
+SNB985993443181,Stadtwerke Arnstadt Netz GmbH & Co. KG,Elxlebener Weg 8,99310,Arnstadt,Thüringen,info@arnstadt-netz.de,+493628745205,FALSE,FALSE
+SNB957591716776,Stadtwerke Aue - Bad Schlema GmbH,Mühlstraße 4,08280,Aue-Bad Schlema,Sachsen,robin.chomek@swaue.de,03771-55 66 -22,FALSE,FALSE
+SNB911602541351,Stadtwerke Backnang GmbH,Schlachthofstraße 6,71522,Backnang,Baden-Württemberg,info@swbk.de,07191 1760,FALSE,FALSE
+SNB939779591900,Stadtwerke Bad Aibling,Lindenstraße 30,83043,Bad Aibling,Bayern,info@sw-ba.de,08061/90660,FALSE,FALSE
+SNB921299925846,Stadtwerke Bad Bergzabern GmbH,Landauer Straße 23,76887,Bad Bergzabern,Rheinland-Pfalz,christian.mueller@stadtwerke-bza.de,06343933913,FALSE,FALSE
+SNB960502792271,Stadtwerke Bad Bramstedt Netz GmbH,Lohstücker Weg 10,24576,Bad Bramstedt,Schleswig-Holstein,Netznutzung@badbramstedtnetz.de,+49 (04192) 20131-0,FALSE,FALSE
+SNB983359308570,Stadtwerke Bad Brückenau GmbH,Sinnaustraße 14,97769,Bad Brückenau,Bayern,stadtwerke@stw-brk.de,09741-91120,FALSE,FALSE
+SNB918290153354,Stadtwerke Bad Dürkheim GmbH,Salinenstraße 36,67098,Bad Dürkheim,Rheinland-Pfalz,bernd.hrubasik@bad-duerkheim.de,06322-9358250,FALSE,FALSE
+SNB924330086940,Stadtwerke Bad Harzburg GmbH,Schützenstraße 3 A,38667,Bad Harzburg,Niedersachsen,einspeiser@harzenergie-netz.de,05522 503 - 9122,FALSE,FALSE
+SNB953975499051,Stadtwerke Bad Herrenalb GmbH,Bahnhofstraße 12,76332,Bad Herrenalb,Baden-Württemberg,info@stw-badherrenalb.de,07083-924840,FALSE,FALSE
+SNB968949417344,Stadtwerke Bad Hersfeld GmbH,Kleine Industriestraße 1,36251,Bad Hersfeld,Hessen,info@stadtwerke-hef.de,06621/166-0,FALSE,FALSE
+SNB911031559460,Stadtwerke Bad Kissingen GmbH,Würzburger Straße 5,97688,Bad Kissingen,Bayern,info@stwkiss.de,09718260,FALSE,FALSE
+SNB941424038838,Stadtwerke Bad Nauheim GmbH,Hohe Straße 14,61231,Bad Nauheim,Hessen,netznutzung@stadtwerke-bad-nauheim.de,06032/ 807- 917,FALSE,FALSE
+SNB977253144464,Stadtwerke Bad Neustadt a. d. Saale,Goethestraße 17/19,97616,Bad Neustadt,Bayern,friedel@stw-badnes.de,09771/6220817,FALSE,FALSE
+SNB984060961757,Stadtwerke Bad Pyrmont GmbH,Südstraße 3,31812,Bad Pyrmont,Niedersachsen,schuesseler@stw-bp.de,+49 (5281) 9150,FALSE,FALSE
+SNB958672501014,Stadtwerke Bad Reichenhall KU,Hallgrafenstraße 2,83435,Bad Reichenhall,Bayern,service@stwbr.de,08651 705 0,FALSE,FALSE
+SNB967186419241,Stadtwerke Bad Rodach,Steinerer Weg 5,96476,Bad Rodach,Bayern,info@stw-bad-rodach.de,+49(9564)923915,FALSE,FALSE
+SNB934457029447,Stadtwerke Bad Säckingen GmbH,Schulhausstraße 40,79713,Bad Säckingen,Baden-Württemberg,eeg@sws-energie.de,07761 5502 333,FALSE,FALSE
+SNB948413721931,Stadtwerke Bad Salzuflen GmbH,Uferstraße 36,32108,Bad Salzuflen,Nordrhein-Westfalen,eeg-kwk@stwbs.de,05222-808290,FALSE,FALSE
+SNB943203125821,Stadtwerke Bad Saulgau,Moosheimer Straße 28,88348,Bad Saulgau,Baden-Württemberg,netz@stadtwerke-bad-saulgau.de,07581 506100,FALSE,FALSE
+SNB949422762892,Stadtwerke Bad Sooden-Allendorf,Werrastraße 24,37242,Bad Sooden-Allendorf,Hessen,mail@stadtwerke-bsa.de,+49 (5652) 5099700,FALSE,FALSE
+SNB982671807549,Stadtwerke Bad Tölz GmbH,An der Osterleite 2,83646,Bad Tölz,Bayern,netznutzung@stw-toelz.de,+49(8041)797112,FALSE,FALSE
+SNB959373877170,Stadtwerke Bad Vilbel GmbH,Theodor-Heuss-Straße 51,61118,Bad Vilbel,Hessen,netznutzer@sw-bv.de,06101/528-01,FALSE,FALSE
+SNB946710442153,Stadtwerke Bad Wildbad GmbH & Co. KG,Ladestraße 5,75323,Bad Wildbad,Baden-Württemberg,swwnetz@bad-wildbad.de,07081-930158,FALSE,FALSE
+SNB963795614626,Stadtwerke Bad Windsheim,Vorm Rothenburger Tor 2,91438,Bad Windsheim,Bayern,info@sw-bw.de,09841 404-0,FALSE,FALSE
+SNB948741734467,Stadtwerke Bad Wörishofen,Stadionring 18,86825,Bad Wörishofen,Bayern,egger@swbw.de,08247967316,FALSE,FALSE
+SNB931622346583,Stadtwerke Baden-Baden,Waldseestraße 24,76530,Baden-Baden,Baden-Württemberg,edm@swbad.de,+49 (07221) 277471,FALSE,FALSE
+SNB956377097702,Stadtwerke Baiersdorf KU,Am Anger 5,91083,Baiersdorf,Bayern,info@stadtwerke-baiersdorf.de,+49 (09133) 60450,FALSE,FALSE
+SNB963746327452,Stadtwerke Balingen,Wasserwiesen 37,72336,Balingen,Baden-Württemberg,info@stadtwerke.balingen.de,07433/9989-0,FALSE,FALSE
+SNB949646353012,Stadtwerke Bamberg Energie- und Wasserversorgungs GmbH,Margaretendamm 28,96052,Bamberg,Bayern,zaehler-strom@stadtwerke-bamberg.de,0951776252,FALSE,FALSE
+SNB913346629968,Stadtwerke Barmstedt,Bahnhofstraße 27,25355,Barmstedt,Schleswig-Holstein,stammdaten@stadtwerke-barmstedt.de,04123 681-56,FALSE,FALSE
+SNB967782555602,Stadtwerke Bayreuth Energie und Wasser GmbH,Birkenstraße 2,95447,Bayreuth,Bayern,uwe.richter@stadtwerke-bayreuth.de,+49 (0921) 600321,FALSE,FALSE
+SNB959513498364,Stadtwerke Bebra GmbH,Wiesenweg 1,36179,Bebra,Hessen,geschaeftsleitung@stadtwerke-bebra.de,+49662292450,FALSE,FALSE
+SNB962890977544,Stadtwerke Bernau GmbH,Breitscheidstraße 45,16321,Bernau,332,regulierungsmanagement@stadtwerke-bernau.de,,FALSE,FALSE
+SNB953669866350,Stadtwerke Bernburg GmbH,Mühlstraße 14,06406,Bernburg,Sachsen-Anhalt,wolffgang@stadtwerke-bernburg.de,03471 377761,FALSE,FALSE
+SNB955586052717,Stadtwerke Bexbach GmbH,Kolpingstraße 83,66450,Bexbach,Saarland,stadtwerke@bexbach.de,06826 9202 0,FALSE,FALSE
+SNB910950265032,Stadtwerke Bietigheim-Bissingen GmbH,Rötestraße 8,74321,Bietigheim-Bissingen,Baden-Württemberg,netzwirtschaft@sw-bb.de,07142 7887 158,FALSE,FALSE
+SNB919654931526,Stadtwerke Blankenburg GmbH,Börnecker Straße 6,38889,Blankenburg,Sachsen-Anhalt,technik@sw-blankenburg.de,03944/9001-50,FALSE,FALSE
+SNB922514070884,Stadtwerke Bliestal GmbH,Bliesgaustraße 13,66440,Blieskastel,Saarland,info@biosphaeren-sw.de,06894 9552-0,FALSE,FALSE
+SNB931805295141,Stadtwerke Böblingen GmbH & Co. KG,Ernst-Reuter-Straße 15,71034,Böblingen,Baden-Württemberg,regulierung@stadtwerke-bb.de,07031 219222,FALSE,FALSE
+SNB922607376381,Stadtwerke Bochum Netz GmbH,Ostring 28,44787,Bochum,Nordrhein-Westfalen,EEG-KWK@stwbo-netz.de,+492349602439,FALSE,FALSE
+SNB982380015723,Stadtwerke Bogen GmbH,Agendorfer Straße 19,94327,Bogen,Bayern,info@stadtwerke-bogen.de,09422 505 443,FALSE,FALSE
+SNB930423383254,Stadtwerke Böhmetal GmbH,Poststraße 4,29664,Walsrode,Niedersachsen,netznutzung@swbt-netz.de,05161-6001-229,FALSE,FALSE
+SNB982432856366,Stadtwerke Borken/Westf. GmbH,Ostlandstraße 9,46325,Borken,Nordrhein-Westfalen,info@stadtwerke-borken.de,02861/9360,FALSE,FALSE
+SNB955266506998,Stadtwerke Bramsche GmbH,Maschstraße 9,49565,Bramsche,Niedersachsen,netz@stadtwerke-bramsche.de,+49 (5461) 8870,FALSE,FALSE
+SNB913244202027,Stadtwerke Bretten GmbH,Pforzheimer Straße 80-84,75015,Bretten,Baden-Württemberg,t.barth@stadtwerke-bretten.de,07252/913-121,FALSE,FALSE
+SNB983444187332,Stadtwerke Brühl GmbH,Engeldorfer Straße 2,50321,Brühl,Nordrhein-Westfalen,julia.liebig@stadtwerke-bruehl.de,+492232702311,FALSE,FALSE
+SNB951835062254,Stadtwerke Brunsbüttel GmbH,Eddelaker Straße 123d,25541,Brunsbüttel,Schleswig-Holstein,info@stadtwerke-brunsbuettel.de,04852-83550-0,FALSE,FALSE
+SNB922393870476,Stadtwerke Buchen GmbH & Co KG,Am Hohen Markstein 3,74722,Buchen,Baden-Württemberg,info@stadtwerke-buchen.de,06281/535-0,FALSE,FALSE
+SNB968489334224,Stadtwerke Buchholz in der Nordheide GmbH,Maurerstraße 10,21244,Buchholz,Niedersachsen,bmustermann@buchholz-stw.de,04181208200,FALSE,FALSE
+SNB914946450877,Stadtwerke Bühl GmbH,Siemensstraße 5,77815,Bühl,Baden-Württemberg,netznutzung@stadtwerke-buehl.de,0049-7223-946-115,FALSE,FALSE
+SNB927160517950,Stadtwerke Burg Energienetze GmbH,Niegripper Chaussee 38 A,39288,Burg,Sachsen-Anhalt,eeg-kwkg@swben-burg.de,039214822511,FALSE,FALSE
+SNB949369515353,Stadtwerke Burgdorf Netz GmbH,Vor dem Hannoverschen Tor 12,31303,Burgdorf,Niedersachsen,einspeiser@sw-burgdorf.de,051369714151,FALSE,FALSE
+SNB974547197724,Stadtwerke Buxtehude GmbH,Ziegelkamp 8,21614,Buxtehude,Niedersachsen,haar@stadtwerke-buxtehude.de,04161727420,FALSE,FALSE
+SNB990522725676,Stadtwerke Cham GmbH,Further Straße 4,93413,Cham,Bayern,info@stadtwerke-cham.de,0997185070,FALSE,FALSE
+SNB952939058372,Stadtwerke Clausthal-Zellerfeld GmbH,Robert-Koch-Straße 5,38678,Clausthal-Zellerfeld,Niedersachsen,s.poehling@harz.de,05323 715-123,FALSE,FALSE
+SNB943480673763,Stadtwerke Coesfeld GmbH,Dülmener Straße 80,48653,Coesfeld,Nordrhein-Westfalen,v.dolle@stadtwerke-coesfeld.de,02541/929-400,FALSE,FALSE
+SNB934532229953,Stadtwerke Crailsheim GmbH,Friedrich-Bergius-Straße 10-14,74564,Crailsheim,Baden-Württemberg,info@stw-crailsheim.de,+4979513050,FALSE,FALSE
+SNB945149216045,Stadtwerke Dachau Eigenbetr. d. Stadt Dachau,Brunngartenstraße 3,85221,Dachau,Bayern,info@stadtwerke-dachau.de,08131/7009-0,FALSE,FALSE
+SNB924793953759,Stadtwerke Deggendorf GmbH,Graflinger Straße 36,94469,Deggendorf,Bayern,info@stadtwerke-deggendorf.de,0991/3108-0,FALSE,FALSE
+SNB984269982003,Stadtwerke Deidesheim GmbH,Im Kathrinenbild 5,67146,Deidesheim,Rheinland-Pfalz,netz@stadtwerke-deidesheim.de,06326/9651-0,FALSE,FALSE
+SNB937001443546,Stadtwerke Delitzsch GmbH,Sachsenstraße 1,04509,Delitzsch,Sachsen,netz@sw-delitzsch.de,034 202 / 65 674,FALSE,FALSE
+SNB924774487556,Stadtwerke Detmold GmbH,Am Gelskamp 10,32758,Detmold,Nordrhein-Westfalen,netzbetrieb@stadtwerke-detmold.de,+49 (05231) 6070,FALSE,FALSE
+SNB977581070640,Stadtwerke Dettelbach,Luitpold-Baumann-Straße 1,97337,Dettelbach,Bayern,stadtwerke@dettelbach.de,00499324304150,FALSE,FALSE
+SNB991561247815,Stadtwerke Dillingen/Saar Netzgesellschaft mbH,Feldstraße 40,66763,Dillingen,Saarland,s.weis@swd-saar.de,06831/9747-135,FALSE,FALSE
+SNB944601935326,Stadtwerke Dingolfing GmbH,Wollerstraße 3,84130,Dingolfing,Bayern,info@stadtwerke-dingolfing.de,08731/50 60 - 0,FALSE,FALSE
+SNB990562890006,Stadtwerke Dinkelsbühl,Rudolf-Schmidt-Straße 7,91550,Dinkelsbühl,Bayern,info@sw-dinkelsbuehl.de,09851/5720-0,FALSE,FALSE
+SNB990892864395,Stadtwerke Ditzingen GmbH & Co. KG,Bauernstraße 76/1,71254,Ditzingen,Baden-Württemberg,technischer-service@sw-ditzingen.de,07156-165840,FALSE,FALSE
+SNB976679550309,Stadtwerke Döbeln GmbH,Rosa-Luxemburg-Straße 9,04720,Döbeln,Sachsen,a.hajek@sw-doebeln.de,+49 (3431) 721600,FALSE,FALSE
+SNB925050442719,Stadtwerke Dorfen GmbH,Haager Straße 31,84405,Dorfen,Bayern,info@stadtwerke-dorfen.de,08081931740,FALSE,FALSE
+SNB947698671429,Stadtwerke Dreieich GmbH,Robert-Bosch-Straße 5,63303,Dreieich,Hessen,denis.wiesner@stadtwerke-dreieich.de,+496103602261,FALSE,FALSE
+SNB926697076725,Stadtwerke Dülmen GmbH,Alter Ostdamm 21,48249,Dülmen,Nordrhein-Westfalen,m.heymann@stadtwerke-duelmen-gmbh.de,02594790048,FALSE,FALSE
+SNB943604361118,Stadtwerke Eberbach GmbH,Güterbahnhofstraße 4,69412,Eberbach,Baden-Württemberg,netznutzung@sw-eberbach.de,0627192090,FALSE,FALSE
+SNB914522191989,Stadtwerke Ebermannstadt Versorgungsbetriebe GmbH,Forchheimer Straße 29,91320,Ebermannstadt,Bayern,f.lippert@stadtwerke-ebermannstadt.de,09194 7391-46,FALSE,FALSE
+SNB968646876970,Stadtwerke Eckernförde GmbH,Bornbrook 1,24340,Eckernförde,Schleswig-Holstein,a.biermann@stadtwerke-sh.de,+494351905135,FALSE,FALSE
+SNB971076036227,Stadtwerke Eichstätt Versorgungs-GmbH,Gundekarstraße 2,85072,Eichstätt,Bayern,service@stadtwerke-eichstaett.de,08421/6005-0,FALSE,FALSE
+SNB977174706994,Stadtwerke Eilenburg GmbH,Sydowstraße 1,04838,Eilenburg,Sachsen,netzmanagement@eilenburger-stadtwerke.de,03423/687438,FALSE,FALSE
+SNB965692805121,Stadtwerke Einbeck GmbH,Grimsehlstraße 17,37574,Einbeck,Niedersachsen,regkommunikation@stadtwerke-einbeck.de,05561/942-0,FALSE,FALSE
+SNB920699937404,Stadtwerke Elbtal GmbH,Neubrunnstraße 8,01445,Radebeul,Sachsen,einspeiser@sachsenenergie.de,+49 (0351) 5630 23810,FALSE,FALSE
+SNB996768145988,Stadtwerke Elm-Lappwald GmbH,Wallstraße 21,38154,Königslutter,Niedersachsen,service@stadtwerke-elm-lappwald.de,053539396123,FALSE,FALSE
+SNB916743652645,Stadtwerke Elmshorn,Westerstraße 50,25336,Elmshorn,Schleswig-Holstein,s.drewes@stadtwerke-elmshorn.de,04121 645 372,FALSE,FALSE
+SNB941183960449,Stadtwerke Emden GmbH,Martin-Faber-Straße 11-13,26725,Emden,Niedersachsen,info@stadtwerke-emden.de,+49 (4921) 83-0,FALSE,FALSE
+SNB948068461008,Stadtwerke Emmendingen GmbH,Am Gaswerk 1,79312,Emmendingen,Baden-Württemberg,netztechnik@swe-emmendingen.de,076414689974,FALSE,FALSE
+SNB986190606218,Stadtwerke Emmerich GmbH,Wassenbergstraße 1,46446,Emmerich,Nordrhein-Westfalen,netznutzung@swe-gmbh.de,02822604132,FALSE,FALSE
+SNB958416423039,Stadtwerke Emsdetten GmbH,Moorbrückenstr. 30,48282,Emsdetten,Nordrhein-Westfalen,netz@stadtwerke-emsdetten.de,+49 (02572) 202145,FALSE,FALSE
+SNB959959730332,Stadtwerke Engen GmbH,Eugen-Schädler-Straße 3,78234,Engen,Baden-Württemberg,ulrike.fleischhauer@stadtwerke-engen.de,07733-9480-13,FALSE,FALSE
+SNB918156808725,Stadtwerke Erkrath GmbH,Gruitener Straße 27,40699,Erkrath,Nordrhein-Westfalen,info@stadtwerke-erkrath.de,02104 9436042,FALSE,FALSE
+SNB940847187345,Stadtwerke Eschwege GmbH,Niederhoner Straße 36,37269,Eschwege,Hessen,info@stadtwerke-eschwege.de,+49 (5651) 807-0,FALSE,FALSE
+SNB937094451244,Stadtwerke Eutin GmbH,Holstenstraße 6,23701,Eutin,Schleswig-Holstein,info@stadtwerke-eutin.de,04521705300,FALSE,FALSE
+SNB922030852827,Stadtwerke EVB Huntetal GmbH,Amelogenstraße 1-3,49356,Diepholz,Niedersachsen,info@stadtwerke-huntetal.de,05441/903-0,FALSE,FALSE
+SNB922060347560,Stadtwerke EVB Huntetal Netz GmbH,Amelogenstraße 1-3,49356,Diepholz,Niedersachsen,info@stadtwerke-huntetal.de,05441 / 903 - 0,FALSE,FALSE
+SNB964273276183,Stadtwerke Fellbach GmbH,Ringstraße 5,70736,Fellbach,Baden-Württemberg,stephan.klass@stadtwerke-fellbach.de,07115754340,FALSE,FALSE
+SNB921471558077,Stadtwerke Feuchtwangen,Ansbacher Straße 29,91555,Feuchtwangen,Bayern,daniel.reimer@stadtwerke-feuchtwangen.de,09852/904-362,FALSE,FALSE
+SNB957549782006,Stadtwerke Finsterwalde GmbH,Langer Damm 14,03238,Finsterwalde,332,netznutzung@swfi.de,03531 6700,FALSE,FALSE
+SNB922220582657,Stadtwerke Flensburg GmbH,Batteriestraße 48,24939,Flensburg,Schleswig-Holstein,service@stadtwerke-flensburg.de,+49(461)487-0,FALSE,FALSE
+SNB996457394093,Stadtwerke Forchheim GmbH,Haidfeldstraße 8,91301,Forchheim,Bayern,info@stadtwerke-forchheim.de,091916130,FALSE,FALSE
+SNB961745390019,Stadtwerke Frankenthal GmbH,Wormser Straße 111,67227,Frankenthal,Rheinland-Pfalz,info@stw-frankenthal.de,062336020,FALSE,FALSE
+SNB973733148182,Stadtwerke Freudenstadt GmbH & Co. KG,Reichsstraße 9,72250,Freudenstadt,Baden-Württemberg,info@sw-freudenstadt.de,074419210,FALSE,FALSE
+SNB912063565672,Stadtwerke Fröndenberg Wickede GmbH,Graf-Adolf-Straße 32,58730,Fröndenberg,Nordrhein-Westfalen,netznutzung@sfw-ruhr.de,02373/759-0,FALSE,FALSE
+SNB985701689504,Stadtwerke Fürstenfeldbruck GmbH,Cerveteristraße 2,82256,Fürstenfeldbruck,Bayern,Marktstammdatenregister@stadtwerke-ffb.de,08141/401-0,FALSE,FALSE
+SNB914668240749,Stadtwerke Furth im Wald GmbH & Co. KG,Konrad-Utz-Straße 10,93437,Furth im Wald,Bayern,j.pirzl@stadtwerke-furth.de,09973/843029,FALSE,FALSE
+SNB925565312521,Stadtwerke Gaggenau,Theodor-Bergmann-Straße 44,76571,Gaggenau,Baden-Württemberg,swg.sk@stadtwerke-gaggenau.de,+49 (07225) 9885-0,FALSE,FALSE
+SNB960882503184,Stadtwerke Geesthacht GmbH,Mercatorstraße 67,21502,Geesthacht,Schleswig-Holstein,p.elvers@stadtwerke-geesthacht.de,04152929160,FALSE,FALSE
+SNB965107360993,Stadtwerke Geldern Netz GmbH,Markt 25,47608,Geldern,Nordrhein-Westfalen,info@swgeldern-netz.de,0283193330,FALSE,FALSE
+SNB922793626642,Stadtwerke Gengenbach- Versorgungsbetriebe,Hauptstraße 17,77723,Gengenbach,Baden-Württemberg,Netze@stadt-gengenbach.de,07803930280,FALSE,FALSE
+SNB977481237679,Stadtwerke Georgsmarienhütte Netz GmbH,Malberger Straße 13,49124,Georgsmarienhütte,Niedersachsen,m.rust@sw-gmhuette.de,+49(05401)829236,FALSE,FALSE
+SNB982049301273,Stadtwerke Germersheim GmbH,Gaswerkstraße 3,76726,Germersheim,Rheinland-Pfalz,edm@stw-ger.de,07274/7018389,FALSE,FALSE
+SNB963070917732,Stadtwerke Glauchau Dienstleistungsgesellschaft mbH,Sachsenallee 65,08371,Glauchau,Sachsen,regulierung@stadtwerke-glauchau.de,+49 3763 5007410,FALSE,FALSE
+SNB980181102130,Stadtwerke Glückstadt GmbH,Bahnhofstraße 1,25348,Glückstadt,Schleswig-Holstein,info@stw-glueckstadt.de,041249360,FALSE,FALSE
+SNB985431470335,Stadtwerke GmbH Bad Kreuznach,Kilianstraße 9,55543,Bad Kreuznach,Rheinland-Pfalz,j.dietrich@stadtwerke-kh.de,0671-991650,FALSE,FALSE
+SNB941004899811,Stadtwerke Goch GmbH,Klever Str. 26-28,47574,Goch,Nordrhein-Westfalen,michael.baumann@stadtwerke-goch.de,028239310146,FALSE,FALSE
+SNB938672757734,Stadtwerke Görlitz AG,Demianiplatz 23,02826,Görlitz,Sachsen,info@stadtwerke-goerlitz.de,03581 33535,FALSE,FALSE
+SNB926442995943,Stadtwerke Greifswald GmbH,Gützkower Landstraße 19-21,17489,Greifswald,Mecklenburg-Vorpommern,rolando.tolzmann@sw-greifswald.de,03834 53-2322,FALSE,FALSE
+SNB998044089535,Stadtwerke Greven GmbH,Saerbecker Str. 77,48268,Greven,Nordrhein-Westfalen,info@stadtwerke-greven.de,+49(02571)5090,FALSE,FALSE
+SNB991689251534,Stadtwerke Grevesmühlen GmbH,Grüner Weg 26,23936,Grevesmühlen,Mecklenburg-Vorpommern,info@stadtwerke-gvm.de,0388178450,FALSE,FALSE
+SNB934949020686,Stadtwerke Gronau GmbH,Laubstiege 19,48599,Gronau,Nordrhein-Westfalen,info@stadtwerke-gronau.de,02562/717-0,FALSE,FALSE
+SNB966809778161,Stadtwerke Groß-Gerau Versorgungs GmbH,Darmstädter Straße 53,64521,Groß-Gerau,Hessen,V.Seelmann@GGV-Energie.de,06152-1720-0,FALSE,FALSE
+SNB958070514050,Stadtwerke Grünstadt GmbH,Max-Planck-Straße 12,67269,Grünstadt,Rheinland-Pfalz,info@swg-gruenstadt.de,06359/954-0,FALSE,FALSE
+SNB953794435957,Stadtwerke Gunzenhausen GmbH,Nürnberger Straße 19/21,91710,Gunzenhausen,Bayern,netz@swg-gun.de,0983180040,FALSE,FALSE
+SNB983029590205,Stadtwerke Güstrow GmbH,Zum Hohen Rad 48,18273,Güstrow,Mecklenburg-Vorpommern,stadtwerke-guestrow@stwg.de,03843/2880,FALSE,FALSE
+SNB928602915495,Stadtwerke Hagenow GmbH,Bahnhofstr. 87,19230,Hagenow,Mecklenburg-Vorpommern,info@stadtwerke-hagenow.de,0388361520,FALSE,FALSE
+SNB945552907998,Stadtwerke Haiger,Hüttenstraße 18,35708,Haiger,Hessen,info@stadtwerkehaiger.de,02773/811-200,FALSE,FALSE
+SNB959120377328,Stadtwerke Haldensleben GmbH,Bahnhofstraße 1,39340,Haldensleben,Sachsen-Anhalt,uwe.ahrend@swhdl.de,03904 477-413,FALSE,FALSE
+SNB921816651920,Stadtwerke Haltern am See GmbH,Recklinghäuser Straße 49a,45721,Haltern am See,Nordrhein-Westfalen,regulierung@stadtwerke-haltern.de,02364-92400,FALSE,FALSE
+SNB981984960101,Stadtwerke Hameln Weserbergland GmbH,Hafenstraße 14,31785,Hameln,Niedersachsen,einspeisung@stwhw.de,05151788445,FALSE,FALSE
+SNB916711029424,Stadtwerke Hammelburg GmbH,Rote-Kreuz-Straße 44,97762,Hammelburg,Bayern,info@stw-hab.de,09732/902204,FALSE,FALSE
+SNB989253327099,Stadtwerke Haslach i.K.,Alte Hausacher Straße 1,77716,Haslach,Baden-Württemberg,roesch@stadtwerke-haslach.de,07832/706-251,FALSE,FALSE
+SNB960729432592,Stadtwerke Havelberg GmbH,Domplatz 1,39539,Havelberg,Sachsen-Anhalt,service@stadtwerke-havelberg.de,+49(039387)7480,FALSE,FALSE
+SNB953938790515,Stadtwerke Heide GmbH,Hinrich-Schmidt-Straße 16,25746,Heide,Schleswig-Holstein,info@stadtwerke-heide.de,0481 / 906-0,FALSE,FALSE
+SNB938476571321,Stadtwerke Heidelberg Netze GmbH,Alte Eppelheimer Straße 26,69115,Heidelberg,Baden-Württemberg,einspeiser@netze-heidelberg.de,06221-513 4630,FALSE,FALSE
+SNB952677840789,Stadtwerke Heilbad Heiligenstadt GmbH,Schlachthofstraße 8,37308,Heilbad Heiligenstadt,Thüringen,info@stadtwerke-heiligenstadt.de,03606526102,FALSE,FALSE
+SNB968694358282,Stadtwerke Heiligenhaus GmbH,Abtskücher Straße 30,42579,Heiligenhaus,Nordrhein-Westfalen,l.bleibtreu@stadtwerke-heiligenhaus.de,0205659015,FALSE,FALSE
+SNB980412578185,Stadtwerke Heilsbronn,Kammereckerplatz 1,91560,Heilsbronn,Bayern,stadtwerke@stadt-heilsbronn.de,+49 (9872) 806 0,FALSE,FALSE
+SNB939428749966,Stadtwerke Hemau,Propsteigaßl 2,93155,Hemau,Bayern,thomas.mehring@stadtwerke-hemau.de,09491/940036,FALSE,FALSE
+SNB939653726848,Stadtwerke Herborn GmbH,Walkmühlenweg 12,35745,Herborn,Hessen,info@stadtwerke-herborn.de,+49 (2772) 502 0,FALSE,FALSE
+SNB963671951227,Stadtwerke Herne AG,Grenzweg 18,44623,Herne,Nordrhein-Westfalen,eeg-kwk@stadtwerke-herne.de,023235920,FALSE,FALSE
+SNB944962954653,Stadtwerke Hettstedt GmbH,Am Mühlgraben 2,06333,Hettstedt,Sachsen-Anhalt,netznutzung@stadtwerke-hettstedt.de,+49 (03476) 87020,FALSE,FALSE
+SNB969826201797,Stadtwerke Hilden GmbH,Am Feuerwehrhaus 1,40724,Hilden,Nordrhein-Westfalen,isabelle.ehrlich@stadtwerke-hilden.de,+49 (02103) 795156,FALSE,FALSE
+SNB967127819703,Stadtwerke Hockenheim,Obere Hauptstraße 8,68766,Hockenheim,Baden-Württemberg,info@stadtwerke-hockenheim.de,06205 2855 514,FALSE,FALSE
+SNB977206503256,Stadtwerke Hof Energie+Wasser GmbH,Unterkotzauer Weg 25,95028,Hof,Bayern,alexander.kropf@stadtwerke-hof.de,+49(09281)812303,FALSE,FALSE
+SNB958680286002,Stadtwerke Hollfeld,Marienplatz 18,96142,Hollfeld,Bayern,ludwig.boehm@vg-hollfeld.bayern.de,09274-8372,FALSE,FALSE
+SNB954537392643,Stadtwerke Homburg GmbH,Lessingstraße 3,66424,Homburg,Saarland,christoph.berni@stadtwerke-homburg.de,06841-694-151,FALSE,FALSE
+SNB964375043041,Stadtwerke Hünfeld GmbH,Lindenstraße 8,36088,Hünfeld,Hessen,info@stadtwerke-huenfeld.de,06652-180201,FALSE,FALSE
+SNB950336540445,Stadtwerke Husum Netz GmbH,Am Binnenhafen 1,25813,Husum,Schleswig-Holstein,info@husumnetz.de,04841 8997-777,FALSE,FALSE
+SNB964659661008,Stadtwerke Ilmenau GmbH,Auf dem Mittelfeld 5,98693,Ilmenau,Thüringen,netznutzung@stadtwerke-ilmenau.de,03677788333,FALSE,FALSE
+SNB911347846643,Stadtwerke Ingolstadt Netze GmbH,Ringlerstraße 28,85057,Ingolstadt,Bayern,netzvertrieb@sw-i.de,+49841804145,FALSE,FALSE
+SNB913730249284,Stadtwerke Iserlohn GmbH,Stefanstraße 4-8,58638,Iserlohn,Nordrhein-Westfalen,regulierung@stadtwerke-iserlohn.de,08005892242,FALSE,FALSE
+SNB946137378622,Stadtwerke Itzehoe GmbH,Gasstraße 18,25524,Itzehoe,Schleswig-Holstein,info@stadtwerke-itzehoe.de,048217740,FALSE,FALSE
+SNB945861817537,Stadtwerke Jena Netze GmbH,Rudolstädter Straße 39,07745,Jena,Thüringen,netze@stadtwerke-jena.de,03641 688 0,FALSE,FALSE
+SNB973672371320,Stadtwerke Jülich GmbH,An der Vogelstange 2a,52428,Jülich,Nordrhein-Westfalen,bnetza@stadtwerke-juelich.de,02461-625-0,FALSE,FALSE
+SNB933013692798,Stadtwerke Kaltenkirchen GmbH,Kamper Weg 38,24568,Kaltenkirchen,Schleswig-Holstein,info@stadtwerke-kaltenkirchen.de,041919360,FALSE,FALSE
+SNB971087047229,Stadtwerke Karlsruhe Netzservice GmbH,Daxlander Straße 72,76185,Karlsruhe,Baden-Württemberg,kontakt@netzservice-swka.de,0721 599-4400,FALSE,FALSE
+SNB965500640463,STADTWERKE KELHEIM GmbH & Co KG,Hallstattstraße 15,93309,Kelheim,Bayern,info@stadtwerke-kelheim.de,0944150320,FALSE,FALSE
+SNB943042904373,Stadtwerke Kempen GmbH,Heinrich-Horten-Straße 50,47906,Kempen,Nordrhein-Westfalen,t.birkmann@stadtwerke-kempen.de,021521496147,FALSE,FALSE
+SNB935814055062,Stadtwerke Kleve GmbH,Flutstraße 36,47533,Kleve,Nordrhein-Westfalen,marktstammdatenregister@stadtwerke-kleve.de,028215930,FALSE,FALSE
+SNB971124937612,Stadtwerke Konstanz GmbH,Max-Stromeyer-Straße,78467,Konstanz,Baden-Württemberg,einspeisung@stadtwerke-konstanz.de,07531 - 803 6000,FALSE,FALSE
+SNB945021456095,Stadtwerke Kusel GmbH,Lehnstraße 32,66869,Kusel,Rheinland-Pfalz,bernd.bohn@swk-kl.de,06381 / 42070,FALSE,FALSE
+SNB959585826225,Stadtwerke Lambrecht (Pfalz) GmbH,Hauptstraße 14,67466,Lambrecht,Rheinland-Pfalz,Regulierung@sw-lambrecht.de,06325189116,FALSE,FALSE
+SNB963499807249,Stadtwerke Landau a.d.Isar,Maria-Ward-Platz 1,94405,Landau,Bayern,info@swlandau.de,099519550,FALSE,FALSE
+SNB929663692172,Stadtwerke Landsberg KU,Epfenhauser Straße 12,86899,Landsberg,Bayern,m_ellenrieder@stw-landsberg.de,08191 947867,FALSE,FALSE
+SNB928992067729,Stadtwerke Landshut,Christoph-Dorner-Straße 9,84028,Landshut,Bayern,netzwirtschaft@stadtwerke-landshut.de,087114362023,FALSE,FALSE
+SNB965379905076,Stadtwerke Langen GmbH,Weserstraße 14,63225,Langen,Hessen,wr@stadtwerke-langen.de,06103 595-141,FALSE,FALSE
+SNB935738221819,Stadtwerke Langenzenn,Kapell-Leite 1,90579,Langenzenn,Bayern,stadtwerke@langenzenn.de,+49 (9101) 703500,FALSE,FALSE
+SNB980345455409,Stadtwerke Lauterbach GmbH,Hinter dem Spittel 15,36341,Lauterbach,Hessen,netznutzung@stadtwerke-lauterbach.de,+49(6641)91280,FALSE,FALSE
+SNB950039201827,Stadtwerke Lehrte GmbH,Germaniastraße 5,31275,Lehrte,Niedersachsen,jordan@stadtwerke-lehrte.de,051325005330,FALSE,FALSE
+SNB946090906887,Stadtwerke Leine-Solling GmbH,Mannenstraße 62,37186,Moringen,Niedersachsen,info@stadtwerke-leine-solling.de,05554/993470,FALSE,FALSE
+SNB967075358620,Stadtwerke Lemgo GmbH,Bruchweg 24,32657,Lemgo,Nordrhein-Westfalen,energiewende@swlws.de,+49 (5231)98085516,FALSE,FALSE
+SNB949152526504,Stadtwerke Lindau (B) GmbH & Co. KG,Auenstraße 12,88131,Lindau,Bayern,abrechnung@sw-lindau.de,08382/704-345,FALSE,FALSE
+SNB982030394239,Stadtwerke Lingen GmbH,Waldstraße 31,49808,Lingen,Niedersachsen,info@stadtwerke-lingen.de,0591912000,FALSE,FALSE
+SNB916255659316,Stadtwerke Lippe-Weser Service GmbH & Co. KG,Bad Meinberger Straße 1,32760,Detmold,Nordrhein-Westfalen,energiewende@swlws.de,+49 (05231) 98085516,FALSE,FALSE
+SNB985098042388,Stadtwerke Lippstadt GmbH,Bunsenstraße 2,59557,Lippstadt,Nordrhein-Westfalen,Marktstammdatenregister@stadtwerke-lippstadt.de,02941 / 2829-0,FALSE,FALSE
+SNB926470799582,Stadtwerke Löbau GmbH,Georgewitzer Straße 54,02708,Löbau,Sachsen,info@sw-l.de,035858667700,FALSE,FALSE
+SNB915358347793,Stadtwerke Lübz GmbH,Grevener Str. 29,19386,Lübz,Mecklenburg-Vorpommern,post@stadtwerke-luebz.de,+49 38731 5010,FALSE,FALSE
+SNB978730380269,Stadtwerke Ludwigsburg - Kornwestheim GmbH,Gänsfußallee 23,71636,Ludwigsburg,Baden-Württemberg,esm-abrechnung@swlb.de,07141 910 2681,FALSE,FALSE
+SNB983765888505,Stadtwerke Ludwigsfelde GmbH,Potsdamer Straße 31,14974,Ludwigsfelde,332,info@stadtwerke-ludwigsfelde.de,03378 / 86060,FALSE,FALSE
+SNB928200943784,Stadtwerke Ludwigslust-Grabow GmbH,Wasserturmweg 9,19288,Ludwigslust,Mecklenburg-Vorpommern,netzbetrieb@stw-ludwigslust-grabow.de,49 (03874) 4140,FALSE,FALSE
+SNB942111583372,Stadtwerke Lünen GmbH,Borker Straße 56,44534,Lünen,Nordrhein-Westfalen,info@SWL24.de,+4923067070,FALSE,FALSE
+SNB946425570127,Stadtwerke Lutherstadt Eisleben GmbH,Karl-Rühlemann-Platz 1,06295,Lutherstadt Eisleben,Sachsen-Anhalt,technik@sle24.de,03475667330,FALSE,FALSE
+SNB932107297727,Stadtwerke Lutherstadt Wittenberg GmbH,Lucas-Cranach-Straße 22,06886,Lutherstadt Wittenberg,Sachsen-Anhalt,slw.netz@stadtwerke-wittenberg.de,03491 470 0,FALSE,FALSE
+SNB948470226516,Stadtwerke Malchow,Straße der Jugend 2,17213,Malchow,Mecklenburg-Vorpommern,info@stadtwerke-malchow.de,039932 164-0,FALSE,FALSE
+SNB972740218178,Stadtwerke Marburg GmbH,Am Krekel 55,35039,Marburg,Hessen,eeg-kwkg@swmr.de,06421 205 451,FALSE,FALSE
+SNB918070278383,Stadtwerke Meerane GmbH,Obere Bahnstraße 10,08393,Meerane,Sachsen,info@sw-meerane.de,+49 3764 79170,FALSE,FALSE
+SNB925883927308,Stadtwerke Meiningen GmbH,Utendorfer Straße 122,98617,Meiningen,Thüringen,info@stadtwerke-meiningen.de,03693-484-100,FALSE,FALSE
+SNB922774216633,Stadtwerke Menden GmbH,Am Papenbusch 8-10,58708,Menden,Nordrhein-Westfalen,t.friedrich@stadtwerke-menden.de,(02373) 1693202,FALSE,FALSE
+SNB961816584323,Stadtwerke Mengen,Wasserstraße 4,88512,Mengen,Baden-Württemberg,silja.grom@stadtwerke-mengen.de,+49 7572 607 - 434,FALSE,FALSE
+SNB913006238462,Stadtwerke Merseburg GmbH,Große Ritterstraße 9,06217,Merseburg,Sachsen-Anhalt,kontakt@sw-merseburg.de,+49 (03461) 454212,FALSE,FALSE
+SNB961448362368,Stadtwerke Metzingen,Stuttgarter Straße 59,72555,Metzingen,Baden-Württemberg,stadtwerke@metzingen.de,07123 925260,FALSE,FALSE
+SNB984863778941,Stadtwerke Mosbach GmbH,Am Henschelberg 6,74821,Mosbach,Baden-Württemberg,info@swm-online.de,06261890526,FALSE,FALSE
+SNB947193557761,Stadtwerke Mössingen,Freiherr-vom-Stein-Straße 18,72116,Mössingen,Baden-Württemberg,c.schuetze@moessingen.de,07473 370421,FALSE,FALSE
+SNB953132482766,Stadtwerke Mühlacker GmbH,Danziger Straße 17,75417,Mühlacker,Baden-Württemberg,swm@stadtwerke-muehlacker.de,07041/87650,FALSE,FALSE
+SNB931986174853,Stadtwerke Mühlhausen Netz GmbH,Windeberger Landstraße 73,99974,Mühlhausen,Thüringen,karsten.mueller@stadtwerke-muehlhausen-netz.de,03601434514,FALSE,FALSE
+SNB986042567117,Stadtwerke Mühlheim am Main GmbH,Dietesheimer Straße 70,63165,Mühlheim,Hessen,info@stadtwerke-muehlheim.de,+49 (06108) 6005-0,FALSE,FALSE
+SNB956741146944,Stadtwerke Münchberg,Kirchenlamitzer Straße 20,95213,Münchberg,Bayern,Lothar.lottes@stadtwerke-muenchberg.de,09251/9918-22,FALSE,FALSE
+SNB973056451075,Stadtwerke Munster-Bispingen GmbH,Rehrhofer Weg 127-133,29633,Munster,Niedersachsen,info@ihr-stadtwerk.de,+49 (05192) 9813-0,FALSE,FALSE
+SNB985347645049,Stadtwerke Nettetal GmbH,Leuther Straße 25,41334,Nettetal,Nordrhein-Westfalen,peter.klocke@stadtwerke-nettetal.de,+4921571205114,FALSE,FALSE
+SNB960797798422,Stadtwerke Neu-Isenburg GmbH,Schleussnerstraße 62,63263,Neu-Isenburg,Hessen,netznutzung-strom@swni.de,06102/2460,FALSE,FALSE
+SNB980054996408,Stadtwerke Neuburg a. d. Donau,Heinrichsheimstraße 2,86633,Neuburg,Bayern,info@stadtwerke-neuburg.de,084315090,FALSE,FALSE
+SNB924181641435,Stadtwerke Neuffen AG,Bahnhofstraße 32,72639,Neuffen,Baden-Württemberg,kontakt@stadtwerke-neuffen-ag.de,+49(7025)900310,FALSE,FALSE
+SNB989365725226,Stadtwerke Neumarkt i. d. OPf. Energie GmbH,Ingolstädter Straße 18,92318,Neumarkt,Bayern,Marktdienstleistungen.StadtwerkeNeumarkt@swneumarkt.de,09181/239-197,FALSE,FALSE
+SNB955718588763,Stadtwerke Neunburg vorm Wald Strom GmbH,Bärnhof 2,92431,Neunburg,Bayern,peter.fleischmann@stadtwerke-neunburg.de,09672/9208-525,FALSE,FALSE
+SNB920348005966,Stadtwerke Neuruppin GmbH,Heinrich-Rau-Straße 3,16816,Neuruppin,332,friedrich@swn.aov.de,+49(03391)511614,FALSE,FALSE
+SNB988769717073,Stadtwerke Neustadt a. d. Donau,Stadtplatz 3,93333,Neustadt,Bayern,netz@swn-do.de,0944595760,FALSE,FALSE
+SNB965315499379,Stadtwerke Neustadt a.d. Aisch GmbH,Markgrafenstraße 24,91413,Neustadt,Bayern,technik@neustadtwerke.de,091617850,FALSE,FALSE
+SNB931294328658,Stadtwerke Neustadt an der Orla GmbH,Ernst-Thälmann-Straße 18,07806,Neustadt,Thüringen,info@stadtwerke-neustadt-orla.de,036481 247-0,FALSE,FALSE
+SNB942305388936,Stadtwerke Neustadt an der Weinstraße GmbH,Schlachthofstraße 60,67433,Neustadt,Rheinland-Pfalz,eeg-team@swneustadt.de,06321/402230,FALSE,FALSE
+SNB933386930565,Stadtwerke Neustadt in Holstein,Neukoppel 2,23730,Neustadt,Schleswig-Holstein,edm-team@swnh.de,,FALSE,FALSE
+SNB914630088973,Stadtwerke Neustrelitz GmbH,Wilhelm-Stolte-Straße 90,17235,Neustrelitz,Mecklenburg-Vorpommern,bilanz@stadtwerke-neustrelitz.de,03981/474-306,FALSE,FALSE
+SNB925999725461,Stadtwerke Neuwied GmbH,Hafenstraße 90,56564,Neuwied,Rheinland-Pfalz,ndl@swn-neuwied.de,02631/850,FALSE,FALSE
+SNB961943991735,Stadtwerke Niesky GmbH,Hausmannstraße 10,02906,Niesky,Sachsen,info@stadtwerke-niesky.de,03588 25320,FALSE,FALSE
+SNB932374739180,Stadtwerke Norderney GmbH,Jann-Berghaus-Straße 34,26548,Norderney,Niedersachsen,carsten.schoolmann@stadtwerke-norderney.de,04932879-24,FALSE,FALSE
+SNB985965721965,Stadtwerke Norderstedt,Heidbergstraße 101-111,22846,Norderstedt,Schleswig-Holstein,regulierung@stadtwerke-norderstedt.de,040/52104-0,FALSE,FALSE
+SNB951791941969,Stadtwerke Nordfriesland - Netz GmbH,Ostring 5,25899,Niebüll,Schleswig-Holstein,moin@sw-nf-netz.de,04661-60180,FALSE,FALSE
+SNB965813404431,Stadtwerke Nortorf AöR,Poststraße 21,24589,Nortorf,Schleswig-Holstein,n.gauerke@stadtwerke-nortorf.de,043929130204,FALSE,FALSE
+SNB948186469375,Stadtwerke Nürtingen GmbH,Porschestraße 5,72622,Nürtingen,Baden-Württemberg,martina.weindl@sw-nuertingen.de,07022406332,FALSE,FALSE
+SNB963821222269,Stadtwerke Oberkirch GmbH,Appenweierer Straße 54,77704,Oberkirch,Baden-Württemberg,kundenservice@sw-oberkirch.de,07802-9178-0,FALSE,FALSE
+SNB934961797092,Stadtwerke Ochtrup,Witthagen 3,48607,Ochtrup,Nordrhein-Westfalen,marktstammdatenregister@stadtwerke-ochtrup.de,02553/71-0,FALSE,FALSE
+SNB941314694489,Stadtwerke Oelsnitz/V. GmbH,Boxbachweg 2,08606,Oelsnitz,Sachsen,netzabrechnung@swoe.de,037421 /40836,FALSE,FALSE
+SNB967490557615,Stadtwerke Oerlinghausen GmbH,Rathausstraße 23,33813,Oerlinghausen,Nordrhein-Westfalen,info@sw-oe.de,05202-49090,FALSE,FALSE
+SNB991836941189,Stadtwerke Olbernhau GmbH,Am Alten Gaswerk 1,09526,Olbernhau,Sachsen,info@stadtwerke-olbernhau.de,037360/660051,FALSE,FALSE
+SNB940478286561,Stadtwerke Olching Stromnetz GmbH & Co. KG,Ilzweg 1,82140,Olching,Bayern,eeg@stromnetz-olching.de,,FALSE,FALSE
+SNB975581504646,Stadtwerke Oldenburg in Holstein GmbH,Markt 1,23758,Oldenburg in Holstein,Schleswig-Holstein,info@swo-holstein.de,04361659000,FALSE,FALSE
+SNB951105240061,Stadtwerke Oranienburg GmbH,Klagenfurter Straße 41,16515,Oranienburg,332,metering@stadtwerke-oranienburg.de,+49 (3301) 608-600,FALSE,FALSE
+SNB932375556731,Stadtwerke Ostmünsterland GmbH & Co. KG,Münstertor 46,48291,Telgte,Nordrhein-Westfalen,info@so.de,0250470850,FALSE,FALSE
+SNB954662803168,Stadtwerke Pappenheim GmbH,Stadtmühle 4,91788,Pappenheim,Bayern,stadtwerke@pappenheim.de,+49 (09143) 60628,FALSE,FALSE
+SNB999125588145,Stadtwerke Parchim GmbH,Ostring 38,19370,Parchim,Mecklenburg-Vorpommern,Ariane.Sass@Stadtwerke-Parchim.de,+49 (03871) 623564,FALSE,FALSE
+SNB961833910969,Stadtwerke Pasewalk GmbH,An den Stadtwerken 2,17309,Pasewalk,Mecklenburg-Vorpommern,netznutzung@stadtwerke-pasewalk.de,+49 (03973) 2054610,FALSE,FALSE
+SNB917625393281,Stadtwerke Passau GmbH,Regensburger Straße 29,94036,Passau,Bayern,stromversorgung@stadtwerke-passau.de,+49 851 560 211,FALSE,FALSE
+SNB954026274702,Stadtwerke Peine GmbH,Woltorfer Straße 64,31224,Peine,Niedersachsen,frank.bode@stadtwerke-peine.de,05171 46-460,FALSE,FALSE
+SNB955607007702,Stadtwerke Pfarrkirchen,Äußere Simbacher Straße 7,84347,Pfarrkirchen,Bayern,alexandra.seidinger-brunn@swpan.de,08561970204,FALSE,FALSE
+SNB955001358523,Stadtwerke Pirmasens Versorgungs GmbH,An der Streckbrücke 4,66954,Pirmasens,Rheinland-Pfalz,netznutzung@stadtwerke-pirmasens.de,06331 876 192,FALSE,FALSE
+SNB927925826730,Stadtwerke Pirna Energie GmbH,Seminarstraße 18b,01796,Pirna,Sachsen,info@stadtwerke-pirna.de,03501 764-0,FALSE,FALSE
+SNB917615238004,Stadtwerke Plattling,Simon-Ohm-Straße 1,94447,Plattling,Bayern,mail@stadtwerke-plattling.de,09931/9166-0,FALSE,FALSE
+SNB941283828373,Stadtwerke Prenzlau GmbH,Freyschmidtstraße 20,17291,Prenzlau,332,energiedatenservice@stadtwerke-prenzlau.de,03984 853-174,FALSE,FALSE
+SNB922354559020,Stadtwerke Pritzwalk GmbH,Gartenstraße 8,16928,Pritzwalk,332,netznutzung@sw-pritzwalk.de,03395 3056 801,FALSE,FALSE
+SNB970223838288,Stadtwerke Quedlinburg GmbH,Rathenaustraße 9,06484,Quedlinburg,Sachsen-Anhalt,infostadtwerke@sw-qlb.de,03946/9713,FALSE,FALSE
+SNB948134408678,Stadtwerke Quickborn GmbH,Pinneberger Straße 2,25451,Quickborn,Schleswig-Holstein,info@stadtwerke-quickborn.de,04106 616-0,FALSE,FALSE
+SNB964262506406,Stadtwerke Radevormwald GmbH,Am Gaswerk 13,42477,Radevormwald,Nordrhein-Westfalen,o.sieberg@s-w-r.de,02195-91 31 54,FALSE,FALSE
+SNB974041045040,Stadtwerke Radolfzell GmbH,Herrenlandstraße 29,78315,Radolfzell,Baden-Württemberg,info@stadtwerke-radolfzell.de,07732/8008-0,FALSE,FALSE
+SNB987569421388,Stadtwerke Ramstein-Miesenbach GmbH,Am Neuen Markt 8,66877,Ramstein-Miesenbach,Rheinland-Pfalz,netz-reg@stadtwerke-ramstein.de,+49 (6371) 592330,FALSE,FALSE
+SNB914273329792,Stadtwerke Rastatt GmbH,Markgrafenstraße 7,76437,Rastatt,Baden-Württemberg,a.steinberg@stadtwerke-rastatt.de,07222773300,FALSE,FALSE
+SNB953661539375,Stadtwerke Ratingen GmbH,Sandstraße 36,40878,Ratingen,Nordrhein-Westfalen,florian.meyer@stadtwerke-ratingen.de,+492102485270,FALSE,FALSE
+SNB959567240391,Stadtwerke Reichenbach/Vogtland GmbH,Roßplatz 13,08468,Reichenbach,Sachsen,kessler-wagner@swrc.de,+49 3765 7817 512,FALSE,FALSE
+SNB926119738552,Stadtwerke Rendsburg GmbH,Am Eiland 12,24768,Rendsburg,Schleswig-Holstein,netzeinspeiser-rd@stadtwerke-sh.de,+49 4331 209 0,FALSE,FALSE
+SNB951305396193,Stadtwerke Riesa GmbH,Alter Pfarrweg 1,01587,Riesa,Sachsen,stadtwerke@stw-riesa.de,03525 708-30,FALSE,FALSE
+SNB924409922308,Stadtwerke Rinteln GmbH,Bahnhofsweg 6,31737,Rinteln,Niedersachsen,markus.maier@stadtwerke-rinteln.de,05751/700-43,FALSE,FALSE
+SNB988838479086,Stadtwerke Rosenheim Netze GmbH,Bayerstraße 5,83022,Rosenheim,Bayern,einspeiser@swro.de,08031 365-2348,FALSE,FALSE
+SNB939724292715,Stadtwerke Rostock Netzgesellschaft mbH,Schmarler Damm 5,18069,Rostock,Mecklenburg-Vorpommern,einspeisung.strom@swrng.de,+49 (0381) 8051014,FALSE,FALSE
+SNB976170444053,Stadtwerke Rotenburg (Wümme) GmbH,Mittelweg 19,27356,Rotenburg,Niedersachsen,netzvertrieb@stadtwerke-rotenburg.de,04261-675-8917,FALSE,FALSE
+SNB927574397889,Stadtwerke Roth,Sandgasse 23,91154,Roth,Bayern,service.netz@stadtwerke-roth.de,+499171972720,FALSE,FALSE
+SNB964802985821,Stadtwerke Röthenbach a. d. Pegnitz GmbH,Friedrichsplatz 19,90552,Röthenbach,Bayern,Alexandra.Mach@stwr.de,0911-95 75-246,FALSE,FALSE
+SNB979202870318,Stadtwerke Rothenburg o.d.T. GmbH,Steinweg 25,91541,Rothenburg,Bayern,MaStR@stadtwerke-rothenburg.de,+49 (0)9861 94770,FALSE,FALSE
+SNB985382489820,Stadtwerke Saarbrücken Netz AG,Heuduckstraße 36,66117,Saarbrücken,Saarland,eeg-mastr@sw-sb.de,0681/587 2031,FALSE,FALSE
+SNB922861338965,Stadtwerke Sangerhausen GmbH,Alban-Hess-Straße 29,06526,Sangerhausen,Sachsen-Anhalt,info@stadtwerke-sangerhausen.de,+049 (03464) 558100,FALSE,FALSE
+SNB924120395771,Stadtwerke Scheinfeld,Karl-Lax-Straße 1,91443,Scheinfeld,Bayern,info@stadtwerke-scheinfeld.de,09162 1834,FALSE,FALSE
+SNB924685554682,Stadtwerke Schifferstadt,Mühlstraße 18,67105,Schifferstadt,Rheinland-Pfalz,info@sw-schifferstadt.de,06235-4901-0,FALSE,FALSE
+SNB942159258331,Stadtwerke Schkeuditz GmbH,Edisonstraße 36,04435,Schkeuditz,Sachsen,netzbetreiber@stadtwerke-schkeuditz.de,+49 3420473540,FALSE,FALSE
+SNB987617847795,Stadtwerke Schlitz,An der Kirche 4,36110,Schlitz,Hessen,netznutzung@stadtwerke-schlitz.de,066429700,FALSE,FALSE
+SNB979429791342,Stadtwerke Schneeberg GmbH,Joseph-Haydn-Straße 5,08289,Schneeberg,Sachsen,info@stw-schneeberg-netz.de,037723502430,FALSE,FALSE
+SNB950028563172,Stadtwerke Schneverdingen-Neuenkirchen GmbH,Harburger Straße 21,29640,Schneverdingen,Niedersachsen,info@heidjers-stadtwerke.de,05193/9888-0,FALSE,FALSE
+SNB936461984224,Stadtwerke Schönebeck GmbH - SWS -,Friedrichstr. 117,39218,Schönebeck,Sachsen-Anhalt,SWS@stadtwerke-schoenebeck.de,03928-788-3,FALSE,FALSE
+SNB935144085258,Stadtwerke Schorndorf GmbH,Robert-Bosch-Straße 9,73614,Schorndorf,Baden-Württemberg,eeg-kwkg@stadtwerke-schorndorf.de,+49 7181 96450-444,FALSE,FALSE
+SNB944999584793,Stadtwerke Schramberg GmbH & Co. KG,Gustav-Maier-Straße 11,78713,Schramberg,Baden-Württemberg,netzzugang@stadtwerke-schramberg.de,+49 (07422) 9534380,FALSE,FALSE
+SNB944294076061,Stadtwerke Schüttorf - Emsbüren GmbH,Quendorfer Straße 34,48465,Schüttorf,Niedersachsen,info@swse.de,(05923) 8030,FALSE,FALSE
+SNB962110557570,Stadtwerke Schwabach GmbH,Ansbacher Straße 14,91126,Schwabach,Bayern,jens.weidmann@stadtwerke-schwabach.de,09122936168,FALSE,FALSE
+SNB962618092306,Stadtwerke Schwäbisch Gmünd GmbH,Bürgerstraße 5,73525,Schwäbisch Gmünd,Baden-Württemberg,info@stwgd.de,07171 - 603 8100,FALSE,FALSE
+SNB982660786343,Stadtwerke Schwäbisch Hall GmbH,An der Limpurgbrücke 1,74523,Schwäbisch Hall,Baden-Württemberg,team.einspeiser@stadtwerke-hall.de,0791/401-8628,FALSE,FALSE
+SNB946717964085,Stadtwerke Schwarzenbach/Saale,Schlachthofstraße 11/12,95126,Schwarzenbach,Bayern,Lothar.lottes@stadtwerke-muenchberg.de,09251/9918-22,FALSE,FALSE
+SNB985072256732,Stadtwerke Schwarzenberg GmbH,Straße der Einheit 42,08340,Schwarzenberg,Sachsen,swszb@stadtwerke-schwarzenberg.de,03774 1520-0,FALSE,FALSE
+SNB913280322543,Stadtwerke Schwedt GmbH,Heinersdorfer Damm 55-57,16303,Schwedt/Oder,332,marktstammdaten@stadtwerke-schwedt.de,03332/449313,FALSE,FALSE
+SNB922811950100,Stadtwerke Schweinfurt GmbH,Bodelschwinghstraße 1,97421,Schweinfurt,Bayern,k.zinser@stadtwerke-sw.de,00499721931429,FALSE,FALSE
+SNB960280760097,Stadtwerke Schwentinental GmbH,Seebrooksberg 1,24222,Schwentinental,Schleswig-Holstein,info@stadtwerke-schwentinental.de,0431/2208241-0,FALSE,FALSE
+SNB932788203468,Stadtwerke Schwerte GmbH,Liethstraße 32-36,58239,Schwerte,Nordrhein-Westfalen,netz@stadtwerke-schwerte.de,023042030,FALSE,FALSE
+SNB995034381532,Stadtwerke Senftenberg GmbH,Laugkstraße 13-15,01968,Senftenberg,332,kontakt@stadtwerke-senftenberg.de,03573 709310,FALSE,FALSE
+SNB971503120734,Stadtwerke Service Meerbusch Willich GmbH & Co. KG,Gießerallee 24,47877,Willich,Nordrhein-Westfalen,info@stm-stw.de,0215447030,FALSE,FALSE
+SNB924431834525,Stadtwerke Sigmaringen GmbH,Marie-Curie-Straße 8,72488,Sigmaringen,Baden-Württemberg,netz@stadtwerke-sigmaringen.de,+49 7571 92770 222,FALSE,FALSE
+SNB953453232156,Stadtwerke Sindelfingen GmbH,Rosenstraße 47,71063,Sindelfingen,Baden-Württemberg,m.forkel@stadtwerke-sindelfingen.de,07031 6116 317,FALSE,FALSE
+SNB965118678667,Stadtwerke Soest GmbH,Aldegreverwall 12,59494,Soest,Nordrhein-Westfalen,c.misch@stadtwerke-soest.de,02921392262,FALSE,FALSE
+SNB947030954821,Stadtwerke Soltau GmbH & Co. KG,Weinberg 46,29614,Soltau,Niedersachsen,MaStR@sw-soltau.de,+49519184400,FALSE,FALSE
+SNB987483520273,Stadtwerke Sondershausen Netz GmbH,Alexander-Puschkin-Promenade 26,99706,Sondershausen,Thüringen,netzgesellschaft@stadtwerke-sondershausen.de,03632/6048831,FALSE,FALSE
+SNB918097788087,Stadtwerke Speyer GmbH,Georg-Peter-Süß-Straße 2,67346,Speyer,Rheinland-Pfalz,office@stadtwerke-speyer.de,062326250,FALSE,FALSE
+SNB954187049256,Stadtwerke Springe GmbH,Biermannskamp 5,31832,Springe,Niedersachsen,service@stadtwerke-springe.de,+49 (05041) 80 2840,FALSE,FALSE
+SNB926470603247,Stadtwerke St. Ingbert GmbH,Reinhold-Becker-Straße 1,66386,St. Ingbert,Saarland,info@biosphaeren-sw.de,06894/9552-0,FALSE,FALSE
+SNB975659838086,Stadtwerke Stade GmbH,Hansestraße 18,21682,Stade,Niedersachsen,Netzwirtschaft@stadtwerke-stade.de,04141 4040,FALSE,FALSE
+SNB976240506834,Stadtwerke Stadtroda GmbH,Breiter Weg 58,07646,Stadtroda,Thüringen,netz@stadtwerke-stadtroda.de,+49 (036428) 4430,FALSE,FALSE
+SNB910474681448,Stadtwerke Staßfurt GmbH,Athenslebener Weg 15,39418,Staßfurt,Sachsen-Anhalt,sharedservice@sw-stassfurt.de,03925/9600,FALSE,FALSE
+SNB943984165313,Stadtwerke Stein GmbH & Co. KG,Wilhelmstraße 5,90547,Stein,Bayern,info@stst.de,+49 (0911) 996700,FALSE,FALSE
+SNB900123507953,Stadtwerke Steinfurt GmbH,Wiemelfeldstr. 48,48565,Steinfurt,Nordrhein-Westfalen,info@swst.de,02552-7070,FALSE,FALSE
+SNB957404386462,Stadtwerke Stendal GmbH,Rathenower Straße 1,39576,Stendal,Sachsen-Anhalt,doerte.klitzke@stadtwerke-stendal.de,03931/688308,FALSE,FALSE
+SNB983384447602,Stadtwerke Stockach GmbH,Ablasswiesen 8,78333,Stockach,Baden-Württemberg,k.stolz@stadtwerke-stockach.de,07771/915270,FALSE,FALSE
+SNB971641248901,Stadtwerke Straubing Strom und Gas GmbH,Sedanstraße 10,94315,Straubing,Bayern,mail@stadtwerke-straubing.de,004994218640,FALSE,FALSE
+SNB975846871759,Stadtwerke Strausberg GmbH,Kastanienallee 38,15344,Strausberg,332,m.drieschner@ssg-strausberg.de,03341/345145,FALSE,FALSE
+SNB927533168369,Stadtwerke Südholstein GmbH,Am Hafen 67,25421,Pinneberg,Schleswig-Holstein,post@sw-suedholstein.de,04101/203-0,FALSE,FALSE
+SNB935760057516,Stadtwerke Suhl/Zella-Mehlis Netz GmbH,Fröhliche-Mann-Straße 2,98528,Suhl,Thüringen,netznutzung@swsz-netz.de,03681/495-0,FALSE,FALSE
+SNB943261073362,Stadtwerke Sulzbach/Saar GmbH,Sulzbachtalstraße 20,66280,Sulzbach,Saarland,EEG@stadtwerke-sulzbach.de,06897/575130,FALSE,FALSE
+SNB932509765411,Stadtwerke Teterow GmbH,Gasstr. 26,17166,Teterow,Mecklenburg-Vorpommern,info@sw-teterow.de,0399615330,FALSE,FALSE
+SNB938620426132,Stadtwerke Tirschenreuth,Bahnhofstraße 17,95643,Tirschenreuth,Bayern,info@stadtwerke-tir.de,0963170190,FALSE,FALSE
+SNB933235634552,Stadtwerke Torgau GmbH,Fischerdörfchen 11,04860,Torgau,Sachsen,christian.elschner@stadtwerke-torgau.de,03421 741-625,FALSE,FALSE
+SNB940718804685,Stadtwerke Traunstein GmbH & Co. KG,Gasstraße 37,83278,Traunstein,Bayern,info@sw-traunstein.de,+49(0861)7090 0,FALSE,FALSE
+SNB976987786759,Stadtwerke Treuchtlingen KU,Dürerstraße 26,91757,Treuchtlingen,Bayern,stadtwerke@sw-trl.de,+49 (09142) 9601-0,FALSE,FALSE
+SNB924659713978,Stadtwerke Troisdorf GmbH,Poststraße 105,53840,Troisdorf,Nordrhein-Westfalen,Einspeiser@stadtwerke-troisdorf.de,02241 888722,FALSE,FALSE
+SNB914963192408,Stadtwerke Trostberg Stromversorgung GmbH,Friedrich-Ebert-Straße 2,83308,Trostberg,Bayern,info@stadtwerke-trostberg.de,+49 (8621)80600,FALSE,FALSE
+SNB921695080347,Stadtwerke Tübingen GmbH,Eisenhutstraße 6,72072,Tübingen,Baden-Württemberg,einspeisung@swtue.de,07071/157-0,FALSE,FALSE
+SNB922074927642,Stadtwerke Tuttlingen GmbH,Bahnhofstraße 120,78532,Tuttlingen,Baden-Württemberg,energiedaten@swtenergie.de,+49(0)746117020,FALSE,FALSE
+SNB965557517831,Stadtwerke Uelzen GmbH,Im Neuen Felde 105,29525,Uelzen,Niedersachsen,mail@stadtwerke-uelzen.de,0581/960-0,FALSE,FALSE
+SNB947683785568,Stadtwerke Uffenheim,Geckenheimer Steig 13,97215,Uffenheim,Bayern,info@swuffenheim.de,09842/9858-0,FALSE,FALSE
+SNB934068635945,Stadtwerke Ulm/Neu-Ulm Netze GmbH,Karlstraße 3,89073,Ulm,Baden-Württemberg,info@ulm-netze.de,0731-1660,FALSE,FALSE
+SNB944150243392,Stadtwerke Unna GmbH,Heinrich-Hertz-Straße 2,59423,Unna,Nordrhein-Westfalen,energie-service@sw-unna.de,02303/20010,FALSE,FALSE
+SNB925861098273,Stadtwerke Uslar GmbH,Alleestraße 6,37170,Uslar,Niedersachsen,info@stadtwerke-uslar.de,+49 5571 9259-0,FALSE,FALSE
+SNB974492211483,Stadtwerke Velbert GmbH,Kettwiger Straße 2,42549,Velbert,Nordrhein-Westfalen,einspeisung@stwvelbert.de,02051 988 - 606,FALSE,FALSE
+SNB957440824454,Stadtwerke Velten GmbH,Viktoriastraße 12,16727,Velten,332,netznutzung@stadtwerke-velten.de,03304 398619,FALSE,FALSE
+SNB962996832648,Stadtwerke Verden GmbH,Weserstraße 26,27283,Verden,Niedersachsen,eeg@stadtwerke-verden.de,+49 (04231) 915-0,FALSE,FALSE
+SNB961283575572,Stadtwerke Viernheim Netz GmbH,Industriestraße 2,68519,Viernheim,Hessen,Marktstammdatenregister@stadtwerke-viernheim.de,06204/910 -200,FALSE,FALSE
+SNB916927144072,Stadtwerke Villingen-Schwenningen GmbH,Pforzheimer Straße 1,78048,Villingen-Schwenningen,Baden-Württemberg,info@svs-energie.de,07721 40505,FALSE,FALSE
+SNB932685335767,Stadtwerke Vilsbiburg Kommunalunternehmen AdöR d. Stadt Vilsbiburg,Kindlmühlestraße 2,84137,Vilsbiburg,Bayern,schneider@stw-vilsbiburg.de,+49 8741 9644-0,FALSE,FALSE
+SNB967967636034,Stadtwerke Vilshofen GmbH,Wittelsbacherring 6,94474,Vilshofen,Bayern,info@stadtwerke-vilshofen.de,08541/970300,FALSE,FALSE
+SNB991263248615,Stadtwerke Vlotho Stromnetz GmbH,Weserstraße 9,32602,Vlotho,Nordrhein-Westfalen,energiewende@swlws.de,0523198085516,FALSE,FALSE
+SNB945413736880,Stadtwerke Völklingen Netz GmbH,Hohenzollernstraße 10,66333,Völklingen,Saarland,eeg@swvk.de,06898 150 126,FALSE,FALSE
+SNB968648650424,Stadtwerke Wachenheim,Am Alten Galgen 3,67157,Wachenheim,Rheinland-Pfalz,info@swwachenheim.de,063229580555,FALSE,FALSE
+SNB969058795651,Stadtwerke Waiblingen GmbH,Schorndorfer Straße 67,71332,Waiblingen,Baden-Württemberg,thomas.fricke@stadtwerke-waibllingen.de,07151 131-188,FALSE,FALSE
+SNB920730809172,Stadtwerke Waldkirch GmbH,Fabrikstraße 15,79183,Waldkirch,Baden-Württemberg,info@sw-waldkirch.de,0768147788999,FALSE,FALSE
+SNB985206131959,Stadtwerke Waldkirchen,Rathausplatz 1,94065,Waldkirchen,Bayern,sww@stadtwerke-waldkirchen.de,08581/202-30,FALSE,FALSE
+SNB960416123321,Stadtwerke Waldkraiburg GmbH,Meisenweg 1,84478,Waldkraiburg,Bayern,michael.pikulski@stwwkbg.de,08638/9484311,FALSE,FALSE
+SNB971196250442,Stadtwerke Waldmünchen,Fabrikstraße 3,93449,Waldmünchen,Bayern,bierl@stadtwerke-waldmuenchen.de,09972 3000600,FALSE,FALSE
+SNB933494191209,Stadtwerke Waldshut-Tiengen GmbH,Peter-Thumb-Straße 1,79761,Waldshut-Tiengen,Baden-Württemberg,mastr@stadtwerke-wt.de,07741/833-638,FALSE,FALSE
+SNB946790148600,Stadtwerke Walldorf GmbH & Co. KG,Altrottstraße 39,69190,Walldorf,Baden-Württemberg,peter.huber@stadtwerke-walldorf.de,06227-82880,FALSE,FALSE
+SNB969708579983,Stadtwerke Walldürn GmbH,Würzburger Straße 10,74731,Walldürn,Baden-Württemberg,mastr@sw-wallduern.de,06282/922014,FALSE,FALSE
+SNB911692402044,Stadtwerke Warburg GmbH,Landfurt 1,34414,Warburg,Nordrhein-Westfalen,eeg@stadtwerke-warburg.de,05641/922-0,FALSE,FALSE
+SNB973505068113,Stadtwerke Waren GmbH,Ernst-Alban-Straße 2,17192,Waren,Mecklenburg-Vorpommern,strom@stadtwerke-waren.de,(03991) 185-125,FALSE,FALSE
+SNB969345305204,Stadtwerke Warendorf GmbH,Katzheide 21-25,48231,Warendorf,Nordrhein-Westfalen,netzservice@swwaf.de,02581/63603-404,FALSE,FALSE
+SNB929073868471,Stadtwerke Wasserburg a. Inn,Max-Emanuel-Platz 6,83512,Wasserburg,Bayern,werkleitung@stadtwerke-wasserburg.de,0807190880,FALSE,FALSE
+SNB975283859389,Stadtwerke Wedel GmbH,Gorch-Fock-Straße 2,22880,Wedel,Schleswig-Holstein,info@stadtwerke-wedel.de,041038050,FALSE,FALSE
+SNB926480464456,Stadtwerke Weilburg GmbH,Lessingstraße 6,35781,Weilburg,Hessen,b.hardt@stadtwerke-weilburg.de,+49 (6471) 939032,FALSE,FALSE
+SNB935723521351,Stadtwerke Weinheim GmbH,Breitwieserweg 5,69469,Weinheim,Baden-Württemberg,regulierung@sww.de,06201/106-0,FALSE,FALSE
+SNB965819408044,STADTWERKE WEISSENBURG GmbH,Schlachthofstraße 19,91781,Weißenburg,Bayern,netznutzung@sw-wug.de,09141/999-95,FALSE,FALSE
+SNB933274941888,Stadtwerke Weißenfels Energienetze GmbH,Südring 120,06667,Weißenfels,Sachsen-Anhalt,swe@stadtwerke-wsf.de,+49 (03443) 389 123,FALSE,FALSE
+SNB918084816830,Stadtwerke Weißwasser GmbH,Straße des Friedens 13,02943,Weißwasser,Sachsen,mail@stadtwerke-weisswasser.de,03576 266 0,FALSE,FALSE
+SNB962389410347,Stadtwerke Werdau GmbH,Zwickauer Straße 39,08412,Werdau,Sachsen,einspeiser@stadtwerke-werdau.de,03761 7002-0,FALSE,FALSE
+SNB979980141082,Stadtwerke Werl GmbH,Grafenstraße 25,59457,Werl,Nordrhein-Westfalen,sylvia.brosch@stadtwerke-werl.de,02922985232,FALSE,FALSE
+SNB914879260819,Stadtwerke Wernigerode GmbH,Am Kupferhammer 38,38855,Wernigerode,Sachsen-Anhalt,info@stadtwerke-wernigerode.de,+49 (03943) 5560,FALSE,FALSE
+SNB922051401837,Stadtwerke Wertheim GmbH,Mühlenstraße 60,97877,Wertheim,Baden-Württemberg,info@stadtwerke-wertheim.de,09342 909 - 0,FALSE,FALSE
+SNB950584553167,Stadtwerke Wiesbaden Netz GmbH,Konradinerallee 25,65189,Wiesbaden,Hessen,mathias.goettlinger@sw-netz.de,06111453532,FALSE,FALSE
+SNB919230329570,Stadtwerke Wilster,Rathausstraße 68,25554,Wilster,Schleswig-Holstein,info@stadtwerke-wilster.de,048239900,FALSE,FALSE
+SNB957988771050,Stadtwerke Windsbach,Hauptstraße 15,91575,Windsbach,Bayern,stadtwerke@windsbach.de,09871/706410,FALSE,FALSE
+SNB972723368326,Stadtwerke Winsen (Luhe) GmbH,Schloßring 50,21423,Winsen,Niedersachsen,stefanie.koehn@stw-winsen.de,04171-7999510,FALSE,FALSE
+SNB971007500575,Stadtwerke Witten GmbH,Westfalenstraße 18-20,58455,Witten,Nordrhein-Westfalen,eeg-kwk@stadtwerke-witten.de,02302 9173-818,FALSE,FALSE
+SNB975680234468,Stadtwerke Witten Mittelspannungsnetz GmbH,Westfalenstraße 18-20,58455,Witten,Nordrhein-Westfalen,info@stww-mittelspannungsnetz.de,02302/9173-0,FALSE,FALSE
+SNB941081544895,Stadtwerke Wittenberge GmbH,Bentwischer Chaussee 1,19322,Wittenberge,332,mastr@stadtwerke-wittenberge.de,03877 954460,FALSE,FALSE
+SNB937722627607,Stadtwerke Witzenhausen GmbH & Co. KG,Hinter dem Deich 9,37213,Witzenhausen,Hessen,mail@stadtwerke-witzenhausen.de,05542/50050,FALSE,FALSE
+SNB983546347757,Stadtwerke Wolfenbüttel GmbH,Am Wasserwerk 2,38304,Wolfenbüttel,Niedersachsen,info@stadtwerke-wf.de,+49 5331 408-0,FALSE,FALSE
+SNB971345683381,Stadtwerke Wolmirstedt GmbH,Samsweger Straße 22,39326,Wolmirstedt,Sachsen-Anhalt,kontakt@stadtwerke-wolmirstedt.de,+49 (039201) 5570,FALSE,FALSE
+SNB935626894156,Stadtwerke Zeil a. Main,Bamberger Straße 20,97475,Zeil,Bayern,info@stadtwerke-zeil.de,0952494940,FALSE,FALSE
+SNB980783618473,Stadtwerke Zeven GmbH,Vitus-Platz 1,27404,Zeven,Niedersachsen,info@stadtwerke-zeven.de,04281 757-100,FALSE,FALSE
+SNB931316685899,Stadtwerke Zirndorf GmbH,Schützenstraße 12,90513,Zirndorf,Bayern,andreas.doerr@stadtwerke-zirndorf.de,0911 60 80 6 232,FALSE,FALSE
+SNB959966681252,Stadtwerke Zittau GmbH,Friedensstraße 17,02763,Zittau,Sachsen,info@stadtwerke-zittau.de,035836700,FALSE,FALSE
+SNB923190544898,Stadtwerke Zweibrücken GmbH,Gasstraße 1,66482,Zweibrücken,Rheinland-Pfalz,netznutzung@stadtwerke-zw.de,06332-874-0,FALSE,FALSE
+SNB924332586844,Stadtwerke Zwiesel,Fürhaupten 9,94227,Zwiesel,Bayern,stadtwerke@zwiesel.de,+49 (9922) 8510,FALSE,FALSE
+SNB918576265276,stadtwerker GmbH,Kaiser-Wilhelm-Straße 1,46395,Bocholt,Nordrhein-Westfalen,info@bew-bocholt.de,+49(02871)9540,FALSE,FALSE
+SNB979326623005,stadtwerker Versorgungs GmbH [eh. Stadtwerke Rhede GmbH],Krommerter Weg 13,46414,Rhede,Nordrhein-Westfalen,netznutzung@stadtwerke-rhede.de,+49 2872 937 229,FALSE,FALSE
+SNB975061261090,Stauferwerk  GmbH & Co. KG,Bahnhofstraße 15,73054,Eislingen,Baden-Württemberg,einspeisung@stauferwerk.de,07161/98602-49,FALSE,FALSE
+SNB964045995373,Strom- und Gasnetz Wismar GmbH,Flöter Weg 6,23970,Wismar,Mecklenburg-Vorpommern,netznutzung@sg-wismar.de,03841227300,FALSE,FALSE
+SNB981122608278,Stromkontor Netzgesellschaft mbH,Friedrich-Ebert-Straße 75,51429,Bergisch Gladbach,Nordrhein-Westfalen,info@stromkontor.org,02204-844720,FALSE,FALSE
+SNB933869654360,Stromkontor Rostock Port GmbH,Ost-West-Str. 31,18147,Rostock,Mecklenburg-Vorpommern,info@stromkontor.org,0381-3504800,FALSE,FALSE
+SNB979269087643,Stromnetz Berlin GmbH,Eichenstraße 3 A,12435,Berlin,Berlin,einspeiser@stromnetz-berlin.de,030-64494-1661,FALSE,FALSE
+SNB924577059684,Stromnetz Erdinger und Freisinger Land GmbH & Co. KG,Am Gries 21,85435,Erding,Bayern,netz@stromnetz-efl.de,08122/407-0,FALSE,FALSE
+SNB947514936855,Stromnetz Kulmbach GmbH & Co. KG,Hofer Straße 14,95326,Kulmbach,Bayern,eeg@stromnetz-kulmbach.de,+49 9221 90 42 0,FALSE,FALSE
+SNB903808877785,Stromnetz Pullach GmbH,Franziskus-Festing-Straße 1,82049,Pullach,Bayern,info@stromnetz-pullach.de,08990935697,FALSE,FALSE
+SNB986482940686,Stromnetz Weiden i.d.OPf. GmbH & Co. KG,Moosbürger Straße 15,92637,Weiden,Bayern,info@stromnetz-weiden.de,096138833541,FALSE,FALSE
+SNB929262647085,Stromnetz Weilheim GmbH & Co. KG,Stadtwerkestraße 1,82362,Weilheim,Bayern,eeg@stromnetz-weilheim.de,,FALSE,FALSE
+SNB948673048298,Stromnetzgesellschaft Herrenberg mbH & Co. KG,Stuttgarter Straße 80,71083,Herrenberg,Baden-Württemberg,,,FALSE,FALSE
+SNB981460842488,Stromversorgung Angermünde GmbH,Berliner Straße 1,16278,Angermünde,332,benjamin.noack@sw-angermuende.de,033313655222,FALSE,FALSE
+SNB939431117011,Stromversorgung Inzell eG,Bauhofstraße 15,83334,Inzell,Bayern,info@sv-inzell.de,+49(8665)888,FALSE,FALSE
+SNB911969765803,Stromversorgung Neunkirchen GmbH,Sichartstraße 49,91207,Lauf,Bayern,info@svn-lauf.de,09123/173-0,FALSE,FALSE
+SNB916151866986,Stromversorgung Pfaffenhofen a. d. Ilm GmbH & Co. KG,Michael-Weingartner-Straße 11,85276,Pfaffenhofen,Bayern,info@stromversorgung-pfaffenhofen.de,08441 4052-1000,FALSE,FALSE
+SNB955248518643,Stromversorgung Schierling eG,Dorfmühlstraße 4,84069,Schierling,Bayern,netz@schierling-strom.de,+49(09451) 94360,FALSE,FALSE
+SNB941555074781,Stromversorgung Seebruck eG,Haushoferstraße 20,83358,Seebruck,Bayern,info@chiemsee-strom.de,08667-471,FALSE,FALSE
+SNB954776773166,Stromversorgung Sulz am Neckar GmbH,Hartensteinstraße 21,72172,Sulz,Baden-Württemberg,udo.huber@sulz.de,074543071,FALSE,FALSE
+SNB918539636471,Stromversorgung Zerbst GmbH & Co. KG,Dessauer Straße 76,39261,Zerbst,Sachsen-Anhalt,y.lambrecht@swzerbst.de,(0 39 23) 73 72-0,FALSE,FALSE
+SNB984334051054,strotög GmbH Strom für Töging,Hauptstraße 19,84513,Töging,Bayern,netznutzung@strotoeg.net,+4986311845540,FALSE,FALSE
+SNB947592865054,Stuttgart Netze GmbH,Kesselstraße 21-23,70327,Stuttgart,Baden-Württemberg,kontakt@stuttgart-netze.de,0800 4804 400,FALSE,FALSE
+SNB971199523673,StWB Stadtwerke Brandenburg an der Havel GmbH & Co. KG,Packhofstraße 31,14776,Brandenburg,332,MaStR_Strom@stwb.de,+4933817520,FALSE,FALSE
+SNB957209230809,StWL Städtische Werke Lauf a.d. Pegnitz GmbH,Sichartstraße 49,91207,Lauf,Bayern,info@stwl-lauf.de,09123/173-0,FALSE,FALSE
+SNB968862623211,SÜC Energie und H²O GmbH,Bamberger Straße 2-6,96450,Coburg,Bayern,netze@suec.de,+4995617491111,FALSE,FALSE
+SNB983964953738,SVH Stromversorgung Haar GmbH,Blumenstraße 3,85540,Haar,Bayern,info@haar24.com,+49 (089) 45699160,FALSE,FALSE
+SNB919067474511,SVI - Stromversorgung Ismaning GmbH,Mayerbacherstraße 42,85737,Ismaning,Bayern,fuenlue@gwi-info.de,+49 (089) 96057614,FALSE,FALSE
+SNB955238223991,SVO Netz GmbH,Sprengerstraße 2,29223,Celle,Niedersachsen,marktstammdatenregister@svo-netz.de,05141162995,FALSE,FALSE
+SNB958077102830,swa Netze GmbH,Hoher Weg 1,86152,Augsburg,Bayern,einspeisung@swa-netze.de,+49(0821)65005651,FALSE,FALSE
+SNB928340368768,SWB Stadtwerke Biedenkopf GmbH,Mühlweg 16,35216,Biedenkopf,Hessen,info@stadtwerke-biedenkopf.de,06461/9505-0,FALSE,FALSE
+SNB950262883869,SWE Netz GmbH (Erfurt),Magdeburger Allee 34,99086,Erfurt,Thüringen,patrick.schlums@stadtwerke-erfurt.de,03615642428,FALSE,FALSE
+SNB968273674970,SWE Netz GmbH (Ettlingen),Hertzstraße 33,76275,Ettlingen,Baden-Württemberg,eeg@sw-ettlingen.de,07243/101-8288,FALSE,FALSE
+SNB982394830312,SWK Stadtwerke Kaiserslautern Versorgungs-AG,Bismarckstraße 14,67655,Kaiserslautern,Rheinland-Pfalz,netzbetreiber@swk-kl.de,+49 (0631) 80014051,FALSE,FALSE
+SNB973742186519,SWKiel Netz GmbH,Uhlenkrog 32,24113,Kiel,Schleswig-Holstein,einspeisemanagement@swkiel-netz.de,0431 / 594 3410,FALSE,FALSE
+SNB914027640531,SWL Energienetz- und Entsorgungsgesellschaft mbH,An der Mühlenbreede 4,49525,Lengerich,Nordrhein-Westfalen,info@swl-unser-stadtwerk.de,05481 / 8005-22222,FALSE,FALSE
+SNB930325069232,SWL Übertragungsnetzgesellschaft mbH,An der Mühlenbreede 4,49525,Lengerich,Nordrhein-Westfalen,marktstammdatenregister@swl-unser-stadtwerk.de,05481-800522222,FALSE,FALSE
+SNB967148688999,SWL Verteilungsnetzgesellschaft mbH,An der Mühlenbreede 4,49525,Lengerich,Nordrhein-Westfalen,marktstammdatenregister@swl-unser-stadtwerk.de,05481-800522222,FALSE,FALSE
+SNB969473762610,SWM Infrastruktur GmbH & Co. KG,Emmy-Noether-Straße 2,80992,München,Bayern,marktstammdaten.register@swm-infrastruktur.de,089-2361-5577,FALSE,FALSE
+SNB947270211210,SWN Stadtwerke Neustadt GmbH,Dieselstraße 5,96465,Neustadt b. Coburg,Bayern,info@swn-nec.de,09568 852 0,FALSE,FALSE
+SNB960060046328,SWN Stadtwerke Northeim GmbH,Am Mühlenanger 1,37154,Northeim,Niedersachsen,netzwirtschaft@stadtwerke-northeim.de,(05551)6005-0,FALSE,FALSE
+SNB943662886851,SWO Netz GmbH,Alte Poststraße 9,49074,Osnabrück,Niedersachsen,info@swo-netz.de,0541 / 2002 - 1113,FALSE,FALSE
+SNB929168402344,SWP Stadtwerke Pforzheim GmbH & Co. KG,Sandweg 22,75179,Pforzheim,Baden-Württemberg,serviceline@stadtwerke-pforzheim.de,0800797393939,FALSE,FALSE
+SNB981113965977,SWR Energie GmbH & Co. KG,Bürgerplatz 3,96472,Rödental,Bayern,info@stadtwerke-roedental.de,09563513330,FALSE,FALSE
+SNB915638224585,SWS Netze GmbH,Frankendamm 7,18439,Stralsund,Mecklenburg-Vorpommern,heiko.bischof@netze-stralsund.de,+49 (03831) 241 5300,FALSE,FALSE
+SNB969362778135,SWS Netze Solingen GmbH,Beethovenstraße 210,42655,Solingen,Nordrhein-Westfalen,marktstammdatenregister@netze-solingen.de,02122951210,FALSE,FALSE
+SNB966813503780,SWT Stadtwerke Trier Versorgungs-GmbH,Ostallee 7-13,54290,Trier,Rheinland-Pfalz,christoph.adams@swt.de,0651/717-1581,FALSE,FALSE
+SNB950006175489,SWTE Netz GmbH & Co. KG,Zechenstr. 10,49477,Ibbenbüren,Nordrhein-Westfalen,marktstammdatenregister@swte-netz.de,054515419970,FALSE,FALSE
+SNB967812386411,SWW Wunsiedel GmbH,Rot-Kreuz-Straße 6,95632,Wunsiedel,Bayern,g.lang@s-w-w.com,09232/887-200,FALSE,FALSE
+SNB918250928893,Syna GmbH,Ludwigshafener Straße 4,65929,Frankfurt,Hessen,einspeiser@syna.de,+49(69)80880022,FALSE,FALSE
+SNB980986433484,Syna Hochspannungsnetz GmbH & Co. KG,Ludwigshafener Straße 4,65929,Frankfurt,Hessen,einspeiser@syna-hochspannung.de,,FALSE,FALSE
+SNB974739102161,T.W.O. Technische Werke Osning GmbH,Gartnischer Weg 127,33790,Halle,Nordrhein-Westfalen,netznutzung@two.de,+49 (5221) 858-108,FALSE,FALSE
+SNB942630156484,"TauberEnergie Kuhn, Karl und Andreas Kuhn OHG",Engelsbergstraße 1,97980,Bad Mergentheim,Baden-Württemberg,karl.kuhn@tauberenergie-kuhn.de,07931/96494-14,FALSE,FALSE
+SNB978071940108,Technische Werke Naumburg GmbH,Steinkreuzweg 9,06618,Naumburg,Sachsen-Anhalt,info@twn-naumburg.de,+49 (03445) 755-0,FALSE,FALSE
+SNB970821959712,TEN Thüringer Energienetze GmbH & Co. KG,Schwerborner Straße 30,99087,Erfurt,Thüringen,info@thueringer-energienetze.com,+49 (361) 7390-0,FALSE,FALSE
+SNB910696207785,Teutoburger Energie Netzwerk eG (TEN eG),Höhenweg 14,49170,Hagen,Niedersachsen,info@ten-eg.de,05401/8922-0,FALSE,FALSE
+SNB990887002092,Thüga Energienetze GmbH,Bahnhofstraße 104,67105,Schifferstadt,Rheinland-Pfalz,info@thuega-netze.de,06235 - 34710,FALSE,FALSE
+SNB983425156814,TraveNetz GmbH,Geniner Straße 80,23560,Lübeck,Schleswig-Holstein,marktstammdatenregister@travenetz.de,+49 (451)888-1488,FALSE,FALSE
+SNB935578300972,TWL Netze GmbH,Industriestraße 3,67063,Ludwigshafen,Rheinland-Pfalz,netzwirtschaft@twl-netze.de,06215051330,FALSE,FALSE
+SNB977095880292,TWS Netz GmbH,Schussenstraße 22,88212,Ravensburg,Baden-Württemberg,info@tws-netz.de,0751-8040,FALSE,FALSE
+SNB972264483465,Überlandwerk Eppler GmbH,Dormettinger Straße 32,72359,Dotternhausen,Baden-Württemberg,info@ueberlandwerk.de,07427931566,FALSE,FALSE
+SNB957632855181,Überlandwerk Erding GmbH & Co. KG,Am Gries 21,85435,Erding,Bayern,netz@stadtwerke-erding.de,08122 / 407 - 216,FALSE,FALSE
+SNB910956210043,Überlandwerk Leinetal GmbH,Am Eltwerk 1,31028,Gronau,Niedersachsen,k.koenig@uewl.de,05182-588631,FALSE,FALSE
+SNB936940951426,Überlandwerk Rhön GmbH,Sondheimer Straße 5,97638,Mellrichstadt,Bayern,info@uew-rhoen.de,+49 (09776) 610,FALSE,FALSE
+SNB917454122557,Überlandzentrale Wörth/I.-Altheim Netz AG,Regensburger Straße 33,84051,Essenbach,Bayern,info@uezw-strom.de,08703/9255-238,FALSE,FALSE
+SNB929185184919,ÜZ Mainfranken eG,Schallfelder Straße 11,97511,Lülsfeld,Bayern,uez@uez.de,093826040,FALSE,FALSE
+SNB933760214908,Veolia Industriepark Deutschland GmbH,Boos-Fremery-Straße 62,52525,Heinsberg,Nordrhein-Westfalen,netzwirtschaft@alliander.de,+49 (0800) 1544800,FALSE,FALSE
+SNB932161540975,Verbandsgemeindewerke Enkenbach-Alsenborn,Hauptstraße 18,67677,Enkenbach-Alsenborn,Rheinland-Pfalz,vg-werke@enkenbach-alsenborn.de,06305/71-0,FALSE,FALSE
+SNB931064958931,Vereinigte Stadtwerke Netz GmbH,Bei den Stadtwerken 1,23909,Ratzeburg,Schleswig-Holstein,gerweck@vsg-netz.de,+49 4541 807 505,FALSE,FALSE
+SNB966808200267,Vereinigte Wertach Elektrizitätswerke GmbH,Neugablonzer Straße 21,87600,Kaufbeuren,Bayern,netz.service@vwew-energie.de,08341805395,FALSE,FALSE
+SNB982713229933,Versorgungsbetrieb Waldbüttelbrunn GmbH,Lindenstraße 3,97297,Waldbüttelbrunn,Bayern,vwg-einspeiser@rde-dienstleistungen.de,+49 931 73045 901,FALSE,FALSE
+SNB973519584647,Versorgungsbetriebe Bordesholm GmbH,Bahnhofstraße 13,24582,Bordesholm,Schleswig-Holstein,eeg-service@vb-bordesholm-gmbh.de,04322-6977-60,FALSE,FALSE
+SNB971770548286,VersorgungsBetriebe Elbe GmbH,Hamburger Straße 9-11,21481,Lauenburg,Schleswig-Holstein,info@versorgungsbetriebe-elbe.de,038847/6020,FALSE,FALSE
+SNB917574266223,Versorgungsbetriebe Hann. Münden GmbH,Werraweg 24,34346,Hann. Münden,Niedersachsen,info@versorgungsbetriebe.de,+49 (05541) 7070,FALSE,FALSE
+SNB946612539746,Versorgungsbetriebe Hoyerswerda GmbH,Straße A 7,02977,Hoyerswerda,Sachsen,mail@vbh-hoy.de,035714690,FALSE,FALSE
+SNB934967462406,Versorgungsbetriebe Kronshagen GmbH,Claus-Sinjen-Straße 31,24119,Kronshagen,Schleswig-Holstein,mastr_snb@vbk-kronshagen.de,+49 (0431) 58672-0,FALSE,FALSE
+SNB911104987275,Versorgungsbetriebe Röttingen,Marktplatz 1,97285,Röttingen,Bayern,e-werk@roettingen.de,+49 (9338) 972868,FALSE,FALSE
+SNB946115797155,Versorgungsbetriebe Zellingen,Würzburger Straße 26,97225,Zellingen,Bayern,info@die-energie.de,0935379010,FALSE,FALSE
+SNB929840763916,VersorgungsWerke Heddesheim GmbH & Co. KG,Dorfplatz 2,68542,Heddesheim,Baden-Württemberg,Marktstammdatenregister@vwerke-heddesheim.de,06203/8439860,FALSE,FALSE
+SNB977641826996,Verteilnetz Plauen GmbH,Industriestraße 10,06184,Kabelsketal,Sachsen-Anhalt,info@plauen-netz.de,034605 291001,FALSE,FALSE
+SNB940122004213,Verteilnetze Energie Weißenhorn GmbH & Co. KG,Illerberger Straße 6,89264,Weißenhorn,Bayern,info@vnew-weissenhorn.de,07309401440,FALSE,FALSE
+SNB941650885558,VSE Verteilnetz GmbH,Heinrich-Böcking-Straße 10-14,66121,Saarbrücken,Saarland,info@vse-verteilnetz.de,0681 4030 1221,FALSE,FALSE
+SNB978865527096,VW KRAFTWERK Gesellschaft mit beschränkter Haftung,Berliner Ring 2,38440,Wolfsburg,Niedersachsen,Luca.goelitzer@volkswagen.de,05361-914056,FALSE,FALSE
+SNB910224319560,Weiler Wärme eG,Im Lehnle 15,72285,Pfalzgrafenweiler,Baden-Württemberg,info@weilerwaerme.de,074459099012,FALSE,FALSE
+SNB971169136186,Weißachtal-Kraftwerke eG,Argenstraße 60,87534,Oberstaufen,Bayern,info@wkw-oberstaufen.de,08386 4860,FALSE,FALSE
+SNB928759560869,WEMAG Netz GmbH,Obotritenring 40,19053,Schwerin,Mecklenburg-Vorpommern,marktstammdatenregister@wemag-netz.de,03857553022,FALSE,FALSE
+SNB946373984786,Wendelsteinbahn Verteilnetz GmbH,Kerschelweg 30,83098,Brannenburg,Bayern,Rosemarie.Hoffmann@Wendelsteinbahn.de,08034/308-154,FALSE,FALSE
+SNB930122681040,werkkraft GmbH,Atelierstraße 1,81671,München,Bayern,info@werkkraft.de,089628344400,FALSE,FALSE
+SNB973501936539,Werraenergie GmbH,August-Bebel-Straße 36,36433,Bad Salzungen,Thüringen,p.weise@werraenergie.de,03695/87600,FALSE,FALSE
+SNB942238573102,wesernetz Bremen GmbH,Theodor-Heuss-Allee 20,28215,Bremen,Bremen,eeg-kwk@wesernetz.de,0421 3591212,FALSE,FALSE
+SNB985704986426,wesernetz Bremerhaven GmbH,Hansastraße 17,27568,Bremerhaven,Bremen,eeg-kwk@wesernetz.de,0471 4771212,FALSE,FALSE
+SNB979973883449,Westenthanner Energieversorgung GmbH,Mainbach 1,84405,Dorfen,Bayern,info@ew-westenthanner.de,08082/1820,FALSE,FALSE
+SNB929881052512,Westfalen Weser Netz GmbH,Tegelweg 25,33102,Paderborn,Nordrhein-Westfalen,einspeisemanagement@ww-energie.com,+49 5251 503 4050,FALSE,FALSE
+SNB921897286493,Westnetz GmbH,Florianstraße 15-21,44139,Dortmund,Nordrhein-Westfalen,marktstammdatenregister@westnetz.de,0800/93786389,FALSE,FALSE
+SNB919649671758,Wirtschaftsbetriebe der Stadt Norden GmbH,Feldstraße 10,26506,Norden,Niedersachsen,info@stadtwerke-norden.de,04931/926-100,FALSE,FALSE
+SNB914306944756,WSW Netz GmbH,Schützenstraße 34,42281,Wuppertal,Nordrhein-Westfalen,netzmanagement@wsw-netz.de,+49(0202)75897300,FALSE,FALSE
+SNB948485211972,YNCORIS GmbH & Co. KG,Industriestraße 300,50354,Hürth,Nordrhein-Westfalen,VuE-Netz@yncoris.com,02233/481212,FALSE,FALSE
+SNB925823629552,Zwickauer Energieversorgung GmbH,Bahnhofstraße 4,08056,Zwickau,Sachsen,info@zev-energie.de,037535410,FALSE,FALSE

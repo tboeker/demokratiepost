@@ -82,9 +82,10 @@ npm run build   # Produktions-Build nach dist/
 npm run preview # Build lokal testen
 ```
 
-> Nach `npm run data:plz`/`data:kom:plz`/`data:kom:build` bzw. Änderungen unter `public/`
-> den Dev-Server neu starten. Vite kann sonst noch den alten Stand des Public-Ordners
-> ausliefern; neue Shards erscheinen dann als HTML-Fallback statt als JSON.
+> Nach `npm run data:plz`/`data:kom:plz`/`data:kom:build`/`data:netz:build` bzw.
+> Änderungen unter `public/` den Dev-Server neu starten. Vite kann sonst noch den alten
+> Stand des Public-Ordners ausliefern; neue Shards erscheinen dann als HTML-Fallback
+> statt als JSON.
 
 Die Seite wird über GitHub Actions automatisch nach GitHub Pages deployt
 (`.github/workflows/deploy.yml`). Wichtig: In `vite.config.ts` muss `base` dem
@@ -130,12 +131,17 @@ Für die kommunale Ebene (Bürgermeister:in, Landrät:in) kommen die Anschriften
 dienstlichen E-Mail-Adressen aus dem amtlichen Anschriftenverzeichnis des Statistikportals
 (Stand 31.01.2026); die Namen der Amtsinhaber:innen aus GERDA (Forschungsdaten, CC BY 4.0)
 und die PLZ→Gemeinde/Kreis-Zuordnung aus einem Verschnitt der PLZ-Polygone mit der VG250.
-Wie die Daten erzeugt werden, steht in [`scripts/README.md`](./scripts/README.md).
+Für Netzbetreiber (Strom) wird die PLZ→Verteilnetzbetreiber-Zuordnung aus den
+In-Betrieb-PV-Anlagen des Marktstammdatenregisters (Bundesnetzagentur, dl-de/by-2-0,
+Stand 01.10.2026) abgeleitet; sie ist **keine amtliche Netzgebietsgrenze**, und die App
+zeigt Anteil und Quelle der Zuordnung an. Wie die Daten erzeugt werden, steht in
+[`scripts/README.md`](./scripts/README.md).
 
 Datenquellen und Lizenzen: Die Bundeswahlleiterin (amtliches Werk), bundestag.de,
 abgeordnetenwatch.de (CC0), Statistisches Bundesamt/Statistikportal (Anschriftenverzeichnis),
 GERDA – German Election Database (CC BY 4.0), © GeoBasis-DE / BKG (dl-de/by-2-0),
-yetzt/postleitzahlen (ODbL); Aufbereitung der PLZ→Wahlkreis-Zuordnung durch
+yetzt/postleitzahlen (ODbL), Marktstammdatenregister/Bundesnetzagentur (dl-de/by-2-0);
+Aufbereitung der PLZ→Wahlkreis-Zuordnung durch
 [OpenWahlkreisMap](https://github.com/maximilion-ai/OpenWahlkreisMap) (MIT).
 
 ## Projektstatus
@@ -143,10 +149,13 @@ yetzt/postleitzahlen (ODbL); Aufbereitung der PLZ→Wahlkreis-Zuordnung durch
 Der Prototyp beginnt bewusst klein:
 
 - **MVP:** Postleitzahl → Bundestagsabgeordnete → fertiger Brief (PDF oder Kontaktformular).
-- **Umgesetzt:** Landtagsabgeordnete (M4) sowie die kommunale Ebene mit Bürgermeister:in
-  und Landrät:in (M5, inkl. vorbefülltem, editierbarem Empfängerformular).
-- **Als Nächstes:** Netzbetreiber (Strom) (M6, geplant) – Zuordnung aus dem
-  Marktstammdatenregister; Stadtwerke bleiben manuell.
+- **Umgesetzt:** Landtagsabgeordnete (M4), die kommunale Ebene mit Bürgermeister:in
+  und Landrät:in (M5, inkl. vorbefülltem, editierbarem Empfängerformular) sowie
+  Netzbetreiber Strom (M6, Zuordnung aus dem Marktstammdatenregister).
+- **Als Nächstes:** Ersatzquellen für die Amtsinhaber:innen in Stadtstaaten und für
+  Landrät:innen in Baden-Württemberg/Schleswig-Holstein (G7); weitere
+  Landtags-Kontakt-Scraper nach dem NRW-Muster. Stadtwerke bleiben manuell, ein
+  Grundversorger-Typ ist nicht geplant (keine bundesweite BNetzA-Liste).
 
 Der vollständige technische Plan, die Datenquellen und die Meilensteine stehen in
 [`PLAN.md`](./PLAN.md).

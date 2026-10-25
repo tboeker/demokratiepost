@@ -20,6 +20,7 @@ import {
   hasPrefillForm,
   isKommune,
   isMandat,
+  isNetzbetreiber,
   isSearchable,
   lookupRecipients,
   recipientTypeLabel,
@@ -46,6 +47,7 @@ import { renderTemplate, splitTemplate } from './lib/template';
 import type {
   Kommune,
   ManualRecipient,
+  Netzbetreiber,
   Recipient,
   RecipientCandidate,
   Sender,
@@ -67,6 +69,7 @@ function getActiveViewFromHash(): ActiveView {
 function recipientContext(
   recipient: Recipient | null,
   recipientType?: string,
+  selectedCandidate?: RecipientCandidate | null,
 ): Record<string, string> {
   if (!recipient) return {};
 
@@ -111,6 +114,27 @@ function recipientContext(
     };
   }
 
+  if (isNetzbetreiber(recipient)) {
+    return {
+      anrede: 'Sehr geehrte Damen und Herren',
+      name: '',
+      partei: '',
+      wahlkreis: '',
+      bundesland: '',
+      organisation: recipient.name,
+      amt: '',
+      strasse: recipient.address.strasse ?? '',
+      plz: recipient.address.plz ?? '',
+      ort: recipient.address.ort ?? '',
+      email: recipient.email ?? '',
+      netzgebiet: recipient.gemeinde ?? '',
+      anteil:
+        typeof recipient.anteil === 'number' ? `${Math.round(recipient.anteil * 100)} %` : '',
+      quelle: recipient.quelle === 'gemeinde' ? 'Gemeindeebene' : 'PLZ-Ebene',
+      rolle: '',
+    };
+  }
+
   return {
     anrede: recipient.anrede.trim() || genericSalutation(recipient.name),
     name: recipient.name,
@@ -124,6 +148,26 @@ function recipientContext(
     ort: recipient.ort,
     email: recipient.email,
     rolle,
+    // Metadaten des Suchtreffers bleiben auch nach dem Bearbeiten im Formular
+    // erhalten (z. B. Netzgebiet/Anteil beim Netzbetreiber, Wahljahr bei M5).
+    ...(selectedCandidate && isNetzbetreiber(selectedCandidate)
+      ? {
+          netzgebiet: selectedCandidate.gemeinde ?? '',
+          anteil:
+            typeof selectedCandidate.anteil === 'number'
+              ? `${Math.round(selectedCandidate.anteil * 100)} %`
+              : '',
+          quelle:
+            selectedCandidate.quelle === 'gemeinde' ? 'Gemeindeebene' : 'PLZ-Ebene',
+        }
+      : {}),
+    ...(selectedCandidate && isKommune(selectedCandidate)
+      ? {
+          ebene: selectedCandidate.ebene,
+          wahljahr: selectedCandidate.wahljahr ? String(selectedCandidate.wahljahr) : '',
+          hinweis: selectedCandidate.hinweis ?? '',
+        }
+      : {}),
   };
 }
 
@@ -138,6 +182,23 @@ function manualFromKommune(kommune: Kommune): ManualRecipient {
     plz: kommune.address.plz ?? '',
     ort: kommune.address.ort ?? '',
     email: kommune.email ?? '',
+  };
+}
+
+/**
+ * Übernimmt einen Netzbetreiber in das editierbare Empfängerformular:
+ * Unternehmen als Organisation, neutrale Anrede, kein Name/kein Amt.
+ */
+function manualFromNetzbetreiber(operator: Netzbetreiber): ManualRecipient {
+  return {
+    anrede: 'Sehr geehrte Damen und Herren',
+    name: '',
+    amt: '',
+    organisation: operator.name,
+    strasse: operator.address.strasse ?? '',
+    plz: operator.address.plz ?? '',
+    ort: operator.address.ort ?? '',
+    email: operator.email ?? '',
   };
 }
 
@@ -231,11 +292,13 @@ export default function App() {
     }
   }
 
-  /** Auswahl eines Suchtreffers; bei M5 wird das Formular vorbefüllt. */
+  /** Auswahl eines Suchtreffers; bei M5/M6 wird das Formular vorbefüllt. */
   function handleSelectRecipient(candidate: RecipientCandidate) {
     setSelectedRecipient(candidate);
     if (prefillForm && isKommune(candidate)) {
       setManual(manualFromKommune(candidate));
+    } else if (prefillForm && isNetzbetreiber(candidate)) {
+      setManual(manualFromNetzbetreiber(candidate));
     }
   }
 
@@ -301,9 +364,9 @@ export default function App() {
       datum: new Date().toLocaleDateString('de-DE'),
       betreff: campaign?.subject ?? campaign?.title ?? '',
       absender: senderContext(sender),
-      empfaenger: recipientContext(recipient, activeType),
+      empfaenger: recipientContext(recipient, activeType, selectedRecipient),
     };
-  }, [sender, recipient, campaign, activeType]);
+  }, [sender, recipient, campaign, activeType, selectedRecipient]);
 
   const templateParts = template ? splitTemplate(template) : { letter: '', contact: '' };
   const letterBody = renderTemplate(templateParts.letter, letterContext);
@@ -314,6 +377,8 @@ export default function App() {
   const homepage = recipient && isMandat(recipient) ? recipient.homepage : undefined;
   const selectedKommune =
     selectedRecipient && isKommune(selectedRecipient) ? selectedRecipient : null;
+  const selectedNetzbetreiber =
+    selectedRecipient && isNetzbetreiber(selectedRecipient) ? selectedRecipient : null;
   const recipientHint = selectedKommune
     ? [
         selectedKommune.wahljahr
@@ -323,7 +388,16 @@ export default function App() {
       ]
         .filter(Boolean)
         .join(' ')
-    : '';
+    : selectedNetzbetreiber
+      ? [
+          `Zuordnung aus dem Marktstammdatenregister${
+            selectedNetzbetreiber.stand ? ` (Stand ${selectedNetzbetreiber.stand})` : ''
+          }, keine amtliche Netzgebietsgrenze – bitte prüfen.`,
+          selectedNetzbetreiber.hinweis ?? '',
+        ]
+          .filter(Boolean)
+          .join(' ')
+      : '';
 
   if (activeView === 'datenspeicherung') {
     return (
@@ -421,12 +495,15 @@ export default function App() {
                     ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
                       'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
                       'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
-                    : prefillForm
-                      ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
-                        'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
-                      : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
-                        'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
-                        '(Zweitstimmendeckung oder vakantes Mandat).'}
+                    : activeType === 'netzbetreiber'
+                      ? `Für die PLZ ${plz} wurde kein zuständiger Netzbetreiber gefunden. ` +
+                        'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
+                      : prefillForm
+                        ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
+                          'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
+                        : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
+                          'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
+                          '(Zweitstimmendeckung oder vakantes Mandat).'}
                 </p>
               )}
               {status === 'error' && <p className="error">{error}</p>}
@@ -443,8 +520,11 @@ export default function App() {
                   />
                   {prefillForm && (
                     <p className="hint">
-                      Die Namen der Amtsinhaber:innen stammen aus Forschungsdaten und sind nicht
-                      amtlich – bitte prüfe die Angaben im Formular.
+                      {activeType === 'netzbetreiber'
+                        ? 'Die Zuordnung stammt aus dem Marktstammdatenregister (In-Betrieb-PV-Anlagen) ' +
+                          'und ist keine amtliche Netzgebietsgrenze – bitte prüfe die Angaben im Formular.'
+                        : 'Die Namen der Amtsinhaber:innen stammen aus Forschungsdaten und sind nicht ' +
+                          'amtlich – bitte prüfe die Angaben im Formular.'}
                     </p>
                   )}
                 </>

@@ -2,9 +2,16 @@ import {
   findBuergermeisterByPlz,
   findLandratByPlz,
   findLandtagRecipientsByPlz,
+  findNetzbetreiberByPlz,
   findRecipientsByPlz,
 } from './lookup';
-import type { Kommune, Mandatstraeger, Recipient, RecipientCandidate } from '../types';
+import type {
+  Kommune,
+  Mandatstraeger,
+  Netzbetreiber,
+  Recipient,
+  RecipientCandidate,
+} from '../types';
 
 /** Definition eines in der App unterstützten Empfängertyps. */
 export interface RecipientTypeDef {
@@ -63,7 +70,12 @@ const RECIPIENT_TYPES: Record<string, RecipientTypeDef> = {
   // die konkrete Amtsbezeichnung kommt aus den Daten.
   ob: { ...BUERGERMEISTER, id: 'ob', label: 'Oberbürgermeister(in)' },
   stadtwerke: { id: 'stadtwerke', label: 'Stadtwerke' },
-  netzbetreiber: { id: 'netzbetreiber', label: 'Netzbetreiber' },
+  netzbetreiber: {
+    id: 'netzbetreiber',
+    label: 'Netzbetreiber (Strom)',
+    lookup: findNetzbetreiberByPlz,
+    prefillForm: true,
+  },
 };
 
 /** Liefert die Definition eines Typs; unbekannte Typen haben keinen Lookup. */
@@ -113,4 +125,9 @@ export function isMandat(recipient: Recipient): recipient is Mandatstraeger {
 /** Typguard: Suchtreffer ist eine kommunale Verwaltung (M5). */
 export function isKommune(recipient: Recipient): recipient is Kommune {
   return 'ebene' in recipient && 'behoerde' in recipient;
+}
+
+/** Typguard: Suchtreffer ist ein Verteilnetzbetreiber (M6). */
+export function isNetzbetreiber(recipient: Recipient): recipient is Netzbetreiber {
+  return 'art' in recipient && recipient.art === 'netzbetreiber';
 }

@@ -8,6 +8,7 @@ Die Anwendung lädt zur Laufzeit Daten aus `public/data/` (lazy, nach Bedarf):
 | `public/data/plz/<prefix>.json` | Zuordnung `PLZ -> [Wahlkreis-Nummern]`, aufgeteilt nach den ersten zwei PLZ-Ziffern |
 | `public/data/landtag/<staat>.json` + `plz-landtag/<prefix>.json` | Landtags-Roster je stimmigem Bundesland und PLZ→Landtagswahlkreis |
 | `public/data/kommunen/gemeinden-<land>.json` + `kreise.json` + `plz-kommunen/<prefix>.json` | Kommunale Verwaltungen (Kreis/Verband/Gemeinde) und PLZ→Gemeinde/Kreis |
+| `public/data/netzbetreiber/netzbetreiber.json` + `meta.json` + `plz-netzbetreiber/<prefix>.json` | Verteilnetzbetreiber Strom (M6) und PLZ→Netzbetreiber |
 
 ## 1. Abgeordnete (drei Schritte)
 
@@ -362,3 +363,104 @@ Validierung (Warnungen statt Abbruch):
   Election Database*, Nature: Scientific Data 12: 618,
   [doi:10.1038/s41597-025-04811-5](https://doi.org/10.1038/s41597-025-04811-5),
   CC BY 4.0. Hessen-Namen 1993–2012: Hessami (2018), CC0.
+
+## 5. Netzbetreiber Strom (M6)
+
+Der Typ `netzbetreiber` liefert den **Verteilnetzbetreiber Strom** für eine PLZ. Es ist
+bewusst **nicht** der Grundversorger und nicht die Stadtwerke als solche: Adressiert wird
+das Unternehmen, das vor Ort das Stromverteilnetz betreibt. Eine amtliche
+PLZ→Netzbetreiber-Tabelle gibt es nicht; die Zuordnung wird aus dem
+Marktstammdatenregister abgeleitet.
+
+Die Daten entstehen in zwei Schritten (einzeln, kein Sammelbefehl):
+
+```bash
+npm run data:netz:mastr   # 1. MaStR-Export -> source/mastr-netzbetreiber-*.csv
+npm run data:netz:build   # 2. Join + Validierung -> public/data/netzbetreiber/
+```
+
+Nach `data:netz:build` den **Dev-Server neu starten** (Vite-Cache).
+
+### Schritt 1: `fetch-mastr-netzbetreiber.mjs`
+
+- Lädt den gepinnten Gesamtdatenexport
+  `Gesamtdatenexport_20261001_26.1.zip` (**ca. 3 GB**) nach
+  `scripts/source/cache/mastr/` (gitignored) und setzt abgebrochene Downloads per
+  HTTP-Range fort. `MASTR_ZIP=/pfad/export.zip` nutzt einen lokalen Export,
+  `--force` lädt neu.
+- Liest das ZIP **streaming** über `yauzl` (ZIP64) und parst die XML-Records mit einem
+  schlanken Streaming-Parser – kein DOM, kein vollständiges Entpacken.
+- Verwendete Dateien: `Marktakteure.xml` (Betreiberstammdaten), `Netze.xml`
+  (geschlossene Verteilnetze, angeschlossene Kunden), `Netzanschlusspunkte.xml`
+  (`LokationMaStRNummer` → `NetzbetreiberMaStRNummer`), `EinheitenSolar.xml`
+  (Standort und Betriebsstatus) sowie `Marktrollen.xml`/`Marktfunktionen.xml`
+  (Rollen-Code „Stromnetzbetreiber“, nicht hart kodiert).
+- Filter: aktive Marktakteure im Exportzeitraum, `NochInPlanung = 0` bei
+  Netzanschlusspunkten, `EinheitBetriebsstatus = 35` („In Betrieb“), gültige PLZ und
+  achtstelliger Gemeindeschlüssel. Anlagen ohne aktiven Netzanschlusspunkt werden
+  verworfen. Geschlossene Verteilnetze (§ 110 EnWG) werden ausgeschlossen.
+- Ausgabe (committet, ca. 1,5 MB):
+  - `scripts/source/mastr-netzbetreiber-operators.csv`
+    (`id,name,strasse,plz,ort,bundesland,email,telefon,geschlossen,kunden100k`)
+  - `scripts/source/mastr-netzbetreiber-plz.csv`
+    (`plz,ags,gemeinde,netzbetreiber_id,anzahl`)
+  - `scripts/source/mastr-netzbetreiber-ags.csv`
+    (`ags,gemeinde,netzbetreiber_id,anzahl`)
+
+Laufzeit/Risiko: 3-GB-Download, Parsen von 6,5 Mio. Anlagen; 8 GB RAM und
+ca. 5–10 Minuten einplanen (Abnahme: ca. 5 Minuten). Der npm-Alias setzt dafür 8 GB Heap
+(`node --max-old-space-size=8192`); bei direktem Aufruf entsprechend setzen. Der
+Quartalsstand ist im Skript gepinnt.
+
+### Schritt 2: `build-netzbetreiber.mjs`
+
+- Liest die drei CSVs und die M5-Shards `public/data/kommunen/plz-kommunen/…`.
+- Pro PLZ:
+  - PLZ-Verteilung, wenn dort mindestens **10** In-Betrieb-Anlagen liegen;
+  - sonst **Gemeinde-Fallback** über den AGS mit der größten Flächenüberlappung
+    (z. B. Innenstadt-PLZ ohne eigene PV-Anlagen);
+  - sonst kein Treffer → die App bietet das manuelle Formular an.
+- Top-1 wird immer übernommen, weitere Betreiber ab **10 %** Anteil; pro Betreiber-ID
+  wird dedupliziert (höchster Anteil bleibt). Anteil, Anzahl und Quelle (`plz`/`gemeinde`)
+  werden mitgeliefert.
+- Ausgabe:
+  - `public/data/netzbetreiber/netzbetreiber.json` – Betreiberstammdaten
+    (Name, Anschrift, E-Mail, Telefon)
+  - `public/data/netzbetreiber/meta.json` – Stand, Quelle, Methodik, Kennzahlen
+  - `public/data/netzbetreiber/plz-netzbetreiber/<prefix>.json` – pro PLZ:
+    `[{ id, ags, gemeinde, anteil, anzahl, quelle }]`
+  - `scripts/source/netzbetreiber-prueffaelle.csv` – unsichere Fälle
+    (Anteil < 70 % oder Gemeinde-Fallback) für die manuelle Prüfung.
+- Validierung (Warnungen statt Abbruch): PLZ-Abdeckung gegen `public/data/plz/`,
+  Top-10-Betreiber nach Anlagen, Verteilung der Top-1-Anteile, Gemeinde-Fallbacks und
+  PLZ ohne Treffer, Roster-/Shard-Konsistenz, Stichproben (Berlin, München, Köln,
+  Dresden, Kiel, Freiburg, Leipzig, Hamburg, Bremen, Hannover, Saarbrücken).
+
+Ist-Stand (Export 01.10.2026): 5.469.488 ausgewertete In-Betrieb-Anlagen (von 6.535.547;
+902.481 ohne aktiven Netzanschlusspunkt), 813 Betreiber mit Anlagen und im Roster,
+26 geschlossene Netze ausgeschlossen. 8.527 von 8.585 PLZ mit Treffer (8.139 PLZ-Ebene,
+388 Gemeinde-Fallback, 58 ohne Treffer); 592 PLZ mit mehreren Betreibern, davon 273 mit
+Top-1-Anteil < 70 %. Laufzeitdaten 1,25 MB (Roster 187 KB, 95 Shards 1,06 MB), Quell-CSVs
+1,47 MB. Im Bundestags-PLZ-Index fehlen nur 25869, 78266 und 83256.
+
+### Client-Verhalten
+
+- `netzbetreiber` ist durchsuchbar; das manuelle Formular ist **immer** sichtbar
+  (`prefillForm`). Beim Auswählen eines Treffers werden Firmenname, Anschrift und
+  E-Mail vorbefüllt; das Formular ist die Quelle für den Brief und wird unter
+  `demokratiepost.empfaenger.netzbetreiber.v1` gespeichert.
+- Die Empfängerzeile besteht aus `organisation`, Straße und PLZ/Ort – **ohne**
+  Name/Amtsbezeichnung; die Anrede ist „Sehr geehrte Damen und Herren“.
+- Die App zeigt Gemeinde/Netzgebiet, Anteil, Quelle und einen Prüfhinweis an:
+  „Zuordnung aus dem Marktstammdatenregister, keine amtliche Netzgebietsgrenze“.
+  Unter 70 % Anteil oder beim Gemeinde-Fallback erscheint zusätzlich eine Warnung.
+- Wo eine E-Mail vorliegt, bietet die App `mailto:` an; sonst Druck/PDF und
+  „Nachricht kopieren“.
+
+### Lizenz
+
+- **Marktstammdatenregister** – © Bundesnetzagentur für Elektrizität, Gas,
+  Telekommunikation, Post und Eisenbahnen, Gesamtdatenexport 01.10.2026,
+  Datenlizenz Deutschland – Namensnennung 2.0 (dl-de/by-2-0).
+- Die PLZ→Netzbetreiber-Zuordnung ist eine eigene Auswertung der in Betrieb befindlichen
+  PV-Anlagen und **keine amtliche Netzgebietsgrenze**.

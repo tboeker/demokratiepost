@@ -122,7 +122,7 @@ export function LetterPreview({
         <p className="hint">
           Für diesen Empfänger ist keine E-Mail-Adresse hinterlegt. Nutze den Brief
           (Drucken / als PDF speichern) oder kopiere die Nachricht für das Kontaktformular der
-          Behörde.
+          Behörde bzw. des Unternehmens.
         </p>
       )}
 

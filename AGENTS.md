@@ -46,6 +46,10 @@ npm run data:kom:verwaltung  # Anschriftenverzeichnis → scripts/source/gemeind
 npm run data:kom:plz         # PLZ-Geometrie × VG250 → scripts/source/plz-gemeinde.csv
 npm run data:kom:koepfe      # GERDA-Amtsträger:innen → scripts/source/gemeinde-koepfe.csv
 npm run data:kom:build       # Join + Validierung → public/data/kommunen/
+
+# Netzbetreiber Strom (M6), ebenfalls einzeln und in dieser Reihenfolge:
+npm run data:netz:mastr      # MaStR-Gesamtexport → scripts/source/mastr-netzbetreiber-*.csv
+npm run data:netz:build      # Join + Validierung → public/data/netzbetreiber/
 ```
 
 ## Dev-Container
@@ -63,14 +67,17 @@ scripts/                   Datenpipeline (Build-Zeit)
 public/data/               Laufzeit-Daten: mdb.json, plz/<prefix>.json,
                            landtag/<staat>.json + plz-landtag/<prefix>.json,
                            kommunen/gemeinden-<land>.json + kreise.json +
-                           plz-kommunen/<prefix>.json (alle lazy geladen)
+                           plz-kommunen/<prefix>.json,
+                           netzbetreiber/netzbetreiber.json + meta.json +
+                           plz-netzbetreiber/<prefix>.json (alle lazy geladen)
 src/App.tsx                Ablauf: Kampagne → Absender → Empfängertyp →
                            Empfänger (Suche mit PLZ-Vorbelegung / manuell) → Vorschau
 src/components/            PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
                            ManualRecipientForm, LetterPreview
 src/lib/                   campaigns, template, storage, lookup, recipientTypes,
                            recipientRoles, sender, export
-src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5), ManualRecipient,
+src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
+                           Netzbetreiber (M6), ManualRecipient,
                            Recipient/RecipientCandidate, Wahlkreis, Campaign, Sender
 ```
 
@@ -84,14 +91,15 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5), ManualRec
 - Manuell erfasste Empfänger ebenfalls nur lokal, **ein Key pro Typ**:
   `demokratiepost.empfaenger.<typ>.v1`. Durchsuchbare Typen wie `mdb` werden nicht gespeichert;
   Ausnahmen sind `landtag` (bei leerer Suche: `emptyFallback`) und die kommunalen Typen
-  `landrat`/`buergermeister` (immer sichtbares, beim Treffer vorbefülltes Formular:
-  `prefillForm`). Registry: `src/lib/recipientTypes.ts`.
+  `landrat`/`buergermeister` sowie `netzbetreiber` (immer sichtbares, beim Treffer vorbefülltes
+  Formular: `prefillForm`). Registry: `src/lib/recipientTypes.ts`.
 - Template-Platzhalter in Punktnotation: `{{ absender.name }}`, für die Selbstbezeichnung
   `{{ absender.buerger }}` („Bürgerin“/„Bürger“/„Bürger:in“, ohne Angabe
   „Bürgerin/Bürger“), `{{ empfaenger.wahlkreis }}`, für die geschlechtsbezogene
   Rollenbezeichnung `{{ empfaenger.rolle }}` (z. B. „Landrätin“/„Landrat“/„Landrät:in“),
   für kommunale Empfänger `{{ empfaenger.organisation }}`, `{{ empfaenger.amt }}`,
-  `{{ empfaenger.name }}`.
+  `{{ empfaenger.name }}`; für Netzbetreiber zusätzlich `{{ empfaenger.netzgebiet }}`,
+  `{{ empfaenger.anteil }}` und `{{ empfaenger.quelle }}` (Unternehmen ohne `amt`/`name`).
 - Der Abschnitt `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` im Template
   ist die Nachricht für Kontaktformular/E-Mail (nur Text + Abschlussformel); der Rest ist der
   vollständige Brief. Fehlen die Marker, gilt der ganze Brief als Nachricht.
@@ -165,6 +173,19 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5), ManualRec
   56 PLZ (überwiegend Postfach-PLZ von Kreisverwaltungen) haben nur eine Kreiszuordnung –
   die Bürgermeister-Suche bietet dort den manuellen Fallback.
 - Nach `npm run data:kom:plz`/`data:kom:build` den **Dev-Server neu starten** (Vite-Cache).
+- **Netzbetreiber Strom (M6)**: Quelle ist der MaStR-Gesamtdatenexport (ca. 3 GB ZIP,
+  01.10.2026, Revision 26.1, dl-de/by-2-0). Die PLZ→Betreiber-Zuordnung wird aus
+  In-Betrieb-PV-Anlagen (Status 35) über den Netzanschlusspunkt abgeleitet und ist
+  **keine amtliche Netzgebietsgrenze**. `data:netz:mastr` streamt den Export (yauzl),
+  `data:netz:build` nutzt die committeten CSVs `scripts/source/mastr-netzbetreiber-*.csv`;
+  der Client-Build braucht den 3-GB-Download nicht. 8 GB RAM und ca. 5–10 Minuten
+  einplanen, danach `data:netz:build` erneut ausführen und den Dev-Server neu starten.
+- **Kein Grundversorger**: Die BNetzA führt keine bundesweite Grundversorger-Liste; M6
+  liefert nur den Verteilnetzbetreiber. `stadtwerke` bleibt manuell.
+- **Netzbetreiber-Zuordnung**: Top-1 immer, weitere Betreiber ab 10 % Anteil; unter
+  70 % oder bei Gemeinde-Fallback zeigt die App einen Prüfhinweis. Geschlossene
+  Verteilnetze (§ 110 EnWG) werden ausgeschlossen. Das Formular ist immer editierbar.
+- Nach `npm run data:netz:build` den **Dev-Server neu starten** (Vite-Cache).
 
 ## Git
 

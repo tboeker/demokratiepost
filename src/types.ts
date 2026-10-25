@@ -144,8 +144,43 @@ export interface Kommune {
   landratCapable?: boolean;
 }
 
-/** Suchtreffer: Mandatsträger oder kommunale Verwaltung. */
-export type RecipientCandidate = Mandatstraeger | Kommune;
+/** Quelle der PLZ→Netzbetreiber-Zuordnung (M6). */
+export type NetzbetreiberQuelle = 'plz' | 'gemeinde';
+
+/**
+ * Verteilnetzbetreiber Strom (M6) – Ergebnis der Suche. Die Zuordnung stammt
+ * aus dem Marktstammdatenregister (In-Betrieb-PV-Anlagen) und ist **keine
+ * amtliche Netzgebietsgrenze**; Anteil und Quelle werden deshalb angezeigt.
+ * Das Unternehmen hat keinen Namen/kein Amt – die Anrede ist neutral.
+ */
+export interface Netzbetreiber {
+  /** Diskriminator für die Empfänger-Union. */
+  art: 'netzbetreiber';
+  /** MaStR-Nummer des Marktakteurs. */
+  id: string;
+  /** Firmenname, z. B. "Stromnetz Berlin GmbH". */
+  name: string;
+  address: Address;
+  email?: string;
+  telefon?: string;
+  /** Gemeinde/Netzgebiet, auf das sich die Zuordnung bezieht. */
+  gemeinde?: string;
+  /** Amtlicher Gemeindeschlüssel (8-stellig), soweit vorhanden. */
+  ags?: string;
+  /** Anteil der Anlagen in PLZ/Gemeinde, die an diesem Betreiber hängen (0–1). */
+  anteil?: number;
+  /** Anzahl der ausgewerteten In-Betrieb-PV-Anlagen. */
+  anzahl?: number;
+  /** `plz` = direkt aus Anlagen der PLZ, `gemeinde` = Gemeinde-Fallback. */
+  quelle?: NetzbetreiberQuelle;
+  /** Hinweis zur Verlässlichkeit (Grenzgebiet, Gemeindeebene). */
+  hinweis?: string;
+  /** Datenstand des MaStR-Exports, z. B. "2026-10-01". */
+  stand?: string;
+}
+
+/** Suchtreffer: Mandatsträger, kommunale Verwaltung oder Netzbetreiber. */
+export type RecipientCandidate = Mandatstraeger | Kommune | Netzbetreiber;
 
 /**
  * Manuell erfasster Empfänger – für Typen ohne PLZ-Suche (z. B. Stadtwerke)
@@ -165,7 +200,7 @@ export interface ManualRecipient {
   email: string;
 }
 
-/** Empfänger: Suchtreffer (Mandat/Kommune) oder manuell erfasst. */
+/** Empfänger: Suchtreffer (Mandat/Kommune/Netzbetreiber) oder manuell erfasst. */
 export type Recipient = RecipientCandidate | ManualRecipient;
 
 /** Zuordnung Postleitzahl -> Liste von Wahlkreis-Nummern. */
