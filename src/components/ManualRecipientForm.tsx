@@ -14,6 +14,8 @@ interface ManualRecipientFormProps {
   prefill?: boolean;
   /** Die Suche war leer; das Formular ist der manuelle Fallback (z. B. landtag). */
   fallback?: boolean;
+  /** Gespeicherte manuelle Fallback-Eingabe wird beim Zurückwechseln angezeigt. */
+  restored?: boolean;
 }
 
 /**
@@ -27,6 +29,7 @@ export function ManualRecipientForm({
   onClear,
   prefill = false,
   fallback = false,
+  restored = false,
 }: ManualRecipientFormProps) {
   function update<K extends keyof ManualRecipient>(key: K, value: ManualRecipient[K]) {
     onChange({ ...recipient, [key]: value });
@@ -39,14 +42,17 @@ export function ManualRecipientForm({
           ? `Die Suche hat für diese PLZ keine Treffer geliefert. Erfasse den Empfänger ` +
             `(Behörde oder Unternehmen) hier manuell; die Eingaben werden nur lokal in deinem ` +
             `Browser gespeichert.`
-          : prefill
-            ? `Wähle oben einen Treffer – Organisation, Anschrift, E-Mail und (soweit bekannt) ` +
-              `Name werden hier vorbefüllt. Prüfe die Angaben und korrigiere sie bei Bedarf. ` +
-              `Die Eingaben werden nur lokal in deinem Browser gespeichert.`
-            : `Für ${recipientTypeLabel ? recipientTypeLabel : 'diesen Empfängertyp'} gibt es ` +
-              `(noch) keine Suche – bitte Anschrift des Empfängers manuell erfassen. Die ` +
-              `Eingaben werden nur lokal in deinem Browser gespeichert und beim nächsten Besuch ` +
-              `dieses Typs vorausgefüllt.`}
+          : restored
+            ? `Diese manuell erfassten Empfängerdaten sind gespeichert. Du kannst sie hier ` +
+              `prüfen und ändern – oder oben mit einer anderen PLZ neu suchen.`
+            : prefill
+              ? `Wähle oben einen Treffer – Organisation, Anschrift, E-Mail und (soweit bekannt) ` +
+                `Name werden hier vorbefüllt. Prüfe die Angaben und korrigiere sie bei Bedarf. ` +
+                `Die Eingaben werden nur lokal in deinem Browser gespeichert.`
+              : `Für ${recipientTypeLabel ? recipientTypeLabel : 'diesen Empfängertyp'} gibt es ` +
+                `(noch) keine Suche – bitte Anschrift des Empfängers manuell erfassen. Die ` +
+                `Eingaben werden nur lokal in deinem Browser gespeichert und beim nächsten Besuch ` +
+                `dieses Typs vorausgefüllt.`}
       </p>
 
       <div className="field-grid">

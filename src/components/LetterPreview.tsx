@@ -131,6 +131,13 @@ export function LetterPreview({
         </p>
       )}
 
+      {recipientEmail && (
+        <p className="hint letter-email">
+          E-Mail-Adresse des Empfängers:{' '}
+          <strong className="letter-email-address">{recipientEmail}</strong>
+        </p>
+      )}
+
       <div className="letter-actions">
         {recipientEmail && (
           <a className="button" href={buildMailto(recipientEmail, subject, contactBody)}>

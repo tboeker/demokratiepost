@@ -92,10 +92,13 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
 - Absenderdaten nur lokal im Browser: `localStorage`-Key `demokratiepost.sender.v1`
   (versioniert, siehe `src/lib/storage.ts`).
 - Manuell erfasste Empfänger ebenfalls nur lokal, **ein Key pro Typ**:
-  `demokratiepost.empfaenger.<typ>.v1`. Durchsuchbare Typen wie `mdb` werden nicht gespeichert;
-  Ausnahmen sind `landtag` (bei leerer Suche: `emptyFallback`) und die kommunalen Typen
-  `landrat`/`buergermeister` sowie `netzbetreiber` (immer sichtbares, beim Treffer vorbefülltes
-  Formular: `prefillForm`). Registry: `src/lib/recipientTypes.ts`.
+  `demokratiepost.empfaenger.<typ>.v1`. Ausnahmen sind `landtag` (bei leerer Suche:
+  `emptyFallback`) und die kommunalen Typen `landrat`/`buergermeister` sowie `netzbetreiber`
+  (immer sichtbares, beim Treffer vorbefülltes Formular: `prefillForm`).
+  Zusätzlich wird der ausgewählte Suchtreffer bei allen durchsuchbaren Typen unter
+  `demokratiepost.auswahl.<typ>.v1` gemerkt und beim Typwechsel direkt wieder angezeigt
+  (bei `prefillForm` bleibt das Formular die Quelle, der Suchtreffer liefert die Metadaten;
+  eine neue Auswahl ersetzt sie). Registry: `src/lib/recipientTypes.ts`.
 - **Anleitungstypen** (`instruction: true`, z. B. `ep-petition`, M7): kein Lookup, kein
   Adressformular, kein Druck/PDF. Die Anleitung liegt in
   `campaigns/<id>/instructions/<typ>.md` (Markdown + YAML-Frontmatter mit `url`,

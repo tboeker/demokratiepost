@@ -331,6 +331,17 @@ body {
   margin-top: 1rem;
 }
 
+/* Empfängeradresse direkt über den Versand-Aktionen, damit sie vor dem Klick
+   auf „E-Mail senden“ sichtbar ist. */
+.letter-email {
+  margin: 0.75rem 0 0;
+}
+
+.letter-email-address {
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
 .letter-preview-header {
   display: flex;
   align-items: center;

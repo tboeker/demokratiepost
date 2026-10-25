@@ -52,9 +52,13 @@ sie lokal in deinem Browser:
   aus einem Suchtreffer vorbefüllten, von dir geprüften Daten gespeichert. Beim Landtag
   greift diese Speicherung nur, wenn die Suche keine Treffer liefert und du den Empfänger
   manuell eingibst.
-- **Nicht gespeichert** werden die eingegebene Postleitzahl sowie ausgewählte Suchtreffer bei
-  Bundestags- und Landtagsabgeordneten. Diese Daten bleiben nur im Arbeitsspeicher, bis du
-  die Seite schließt.
+- **Ausgewählter Empfänger** bei durchsuchbaren Empfängertypen (Bundestag, Landtag,
+  Bürgermeister:in, Landrät:in, Netzbetreiber) je Empfängertyp unter
+  `demokratiepost.auswahl.(typ).v1` (z. B. `demokratiepost.auswahl.mdb.v1`). Dadurch
+  erscheint deine letzte Auswahl beim Wechsel des Empfängertyps direkt wieder; eine neue
+  Auswahl ersetzt sie.
+- **Nicht gespeichert** wird die eingegebene Postleitzahl der Empfängersuche. Sie bleibt
+  nur im Arbeitsspeicher, bis du die Seite schließt.
 
 Die Daten verlassen dein Gerät **nicht**. Über die Schaltfläche `Gespeicherte Daten
 löschen` auf der Seite **Datenspeicherung** kannst du sie jederzeit entfernen. Ebenso

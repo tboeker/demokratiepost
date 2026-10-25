@@ -48,7 +48,8 @@ Browser (statische Seite) – Fünf-Schritte-Ablauf (siehe *User-Workflow*)
 │       public/data/netzbetreiber/netzbetreiber.json (M6), nur bei Bedarf geladen)
 │      bzw. manuelles Formular (Typen ohne Suche; bei `landtag` als Fallback,
 │      bei `landrat`/`buergermeister`/`netzbetreiber` als vorbefüllte Vorlage),
-│      Speicherung pro Typ: demokratiepost.empfaenger.<typ>.v1
+│      Speicherung pro Typ: demokratiepost.empfaenger.<typ>.v1 bzw.
+│      ausgewählter Suchtreffer: demokratiepost.auswahl.<typ>.v1
 │      bzw. Anleitung + Kopierfelder für Typen mit reinem Webformular (M7, ohne Adresse)
 ├── 5. Rendering: Markdown-Template + Platzhalter → HTML (Vorschau)
 ├── Ausgabe A: DIN-5008-Briefansicht → window.print() → "Als PDF speichern"
@@ -65,7 +66,9 @@ im jeweiligen Schritt.
   DIN 5008, keine PDF-Library nötig). Optional später `pdf-lib` für direkten `.pdf`-Download.
 - Versand: Primär `mailto:` mit der E-Mail-Adresse aus dem offiziellen PDF-Sonderdruck
   „Kürschners Volkshandbuch“ (`fetch-mdb-emails.mjs`; Quelle und Stand werden in der App
-  angezeigt). Liegt keine Adresse vor, wird **kein** „E-Mail senden“-Button gezeigt. Das
+  angezeigt). Liegt keine Adresse vor, wird **kein** „E-Mail senden“-Button gezeigt. Ist eine
+  Adresse vorhanden, steht sie zusätzlich als Text direkt über den Versand-Aktionen, damit sie
+  vor dem Klick sichtbar ist. Das
   **Kontaktformular** des Abgeordneten bleibt als zweite Option erhalten; zusätzlich
   „Nachricht kopieren“. Landtag Nordrhein-Westfalen nutzt denselben `mailto:`-Weg.
 - Das Kontaktformular auf bundestag.de lässt sich **nicht** per URL vorbelegen (getestet) und
@@ -127,8 +130,15 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
      vorbefüllt; der Nutzer korrigiert, die Daten werden pro Typ gespeichert. Grund: Die
      Amtsinhaber:innen-Daten sind forschungsdatenbasiert und lückenhaft, die
      Netzbetreiber-Zuordnung ist aus dem MaStR abgeleitet. Damit werden auch durchsuchbare
-     Typen gespeichert – bewusste Erweiterung der Regel, dass durchsuchbare Typen nicht
-     gespeichert werden.
+     Typen gespeichert – das Formular ist dort die gemerkte Auswahl.
+   - **Gemerkte Auswahl** (alle Typen): Der zuletzt ausgewählte Empfänger bleibt beim Wechsel
+     des Empfängertyps erhalten und wird sofort wieder angezeigt. Bei allen durchsuchbaren
+     Typen liegt der Suchtreffer zusätzlich unter `demokratiepost.auswahl.<typ>.v1`; bei
+     `mdb`/`landtag` erscheint er als „Aktuell ausgewählt“ über der Trefferliste, bei
+     `prefillForm` bleibt das vorbefüllte Formular sichtbar und der Suchtreffer liefert die
+     Metadaten (z. B. Wahljahr, Netzgebiet). Eine neue PLZ-Suche ist jederzeit möglich,
+     ersetzt die Auswahl aber erst, wenn ein neuer Treffer gewählt wird. Auch der
+     `landtag`-Fallback (manuelle Daten) erscheint wieder.
    - **Typ mit Anleitung** (`ep-petition`, M7): Der Empfänger ist nur über ein Webformular
      erreichbar. Statt Suche und Adressformular zeigt Schritt 4 die Anleitung aus
      `campaigns/<id>/instructions/<typ>.md` (Markdown mit YAML-Frontmatter) samt Link.
@@ -370,7 +380,8 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 - Der `TemplateContext` (`absender.*`) wird direkt aus diesen Werten gespeist.
 - Die Absender-PLZ **vorbelegt das Suchfeld** im Empfänger-Schritt (bei Typen mit Suche;
   nur initial, überschreibbar). Manuell erfasste Empfänger-Daten liegen analog **pro Typ**
-  unter `demokratiepost.empfaenger.<typ>.v1`.
+  unter `demokratiepost.empfaenger.<typ>.v1`, der zuletzt ausgewählte Suchtreffer bei allen
+  durchsuchbaren Typen unter `demokratiepost.auswahl.<typ>.v1`.
 
 **Autofill durch Browser und Passwort-Manager**
 

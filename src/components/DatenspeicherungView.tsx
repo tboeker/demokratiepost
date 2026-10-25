@@ -1,4 +1,8 @@
-import { RECIPIENT_STORAGE_PREFIX, SENDER_STORAGE_KEY } from '../lib/storage';
+import {
+  RECIPIENT_STORAGE_PREFIX,
+  SELECTED_RECIPIENT_STORAGE_PREFIX,
+  SENDER_STORAGE_KEY,
+} from '../lib/storage';
 
 interface DatenspeicherungViewProps {
   hasSenderData: boolean;
@@ -30,11 +34,11 @@ export function DatenspeicherungView({
             <div>
               <dt>Was gespeichert wird</dt>
               <dd>
-                Deine Absenderdaten (Name, Anschrift, optional E-Mail und Telefon) sowie die
-                manuell erfassten Empfängerdaten. Bei den kommunalen Typen (Bürgermeister:in,
-                Landrät:in) und beim Netzbetreiber werden die aus einem Suchtreffer
-                vorbefüllten, von dir geprüften Empfängerdaten gespeichert – damit du sie beim
-                nächsten Besuch nicht erneut eingeben musst.
+                Deine Absenderdaten (Name, Anschrift, optional E-Mail und Telefon), die manuell
+                erfassten Empfängerdaten sowie der zuletzt ausgewählte Empfänger je Empfängertyp.
+                Bei den kommunalen Typen (Bürgermeister:in, Landrät:in) und beim Netzbetreiber
+                werden die aus einem Suchtreffer vorbefüllten, von dir geprüften Empfängerdaten
+                gespeichert – damit du sie beim nächsten Besuch nicht erneut eingeben musst.
               </dd>
             </div>
             <div>
@@ -42,17 +46,18 @@ export function DatenspeicherungView({
               <dd>
                 Nur lokal in diesem Browser: Absender unter <code>{SENDER_STORAGE_KEY}</code>,
                 manuell erfasste Empfänger pro Typ unter <code>{RECIPIENT_STORAGE_PREFIX}.&lt;typ&gt;.v1</code>{' '}
+                und der ausgewählte Suchtreffer unter{' '}
+                <code>{SELECTED_RECIPIENT_STORAGE_PREFIX}.&lt;typ&gt;.v1</code>{' '}
                 (localStorage). Die Daten verlassen dein Gerät nicht.
               </dd>
             </div>
             <div>
               <dt>Was nicht gespeichert wird</dt>
               <dd>
-                Die Postleitzahl der Empfängersuche wird nicht gespeichert. Bei Bundestags- und
-                Landtagsabgeordneten werden ausgewählte Suchtreffer nicht gespeichert; bei den
-                kommunalen Typen und beim Netzbetreiber liegen die vorbefüllten Empfängerdaten
-                nur unter dem jeweiligen Typ-Schlüssel. Es werden keine Daten an einen Server
-                übertragen.
+                Die Postleitzahl der Empfängersuche wird nicht gespeichert. Der zuletzt
+                ausgewählte Empfänger wird gemerkt, damit er beim Wechsel des Empfängertyps
+                direkt wieder erscheint; eine neue Auswahl ersetzt ihn. Es werden keine Daten
+                an einen Server übertragen.
               </dd>
             </div>
             <div>

@@ -31,6 +31,7 @@ import { recipientRole } from './lib/recipientRoles';
 import { senderContext } from './lib/sender';
 import {
   clearRecipientData,
+  clearSelectedRecipient,
   clearSender,
   emptyManualRecipient,
   emptySender,
@@ -40,9 +41,11 @@ import {
   isRecipientComplete,
   isSenderComplete,
   loadRecipientData,
+  loadSelectedRecipient,
   loadSender,
   prefilledSender,
   saveRecipientData,
+  saveSelectedRecipient,
   saveSender,
 } from './lib/storage';
 import { renderTemplate, splitTemplate } from './lib/template';
@@ -204,6 +207,15 @@ function manualFromNetzbetreiber(operator: Netzbetreiber): ManualRecipient {
   };
 }
 
+/**
+ * Lädt den gemerkten Suchtreffer eines Typs. Bei Typen mit vorbefülltem
+ * Formular (`prefillForm`) liefert er zusätzlich die Metadaten (z. B. Wahljahr,
+ * Netzgebiet), während das editierbare Formular die Empfängerdaten hält.
+ */
+function loadSelectionForType(recipientType: string): RecipientCandidate | null {
+  return loadSelectedRecipient(recipientType);
+}
+
 /** Papierkorb-Symbol für die Lösch-Aktion im Kartenkopf. */
 function TrashIcon() {
   return (
@@ -251,7 +263,9 @@ export default function App() {
   // PLZ-Vorbelegung: initial aus den Absenderdaten, danach frei überschreibbar.
   const [plz, setPlz] = useState(() => sender.plz);
   const [recipients, setRecipients] = useState<RecipientCandidate[]>([]);
-  const [selectedRecipient, setSelectedRecipient] = useState<RecipientCandidate | null>(null);
+  const [selectedRecipient, setSelectedRecipient] = useState<RecipientCandidate | null>(
+    () => loadSelectionForType(activeType),
+  );
   const [status, setStatus] = useState<SearchStatus>('idle');
   const [error, setError] = useState('');
   const [manual, setManual] = useState<ManualRecipient>(
@@ -295,6 +309,14 @@ export default function App() {
   const instruction =
     instructionMode && templateType ? campaign?.instructions[templateType] : undefined;
 
+  // Bei `landtag` kann statt eines Suchtreffers auch der manuelle Fallback
+  // gespeichert sein (Suche ohne Treffer). Er wird beim Zurückwechseln wie eine
+  // Auswahl behandelt und direkt wieder angezeigt.
+  const storedFallback =
+    emptyFallback && !selectedRecipient && isRecipientComplete(manual);
+  const manualFallbackReady =
+    emptyFallback && isRecipientComplete(manual) && (status === 'empty' || storedFallback);
+
   const recipient: Recipient | null = instructionMode
     ? null
     : prefillForm
@@ -302,23 +324,30 @@ export default function App() {
         ? manual
         : null
       : searchable
-        ? (selectedRecipient ??
-          (emptyFallback && status === 'empty' && isRecipientComplete(manual) ? manual : null))
+        ? (selectedRecipient ?? (manualFallbackReady ? manual : null))
         : isRecipientComplete(manual)
           ? manual
           : null;
   const showManualForm =
-    !instructionMode && (!searchable || prefillForm || (status === 'empty' && emptyFallback));
+    !instructionMode &&
+    (!searchable || prefillForm || (emptyFallback && (status === 'empty' || storedFallback)));
+  // Gemerkte Auswahl zusätzlich anzeigen, wenn sie nicht ohnehin in der
+  // aktuell sichtbaren Trefferliste steht (dort wird sie hervorgehoben).
+  const selectedId = selectedRecipient?.id ?? null;
+  const showSelectedRecipient =
+    !prefillForm &&
+    selectedId !== null &&
+    !(status === 'done' && recipients.some((item) => item.id === selectedId));
 
   async function handleSearch() {
     if (!isValidPlz(plz)) return;
     setStatus('loading');
     setError('');
-    setSelectedRecipient(null);
     try {
       const found = await lookupRecipients(activeType, plz);
       setRecipients(found);
-      // Auswahl immer manuell – auch bei genau einem Treffer.
+      // Auswahl immer manuell – auch bei genau einem Treffer. Eine frühere
+      // Auswahl bleibt bestehen, bis ein neuer Treffer gewählt wird.
       setStatus(found.length === 0 ? 'empty' : 'done');
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : 'Unbekannter Fehler.');
@@ -329,10 +358,17 @@ export default function App() {
   /** Auswahl eines Suchtreffers; bei M5/M6 wird das Formular vorbefüllt. */
   function handleSelectRecipient(candidate: RecipientCandidate) {
     setSelectedRecipient(candidate);
-    if (prefillForm && isKommune(candidate)) {
-      setManual(manualFromKommune(candidate));
-    } else if (prefillForm && isNetzbetreiber(candidate)) {
-      setManual(manualFromNetzbetreiber(candidate));
+    // Auswahl pro Typ merken, damit sie beim Zurückwechseln direkt erscheint.
+    saveSelectedRecipient(activeType, candidate);
+    if (prefillForm) {
+      if (isKommune(candidate)) {
+        setManual(manualFromKommune(candidate));
+      } else if (isNetzbetreiber(candidate)) {
+        setManual(manualFromNetzbetreiber(candidate));
+      }
+    } else if (emptyFallback) {
+      // Eine alte manuelle Fallback-Eingabe wird durch den Suchtreffer ersetzt.
+      setManual(emptyManualRecipient);
     }
   }
 
@@ -353,7 +389,7 @@ export default function App() {
 
   function resetRecipientState(type: string) {
     setRecipients([]);
-    setSelectedRecipient(null);
+    setSelectedRecipient(loadSelectionForType(type));
     setStatus('idle');
     setError('');
     setManual(loadRecipientData(type) ?? emptyManualRecipient);
@@ -366,6 +402,7 @@ export default function App() {
 
   function handleClearManual() {
     clearRecipientData(activeType);
+    clearSelectedRecipient(activeType);
     setManual(emptyManualRecipient);
     setSelectedRecipient(null);
   }
@@ -373,7 +410,10 @@ export default function App() {
   function handleClearAll() {
     handleClearSender();
     for (const item of campaigns) {
-      for (const type of item.recipients) clearRecipientData(type);
+      for (const type of item.recipients) {
+        clearRecipientData(type);
+        clearSelectedRecipient(type);
+      }
     }
     setManual(emptyManualRecipient);
     setSelectedRecipient(null);
@@ -590,6 +630,19 @@ export default function App() {
                   />
                   <p className="hint">Vorausgefüllt mit deiner PLZ – passe sie bei Bedarf an.</p>
 
+                  {showSelectedRecipient && selectedRecipient && (
+                    <>
+                      <h3 className="subheading">Aktuell ausgewählt</h3>
+                      <RecipientList
+                        recipients={[selectedRecipient]}
+                        recipientType={activeType}
+                        selectedId={selectedRecipient.id}
+                        onSelect={handleSelectRecipient}
+                      />
+                      <p className="hint">Du kannst oben mit einer anderen PLZ neu suchen.</p>
+                    </>
+                  )}
+
                   {status === 'empty' && (
                     <p className="hint">
                       {activeType === 'landtag'
@@ -648,6 +701,7 @@ export default function App() {
                     onClear={handleClearManual}
                     prefill={prefillForm}
                     fallback={status === 'empty' && (emptyFallback || prefillForm)}
+                    restored={emptyFallback && storedFallback}
                   />
                 </>
               )}
