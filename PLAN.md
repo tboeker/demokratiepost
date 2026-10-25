@@ -376,6 +376,10 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 - Laden beim Start, Speichern bei jeder Eingabe; „Absenderdaten löschen“ ist ein rotes
   Papierkorb-Symbol in der Kopfzeile der Absenderkarte (nur Icon mit Tooltip, bewusst
   unauffällig, damit es nicht versehentlich geklickt wird)
+- Startwerte: gespeicherte Daten, sonst leer. **Nur im Entwicklungsserver** (`npm run dev`)
+  ist das Formular mit erfundenen Demo-Daten vorbelegt (`prefilledSender` über
+  `initialSender()`, `import.meta.env.DEV`) – der Produktions-Build startet immer leer und
+  enthält die Demo-Daten auch nicht im Bundle.
 - Umsetzung: `src/lib/storage.ts` (lesen/schreiben/validieren) + `SenderForm`-Komponente
 - Der `TemplateContext` (`absender.*`) wird direkt aus diesen Werten gespeist.
 - Die Absender-PLZ **vorbelegt das Suchfeld** im Empfänger-Schritt (bei Typen mit Suche;

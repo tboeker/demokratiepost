@@ -38,12 +38,11 @@ import {
   hasRecipientData,
   hasSenderData,
   hasStoredRecipientData,
+  initialSender,
   isRecipientComplete,
   isSenderComplete,
   loadRecipientData,
   loadSelectedRecipient,
-  loadSender,
-  prefilledSender,
   saveRecipientData,
   saveSelectedRecipient,
   saveSender,
@@ -243,10 +242,7 @@ function TrashIcon() {
 export default function App() {
   const campaigns = useMemo(() => loadCampaigns(), []);
   const [selectedCampaignId, setSelectedCampaignId] = useState(campaigns[0]?.id ?? '');
-  const [sender, setSender] = useState<Sender>(() => {
-    const stored = loadSender();
-    return stored && hasSenderData(stored) ? stored : prefilledSender;
-  });
+  const [sender, setSender] = useState<Sender>(initialSender);
   const [recipientType, setRecipientType] = useState(() => campaigns[0]?.recipients[0] ?? '');
   const campaign = campaigns.find((item) => item.id === selectedCampaignId);
   // Aktiver Typ: aus der Kampagne abgeleitet, damit ein Wechsel der Kampagne

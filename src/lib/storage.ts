@@ -29,8 +29,8 @@ export const emptySender: Sender = {
 };
 
 /**
- * Vorbelegung, wenn noch keine Absenderdaten gespeichert sind.
- * Erleichtert Test und Demo – die Werte sind frei erfunden.
+ * Demo-Vorbelegung für den Entwicklungsserver. Erleichtert Test und Demo –
+ * die Werte sind frei erfunden. Ausgeliefert wird sie nie (siehe `initialSender`).
  */
 export const prefilledSender: Sender = {
   name: 'Max Mustermann',
@@ -69,6 +69,17 @@ export function loadSender(): Sender | null {
     // Defekte oder nicht lesbare Daten ignorieren.
     return null;
   }
+}
+
+/**
+ * Startwerte für das Absenderformular: gespeicherte Daten, sonst im
+ * Entwicklungsserver (`npm run dev`) die Demo-Vorbelegung. Im Produktions-Build
+ * bleibt das Formular leer, damit niemand erfundene Daten für seine eigenen hält.
+ */
+export function initialSender(): Sender {
+  const stored = loadSender();
+  if (stored && hasSenderData(stored)) return stored;
+  return import.meta.env.DEV ? { ...prefilledSender } : { ...emptySender };
 }
 
 /** Speichert die Absenderdaten im localStorage. */
