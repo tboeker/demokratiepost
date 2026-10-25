@@ -10,7 +10,7 @@ bereit zum Drucken oder Versenden.
 
 - 100 % clientseitig, **kein Backend, kein Tracking**.
 - Stack: Vite + React + TypeScript.
-- Hosting: GitHub Pages (`base: '/demokratiepost/'`).
+- Hosting: GitHub Pages unter eigener Domain `https://demokratiepost.de` (`base: '/'`).
 - Der vollständige Plan steht in [`PLAN.md`](./PLAN.md) – **das ist die Quelle der Wahrheit**
   für Architektur, Datenquellen und Meilensteine. Der Plan wird **ausschließlich in dieser
   lokalen Datei im Repo** gepflegt – auch geplante Änderungen (z. B. der Fünf-Schritte-
@@ -87,7 +87,7 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
 
 - **Sprache: Deutsch** – UI-Texte, Kommentare, Doku und Commit-Messages.
 - Keine externen Netzwerkzugriffe zur Laufzeit außer dem Laden der eigenen Daten aus
-  `public/data/` (URLs über `import.meta.env.BASE_URL` bauen, wegen GitHub-Pages-Basispfad).
+  `public/data/` (URLs über `import.meta.env.BASE_URL` bauen, wegen des Basispfads).
 - Absenderdaten nur lokal im Browser: `localStorage`-Key `demokratiepost.sender.v1`
   (versioniert, siehe `src/lib/storage.ts`).
 - Manuell erfasste Empfänger ebenfalls nur lokal, **ein Key pro Typ**:

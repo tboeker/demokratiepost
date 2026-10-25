@@ -415,14 +415,16 @@ demokratiepost/
 │   └── types.ts     (ManualRecipient, Mandatstraeger (MdB/Landtag), Kommune (M5),
 │                     Netzbetreiber (M6), Instruction (M7);
 │                     Recipient/RecipientCandidate-Union)
-├── vite.config.ts                    # base: '/demokratiepost/'
+├── vite.config.ts                    # base: '/' (eigene Domain demokratiepost.de)
 └── README.md
 ```
 
 ## GitHub-Pages-Besonderheiten
 
-- `vite.config.ts` braucht `base: '/demokratiepost/'` (Repo-Pfad), sonst laden
-  Assets/Daten nicht.
+- Eigene Domain `https://demokratiepost.de` → `vite.config.ts` mit `base: '/'`.
+  (Ohne eigene Domain wäre der Repo-Pfad `/demokratiepost/` nötig.)
+- `public/CNAME` enthält `demokratiepost.de` und landet so im Deploy-Artefakt;
+  ohne die Datei verliert der Actions-Deploy die Domain wieder.
 - Daten- und Asset-URLs relativ über `import.meta.env.BASE_URL` bauen.
 - Deploy: GitHub Actions (Build → `actions/upload-pages-artifact` → `actions/deploy-pages`).
 - Kein SPA-Fallback nötig, solange Single-Page ohne Deep-Links.
@@ -1160,7 +1162,8 @@ fields:
   (Die Entwürfe `templates/landtag.md` und `templates/netzbetreiber.md` werden vor
   Veröffentlichung mit Kail abgestimmt.)
 - **Bündel-Download**: Ein Brief pro MdB (Standard) oder „an alle im Wahlkreis" als Sammel-PDF?
-- **Domain**: `*.github.io/demokratiepost` oder später eigene Domain?
+- **Domain**: eigene Domain `https://demokratiepost.de` (GitHub Pages, `base: '/'`,
+  `public/CNAME`).
 - **PLZ→Wahlkreis-Pflege**: Die abgeleitete Zuordnung muss zu jeder neuen Wahlperiode
   aktualisiert werden (neuer Commit in `scripts/fetch-plz-wahlkreis.mjs`, dann
   `npm run data:plz`).

@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// GitHub Pages: Der base-Pfad muss dem Repo-Namen entsprechen.
-// Bei einer eigenen Domain (z. B. demokratiepost.de) auf '/' setzen.
+// GitHub Pages: Eigene Domain (https://demokratiepost.de) → base '/'.
+// Ohne eigene Domain müsste hier der Repo-Name stehen ('/demokratiepost/').
 export default defineConfig({
-  base: '/demokratiepost/',
+  base: '/',
   plugins: [react()],
 });

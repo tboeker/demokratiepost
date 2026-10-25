@@ -90,8 +90,9 @@ npm run preview # Build lokal testen
 > statt als JSON.
 
 Die Seite wird über GitHub Actions automatisch nach GitHub Pages deployt
-(`.github/workflows/deploy.yml`). Wichtig: In `vite.config.ts` muss `base` dem
-Repo-Namen entsprechen (`/demokratiepost/`).
+(`.github/workflows/deploy.yml`) und ist unter <https://demokratiepost.de> erreichbar.
+`vite.config.ts` setzt dafür `base: '/'`; `public/CNAME` hält die eigene Domain im
+Deploy-Artefakt.
 
 ### Dev-Container (VS Code)
 
