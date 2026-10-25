@@ -24,6 +24,7 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
             value={sender.name}
             onChange={(event) => update('name', event.target.value)}
             autoComplete="name"
+            data-bwignore="true"
           />
         </div>
 
@@ -62,6 +63,7 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
             value={sender.strasse}
             onChange={(event) => update('strasse', event.target.value)}
             autoComplete="street-address"
+            data-bwignore="true"
           />
         </div>
 
@@ -76,6 +78,7 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
             onChange={(event) => update('plz', event.target.value.replace(/\D/g, ''))}
             maxLength={5}
             autoComplete="postal-code"
+            data-bwignore="true"
           />
         </div>
 
@@ -89,6 +92,7 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
             value={sender.ort}
             onChange={(event) => update('ort', event.target.value)}
             autoComplete="address-level2"
+            data-bwignore="true"
           />
         </div>
 
@@ -103,6 +107,7 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
             value={sender.email ?? ''}
             onChange={(event) => update('email', event.target.value)}
             autoComplete="email"
+            data-bwignore="true"
           />
         </div>
 
@@ -116,6 +121,7 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
             value={sender.telefon ?? ''}
             onChange={(event) => update('telefon', event.target.value)}
             autoComplete="tel"
+            data-bwignore="true"
           />
         </div>
       </div>

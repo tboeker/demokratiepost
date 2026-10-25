@@ -59,6 +59,7 @@ export function ManualRecipientForm({
             value={recipient.name}
             onChange={(event) => update('name', event.target.value)}
             placeholder="z. B. Anna Berger"
+            data-bwignore="true"
           />
         </div>
 
@@ -72,6 +73,7 @@ export function ManualRecipientForm({
             value={recipient.anrede}
             onChange={(event) => update('anrede', event.target.value)}
             placeholder="z. B. Sehr geehrte Frau Berger"
+            data-bwignore="true"
           />
         </div>
 
@@ -85,6 +87,7 @@ export function ManualRecipientForm({
             value={recipient.organisation}
             onChange={(event) => update('organisation', event.target.value)}
             placeholder="z. B. Landratsamt Musterkreis oder Netzbetreiber GmbH"
+            data-bwignore="true"
           />
         </div>
 
@@ -98,6 +101,7 @@ export function ManualRecipientForm({
             value={recipient.amt ?? ''}
             onChange={(event) => update('amt', event.target.value)}
             placeholder="z. B. Bürgermeisterin"
+            data-bwignore="true"
           />
         </div>
 
@@ -111,6 +115,7 @@ export function ManualRecipientForm({
             value={recipient.strasse}
             onChange={(event) => update('strasse', event.target.value)}
             placeholder="z. B. Bahnhofstraße 1"
+            data-bwignore="true"
           />
         </div>
 
@@ -127,6 +132,7 @@ export function ManualRecipientForm({
             value={recipient.plz}
             onChange={(event) => update('plz', event.target.value.replace(/\D/g, ''))}
             placeholder="z. B. 10115"
+            data-bwignore="true"
           />
         </div>
 
@@ -140,6 +146,7 @@ export function ManualRecipientForm({
             value={recipient.ort}
             onChange={(event) => update('ort', event.target.value)}
             placeholder="z. B. Musterstadt"
+            data-bwignore="true"
           />
         </div>
 
@@ -154,6 +161,7 @@ export function ManualRecipientForm({
             value={recipient.email}
             onChange={(event) => update('email', event.target.value)}
             placeholder="z. B. poststelle@landkreis-musterkreis.de"
+            data-bwignore="true"
           />
         </div>
       </div>

@@ -59,6 +59,8 @@ export function CopyFields({ title, hint, fields, idPrefix = 'copy' }: CopyField
                     value={field.value}
                     readOnly
                     rows={10}
+                    autoComplete="off"
+                    data-bwignore="true"
                   />
                 ) : (
                   <input
@@ -66,6 +68,8 @@ export function CopyFields({ title, hint, fields, idPrefix = 'copy' }: CopyField
                     className="input copy-field-value"
                     value={field.value}
                     readOnly
+                    autoComplete="off"
+                    data-bwignore="true"
                   />
                 )}
                 <button

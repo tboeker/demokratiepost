@@ -29,6 +29,7 @@ export function PlzInput({ value, onChange, onSubmit, loading }: PlzInputProps) 
           maxLength={5}
           value={value}
           onChange={(event) => onChange(event.target.value.replace(/\D/g, ''))}
+          data-bwignore="true"
         />
         <button className="button" type="submit" disabled={loading || value.length !== 5}>
           {loading ? 'Suche …' : 'Empfänger suchen'}
