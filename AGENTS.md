@@ -210,7 +210,7 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
 
 ## Git
 
-- Identität dieses Repos: `tboeker <tboeker@users.noreply.github.com>`.
+- Identität dieses Repos: `tboeker <demokratiepost@proton.me>`.
 - **`git push` ist im Dev-Container standardmäßig gesperrt** (`.devcontainer/gitconfig-sandbox` +
   `pre-push`-Hook, `opencode.json` verbietet dem Agenten den Befehl). Committen im
   Container ist okay, Publish macht der Nutzer auf dem Host. Freischalten per Flag
