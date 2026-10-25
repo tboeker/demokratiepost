@@ -63,6 +63,7 @@ Sandboxing-Optionen: `.devcontainer/README.md`.
 
 ```
 campaigns/                 Content: campaign.yaml + templates/<typ>.md
+                           + instructions/<typ>.md (Anleitungstypen, M7)
 scripts/                   Datenpipeline (Build-Zeit)
 public/data/               Laufzeit-Daten: mdb.json, plz/<prefix>.json,
                            landtag/<staat>.json + plz-landtag/<prefix>.json,
@@ -71,13 +72,14 @@ public/data/               Laufzeit-Daten: mdb.json, plz/<prefix>.json,
                            netzbetreiber/netzbetreiber.json + meta.json +
                            plz-netzbetreiber/<prefix>.json (alle lazy geladen)
 src/App.tsx                Ablauf: Kampagne → Absender → Empfängertyp →
-                           Empfänger (Suche mit PLZ-Vorbelegung / manuell) → Vorschau
+                           Empfänger (Suche mit PLZ-Vorbelegung / manuell / Anleitung) → Vorschau
 src/components/            PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
-                           ManualRecipientForm, LetterPreview
+                           ManualRecipientForm, LetterPreview, CopyFields,
+                           ContactFormFields, InstructionCard
 src/lib/                   campaigns, template, storage, lookup, recipientTypes,
-                           recipientRoles, sender, export
+                           recipientRoles, sender, export, markdown
 src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
-                           Netzbetreiber (M6), ManualRecipient,
+                           Netzbetreiber (M6), Instruction (M7), ManualRecipient,
                            Recipient/RecipientCandidate, Wahlkreis, Campaign, Sender
 ```
 
@@ -93,6 +95,12 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
   Ausnahmen sind `landtag` (bei leerer Suche: `emptyFallback`) und die kommunalen Typen
   `landrat`/`buergermeister` sowie `netzbetreiber` (immer sichtbares, beim Treffer vorbefülltes
   Formular: `prefillForm`). Registry: `src/lib/recipientTypes.ts`.
+- **Anleitungstypen** (`instruction: true`, z. B. `ep-petition`, M7): kein Lookup, kein
+  Adressformular, kein Druck/PDF. Die Anleitung liegt in
+  `campaigns/<id>/instructions/<typ>.md` (Markdown + YAML-Frontmatter mit `url`,
+  `linkLabel`, `fields`), der Text für das Webformular in `templates/<typ>.md`.
+  Feldwerte dürfen Platzhalter enthalten (`{{ absender.* }}`, `{{ betreff }}`,
+  `{{ nachricht }}` = gerenderter Template-Text); der Markdown-Text bleibt statisch.
 - Template-Platzhalter in Punktnotation: `{{ absender.name }}`, für die Selbstbezeichnung
   `{{ absender.buerger }}` („Bürgerin“/„Bürger“/„Bürger:in“, ohne Angabe
   „Bürgerin/Bürger“), `{{ empfaenger.wahlkreis }}`, für die geschlechtsbezogene

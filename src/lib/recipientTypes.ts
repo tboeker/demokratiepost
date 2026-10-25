@@ -38,6 +38,12 @@ export interface RecipientTypeDef {
    * gespeichert; das Formular ist die Quelle für den Brief.
    */
   prefillForm?: boolean;
+  /**
+   * Reiner Anleitungstyp (M7): Der Empfänger ist nur über ein Webformular
+   * erreichbar. Statt Suche und Adressformular zeigt die App die Anleitung aus
+   * `campaigns/<id>/instructions/<typ>.md` samt Kopierfeldern.
+   */
+  instruction?: boolean;
 }
 
 const BUERGERMEISTER: RecipientTypeDef = {
@@ -76,6 +82,11 @@ const RECIPIENT_TYPES: Record<string, RecipientTypeDef> = {
     lookup: findNetzbetreiberByPlz,
     prefillForm: true,
   },
+  'ep-petition': {
+    id: 'ep-petition',
+    label: 'Europäisches Parlament – Petition',
+    instruction: true,
+  },
 };
 
 /** Liefert die Definition eines Typs; unbekannte Typen haben keinen Lookup. */
@@ -105,6 +116,11 @@ export function hasEmptyFallback(recipientType: string | undefined): boolean {
 /** true, wenn das manuelle Formular immer sichtbar und vorbefüllt ist (M5). */
 export function hasPrefillForm(recipientType: string | undefined): boolean {
   return Boolean(recipientTypeDef(recipientType).prefillForm);
+}
+
+/** true, wenn der Typ nur über ein Webformular erreichbar ist (Anleitung, M7). */
+export function hasInstruction(recipientType: string | undefined): boolean {
+  return Boolean(recipientTypeDef(recipientType).instruction);
 }
 
 /** Sucht die zuständigen Empfänger eines durchsuchbaren Typs per PLZ. */

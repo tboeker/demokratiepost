@@ -335,6 +335,12 @@ body {
   margin-bottom: 0.3rem;
 }
 
+.copy-field-note {
+  margin: 0 0 0.35rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .copy-field-row {
   display: flex;
   align-items: flex-start;
@@ -442,7 +448,8 @@ body {
   margin: 0.8rem 0;
 }
 
-.doc-content ul {
+.doc-content ul,
+.doc-content ol {
   margin: 0.8rem 0 0.8rem 1.2rem;
   padding: 0;
 }
@@ -453,6 +460,22 @@ body {
 
 .doc-content a {
   color: var(--accent);
+}
+
+.instruction .subheading {
+  margin-bottom: 0.5rem;
+}
+
+.instruction-body {
+  margin-top: 0.25rem;
+}
+
+.instruction-actions {
+  margin: 1rem 0 0.5rem;
+}
+
+.instruction-actions .button {
+  text-decoration: none;
 }
 
 @media (max-width: 560px) {

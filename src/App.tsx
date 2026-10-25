@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { DatenspeicherungView } from './components/DatenspeicherungView';
 import { DocView } from './components/DocView';
+import { InstructionCard, InstructionFields } from './components/InstructionCard';
 import { LetterPreview } from './components/LetterPreview';
 import { ManualRecipientForm } from './components/ManualRecipientForm';
 import { PlzInput } from './components/PlzInput';
@@ -17,6 +18,7 @@ import {
 } from './lib/lookup';
 import {
   hasEmptyFallback,
+  hasInstruction,
   hasPrefillForm,
   isKommune,
   isMandat,
@@ -220,6 +222,7 @@ export default function App() {
   const searchable = isSearchable(activeType);
   const emptyFallback = hasEmptyFallback(activeType);
   const prefillForm = hasPrefillForm(activeType);
+  const instructionMode = hasInstruction(activeType);
 
   // PLZ-Vorbelegung: initial aus den Absenderdaten, danach frei überschreibbar.
   const [plz, setPlz] = useState(() => sender.plz);
@@ -250,31 +253,38 @@ export default function App() {
   }, [sender]);
 
   // Manuell erfasste Empfänger pro Typ speichern (Typen ohne Suche, den
-  // landtag-Fallback und das vorbefüllte M5-Formular).
+  // landtag-Fallback und das vorbefüllte M5-Formular). Anleitungstypen (M7)
+  // haben keine Empfängerdaten.
   useEffect(() => {
+    if (instructionMode) return;
     if (searchable && !emptyFallback && !prefillForm) return;
     if (hasRecipientData(manual)) {
       saveRecipientData(activeType, manual);
     } else {
       clearRecipientData(activeType);
     }
-  }, [manual, activeType, searchable, emptyFallback, prefillForm]);
+  }, [manual, activeType, searchable, emptyFallback, prefillForm, instructionMode]);
 
   // `ob` ist ein Alias auf `buergermeister`; ein eigenes Template ist nicht nötig.
   const templateType = activeType === 'ob' ? 'buergermeister' : activeType;
   const template = campaign && templateType ? campaign.templates[templateType] : undefined;
+  const instruction =
+    instructionMode && templateType ? campaign?.instructions[templateType] : undefined;
 
-  const recipient: Recipient | null = prefillForm
-    ? isRecipientComplete(manual)
-      ? manual
-      : null
-    : searchable
-      ? (selectedRecipient ??
-        (emptyFallback && status === 'empty' && isRecipientComplete(manual) ? manual : null))
-      : isRecipientComplete(manual)
+  const recipient: Recipient | null = instructionMode
+    ? null
+    : prefillForm
+      ? isRecipientComplete(manual)
         ? manual
-        : null;
-  const showManualForm = !searchable || prefillForm || (status === 'empty' && emptyFallback);
+        : null
+      : searchable
+        ? (selectedRecipient ??
+          (emptyFallback && status === 'empty' && isRecipientComplete(manual) ? manual : null))
+        : isRecipientComplete(manual)
+          ? manual
+          : null;
+  const showManualForm =
+    !instructionMode && (!searchable || prefillForm || (status === 'empty' && emptyFallback));
 
   async function handleSearch() {
     if (!isValidPlz(plz)) return;
@@ -371,6 +381,13 @@ export default function App() {
   const templateParts = template ? splitTemplate(template) : { letter: '', contact: '' };
   const letterBody = renderTemplate(templateParts.letter, letterContext);
   const contactBody = renderTemplate(templateParts.contact, letterContext);
+  // Anleitungstypen (M7): Der Nachrichtenteil des Templates ist der Text für
+  // das Webformular – ohne Briefkopf; vorhandene Kontaktformular-Marker werden
+  // dabei berücksichtigt.
+  const instructionMessage = template
+    ? renderTemplate(templateParts.contact, letterContext)
+    : '';
+  const instructionContext: TemplateContext = { ...letterContext, nachricht: instructionMessage };
 
   const recipientEmail = recipient ? recipient.email || undefined : undefined;
   const contactFormUrl = recipient && isMandat(recipient) ? recipient.contactFormUrl : undefined;
@@ -418,7 +435,7 @@ export default function App() {
     <div className="page">
       <header className="header">
         <h1>Demokratiepost</h1>
-        <p className="subtitle">In fünf Schritten zum versandfertigen Brief</p>
+        <p className="subtitle">In fünf Schritten zum versandfertigen Schreiben</p>
         <p className="hint">Hinweis: Der Quellcode dieser App wurde mit AI Tools erstellt.</p>
         <button type="button" className="footer-link" onClick={() => goToDoc('idee')}>
           Beschreibung der Idee
@@ -464,12 +481,15 @@ export default function App() {
                 onChange={handleTypeChange}
               />
               <p className="hint">
-                {prefillForm
-                  ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht; ' +
-                    'die Angaben werden in ein vorbefülltes, editierbares Formular übernommen.'
-                  : searchable
-                    ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht.'
-                    : 'Für diesen Typ gibt es noch keine Suche – trage den Empfänger im nächsten Schritt manuell ein.'}
+                {instructionMode
+                  ? 'Für diesen Empfänger gibt es nur ein Webformular – Schritt 4 zeigt die ' +
+                    'Anleitung, Schritt 5 die Angaben zum Einfügen.'
+                  : prefillForm
+                    ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht; ' +
+                      'die Angaben werden in ein vorbefülltes, editierbares Formular übernommen.'
+                    : searchable
+                      ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht.'
+                      : 'Für diesen Typ gibt es noch keine Suche – trage den Empfänger im nächsten Schritt manuell ein.'}
               </p>
             </>
           ) : (
@@ -478,77 +498,115 @@ export default function App() {
         </section>
 
         <section className="card">
-          <h2>4. {searchable ? 'Empfänger suchen' : 'Empfänger erfassen'}</h2>
-          {searchable && (
-            <>
-              <PlzInput
-                value={plz}
-                onChange={setPlz}
-                onSubmit={handleSearch}
-                loading={status === 'loading'}
-              />
-              <p className="hint">Vorausgefüllt mit deiner PLZ – passe sie bei Bedarf an.</p>
+          <h2>
+            4.{' '}
+            {instructionMode
+              ? 'Anleitung zur Einreichung'
+              : searchable
+                ? 'Empfänger suchen'
+                : 'Empfänger erfassen'}
+          </h2>
 
-              {status === 'empty' && (
-                <p className="hint">
-                  {activeType === 'landtag'
-                    ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
-                      'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
-                      'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
-                    : activeType === 'netzbetreiber'
-                      ? `Für die PLZ ${plz} wurde kein zuständiger Netzbetreiber gefunden. ` +
-                        'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
-                      : prefillForm
-                        ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
-                          'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
-                        : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
-                          'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
-                          '(Zweitstimmendeckung oder vakantes Mandat).'}
-                </p>
-              )}
-              {status === 'error' && <p className="error">{error}</p>}
-              {status === 'done' && (
+          {instructionMode ? (
+            instruction ? (
+              <InstructionCard
+                instruction={instruction}
+                fallbackTitle={recipientTypeLabel(activeType)}
+              />
+            ) : (
+              <p className="hint">
+                Für den Empfängertyp „{recipientTypeLabel(activeType)}“ ist in dieser Kampagne
+                noch keine Anleitung hinterlegt.
+              </p>
+            )
+          ) : (
+            <>
+              {searchable && (
                 <>
-                  <p className="hint">
-                    {recipients.length} Empfänger gefunden – bitte auswählen:
-                  </p>
-                  <RecipientList
-                    recipients={recipients}
-                    recipientType={activeType}
-                    selectedId={selectedRecipient?.id ?? null}
-                    onSelect={handleSelectRecipient}
+                  <PlzInput
+                    value={plz}
+                    onChange={setPlz}
+                    onSubmit={handleSearch}
+                    loading={status === 'loading'}
                   />
-                  {prefillForm && (
+                  <p className="hint">Vorausgefüllt mit deiner PLZ – passe sie bei Bedarf an.</p>
+
+                  {status === 'empty' && (
                     <p className="hint">
-                      {activeType === 'netzbetreiber'
-                        ? 'Die Zuordnung stammt aus dem Marktstammdatenregister (In-Betrieb-PV-Anlagen) ' +
-                          'und ist keine amtliche Netzgebietsgrenze – bitte prüfe die Angaben im Formular.'
-                        : 'Die Namen der Amtsinhaber:innen stammen aus Forschungsdaten und sind nicht ' +
-                          'amtlich – bitte prüfe die Angaben im Formular.'}
+                      {activeType === 'landtag'
+                        ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
+                          'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
+                          'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
+                        : activeType === 'netzbetreiber'
+                          ? `Für die PLZ ${plz} wurde kein zuständiger Netzbetreiber gefunden. ` +
+                            'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
+                          : prefillForm
+                            ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
+                              'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
+                            : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
+                              'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
+                              '(Zweitstimmendeckung oder vakantes Mandat).'}
                     </p>
                   )}
+                  {status === 'error' && <p className="error">{error}</p>}
+                  {status === 'done' && (
+                    <>
+                      <p className="hint">
+                        {recipients.length} Empfänger gefunden – bitte auswählen:
+                      </p>
+                      <RecipientList
+                        recipients={recipients}
+                        recipientType={activeType}
+                        selectedId={selectedRecipient?.id ?? null}
+                        onSelect={handleSelectRecipient}
+                      />
+                      {prefillForm && (
+                        <p className="hint">
+                          {activeType === 'netzbetreiber'
+                            ? 'Die Zuordnung stammt aus dem Marktstammdatenregister (In-Betrieb-PV-Anlagen) ' +
+                              'und ist keine amtliche Netzgebietsgrenze – bitte prüfe die Angaben im Formular.'
+                            : 'Die Namen der Amtsinhaber:innen stammen aus Forschungsdaten und sind nicht ' +
+                              'amtlich – bitte prüfe die Angaben im Formular.'}
+                        </p>
+                      )}
+                    </>
+                  )}
+                </>
+              )}
+
+              {showManualForm && (
+                <>
+                  {searchable && <hr className="divider" />}
+                  <h3 className="subheading">
+                    {prefillForm
+                      ? 'Empfängerangaben prüfen / ergänzen'
+                      : 'Empfänger manuell erfassen'}
+                  </h3>
+                  <ManualRecipientForm
+                    recipientTypeLabel={recipientTypeLabel(activeType)}
+                    recipient={manual}
+                    onChange={setManual}
+                    onClear={handleClearManual}
+                    prefill={prefillForm}
+                    fallback={status === 'empty' && (emptyFallback || prefillForm)}
+                  />
                 </>
               )}
             </>
           )}
-
-          {showManualForm && (
-            <>
-              {searchable && <hr className="divider" />}
-              <h3 className="subheading">
-                {prefillForm ? 'Empfängerangaben prüfen / ergänzen' : 'Empfänger manuell erfassen'}
-              </h3>
-              <ManualRecipientForm
-                recipientTypeLabel={recipientTypeLabel(activeType)}
-                recipient={manual}
-                onChange={setManual}
-                onClear={handleClearManual}
-                prefill={prefillForm}
-                fallback={status === 'empty' && (emptyFallback || prefillForm)}
-              />
-            </>
-          )}
         </section>
+
+        {template && instruction && (
+          <section className="card">
+            <h2>5. Angaben zum Einfügen</h2>
+            {!isSenderComplete(sender) && (
+              <p className="hint">
+                Tipp: Fülle oben deine Absenderdaten aus, damit die Felder vollständig sind.
+              </p>
+            )}
+            <InstructionFields instruction={instruction} context={instructionContext} />
+          </section>
+        )}
 
         {template && recipient && (
           <section className="card letter-card">
@@ -574,10 +632,13 @@ export default function App() {
 
         {campaign && activeType && !template && (
           <section className="card">
-            <h2>5. Briefvorschau</h2>
+            <h2>5. {instructionMode ? 'Angaben zum Einfügen' : 'Briefvorschau'}</h2>
             <p className="hint">
-              Für den Empfängertyp „{recipientTypeLabel(activeType)}“ gibt es in dieser Kampagne
-              noch kein Musterschreiben.
+              {instructionMode
+                ? `Für den Empfängertyp „${recipientTypeLabel(activeType)}“ gibt es in dieser ` +
+                  'Kampagne noch keinen Text für das Webformular.'
+                : `Für den Empfängertyp „${recipientTypeLabel(activeType)}“ gibt es in dieser ` +
+                  'Kampagne noch kein Musterschreiben.'}
             </p>
           </section>
         )}

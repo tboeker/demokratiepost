@@ -14,12 +14,43 @@ export interface CampaignMeta {
   recipients: string[];
 }
 
+/** Ein Feld eines externen Webformulars, das von Hand befüllt wird (M7). */
+export interface InstructionField {
+  /** Feldbezeichnung im externen Formular, z. B. „Petitionstext“. */
+  label: string;
+  /** Vorbelegter Wert; Platzhalter wie `{{ absender.name }}` werden ersetzt. */
+  value: string;
+  /** Mehrzeiliges Feld (Textarea). */
+  multiline?: boolean;
+  /** Zusatzhinweis unter dem Feld, z. B. „Im Portal aus der Liste wählen“. */
+  note?: string;
+}
+
+/**
+ * Anleitung für Empfänger, die nur ein Webformular anbieten (M7). Die Inhalte
+ * liegen in `campaigns/<id>/instructions/<typ>.md` (Markdown + Frontmatter).
+ */
+export interface Instruction {
+  /** Überschrift der Anleitung; ohne Angabe wird das Typ-Label verwendet. */
+  title?: string;
+  /** Link zum externen Formular. */
+  url?: string;
+  /** Beschriftung des Link-Buttons. */
+  linkLabel?: string;
+  /** Felder des externen Formulars mit vorbelegten Werten. */
+  fields: InstructionField[];
+  /** Markdown-Anleitung (Schritte und Hinweise). */
+  body: string;
+}
+
 /** Eine vollständig geladene Kampagne inkl. ihrer Template-Texte. */
 export interface Campaign extends CampaignMeta {
   /** Ordnername der Kampagne (für Debug/Anzeige). */
   dir: string;
   /** Empfängertyp -> Markdown-Template. */
   templates: Record<string, string>;
+  /** Empfängertyp -> Anleitung für Empfänger mit reinem Webformular (M7). */
+  instructions: Record<string, Instruction>;
 }
 
 /** Daten, mit denen Platzhalter in einem Template gefüllt werden. */

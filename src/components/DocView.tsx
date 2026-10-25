@@ -1,43 +1,11 @@
 import type { DocKey } from '../lib/docs';
 import { getDoc } from '../lib/docs';
+import { markdownToHtml } from '../lib/markdown';
 import { renderTemplate } from '../lib/template';
 
 interface DocViewProps {
   doc: DocKey;
   onBack: () => void;
-}
-
-function markdownToHtml(markdown: string): string {
-  const html = markdown
-    // Headings
-    .replace(/^# (.+)$/gm, '<h1>$1</h1>')
-    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
-    // Lists
-    .replace(/^- (.+)$/gm, '<li>$1</li>')
-    // Links
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-    // Bold
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    // Paragraphs - wrap non-empty lines not starting with tags
-    .split('\n\n')
-    .map((block) => {
-      const trimmed = block.trim();
-      if (!trimmed) return '';
-      if (trimmed.startsWith('<h') || trimmed.startsWith('<li') || trimmed.startsWith('<ul')) {
-        // Handle lists
-        if (trimmed.startsWith('<li')) {
-          return '<ul>' + trimmed + '</ul>';
-        }
-        return trimmed;
-      }
-      // Convert single newlines to <br> in paragraphs
-      const withBreaks = trimmed.replace(/\n/g, '<br>');
-      return `<p>${withBreaks}</p>`;
-    })
-    .filter(Boolean)
-    .join('\n');
-  return html;
 }
 
 export function DocView({ doc, onBack }: DocViewProps) {

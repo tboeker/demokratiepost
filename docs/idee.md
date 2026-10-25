@@ -36,7 +36,10 @@ Das Ziel: **möglichst große Reichweite durch eine möglichst kleine Hürde.**
 2. **Kampagne auswählen** – das Thema, zu dem du schreiben möchtest.
 3. **Empfänger anzeigen** – die zuständigen Akteure für deine PLZ werden aufgelistet.
 4. **Schreiben prüfen** – die Vorlage wird automatisch mit Absender- und Empfängerdaten gefüllt.
-5. **Versenden** – als PDF-Brief zum Ausdrucken, über das Kontaktformular oder als kopierbaren Text.
+5. **Versenden** – als PDF-Brief zum Ausdrucken, über das Kontaktformular oder als
+   kopierbaren Text. Bei Empfängern mit reinem Webformular (z. B. dem Petitionsportal
+   des Europäischen Parlaments) zeigt die App stattdessen eine Anleitung und die
+   auszufüllenden Angaben.
 
 ## Was die Seite leistet
 
@@ -48,7 +51,7 @@ Das Ziel: **möglichst große Reichweite durch eine möglichst kleine Hürde.**
 
 ## Projektverlauf
 
-Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M6 sind umgesetzt.
+Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M7 sind umgesetzt.
 
 - **M1 – Gerüst:** Vite + React + TypeScript, GitHub-Pages-Deploy, Kampagnen-Loader,
   Platzhalter-Engine.
@@ -63,6 +66,9 @@ Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M6 sind umgesetzt.
   Formular.
 - **M6 – Netzbetreiber Strom:** Zuordnung aus MaStR-PV-Anlagen; 8.527 von 8.585 PLZ
   (99,3 %); Anteil und Quelle sichtbar; kein Grundversorger.
+- **M7 – Anleitungs-Empfänger:** Empfänger mit reinem Webformular (z. B. Petition beim
+  Europäischen Parlament) erhalten eine gepflegte Anleitung und Kopierfelder statt
+  Adresse und Brief; kein Druck/PDF.
 
 **Offen (G7):** Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH; weitere
 Landtags-Kontakte nach dem NRW-Muster. Stadtwerke bleiben manuell.

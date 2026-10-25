@@ -14,15 +14,16 @@ bei Typen ohne Suche – manuell erfasst. Das zum Typ passende Musterschreiben (
 Empfänger bereits eingesetzt) wird versandfertig aufbereitet. Ziel: maximale Reichweite durch
 minimale Hürde.
 
-Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, Bürgermeister, Stadtwerke, Netzbetreiber.
+Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, Bürgermeister, Stadtwerke, Netzbetreiber, Europäisches Parlament (Petition).
 
 ## Entscheidungen (fix)
 
 | Thema | Entscheidung |
 |---|---|
 | Versandkanal | PDF-Brief (Druck) **und** Kontaktformular/mailto (E-Mail nur, wo vorhanden) |
+| Reine Webformular-Empfänger | M7: Anleitung + Kopierfelder statt Adresse/Brief; Content je Typ in `campaigns/<id>/instructions/<typ>.md`; kein Druck/PDF. |
 | MVP-Empfänger | Bundestagsabgeordnete |
-| Letzter Empfängertyp | Netzbetreiber (Strom) (M6, umgesetzt – siehe *M6 im Detail — Netzbetreiber*) |
+| Letzter Empfängertyp | Europäisches Parlament – Petition (M7, umgesetzt – siehe *M7 im Detail — Anleitungs-Empfänger*) |
 | Nächster Meilenstein | G7: Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH; weitere Landtags-Kontakte |
 | Grundversorger | **nicht** Teil von M6: Die BNetzA führt keine bundesweite Grundversorger-Liste; der Grundversorger wird nach § 36 EnWG vom jeweiligen Netzbetreiber festgestellt und veröffentlicht. |
 | Architektur | Statische Seite, 100 % clientseitig, kein Backend/Tracking |
@@ -34,7 +35,8 @@ Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, 
 
 ```
 Browser (statische Seite) – Fünf-Schritte-Ablauf (siehe *User-Workflow*)
-├── 1. Kampagne: campaigns/*/campaign.yaml (recipients + templates/<typ>.md)
+├── 1. Kampagne: campaigns/*/campaign.yaml (recipients + templates/<typ>.md
+│      + instructions/<typ>.md für Webformular-Typen, M7)
 ├── 2. Absenderdaten: Eingabe + localStorage (demokratiepost.sender.v1)
 ├── 3. Empfängertyp: Auswahl aus campaign.recipients → bestimmt das Template
 ├── 4. Empfänger: Suche (mdb, landtag, landrat, buergermeister, netzbetreiber) mit PLZ-Vorbelegung
@@ -47,10 +49,14 @@ Browser (statische Seite) – Fünf-Schritte-Ablauf (siehe *User-Workflow*)
 │      bzw. manuelles Formular (Typen ohne Suche; bei `landtag` als Fallback,
 │      bei `landrat`/`buergermeister`/`netzbetreiber` als vorbefüllte Vorlage),
 │      Speicherung pro Typ: demokratiepost.empfaenger.<typ>.v1
+│      bzw. Anleitung + Kopierfelder für Typen mit reinem Webformular (M7, ohne Adresse)
 ├── 5. Rendering: Markdown-Template + Platzhalter → HTML (Vorschau)
 ├── Ausgabe A: DIN-5008-Briefansicht → window.print() → "Als PDF speichern"
 └── Ausgabe B: Kontaktformular-Link (bzw. mailto) + "Nachricht kopieren"
 ```
+
+Für Anleitungstypen (M7) entfallen Ausgabe A und B: Schritt 4 zeigt die Anleitung samt
+Link zum externen Webformular, Schritt 5 die Formularfelder mit Kopier-Button.
 
 - Kein Backend, kein Tracking. PLZ und Absenderdaten bleiben im Browser
   (`localStorage` für Komfort). Gleichzeitig das Datenschutz-Argument.
@@ -82,7 +88,7 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
    (`templates/<typ>.md`) für Schritt 5.
 4. **Empfänger suchen bzw. manuell erfassen** – typabhängig über eine Registry
    (`src/lib/recipientTypes.ts`: Label, `searchable`, Lookup-Funktion, `emptyFallback`,
-   `prefillForm`):
+   `prefillForm`, `instruction`):
    - **Typ mit Suche** (`mdb`, `landtag`, `landrat`, `buergermeister`, `netzbetreiber`):
      PLZ-Feld **mit `absender.plz` vorbelegt** (nur initiale Vorbelegung, der Nutzer kann
      überschreiben).
@@ -120,16 +126,23 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
      Netzbetreiber-Zuordnung ist aus dem MaStR abgeleitet. Damit werden auch durchsuchbare
      Typen gespeichert – bewusste Erweiterung der Regel, dass durchsuchbare Typen nicht
      gespeichert werden.
+   - **Typ mit Anleitung** (`ep-petition`, M7): Der Empfänger ist nur über ein Webformular
+     erreichbar. Statt Suche und Adressformular zeigt Schritt 4 die Anleitung aus
+     `campaigns/<id>/instructions/<typ>.md` (Markdown mit YAML-Frontmatter) samt Link;
+     Schritt 5 zeigt die dort definierten Formularfelder mit eigenem Kopier-Button. Kein
+     Druck/PDF, kein `mailto`; es werden keine Empfängerdaten gespeichert.
    - `empfaenger.*` wird aus dem gewählten Suchtreffer oder den manuellen Daten gespeist;
      Organisation → `empfaenger.organisation`; Partei/Wahlkreis/Bundesland nur bei
      Suchtreffern gesetzt; `empfaenger.amt` (z. B. „Bürgermeisterin“) nur bei kommunalen
      Treffern (M5). Bei `netzbetreiber` ist `organisation` der Firmenname; `name` und `amt`
      bleiben leer, die Anrede ist „Sehr geehrte Damen und Herren“.
 5. **Vorschau** – `renderTemplate()` füllt die Platzhalter dynamisch; Brief, Druck/PDF,
-   Kontaktformular/mailto und „Nachricht kopieren" wie bisher.
+   Kontaktformular/mailto und „Nachricht kopieren" wie bisher. Bei Anleitungstypen (M7)
+   entfällt der Brief: Schritt 5 zeigt „Angaben zum Einfügen“ (Felder und Nachricht).
 
 **Fehlerfall:** Ist ein Typ in `recipients` gelistet, aber es existiert kein
-`templates/<typ>.md`, zeigt die App einen Hinweis statt einer Vorschau.
+`templates/<typ>.md` (bzw. bei Anleitungstypen keine `instructions/<typ>.md`), zeigt die
+App einen Hinweis statt einer Vorschau.
 
 ## Datenpipeline (kritischer Teil)
 
@@ -291,12 +304,22 @@ campaigns/
       landrat.md         # Gemeinde-Ebene: Kreisverwaltung (Typ "landrat", M5)
       buergermeister.md  # Gemeinde-Ebene: Rathaus/Gemeindeverwaltung (Typ "buergermeister", M5)
       netzbetreiber.md   # Verteilnetzbetreiber Strom (Typ "netzbetreiber", M6)
+      ep-petition.md     # Petitionstext für das EP-Petitionsportal (Typ "ep-petition", M7)
+    instructions/
+      ep-petition.md     # Anleitung + Formularfelder (Webformular-Typ, M7)
 ```
 
 **Pro Empfängertyp aus `recipients` gibt es genau ein Template** `templates/<typ>.md`;
 die Typ-Auswahl im Workflow (Schritt 3) bestimmt, welches Template gerendert wird.
 Der Betreff (`{{ betreff }}`) bleibt kampagnenweit – ein Betreff pro Typ wäre eine
 spätere Erweiterung (z. B. `subject` pro Typ in der YAML).
+
+Für **Anleitungstypen** (M7, z. B. `ep-petition`) kommt statt des Briefes eine Anleitung
+hinzu: `instructions/<typ>.md` mit YAML-Frontmatter (`title`, `url`, `linkLabel`,
+`fields`) und Markdown-Text (Schritte und Hinweise). Die Feldwerte dürfen Platzhalter
+enthalten (`{{ absender.* }}`, `{{ nachricht }}` = gerenderter Template-Text, `{{ betreff }}`);
+der Markdown-Text selbst bleibt statisch. Das Template `<typ>.md` liefert den Text für
+das Webformular und enthält keinen Briefkopf und keine `kontaktformular`-Marker.
 
 Platzhalter: `{{ absender.* }}`,
 `{{ empfaenger.anrede|name|partei|wahlkreis|bundesland|rolle }}`, `{{ datum }}`,
@@ -350,7 +373,9 @@ demokratiepost/
 ├── campaigns/                        # Content (versioniert, von Hand pflegbar)
 │   └── redispatch-2026-01/
 │       ├── campaign.yaml
-│       └── templates/ (mdb.md, landtag.md, landrat.md, buergermeister.md, netzbetreiber.md)
+│       ├── templates/ (mdb.md, landtag.md, landrat.md, buergermeister.md,
+│       │              netzbetreiber.md, ep-petition.md)
+│       └── instructions/ (ep-petition.md – Anleitung + Formularfelder, M7)
 ├── scripts/                          # Datenpipeline (Build-Zeit, nicht im Client)
 │   ├── fetch-bundestag.mjs           # bundestag.de-Profile → data/mdb.json
 │   ├── build-plz-index.ts            # PLZ→Wahlkreis → data/plz/<prefix>.json
@@ -383,11 +408,13 @@ demokratiepost/
 ├── src/
 │   ├── App.tsx      (Fünf-Schritte-Ablauf, siehe *User-Workflow*)
 │   ├── components/  (PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
-│   │                 ManualRecipientForm, LetterPreview)
+│   │                 ManualRecipientForm, LetterPreview, CopyFields,
+│   │                 ContactFormFields, InstructionCard)
 │   ├── lib/         (campaigns, template, storage, lookup, recipientTypes,
-│   │                 recipientRoles, sender, export)
+│   │                 recipientRoles, sender, export, markdown)
 │   └── types.ts     (ManualRecipient, Mandatstraeger (MdB/Landtag), Kommune (M5),
-│                     Netzbetreiber (M6); Recipient/RecipientCandidate-Union)
+│                     Netzbetreiber (M6), Instruction (M7);
+│                     Recipient/RecipientCandidate-Union)
 ├── vite.config.ts                    # base: '/demokratiepost/'
 └── README.md
 ```
@@ -419,8 +446,12 @@ demokratiepost/
    *M6 im Detail — Netzbetreiber*)_: PLZ → zuständiger Verteilnetzbetreiber aus dem
    Marktstammdatenregister, inkl. vorbefülltem, editierbarem Formular.
    **Kein Grundversorger** (keine bundesweite BNetzA-Liste); `stadtwerke` bleibt manuell.
+7. **M7 — Anleitungs-Empfänger** _(umgesetzt, Details im Abschnitt
+   *M7 im Detail — Anleitungs-Empfänger*)_: Empfänger mit reinem Webformular (erster Fall:
+   Europäisches Parlament – Petition) erhalten eine Anleitung plus Kopierfelder statt
+   Adresse/Brief; kein Druck/PDF.
 
-M1–M6 sind umgesetzt. Offen ist G7 (Ersatzquellen für Stadtstaaten und Landrät:innen in
+M1–M7 sind umgesetzt. Offen ist G7 (Ersatzquellen für Stadtstaaten und Landrät:innen in
 BW/SH) sowie weitere Landtags-Kontakt-Scraper nach dem NRW-Muster.
 
 ## M4 im Detail — Landtag (umgesetzt)
@@ -1040,6 +1071,89 @@ Risiken:
 - **Datenpflege:** Quartalsstand pinnen; nach neuem Export `data:netz:mastr` und
   `data:netz:build` erneut ausführen, Dev-Server neu starten.
 
+## M7 im Detail — Anleitungs-Empfänger (manuelle Einreichung) (umgesetzt)
+
+**Ziel:** Empfänger, die nur ein Webformular anbieten, bekommen keine Adresse und keinen
+Brief, sondern eine gepflegte **Anleitung** plus Kopierfelder. Erster Fall ist die
+**Petition beim Europäischen Parlament**: Das Petitionsportal bietet weder eine
+E-Mail-Adresse noch ein vorbelegbares Formular; alle Angaben müssen von Hand eingetragen
+werden.
+
+**Status:** umgesetzt. `ep-petition` ist Teil der Redispatch-Kampagne.
+
+### Entscheidungen (fix)
+
+| Thema | Entscheidung |
+|---|---|
+| Erster Fall | Europäisches Parlament – Petition über das Petitionsportal (`https://www.europarl.europa.eu/petitions/de/home`). |
+| Versandweg | Nur Webformular; **kein** Druck/PDF und **kein** `mailto` für diesen Typ. |
+| Content | Je Typ eine Datei `campaigns/<id>/instructions/<typ>.md` (Markdown + YAML-Frontmatter). |
+| Template | `templates/<typ>.md` liefert den Text für das Webformular (kein Briefkopf, keine Kontaktformular-Marker). |
+| Datenmodell | Neuer Registry-Schalter `instruction`; `Instruction`/`InstructionField` in `src/types.ts`. |
+| Speicherung | Keine Empfängerdaten; die Absenderdaten bleiben wie bisher lokal gespeichert. |
+| Laufzeit | Keine neuen Netzwerkzugriffe; der externe Link wird nur durch Klick geöffnet. |
+
+### Content-Format
+
+```markdown
+---
+title: Petition beim Europäischen Parlament einreichen
+url: https://www.europarl.europa.eu/petitions/de/home
+linkLabel: Petitionsportal öffnen
+fields:
+  - label: Titel der Petition
+    value: "Redispatch-Vorbehalt verstößt gegen Art. 13 Abs. 7 VO (EU) 2019/943"
+  - label: Petitionstext
+    value: "{{ nachricht }}"
+    multiline: true
+  - label: Name
+    value: "{{ absender.name }}"
+---
+## Schritt für Schritt
+1. Im Petitionsportal registrieren und anmelden.
+2. Die Felder aus Schritt 5 einzeln kopieren und einfügen.
+```
+
+- Die Feldwerte werden mit `renderTemplate()` gefüllt. `{{ nachricht }}` ist der
+  vollständig gerenderte Template-Text; `{{ absender.* }}` und `{{ betreff }}` stehen
+  ebenfalls zur Verfügung.
+- Der Markdown-Text selbst bleibt statisch (keine Nutzereingaben als HTML).
+- Feldbezeichnungen und Schritte liegen im Content, nicht im Code – Formularänderungen
+  des Portals brauchen nur eine Markdown-Anpassung.
+- Laut Portal sind Petitionen in jeder Amtssprache der EU möglich; vorausgesetzt werden
+  EU-Bürgerschaft oder Wohnsitz in der EU und ein Anliegen im Tätigkeitsbereich der Union.
+  Eine Registrierung im Portal ist nötig; es gibt keine Mindestzahl an Unterschriften.
+
+### Client
+
+- `src/lib/campaigns.ts`: zweiter `import.meta.glob` für `instructions/*.md`,
+  Frontmatter über `yaml` parsen.
+- `src/lib/recipientTypes.ts`: `instruction: true` für `ep-petition`, Helfer
+  `hasInstruction()`.
+- `src/App.tsx`: `instructionMode`; angepasste Texte in Schritt 3/4/5; PLZ-Suche und
+  Adressformular entfallen; Schritt 5 rendert die Felder mit `{{ nachricht }}` und
+  `{{ absender.* }}`.
+- `src/lib/markdown.ts`: gemeinsamer Mini-Renderer (aus `DocView` extrahiert, geordnete
+  Listen ergänzt).
+- `src/components/CopyFields.tsx`: generische Kopierfelder; `ContactFormFields` ist jetzt
+  ein Wrapper.
+- `src/components/InstructionCard.tsx`: Anleitung (Schritt 4) und Felder (Schritt 5).
+
+### Kampagne
+
+- `recipients` enthält `ep-petition`.
+- `templates/ep-petition.md`: Petitionstext zum Redispatch-Vorbehalt.
+- `instructions/ep-petition.md`: Anleitung, Portal-Link und Formularfelder.
+- **Textentwurf vor Veröffentlichung mit Kail abstimmen.**
+
+### Abnahme
+
+- `npm run build` sauber.
+- Typ `ep-petition`: Anleitung, Link und Felder sichtbar; keine PLZ, kein Adressformular,
+  kein Druck-Button; Petitionstext und Absenderdaten in den Kopierfeldern.
+- Regression: `mdb`, `landtag`, `landrat`, `buergermeister`, `netzbetreiber` unverändert.
+- Fehlende `instructions/<typ>.md` → Hinweis statt leerer Karte.
+
 ## Offene Punkte (entscheiden beim Bauen, blockieren nicht)
 
 - **Kampagnen-Autor**: Wer schreibt die Templates — Nutzer oder strukturiert von Kail?
@@ -1083,16 +1197,20 @@ Risiken:
   manuell.
 - **M6 – Übertragungsnetz**: Die Regelzone/der ÜNB ist nicht Teil der Suche; er kann später
   als Metadatum ergänzt werden.
+- **M7 – EP-Petitionsportal**: Link, Feldbezeichnungen und Ablauf können sich ändern.
+  Anleitung und Felder liegen in `campaigns/<id>/instructions/ep-petition.md` und werden
+  dort gepflegt; der Petitionstext bleibt inhaltlich mit Kail abzustimmen.
 
 ## Nächster Schritt
 
-M1–M6 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB-, Landtags-, kommunale und
+M1–M7 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB-, Landtags-, kommunale und
 Netzbetreiber-Daten sind vollständig (Bund: 630 Mandate, 299 Wahlkreise; Landtage: 16 Roster,
 davon 11 durchsuchbar, 6.027 PLZ in 85 Shards; Kommunen: 401 Kreise, 1.202 Verbände,
 12.088 Gemeinden, 8.585 PLZ in 95 Shards; Netzbetreiber: Zuordnung aus dem MaStR für die
-PLZ des Bundestags-Index). Der Client bietet Suche, Manual-Fallback und das vorbefüllte
-M5/M6-Formular; die Redispatch-Kampagne enthält `mdb.md`, `landtag.md`, `landrat.md`,
-`buergermeister.md` und `netzbetreiber.md`.
+PLZ des Bundestags-Index). Der Client bietet Suche, Manual-Fallback, das vorbefüllte
+M5/M6-Formular und für `ep-petition` eine Anleitung mit Kopierfeldern; die
+Redispatch-Kampagne enthält `mdb.md`, `landtag.md`, `landrat.md`, `buergermeister.md`,
+`netzbetreiber.md` und `ep-petition.md` sowie `instructions/ep-petition.md`.
 
 Offen ist **G7** (Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH) sowie weitere
 Landtags-Kontakt-Scraper nach dem NRW-Muster. Ein Grundversorger-Typ bleibt bewusst außen

@@ -60,6 +60,8 @@ Je nach Thema können unterschiedliche Akteure angeschrieben werden. Mögliche E
 - Bürgermeister
 - Stadtwerke
 - Netzbetreiber
+- Europäisches Parlament (Petition über das Webformular; die App zeigt eine Anleitung
+  und die auszufüllenden Angaben)
 
 Verschiedene Themen werden als **Kampagne** zusammengefasst. Jede Kampagne bringt ihre eigenen
 Musterschreiben für die jeweiligen Empfänger mit.
@@ -104,8 +106,9 @@ Kampagnen liegen als Dateien im Repo und werden zur Build-Zeit eingelesen:
 
 ```
 campaigns/<kampagne>/
-├── campaign.yaml        # id, title, subject, theme, description, recipients
-└── templates/<typ>.md   # Markdown-Template je Empfängertyp (z. B. mdb.md)
+├── campaign.yaml             # id, title, subject, theme, description, recipients
+├── templates/<typ>.md        # Markdown-Template je Empfängertyp (z. B. mdb.md)
+└── instructions/<typ>.md     # Anleitung + Formularfelder für Webformular-Typen (M7)
 ```
 
 Im Template werden Platzhalter in Punktnotation verwendet, z. B. `{{ absender.name }}`
@@ -115,6 +118,12 @@ Der Bereich zwischen `<!-- kontaktformular:start -->` und `<!-- kontaktformular:
 wird als Nachricht im Kontaktformular (bzw. als E-Mail-Text) verwendet – also nur der reine
 Text mit Anrede und Abschlussformel. Der vollständige Brief enthält zusätzlich Absender,
 Empfängeranschrift, Datum und Betreff.
+
+Für Empfänger mit reinem Webformular (z. B. das Petitionsportal des Europäischen
+Parlaments) gibt es statt des Briefes eine Anleitung: `instructions/<typ>.md` mit
+YAML-Frontmatter (`title`, `url`, `linkLabel`, `fields`) und Markdown-Schritten. Die
+Feldwerte dürfen Platzhalter enthalten (`{{ absender.* }}`, `{{ betreff }}`,
+`{{ nachricht }}` = gerenderter Template-Text); die App zeigt sie mit Kopier-Button an.
 
 ### Empfängerdaten
 
@@ -151,7 +160,9 @@ Der Prototyp beginnt bewusst klein:
 - **MVP:** Postleitzahl → Bundestagsabgeordnete → fertiger Brief (PDF oder Kontaktformular).
 - **Umgesetzt:** Landtagsabgeordnete (M4), die kommunale Ebene mit Bürgermeister:in
   und Landrät:in (M5, inkl. vorbefülltem, editierbarem Empfängerformular) sowie
-  Netzbetreiber Strom (M6, Zuordnung aus dem Marktstammdatenregister).
+  Netzbetreiber Strom (M6, Zuordnung aus dem Marktstammdatenregister). Für Empfänger mit
+  reinem Webformular (M7, z. B. Petition beim Europäischen Parlament) zeigt die App eine
+  Anleitung mit Kopierfeldern statt eines Briefes.
 - **Als Nächstes:** Ersatzquellen für die Amtsinhaber:innen in Stadtstaaten und für
   Landrät:innen in Baden-Württemberg/Schleswig-Holstein (G7); weitere
   Landtags-Kontakt-Scraper nach dem NRW-Muster. Stadtwerke bleiben manuell, ein
