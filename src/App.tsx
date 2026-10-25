@@ -425,7 +425,17 @@ export default function App() {
   }
 
   function goHome() {
-    window.location.hash = '';
+    // Nicht `window.location.hash = ''` setzen: das Browser-Verhalten hängt dann
+    // ein leeres „#“ an die URL (https://demokratiepost.de/#). Über die History-API
+    // verschwindet das Fragment vollständig; ein neuer Eintrag sorgt dafür, dass
+    // der Zurück-Button wie bei der Hash-Navigation funktioniert.
+    if (window.location.hash) {
+      window.history.pushState(
+        null,
+        '',
+        `${window.location.pathname}${window.location.search}`,
+      );
+    }
     setActiveView(null);
   }
 
