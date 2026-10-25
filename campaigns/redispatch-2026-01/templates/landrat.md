@@ -14,7 +14,7 @@ Betreff: {{ betreff }}
 <!-- kontaktformular:start -->
 {{ empfaenger.anrede }},
 
-als Bürgerin/Bürger aus {{ absender.ort }} wende ich mich an Sie als Landrätin/Landrat des zuständigen Kreises.
+als {{ absender.buerger }} aus {{ absender.ort }} wende ich mich an Sie als {{ empfaenger.rolle }} des zuständigen Kreises.
 
 Die Energiewende wird vor Ort entschieden – bei der Wärmeplanung, der Bauleitplanung, den Konzessionen und den regionalen Netzen. Der geplante Redispatch-Vorbehalt für Neuanlagen und Speicher und die damit verbundene Blockade von über 100 Gigawatt anmeldereifer Batteriespeicher betreffen deshalb auch Ihren Kreis unmittelbar.
 

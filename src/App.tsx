@@ -24,6 +24,8 @@ import {
   lookupRecipients,
   recipientTypeLabel,
 } from './lib/recipientTypes';
+import { recipientRole } from './lib/recipientRoles';
+import { senderContext } from './lib/sender';
 import {
   clearRecipientData,
   clearSender,
@@ -62,8 +64,13 @@ function getActiveViewFromHash(): ActiveView {
 }
 
 /** Füllt die empfaenger.*-Platzhalter aus Suchtreffern oder manuellen Daten. */
-function recipientContext(recipient: Recipient | null): Record<string, string> {
+function recipientContext(
+  recipient: Recipient | null,
+  recipientType?: string,
+): Record<string, string> {
   if (!recipient) return {};
+
+  const rolle = recipientRole(recipient, recipientType);
 
   if (isMandat(recipient)) {
     return {
@@ -80,6 +87,7 @@ function recipientContext(recipient: Recipient | null): Record<string, string> {
       plz: recipient.address?.plz ?? '',
       ort: recipient.address?.ort ?? '',
       email: recipient.email ?? '',
+      rolle,
     };
   }
 
@@ -99,6 +107,7 @@ function recipientContext(recipient: Recipient | null): Record<string, string> {
       ebene: recipient.ebene,
       wahljahr: recipient.wahljahr ? String(recipient.wahljahr) : '',
       hinweis: recipient.hinweis ?? '',
+      rolle,
     };
   }
 
@@ -114,6 +123,7 @@ function recipientContext(recipient: Recipient | null): Record<string, string> {
     plz: recipient.plz,
     ort: recipient.ort,
     email: recipient.email,
+    rolle,
   };
 }
 
@@ -290,10 +300,10 @@ export default function App() {
     return {
       datum: new Date().toLocaleDateString('de-DE'),
       betreff: campaign?.subject ?? campaign?.title ?? '',
-      absender: { ...sender },
-      empfaenger: recipientContext(recipient),
+      absender: senderContext(sender),
+      empfaenger: recipientContext(recipient, activeType),
     };
-  }, [sender, recipient, campaign]);
+  }, [sender, recipient, campaign, activeType]);
 
   const templateParts = template ? splitTemplate(template) : { letter: '', contact: '' };
   const letterBody = renderTemplate(templateParts.letter, letterContext);

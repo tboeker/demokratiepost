@@ -255,11 +255,18 @@ die Typ-Auswahl im Workflow (Schritt 3) bestimmt, welches Template gerendert wir
 Der Betreff (`{{ betreff }}`) bleibt kampagnenweit – ein Betreff pro Typ wäre eine
 spätere Erweiterung (z. B. `subject` pro Typ in der YAML).
 
-Platzhalter: `{{ absender.* }}`, `{{ empfaenger.anrede|name|partei|wahlkreis|bundesland }}`,
-`{{ datum }}`, `{{ betreff }}` + optionaler **persönlicher Absatz** des Nutzers
-(erhöht die Wirkung gegenüber 1:1-Kopien deutlich). Die vollständige Menge der
-`empfaenger.*`-Felder (inkl. `organisation`, `strasse`, `plz`, `ort`, `email`) ergibt sich
-aus `recipientContext()` in `src/App.tsx`.
+Platzhalter: `{{ absender.* }}`,
+`{{ empfaenger.anrede|name|partei|wahlkreis|bundesland|rolle }}`, `{{ datum }}`,
+`{{ betreff }}` + optionaler **persönlicher Absatz** des Nutzers (erhöht die Wirkung
+gegenüber 1:1-Kopien deutlich). Die vollständige Menge der `empfaenger.*`-Felder (inkl.
+`organisation`, `strasse`, `plz`, `ort`, `email`) ergibt sich aus `recipientContext()` in
+`src/App.tsx`. `{{ empfaenger.rolle }}` ist die geschlechtsbezogene Rollenbezeichnung
+(„Landrätin“/„Landrat“/„Landrät:in“, „Bürgermeisterin“/…, „Landtagsabgeordnete:r“ usw.)
+aus `amt`/`sex`; bei manuell erfassten Empfängern aus der Amtsbezeichnung, sonst
+typbezogener neutraler Fallback (`src/lib/recipientRoles.ts`). Für die Selbstbezeichnung
+des Absenders gibt es `{{ absender.buerger }}`: je nach optionaler Geschlechtsangabe
+„Bürgerin“, „Bürger“ oder „Bürger:in“, ohne Angabe „Bürgerin/Bürger“. Abgeleitet wird
+das Feld in `senderContext()` (`src/lib/sender.ts`).
 
 ## Absenderdaten (Eingabe + localStorage)
 
@@ -270,12 +277,16 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 
 - Pflicht: Name, Straße/Hausnummer, PLZ, Ort
 - Optional: E-Mail, Telefon
+- Optional: Geschlecht (weiblich/männlich/divers) für die Selbstbezeichnung im Brieftext;
+  ohne Angabe bleibt „Bürgerin/Bürger“ stehen
 
 **Speicherung**
 
 - Key: `demokratiepost.sender.v1` (versioniert, damit spätere Schemaänderungen sauber
   migrierbar sind)
 - Format: JSON
+- Das optionale Feld `geschlecht` ist abwärtskompatibel: ältere `sender.v1`-Daten ohne
+  das Feld laden weiterhin und fallen auf „Bürgerin/Bürger“ zurück.
 - Laden beim Start, Speichern bei Eingabe/Submit; Schaltflächen „Speichern" und „Löschen"
 - Umsetzung: `src/lib/storage.ts` (lesen/schreiben/validieren) + `SenderForm`-Komponente
 - Der `TemplateContext` (`absender.*`) wird direkt aus diesen Werten gespeist.
@@ -323,7 +334,8 @@ demokratiepost/
 │   ├── App.tsx      (Fünf-Schritte-Ablauf, siehe *User-Workflow*)
 │   ├── components/  (PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
 │   │                 ManualRecipientForm, LetterPreview)
-│   ├── lib/         (campaigns, template, storage, lookup, recipientTypes, export)
+│   ├── lib/         (campaigns, template, storage, lookup, recipientTypes,
+│   │                 recipientRoles, sender, export)
 │   └── types.ts     (ManualRecipient, Mandatstraeger (MdB/Landtag), Kommune (M5);
 │                     Recipient/RecipientCandidate-Union)
 ├── vite.config.ts                    # base: '/demokratiepost/'

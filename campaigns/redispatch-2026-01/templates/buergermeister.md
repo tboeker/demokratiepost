@@ -14,7 +14,7 @@ Betreff: {{ betreff }}
 <!-- kontaktformular:start -->
 {{ empfaenger.anrede }},
 
-als Bürgerin/Bürger aus {{ absender.ort }} wende ich mich an Sie als Bürgermeisterin/Bürgermeister der zuständigen Gemeindeverwaltung.
+als {{ absender.buerger }} aus {{ absender.ort }} wende ich mich an Sie als {{ empfaenger.rolle }} der zuständigen Gemeindeverwaltung.
 
 Die Energiewende wird vor Ort entschieden – bei der kommunalen Wärmeplanung, der Bauleitplanung, den Konzessionen und den lokalen Netzen. Der geplante Redispatch-Vorbehalt für Neuanlagen und Speicher und die damit verbundene Blockade von über 100 Gigawatt anmeldereifer Batteriespeicher betreffen deshalb auch unsere Gemeinde unmittelbar.
 

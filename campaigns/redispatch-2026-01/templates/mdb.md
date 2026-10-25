@@ -13,7 +13,7 @@ Betreff: {{ betreff }}
 <!-- kontaktformular:start -->
 {{ empfaenger.anrede }},
 
-als Bürgerin/Bürger aus Ihrem Wahlkreis wende ich mich vor der entscheidenden Lesung des Gesetzentwurfs der Bundesregierung zur Beschleunigung des Netzausbaus und zur Änderung des Energiewirtschaftsgesetzes direkt an Sie.
+als {{ absender.buerger }} aus Ihrem Wahlkreis wende ich mich vor der entscheidenden Lesung des Gesetzentwurfs der Bundesregierung zur Beschleunigung des Netzausbaus und zur Änderung des Energiewirtschaftsgesetzes direkt an Sie.
 
 ​Die öffentliche Sachverständigen-Anhörung des Ausschusses für Klimaschutz und Energie vom 7. Oktober 2026 hat gravierende Missstände offengelegt, die Sie bei Ihrer Abstimmung nicht ignorieren dürfen:
 

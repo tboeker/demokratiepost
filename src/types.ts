@@ -25,6 +25,9 @@ export interface Campaign extends CampaignMeta {
 /** Daten, mit denen Platzhalter in einem Template gefüllt werden. */
 export type TemplateContext = Record<string, unknown>;
 
+/** Geschlecht für Anrede und Selbstbezeichnung im Brieftext. */
+export type Geschlecht = 'f' | 'm' | 'd';
+
 /** Absenderdaten des Nutzers (lokal im Browser gespeichert). */
 export interface Sender {
   name: string;
@@ -33,6 +36,11 @@ export interface Sender {
   ort: string;
   email?: string;
   telefon?: string;
+  /**
+   * Optional: Geschlecht für „Bürgerin“/„Bürger“ im Brieftext.
+   * Ohne Angabe bleibt die neutrale Form „Bürgerin/Bürger“ stehen.
+   */
+  geschlecht?: Geschlecht;
 }
 
 /** Ein Bundestags- oder Landtagswahlkreis. */
@@ -60,7 +68,7 @@ export interface Mandatstraeger {
   name: string;
   party: string;
   /** Geschlecht für die Anrede, falls bekannt. */
-  sex?: 'm' | 'f' | 'd';
+  sex?: Geschlecht;
   /** Fertige Anrede, überschreibt die automatische Bildung. */
   anrede?: string;
   /** Art des Mandats: Direktmandat (Wahlkreis) oder Listenmandat. */
@@ -109,7 +117,7 @@ export interface Kommune {
   name?: string;
   partei?: string;
   /** Geschlecht nur bei verlässlicher Quelle (für die Anrede). */
-  sex?: 'm' | 'f' | 'd';
+  sex?: Geschlecht;
   /** Fertige Anrede, z. B. "Sehr geehrte Frau Bürgermeisterin Berger". */
   anrede?: string;
   address: Address;

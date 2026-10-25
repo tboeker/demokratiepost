@@ -68,7 +68,8 @@ src/App.tsx                Ablauf: Kampagne → Absender → Empfängertyp →
                            Empfänger (Suche mit PLZ-Vorbelegung / manuell) → Vorschau
 src/components/            PlzInput, SenderForm, RecipientTypeSelect, RecipientList,
                            ManualRecipientForm, LetterPreview
-src/lib/                   campaigns, template, storage, lookup, recipientTypes, export
+src/lib/                   campaigns, template, storage, lookup, recipientTypes,
+                           recipientRoles, sender, export
 src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5), ManualRecipient,
                            Recipient/RecipientCandidate, Wahlkreis, Campaign, Sender
 ```
@@ -85,7 +86,10 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5), ManualRec
   Ausnahmen sind `landtag` (bei leerer Suche: `emptyFallback`) und die kommunalen Typen
   `landrat`/`buergermeister` (immer sichtbares, beim Treffer vorbefülltes Formular:
   `prefillForm`). Registry: `src/lib/recipientTypes.ts`.
-- Template-Platzhalter in Punktnotation: `{{ absender.name }}`, `{{ empfaenger.wahlkreis }}`,
+- Template-Platzhalter in Punktnotation: `{{ absender.name }}`, für die Selbstbezeichnung
+  `{{ absender.buerger }}` („Bürgerin“/„Bürger“/„Bürger:in“, ohne Angabe
+  „Bürgerin/Bürger“), `{{ empfaenger.wahlkreis }}`, für die geschlechtsbezogene
+  Rollenbezeichnung `{{ empfaenger.rolle }}` (z. B. „Landrätin“/„Landrat“/„Landrät:in“),
   für kommunale Empfänger `{{ empfaenger.organisation }}`, `{{ empfaenger.amt }}`,
   `{{ empfaenger.name }}`.
 - Der Abschnitt `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` im Template

@@ -13,7 +13,7 @@ Betreff: {{ betreff }}
 <!-- kontaktformular:start -->
 {{ empfaenger.anrede }},
 
-als Bürgerin/Bürger aus {{ absender.ort }} wende ich mich an Sie als Landtagsabgeordnete:n.
+als {{ absender.buerger }} aus {{ absender.ort }} wende ich mich an Sie als {{ empfaenger.rolle }}.
 
 Die Energiewende wird nicht nur in Berlin entschieden – die Umsetzung, das Bau- und Genehmigungsrecht und die Landesenergiegesetze liegen ganz wesentlich bei den Ländern. Deshalb bitte ich Sie, im Landtag dieselben Maßstäbe anzulegen wie auf Bundesebene:
 

@@ -28,6 +28,31 @@ export function SenderForm({ sender, onChange, onClear }: SenderFormProps) {
         </div>
 
         <div className="field field-wide">
+          <label className="label" htmlFor="sender-geschlecht">
+            Geschlecht im Brieftext <span className="optional">(optional)</span>
+          </label>
+          <select
+            id="sender-geschlecht"
+            className="select"
+            value={sender.geschlecht ?? ''}
+            onChange={(event) =>
+              update(
+                'geschlecht',
+                (event.target.value || undefined) as Sender['geschlecht'],
+              )
+            }
+          >
+            <option value="">Keine Angabe</option>
+            <option value="f">Weiblich – Bürgerin</option>
+            <option value="m">Männlich – Bürger</option>
+            <option value="d">Divers – Bürger:in</option>
+          </select>
+          <p className="hint">
+            Ohne Angabe bleibt im Text „Bürgerin/Bürger“ stehen.
+          </p>
+        </div>
+
+        <div className="field field-wide">
           <label className="label" htmlFor="sender-strasse">
             Straße und Hausnummer
           </label>
