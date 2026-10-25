@@ -458,6 +458,10 @@ export default function App() {
     <div className="page">
       <header className="header">
         <h1>Demokratiepost</h1>
+        {/* <h1>demokratiepost</h1>
+        <h1>DEMOKRATIEPOST</h1>
+        <h1>DemokratiePost</h1>
+        <h1>Demokratiepost</h1> */}
         <p className="subtitle">In fünf Schritten zum versandfertigen Schreiben</p>
         <button type="button" className="footer-link" onClick={() => goToDoc('idee')}>
           Beschreibung der Idee
