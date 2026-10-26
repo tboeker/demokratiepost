@@ -95,6 +95,9 @@ export function loadCampaigns(): Campaign[] {
     const dir = campaignDir(yamlPath);
     const meta = parse(raw) as CampaignMeta;
 
+    // Deaktivierte Kampagnen bleiben im Repo, tauchen aber nicht in der Auswahl auf.
+    if (meta.active === false) continue;
+
     const templates: Record<string, string> = {};
     for (const [templatePath, content] of Object.entries(templateFiles)) {
       if (campaignDir(templatePath) !== dir) continue;
@@ -107,7 +110,7 @@ export function loadCampaigns(): Campaign[] {
       instructions[recipientTypeFromPath(instructionPath)] = parseInstruction(content);
     }
 
-    campaigns.push({ ...meta, dir, templates, instructions });
+    campaigns.push({ ...meta, active: true, dir, templates, instructions });
   }
 
   campaigns.sort((a, b) => a.title.localeCompare(b.title, 'de'));

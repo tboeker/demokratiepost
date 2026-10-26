@@ -107,13 +107,16 @@ Kampagnen liegen als Dateien im Repo und werden zur Build-Zeit eingelesen:
 
 ```
 campaigns/<kampagne>/
-├── campaign.yaml             # id, title, subject, theme, description, recipients
+├── campaign.yaml             # id, title, subject, theme, description, recipients, active
 ├── templates/<typ>.md        # Markdown-Template je Empfängertyp (z. B. mdb.md)
 └── instructions/<typ>.md     # Anleitung + Formularfelder für Webformular-Typen (M7)
 ```
 
 Im Template werden Platzhalter in Punktnotation verwendet, z. B. `{{ absender.name }}`
 oder `{{ empfaenger.wahlkreis }}`. Sie werden automatisch mit den passenden Werten gefüllt.
+
+Mit `active: false` lässt sich eine Kampagne deaktivieren: Die Dateien bleiben im Repo,
+sie erscheint aber nicht mehr in der Auswahl. Ohne Angabe ist eine Kampagne aktiv.
 
 Der Bereich zwischen `<!-- kontaktformular:start -->` und `<!-- kontaktformular:ende -->`
 wird als Nachricht im Kontaktformular (bzw. als E-Mail-Text) verwendet – also nur der reine

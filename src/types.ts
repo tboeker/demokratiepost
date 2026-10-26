@@ -12,6 +12,11 @@ export interface CampaignMeta {
   description?: string;
   /** Unterstützte Empfängertypen, z. B. ["mdb"]. */
   recipients: string[];
+  /**
+   * Kampagne in der Auswahl anzeigen (Standard: `true`). Mit `active: false`
+   * bleibt die Kampagne samt Inhalten im Repo, wird aber nicht geladen.
+   */
+  active?: boolean;
 }
 
 /** Ein Feld eines externen Webformulars, das von Hand befüllt wird (M7). */

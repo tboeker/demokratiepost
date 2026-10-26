@@ -317,7 +317,7 @@ nur für `data:netz:mastr` nötig; die daraus erzeugten CSVs sind committet.
 ```
 campaigns/
   stromnetz-2026/
-    campaign.yaml        # id, titel, betreff, thema, beschreibung, empfängertypen, laufzeit
+    campaign.yaml        # id, titel, betreff, thema, beschreibung, empfängertypen, aktiv, laufzeit
     templates/
       mdb.md             # Musterschreiben für Bundestagsabgeordnete (Typ "mdb")
       landtag.md         # weiteres Schreiben pro Empfängertyp (Typ "landtag", M4)
@@ -333,6 +333,11 @@ campaigns/
 die Typ-Auswahl im Workflow (Schritt 3) bestimmt, welches Template gerendert wird.
 Der Betreff (`{{ betreff }}`) bleibt kampagnenweit – ein Betreff pro Typ wäre eine
 spätere Erweiterung (z. B. `subject` pro Typ in der YAML).
+
+`active: false` deaktiviert eine Kampagne: `loadCampaigns()` überspringt sie, die Dateien
+bleiben aber im Repo und können jederzeit wieder aktiviert werden. Ohne Angabe ist eine
+Kampagne aktiv. Sind alle Kampagnen deaktiviert, zeigt Schritt 1 einen Hinweis statt der
+Auswahl; die kampagnenabhängigen Schritte werden ausgeblendet.
 
 Für **Anleitungstypen** (M7, z. B. `ep-petition`) kommt statt des Briefes eine Anleitung
 hinzu: `instructions/<typ>.md` mit YAML-Frontmatter (`title`, `url`, `linkLabel`,

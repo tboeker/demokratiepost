@@ -289,6 +289,7 @@ export default function App() {
   // landtag-Fallback und das vorbefüllte M5-Formular). Anleitungstypen (M7)
   // haben keine Empfängerdaten.
   useEffect(() => {
+    if (!activeType) return;
     if (instructionMode) return;
     if (searchable && !emptyFallback && !prefillForm) return;
     if (hasRecipientData(manual)) {
@@ -541,23 +542,31 @@ export default function App() {
       <main className="main">
         <section className="card">
           <h2>1. Kampagne wählen</h2>
-          <select
-            id="campaign"
-            className="select"
-            value={selectedCampaignId}
-            onChange={(event) => handleCampaignChange(event.target.value)}
-          >
-            {campaigns.map((item) => (
-              <option key={item.id} value={item.id}>
-                {item.title}
-              </option>
-            ))}
-          </select>
-          {campaign && (
-            <div className="campaign-meta">
-              {campaign.theme && <span className="tag">{campaign.theme}</span>}
-              {campaign.description && <p>{campaign.description}</p>}
-            </div>
+          {campaigns.length > 0 ? (
+            <>
+              <select
+                id="campaign"
+                className="select"
+                value={selectedCampaignId}
+                onChange={(event) => handleCampaignChange(event.target.value)}
+              >
+                {campaigns.map((item) => (
+                  <option key={item.id} value={item.id}>
+                    {item.title}
+                  </option>
+                ))}
+              </select>
+              {campaign && (
+                <div className="campaign-meta">
+                  {campaign.theme && <span className="tag">{campaign.theme}</span>}
+                  {campaign.description && <p>{campaign.description}</p>}
+                </div>
+              )}
+            </>
+          ) : (
+            <p className="hint">
+              Zurzeit ist keine Kampagne aktiv. Bitte schau später wieder vorbei.
+            </p>
           )}
         </section>
 
@@ -581,160 +590,164 @@ export default function App() {
           />
         </section>
 
-        <section className="card">
-          <h2>3. Empfängertyp wählen</h2>
-          {campaign && campaign.recipients.length > 0 ? (
-            <>
-              <RecipientTypeSelect
-                types={campaign.recipients}
-                value={activeType}
-                onChange={handleTypeChange}
-              />
-              <p className="hint">
-                {instructionMode
-                  ? 'Für diesen Empfänger gibt es nur ein Webformular – Schritt 4 zeigt die ' +
-                  'Anleitung; die Angaben zum Kopieren stehen direkt im jeweiligen Schritt.'
-                  : prefillForm
-                    ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht; ' +
-                    'die Angaben werden in ein vorbefülltes, editierbares Formular übernommen.'
-                    : searchable
-                      ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht.'
-                      : 'Für diesen Typ gibt es noch keine Suche – trage den Empfänger im nächsten Schritt manuell ein.'}
-              </p>
-            </>
-          ) : (
-            <p className="hint">Diese Kampagne hat keine Empfängertypen.</p>
-          )}
-        </section>
-
-        <section className="card">
-          <h2>
-            4.{' '}
-            {instructionMode
-              ? 'Anleitung zur Einreichung'
-              : searchable
-                ? 'Empfänger suchen'
-                : 'Empfänger erfassen'}
-          </h2>
-
-          {instructionMode ? (
-            instruction ? (
-              <>
-                {!template && (
-                  <p className="hint">
-                    Für den Empfängertyp „{recipientTypeLabel(activeType)}“ gibt es in dieser
-                    Kampagne noch keinen Text für das Webformular.
-                  </p>
-                )}
-                {template && !isSenderComplete(sender) && (
-                  <p className="hint">
-                    Tipp: Fülle oben deine Absenderdaten aus, damit die Felder vollständig
-                    sind.
-                  </p>
-                )}
-                <InstructionCard
-                  instruction={instruction}
-                  fallbackTitle={recipientTypeLabel(activeType)}
-                  context={instructionContext}
-                  showFields={Boolean(template)}
-                />
-              </>
-            ) : (
-              <p className="hint">
-                Für den Empfängertyp „{recipientTypeLabel(activeType)}“ ist in dieser Kampagne
-                noch keine Anleitung hinterlegt.
-              </p>
-            )
-          ) : (
-            <>
-              {searchable && (
+        {campaign && (
+          <>
+            <section className="card">
+              <h2>3. Empfängertyp wählen</h2>
+              {campaign.recipients.length > 0 ? (
                 <>
-                  <PlzInput
-                    value={plz}
-                    onChange={setPlz}
-                    onSubmit={handleSearch}
-                    loading={status === 'loading'}
+                  <RecipientTypeSelect
+                    types={campaign.recipients}
+                    value={activeType}
+                    onChange={handleTypeChange}
                   />
-                  <p className="hint">Vorausgefüllt mit deiner PLZ – passe sie bei Bedarf an.</p>
+                  <p className="hint">
+                    {instructionMode
+                      ? 'Für diesen Empfänger gibt es nur ein Webformular – Schritt 4 zeigt die ' +
+                      'Anleitung; die Angaben zum Kopieren stehen direkt im jeweiligen Schritt.'
+                      : prefillForm
+                        ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht; ' +
+                        'die Angaben werden in ein vorbefülltes, editierbares Formular übernommen.'
+                        : searchable
+                          ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht.'
+                          : 'Für diesen Typ gibt es noch keine Suche – trage den Empfänger im nächsten Schritt manuell ein.'}
+                  </p>
+                </>
+              ) : (
+                <p className="hint">Diese Kampagne hat keine Empfängertypen.</p>
+              )}
+            </section>
 
-                  {showSelectedRecipient && selectedRecipient && (
-                    <>
-                      <h3 className="subheading">Aktuell ausgewählt</h3>
-                      <RecipientList
-                        recipients={[selectedRecipient]}
-                        recipientType={activeType}
-                        selectedId={selectedRecipient.id}
-                        onSelect={handleSelectRecipient}
-                      />
-                      <p className="hint">Du kannst oben mit einer anderen PLZ neu suchen.</p>
-                    </>
-                  )}
+            <section className="card">
+              <h2>
+                4.{' '}
+                {instructionMode
+                  ? 'Anleitung zur Einreichung'
+                  : searchable
+                    ? 'Empfänger suchen'
+                    : 'Empfänger erfassen'}
+              </h2>
 
-                  {status === 'empty' && (
-                    <p className="hint">
-                      {activeType === 'landtag'
-                        ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
-                        'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
-                        'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
-                        : activeType === 'netzbetreiber'
-                          ? `Für die PLZ ${plz} wurde kein zuständiger Netzbetreiber gefunden. ` +
-                          'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
-                          : prefillForm
-                            ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
-                            'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
-                            : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
-                            'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
-                            '(Zweitstimmendeckung oder vakantes Mandat).'}
-                    </p>
-                  )}
-                  {status === 'error' && <p className="error">{error}</p>}
-                  {status === 'done' && (
-                    <>
+              {instructionMode ? (
+                instruction ? (
+                  <>
+                    {!template && (
                       <p className="hint">
-                        {recipients.length} Empfänger gefunden – bitte auswählen:
+                        Für den Empfängertyp „{recipientTypeLabel(activeType)}“ gibt es in dieser
+                        Kampagne noch keinen Text für das Webformular.
                       </p>
-                      <RecipientList
-                        recipients={recipients}
-                        recipientType={activeType}
-                        selectedId={selectedRecipient?.id ?? null}
-                        onSelect={handleSelectRecipient}
+                    )}
+                    {template && !isSenderComplete(sender) && (
+                      <p className="hint">
+                        Tipp: Fülle oben deine Absenderdaten aus, damit die Felder vollständig
+                        sind.
+                      </p>
+                    )}
+                    <InstructionCard
+                      instruction={instruction}
+                      fallbackTitle={recipientTypeLabel(activeType)}
+                      context={instructionContext}
+                      showFields={Boolean(template)}
+                    />
+                  </>
+                ) : (
+                  <p className="hint">
+                    Für den Empfängertyp „{recipientTypeLabel(activeType)}“ ist in dieser Kampagne
+                    noch keine Anleitung hinterlegt.
+                  </p>
+                )
+              ) : (
+                <>
+                  {searchable && (
+                    <>
+                      <PlzInput
+                        value={plz}
+                        onChange={setPlz}
+                        onSubmit={handleSearch}
+                        loading={status === 'loading'}
                       />
-                      {prefillForm && (
+                      <p className="hint">Vorausgefüllt mit deiner PLZ – passe sie bei Bedarf an.</p>
+
+                      {showSelectedRecipient && selectedRecipient && (
+                        <>
+                          <h3 className="subheading">Aktuell ausgewählt</h3>
+                          <RecipientList
+                            recipients={[selectedRecipient]}
+                            recipientType={activeType}
+                            selectedId={selectedRecipient.id}
+                            onSelect={handleSelectRecipient}
+                          />
+                          <p className="hint">Du kannst oben mit einer anderen PLZ neu suchen.</p>
+                        </>
+                      )}
+
+                      {status === 'empty' && (
                         <p className="hint">
-                          {activeType === 'netzbetreiber'
-                            ? 'Die Zuordnung stammt aus dem Marktstammdatenregister (In-Betrieb-PV-Anlagen) ' +
-                            'und ist keine amtliche Netzgebietsgrenze – bitte prüfe die Angaben im Formular.'
-                            : 'Die Namen der Amtsinhaber:innen stammen aus Forschungsdaten und sind nicht ' +
-                            'amtlich – bitte prüfe die Angaben im Formular.'}
+                          {activeType === 'landtag'
+                            ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
+                            'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
+                            'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
+                            : activeType === 'netzbetreiber'
+                              ? `Für die PLZ ${plz} wurde kein zuständiger Netzbetreiber gefunden. ` +
+                              'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
+                              : prefillForm
+                                ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
+                                'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
+                                : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
+                                'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
+                                '(Zweitstimmendeckung oder vakantes Mandat).'}
                         </p>
+                      )}
+                      {status === 'error' && <p className="error">{error}</p>}
+                      {status === 'done' && (
+                        <>
+                          <p className="hint">
+                            {recipients.length} Empfänger gefunden – bitte auswählen:
+                          </p>
+                          <RecipientList
+                            recipients={recipients}
+                            recipientType={activeType}
+                            selectedId={selectedRecipient?.id ?? null}
+                            onSelect={handleSelectRecipient}
+                          />
+                          {prefillForm && (
+                            <p className="hint">
+                              {activeType === 'netzbetreiber'
+                                ? 'Die Zuordnung stammt aus dem Marktstammdatenregister (In-Betrieb-PV-Anlagen) ' +
+                                'und ist keine amtliche Netzgebietsgrenze – bitte prüfe die Angaben im Formular.'
+                                : 'Die Namen der Amtsinhaber:innen stammen aus Forschungsdaten und sind nicht ' +
+                                'amtlich – bitte prüfe die Angaben im Formular.'}
+                            </p>
+                          )}
+                        </>
                       )}
                     </>
                   )}
-                </>
-              )}
 
-              {showManualForm && (
-                <>
-                  {searchable && <hr className="divider" />}
-                  <h3 className="subheading">
-                    {prefillForm
-                      ? 'Empfängerangaben prüfen / ergänzen'
-                      : 'Empfänger manuell erfassen'}
-                  </h3>
-                  <ManualRecipientForm
-                    recipientTypeLabel={recipientTypeLabel(activeType)}
-                    recipient={manual}
-                    onChange={setManual}
-                    onClear={handleClearManual}
-                    prefill={prefillForm}
-                    fallback={status === 'empty' && (emptyFallback || prefillForm)}
-                    restored={emptyFallback && storedFallback}
-                  />
+                  {showManualForm && (
+                    <>
+                      {searchable && <hr className="divider" />}
+                      <h3 className="subheading">
+                        {prefillForm
+                          ? 'Empfängerangaben prüfen / ergänzen'
+                          : 'Empfänger manuell erfassen'}
+                      </h3>
+                      <ManualRecipientForm
+                        recipientTypeLabel={recipientTypeLabel(activeType)}
+                        recipient={manual}
+                        onChange={setManual}
+                        onClear={handleClearManual}
+                        prefill={prefillForm}
+                        fallback={status === 'empty' && (emptyFallback || prefillForm)}
+                        restored={emptyFallback && storedFallback}
+                      />
+                    </>
+                  )}
                 </>
               )}
-            </>
-          )}
-        </section>
+            </section>
+          </>
+        )}
 
         {template && recipient && (
           <section className="card letter-card">
