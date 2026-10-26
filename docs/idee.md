@@ -61,6 +61,16 @@ Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M8 sind umgesetzt.
 
 Eine Kampagne ist ein Ordner unter `campaigns/`. Alle Inhalte werden beim Build aus Dateien gelesen – es gibt keine Datenbank und keine Laufzeit-Schnittstelle. Eine neue Kampagne lässt sich daher allein durch Dateien ergänzen.
 
+### Änderungen am Kampagnenmodell
+
+**Pflege-Regel:** Jede Änderung am Kampagnenmodell wird in dieser Datei dokumentiert. Das betrifft neue, geänderte oder entfernte Felder in `campaign.yaml`, Empfängertypen, Platzhalter sowie die Struktur von Templates und Anleitungen.
+
+- Neue Felder werden bei den Pflicht- oder optionalen Feldern ergänzt und im Beispiel gezeigt.
+- Geänderte Bedeutung eines Feldes wird an der bisherigen Stelle angepasst.
+- Entfallene Felder und Empfängertypen werden gestrichen, damit die Referenz den tatsächlichen Stand beschreibt.
+
+So bleibt diese Seite die verlässliche Beschreibung dessen, was eine Kampagne enthalten kann.
+
 ### Aufbau
 
 - `campaigns/` – ein Unterordner pro Kampagne.
@@ -83,10 +93,12 @@ Optionale Felder:
 - `theme` – Thema als Tag über der Beschreibung.
 - `description` – kurze Erläuterung in der Kampagnenauswahl.
 - `active` – `false` blendet die Kampagne aus, ohne ihre Dateien zu löschen (Standard: `true`).
+- `sort` – ganzzahlige Position in der Kampagnenauswahl, kleiner Wert zuerst. Ohne Angabe steht die Kampagne hinter den sortierten und wird dort nach Titel einsortiert.
 
 Beispiel (gekürzt):
 
 - `id: beispiel-kampagne`
+- `sort: 1`
 - `title: "Beispiel-Kampagne"`
 - `subject: "Allgemeiner Betreff"`
 - `subjects.mdb: "Betreff speziell für Bundestagsabgeordnete"`
