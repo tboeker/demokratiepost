@@ -15,10 +15,15 @@ bereit zum Drucken oder Versenden.
   für Architektur, Datenquellen und Meilensteine. Der Plan wird **ausschließlich in dieser
   lokalen Datei im Repo** gepflegt – auch geplante Änderungen (z. B. der Fünf-Schritte-
   User-Workflow) dokumentiert man dort, nicht in separaten Dateien.
-- **Kampagnenmodell:** Jede Änderung am Kampagnenmodell wird zusätzlich in
-  [`docs/idee.md`](./docs/idee.md) dokumentiert – neue, geänderte oder entfernte Felder in
+- **Kampagnenmodell:** [`docs/idee.md`](./docs/idee.md) ist die nutzerseitige Referenz für
   `campaign.yaml`, Empfängertypen, Platzhalter sowie die Struktur von Templates und
-  Anleitungen. Dort steht die nutzerseitige Referenz.
+  Anleitungen. Jede Änderung am Modell wird dort mitgepflegt:
+  - neue Felder bei den Pflicht- oder optionalen Feldern ergänzen und im Beispiel zeigen,
+  - geänderte Bedeutung eines Feldes an der bisherigen Stelle anpassen,
+  - entfallene Felder und Empfängertypen streichen.
+
+  Die Datei wird öffentlich unter `/idee` ausgeliefert; interne Hinweise für Beitragende
+  gehören daher nicht hinein, sondern in diese Datei.
 
 ## Befehle
 

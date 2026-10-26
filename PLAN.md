@@ -371,8 +371,8 @@ sort: 2   # danach
 ```
 
 Die nutzerseitige Referenz zum Kampagnenmodell (Felder, Empfängertypen, Platzhalter,
-Template- und Anleitungsstruktur) steht in [`docs/idee.md`](./docs/idee.md). Jede Änderung
-am Modell wird dort mitgepflegt.
+Template- und Anleitungsstruktur) steht in [`docs/idee.md`](./docs/idee.md) und wird bei
+jeder Modelländerung mitgepflegt; die Pflege-Regel für Beitragende steht in `AGENTS.md`.
 
 Für **Anleitungstypen** (M7, z. B. `ep-petition`) kommt statt des Briefes eine Anleitung
 hinzu: `instructions/<typ>.md` mit YAML-Frontmatter (`title`, `url`, `linkLabel`,
