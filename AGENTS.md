@@ -80,7 +80,7 @@ src/components/            PlzInput, SenderForm, RecipientTypeSelect, RecipientL
                            ManualRecipientForm, LetterPreview, CopyFields,
                            ContactFormFields, InstructionCard
 src/lib/                   campaigns, template, storage, lookup, recipientTypes,
-                           recipientRoles, sender, export, markdown, routes
+                           recipientRoles, fraktionen, sender, export, markdown, routes
 src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
                            Netzbetreiber (M6), Instruction (M7), ManualRecipient,
                            Recipient/RecipientCandidate, Wahlkreis, Campaign, Sender
@@ -94,13 +94,21 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
 - Absenderdaten nur lokal im Browser: `localStorage`-Key `demokratiepost.sender.v1`
   (versioniert, siehe `src/lib/storage.ts`).
 - Manuell erfasste Empfänger ebenfalls nur lokal, **ein Key pro Typ**:
-  `demokratiepost.empfaenger.<typ>.v1`. Ausnahmen sind `landtag` (bei leerer Suche:
-  `emptyFallback`) und die kommunalen Typen `landrat`/`buergermeister` sowie `netzbetreiber`
-  (immer sichtbares, beim Treffer vorbefülltes Formular: `prefillForm`).
+  `demokratiepost.empfaenger.<typ>.v1`. Ausnahmen sind `landtag`, `mdb-regierung` und
+  `mdb-opposition` (bei leerer Suche: `emptyFallback`) und die kommunalen Typen
+  `landrat`/`buergermeister` sowie `netzbetreiber` (immer sichtbares, beim Treffer
+  vorbefülltes Formular: `prefillForm`).
   Zusätzlich wird der ausgewählte Suchtreffer bei allen durchsuchbaren Typen unter
   `demokratiepost.auswahl.<typ>.v1` gemerkt und beim Typwechsel direkt wieder angezeigt
   (bei `prefillForm` bleibt das Formular die Quelle, der Suchtreffer liefert die Metadaten;
   eine neue Auswahl ersetzt sie). Registry: `src/lib/recipientTypes.ts`.
+- **MdB nach Regierung/Opposition**: `mdb-regierung` und `mdb-opposition` nutzen denselben
+  PLZ-Lookup wie `mdb`, filtern die Direktmandate aber über `src/lib/fraktionen.ts`
+  (21. Wahlperiode: Regierung CDU/CSU + SPD; Opposition AfD, Bündnis 90/Die Grünen,
+  Die Linke; Fraktionslose gehören weder der Regierung noch der Opposition an). Bei einem
+  Koalitionswechsel nur diese Listen pflegen. Beide Typen haben `emptyFallback`, weil das
+  Direktmandat der jeweils anderen Gruppe angehören kann; derzeit sind sie nur in
+  `redispatch-2026-02` gelistet.
 - **Anleitungstypen** (`instruction: true`, z. B. `ep-petition`, M7): kein Lookup, kein
   Adressformular, kein Druck/PDF. Die Anleitung liegt in
   `campaigns/<id>/instructions/<typ>.md` (Markdown + YAML-Frontmatter mit `url`,

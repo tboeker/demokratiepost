@@ -42,7 +42,7 @@ Das Ziel: **möglichst große Reichweite durch eine möglichst kleine Hürde.**
 
 ## Projektverlauf
 
-Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M7 sind umgesetzt.
+Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M8 sind umgesetzt.
 
 - **M1 – Gerüst:** Vite + React + TypeScript, GitHub-Pages-Deploy, Kampagnen-Loader, Platzhalter-Engine.
 - **M2 – Bundestag:** PLZ → Wahlkreis → Direktmandat, Absenderdaten lokal gespeichert, Briefvorschau, PDF/Druck, Kontaktformular + „Nachricht kopieren“.
@@ -52,6 +52,8 @@ Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M7 sind umgesetzt.
 - **M6 – Netzbetreiber Strom:** Zuordnung aus MaStR-PV-Anlagen; 8.527 von 8.585 PLZ (99,3 %); Anteil und Quelle sichtbar; kein Grundversorger.
 - **M7 – Anleitungs-Empfänger:** Empfänger mit reinem Webformular (z. B. Petition beim Europäischen Parlament) erhalten eine gepflegte Anleitung und Kopierfelder statt
   Adresse und Brief; kein Druck/PDF.
+- **M8 – Regierung/Opposition:** Bundestagsabgeordnete zusätzlich getrennt nach Regierungs-
+  und Oppositionsfraktionen (`mdb-regierung`, `mdb-opposition`) mit eigenen Musterschreiben.
 
 **Offen (G7):** Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH; weitere Landtags-Kontakte nach dem NRW-Muster. Stadtwerke bleiben manuell.
 
@@ -109,6 +111,10 @@ Beispiel (gekürzt):
 ### Empfängertypen
 
 - `mdb` – Bundestagsabgeordnete(r); Suche über die PLZ.
+- `mdb-regierung` – Bundestagsabgeordnete der Regierungsfraktionen; Suche über die PLZ,
+  gefiltert nach Fraktion.
+- `mdb-opposition` – Bundestagsabgeordnete der Oppositionsfraktionen; Suche über die PLZ,
+  gefiltert nach Fraktion, manueller Fallback.
 - `landtag` – Landtagsabgeordnete(r); Suche über die PLZ, manueller Fallback.
 - `landrat` – Landrätin/Landrat; Suche über die PLZ und vorbefülltes Formular.
 - `buergermeister` – Bürgermeister(in); Suche über die PLZ und vorbefülltes Formular.

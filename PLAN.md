@@ -14,7 +14,9 @@ bei Typen ohne Suche – manuell erfasst. Das zum Typ passende Musterschreiben (
 Empfänger bereits eingesetzt) wird versandfertig aufbereitet. Ziel: maximale Reichweite durch
 minimale Hürde.
 
-Mögliche Empfängertypen: Bundestagsabgeordnete, Landtagsabgeordnete, Landrat, Bürgermeister, Stadtwerke, Netzbetreiber, Europäisches Parlament (Petition).
+Mögliche Empfängertypen: Bundestagsabgeordnete (auch getrennt nach Regierung/Opposition),
+Landtagsabgeordnete, Landrat, Bürgermeister, Stadtwerke, Netzbetreiber, Europäisches
+Parlament (Petition).
 
 ## Entscheidungen (fix)
 
@@ -39,7 +41,8 @@ Browser (statische Seite) – Fünf-Schritte-Ablauf (siehe *User-Workflow*)
 │      + instructions/<typ>.md für Webformular-Typen, M7)
 ├── 2. Absenderdaten: Eingabe + localStorage (demokratiepost.sender.v1)
 ├── 3. Empfängertyp: Auswahl aus campaign.recipients → bestimmt das Template
-├── 4. Empfänger: Suche (mdb, landtag, landrat, buergermeister, netzbetreiber) mit PLZ-Vorbelegung
+├── 4. Empfänger: Suche (mdb, mdb-regierung, mdb-opposition, landtag, landrat,
+│      buergermeister, netzbetreiber) mit PLZ-Vorbelegung
 │      (Lookup: PLZ-Präfix → public/data/plz/<prefix>.json bzw.
 │       public/data/plz-landtag/<prefix>.json + Roster public/data/landtag/<staat>.json
 │       bzw. public/data/kommunen/plz-kommunen/<prefix>.json + Regionaleinheiten
@@ -95,12 +98,17 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
 4. **Empfänger suchen bzw. manuell erfassen** – typabhängig über eine Registry
    (`src/lib/recipientTypes.ts`: Label, `searchable`, Lookup-Funktion, `emptyFallback`,
    `prefillForm`, `instruction`):
-   - **Typ mit Suche** (`mdb`, `landtag`, `landrat`, `buergermeister`, `netzbetreiber`):
+   - **Typ mit Suche** (`mdb`, `mdb-regierung`, `mdb-opposition`, `landtag`, `landrat`,
+     `buergermeister`, `netzbetreiber`):
      PLZ-Feld **mit `absender.plz` vorbelegt** (nur initiale Vorbelegung, der Nutzer kann
      überschreiben).
      Wie bisher mehrere Treffer bei mehrdeutiger PLZ; die Auswahl erfolgt **immer manuell** –
      auch bei nur einem Treffer wird nicht automatisch vorausgewählt.
      - `mdb`: PLZ → Bundestagswahlkreis → Direktmandat(e), Shards `public/data/plz/…`.
+     - `mdb-regierung` / `mdb-opposition` (M8, umgesetzt): derselbe PLZ-Lookup wie `mdb`,
+       gefiltert über die Fraktionszuordnung in `src/lib/fraktionen.ts` (nur Direktmandate).
+       Gehört das Direktmandat der jeweils anderen Gruppe an, liefert die Suche nichts und
+       das manuelle Formular wird angeboten (`emptyFallback`).
      - `landtag`: PLZ → Bundesland + Landtagswahlkreis → Direktmandat, Shards
        `public/data/plz-landtag/…` + Roster `public/data/landtag/<staat>.json`.
        Suche nur für Bundesländer, deren Datenstand zur laufenden Wahlperiode passt
@@ -121,9 +129,11 @@ Alle Schritte auf einer Seite als nummerierte Karten (kein Wizard). **Umgesetzt.
      Feldern: Anrede, Name, Behörde/Organisation, Straße, PLZ, Ort, E-Mail. Leere Anrede →
      automatische Anrede aus dem Namen. Die erfassten Daten werden **pro Typ** gespeichert:
      `demokratiepost.empfaenger.<typ>.v1` (versioniert wie der Absender, `src/lib/storage.ts`).
-   - **Fallback für Typen mit `emptyFallback`** (`landtag`): Liefert die Suche keine Treffer
-     (z. B. Bundesland ohne Landtagsdaten oder PLZ ohne besetztes Direktmandat), bietet
-     Schritt 4 zusätzlich das manuelle Formular an – mit derselben Speicherung pro Typ.
+   - **Fallback für Typen mit `emptyFallback`** (`landtag`, `mdb-regierung`,
+     `mdb-opposition`): Liefert die Suche keine Treffer (z. B. Bundesland ohne
+     Landtagsdaten, PLZ ohne besetztes Direktmandat oder Direktmandat der jeweils anderen
+     Fraktionsgruppe), bietet Schritt 4 zusätzlich das manuelle Formular an – mit derselben
+     Speicherung pro Typ.
    - **Vorbefüllte Vorlage für Typen mit `prefillForm`** (`landrat`, `buergermeister`,
      `netzbetreiber`): Das manuelle Formular ist **immer** sichtbar und wird beim Auswählen
      eines Treffers mit Behörde/Organisation, Anschrift, E-Mail und – soweit bekannt – Name
@@ -320,6 +330,8 @@ campaigns/
     campaign.yaml        # id, titel, betreff, betreff je empfängertyp, thema, beschreibung, empfängertypen, aktiv, laufzeit
     templates/
       mdb.md             # Musterschreiben für Bundestagsabgeordnete (Typ "mdb")
+      mdb-regierung.md   # Bundestagsabgeordnete der Regierungsfraktionen (Typ "mdb-regierung", M8)
+      mdb-opposition.md  # Bundestagsabgeordnete der Oppositionsfraktionen (Typ "mdb-opposition", M8)
       landtag.md         # weiteres Schreiben pro Empfängertyp (Typ "landtag", M4)
       landrat.md         # Gemeinde-Ebene: Kreisverwaltung (Typ "landrat", M5)
       buergermeister.md  # Gemeinde-Ebene: Rathaus/Gemeindeverwaltung (Typ "buergermeister", M5)
@@ -426,11 +438,15 @@ und beim nächsten Besuch automatisch vorausgefüllt – kein erneutes Tippen.
 demokratiepost/
 ├── .github/workflows/deploy.yml      # Build + Deploy nach GitHub Pages
 ├── campaigns/                        # Content (versioniert, von Hand pflegbar)
-│   └── redispatch-2026-01/
+│   ├── redispatch-2026-01/
+│   │   ├── campaign.yaml
+│   │   ├── templates/ (mdb.md, landtag.md, landrat.md, buergermeister.md,
+│   │   │              netzbetreiber.md, ep-petition.md)
+│   │   └── instructions/ (ep-petition.md – Anleitung + Formularfelder, M7)
+│   └── redispatch-2026-02/           # derzeit active: false
 │       ├── campaign.yaml
-│       ├── templates/ (mdb.md, landtag.md, landrat.md, buergermeister.md,
-│       │              netzbetreiber.md, ep-petition.md)
-│       └── instructions/ (ep-petition.md – Anleitung + Formularfelder, M7)
+│       ├── templates/ (zusätzlich mdb-regierung.md, mdb-opposition.md – M8)
+│       └── instructions/ (ep-petition.md)
 ├── scripts/                          # Datenpipeline (Build-Zeit, nicht im Client)
 │   ├── fetch-bundestag.mjs           # bundestag.de-Profile → data/mdb-profiles.json
 │   ├── fetch-mdb-emails.mjs          # Kürschner-PDF + Homepage-Fallback → source/mdb-emails.json
@@ -468,7 +484,7 @@ demokratiepost/
 │   │                 ManualRecipientForm, LetterPreview, CopyFields,
 │   │                 ContactFormFields, InstructionCard)
 │   ├── lib/         (campaigns, template, storage, lookup, recipientTypes,
-│   │                 recipientRoles, sender, export, markdown)
+│   │                 recipientRoles, fraktionen, sender, export, markdown)
 │   └── types.ts     (ManualRecipient, Mandatstraeger (MdB/Landtag), Kommune (M5),
 │                     Netzbetreiber (M6), Instruction (M7);
 │                     Recipient/RecipientCandidate-Union)
@@ -515,8 +531,13 @@ demokratiepost/
    *M7 im Detail — Anleitungs-Empfänger*)_: Empfänger mit reinem Webformular (erster Fall:
    Europäisches Parlament – Petition) erhalten eine Anleitung plus Kopierfelder statt
    Adresse/Brief; kein Druck/PDF.
+8. **M8 — MdB nach Regierung/Opposition** _(umgesetzt, Details im Abschnitt
+   *M8 im Detail — MdB nach Regierung/Opposition*)_: zusätzliche Empfängertypen
+   `mdb-regierung` und `mdb-opposition`, gefiltert über `src/lib/fraktionen.ts`, mit
+   eigenen Musterschreiben. Derzeit nur in der deaktivierten Kampagne
+   `redispatch-2026-02` gelistet.
 
-M1–M7 sind umgesetzt. Offen ist G7 (Ersatzquellen für Stadtstaaten und Landrät:innen in
+M1–M8 sind umgesetzt. Offen ist G7 (Ersatzquellen für Stadtstaaten und Landrät:innen in
 BW/SH) sowie weitere Landtags-Kontakt-Scraper nach dem NRW-Muster.
 
 ## M4 im Detail — Landtag (umgesetzt)
@@ -1245,11 +1266,79 @@ steps:
 - Regression: `mdb`, `landtag`, `landrat`, `buergermeister`, `netzbetreiber` unverändert.
 - Fehlende `instructions/<typ>.md` → Hinweis statt leerer Karte.
 
+## M8 im Detail — MdB nach Regierung/Opposition (umgesetzt)
+
+**Ziel:** Zwei zusätzliche Empfängertypen für Bundestagsabgeordnete, damit je nach Rolle
+unterschiedliche Schreiben verschickt werden können: `mdb-regierung` für Abgeordnete der
+Regierungsfraktionen, `mdb-opposition` für Abgeordnete der Oppositionsfraktionen. `mdb`
+bleibt unverändert für alle Abgeordneten.
+
+**Status:** umgesetzt; derzeit nur in der deaktivierten Kampagne `redispatch-2026-02`
+gelistet. Sobald die Kampagne mit `active: true` veröffentlicht wird, erscheinen die Typen
+in Schritt 3.
+
+### Entscheidungen (fix)
+
+| Thema | Entscheidung |
+|---|---|
+| Verhältnis zu `mdb` | zusätzlich; `mdb` bleibt für alle Abgeordneten. |
+| Zuordnung | `src/lib/fraktionen.ts`: Regierung CDU/CSU + SPD; Opposition AfD, Bündnis 90/Die Grünen, Die Linke; Fraktionslose gehören weder der Regierung noch der Opposition an (nur `mdb`). |
+| Suche | derselbe PLZ-Lookup wie `mdb`; nur Direktmandate, gefiltert nach Fraktion. |
+| Fallback | `emptyFallback`: Gehört das Direktmandat der anderen Gruppe an oder ist es vakant, erscheint das manuelle Formular. |
+| Templates | eigene Dateien `templates/mdb-regierung.md` und `templates/mdb-opposition.md`; `subjects` je Typ. |
+| Speicherung | wie alle Typen `demokratiepost.empfaenger.<typ>.v1` bzw. `demokratiepost.auswahl.<typ>.v1`. |
+
+### Client
+
+- `src/lib/fraktionen.ts`: gepflegte Listen + `istRegierungsfraktion()`/`istOppositionsfraktion()`.
+- `src/lib/lookup.ts`: `findRegierungMdbByPlz()` / `findOppositionMdbByPlz()` als Filter um
+  `findRecipientsByPlz()`.
+- `src/lib/recipientTypes.ts`: Registry-Einträge mit `emptyFallback` und `hint`; neuer
+  Helfer `recipientTypeHint()` für den Zusatzhinweis in Schritt 3.
+- `src/App.tsx`: Hinweis in Schritt 3; typspezifische Leer-Treffer-Meldung in Schritt 4
+  („kein Direktmandat einer Regierungs-/Oppositionsfraktion“).
+- `src/lib/recipientRoles.ts`: manuelle Fallback-Empfänger erhalten die Rolle
+  „Bundestagsabgeordnete:r“.
+
+### Kampagne
+
+- `campaigns/redispatch-2026-02/campaign.yaml`: `recipients` um `mdb-regierung` und
+  `mdb-opposition` ergänzt, `subjects` je Typ.
+- `templates/mdb-regierung.md`: Regierungsverantwortung, Aufforderung zur Streichung des
+  Redispatch-Vorbehalts und zum Nein-Stimmen, falls er bleibt.
+- `templates/mdb-opposition.md`: Oppositionsrolle, Aufforderung zu Nein-Stimme,
+  Änderungsantrag und öffentlichem Druck.
+- **Textentwürfe vor Veröffentlichung mit Kail abstimmen.**
+
+### Pflege und Grenzen
+
+- Die Fraktionslisten sind **keine amtliche Quelle**, sondern eine gepflegte Zuordnung zur
+  laufenden Koalition. Nach einem Koalitionswechsel nur `src/lib/fraktionen.ts` anpassen.
+- Über die PLZ sind weiterhin nur Direktmandate auffindbar. Für Listenmandate bleibt das
+  manuelle Formular; das ist besonders relevant, wenn das Direktmandat der anderen Gruppe
+  angehört.
+- `fraktionslos` ist weder Regierung noch Opposition; diese Abgeordneten erscheinen nur
+  unter `mdb`.
+
+### Abnahme
+
+- `npm run build` sauber.
+- Kampagne `redispatch-2026-02` temporär aktivieren: Schritt 3 zeigt beide Typen samt
+  Hinweis; PLZ mit Regierungs-Direktmandat (z. B. 10553) liefert unter `mdb-regierung`
+  einen Treffer, unter `mdb-opposition` keinen (und umgekehrt, z. B. 01067).
+- Leerer Treffer → manuelles Formular; Vorschau und `mailto`/Kontaktformular funktionieren.
+- Regression: `mdb`, `landtag`, `landrat`, `buergermeister`, `netzbetreiber`,
+  `ep-petition` unverändert.
+
 ## Offene Punkte (entscheiden beim Bauen, blockieren nicht)
 
 - **Kampagnen-Autor**: Wer schreibt die Templates — Nutzer oder strukturiert von Kail?
-  (Die Entwürfe `templates/landtag.md` und `templates/netzbetreiber.md` werden vor
+  (Die Entwürfe `templates/landtag.md`, `templates/netzbetreiber.md`,
+  `templates/mdb-regierung.md` und `templates/mdb-opposition.md` werden vor
   Veröffentlichung mit Kail abgestimmt.)
+- **M8 – Koalitionswechsel**: Die Zuordnung Regierung/Opposition in
+  `src/lib/fraktionen.ts` ist gepflegt, nicht amtlich. Nach einem Koalitionswechsel die
+  Listen aktualisieren; `fraktionslos` bleibt außen vor.
 - **Bündel-Download**: Ein Brief pro MdB (Standard) oder „an alle im Wahlkreis" als Sammel-PDF?
 - **Domain**: eigene Domain `https://demokratiepost.de` (GitHub Pages, `base: '/'`,
   `public/CNAME`).
@@ -1295,14 +1384,16 @@ steps:
 
 ## Nächster Schritt
 
-M1–M7 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB-, Landtags-, kommunale und
+M1–M8 sind umgesetzt: Der Fünf-Schritte-Ablauf steht, MdB-, Landtags-, kommunale und
 Netzbetreiber-Daten sind vollständig (Bund: 630 Mandate, 299 Wahlkreise; Landtage: 16 Roster,
 davon 11 durchsuchbar, 6.027 PLZ in 85 Shards; Kommunen: 401 Kreise, 1.202 Verbände,
 12.088 Gemeinden, 8.585 PLZ in 95 Shards; Netzbetreiber: Zuordnung aus dem MaStR für die
 PLZ des Bundestags-Index). Der Client bietet Suche, Manual-Fallback, das vorbefüllte
-M5/M6-Formular und für `ep-petition` eine Anleitung mit Kopierfeldern; die
+M5/M6-Formular und für `ep-petition` eine Anleitung mit Kopierfeldern; die aktive
 Redispatch-Kampagne enthält `mdb.md`, `landtag.md`, `landrat.md`, `buergermeister.md`,
-`netzbetreiber.md` und `ep-petition.md` sowie `instructions/ep-petition.md`.
+`netzbetreiber.md` und `ep-petition.md` sowie `instructions/ep-petition.md`. Die derzeit
+deaktivierte `redispatch-2026-02` enthält zusätzlich `mdb-regierung.md` und
+`mdb-opposition.md`.
 
 Offen ist **G7** (Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH) sowie weitere
 Landtags-Kontakt-Scraper nach dem NRW-Muster. Ein Grundversorger-Typ bleibt bewusst außen

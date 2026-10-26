@@ -1,4 +1,5 @@
 import type { Kommune, Mandatstraeger, Netzbetreiber, PlzIndex } from '../types';
+import { istOppositionsfraktion, istRegierungsfraktion } from './fraktionen';
 
 /** Prüft, ob eine Eingabe eine gültige fünfstellige PLZ ist. */
 export function isValidPlz(plz: string): boolean {
@@ -55,6 +56,22 @@ export async function findRecipientsByPlz(plz: string): Promise<Mandatstraeger[]
   return all.filter(
     (mdB) => mdB.wahlkreis && wahlkreisNumbers.includes(mdB.wahlkreis.number),
   );
+}
+
+/**
+ * Bundestags-Direktmandate einer PLZ, beschränkt auf die Regierungsfraktionen.
+ * Grundlage der Zuordnung: `src/lib/fraktionen.ts`.
+ */
+export async function findRegierungMdbByPlz(plz: string): Promise<Mandatstraeger[]> {
+  return (await findRecipientsByPlz(plz)).filter((mdB) => istRegierungsfraktion(mdB.party));
+}
+
+/**
+ * Bundestags-Direktmandate einer PLZ, beschränkt auf die Oppositionsfraktionen.
+ * Fraktionslose zählen nicht zur Opposition und erscheinen nur bei `mdb`.
+ */
+export async function findOppositionMdbByPlz(plz: string): Promise<Mandatstraeger[]> {
+  return (await findRecipientsByPlz(plz)).filter((mdB) => istOppositionsfraktion(mdB.party));
 }
 
 /** Ein Eintrag im Landtags-PLZ-Shard: Bundesland + Wahlkreisnummern. */

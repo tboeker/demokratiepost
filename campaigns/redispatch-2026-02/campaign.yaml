@@ -1,22 +1,26 @@
 id: redispatch-2026-02
-title: "Redispatch-Vorbehalt: Vorsätzlicher EU-Rechtsbruch"
+title: "Update 26.10.2026 - Redispatch-Vorbehalt"
 subject: "Anstehende Abstimmung zum Netzanschlusspaket (Drs. 21/7866, 21/8299) – Warnung vor vorsätzlichem Europarechtsbruch und fossiler Kostenfalle"
 theme: Energiewende
 # `false` blendet die Kampagne aus der Auswahl aus (Dateien bleiben erhalten).
-active: false
+active: true
 description: >
-  Update: 26.10.2026
+  Update 26.10.2026:
   Vorsätzlicher EU-Rechtsbruch: Der Redispatch-Vorbehalt verstößt frontal gegen Art. 13 Abs. 7 VO (EU) 2019/943 – während Lobbyisten frech zugeben, im „Team Bundesregierung“ zu spielen!
-  ​Die 3-Milliarden-Lüge: Über 2,6 Milliarden Euro der Redispatchkosten fließen an fossile Gaskraftwerke, nicht an Wind und Sonne! 
+  ​Die 3-Milliarden-Lüge: Über 2,6 Milliarden Euro der Redispatchkosten fließen an fossile Gaskraftwerke, nicht an Wind und Sonne!
   ​100 GW Speicher blockiert: Statt Netzkosten um Milliarden zu senken, wird die Energiezukunft abgewürgt.
 recipients:
   - mdb
+  - mdb-regierung
+  - mdb-opposition
   - landtag
   - landrat
   - buergermeister
-  - netzbetreiber  
+  - netzbetreiber
 subjects:
   mdb: "Abstimmung zum Netzanschlusspaket: Warnung vor Europarechtsbruch und Speicherblockade! (Drs. 21/7866, 21/8299)"
+  mdb-regierung: "Abstimmung zum Netzanschlusspaket: Warnung vor Europarechtsbruch und Speicherblockade! (Drs. 21/7866, 21/8299)"
+  mdb-opposition: "Abstimmung zum Netzanschlusspaket: Warnung vor Europarechtsbruch und Speicherblockade! (Drs. 21/7866, 21/8299)"
   landtag: "Warum blockieren wir über 100 GW Speicher und riskieren EU-Klagen?"
   landrat: "Warum blockieren wir über 100 GW Speicher und riskieren EU-Klagen?"
   buergermeister: "Warum blockieren wir über 100 GW Speicher und riskieren EU-Klagen?"

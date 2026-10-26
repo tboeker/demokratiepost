@@ -3,8 +3,11 @@ import {
   findLandratByPlz,
   findLandtagRecipientsByPlz,
   findNetzbetreiberByPlz,
+  findOppositionMdbByPlz,
   findRecipientsByPlz,
+  findRegierungMdbByPlz,
 } from './lookup';
+import { OPPOSITIONSFRAKTIONEN, REGIERUNGSFRAKTIONEN } from './fraktionen';
 import type {
   Kommune,
   Mandatstraeger,
@@ -26,9 +29,10 @@ export interface RecipientTypeDef {
   lookup?: (plz: string) => Promise<RecipientCandidate[]>;
   /**
    * Bietet zusätzlich zum Suchfeld das manuelle Formular an, wenn die Suche
-   * keine Treffer liefert (z. B. `landtag` für Bundesländer ohne Landtagsdaten
-   * oder PLZ ohne besetztes Direktmandat). Die Eingaben werden dann – als
-   * Ausnahme von der Regel – trotz Suche pro Typ gespeichert.
+   * keine Treffer liefert (z. B. `landtag` für Bundesländer ohne Landtagsdaten,
+   * PLZ ohne besetztes Direktmandat oder – bei `mdb-regierung`/`mdb-opposition` –
+   * ein Direktmandat der jeweils anderen Fraktionsgruppe). Die Eingaben werden
+   * dann – als Ausnahme von der Regel – trotz Suche pro Typ gespeichert.
    */
   emptyFallback?: boolean;
   /**
@@ -44,6 +48,11 @@ export interface RecipientTypeDef {
    * `campaigns/<id>/instructions/<typ>.md` samt Kopierfeldern.
    */
   instruction?: boolean;
+  /**
+   * Zusatzhinweis für Schritt 3, z. B. die Einschränkung auf Regierungs- oder
+   * Oppositionsfraktionen bei `mdb-regierung`/`mdb-opposition`.
+   */
+  hint?: string;
 }
 
 const BUERGERMEISTER: RecipientTypeDef = {
@@ -59,6 +68,24 @@ const BUERGERMEISTER: RecipientTypeDef = {
  */
 const RECIPIENT_TYPES: Record<string, RecipientTypeDef> = {
   mdb: { id: 'mdb', label: 'Bundestagsabgeordnete(r)', lookup: findRecipientsByPlz },
+  'mdb-regierung': {
+    id: 'mdb-regierung',
+    label: 'Bundestagsabgeordnete (Regierung)',
+    lookup: findRegierungMdbByPlz,
+    emptyFallback: true,
+    hint:
+      'Zeigt nur Direktmandate der Regierungsfraktionen (' +
+      `${REGIERUNGSFRAKTIONEN.join(', ')}).`,
+  },
+  'mdb-opposition': {
+    id: 'mdb-opposition',
+    label: 'Bundestagsabgeordnete (Opposition)',
+    lookup: findOppositionMdbByPlz,
+    emptyFallback: true,
+    hint:
+      'Zeigt nur Direktmandate der Oppositionsfraktionen (' +
+      `${OPPOSITIONSFRAKTIONEN.join(', ')}); Fraktionslose bleiben außen vor.`,
+  },
   landtag: {
     id: 'landtag',
     label: 'Landtagsabgeordnete(r)',
@@ -101,6 +128,11 @@ export function recipientTypeDef(recipientType: string | undefined): RecipientTy
 /** Anzeigename eines Empfängertyps (leer für undefinierten Typ). */
 export function recipientTypeLabel(recipientType: string | undefined): string {
   return recipientTypeDef(recipientType).label;
+}
+
+/** Zusatzhinweis eines Empfängertyps (leer, wenn keiner hinterlegt ist). */
+export function recipientTypeHint(recipientType: string | undefined): string {
+  return recipientTypeDef(recipientType).hint ?? '';
 }
 
 /** true, wenn der Typ über die PLZ durchsucht werden kann (Lookup hinterlegt). */

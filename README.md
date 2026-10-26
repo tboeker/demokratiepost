@@ -55,6 +55,8 @@ kein manuelles Einsetzen mehr.
 Je nach Thema können unterschiedliche Akteure angeschrieben werden. Mögliche Empfänger sind:
 
 - Bundestagsabgeordnete
+- Bundestagsabgeordnete der Regierungs- bzw. Oppositionsfraktionen (getrennte
+  Musterschreiben)
 - Landtagsabgeordnete
 - Landrat
 - Bürgermeister
@@ -178,7 +180,8 @@ Der Prototyp beginnt bewusst klein:
   und Landrät:in (M5, inkl. vorbefülltem, editierbarem Empfängerformular) sowie
   Netzbetreiber Strom (M6, Zuordnung aus dem Marktstammdatenregister). Für Empfänger mit
   reinem Webformular (M7, z. B. Petition beim Europäischen Parlament) zeigt die App eine
-  Anleitung mit Kopierfeldern statt eines Briefes.
+  Anleitung mit Kopierfeldern statt eines Briefes. Zusätzlich gibt es Bundestagsabgeordnete
+  getrennt nach Regierungs- und Oppositionsfraktionen (M8, eigene Musterschreiben).
 - **Als Nächstes:** Ersatzquellen für die Amtsinhaber:innen in Stadtstaaten und für
   Landrät:innen in Baden-Württemberg/Schleswig-Holstein (G7); weitere
   Landtags-Kontakt-Scraper nach dem NRW-Muster. Stadtwerke bleiben manuell, ein

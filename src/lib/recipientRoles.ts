@@ -59,6 +59,8 @@ export function manualRole(recipient: ManualRecipient, recipientType?: string): 
     case 'landtag':
       return 'Landtagsabgeordnete:r';
     case 'mdb':
+    case 'mdb-regierung':
+    case 'mdb-opposition':
       return 'Bundestagsabgeordnete:r';
     default:
       return '';

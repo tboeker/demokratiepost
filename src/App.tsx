@@ -24,6 +24,7 @@ import {
   isNetzbetreiber,
   isSearchable,
   lookupRecipients,
+  recipientTypeHint,
   recipientTypeLabel,
 } from './lib/recipientTypes';
 import { recipientRole } from './lib/recipientRoles';
@@ -64,6 +65,46 @@ import type {
 } from './types';
 
 type SearchStatus = 'idle' | 'loading' | 'done' | 'empty' | 'error';
+
+/** Typspezifischer Hinweis, wenn die PLZ-Suche keine Treffer liefert. */
+function emptyResultHint(
+  recipientType: string,
+  plz: string,
+  prefillForm: boolean,
+): string {
+  switch (recipientType) {
+    case 'landtag':
+      return (
+        `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
+        'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
+        'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
+      );
+    case 'netzbetreiber':
+      return (
+        `Für die PLZ ${plz} wurde kein zuständiger Netzbetreiber gefunden. ` +
+        'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
+      );
+    case 'mdb-regierung':
+      return (
+        `Für die PLZ ${plz} wurde kein Direktmandat einer Regierungsfraktion gefunden. ` +
+        'Das Direktmandat gehört einer anderen Fraktion, ist fraktionslos oder vakant – ' +
+        'erfasse den Empfänger unten manuell.'
+      );
+    case 'mdb-opposition':
+      return (
+        `Für die PLZ ${plz} wurde kein Direktmandat einer Oppositionsfraktion gefunden. ` +
+        'Das Direktmandat gehört einer anderen Fraktion, ist fraktionslos oder vakant – ' +
+        'erfasse den Empfänger unten manuell.'
+      );
+    default:
+      return prefillForm
+        ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
+            'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
+        : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
+            'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
+            '(Zweitstimmendeckung oder vakantes Mandat).';
+  }
+}
 
 /** Füllt die empfaenger.*-Platzhalter aus Suchtreffern oder manuellen Daten. */
 function recipientContext(
@@ -251,6 +292,7 @@ export default function App() {
   const emptyFallback = hasEmptyFallback(activeType);
   const prefillForm = hasPrefillForm(activeType);
   const instructionMode = hasInstruction(activeType);
+  const typeHint = recipientTypeHint(activeType);
 
   // PLZ-Vorbelegung: initial aus den Absenderdaten, danach frei überschreibbar.
   const [plz, setPlz] = useState(() => sender.plz);
@@ -613,6 +655,7 @@ export default function App() {
                           ? 'Der Empfänger wird im nächsten Schritt über deine Postleitzahl gesucht.'
                           : 'Für diesen Typ gibt es noch keine Suche – trage den Empfänger im nächsten Schritt manuell ein.'}
                   </p>
+                  {typeHint && <p className="hint">{typeHint}</p>}
                 </>
               ) : (
                 <p className="hint">Diese Kampagne hat keine Empfängertypen.</p>
@@ -683,21 +726,7 @@ export default function App() {
                       )}
 
                       {status === 'empty' && (
-                        <p className="hint">
-                          {activeType === 'landtag'
-                            ? `Für die PLZ ${plz} liegen keine Landtagsdaten vor – entweder gibt es für ` +
-                            'dieses Bundesland (noch) keine Zuordnung oder der Wahlkreis hat kein ' +
-                            'besetztes Direktmandat. Erfasse den Empfänger unten manuell.'
-                            : activeType === 'netzbetreiber'
-                              ? `Für die PLZ ${plz} wurde kein zuständiger Netzbetreiber gefunden. ` +
-                              'Prüfe die Eingabe oder erfasse das Unternehmen unten manuell.'
-                              : prefillForm
-                                ? `Für die PLZ ${plz} wurde keine zuständige Verwaltung gefunden. ` +
-                                'Prüfe die Eingabe oder erfasse den Empfänger unten manuell.'
-                                : `Für die PLZ ${plz} wurde kein Direktmandat gefunden. Prüfe die Eingabe – ` +
-                                'oder der Wahlkreis hat derzeit keine direkt gewählte Person ' +
-                                '(Zweitstimmendeckung oder vakantes Mandat).'}
-                        </p>
+                        <p className="hint">{emptyResultHint(activeType, plz, prefillForm)}</p>
                       )}
                       {status === 'error' && <p className="error">{error}</p>}
                       {status === 'done' && (
