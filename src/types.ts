@@ -6,6 +6,11 @@ export interface CampaignMeta {
   title: string;
   /** Betreff des Briefes (Platzhalter `{{ betreff }}` und Formularfeld „Betreff“). */
   subject: string;
+  /**
+   * Betreff je Empfängertyp, z. B. `{ mdb: "…", landtag: "…" }`.
+   * Fehlt ein Typ, gilt `subject`.
+   */
+  subjects?: Record<string, string>;
   /** Übergeordnetes Thema, z. B. "Energiewende". */
   theme?: string;
   /** Kurzbeschreibung für die Auswahl. */

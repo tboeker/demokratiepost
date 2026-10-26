@@ -8,7 +8,7 @@ import { PlzInput } from './components/PlzInput';
 import { RecipientList } from './components/RecipientList';
 import { RecipientTypeSelect } from './components/RecipientTypeSelect';
 import { SenderForm } from './components/SenderForm';
-import { loadCampaigns } from './lib/campaigns';
+import { loadCampaigns, subjectForRecipient } from './lib/campaigns';
 import {
   genericSalutation,
   isValidPlz,
@@ -301,6 +301,7 @@ export default function App() {
 
   // `ob` ist ein Alias auf `buergermeister`; ein eigenes Template ist nicht nötig.
   const templateType = activeType === 'ob' ? 'buergermeister' : activeType;
+  const subject = subjectForRecipient(campaign, templateType);
   const template = campaign && templateType ? campaign.templates[templateType] : undefined;
   const instruction =
     instructionMode && templateType ? campaign?.instructions[templateType] : undefined;
@@ -456,7 +457,7 @@ export default function App() {
   const letterContext: TemplateContext = useMemo(() => {
     return {
       datum: new Date().toLocaleDateString('de-DE'),
-      betreff: campaign?.subject ?? campaign?.title ?? '',
+      betreff: subject,
       absender: senderContext(sender),
       empfaenger: recipientContext(recipient, activeType, selectedRecipient),
     };
@@ -758,7 +759,7 @@ export default function App() {
               </p>
             )}
             <LetterPreview
-              subject={campaign?.subject ?? campaign?.title ?? ''}
+              subject={subject}
               recipientType={activeType}
               body={letterBody}
               contactBody={contactBody}

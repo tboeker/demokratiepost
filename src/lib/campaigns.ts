@@ -116,3 +116,15 @@ export function loadCampaigns(): Campaign[] {
   campaigns.sort((a, b) => a.title.localeCompare(b.title, 'de'));
   return campaigns;
 }
+
+/**
+ * Betreff für einen Empfängertyp: `subjects.<typ>` überschreibt den
+ * kampagnenweiten `subject`; fehlt beides, dient der Kampagnentitel.
+ */
+export function subjectForRecipient(
+  campaign: Campaign | undefined,
+  recipientType: string,
+): string {
+  if (!campaign) return '';
+  return campaign.subjects?.[recipientType] ?? campaign.subject ?? campaign.title;
+}

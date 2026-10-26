@@ -317,7 +317,7 @@ nur für `data:netz:mastr` nötig; die daraus erzeugten CSVs sind committet.
 ```
 campaigns/
   stromnetz-2026/
-    campaign.yaml        # id, titel, betreff, thema, beschreibung, empfängertypen, aktiv, laufzeit
+    campaign.yaml        # id, titel, betreff, betreff je empfängertyp, thema, beschreibung, empfängertypen, aktiv, laufzeit
     templates/
       mdb.md             # Musterschreiben für Bundestagsabgeordnete (Typ "mdb")
       landtag.md         # weiteres Schreiben pro Empfängertyp (Typ "landtag", M4)
@@ -331,8 +331,17 @@ campaigns/
 
 **Pro Empfängertyp aus `recipients` gibt es genau ein Template** `templates/<typ>.md`;
 die Typ-Auswahl im Workflow (Schritt 3) bestimmt, welches Template gerendert wird.
-Der Betreff (`{{ betreff }}`) bleibt kampagnenweit – ein Betreff pro Typ wäre eine
-spätere Erweiterung (z. B. `subject` pro Typ in der YAML).
+Der Betreff (`subject`, Platzhalter `{{ betreff }}`) ist kampagnenweit; mit `subjects`
+lässt er sich pro Empfängertyp überschreiben. Fehlt der Typ in der Map, gilt `subject`:
+
+```yaml
+subject: "Allgemeiner Betreff"
+subjects:
+  mdb: "Betreff für Bundestagsabgeordnete"
+  landtag: "Betreff für Landtagsabgeordnete"
+```
+
+Der Schlüssel entspricht `templates/<typ>.md` (Alias `ob` → `buergermeister`).
 
 `active: false` deaktiviert eine Kampagne: `loadCampaigns()` überspringt sie, die Dateien
 bleiben aber im Repo und können jederzeit wieder aktiviert werden. Ohne Angabe ist eine

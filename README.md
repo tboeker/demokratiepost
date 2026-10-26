@@ -107,13 +107,22 @@ Kampagnen liegen als Dateien im Repo und werden zur Build-Zeit eingelesen:
 
 ```
 campaigns/<kampagne>/
-├── campaign.yaml             # id, title, subject, theme, description, recipients, active
+├── campaign.yaml             # id, title, subject, subjects, theme, description, recipients, active
 ├── templates/<typ>.md        # Markdown-Template je Empfängertyp (z. B. mdb.md)
 └── instructions/<typ>.md     # Anleitung + Formularfelder für Webformular-Typen (M7)
 ```
 
 Im Template werden Platzhalter in Punktnotation verwendet, z. B. `{{ absender.name }}`
 oder `{{ empfaenger.wahlkreis }}`. Sie werden automatisch mit den passenden Werten gefüllt.
+
+Der Betreff lässt sich pro Empfängertyp überschreiben; ohne Eintrag gilt `subject`:
+
+```yaml
+subject: "Allgemeiner Betreff"
+subjects:
+  mdb: "Betreff für Bundestagsabgeordnete"
+  landtag: "Betreff für Landtagsabgeordnete"
+```
 
 Mit `active: false` lässt sich eine Kampagne deaktivieren: Die Dateien bleiben im Repo,
 sie erscheint aber nicht mehr in der Auswahl. Ohne Angabe ist eine Kampagne aktiv.

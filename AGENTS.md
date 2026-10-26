@@ -118,6 +118,9 @@ src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
   für kommunale Empfänger `{{ empfaenger.organisation }}`, `{{ empfaenger.amt }}`,
   `{{ empfaenger.name }}`; für Netzbetreiber zusätzlich `{{ empfaenger.netzgebiet }}`,
   `{{ empfaenger.anteil }}` und `{{ empfaenger.quelle }}` (Unternehmen ohne `amt`/`name`).
+- `{{ betreff }}` ist der Betreff des aktiven Empfängertyps: `subjects.<typ>` aus
+  `campaign.yaml` überschreibt den kampagnenweiten `subject`; fehlt beides, gilt der
+  Kampagnentitel. Der Typ-Schlüssel folgt dem Template (`ob` → `buergermeister`).
 - Der Abschnitt `<!-- kontaktformular:start -->` … `<!-- kontaktformular:ende -->` im Template
   ist die Nachricht für Kontaktformular/E-Mail (nur Text + Abschlussformel); der Rest ist der
   vollständige Brief. Fehlen die Marker, gilt der ganze Brief als Nachricht.

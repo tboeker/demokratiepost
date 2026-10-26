@@ -1,7 +1,6 @@
 import type { DocKey } from '../lib/docs';
 import { getDoc } from '../lib/docs';
 import { markdownToHtml } from '../lib/markdown';
-import { renderTemplate } from '../lib/template';
 
 interface DocViewProps {
   doc: DocKey;
@@ -10,14 +9,8 @@ interface DocViewProps {
 
 export function DocView({ doc, onBack }: DocViewProps) {
   const content = getDoc(doc);
-  // Use renderTemplate for consistency with the project (though docs have no placeholders)
-  const rendered = renderTemplate(content, {
-    datum: '',
-    betreff: '',
-    absender: {},
-    empfaenger: {},
-  });
-  const html = markdownToHtml(rendered);
+  // Dokumente sind statisch; Platzhalter werden nur in Kampagnen-Templates ersetzt.
+  const html = markdownToHtml(content);
 
   const titles: Record<DocKey, string> = {
     idee: 'Idee',

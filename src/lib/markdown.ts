@@ -2,11 +2,12 @@
  * Wandelt eine kleine, bewusst überschaubare Markdown-Teilmenge in HTML um.
  *
  * Unterstützt: Überschriften (#, ##, ###), Absätze, ungeordnete und geordnete
- * Listen, Fettschrift, Links. Mehr wird in den Dokumenten und Anleitungen
- * nicht verwendet.
+ * Listen, Fettschrift, Inline-Code und Links. Mehr wird in den Dokumenten und
+ * Anleitungen nicht verwendet.
  */
 function inline(text: string): string {
   return text
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, label: string, href: string) => {
       const external = /^https?:\/\//i.test(href);
       const attrs = external ? ' target="_blank" rel="noreferrer"' : '';

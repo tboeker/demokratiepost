@@ -54,3 +54,78 @@ Stand Oktober 2026: Der Fünf-Schritte-Ablauf steht, M1–M7 sind umgesetzt.
   Adresse und Brief; kein Druck/PDF.
 
 **Offen (G7):** Ersatzquellen für Stadtstaaten und Landrät:innen in BW/SH; weitere Landtags-Kontakte nach dem NRW-Muster. Stadtwerke bleiben manuell.
+
+## Kampagnen
+
+Eine Kampagne ist ein Ordner unter `campaigns/`. Alle Inhalte werden beim Build aus Dateien gelesen – es gibt keine Datenbank und keine Laufzeit-Schnittstelle. Eine neue Kampagne lässt sich daher allein durch Dateien ergänzen.
+
+### Aufbau
+
+- `campaigns/` – ein Unterordner pro Kampagne.
+- `campaign.yaml` – Metadaten, Standardbetreff und Empfängertypen.
+- `templates/empfaengertyp.md` – Brieftext für einen Empfängertyp; für jeden Typ in `recipients` gibt es eine Datei (der Alias `ob` nutzt `buergermeister.md`).
+- `instructions/empfaengertyp.md` – Anleitung für Empfänger mit reinem Webformular (optional).
+
+### campaign.yaml
+
+Pflichtfelder:
+
+- `id` – eindeutige Kennung der Kampagne; entspricht in der Regel dem Ordnernamen.
+- `title` – Titel in der Kampagnenauswahl.
+- `subject` – Standardbetreff; erscheint im Brief als `{{ betreff }}` und füllt das Formularfeld „Betreff“.
+- `recipients` – Liste der unterstützten Empfängertypen in der Reihenfolge der Auswahl; der erste Typ ist vorausgewählt.
+
+Optionale Felder:
+
+- `subjects` – Betreff je Empfängertyp, z. B. `subjects.mdb` oder `subjects.landtag`. Fehlt ein Typ, gilt `subject`.
+- `theme` – Thema als Tag über der Beschreibung.
+- `description` – kurze Erläuterung in der Kampagnenauswahl.
+- `active` – `false` blendet die Kampagne aus, ohne ihre Dateien zu löschen (Standard: `true`).
+
+Beispiel (gekürzt):
+
+- `id: beispiel-kampagne`
+- `title: "Beispiel-Kampagne"`
+- `subject: "Allgemeiner Betreff"`
+- `subjects.mdb: "Betreff speziell für Bundestagsabgeordnete"`
+- `theme: Energiewende`
+- `recipients: [mdb, landtag, landrat, buergermeister, netzbetreiber]`
+- `active: true`
+
+### templates/empfaengertyp.md
+
+- Der Dateiname entspricht dem Empfängertyp, z. B. `mdb.md` für `mdb`.
+- Das Template enthält den vollständigen Brief; Absender, Empfängeranschrift, Datum und Betreff werden über Platzhalter eingesetzt.
+- Der Abschnitt zwischen den Markern `kontaktformular:start` und `kontaktformular:ende` ist die Nachricht für Kontaktformular bzw. E-Mail. Fehlen die Marker, gilt der ganze Brief als Nachricht.
+- `{{ betreff }}` wird mit dem Eintrag für den aktiven Empfängertyp aus `subjects` gefüllt; ohne Eintrag gilt `subject`.
+
+### instructions/empfaengertyp.md
+
+- Nur für Anleitungstypen wie `ep-petition`, die ausschließlich ein Webformular anbieten.
+- YAML-Frontmatter: `title`, `url`, `linkLabel`, `fields` und `steps`.
+- Der Markdown-Text beschreibt die Schritte; der Marker `schritte` markiert die Stelle der Schrittliste. Felder aus `fields` werden im jeweiligen Schritt direkt kopierbar angezeigt.
+- Das zugehörige `templates/empfaengertyp.md` liefert den Text, der in das Webformular kopiert wird; es enthält keinen Briefkopf.
+
+### Empfängertypen
+
+- `mdb` – Bundestagsabgeordnete(r); Suche über die PLZ.
+- `landtag` – Landtagsabgeordnete(r); Suche über die PLZ, manueller Fallback.
+- `landrat` – Landrätin/Landrat; Suche über die PLZ und vorbefülltes Formular.
+- `buergermeister` – Bürgermeister(in); Suche über die PLZ und vorbefülltes Formular.
+- `ob` – Oberbürgermeister(in); Alias auf `buergermeister`, nutzt `templates/buergermeister.md`.
+- `stadtwerke` – Stadtwerke; nur manuelle Eingabe.
+- `netzbetreiber` – Verteilnetzbetreiber Strom; Suche über die PLZ und vorbefülltes Formular.
+- `ep-petition` – Petition beim Europäischen Parlament; Anleitung und Kopierfelder statt Brief.
+
+### Platzhalter
+
+- `{{ datum }}` – aktuelles Datum.
+- `{{ betreff }}` – Betreff des aktiven Empfängertyps.
+- `{{ absender.name }}`, `{{ absender.strasse }}`, `{{ absender.plz }}`, `{{ absender.ort }}` – Absenderdaten.
+- `{{ absender.buerger }}` – Selbstbezeichnung („Bürgerin“, „Bürger“ oder „Bürger:in“).
+- `{{ empfaenger.anrede }}`, `{{ empfaenger.name }}`, `{{ empfaenger.wahlkreis }}`, `{{ empfaenger.bundesland }}` – Angaben zum Empfänger.
+- `{{ empfaenger.rolle }}` – geschlechtsbezogene Rollenbezeichnung, z. B. „Landrätin“/„Landrat“.
+- `{{ empfaenger.organisation }}` und `{{ empfaenger.amt }}` – bei kommunalen Empfängern.
+- `{{ empfaenger.netzgebiet }}`, `{{ empfaenger.anteil }}` und `{{ empfaenger.quelle }}` – bei Netzbetreibern.
+
+

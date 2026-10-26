@@ -561,6 +561,13 @@ body {
   color: var(--accent);
 }
 
+.doc-content code {
+  background: #eef1f5;
+  border-radius: 4px;
+  padding: 0.05rem 0.3rem;
+  font-size: 0.85em;
+}
+
 .instruction .subheading {
   margin-bottom: 0.5rem;
 }
