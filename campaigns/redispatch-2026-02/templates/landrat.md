@@ -14,25 +14,32 @@ Betreff: {{ betreff }}
 <!-- kontaktformular:start -->
 {{ empfaenger.anrede }},
 
-als {{ absender.buerger }} aus {{ absender.ort }} wende ich mich an Sie als {{ empfaenger.rolle }} des zuständigen Kreises.
+als {{ absender.buerger }} aus {{ absender.ort }} wende ich mich an Sie als {{ empfaenger.rolle }} des zuständigen Kreises mit einer ganz konkreten Frage und der Bitte um eine persönliche Stellungnahme.
 
-Die Energiewende wird vor Ort entschieden – bei der Wärmeplanung, der Bauleitplanung, den Konzessionen und den regionalen Netzen. Der geplante Redispatch-Vorbehalt für Neuanlagen und Speicher und die damit verbundene Blockade von über 100 Gigawatt anmeldereifer Batteriespeicher betreffen deshalb auch Ihren Kreis unmittelbar.
+​Es geht um die anstehende Gesetzgebung zum sogenannten „Netzanschlusspaket“ (Drs. 21/7866, 21/8299) und die darin geplante Einführung eines entschädigungslosen „Redispatch-Vorbehalts“ für Neuanlagen und Speicher.
 
-Vorsätzlicher Bruch von europäischem Primärrecht: Der Redispatch-Vorbehalt verstößt gegen Art. 13 Abs. 7 der Verordnung (EU) 2019/943 (Elektrizitätsbinnenmarktverordnung). Dass Verbandsvertreter der Netzbetreiber offen mit Klagen rechnen und sich selbst als „Team Bundesregierung" beschreiben, offenbart eine unverantwortliche Missachtung geltenden Rechts. Auch Ihr Kreis ist an Recht und Gesetz gebunden und muss die Folgen eines Vertragsverletzungsverfahrens mit seinen Bürgerinnen und Bürgern tragen.
+​In der öffentlichen Anhörung des Bundestagsausschusses für Klimaschutz und Energie am 07.10.2026 haben führende Sachverständige (u. a. die Stiftung Umweltenergierecht) unmissverständlich klargestellt, dass dieser Vorbehalt frontal gegen europäisches Primärrecht verstößt (Art. 13 Abs. 7 VO (EU) 2019/943). Dennoch hat der Vertreter des Netzbetreiber-Verbandes VKU vor laufender Kamera eingeräumt, dass man „im Team Bundesregierung“ spiele und Klagen vor dem Europäischen Gerichtshof einfach billigend in Kauf nehme.
 
-Irreführende Kostenbegründung beim Redispatch: Die Abrechnungsdaten der Bundesnetzagentur zeigen, dass nur rund 400 Millionen Euro der Redispatchkosten auf abgeregelte Wind- und Solaranlagen entfallen. Über 2,6 Milliarden Euro fließen Jahr für Jahr direkt in den fossilen Redispatch – also die künstliche Befeuerung von Gaskraftwerken. Dieses Gesetz schützt veraltete Monopolrenditen, statt die Gesamtsystemkosten und damit auch die Netzentgelte im Kreis zu senken.
 
-Blockade von über 100 Gigawatt Großspeichern: Durch pauschale Baukostenzuschüsse und restriktive Netzanschlussbedingungen werden derzeit über 100 GW anmeldereife Batteriespeicher blockiert. Laut Fraunhofer ISE könnten bereits 20 GW zusätzlicher Speicher die Netzkosten um 3 bis 3,9 Milliarden Euro pro Jahr reduzieren. Wer Speicher aussperrt, erzwingt teuren Netzausbau und treibt die Netzentgelte für private Haushalte und den Mittelstand weiter nach oben.
+​Ob im Bund oder im Land, in der Regierung oder in der Opposition: Als Abgeordnete tragen Sie Verantwortung für die Einhaltung von Recht und Gesetz, für unsere Region und für die Geldbörsen der Verbraucher.
 
-Ich fordere Sie daher auf:
+​Daher frage ich Sie ganz konkret:
 
-Setzen Sie sich gegenüber der Landes- und Bundespolitik dafür ein, dass der europarechtswidrige Redispatch-Vorbehalt vollständig gestrichen wird – und dass Ihr Kreis im Bundesrat und in der Abstimmung mit den anderen Ländern klare Kante gegen den fossilen Redispatch zeigt.
+​Stimmverhalten & Position:
 
-Sorgen Sie dafür, dass Ihr Kreis bei der Bauleitplanung, der Wärmeplanung und den Konzessionen einen unbürokratischen, priorisierten Netzanschluss für Groß- und Heimspeicher unterstützt, statt ihn durch planerische Vorgaben weiter zu erschweren.
+Werden Sie sich aktiv gegen dieses Gesetz und den darin enthaltenen, europarechtswidrigen Redispatch-Vorbehalt einsetzen bzw. im Plenum dagegen stimmen, um Schaden von unserer Wirtschaft und den Bürgern abzuwenden? Falls Sie nicht im Bundestag sitzen: Wie setzen Sie sich in Ihrer Fraktion, im Landtag oder über den Bundesrat dafür ein, dass dieser schädliche Kurs gestoppt wird?
 
-Nutzen Sie die kreiseigenen Beteiligungen und die Zusammenarbeit mit den Städten und Gemeinden, um Speicher, Netzdienlichkeit und erneuerbare Wärme vor Ort tatsächlich voranzubringen.
+Die Speicher-Blockade:
 
-Ich bitte Sie um eine persönliche Stellungnahme zu Ihrem Einsatz gegen den Redispatch-Vorbehalt und dazu, wie Ihr Kreis die drohende Verurteilung Deutschlands vor dem Europäischen Gerichtshof mit den Interessen der Bürgerinnen und Bürger vor Ort in Einklang bringen will.
+In Deutschland werden aktuell über 100 GW anmeldereife, privat finanzierte Batteriespeicher durch bürokratische Hürden und absurde Netzentgelte blockiert. Gleichzeitig zahlen wir Bürger jedes Jahr über 2,6 Milliarden Euro an Netzentgelten für das künstliche Hochfahren fossiler Kraftwerke (Redispatch), weil saubere Energie abgeregelt wird. Wie rechtfertigen Sie es, dass wertvolle Speicher ausgesperrt werden, während die Allgemeinheit diese fossile Kostenfalle finanzieren muss?
+​
+Demokratischer Anspruch:
+
+Werden Sie zu diesen Fragen persönlich Stellung beziehen, oder weichen Sie – wie es in manchen Abgeordnetenbüros leider üblich geworden ist – auf unpersönliche Copy-Paste-Mails oder Zuständigkeitsverweise aus?
+
+​Die Bürgerinnen und Bürger in Ihrer Region erwarten hier kein unverbindliches Vertrösten auf Fraktionsberatungen, sondern ein klares Votum für Rechtssicherheit, für die Energiewende vor Ort und gegen vorsätzlichen Europarechtsbruch.
+
+​Ich bitte Sie um eine zeitnahe, persönliche Rückmeldung.
 
 Mit freundlichen Grüßen
 {{ absender.name }}
