@@ -1,4 +1,6 @@
 id: redispatch-2026-02
+# Sortierposition in der Auswahl (kleiner Wert zuerst).
+sort: 1
 title: "Update 26.10.2026 - Redispatch-Vorbehalt"
 subject: "Anstehende Abstimmung zum Netzanschlusspaket (Drs. 21/7866, 21/8299) – Warnung vor vorsätzlichem Europarechtsbruch und fossiler Kostenfalle"
 theme: Energiewende

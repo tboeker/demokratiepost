@@ -327,7 +327,7 @@ nur für `data:netz:mastr` nötig; die daraus erzeugten CSVs sind committet.
 ```
 campaigns/
   stromnetz-2026/
-    campaign.yaml        # id, titel, betreff, betreff je empfängertyp, thema, beschreibung, empfängertypen, aktiv, laufzeit
+    campaign.yaml        # id, sortierposition, titel, betreff, betreff je empfängertyp, thema, beschreibung, empfängertypen, aktiv, laufzeit
     templates/
       mdb.md             # Musterschreiben für Bundestagsabgeordnete (Typ "mdb")
       mdb-regierung.md   # Bundestagsabgeordnete der Regierungsfraktionen (Typ "mdb-regierung", M8)
@@ -359,6 +359,16 @@ Der Schlüssel entspricht `templates/<typ>.md` (Alias `ob` → `buergermeister`)
 bleiben aber im Repo und können jederzeit wieder aktiviert werden. Ohne Angabe ist eine
 Kampagne aktiv. Sind alle Kampagnen deaktiviert, zeigt Schritt 1 einen Hinweis statt der
 Auswahl; die kampagnenabhängigen Schritte werden ausgeblendet.
+
+`sort` legt die Reihenfolge in der Kampagnenauswahl fest (Ganzzahl, kleiner Wert zuerst).
+Fehlt der Wert, steht die Kampagne hinter allen sortierten und wird dort nach Titel
+einsortiert; so bleibt eine neue Kampagne sichtbar, ohne dass sofort eine Position gepflegt
+werden muss:
+
+```yaml
+sort: 1   # zuerst
+sort: 2   # danach
+```
 
 Für **Anleitungstypen** (M7, z. B. `ep-petition`) kommt statt des Briefes eine Anleitung
 hinzu: `instructions/<typ>.md` mit YAML-Frontmatter (`title`, `url`, `linkLabel`,

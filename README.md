@@ -109,7 +109,7 @@ Kampagnen liegen als Dateien im Repo und werden zur Build-Zeit eingelesen:
 
 ```
 campaigns/<kampagne>/
-├── campaign.yaml             # id, title, subject, subjects, theme, description, recipients, active
+├── campaign.yaml             # id, sort, title, subject, subjects, theme, description, recipients, active
 ├── templates/<typ>.md        # Markdown-Template je Empfängertyp (z. B. mdb.md)
 └── instructions/<typ>.md     # Anleitung + Formularfelder für Webformular-Typen (M7)
 ```
@@ -128,6 +128,9 @@ subjects:
 
 Mit `active: false` lässt sich eine Kampagne deaktivieren: Die Dateien bleiben im Repo,
 sie erscheint aber nicht mehr in der Auswahl. Ohne Angabe ist eine Kampagne aktiv.
+
+`sort` bestimmt die Reihenfolge in der Auswahl (Ganzzahl, kleiner Wert zuerst). Ohne Angabe
+steht die Kampagne hinter den sortierten und wird dort nach Titel einsortiert.
 
 Der Bereich zwischen `<!-- kontaktformular:start -->` und `<!-- kontaktformular:ende -->`
 wird als Nachricht im Kontaktformular (bzw. als E-Mail-Text) verwendet – also nur der reine

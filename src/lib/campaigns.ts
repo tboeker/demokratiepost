@@ -110,11 +110,36 @@ export function loadCampaigns(): Campaign[] {
       instructions[recipientTypeFromPath(instructionPath)] = parseInstruction(content);
     }
 
-    campaigns.push({ ...meta, active: true, dir, templates, instructions });
+    campaigns.push({
+      ...meta,
+      active: true,
+      sort: sortValue(meta.sort),
+      dir,
+      templates,
+      instructions,
+    });
   }
 
-  campaigns.sort((a, b) => a.title.localeCompare(b.title, 'de'));
+  campaigns.sort(compareCampaigns);
   return campaigns;
+}
+
+/**
+ * Liest `sort` als Ganzzahl. Fehlende oder ungültige Werte liefern `undefined`,
+ * damit die Kampagne hinter die sortierten rutscht.
+ */
+function sortValue(value: unknown): number | undefined {
+  return typeof value === 'number' && Number.isFinite(value)
+    ? Math.trunc(value)
+    : undefined;
+}
+
+/** Sortiert nach `sort` (aufsteigend), ohne Angabe zuletzt, dann nach Titel. */
+function compareCampaigns(a: Campaign, b: Campaign): number {
+  const sortA = a.sort ?? Number.MAX_SAFE_INTEGER;
+  const sortB = b.sort ?? Number.MAX_SAFE_INTEGER;
+  if (sortA !== sortB) return sortA - sortB;
+  return a.title.localeCompare(b.title, 'de');
 }
 
 /**

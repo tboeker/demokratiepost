@@ -18,6 +18,12 @@ export interface CampaignMeta {
   /** Unterstützte Empfängertypen, z. B. ["mdb"]. */
   recipients: string[];
   /**
+   * Ganzzahlige Sortierposition in der Kampagnenauswahl (kleiner Wert zuerst).
+   * Fehlt der Wert, steht die Kampagne hinter allen sortierten und wird
+   * innerhalb dieser Gruppe nach Titel einsortiert.
+   */
+  sort?: number;
+  /**
    * Kampagne in der Auswahl anzeigen (Standard: `true`). Mit `active: false`
    * bleibt die Kampagne samt Inhalten im Repo, wird aber nicht geladen.
    */
