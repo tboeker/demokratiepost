@@ -470,7 +470,13 @@ demokratiepost/
   ohne die Datei verliert der Actions-Deploy die Domain wieder.
 - Daten- und Asset-URLs relativ über `import.meta.env.BASE_URL` bauen.
 - Deploy: GitHub Actions (Build → `actions/upload-pages-artifact` → `actions/deploy-pages`).
-- Kein SPA-Fallback nötig, solange Single-Page ohne Deep-Links.
+- **Doku-Seiten mit eigenen URLs**: `docs/idee.md`, `docs/impressum.md` und
+  `docs/datenschutz.md` werden clientseitig gerendert und sind unter `/idee`,
+  `/impressum` und `/datenschutz` erreichbar (zusätzlich `/datenspeicherung`).
+  Die Navigation nutzt die History-API und ausschließlich Pfade; Hash-Links
+  (`#idee` usw.) werden nicht mehr unterstützt. Der Build erzeugt für jede Route
+  eine eigene `index.html` sowie eine `404.html`-Kopie als Fallback
+  (`routePages()` in `vite.config.ts`).
 
 ## Meilensteine
 

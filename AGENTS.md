@@ -65,6 +65,8 @@ Sandboxing-Optionen: `.devcontainer/README.md`.
 ```
 campaigns/                 Content: campaign.yaml + templates/<typ>.md
                            + instructions/<typ>.md (Anleitungstypen, M7)
+docs/                      Markdown-Seiten: idee.md, impressum.md, datenschutz.md
+                           (clientseitig unter /idee, /impressum, /datenschutz)
 scripts/                   Datenpipeline (Build-Zeit)
 public/data/               Laufzeit-Daten: mdb.json, plz/<prefix>.json,
                            landtag/<staat>.json + plz-landtag/<prefix>.json,
@@ -78,7 +80,7 @@ src/components/            PlzInput, SenderForm, RecipientTypeSelect, RecipientL
                            ManualRecipientForm, LetterPreview, CopyFields,
                            ContactFormFields, InstructionCard
 src/lib/                   campaigns, template, storage, lookup, recipientTypes,
-                           recipientRoles, sender, export, markdown
+                           recipientRoles, sender, export, markdown, routes
 src/types.ts               Mandatstraeger (MdB/Landtag), Kommune (M5),
                            Netzbetreiber (M6), Instruction (M7), ManualRecipient,
                            Recipient/RecipientCandidate, Wahlkreis, Campaign, Sender

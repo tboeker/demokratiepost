@@ -1,12 +1,14 @@
 import type { Sender } from '../types';
 import { noAutofill } from '../lib/autofill';
+import { viewHref } from '../lib/routes';
 
 interface SenderFormProps {
   sender: Sender;
   onChange: (sender: Sender) => void;
+  onShowDatenspeicherung?: () => void;
 }
 
-export function SenderForm({ sender, onChange }: SenderFormProps) {
+export function SenderForm({ sender, onChange, onShowDatenspeicherung }: SenderFormProps) {
   function update<K extends keyof Sender>(key: K, value: Sender[K]) {
     onChange({ ...sender, [key]: value });
   }
@@ -123,7 +125,27 @@ export function SenderForm({ sender, onChange }: SenderFormProps) {
       <div className="sender-actions">
         <p className="hint">
           Deine Angaben werden nur lokal in deinem Browser gespeichert und nicht übertragen.
-          Mehr dazu unter <a href="#datenspeicherung">Datenspeicherung</a>.
+          Mehr dazu unter{' '}
+          <a
+            href={viewHref('datenspeicherung')}
+            onClick={(event) => {
+              if (!onShowDatenspeicherung) return;
+              if (
+                event.button !== 0 ||
+                event.metaKey ||
+                event.ctrlKey ||
+                event.shiftKey ||
+                event.altKey
+              ) {
+                return;
+              }
+              event.preventDefault();
+              onShowDatenspeicherung();
+            }}
+          >
+            Datenspeicherung
+          </a>
+          .
         </p>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type MouseEvent } from 'react';
 import { DatenspeicherungView } from './components/DatenspeicherungView';
 import { DocView } from './components/DocView';
 import { InstructionCard } from './components/InstructionCard';
@@ -9,7 +9,6 @@ import { RecipientList } from './components/RecipientList';
 import { RecipientTypeSelect } from './components/RecipientTypeSelect';
 import { SenderForm } from './components/SenderForm';
 import { loadCampaigns } from './lib/campaigns';
-import { isDocKey, type DocKey } from './lib/docs';
 import {
   genericSalutation,
   isValidPlz,
@@ -47,6 +46,12 @@ import {
   saveSelectedRecipient,
   saveSender,
 } from './lib/storage';
+import {
+  homeHref,
+  viewFromLocation,
+  viewHref,
+  type ActiveView,
+} from './lib/routes';
 import { renderTemplate, splitTemplate } from './lib/template';
 import type {
   Kommune,
@@ -59,15 +64,6 @@ import type {
 } from './types';
 
 type SearchStatus = 'idle' | 'loading' | 'done' | 'empty' | 'error';
-
-type ActiveView = DocKey | 'datenspeicherung' | null;
-
-function getActiveViewFromHash(): ActiveView {
-  const hash = window.location.hash.replace(/^#/, '');
-  if (hash === 'datenspeicherung') return 'datenspeicherung';
-  if (isDocKey(hash)) return hash;
-  return null;
-}
 
 /** Füllt die empfaenger.*-Platzhalter aus Suchtreffern oder manuellen Daten. */
 function recipientContext(
@@ -267,14 +263,17 @@ export default function App() {
   const [manual, setManual] = useState<ManualRecipient>(
     () => loadRecipientData(activeType) ?? emptyManualRecipient,
   );
-  const [activeView, setActiveView] = useState<ActiveView>(getActiveViewFromHash);
+  const [activeView, setActiveView] = useState<ActiveView>(viewFromLocation);
 
+  // Pfadnavigation (Zurück/Vorwärts) unterstützen.
   useEffect(() => {
-    function onHashChange() {
-      setActiveView(getActiveViewFromHash());
+    function syncView() {
+      setActiveView(viewFromLocation());
     }
-    window.addEventListener('hashchange', onHashChange);
-    return () => window.removeEventListener('hashchange', onHashChange);
+    window.addEventListener('popstate', syncView);
+    return () => {
+      window.removeEventListener('popstate', syncView);
+    };
   }, []);
 
   // Absenderdaten bei jeder Änderung lokal speichern (leere Daten entfernen den Eintrag).
@@ -416,27 +415,41 @@ export default function App() {
     setRecipients([]);
   }
 
-  function goToDoc(doc: DocKey) {
-    window.location.hash = doc;
+  /** Wechselt die Seite über die History-API (echte URLs, kein Hash). */
+  function navigate(view: ActiveView) {
+    const href = view ? viewHref(view) : homeHref();
+    const current =
+      `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (href !== current) {
+      window.history.pushState(null, '', href);
+    }
+    setActiveView(view);
   }
 
-  function goToDatenspeicherung() {
-    window.location.hash = 'datenspeicherung';
+  /** Interner Link: neuer Tab, Fenster usw. bleiben normales Browserverhalten. */
+  function handleRouteLink(view: Exclude<ActiveView, null>) {
+    return (event: MouseEvent<HTMLAnchorElement>) => {
+      if (
+        event.defaultPrevented ||
+        event.button !== 0 ||
+        event.metaKey ||
+        event.ctrlKey ||
+        event.shiftKey ||
+        event.altKey
+      ) {
+        return;
+      }
+      event.preventDefault();
+      navigate(view);
+    };
   }
 
   function goHome() {
-    // Nicht `window.location.hash = ''` setzen: das Browser-Verhalten hängt dann
-    // ein leeres „#“ an die URL (https://demokratiepost.de/#). Über die History-API
-    // verschwindet das Fragment vollständig; ein neuer Eintrag sorgt dafür, dass
-    // der Zurück-Button wie bei der Hash-Navigation funktioniert.
-    if (window.location.hash) {
-      window.history.pushState(
-        null,
-        '',
-        `${window.location.pathname}${window.location.search}`,
-      );
-    }
-    setActiveView(null);
+    navigate(null);
+  }
+
+  function goToDatenspeicherung() {
+    navigate('datenspeicherung');
   }
 
   const letterContext: TemplateContext = useMemo(() => {
@@ -515,9 +528,13 @@ export default function App() {
         <h1>DemokratiePost</h1>
         <h1>Demokratiepost</h1> */}
         <p className="subtitle">In fünf Schritten zum versandfertigen Schreiben</p>
-        <button type="button" className="footer-link" onClick={() => goToDoc('idee')}>
+        <a
+          className="footer-link"
+          href={viewHref('idee')}
+          onClick={handleRouteLink('idee')}
+        >
           Beschreibung der Idee
-        </button>
+        </a>
 
       </header>
 
@@ -557,7 +574,11 @@ export default function App() {
               <TrashIcon />
             </button>
           </div>
-          <SenderForm sender={sender} onChange={setSender} />
+          <SenderForm
+            sender={sender}
+            onChange={setSender}
+            onShowDatenspeicherung={goToDatenspeicherung}
+          />
         </section>
 
         <section className="card">
@@ -765,21 +786,33 @@ export default function App() {
       <footer className="footer">
         <p className="hint">Hinweis: Der Quellcode dieser App wurde mit AI Tools erstellt.</p>
         <nav className="footer-nav">
-          <button type="button" className="footer-link" onClick={() => goToDoc('idee')}>
+          <a className="footer-link" href={viewHref('idee')} onClick={handleRouteLink('idee')}>
             Idee
-          </button>
+          </a>
           <span className="footer-sep">·</span>
-          <button type="button" className="footer-link" onClick={() => goToDoc('impressum')}>
+          <a
+            className="footer-link"
+            href={viewHref('impressum')}
+            onClick={handleRouteLink('impressum')}
+          >
             Impressum
-          </button>
+          </a>
           <span className="footer-sep">·</span>
-          <button type="button" className="footer-link" onClick={() => goToDoc('datenschutz')}>
+          <a
+            className="footer-link"
+            href={viewHref('datenschutz')}
+            onClick={handleRouteLink('datenschutz')}
+          >
             Datenschutz
-          </button>
+          </a>
           <span className="footer-sep">·</span>
-          <button type="button" className="footer-link" onClick={goToDatenspeicherung}>
+          <a
+            className="footer-link"
+            href={viewHref('datenspeicherung')}
+            onClick={handleRouteLink('datenspeicherung')}
+          >
             Datenspeicherung
-          </button>
+          </a>
         </nav>
       </footer>
     </div>
